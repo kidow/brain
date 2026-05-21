@@ -1,1 +1,60 @@
 # brain
+
+English · [한국어](README.ko.md)
+
+A personal knowledge base of everything I learn. Not a repo I fill by hand — three learning agent skills populate and keep it up to date automatically. It's a living store.
+
+Learning runs as a cycle:
+
+```
+place-me  →  teach-me  →  review-me
+ (assess)     (learn)      (review)
+   └──────────  levels.md  ──────────┘
+```
+
+## The three skills
+
+This repo is built to work with the learning skills from the [`kidow/skills`](https://github.com/kidow/skills) repository.
+
+- **place-me** — Before learning a topic, a short adaptive diagnostic gauges how much I already know. One question at a time until the level is clear, then it writes a prose level summary to `levels.md`.
+- **teach-me** — Explains one piece of knowledge at a time. It advances only when I say "next" and never re-teaches what I've already covered. Complex concepts are grounded in analogies to my native language and culture, and a visual aid is drawn when something is hard to grasp. Each piece is committed to `notes/topic_name.md`.
+- **review-me** — Quizzes me on the saved notes one item at a time using spaced repetition. With no context given, it prioritizes the weakest topics from `levels.md`. When the session ends, it updates the level in `levels.md` based on how the review went.
+
+The three skills are tied together by a shared `topic_name` key: the `notes/topic_name.md` filename and the `## topic_name` section in `levels.md` point to the same topic.
+
+## Repository layout
+
+```
+brain/
+├── notes/            # learned knowledge (written by teach-me, read by review-me)
+│   ├── topic_name.md #  - one file per topic, no date (git history tracks time)
+│   └── <domain>/     #  - notes auto-organize into domain subfolders as they grow
+├── levels.md         # per-topic level memory (Blank/Glimpsed/Grounded/Fluent)
+└── README.md
+```
+
+- `notes/` — knowledge notes, content only, no frontmatter.
+- `levels.md` — each topic's level as a four-stage label plus a prose summary.
+  - **Blank** — no prior exposure to the concept
+  - **Glimpsed** — seen it before but cannot reproduce or explain it reliably
+  - **Grounded** — explains it independently and applies it in new contexts
+  - **Fluent** — handles exceptions, nuance, and edge cases without hesitation
+- `.review/` — an ephemeral folder that exists only during a review session and is deleted when it ends (excluded from git).
+
+## Installing the skills
+
+```bash
+npx skills@latest add kidow/skills/place-me
+npx skills@latest add kidow/skills/teach-me
+npx skills@latest add kidow/skills/review-me
+```
+
+## Usage
+
+Run the learning skills from inside this repository.
+
+```
+/place-me Japanese writing system   # assess level → record in levels.md
+/teach-me Japanese writing system   # learn piece by piece → commit to notes/
+/review-me                          # review weakest topics → update levels.md
+```
