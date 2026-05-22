@@ -4,13 +4,15 @@ English · [한국어](README.ko.md)
 
 A personal knowledge base of everything I learn. Not a repo I fill by hand — three learning agent skills populate and keep it up to date automatically. It's a living store.
 
-Learning runs as a cycle:
+Learning runs as a cycle called **PTR** (Place → Teach → Review):
 
 ```
 place-me  →  teach-me  →  review-me
  (assess)     (learn)      (review)
    └──────────  levels.md  ──────────┘
 ```
+
+**PTR** is the name for this three-skill loop. Run it once per topic: assess where you stand, learn piece by piece, then review until it sticks. Repeat as the level rises.
 
 ## The three skills
 
