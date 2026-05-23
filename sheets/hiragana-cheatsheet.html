@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>히라가나 치트시트</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: system-ui, -apple-system, sans-serif;
+    background: #fff;
+    color: #1a1a1a;
+    padding: 1.5rem 2rem;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .subtitle {
+    color: #666;
+    font-size: 0.85rem;
+    margin-bottom: 1.5rem;
+  }
+
+  h2 {
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin: 1.25rem 0 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #444;
+  }
+
+  /* ── Legend ── */
+  .legend {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    font-size: 0.78rem;
+  }
+  .legend-item { display: flex; align-items: center; gap: 0.35rem; }
+  .legend-dot {
+    width: 12px; height: 12px; border-radius: 2px;
+    border: 1px solid #ccc;
+  }
+
+  /* ── Main 50-on table ── */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.4rem 0.5rem;
+  }
+
+  thead th {
+    background: #f0f0f0;
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: #555;
+    padding: 0.4rem;
+  }
+
+  .row-header {
+    background: #f5f5f5;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #555;
+    white-space: nowrap;
+    min-width: 56px;
+  }
+
+  .cell {
+    min-width: 56px;
+  }
+
+  .kana {
+    display: block;
+    font-size: 1.5rem;
+    line-height: 1.2;
+  }
+
+  .romaji {
+    display: block;
+    font-size: 0.7rem;
+    color: #e05;
+    font-weight: 600;
+    margin-top: 2px;
+  }
+
+  .empty { background: #fafafa; }
+
+  /* Section colors */
+  .seion   td.cell { background: #fff; }
+  .dakuten td.cell { background: #e8f4fd; }
+  .han     td.cell { background: #e8fdf0; }
+
+  tr:hover td.cell { background: #fffbcc !important; }
+
+  /* ── Youon grid ── */
+  .youon-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 0.75rem;
+    margin-top: 0.5rem;
+  }
+
+  .youon-group {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+
+  .youon-group-header {
+    background: #f3e8fd;
+    font-size: 0.72rem;
+    font-weight: 700;
+    padding: 0.3rem 0.6rem;
+    color: #555;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .youon-cells {
+    display: flex;
+  }
+
+  .youon-cell {
+    flex: 1;
+    text-align: center;
+    padding: 0.4rem 0.25rem;
+    border-right: 1px solid #eee;
+  }
+  .youon-cell:last-child { border-right: none; }
+  .youon-cell:hover { background: #fffbcc; }
+
+  .youon-cell .kana { font-size: 1.2rem; }
+
+  /* ── Special ── */
+  .special-grid {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+  }
+
+  .special-card {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0.6rem 1rem;
+    background: #fff3cd;
+    min-width: 160px;
+  }
+
+  .special-card h3 {
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: #666;
+    margin-bottom: 0.4rem;
+    text-transform: uppercase;
+  }
+
+  .special-card p {
+    font-size: 0.78rem;
+    color: #444;
+    line-height: 1.6;
+  }
+
+  .special-card .big {
+    font-size: 1.4rem;
+    display: inline-block;
+    margin-right: 0.25rem;
+  }
+
+  /* ── Particle exceptions ── */
+  .particle-table {
+    width: auto;
+    margin-top: 0.5rem;
+  }
+  .particle-table th {
+    background: #f5f5f5;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 0.3rem 0.75rem;
+  }
+  .particle-table td {
+    font-size: 0.8rem;
+    padding: 0.3rem 0.75rem;
+  }
+  .particle-table .kana-sm {
+    font-size: 1.1rem;
+  }
+
+  /* ── Print ── */
+  @media print {
+    body { padding: 0.5cm; font-size: 11px; }
+    h2 { margin-top: 0.75rem; }
+    .youon-grid { grid-template-columns: repeat(4, 1fr); }
+    .special-grid { gap: 0.5rem; }
+  }
+
+  @media (max-width: 600px) {
+    body { padding: 1rem; }
+    .youon-grid { grid-template-columns: 1fr 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<h1>히라가나 치트시트</h1>
+<p class="subtitle">일본어 예문 읽기 연습용 — Hepburn 로마자 표기</p>
+
+<div class="legend">
+  <div class="legend-item"><div class="legend-dot" style="background:#fff"></div> 청음 (기본)</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#e8f4fd"></div> 탁음 (゛)</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#e8fdf0"></div> 반탁음 (゜)</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#f3e8fd"></div> 요음 (拗音)</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#fff3cd"></div> 특수</div>
+</div>
+
+<!-- ══════════ 50-on table ══════════ -->
+<h2>오십음도 (청음 · 탁음 · 반탁음)</h2>
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>a</th>
+      <th>i</th>
+      <th>u</th>
+      <th>e</th>
+      <th>o</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- 청음 -->
+    <tr class="seion">
+      <th class="row-header" scope="row">あ행</th>
+      <td class="cell"><span class="kana">あ</span><span class="romaji">a</span></td>
+      <td class="cell"><span class="kana">い</span><span class="romaji">i</span></td>
+      <td class="cell"><span class="kana">う</span><span class="romaji">u</span></td>
+      <td class="cell"><span class="kana">え</span><span class="romaji">e</span></td>
+      <td class="cell"><span class="kana">お</span><span class="romaji">o</span></td>
+    </tr>
+    <tr class="seion">
+      <th class="row-header" scope="row">か행 k</th>
+      <td class="cell"><span class="kana">か</span><span class="romaji">ka</span></td>
+      <td class="cell"><span class="kana">き</span><span class="romaji">ki</span></td>
+      <td class="cell"><span class="kana">く</span><span class="romaji">ku</span></td>
+      <td class="cell"><span class="kana">け</span><span class="romaji">ke</span></td>
+      <td class="cell"><span class="kana">こ</span><span class="romaji">ko</span></td>
+    </tr>
+    <tr class="seion">
+      <th class="row-header" scope="row">さ행 s</th>
+      <td class="cell"><span class="kana">さ</span><span class="romaji">sa</span></td>
+      <td class="cell"><span class="kana">し</span><span class="romaji">shi</span></td>
+      <td class="cell"><span class="kana">す</span><span class="romaji">su</span></td>
+      <td class="cell"><span class="kana">せ</span><span class="romaji">se</span></td>
+      <td class="cell"><span class="kana">そ</span><span class="romaji">so</span></td>
+    </tr>
+    <tr class="seion">
+      <th class="row-header" scope="row">た행 t</th>
+      <td class="cell"><span class="kana">た</span><span class="romaji">ta</span></td>
+      <td class="cell"><span class="kana">ち</span><span class="romaji">chi</span></td>
+      <td class="cell"><span class="kana">つ</span><span class="romaji">tsu</span></td>
+      <td class="cell"><span class="kana">て</span><span class="romaji">te</span></td>
+      <td class="cell"><span class="kana">と</span><span class="romaji">to</span></td>
+    </tr>
+    <tr class="seion">
+      <th class="row-header" scope="row">な행 n</th>
+      <td class="cell"><span class="kana">な</span><span class="romaji">na</span></td>
+      <td class="cell"><span class="kana">に</span><span class="romaji">ni</span></td>
+      <td class="cell"><span class="kana">ぬ</span><span class="romaji">nu</span></td>
+      <td class="cell"><span class="kana">ね</span><span class="romaji">ne</span></td>
+      <td class="cell"><span class="kana">の</span><span class="romaji">no</span></td>
+    </tr>
+    <tr class="seion">
+      <th class="row-header" scope="row">は행 h</th>
+      <td class="cell"><span class="kana">は</span><span class="romaji">ha</span></td>
+      <td class="cell"><span class="kana">ひ</span><span class="romaji">hi</span></td>
+      <td class="cell"><span class="kana">ふ</span><span class="romaji">fu</span></td>
+      <td class="cell"><span class="kana">へ</span><span class="romaji">he</span></td>
+      <td class="cell"><span class="kana">ほ</span><span class="romaji">ho</span></td>
+    </tr>
+    <tr class="seion">
+      <th class="row-header" scope="row">ま행 m</th>
+      <td class="cell"><span class="kana">ま</span><span class="romaji">ma</span></td>
+      <td class="cell"><span class="kana">み</span><span class="romaji">mi</span></td>
+      <td class="cell"><span class="kana">む</span><span class="romaji">mu</span></td>
+      <td class="cell"><span class="kana">め</span><span class="romaji">me</span></td>
+      <td class="cell"><span class="kana">も</span><span class="romaji">mo</span></td>
+    </tr>
+    <tr class="seion">
+      <th class="row-header" scope="row">や행 y</th>
+      <td class="cell"><span class="kana">や</span><span class="romaji">ya</span></td>
+      <td class="empty"></td>
+      <td class="cell"><span class="kana">ゆ</span><span class="romaji">yu</span></td>
+      <td class="empty"></td>
+      <td class="cell"><span class="kana">よ</span><span class="romaji">yo</span></td>
+    </tr>
+    <tr class="seion">
+      <th class="row-header" scope="row">ら행 r</th>
+      <td class="cell"><span class="kana">ら</span><span class="romaji">ra</span></td>
+      <td class="cell"><span class="kana">り</span><span class="romaji">ri</span></td>
+      <td class="cell"><span class="kana">る</span><span class="romaji">ru</span></td>
+      <td class="cell"><span class="kana">れ</span><span class="romaji">re</span></td>
+      <td class="cell"><span class="kana">ろ</span><span class="romaji">ro</span></td>
+    </tr>
+    <tr class="seion">
+      <th class="row-header" scope="row">わ행 w</th>
+      <td class="cell"><span class="kana">わ</span><span class="romaji">wa</span></td>
+      <td class="empty"></td>
+      <td class="empty"></td>
+      <td class="empty"></td>
+      <td class="cell"><span class="kana">を</span><span class="romaji">wo·o</span></td>
+    </tr>
+    <tr class="seion">
+      <th class="row-header" scope="row">독립</th>
+      <td class="cell"><span class="kana">ん</span><span class="romaji">n</span></td>
+      <td class="empty" colspan="4"></td>
+    </tr>
+    <!-- 탁음 -->
+    <tr class="dakuten">
+      <th class="row-header" scope="row">が행 g</th>
+      <td class="cell"><span class="kana">が</span><span class="romaji">ga</span></td>
+      <td class="cell"><span class="kana">ぎ</span><span class="romaji">gi</span></td>
+      <td class="cell"><span class="kana">ぐ</span><span class="romaji">gu</span></td>
+      <td class="cell"><span class="kana">げ</span><span class="romaji">ge</span></td>
+      <td class="cell"><span class="kana">ご</span><span class="romaji">go</span></td>
+    </tr>
+    <tr class="dakuten">
+      <th class="row-header" scope="row">ざ행 z</th>
+      <td class="cell"><span class="kana">ざ</span><span class="romaji">za</span></td>
+      <td class="cell"><span class="kana">じ</span><span class="romaji">ji</span></td>
+      <td class="cell"><span class="kana">ず</span><span class="romaji">zu</span></td>
+      <td class="cell"><span class="kana">ぜ</span><span class="romaji">ze</span></td>
+      <td class="cell"><span class="kana">ぞ</span><span class="romaji">zo</span></td>
+    </tr>
+    <tr class="dakuten">
+      <th class="row-header" scope="row">だ행 d</th>
+      <td class="cell"><span class="kana">だ</span><span class="romaji">da</span></td>
+      <td class="cell"><span class="kana">ぢ</span><span class="romaji">ji*</span></td>
+      <td class="cell"><span class="kana">づ</span><span class="romaji">zu*</span></td>
+      <td class="cell"><span class="kana">で</span><span class="romaji">de</span></td>
+      <td class="cell"><span class="kana">ど</span><span class="romaji">do</span></td>
+    </tr>
+    <tr class="dakuten">
+      <th class="row-header" scope="row">ば행 b</th>
+      <td class="cell"><span class="kana">ば</span><span class="romaji">ba</span></td>
+      <td class="cell"><span class="kana">び</span><span class="romaji">bi</span></td>
+      <td class="cell"><span class="kana">ぶ</span><span class="romaji">bu</span></td>
+      <td class="cell"><span class="kana">べ</span><span class="romaji">be</span></td>
+      <td class="cell"><span class="kana">ぼ</span><span class="romaji">bo</span></td>
+    </tr>
+    <!-- 반탁음 -->
+    <tr class="han">
+      <th class="row-header" scope="row">ぱ행 p</th>
+      <td class="cell"><span class="kana">ぱ</span><span class="romaji">pa</span></td>
+      <td class="cell"><span class="kana">ぴ</span><span class="romaji">pi</span></td>
+      <td class="cell"><span class="kana">ぷ</span><span class="romaji">pu</span></td>
+      <td class="cell"><span class="kana">ぺ</span><span class="romaji">pe</span></td>
+      <td class="cell"><span class="kana">ぽ</span><span class="romaji">po</span></td>
+    </tr>
+  </tbody>
+</table>
+<p style="font-size:0.72rem;color:#888;margin-top:0.35rem;">* ぢ=じ(ji), づ=ず(zu) — 발음 동일. 현대에는 じ·ず가 표준.</p>
+
+<!-- ══════════ 요음 ══════════ -->
+<h2>요음 (拗音) — い단 + 작은 ゃゅょ = 1박</h2>
+<div class="youon-grid">
+
+  <div class="youon-group">
+    <div class="youon-group-header">き (ki) + ゃゅょ</div>
+    <div class="youon-cells">
+      <div class="youon-cell"><span class="kana">きゃ</span><span class="romaji">kya</span></div>
+      <div class="youon-cell"><span class="kana">きゅ</span><span class="romaji">kyu</span></div>
+      <div class="youon-cell"><span class="kana">きょ</span><span class="romaji">kyo</span></div>
+    </div>
+  </div>
+
+  <div class="youon-group">
+    <div class="youon-group-header">し (shi) + ゃゅょ</div>
+    <div class="youon-cells">
+      <div class="youon-cell"><span class="kana">しゃ</span><span class="romaji">sha</span></div>
+      <div class="youon-cell"><span class="kana">しゅ</span><span class="romaji">shu</span></div>
+      <div class="youon-cell"><span class="kana">しょ</span><span class="romaji">sho</span></div>
+    </div>
+  </div>
+
+  <div class="youon-group">
+    <div class="youon-group-header">ち (chi) + ゃゅょ</div>
+    <div class="youon-cells">
+      <div class="youon-cell"><span class="kana">ちゃ</span><span class="romaji">cha</span></div>
+      <div class="youon-cell"><span class="kana">ちゅ</span><span class="romaji">chu</span></div>
+      <div class="youon-cell"><span class="kana">ちょ</span><span class="romaji">cho</span></div>
+    </div>
+  </div>
+
+  <div class="youon-group">
+    <div class="youon-group-header">に (ni) + ゃゅょ</div>
+    <div class="youon-cells">
+      <div class="youon-cell"><span class="kana">にゃ</span><span class="romaji">nya</span></div>
+      <div class="youon-cell"><span class="kana">にゅ</span><span class="romaji">nyu</span></div>
+      <div class="youon-cell"><span class="kana">にょ</span><span class="romaji">nyo</span></div>
+    </div>
+  </div>
+
+  <div class="youon-group">
+    <div class="youon-group-header">ひ (hi) + ゃゅょ</div>
+    <div class="youon-cells">
+      <div class="youon-cell"><span class="kana">ひゃ</span><span class="romaji">hya</span></div>
+      <div class="youon-cell"><span class="kana">ひゅ</span><span class="romaji">hyu</span></div>
+      <div class="youon-cell"><span class="kana">ひょ</span><span class="romaji">hyo</span></div>
+    </div>
+  </div>
+
+  <div class="youon-group">
+    <div class="youon-group-header">み (mi) + ゃゅょ</div>
+    <div class="youon-cells">
+      <div class="youon-cell"><span class="kana">みゃ</span><span class="romaji">mya</span></div>
+      <div class="youon-cell"><span class="kana">みゅ</span><span class="romaji">myu</span></div>
+      <div class="youon-cell"><span class="kana">みょ</span><span class="romaji">myo</span></div>
+    </div>
+  </div>
+
+  <div class="youon-group">
+    <div class="youon-group-header">り (ri) + ゃゅょ</div>
+    <div class="youon-cells">
+      <div class="youon-cell"><span class="kana">りゃ</span><span class="romaji">rya</span></div>
+      <div class="youon-cell"><span class="kana">りゅ</span><span class="romaji">ryu</span></div>
+      <div class="youon-cell"><span class="kana">りょ</span><span class="romaji">ryo</span></div>
+    </div>
+  </div>
+
+  <div class="youon-group">
+    <div class="youon-group-header">ぎ (gi) + ゃゅょ</div>
+    <div class="youon-cells">
+      <div class="youon-cell"><span class="kana">ぎゃ</span><span class="romaji">gya</span></div>
+      <div class="youon-cell"><span class="kana">ぎゅ</span><span class="romaji">gyu</span></div>
+      <div class="youon-cell"><span class="kana">ぎょ</span><span class="romaji">gyo</span></div>
+    </div>
+  </div>
+
+  <div class="youon-group">
+    <div class="youon-group-header">じ (ji) + ゃゅょ</div>
+    <div class="youon-cells">
+      <div class="youon-cell"><span class="kana">じゃ</span><span class="romaji">ja</span></div>
+      <div class="youon-cell"><span class="kana">じゅ</span><span class="romaji">ju</span></div>
+      <div class="youon-cell"><span class="kana">じょ</span><span class="romaji">jo</span></div>
+    </div>
+  </div>
+
+  <div class="youon-group">
+    <div class="youon-group-header">び (bi) + ゃゅょ</div>
+    <div class="youon-cells">
+      <div class="youon-cell"><span class="kana">びゃ</span><span class="romaji">bya</span></div>
+      <div class="youon-cell"><span class="kana">びゅ</span><span class="romaji">byu</span></div>
+      <div class="youon-cell"><span class="kana">びょ</span><span class="romaji">byo</span></div>
+    </div>
+  </div>
+
+  <div class="youon-group">
+    <div class="youon-group-header">ぴ (pi) + ゃゅょ</div>
+    <div class="youon-cells">
+      <div class="youon-cell"><span class="kana">ぴゃ</span><span class="romaji">pya</span></div>
+      <div class="youon-cell"><span class="kana">ぴゅ</span><span class="romaji">pyu</span></div>
+      <div class="youon-cell"><span class="kana">ぴょ</span><span class="romaji">pyo</span></div>
+    </div>
+  </div>
+
+</div>
+
+<!-- ══════════ 특수 ══════════ -->
+<h2>특수 규칙</h2>
+<div class="special-grid">
+
+  <div class="special-card">
+    <h3>촉음 っ — 자음 1박 연장</h3>
+    <p>
+      작은 <strong>っ</strong> → 소리 없이 막히는 1박.<br>
+      きて (ki-te) = 와줘<br>
+      き<strong>っ</strong>て (kit-te) = 우표<br>
+      い<strong>っ</strong>た (it-ta) = 갔다
+    </p>
+  </div>
+
+  <div class="special-card">
+    <h3>장음 — 히라가나 모음 연장</h3>
+    <p>
+      あ단 + あ → おかあさん (o·kā·san)<br>
+      い단 + い → おにいさん (o·nī·san)<br>
+      う단 + う → くうき (kū·ki)<br>
+      え단 + <strong>い</strong> → せんせい (sen·sē)<br>
+      お단 + <strong>う</strong> → とうきょう (Tō·kyō)
+    </p>
+  </div>
+
+  <div class="special-card">
+    <h3>조사 발음 예외</h3>
+    <table class="particle-table">
+      <thead>
+        <tr><th>표기</th><th>용도</th><th>발음</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><span class="kana-sm">は</span></td><td>주제 조사 은/는</td><td><strong>wa</strong></td></tr>
+        <tr><td><span class="kana-sm">へ</span></td><td>방향 조사 ~로</td><td><strong>e</strong></td></tr>
+        <tr><td><span class="kana-sm">を</span></td><td>목적 조사 을/를</td><td><strong>o</strong></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="special-card">
+    <h3>발음 주의 글자</h3>
+    <p>
+      <strong>し</strong> = shi (si ✗)<br>
+      <strong>ち</strong> = chi (ti ✗)<br>
+      <strong>つ</strong> = tsu (쯔~츠 사이)<br>
+      <strong>ふ</strong> = fu (후, 입술 느슨하게)<br>
+      <strong>う</strong> = u (입술 덜 내밈)<br>
+      <strong>ら행</strong> = r (혀끝 한 번 튕기기)
+    </p>
+  </div>
+
+</div>
+
+</body>
+</html>
