@@ -60,3 +60,23 @@ npx skills@latest add kidow/skills/review-me
 /teach-me 일본어 문자의 특징     # 한 조각씩 학습 → notes/ 커밋
 /review-me                       # 약한 주제부터 복습 → levels.md 갱신
 ```
+
+## 나만의 brain 만들기
+
+아래 프롬프트를 복사해 AI 어시스턴트(Claude Code 권장)에게 붙여넣으세요:
+
+```
+PTR 학습 시스템(Place → Teach → Review)으로 개인 지식 베이스를 세팅해줘.
+
+1. 새 git 저장소를 만들고 Claude Code로 열어줘.
+2. 학습 스킬 세 개를 설치해줘:
+   npx skills@latest add kidow/skills/place-me
+   npx skills@latest add kidow/skills/teach-me
+   npx skills@latest add kidow/skills/review-me
+3. 다음 파일 구조를 만들어줘:
+   - notes/      (빈 폴더 — git이 추적하도록 .gitkeep 파일 추가)
+   - levels.md   (빈 파일)
+   - README.md   (https://github.com/kidow/brain 에서 복사)
+
+완료되면 /place-me <주제> 로 첫 번째 주제 수준 진단을 시작해줘.
+```

@@ -60,3 +60,23 @@ Run the learning skills from inside this repository.
 /teach-me Japanese writing system   # learn piece by piece → commit to notes/
 /review-me                          # review weakest topics → update levels.md
 ```
+
+## Start your own brain
+
+Copy the prompt below and paste it to your AI assistant (Claude Code recommended):
+
+```
+Set up a personal knowledge base using the PTR learning system (Place → Teach → Review).
+
+1. Create a new git repository and open it in Claude Code.
+2. Install the three learning skills:
+   npx skills@latest add kidow/skills/place-me
+   npx skills@latest add kidow/skills/teach-me
+   npx skills@latest add kidow/skills/review-me
+3. Create this file structure:
+   - notes/      (empty folder — add a .gitkeep file so git tracks it)
+   - levels.md   (empty file)
+   - README.md   (copy from https://github.com/kidow/brain)
+
+Once done, start with /place-me <topic> to assess your first topic.
+```
