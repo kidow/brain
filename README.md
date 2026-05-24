@@ -19,7 +19,7 @@ place-me  →  teach-me  →  review-me
 This repo is built to work with the learning skills from the [`kidow/skills`](https://github.com/kidow/skills) repository.
 
 - **place-me** — Before learning a topic, a short adaptive diagnostic gauges how much I already know. One question at a time until the level is clear, then it writes a prose level summary to `levels.md`.
-- **teach-me** — Explains one piece of knowledge at a time. It advances only when I say "next" and never re-teaches what I've already covered. Complex concepts are grounded in analogies to my native language and culture, and a visual aid is drawn when something is hard to grasp. Each piece is committed to `notes/topic_name.md`.
+- **teach-me** — Explains one piece of knowledge at a time, always progressing from foundational to advanced. It advances only when I say "next" and never re-teaches what I've already covered. Complex concepts are grounded in analogies to my native language and culture. A visual aid is drawn when something is hard to grasp, and an audio aid plays pronunciation when learning a foreign language. Each piece is committed to `notes/topic_name.md`.
 - **review-me** — Quizzes me on the saved notes one item at a time using spaced repetition. With no context given, it prioritizes the weakest topics from `levels.md`. When the session ends, it updates the level in `levels.md` based on how the review went.
 
 The three skills are tied together by a shared `topic_name` key: the `notes/topic_name.md` filename and the `## topic_name` section in `levels.md` point to the same topic.
