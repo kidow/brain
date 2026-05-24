@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>러시아어 발음 오디오</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0b1020;
+      --panel: #121a33;
+      --panel-2: #182444;
+      --text: #f3f6ff;
+      --muted: #a8b3d6;
+      --accent: #7dd3fc;
+      --accent-2: #a78bfa;
+      --border: rgba(255,255,255,.08);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background:
+        radial-gradient(circle at top, rgba(125, 211, 252, .18), transparent 32%),
+        radial-gradient(circle at bottom right, rgba(167, 139, 250, .18), transparent 28%),
+        var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    .wrap {
+      width: min(920px, calc(100vw - 32px));
+      padding: 24px;
+      display: grid;
+      gap: 16px;
+    }
+    .title {
+      text-align: center;
+      font-size: 14px;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 16px;
+    }
+    .card {
+      background: linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02));
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 28px 22px;
+      text-align: center;
+      box-shadow: 0 24px 80px rgba(0,0,0,.35);
+      backdrop-filter: blur(10px);
+    }
+    .word {
+      font-size: clamp(64px, 14vw, 112px);
+      line-height: 1;
+      font-weight: 800;
+      letter-spacing: .04em;
+      margin: 6px 0 14px;
+    }
+    .roman {
+      font-size: 20px;
+      color: var(--accent);
+      margin-bottom: 8px;
+    }
+    .meaning {
+      font-size: 18px;
+      color: var(--muted);
+      margin-bottom: 22px;
+    }
+    button {
+      appearance: none;
+      border: 0;
+      border-radius: 999px;
+      padding: 14px 18px;
+      font-size: 16px;
+      font-weight: 700;
+      color: #06111f;
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      cursor: pointer;
+      min-width: 150px;
+    }
+    button:active { transform: translateY(1px); }
+    .hint {
+      text-align: center;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .status {
+      min-height: 1.25em;
+      text-align: center;
+      color: #c7d2fe;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="title">Russian pronunciation aid</div>
+    <section class="grid">
+      <article class="card">
+        <div class="word">все</div>
+        <div class="roman">vse / fsʲe</div>
+        <div class="meaning">모두</div>
+        <button data-text="все" data-lang="ru">재생</button>
+      </article>
+      <article class="card">
+        <div class="word">всё</div>
+        <div class="roman">vsyo / fsʲo</div>
+        <div class="meaning">전부, 모든 것</div>
+        <button data-text="всё" data-lang="ru">재생</button>
+      </article>
+    </section>
+    <div class="status" id="status">버튼을 누르면 음성을 재생합니다.</div>
+    <div class="hint">Google Translate TTS를 먼저 시도하고, 실패하면 브라우저 음성 합성으로 대체합니다.</div>
+    <audio id="audio" hidden></audio>
+  </main>
+
+  <script>
+    const statusEl = document.getElementById('status');
+    const audioEl = document.getElementById('audio');
+
+    function setStatus(message) {
+      statusEl.textContent = message;
+    }
+
+    function speakFallback(text, lang) {
+      if (!('speechSynthesis' in window)) {
+        setStatus('이 브라우저는 대체 음성 재생을 지원하지 않습니다.');
+        return;
+      }
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = lang;
+      utterance.rate = 0.85;
+      utterance.onend = () => setStatus('재생 완료');
+      utterance.onerror = () => setStatus('음성 합성에 실패했습니다.');
+      speechSynthesis.cancel();
+      speechSynthesis.speak(utterance);
+      setStatus('브라우저 음성 합성으로 재생 중');
+    }
+
+    async function playAudio(text, lang) {
+      const url = `https://translate.google.com/translate_tts?ie=UTF-8&q=${encodeURIComponent(text)}&tl=${encodeURIComponent(lang)}&client=tw-ob&ttsspeed=0.85`;
+      try {
+        audioEl.pause();
+        audioEl.src = url;
+        await audioEl.play();
+        setStatus(`재생 중: ${text}`);
+      } catch (error) {
+        setStatus('TTS 재생 실패, 대체 음성으로 전환합니다.');
+        speakFallback(text, lang);
+      }
+    }
+
+    document.querySelectorAll('button[data-text]').forEach((button) => {
+      button.addEventListener('click', () => {
+        playAudio(button.dataset.text, button.dataset.lang);
+      });
+    });
+  </script>
+</body>
+</html>
