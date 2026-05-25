@@ -87,3 +87,33 @@ Suno/Udio는 네거티브 프롬프트를 소리 단위로 처리. "아티스트
 electronic dance, 129 BPM, synth layers, driving energy,
 no acoustic instruments, no vocals, no jazz harmony, no reverb-heavy pads
 ```
+
+## 에너지 곡선 설계
+
+단일 프롬프트는 곡 전체에 동일한 에너지 적용. 인트로→드롭 구조를 만들려면 섹션별 에너지를 다르게 지시.
+
+**방법: 섹션 태그 + 소괄호 지시어 조합**
+
+```
+[Intro]
+(soft, minimal synth, no drums, building tension)
+
+[Verse]
+(mid-energy, kick drum enters, synth melody)
+
+[Chorus]
+(full energy, heavy bass drop, layered synths, driving beat)
+
+[Bridge]
+(stripped back, only pads and melody, anticipation)
+
+[Chorus]
+(maximum energy, distorted synth, euphoric)
+
+[Outro]
+(gradual fadeout, reverb tail)
+```
+
+소괄호 `()` 안 = 해당 섹션에만 적용되는 사운드 지시.
+
+**전역 프롬프트(Style 칸) = 전체 색깔, 섹션 지시(Lyrics 칸 소괄호) = 구간별 명암.**
