@@ -64,3 +64,26 @@ french house filter sweep, 128 BPM
 ```
 
 Suno는 실존 아티스트 이름을 쓰면 거부하거나 결과물 희석. 이름 대신 **소리의 특징으로 번역**하는 능력이 핵심.
+
+## 네거티브 프롬프팅의 정밀화
+
+`avoiding direct artist imitation`은 범용 면책 문구 — 사운드 제어력 약함.
+
+**효과 약한 방식:**
+```
+avoiding direct artist imitation, song cloning, or replication
+```
+
+**효과 강한 방식 — 원하지 않는 소리를 구체적으로 명시:**
+```
+no distorted guitar, no acoustic instruments, no jazz chords,
+no slow tempo, no ambient pads
+```
+
+Suno/Udio는 네거티브 프롬프트를 소리 단위로 처리. "아티스트 모방 금지"는 모호하지만 "no acoustic drums"는 즉각 반영.
+
+조합 예시:
+```
+electronic dance, 129 BPM, synth layers, driving energy,
+no acoustic instruments, no vocals, no jazz harmony, no reverb-heavy pads
+```
