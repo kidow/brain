@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>독일어 문자 치트시트</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: system-ui, -apple-system, sans-serif;
+    background: #fff;
+    color: #1a1a1a;
+    padding: 1.5rem 2rem;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  h1 { font-size: 1.4rem; margin-bottom: 0.25rem; }
+
+  .subtitle {
+    color: #666;
+    font-size: 0.85rem;
+    margin-bottom: 1.5rem;
+  }
+
+  h2 {
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin: 1.25rem 0 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #444;
+  }
+
+  .legend {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    font-size: 0.78rem;
+  }
+  .legend-item { display: flex; align-items: center; gap: 0.35rem; }
+  .legend-dot {
+    width: 12px; height: 12px; border-radius: 2px;
+    border: 1px solid #ccc;
+  }
+
+  table { border-collapse: collapse; width: 100%; }
+
+  th, td {
+    border: 1px solid #ddd;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.4rem 0.5rem;
+  }
+
+  thead th {
+    background: #f0f0f0;
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: #555;
+    padding: 0.4rem;
+  }
+
+  .row-header {
+    background: #f5f5f5;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #555;
+    white-space: nowrap;
+    min-width: 80px;
+    text-align: left;
+    padding-left: 0.6rem;
+  }
+
+  .cell { min-width: 72px; }
+
+  .char {
+    display: block;
+    font-size: 1.5rem;
+    line-height: 1.15;
+    font-weight: 700;
+  }
+
+  .roman {
+    display: block;
+    font-size: 0.7rem;
+    color: #e05;
+    font-weight: 600;
+    margin-top: 2px;
+  }
+
+  .note {
+    display: block;
+    font-size: 0.68rem;
+    color: #666;
+    margin-top: 2px;
+  }
+
+  .special td.cell  { background: #fff8e8; }
+  .trap    td.cell  { background: #fff0f0; }
+  .cluster td.cell  { background: #f7fbff; }
+  .diphth  td.cell  { background: #f4fff4; }
+  .pos     td.cell  { background: #f4f0ff; }
+
+  tr:hover td.cell { background: #fffbcc !important; }
+
+  td.note-cell {
+    text-align: left;
+    font-size: 0.78rem;
+    color: #444;
+    padding: 0.4rem 0.6rem;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 0.75rem;
+    margin-top: 0.5rem;
+  }
+
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0.75rem 0.9rem;
+    background: #fff;
+  }
+  .card.blue  { background: #f7fbff; }
+  .card.amber { background: #fff8e8; }
+  .card.purple{ background: #f4f0ff; }
+  .card.green { background: #f4fff4; }
+
+  .card h3 {
+    font-size: 0.74rem;
+    font-weight: 700;
+    color: #666;
+    margin-bottom: 0.45rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+
+  .card p, .card li {
+    font-size: 0.8rem;
+    color: #444;
+    line-height: 1.7;
+  }
+
+  .card ul {
+    padding-left: 1rem;
+    display: grid;
+    gap: 0.15rem;
+  }
+
+  .card code {
+    font-size: 0.8rem;
+    background: #f0f0f0;
+    padding: 0.05rem 0.25rem;
+    border-radius: 4px;
+  }
+
+  .tag {
+    display: inline-block;
+    font-size: 0.68rem;
+    font-weight: 700;
+    padding: 0.1rem 0.35rem;
+    border-radius: 3px;
+    margin-right: 2px;
+    vertical-align: middle;
+  }
+  .tag.warn  { background: #ffe0e0; color: #c00; }
+  .tag.info  { background: #e0eeff; color: #05c; }
+
+  @media print {
+    body { padding: 0.5cm; font-size: 11px; }
+    h2 { margin-top: 0.75rem; }
+    .grid { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  @media (max-width: 600px) {
+    body { padding: 1rem; }
+    .grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<h1>독일어 문자 치트시트</h1>
+<p class="subtitle">26자 라틴 알파벳 + 특수 4자 — 발음 규칙 총정리</p>
+
+<div class="legend">
+  <div class="legend-item"><div class="legend-dot" style="background:#fff8e8"></div> 특수 문자</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#fff0f0"></div> 영어와 다른 알파벳</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#f7fbff"></div> 자음 묶음</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#f4fff4"></div> 이중모음</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#f4f0ff"></div> 위치 규칙</div>
+</div>
+
+<h2>특수 문자</h2>
+<table>
+  <thead>
+    <tr><th>분류</th><th>문자</th><th>발음</th><th>대체 표기</th><th>예시</th></tr>
+  </thead>
+  <tbody>
+    <tr class="special">
+      <th class="row-header">움라우트</th>
+      <td class="cell"><span class="char">ä / Ä</span></td>
+      <td class="cell"><span class="roman">[ɛː] 에</span></td>
+      <td class="cell"><span class="note">ae</span></td>
+      <td class="note-cell">Mädchen(소녀) = "메트헨"</td>
+    </tr>
+    <tr class="special">
+      <th class="row-header">움라우트</th>
+      <td class="cell"><span class="char">ö / Ö</span></td>
+      <td class="cell"><span class="roman">[øː] 에+입술오므리기</span></td>
+      <td class="cell"><span class="note">oe</span></td>
+      <td class="note-cell">schön(아름다운) = "쇤"</td>
+    </tr>
+    <tr class="special">
+      <th class="row-header">움라우트</th>
+      <td class="cell"><span class="char">ü / Ü</span></td>
+      <td class="cell"><span class="roman">[yː] 이+입술오므리기</span></td>
+      <td class="cell"><span class="note">ue</span></td>
+      <td class="note-cell">über(~위에) = "위버"</td>
+    </tr>
+    <tr class="special">
+      <th class="row-header">에스체트</th>
+      <td class="cell"><span class="char">ß</span></td>
+      <td class="cell"><span class="roman">[s] ss와 동일</span></td>
+      <td class="cell"><span class="note">ss (스위스)</span></td>
+      <td class="note-cell">긴모음·이중모음 뒤 → ß / 짧은모음 뒤 → ss</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>영어와 다른 알파벳 읽기</h2>
+<table>
+  <thead>
+    <tr><th>글자</th><th>독일어 소리</th><th>영어 소리</th><th>예시</th></tr>
+  </thead>
+  <tbody>
+    <tr class="trap">
+      <th class="row-header">W</th>
+      <td class="cell"><span class="roman">v [v]</span></td>
+      <td class="cell"><span class="note">w</span></td>
+      <td class="note-cell">Wasser(물) = "바써", Werner = "베르너"</td>
+    </tr>
+    <tr class="trap">
+      <th class="row-header">V</th>
+      <td class="cell"><span class="roman">f [f] 기본</span></td>
+      <td class="cell"><span class="note">v</span></td>
+      <td class="note-cell">Vater(아버지) = "파터" / 이름·외래어는 [v] 예외</td>
+    </tr>
+    <tr class="trap">
+      <th class="row-header">Z</th>
+      <td class="cell"><span class="roman">ts [ts]</span></td>
+      <td class="cell"><span class="note">z</span></td>
+      <td class="note-cell">Zeit(시간) = "차이트", Mainz = "마인츠"</td>
+    </tr>
+    <tr class="trap">
+      <th class="row-header">J</th>
+      <td class="cell"><span class="roman">y [j]</span></td>
+      <td class="cell"><span class="note">j (zh)</span></td>
+      <td class="note-cell">Jahr(년) = "야어"</td>
+    </tr>
+    <tr class="trap">
+      <th class="row-header">S + 모음</th>
+      <td class="cell"><span class="roman">z [z]</span></td>
+      <td class="cell"><span class="note">s</span></td>
+      <td class="note-cell">Süle = "쥘레", Sané = "자네"</td>
+    </tr>
+    <tr class="trap">
+      <th class="row-header">QU</th>
+      <td class="cell"><span class="roman">kv [kv]</span></td>
+      <td class="cell"><span class="note">kw</span></td>
+      <td class="note-cell">Querpass = "크베어파스"</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>자음 묶음</h2>
+<table>
+  <thead>
+    <tr><th>철자</th><th>발음</th><th>조건</th><th>예시</th></tr>
+  </thead>
+  <tbody>
+    <tr class="cluster">
+      <th class="row-header">ch</th>
+      <td class="cell"><span class="roman">[x] 목 뒤</span></td>
+      <td class="cell"><span class="note">a·o·u·au 뒤</span></td>
+      <td class="note-cell">Bach, Buch, Nacht</td>
+    </tr>
+    <tr class="cluster">
+      <th class="row-header">ch</th>
+      <td class="cell"><span class="roman">[ç] 목 앞</span></td>
+      <td class="cell"><span class="note">e·i·ä·ö·ü·ei·eu 뒤</span></td>
+      <td class="note-cell">ich(나), Mädchen, Licht</td>
+    </tr>
+    <tr class="cluster">
+      <th class="row-header">chs</th>
+      <td class="cell"><span class="roman">ks [ks]</span></td>
+      <td class="cell"><span class="note">ch 규칙 무시</span></td>
+      <td class="note-cell">sechs(여섯) = "젝스", Fuchs = "푹스"</td>
+    </tr>
+    <tr class="cluster">
+      <th class="row-header">sch</th>
+      <td class="cell"><span class="roman">[ʃ] 슈/쉬</span></td>
+      <td class="cell"><span class="note">항상</span></td>
+      <td class="note-cell">Schule = "슐레", Fisch = "피쉬"</td>
+    </tr>
+    <tr class="cluster">
+      <th class="row-header">tsch</th>
+      <td class="cell"><span class="roman">[tʃ] 치/ㅊ</span></td>
+      <td class="cell"><span class="note">항상</span></td>
+      <td class="note-cell">Deutsch = "도이치"</td>
+    </tr>
+    <tr class="cluster">
+      <th class="row-header">sp (어두)</th>
+      <td class="cell"><span class="roman">[ʃp] 슈프</span></td>
+      <td class="cell"><span class="note">단어·음절 시작</span></td>
+      <td class="note-cell">Spiel = "슈필", sprechen = "슈프레헨"</td>
+    </tr>
+    <tr class="cluster">
+      <th class="row-header">st (어두)</th>
+      <td class="cell"><span class="roman">[ʃt] 슈트</span></td>
+      <td class="cell"><span class="note">단어·음절 시작</span></td>
+      <td class="note-cell">Straße = "슈트라세", Stadt = "슈타트"</td>
+    </tr>
+    <tr class="cluster">
+      <th class="row-header">ng</th>
+      <td class="cell"><span class="roman">[ŋ]</span></td>
+      <td class="cell"><span class="note">g 따로 안 냄</span></td>
+      <td class="note-cell">Tübingen = "튀빙엔"</td>
+    </tr>
+    <tr class="cluster">
+      <th class="row-header">pf</th>
+      <td class="cell"><span class="roman">[pf] p+f 둘 다</span></td>
+      <td class="cell"><span class="note">항상</span></td>
+      <td class="note-cell">Pferd(말) = "프페르트"</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>이중모음</h2>
+<table>
+  <thead>
+    <tr><th>철자</th><th>발음</th><th>예시</th></tr>
+  </thead>
+  <tbody>
+    <tr class="diphth">
+      <th class="row-header">ei</th>
+      <td class="cell"><span class="roman">아이 [aɪ]</span></td>
+      <td class="note-cell">Wein(포도주) = "바인", mein = "마인"</td>
+    </tr>
+    <tr class="diphth">
+      <th class="row-header">ie</th>
+      <td class="cell"><span class="roman">이(장) [iː]</span></td>
+      <td class="note-cell">Bier(맥주) = "비어", Liebe = "리베"</td>
+    </tr>
+    <tr class="diphth">
+      <th class="row-header">eu</th>
+      <td class="cell"><span class="roman">오이 [ɔʏ]</span></td>
+      <td class="note-cell">Deutsch = "도이치", heute = "호이테"</td>
+    </tr>
+    <tr class="diphth">
+      <th class="row-header">äu</th>
+      <td class="cell"><span class="roman">오이 [ɔʏ]</span></td>
+      <td class="note-cell">Häuser = "호이저" (Haus 복수형)</td>
+    </tr>
+    <tr class="diphth">
+      <th class="row-header">au</th>
+      <td class="cell"><span class="roman">아우 [aʊ]</span></td>
+      <td class="note-cell">Augsburg = "아우크스부르크"</td>
+    </tr>
+    <tr class="diphth">
+      <th class="row-header">ai / ay</th>
+      <td class="cell"><span class="roman">아이 [aɪ]</span></td>
+      <td class="note-cell">Bayern = "바이에른", Kai = "카이"</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>발음 핵심 규칙</h2>
+<div class="grid">
+
+  <div class="card amber">
+    <h3>장모음 vs 단모음</h3>
+    <ul>
+      <li>모음 + 자음 1개 → <strong>장모음</strong> (Weg)</li>
+      <li>모음 + 자음 2개+ → <strong>단모음</strong> (Bett)</li>
+      <li>모음 + h (묵음) → <strong>장모음</strong> (Bahn = "반")</li>
+      <li>같은 모음 2개 → <strong>장모음</strong> (See = "제")</li>
+    </ul>
+  </div>
+
+  <div class="card purple">
+    <h3>위치별 끝소리 규칙</h3>
+    <ul>
+      <li><code>-b/d/g</code> 끝 → p/t/k로 경음화 (Dortmund = "도르트문트")</li>
+      <li><code>-ig</code> 끝 → [ɪç] -히 (Leipzig = "라이프치히")</li>
+      <li><code>-er</code> 끝 → [ɐ] 약한 어/아 (Müller = "뮐러")</li>
+      <li><code>-e</code> 끝 (비강세) → [ə] 약한 으/어 (Schule = "슐레")</li>
+      <li><code>-tion</code> → "치온" (Nation = "나치온")</li>
+    </ul>
+  </div>
+
+  <div class="card blue">
+    <h3>r 발음</h3>
+    <ul>
+      <li>모음 앞: 목젖 마찰 [ʁ] — 혀 말기 금지</li>
+      <li>단어 끝 / -er: 약한 어/아 [ɐ]</li>
+      <li>연습: <code>ch</code>([x]) 내는 위치에서 약하게 흘리기</li>
+      <li>Reus = "로이스", Ribéry = "리베리"</li>
+    </ul>
+  </div>
+
+  <div class="card green">
+    <h3>강세</h3>
+    <ul>
+      <li>기본값: <strong>첫 음절</strong> (München, Dortmund)</li>
+      <li><code>be- ge- ver- er- ent-</code> 접두사 → 다음 음절으로 점프</li>
+      <li>verstehen = ver-<strong>STE</strong>-hen</li>
+      <li>지명·외래어는 원어 강세 따름 (Leverkusen)</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>v 예외 정리</h3>
+    <ul>
+      <li>기본값 <code>v = [f]</code> (Vater, Völler)</li>
+      <li>이름·외래어에서 <code>v = [v]</code> 예외</li>
+      <li>Leverkusen, Havertz, Hannover → [v]</li>
+      <li>Kevin의 v = [v] / Volland의 v = [f]</li>
+    </ul>
+  </div>
+
+  <div class="card amber">
+    <h3>묵음 h</h3>
+    <ul>
+      <li>모음 <strong>뒤</strong> h → 발음 없음, 앞 모음 장모음화</li>
+      <li>ah → "아", eh → "에", oh → "오", uh → "우"</li>
+      <li>Kahn = "칸", Lahm = "람", Uhr = "우어"</li>
+      <li>모음 <strong>앞</strong> h → 약하게 발음 (Haus = "하우스")</li>
+    </ul>
+  </div>
+
+</div>
+
+</body>
+</html>
