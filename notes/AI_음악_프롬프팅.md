@@ -46,3 +46,21 @@ electronic dance, 129 BPM, synth layers, driving energy
 - 태그 있으면 전환점 고정 → `[Chorus]` 직후 에너지·멜로디 후렴 패턴으로 전환
 
 입력란 분리: Style 칸 = 무드/장르 텍스트, Lyrics 칸 = `[Verse]/[Chorus]` 구조.
+
+## 스타일 레퍼런스 프롬프팅
+
+특정 아티스트의 사운드 스타일을 참고시키는 기법. 직접 방식과 우회 방식 두 가지.
+
+**직접 방식** (Udio에서 주로 작동):
+```
+style of Daft Punk, electronic dance, 129 BPM, driving energy
+```
+
+**우회 방식** (저작권 이슈 회피, Suno 권장):
+아티스트 이름 대신 그 특징을 묘사.
+```
+vocoded robotic vocals, vintage analog synths, four-on-the-floor kick,
+french house filter sweep, 128 BPM
+```
+
+Suno는 실존 아티스트 이름을 쓰면 거부하거나 결과물 희석. 이름 대신 **소리의 특징으로 번역**하는 능력이 핵심.
