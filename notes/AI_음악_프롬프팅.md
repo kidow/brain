@@ -172,3 +172,28 @@ Lyrics 칸 전략:
 | 섹션 태그 + 가사 | 구조·가사 고정 |
 
 **Simple Mode = 탐색용, Custom Mode = 완성용.**
+
+## 프롬프트 A/B 테스트 전략
+
+좋은 프롬프트는 한 번에 나오지 않음. **변수를 하나씩 바꾸면서** 무엇이 결과를 바꾸는지 추적.
+
+원칙: 한 번에 하나만 변경.
+```
+# 기준
+electronic dance, 129 BPM, synth layers, driving energy, minor key
+
+# 테스트 A — BPM만 변경
+electronic dance, 140 BPM, synth layers, driving energy, minor key
+
+# 테스트 B — 키만 변경
+electronic dance, 129 BPM, synth layers, driving energy, major key
+```
+
+**변수 영향력 순위:**
+1. 장르 키워드 (가장 큰 영향)
+2. BPM
+3. 키(major/minor)
+4. 악기 조합
+5. 에너지 형용사 (가장 작은 영향)
+
+마음에 드는 트랙이 나왔을 때 프롬프트를 그대로 저장. AI는 같은 프롬프트도 매번 다른 결과 → **프롬프트 + 운**의 조합.
