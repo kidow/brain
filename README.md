@@ -18,9 +18,9 @@ place-me  →  teach-me  →  review-me
 
 This repo is built to work with the learning skills from the [`kidow/skills`](https://github.com/kidow/skills) repository.
 
-- **place-me** — Before learning a topic, a short adaptive diagnostic gauges how much I already know. One question at a time until the level is clear, then it writes a prose level summary to `levels.md`.
-- **teach-me** — Explains one piece of knowledge at a time, always progressing from foundational to advanced. It advances only when I say "next" and never re-teaches what I've already covered. Complex concepts are grounded in analogies to my native language and culture. A visual aid is drawn when something is hard to grasp, and an audio aid plays pronunciation when learning a foreign language. Each piece is committed to `notes/topic_name.md`.
-- **review-me** — Quizzes me on the saved notes one item at a time using spaced repetition. With no context given, it prioritizes the weakest topics from `levels.md`. When the session ends, it updates the level in `levels.md` based on how the review went.
+- **place-me** — Before learning a topic, a short adaptive diagnostic gauges how much I already know. Reads any existing `levels.md` entry for the topic as a starting guess. One question at a time until the level is clear, then it writes a prose level summary to `levels.md` and hands off to teach-me calibrated to the result.
+- **teach-me** — Explains one piece of knowledge at a time, always progressing from foundational to advanced. Reads `levels.md` first to calibrate depth. Advances only when I say "next", never re-teaches covered pieces, and flags imprecise vocabulary for correction. Complex concepts are grounded in analogies to my native language and culture. A visual aid is drawn when something is hard to grasp, and an audio aid plays pronunciation when learning a foreign language. When all pieces are covered, suggests 2–3 related topics. Each piece is committed to `notes/topic_name.md`; notes auto-organize into domain subfolders as they grow.
+- **review-me** — Quizzes me on the saved notes one item at a time using spaced repetition (Again / Hard / Good / Easy). With no context given, it prioritizes the weakest topics from `levels.md`; offers to run place-me first if `levels.md` is missing. When the session ends, it updates the level in `levels.md` and deletes the ephemeral `.review/` folder.
 
 The three skills are tied together by a shared `topic_name` key: the `notes/topic_name.md` filename and the `## topic_name` section in `levels.md` point to the same topic.
 
