@@ -153,3 +153,22 @@ synth lead melody, four-on-the-floor kick
 4. Remaster로 품질 개선
 
 생성은 확률적 — 한 번에 완성하려 하지 말고 **선택 → 연장 → 개선** 흐름 사용.
+
+## Custom Mode vs Simple Mode
+
+**Simple Mode:** 텍스트 하나 입력 → AI가 가사·구조·스타일 전부 결정. 빠르지만 제어 불가.
+
+**Custom Mode 입력란:**
+- Style 칸: 장르·악기·무드·BPM 등 사운드 지시
+- Lyrics 칸: 실제 가사 + 섹션 태그
+- Title 칸: 곡 제목 (품질에 미묘하게 영향)
+
+Lyrics 칸 전략:
+
+| 입력 | 결과 |
+|------|------|
+| 비워둠 | AI가 보컬 없는 기악 트랙 생성 경향 |
+| `[instrumental]` | 명시적으로 보컬 제거 |
+| 섹션 태그 + 가사 | 구조·가사 고정 |
+
+**Simple Mode = 탐색용, Custom Mode = 완성용.**
