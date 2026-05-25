@@ -173,6 +173,26 @@ Lyrics 칸 전략:
 
 **Simple Mode = 탐색용, Custom Mode = 완성용.**
 
+## 보컬 스타일 프롬프팅
+
+보컬이 있는 트랙에서 성질 제어 가능.
+
+**성별·음역:** `female vocalist, soprano range` / `male vocalist, deep baritone` / `androgynous vocals`
+
+**창법·질감:**
+```
+breathy vocals        # 숨 섞인 목소리
+raspy vocals          # 거친 목소리
+falsetto              # 팔세토
+vocoded               # 보코더 처리
+auto-tuned, robotic   # 오토튠 강하게
+choir, layered vocals # 합창 레이어
+```
+
+**언어 지정:** `Korean lyrics` / `Japanese vocals` / `English rap verses`
+
+주의: 한국어·일본어는 언어 지정만으로 부족 → Lyrics 칸에 직접 해당 언어로 가사 입력해야 확실.
+
 ## 프롬프트 A/B 테스트 전략
 
 좋은 프롬프트는 한 번에 나오지 않음. **변수를 하나씩 바꾸면서** 무엇이 결과를 바꾸는지 추적.
