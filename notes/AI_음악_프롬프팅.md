@@ -17,3 +17,32 @@
 electronic dance, 129 BPM, synth layers, driving energy
 ```
 → 맨 앞에 `[instrumental]` 하나만 추가하면 보컬 없는 순수 기악 트랙 생성.
+
+## 섹션 태그로 곡 구조 설계하기
+
+가사 안에 삽입해서 곡의 흐름을 직접 지정. Suno 기준:
+
+```
+[Verse]
+(가사 1절)
+
+[Chorus]
+(후렴 가사)
+
+[Verse]
+(가사 2절)
+
+[Chorus]
+(후렴 반복)
+
+[Bridge]
+(브릿지 가사)
+
+[Outro]
+```
+
+핵심:
+- 태그 없으면 AI가 구조 알아서 결정 → 매번 달라짐
+- 태그 있으면 전환점 고정 → `[Chorus]` 직후 에너지·멜로디 후렴 패턴으로 전환
+
+입력란 분리: Style 칸 = 무드/장르 텍스트, Lyrics 칸 = `[Verse]/[Chorus]` 구조.
