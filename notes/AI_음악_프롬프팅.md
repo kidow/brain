@@ -236,3 +236,49 @@ electronic dance, 129 BPM, synth layers, driving energy, major key
 한계: 재생성 구간이 앞뒤와 이음새에서 어색해질 수 있음. 기악 트랙이 보컬 트랙보다 결과 자연스러움.
 
 Extend = 앞에서 뒤로 이어가기. Inpainting = 중간 구간 교체.
+
+## 완성 프롬프트 템플릿
+
+**Style 칸:**
+```
+[장르], [BPM] BPM, [키], [코드 진행],
+[악기 1], [악기 2], [보컬 스타일 or instrumental],
+[에너지 형용사], [텍스처 형용사],
+no [원치 않는 요소 1], no [원치 않는 요소 2]
+```
+
+기악 EDM 예시:
+```
+[instrumental]
+progressive house, 128 BPM, A minor, i-VI-III-VII,
+layered synths, four-on-the-floor kick, sub bass,
+euphoric, full texture, high energy,
+no acoustic instruments, no jazz harmony, no vocals
+```
+
+보컬 팝 예시:
+```
+dream pop, 95 BPM, C major,
+female vocalist, breathy vocals, auto-tuned,
+ethereal synth pads, lo-fi drum machine,
+melancholic, airy texture,
+no distorted guitar, no brass
+```
+
+**Lyrics 칸 (구조 있는 경우):**
+```
+[Intro]
+(minimal, building)
+
+[Verse]
+(가사)
+
+[Chorus]
+(가사, maximum energy)
+
+[Bridge]
+(stripped back)
+
+[Outro]
+(fade)
+```
