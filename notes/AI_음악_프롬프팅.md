@@ -117,3 +117,23 @@ no acoustic instruments, no vocals, no jazz harmony, no reverb-heavy pads
 소괄호 `()` 안 = 해당 섹션에만 적용되는 사운드 지시.
 
 **전역 프롬프트(Style 칸) = 전체 색깔, 섹션 지시(Lyrics 칸 소괄호) = 구간별 명암.**
+
+## 음악 이론 용어로 사운드 고정하기
+
+무드·에너지 형용사는 AI가 넓게 해석. 음악 이론 용어를 쓰면 좁고 정확하게 고정.
+
+| 모호한 표현 | 정밀한 표현 |
+|------------|------------|
+| `dark mood` | `minor key, diminished chords` |
+| `happy feel` | `major key, bright chord voicings` |
+| `groovy` | `syncopated rhythm, off-beat hi-hat` |
+| `epic` | `orchestral swell, rising fifth interval` |
+| `tense` | `tritone harmony, unresolved chord progression` |
+
+키·스케일·코드 진행 직접 명시:
+```
+A minor, i-VI-III-VII chord progression, 129 BPM,
+synth lead melody, four-on-the-floor kick
+```
+
+**형용사 = 느낌 전달, 이론 용어 = 소리 고정.** 조합하면 재현 가능성 높아짐.
