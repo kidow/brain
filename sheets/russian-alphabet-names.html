@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>키릴 알파벳 이름 치트시트</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: system-ui, -apple-system, sans-serif;
+    background: #fff;
+    color: #1a1a1a;
+    padding: 1.5rem 2rem;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  h1 { font-size: 1.4rem; margin-bottom: 0.25rem; }
+  .subtitle { color: #666; font-size: 0.85rem; margin-bottom: 1.25rem; }
+
+  h2 {
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin: 1.25rem 0 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #444;
+  }
+
+  .legend {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    font-size: 0.78rem;
+  }
+  .legend-item { display: flex; align-items: center; gap: 0.35rem; }
+  .legend-dot { width: 12px; height: 12px; border-radius: 2px; border: 1px solid #ccc; }
+
+  /* ── Main alphabet grid ── */
+  .alpha-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+  }
+
+  .alpha-card {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0.55rem 0.65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    cursor: default;
+    transition: background 0.1s;
+  }
+  .alpha-card:hover { background: #fffbcc !important; }
+
+  .alpha-card.vowel     { background: #f7fbff; }
+  .alpha-card.soft-vowel { background: #eef5ff; }
+  .alpha-card.consonant { background: #fff; }
+  .alpha-card.always-hard { background: #fff4f0; }
+  .alpha-card.always-soft { background: #f0fff4; }
+  .alpha-card.sonorant  { background: #fffaf0; }
+  .alpha-card.sign      { background: #fff8e8; }
+
+  .letter-pair {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.1;
+    color: #111;
+  }
+
+  .letter-name {
+    font-size: 0.72rem;
+    color: #555;
+    font-style: italic;
+    text-align: center;
+  }
+
+  .letter-sound {
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: #c00;
+    text-align: center;
+  }
+
+  .letter-note {
+    font-size: 0.62rem;
+    color: #888;
+    text-align: center;
+    line-height: 1.4;
+  }
+
+  /* ── Name reference table ── */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    text-align: left;
+    vertical-align: middle;
+    padding: 0.35rem 0.6rem;
+    font-size: 0.8rem;
+  }
+
+  thead th {
+    background: #f0f0f0;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #555;
+  }
+
+  .char-col { font-size: 1.25rem; font-weight: 700; text-align: center; min-width: 48px; }
+  .name-col { font-style: italic; color: #444; }
+  .sound-col { font-weight: 700; color: #c00; }
+  .note-col { color: #666; font-size: 0.75rem; }
+
+  tr.vowel td     { background: #f7fbff; }
+  tr.soft-vowel td { background: #eef5ff; }
+  tr.always-hard td { background: #fff4f0; }
+  tr.always-soft td { background: #f0fff4; }
+  tr.sonorant td  { background: #fffaf0; }
+  tr.sign td      { background: #fff8e8; }
+  tr:hover td     { background: #fffbcc !important; }
+
+  /* ── Quick rules ── */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 0.65rem;
+    margin-top: 0.5rem;
+  }
+
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0.65rem 0.85rem;
+  }
+
+  .card h3 {
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: #666;
+    margin-bottom: 0.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+
+  .card p, .card li {
+    font-size: 0.78rem;
+    color: #444;
+    line-height: 1.6;
+  }
+
+  .card ul { padding-left: 1rem; }
+  .card code {
+    font-size: 0.78rem;
+    background: #f5f5f5;
+    padding: 0.05rem 0.22rem;
+    border-radius: 3px;
+  }
+
+  .pair-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-top: 0.3rem;
+  }
+  .pair {
+    background: #f5f5f5;
+    border-radius: 4px;
+    padding: 0.15rem 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  .pair span { color: #c00; }
+
+  @media print {
+    body { padding: 0.5cm; font-size: 11px; }
+    h2 { margin-top: 0.75rem; }
+    .alpha-grid { grid-template-columns: repeat(6, 1fr); }
+    .grid { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  @media (max-width: 600px) {
+    body { padding: 1rem; }
+    .alpha-grid { grid-template-columns: repeat(3, 1fr); }
+    .grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<h1>키릴 알파벳 이름 치트시트</h1>
+<p class="subtitle">러시아어 33자 — 글자 이름 · 발음 · 분류</p>
+
+<div class="legend">
+  <div class="legend-item"><div class="legend-dot" style="background:#f7fbff"></div> 모음 (Hard)</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#eef5ff"></div> 모음 (Soft/이오타화)</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#fff"></div> 자음 (일반)</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#fff4f0"></div> 항상 Hard 자음</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#f0fff4"></div> 항상 Soft 자음</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#fffaf0"></div> 공명음 (짝꿍 없음)</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#fff8e8"></div> 부호 (발음 없음)</div>
+</div>
+
+<h2>알파벳 카드</h2>
+<div class="alpha-grid">
+
+  <div class="alpha-card vowel">
+    <div class="letter-pair">А а</div>
+    <div class="letter-name">а</div>
+    <div class="letter-sound">a</div>
+    <div class="letter-note">Hard 모음</div>
+  </div>
+
+  <div class="alpha-card consonant">
+    <div class="letter-pair">Б б</div>
+    <div class="letter-name">бэ</div>
+    <div class="letter-sound">b</div>
+    <div class="letter-note">유성 · В와 이름 유사</div>
+  </div>
+
+  <div class="alpha-card consonant">
+    <div class="letter-pair">В в</div>
+    <div class="letter-name">вэ</div>
+    <div class="letter-sound">v</div>
+    <div class="letter-note">라틴 B처럼 보여도 v</div>
+  </div>
+
+  <div class="alpha-card consonant">
+    <div class="letter-pair">Г г</div>
+    <div class="letter-name">гэ</div>
+    <div class="letter-sound">g / v*</div>
+    <div class="letter-note">-ого/-его 에서 v</div>
+  </div>
+
+  <div class="alpha-card consonant">
+    <div class="letter-pair">Д д</div>
+    <div class="letter-name">дэ</div>
+    <div class="letter-sound">d</div>
+    <div class="letter-note">유성 · 필기체 g처럼</div>
+  </div>
+
+  <div class="alpha-card soft-vowel">
+    <div class="letter-pair">Е е</div>
+    <div class="letter-name">е</div>
+    <div class="letter-sound">ye / e</div>
+    <div class="letter-note">이오타화 · 자음 연화</div>
+  </div>
+
+  <div class="alpha-card soft-vowel">
+    <div class="letter-pair">Ё ё</div>
+    <div class="letter-name">ё</div>
+    <div class="letter-sound">yo</div>
+    <div class="letter-note">독립 문자 · 강세 항상 있음</div>
+  </div>
+
+  <div class="alpha-card always-hard">
+    <div class="letter-pair">Ж ж</div>
+    <div class="letter-name">жэ</div>
+    <div class="letter-sound">zh</div>
+    <div class="letter-note">항상 Hard · 유성</div>
+  </div>
+
+  <div class="alpha-card consonant">
+    <div class="letter-pair">З з</div>
+    <div class="letter-name">зэ</div>
+    <div class="letter-sound">z</div>
+    <div class="letter-note">유성 · 필기체 숫자 3과 동일</div>
+  </div>
+
+  <div class="alpha-card vowel">
+    <div class="letter-pair">И и</div>
+    <div class="letter-name">и</div>
+    <div class="letter-sound">i</div>
+    <div class="letter-note">Soft 모음 · Ы와 다름</div>
+  </div>
+
+  <div class="alpha-card consonant">
+    <div class="letter-pair">Й й</div>
+    <div class="letter-name">и краткое</div>
+    <div class="letter-sound">y / j</div>
+    <div class="letter-note">"짧은 И" · 반모음 glide</div>
+  </div>
+
+  <div class="alpha-card consonant">
+    <div class="letter-pair">К к</div>
+    <div class="letter-name">ка</div>
+    <div class="letter-sound">k</div>
+    <div class="letter-note">무성</div>
+  </div>
+
+  <div class="alpha-card sonorant">
+    <div class="letter-pair">Л л</div>
+    <div class="letter-name">эл</div>
+    <div class="letter-sound">l</div>
+    <div class="letter-note">공명음 · Hard/Soft 둘 다</div>
+  </div>
+
+  <div class="alpha-card sonorant">
+    <div class="letter-pair">М м</div>
+    <div class="letter-name">эм</div>
+    <div class="letter-sound">m</div>
+    <div class="letter-note">공명음</div>
+  </div>
+
+  <div class="alpha-card sonorant">
+    <div class="letter-pair">Н н</div>
+    <div class="letter-name">эн</div>
+    <div class="letter-sound">n</div>
+    <div class="letter-note">공명음 · 라틴 H처럼 보여도 n</div>
+  </div>
+
+  <div class="alpha-card vowel">
+    <div class="letter-pair">О о</div>
+    <div class="letter-name">о</div>
+    <div class="letter-sound">o / a*</div>
+    <div class="letter-note">강세 없으면 아로 약화</div>
+  </div>
+
+  <div class="alpha-card consonant">
+    <div class="letter-pair">П п</div>
+    <div class="letter-name">пэ</div>
+    <div class="letter-sound">p</div>
+    <div class="letter-note">무성</div>
+  </div>
+
+  <div class="alpha-card sonorant">
+    <div class="letter-pair">Р р</div>
+    <div class="letter-name">эр</div>
+    <div class="letter-sound">r</div>
+    <div class="letter-note">공명음 · 진동음 (trilled)</div>
+  </div>
+
+  <div class="alpha-card consonant">
+    <div class="letter-pair">С с</div>
+    <div class="letter-name">эс</div>
+    <div class="letter-sound">s</div>
+    <div class="letter-note">무성 · 라틴 C처럼 보여도 s</div>
+  </div>
+
+  <div class="alpha-card consonant">
+    <div class="letter-pair">Т т</div>
+    <div class="letter-name">тэ</div>
+    <div class="letter-sound">t</div>
+    <div class="letter-note">무성 · 필기체 m처럼</div>
+  </div>
+
+  <div class="alpha-card vowel">
+    <div class="letter-pair">У у</div>
+    <div class="letter-name">у</div>
+    <div class="letter-sound">u</div>
+    <div class="letter-note">Hard 모음 · 라틴 Y처럼 보여도 u</div>
+  </div>
+
+  <div class="alpha-card consonant">
+    <div class="letter-pair">Ф ф</div>
+    <div class="letter-name">эф</div>
+    <div class="letter-sound">f</div>
+    <div class="letter-note">무성</div>
+  </div>
+
+  <div class="alpha-card consonant">
+    <div class="letter-pair">Х х</div>
+    <div class="letter-name">ха</div>
+    <div class="letter-sound">kh</div>
+    <div class="letter-note">목구멍 마찰음 · 라틴 X처럼 보여도 kh</div>
+  </div>
+
+  <div class="alpha-card always-hard">
+    <div class="letter-pair">Ц ц</div>
+    <div class="letter-name">цэ</div>
+    <div class="letter-sound">ts</div>
+    <div class="letter-note">항상 Hard · ts 복합음</div>
+  </div>
+
+  <div class="alpha-card always-soft">
+    <div class="letter-pair">Ч ч</div>
+    <div class="letter-name">че</div>
+    <div class="letter-sound">ch</div>
+    <div class="letter-note">항상 Soft · ch 소리</div>
+  </div>
+
+  <div class="alpha-card always-hard">
+    <div class="letter-pair">Ш ш</div>
+    <div class="letter-name">ша</div>
+    <div class="letter-sound">sh</div>
+    <div class="letter-note">항상 Hard · 필기체 w처럼</div>
+  </div>
+
+  <div class="alpha-card always-soft">
+    <div class="letter-pair">Щ щ</div>
+    <div class="letter-name">ща</div>
+    <div class="letter-sound">shch</div>
+    <div class="letter-note">항상 Soft · shch 복합음</div>
+  </div>
+
+  <div class="alpha-card sign">
+    <div class="letter-pair">Ъ ъ</div>
+    <div class="letter-name">твёрдый знак</div>
+    <div class="letter-sound">—</div>
+    <div class="letter-note">경음 부호 · 발음 없음 · 분리</div>
+  </div>
+
+  <div class="alpha-card vowel">
+    <div class="letter-pair">Ы ы</div>
+    <div class="letter-name">ы</div>
+    <div class="letter-sound">y (deep)</div>
+    <div class="letter-note">Hard 모음 · И와 다른 소리</div>
+  </div>
+
+  <div class="alpha-card sign">
+    <div class="letter-pair">Ь ь</div>
+    <div class="letter-name">мягкий знак</div>
+    <div class="letter-sound">—</div>
+    <div class="letter-note">연음 부호 · 발음 없음 · 연화</div>
+  </div>
+
+  <div class="alpha-card vowel">
+    <div class="letter-pair">Э э</div>
+    <div class="letter-name">э</div>
+    <div class="letter-sound">e</div>
+    <div class="letter-note">Hard 모음 · Е와 다름 · 연화 없음</div>
+  </div>
+
+  <div class="alpha-card soft-vowel">
+    <div class="letter-pair">Ю ю</div>
+    <div class="letter-name">ю</div>
+    <div class="letter-sound">yu</div>
+    <div class="letter-note">이오타화 · 자음 연화</div>
+  </div>
+
+  <div class="alpha-card soft-vowel">
+    <div class="letter-pair">Я я</div>
+    <div class="letter-name">я</div>
+    <div class="letter-sound">ya</div>
+    <div class="letter-note">이오타화 · 자음 연화</div>
+  </div>
+
+</div>
+
+<h2>발음 핵심 규칙</h2>
+<div class="grid">
+
+  <div class="card" style="background:#f7fbff">
+    <h3>Hard vs Soft 모음 쌍</h3>
+    <div class="pair-row">
+      <span class="pair">А <span>↔</span> Я</span>
+      <span class="pair">О <span>↔</span> Ё</span>
+      <span class="pair">У <span>↔</span> Ю</span>
+      <span class="pair">Э <span>↔</span> Е</span>
+      <span class="pair">Ы <span>↔</span> И</span>
+    </div>
+    <p style="margin-top:0.5rem">Soft 모음이 뒤에 오면 앞 자음 연화.</p>
+  </div>
+
+  <div class="card" style="background:#fff8e8">
+    <h3>유성 ↔ 무성 쌍</h3>
+    <div class="pair-row">
+      <span class="pair">Б<span>↔</span>П</span>
+      <span class="pair">В<span>↔</span>Ф</span>
+      <span class="pair">Г<span>↔</span>К</span>
+      <span class="pair">Д<span>↔</span>Т</span>
+      <span class="pair">Ж<span>↔</span>Ш</span>
+      <span class="pair">З<span>↔</span>С</span>
+    </div>
+    <p style="margin-top:0.5rem">어말 유성 → 무성으로 발음. 자음 동화도 적용.</p>
+  </div>
+
+  <div class="card" style="background:#fff4f0">
+    <h3>항상 Hard — Ж · Ш · Ц</h3>
+    <ul>
+      <li>뒤에 И가 와도 Ы처럼 읽힘</li>
+      <li><code>ЖИ-ШИ пиши с И</code> (철자는 И)</li>
+    </ul>
+  </div>
+
+  <div class="card" style="background:#f0fff4">
+    <h3>항상 Soft — Ч · Щ</h3>
+    <ul>
+      <li>뒤에 А·У로 써도 발음은 soft</li>
+      <li><code>ЧА-ЩА пиши с А</code> (철자는 А)</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>강세 · 모음 약화</h3>
+    <ul>
+      <li>강세 없는 <strong>О</strong> → "아"로 약화</li>
+      <li><code>молоко</code> → 말라코, <code>хорошо</code> → 하라쇼</li>
+      <li>강세 위치는 단어마다 외워야 함</li>
+    </ul>
+  </div>
+
+  <div class="card" style="background:#eef5ff">
+    <h3>이오타화 — Е · Ё · Ю · Я</h3>
+    <ul>
+      <li>단어 첫머리 / 모음 뒤: <code>й + 모음</code>처럼 발음</li>
+      <li>자음 뒤: 앞 자음을 연화</li>
+      <li>Ъ 뒤: 분리 · Ь 뒤: 연화 유지</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>Г의 특수 발음</h3>
+    <ul>
+      <li><strong>-ого / -его</strong> 어미 → Г를 В로 읽음</li>
+      <li><code>его</code> → ево, <code>ничего</code> → ничево</li>
+      <li><code>сегодня</code> → севодня (오늘)</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>라틴 문자 함정</h3>
+    <p><code>В</code>=v &nbsp; <code>Н</code>=n &nbsp; <code>Р</code>=r<br>
+    <code>С</code>=s &nbsp; <code>Х</code>=kh &nbsp; <code>У</code>=u<br>
+    생김새 ≠ 발음. 라틴 기준으로 읽으면 틀림.</p>
+  </div>
+
+</div>
+
+</body>
+</html>
