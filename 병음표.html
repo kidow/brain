@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>병음표 拼音表</title>
+<style>
+:root {
+  --bg: #0f1117;
+  --surface: #161b27;
+  --border: #252d3d;
+  --text: #e2e8f0;
+  --muted: #5a6a82;
+  --accent: #7c9ef5;
+  --tone1: #f6c460;
+  --tone2: #5dba7d;
+  --tone3: #5ba8d8;
+  --tone4: #e06c6c;
+  --neutral: #a98fdf;
+  --cell-valid: #141c2e;
+  --cell-hover: #1e2e4a;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Segoe UI', 'Apple SD Gothic Neo', system-ui, sans-serif;
+  font-size: 13px;
+  padding: 24px;
+  min-height: 100vh;
+}
+
+h1 { font-size: 22px; font-weight: 700; letter-spacing: -0.5px; }
+.subtitle { color: var(--muted); margin: 4px 0 20px; font-size: 12px; }
+
+/* Tone reference cards */
+.tone-ref {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 18px;
+  flex-wrap: wrap;
+}
+.tone-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 10px 18px;
+  min-width: 110px;
+  text-align: center;
+}
+.tone-card .t-label { font-size: 10px; color: var(--muted); margin-bottom: 5px; text-transform: uppercase; letter-spacing: 0.5px; }
+.tone-card .t-char  { font-size: 28px; font-weight: 700; line-height: 1; }
+.tone-card .t-shape { font-size: 11px; color: var(--muted); margin-top: 4px; }
+.tone-card.t1 .t-char { color: var(--tone1); }
+.tone-card.t2 .t-char { color: var(--tone2); }
+.tone-card.t3 .t-char { color: var(--tone3); }
+.tone-card.t4 .t-char { color: var(--tone4); }
+.tone-card.t0 .t-char { color: var(--neutral); }
+
+/* Tone selector */
+.tone-selector {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+.ts-label { color: var(--muted); font-size: 11px; margin-right: 4px; }
+.tone-btn {
+  padding: 5px 14px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+  font-size: 12px;
+  transition: all 0.12s;
+  font-family: inherit;
+}
+.tone-btn:hover { border-color: var(--accent); color: var(--accent); }
+.tone-btn.active.t1 { background: #2d2510; border-color: var(--tone1); color: var(--tone1); }
+.tone-btn.active.t2 { background: #0f2318; border-color: var(--tone2); color: var(--tone2); }
+.tone-btn.active.t3 { background: #0d1e2d; border-color: var(--tone3); color: var(--tone3); }
+.tone-btn.active.t4 { background: #2a1010; border-color: var(--tone4); color: var(--tone4); }
+.tone-btn.active.t0 { background: #1e1530; border-color: var(--neutral); color: var(--neutral); }
+
+/* Table wrapper */
+.table-wrap {
+  overflow: auto;
+  max-height: calc(100vh - 280px);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+
+table {
+  border-collapse: collapse;
+  width: max-content;
+}
+
+th, td {
+  border: 1px solid var(--border);
+  padding: 4px 5px;
+  text-align: center;
+  min-width: 46px;
+  height: 30px;
+  white-space: nowrap;
+  font-size: 12px;
+}
+
+/* Sticky header row */
+thead th {
+  position: sticky;
+  top: 0;
+  background: #0c0f18;
+  z-index: 2;
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 12px;
+  padding: 6px 5px;
+}
+
+/* Sticky initial column (final labels) */
+td.final-cell {
+  position: sticky;
+  left: 0;
+  background: #0c0f18;
+  z-index: 1;
+  color: var(--muted);
+  font-size: 11px;
+  min-width: 100px;
+  text-align: left;
+  padding: 0 10px;
+}
+
+/* Corner cell */
+thead th:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 3;
+  background: #090b14;
+  font-size: 10px;
+  color: var(--muted);
+  font-weight: 400;
+  min-width: 100px;
+  text-align: left;
+  padding-left: 8px;
+}
+
+/* Group header rows */
+tr.group-hdr td {
+  background: #0d1020;
+  color: var(--accent);
+  font-size: 10px;
+  letter-spacing: 0.3px;
+  text-align: left;
+  padding: 5px 10px;
+  border-left: 3px solid var(--accent);
+  position: sticky;
+  left: 0;
+}
+tr.group-hdr td + td {
+  position: static;
+  background: #0d1020;
+  border-left: none;
+}
+
+/* Valid syllable cells */
+td.valid {
+  background: var(--cell-valid);
+  cursor: pointer;
+  color: #89b4fa;
+  transition: background 0.1s, color 0.1s;
+  font-weight: 500;
+}
+td.valid:hover {
+  background: var(--cell-hover);
+  color: #fff;
+}
+td.valid.playing {
+  background: #1a3358;
+  color: #fff;
+  outline: 1px solid var(--accent);
+}
+
+/* Tone color tint on valid cells */
+td.valid[data-tone="1"] { color: var(--tone1); }
+td.valid[data-tone="2"] { color: var(--tone2); }
+td.valid[data-tone="3"] { color: var(--tone3); }
+td.valid[data-tone="4"] { color: var(--tone4); }
+td.valid[data-tone="0"] { color: var(--neutral); }
+
+td.empty { background: transparent; color: transparent; }
+
+/* Playing badge */
+#playingBadge {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  background: var(--accent);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  display: none;
+  z-index: 999;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+  letter-spacing: 1px;
+}
+
+.hint {
+  color: var(--muted);
+  font-size: 11px;
+  margin-top: 12px;
+  line-height: 1.6;
+}
+</style>
+</head>
+<body>
+
+<h1>병음표 拼音表</h1>
+<p class="subtitle">클릭 → 발음 재생 &nbsp;·&nbsp; 성조 버튼으로 전환 &nbsp;·&nbsp; 빈 칸 = 해당 조합 없음</p>
+
+<!-- Tone reference -->
+<div class="tone-ref">
+  <div class="tone-card t1">
+    <div class="t-label">1성 第一声</div>
+    <div class="t-char">ā</div>
+    <div class="t-shape">¯ 높고 평평하게</div>
+  </div>
+  <div class="tone-card t2">
+    <div class="t-label">2성 第二声</div>
+    <div class="t-char">á</div>
+    <div class="t-shape">╱ 올라가게</div>
+  </div>
+  <div class="tone-card t3">
+    <div class="t-label">3성 第三声</div>
+    <div class="t-char">ǎ</div>
+    <div class="t-shape">∨ 내렸다 올라가게</div>
+  </div>
+  <div class="tone-card t4">
+    <div class="t-label">4성 第四声</div>
+    <div class="t-char">à</div>
+    <div class="t-shape">╲ 뚝 내려가게</div>
+  </div>
+  <div class="tone-card t0">
+    <div class="t-label">경성 轻声</div>
+    <div class="t-char">a</div>
+    <div class="t-shape">짧고 가볍게</div>
+  </div>
+</div>
+
+<!-- Tone selector -->
+<div class="tone-selector">
+  <span class="ts-label">성조 선택:</span>
+  <button class="tone-btn t1 active" data-tone="1" onclick="setTone(1)">1성 ā</button>
+  <button class="tone-btn t2" data-tone="2" onclick="setTone(2)">2성 á</button>
+  <button class="tone-btn t3" data-tone="3" onclick="setTone(3)">3성 ǎ</button>
+  <button class="tone-btn t4" data-tone="4" onclick="setTone(4)">4성 à</button>
+  <button class="tone-btn t0" data-tone="0" onclick="setTone(0)">경성</button>
+</div>
+
+<div class="table-wrap">
+  <table id="pinyinTable"></table>
+</div>
+
+<p class="hint">
+  성모(聲母) = 초성 자음 21개 &nbsp;·&nbsp; 운모(韻母) = 중·종성 모음부 &nbsp;·&nbsp; ∅ = 성모 없는 경우<br>
+  j·q·x 열의 ü- 행은 ü를 u로 표기 (표준 병음 규칙)
+</p>
+
+<div id="playingBadge"></div>
+
+<script>
+// ─── Data ───────────────────────────────────────────────
+const INITIALS = ['b','p','m','f','d','t','n','l','g','k','h','j','q','x','zh','ch','sh','r','z','c','s','∅'];
+
+// All valid Mandarin syllables (base form, no tone)
+const VALID = new Set([
+  // ∅ initial
+  'a','o','e','er','ai','ei','ao','ou','an','en','ang','eng',
+  'yi','ya','yao','ye','you','yan','yin','yang','ying','yong',
+  'wu','wa','wo','wai','wei','wan','wen','wang','weng',
+  'yu','yue','yuan','yun',
+  // b
+  'ba','bo','bai','bei','bao','ban','ben','bang','beng','bi','biao','bie','bian','bin','bing','bu',
+  // p
+  'pa','po','pai','pei','pao','pou','pan','pen','pang','peng','pi','piao','pie','pian','pin','ping','pu',
+  // m
+  'ma','mo','me','mai','mei','mao','mou','man','men','mang','meng','mi','miao','mie','miu','mian','min','ming','mu',
+  // f
+  'fa','fo','fei','fou','fan','fen','fang','feng','fu',
+  // d
+  'da','de','dai','dao','dou','dan','dang','deng','di','diao','die','diu','dian','ding','du','duo','dui','duan','dun','dong',
+  // t
+  'ta','te','tai','tao','tou','tan','tang','teng','ti','tiao','tie','tian','ting','tu','tuo','tui','tuan','tun','tong',
+  // n
+  'na','ne','nai','nei','nao','nou','nan','nen','nang','neng',
+  'ni','niao','nie','niu','nian','nin','niang','ning',
+  'nu','nuo','nuan','nü','nüe','nong',
+  // l
+  'la','le','lai','lei','lao','lou','lan','lang','leng',
+  'li','liao','lie','liu','lian','lin','liang','ling',
+  'lu','luo','luan','lun','lü','lüe','long',
+  // g
+  'ga','ge','gai','gao','gou','gan','gen','gang','geng',
+  'gu','gua','guo','guai','gui','guan','gun','guang','gong',
+  // k
+  'ka','ke','kai','kao','kou','kan','ken','kang','keng',
+  'ku','kua','kuo','kuai','kui','kuan','kun','kuang','kong',
+  // h
+  'ha','he','hai','hei','hao','hou','han','hen','hang','heng',
+  'hu','hua','huo','huai','hui','huan','hun','huang','hong',
+  // j
+  'ji','jia','jiao','jie','jiu','jian','jin','jiang','jing','jiong',
+  'ju','jue','juan','jun',
+  // q
+  'qi','qia','qiao','qie','qiu','qian','qin','qiang','qing','qiong',
+  'qu','que','quan','qun',
+  // x
+  'xi','xia','xiao','xie','xiu','xian','xin','xiang','xing','xiong',
+  'xu','xue','xuan','xun',
+  // zh
+  'zha','zhe','zhi','zhao','zhou','zhan','zhen','zhang','zheng',
+  'zhu','zhuo','zhuai','zhui','zhuan','zhun','zhuang','zhong',
+  // ch
+  'cha','che','chi','chao','chou','chan','chen','chang','cheng',
+  'chu','chuo','chuai','chui','chuan','chun','chuang','chong',
+  // sh
+  'sha','she','shi','shao','shou','shan','shen','shang','sheng',
+  'shu','shuo','shuai','shui','shuan','shun','shuang',
+  // r
+  're','ri','rao','rou','ran','ren','rang','reng',
+  'ru','ruo','rui','ruan','run','rong',
+  // z
+  'za','ze','zi','zao','zou','zan','zen','zang','zeng',
+  'zu','zuo','zui','zuan','zun','zong',
+  // c
+  'ca','ce','ci','cao','cou','can','cen','cang','ceng',
+  'cu','cuo','cui','cuan','cun','cong',
+  // s
+  'sa','se','si','sao','sou','san','sen','sang','seng',
+  'su','suo','sui','suan','sun','song',
+]);
+
+// Finals: grouped for table rows
+const FINAL_GROUPS = [
+  { label: '단운모 單韻母 — 단일 모음', finals: [
+    { k:'a', d:'a' }, { k:'o', d:'o' }, { k:'e', d:'e' }, { k:'er', d:'er' },
+  ]},
+  { label: '복운모 複韻母 — 이중 모음', finals: [
+    { k:'ai', d:'ai' }, { k:'ei', d:'ei' }, { k:'ao', d:'ao' }, { k:'ou', d:'ou' },
+  ]},
+  { label: '비운모 鼻韻母 — 비음 종성', finals: [
+    { k:'an', d:'an' }, { k:'en', d:'en' }, { k:'ang', d:'ang' }, { k:'eng', d:'eng' }, { k:'ong', d:'ong' },
+  ]},
+  { label: 'i- 계열', finals: [
+    { k:'i',    d:'i / yi'    }, { k:'ia',   d:'ia / ya'   }, { k:'iao', d:'iao / yao' },
+    { k:'ie',   d:'ie / ye'   }, { k:'iu',   d:'iu / you'  }, { k:'ian', d:'ian / yan' },
+    { k:'in',   d:'in / yin'  }, { k:'iang', d:'iang / yang'}, { k:'ing', d:'ing / ying'},
+    { k:'iong', d:'iong / yong'},
+  ]},
+  { label: 'u- 계열', finals: [
+    { k:'u',    d:'u / wu'    }, { k:'ua',   d:'ua / wa'   }, { k:'uo',  d:'uo / wo'  },
+    { k:'uai',  d:'uai / wai' }, { k:'ui',   d:'ui / wei'  }, { k:'uan', d:'uan / wan' },
+    { k:'un',   d:'un / wen'  }, { k:'uang', d:'uang / wang'}, { k:'ueng',d:'ueng / weng'},
+  ]},
+  { label: 'ü- 계열  (j·q·x에선 u로 표기)', finals: [
+    { k:'ü',   d:'ü / yu'   }, { k:'üe',  d:'üe / yue'  },
+    { k:'üan', d:'üan / yuan'}, { k:'ün',  d:'ün / yun'  },
+  ]},
+];
+
+// Zero-initial standalone forms
+const ZERO_MAP = {
+  'a':'a','o':'o','e':'e','er':'er',
+  'ai':'ai','ei':'ei','ao':'ao','ou':'ou',
+  'an':'an','en':'en','ang':'ang','eng':'eng',
+  'i':'yi','ia':'ya','iao':'yao','ie':'ye','iu':'you',
+  'ian':'yan','in':'yin','iang':'yang','ing':'ying','iong':'yong',
+  'u':'wu','ua':'wa','uo':'wo','uai':'wai','ui':'wei',
+  'uan':'wan','un':'wen','uang':'wang','ueng':'weng',
+  'ü':'yu','üe':'yue','üan':'yuan','ün':'yun',
+  // 'ong' has no zero-initial form
+};
+
+// Get base syllable string (no tone marks) for a cell
+function getSyllable(initial, finalKey) {
+  if (initial === '∅') return ZERO_MAP[finalKey] || null;
+  let f = finalKey;
+  // j q x + ü-group: write ü as u
+  if (['j','q','x'].includes(initial)) f = f.replace(/^ü/, 'u');
+  const candidate = initial + f;
+  return VALID.has(candidate) ? candidate : null;
+}
+
+// Tone mark tables
+const TONE_MARKS = {
+  1: { a:'ā', e:'ē', i:'ī', o:'ō', u:'ū', ü:'ǖ' },
+  2: { a:'á', e:'é', i:'í', o:'ó', u:'ú', ü:'ǘ' },
+  3: { a:'ǎ', e:'ě', i:'ǐ', o:'ǒ', u:'ǔ', ü:'ǚ' },
+  4: { a:'à', e:'è', i:'ì', o:'ò', u:'ù', ü:'ǜ' },
+};
+
+// Apply tone to a base syllable
+function applyTone(syl, tone) {
+  if (tone === 0) return syl;
+  const m = TONE_MARKS[tone];
+  if (!m) return syl;
+  // Rule: a/e takes priority; then ou→o; then last vowel
+  if (syl.includes('a'))  return syl.replace('a', m.a);
+  if (syl.includes('e'))  return syl.replace('e', m.e);
+  if (syl.endsWith('ou')) return syl.replace('o', m.o);
+  // last vowel
+  const vowels = ['ü','a','e','i','o','u'];
+  for (let i = syl.length - 1; i >= 0; i--) {
+    if (vowels.includes(syl[i])) {
+      return syl.slice(0, i) + m[syl[i]] + syl.slice(i + 1);
+    }
+  }
+  return syl;
+}
+
+// ─── State ──────────────────────────────────────────────
+let currentTone = 1;
+let playingCell = null;
+
+// ─── Tone toggle ────────────────────────────────────────
+function setTone(tone) {
+  currentTone = tone;
+  document.querySelectorAll('.tone-btn').forEach(btn => {
+    btn.classList.toggle('active', Number(btn.dataset.tone) === tone);
+  });
+  document.querySelectorAll('td.valid').forEach(td => {
+    td.textContent = applyTone(td.dataset.syl, tone);
+    td.dataset.tone = tone;
+  });
+}
+
+// ─── Audio ──────────────────────────────────────────────
+function playAudio(syl, tone) {
+  const toned = applyTone(syl, tone);
+  const badge = document.getElementById('playingBadge');
+  badge.textContent = toned;
+  badge.style.display = 'block';
+  if (playingCell) playingCell.classList.remove('playing');
+
+  // Find the cell and mark it
+  const cell = document.querySelector(`td.valid[data-syl="${syl}"]`);
+  if (cell) { cell.classList.add('playing'); playingCell = cell; }
+
+  const done = () => {
+    badge.style.display = 'none';
+    if (playingCell) { playingCell.classList.remove('playing'); playingCell = null; }
+  };
+
+  const ttsUrl = `https://translate.google.com/translate_tts?ie=UTF-8&q=${encodeURIComponent(toned)}&tl=zh-CN&client=tw-ob&ttsspeed=0.85`;
+  const audio = new Audio(ttsUrl);
+  audio.onended = done;
+  audio.onerror = () => fallbackTTS(toned, done);
+  audio.play().catch(() => fallbackTTS(toned, done));
+}
+
+function fallbackTTS(text, done) {
+  const utt = new SpeechSynthesisUtterance(text);
+  utt.lang = 'zh-CN';
+  utt.rate = 0.85;
+  utt.onend = done;
+  window.speechSynthesis.cancel();
+  window.speechSynthesis.speak(utt);
+  setTimeout(done, 2000);
+}
+
+// ─── Build table ────────────────────────────────────────
+function buildTable() {
+  const table = document.getElementById('pinyinTable');
+
+  // Header
+  const thead = table.createTHead();
+  const hrow = thead.insertRow();
+  const corner = document.createElement('th');
+  corner.textContent = '운모 ↓ / 성모 →';
+  hrow.appendChild(corner);
+  for (const ini of INITIALS) {
+    const th = document.createElement('th');
+    th.textContent = ini;
+    hrow.appendChild(th);
+  }
+
+  // Body
+  const tbody = table.createTBody();
+
+  for (const group of FINAL_GROUPS) {
+    // Group header row
+    const gtr = tbody.insertRow();
+    gtr.className = 'group-hdr';
+    const ghTd = gtr.insertCell();
+    ghTd.colSpan = INITIALS.length + 1;
+    ghTd.textContent = group.label;
+
+    for (const fin of group.finals) {
+      const tr = tbody.insertRow();
+
+      // Final label
+      const labelTd = tr.insertCell();
+      labelTd.className = 'final-cell';
+      labelTd.textContent = fin.d;
+
+      for (const ini of INITIALS) {
+        const td = tr.insertCell();
+        const syl = getSyllable(ini, fin.k);
+        if (syl) {
+          td.className = 'valid';
+          td.dataset.syl = syl;
+          td.dataset.tone = currentTone;
+          td.textContent = applyTone(syl, currentTone);
+          td.title = `${syl} — 클릭: 발음 재생`;
+          td.onclick = () => playAudio(syl, currentTone);
+        } else {
+          td.className = 'empty';
+        }
+      }
+    }
+  }
+}
+
+buildTable();
+</script>
+</body>
+</html>
