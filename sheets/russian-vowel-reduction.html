@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>러시아어 모음 약화 치트시트</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: system-ui, -apple-system, sans-serif;
+    background: #fff;
+    color: #1a1a1a;
+    padding: 1.5rem 2rem;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  h1 { font-size: 1.4rem; margin-bottom: 0.25rem; }
+  .subtitle { color: #666; font-size: 0.85rem; margin-bottom: 1.5rem; }
+
+  h2 {
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin: 1.5rem 0 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #444;
+  }
+
+  /* ── Main reduction table ── */
+  .reduction-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.75rem;
+    margin-top: 0.5rem;
+  }
+
+  .vowel-block {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .vowel-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    font-weight: 700;
+  }
+
+  .vowel-letter {
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1;
+  }
+
+  .vowel-name {
+    font-size: 0.72rem;
+    color: #666;
+    line-height: 1.4;
+  }
+
+  .stress-row {
+    display: flex;
+    border-top: 1px solid #ddd;
+  }
+
+  .stress-cell {
+    flex: 1;
+    padding: 0.5rem 0.6rem;
+    text-align: center;
+    border-right: 1px solid #eee;
+  }
+  .stress-cell:last-child { border-right: none; }
+
+  .stress-label {
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-bottom: 4px;
+  }
+
+  .stress-sound {
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+
+  .stress-ipa {
+    font-size: 0.65rem;
+    color: #888;
+    margin-top: 2px;
+  }
+
+  /* О block */
+  .block-o .vowel-header { background: #fff3cd; }
+  .block-o .stressed { background: #fffdf0; }
+  .block-o .unstressed { background: #fff8e8; }
+  .block-o .stressed .stress-sound { color: #b45309; }
+  .block-o .unstressed .stress-sound { color: #ef4444; }
+
+  /* Е block */
+  .block-e .vowel-header { background: #dbeafe; }
+  .block-e .stressed { background: #eff6ff; }
+  .block-e .unstressed { background: #e0f2fe; }
+  .block-e .stressed .stress-sound { color: #1d4ed8; }
+  .block-e .unstressed .stress-sound { color: #ef4444; }
+
+  /* А block */
+  .block-a .vowel-header { background: #d1fae5; }
+  .block-a .stressed { background: #f0fdf4; }
+  .block-a .unstressed { background: #ecfdf5; }
+  .block-a .stressed .stress-sound { color: #047857; }
+  .block-a .unstressed .stress-sound { color: #6b7280; }
+
+  /* Я block */
+  .block-ya .vowel-header { background: #ede9fe; }
+  .block-ya .stressed { background: #f5f3ff; }
+  .block-ya .unstressed { background: #ede9fe; }
+  .block-ya .stressed .stress-sound { color: #7c3aed; }
+  .block-ya .unstressed .stress-sound { color: #ef4444; }
+
+  /* И·Ы·У block */
+  .block-stable .vowel-header { background: #f1f5f9; }
+  .block-stable .stressed { background: #f8fafc; }
+  .block-stable .unstressed { background: #f1f5f9; }
+  .block-stable .stressed .stress-sound { color: #475569; }
+  .block-stable .unstressed .stress-sound { color: #475569; }
+
+  /* ── Example words table ── */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 0.35rem 0.6rem;
+    font-size: 0.8rem;
+    vertical-align: middle;
+  }
+
+  thead th {
+    background: #f0f0f0;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #555;
+    text-align: left;
+  }
+
+  .word-col { font-size: 1.1rem; font-weight: 700; }
+  .stress-mark { color: #ef4444; font-weight: 900; }
+  .reduced { color: #ef4444; font-style: italic; }
+  .meaning-col { color: #666; }
+
+  tr.o-row td { background: #fffdf0; }
+  tr.e-row td { background: #eff6ff; }
+  tr.both-row td { background: #fdf4ff; }
+  tr:hover td { background: #fffbcc !important; }
+
+  /* ── Rules summary cards ── */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.65rem;
+    margin-top: 0.5rem;
+  }
+
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0.65rem 0.85rem;
+  }
+
+  .card h3 {
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: #666;
+    margin-bottom: 0.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+
+  .card p, .card li {
+    font-size: 0.78rem;
+    color: #444;
+    line-height: 1.7;
+  }
+
+  .card ul { padding-left: 1rem; }
+  .card code {
+    background: #f5f5f5;
+    padding: 0.05rem 0.22rem;
+    border-radius: 3px;
+    font-size: 0.78rem;
+  }
+
+  .arrow { color: #ef4444; font-weight: 700; margin: 0 0.2rem; }
+
+  /* ── Ё special box ── */
+  .yo-box {
+    border: 2px solid #f59e0b;
+    border-radius: 8px;
+    padding: 0.65rem 1rem;
+    background: #fffbeb;
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+
+  .yo-letter {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #b45309;
+    line-height: 1;
+    flex-shrink: 0;
+  }
+
+  .yo-text { font-size: 0.8rem; color: #444; line-height: 1.7; }
+  .yo-text strong { color: #b45309; }
+
+  @media print {
+    body { padding: 0.5cm; font-size: 11px; }
+    h2 { margin-top: 0.75rem; }
+    .reduction-grid { grid-template-columns: repeat(3, 1fr); }
+    .grid { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  @media (max-width: 600px) {
+    body { padding: 1rem; }
+    .reduction-grid { grid-template-columns: 1fr 1fr; }
+    .grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<h1>러시아어 모음 약화 치트시트</h1>
+<p class="subtitle">강세 유무에 따른 모음 발음 변화 — Vowel Reduction</p>
+
+<h2>모음별 강세 유/무 발음</h2>
+<div class="reduction-grid">
+
+  <div class="vowel-block block-o">
+    <div class="vowel-header">
+      <div class="vowel-letter">О</div>
+      <div class="vowel-name">가장 극적인 변화<br>학습자 최대 함정</div>
+    </div>
+    <div class="stress-row">
+      <div class="stress-cell stressed">
+        <div class="stress-label">강세 있음</div>
+        <div class="stress-sound">오</div>
+        <div class="stress-ipa">[o]</div>
+      </div>
+      <div class="stress-cell unstressed">
+        <div class="stress-label">강세 없음 →</div>
+        <div class="stress-sound">아</div>
+        <div class="stress-ipa">[ɐ / ə]</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="vowel-block block-e">
+    <div class="vowel-header">
+      <div class="vowel-letter">Е</div>
+      <div class="vowel-name">О 다음으로 큰 변화<br>듣기 혼란의 주원인</div>
+    </div>
+    <div class="stress-row">
+      <div class="stress-cell stressed">
+        <div class="stress-label">강세 있음</div>
+        <div class="stress-sound">예/에</div>
+        <div class="stress-ipa">[je / e]</div>
+      </div>
+      <div class="stress-cell unstressed">
+        <div class="stress-label">강세 없음 →</div>
+        <div class="stress-sound">이</div>
+        <div class="stress-ipa">[ɪ]</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="vowel-block block-a">
+    <div class="vowel-header">
+      <div class="vowel-letter">А</div>
+      <div class="vowel-name">약하게 줄어듦<br>큰 변화 없음</div>
+    </div>
+    <div class="stress-row">
+      <div class="stress-cell stressed">
+        <div class="stress-label">강세 있음</div>
+        <div class="stress-sound">아</div>
+        <div class="stress-ipa">[a]</div>
+      </div>
+      <div class="stress-cell unstressed">
+        <div class="stress-label">강세 없음 →</div>
+        <div class="stress-sound">아↓</div>
+        <div class="stress-ipa">[ɐ] 약화</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="vowel-block block-ya">
+    <div class="vowel-header">
+      <div class="vowel-letter">Я</div>
+      <div class="vowel-name">Е처럼 약화됨<br>이오타화 모음</div>
+    </div>
+    <div class="stress-row">
+      <div class="stress-cell stressed">
+        <div class="stress-label">강세 있음</div>
+        <div class="stress-sound">야</div>
+        <div class="stress-ipa">[ja]</div>
+      </div>
+      <div class="stress-cell unstressed">
+        <div class="stress-label">강세 없음 →</div>
+        <div class="stress-sound">이</div>
+        <div class="stress-ipa">[ɪ] 유사</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="vowel-block block-stable">
+    <div class="vowel-header">
+      <div class="vowel-letter" style="font-size:1.3rem">И · Ы · У</div>
+      <div class="vowel-name">약화 거의 없음<br>강세 무관 안정적</div>
+    </div>
+    <div class="stress-row">
+      <div class="stress-cell stressed">
+        <div class="stress-label">강세 있음</div>
+        <div class="stress-sound">이·으·우</div>
+        <div class="stress-ipa">[i · ɨ · u]</div>
+      </div>
+      <div class="stress-cell unstressed">
+        <div class="stress-label">강세 없음</div>
+        <div class="stress-sound">≈ 동일</div>
+        <div class="stress-ipa">거의 유지</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- Ё special -->
+<div class="yo-box">
+  <div class="yo-letter">Ё</div>
+  <div class="yo-text">
+    <strong>Ё는 항상 강세.</strong> 예외 없음.<br>
+    강세 표시가 없는 텍스트에서도 Ё가 있으면 그 위치가 강세.<br>
+    일반 텍스트에서 Е로 표기되더라도, 원래 Ё인 단어는 "요"로 읽어야 함.<br>
+    예: <strong>всё</strong>(브쇼 — 모든 것) vs <strong>все</strong>(프시에 — 모두)
+  </div>
+</div>
+
+<h2>실제 단어 예시</h2>
+<table>
+  <thead>
+    <tr>
+      <th>단어 (강세 표시)</th>
+      <th>철자 읽기</th>
+      <th>실제 발음</th>
+      <th>뜻</th>
+      <th>약화 적용</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="o-row">
+      <td class="word-col">молок<span class="stress-mark">о́</span></td>
+      <td>몰로코</td>
+      <td class="reduced">малако́</td>
+      <td class="meaning-col">우유</td>
+      <td>O×2 → 아</td>
+    </tr>
+    <tr class="o-row">
+      <td class="word-col">хорош<span class="stress-mark">о́</span></td>
+      <td>호로쇼</td>
+      <td class="reduced">харашо́</td>
+      <td class="meaning-col">좋아요</td>
+      <td>O×2 → 아</td>
+    </tr>
+    <tr class="o-row">
+      <td class="word-col">Москв<span class="stress-mark">а́</span></td>
+      <td>모스크바</td>
+      <td class="reduced">Масква́</td>
+      <td class="meaning-col">모스크바</td>
+      <td>O → 아</td>
+    </tr>
+    <tr class="e-row">
+      <td class="word-col">сестр<span class="stress-mark">а́</span></td>
+      <td>세스트라</td>
+      <td class="reduced">систра́</td>
+      <td class="meaning-col">자매</td>
+      <td>Е → 이</td>
+    </tr>
+    <tr class="e-row">
+      <td class="word-col">мен<span class="stress-mark">я́</span></td>
+      <td>메냐</td>
+      <td class="reduced">миня́</td>
+      <td class="meaning-col">나를</td>
+      <td>Е → 이</td>
+    </tr>
+    <tr class="both-row">
+      <td class="word-col">сег<span class="stress-mark">о́</span>дня</td>
+      <td>세고드냐</td>
+      <td class="reduced">сиво́дня</td>
+      <td class="meaning-col">오늘</td>
+      <td>Е→이 + Г→В</td>
+    </tr>
+    <tr class="both-row">
+      <td class="word-col">тепер<span class="stress-mark">ь</span></td>
+      <td>테페리</td>
+      <td class="reduced">типе́рь</td>
+      <td class="meaning-col">지금</td>
+      <td>Е×2 → 이</td>
+    </tr>
+    <tr class="o-row">
+      <td class="word-col">гор<span class="stress-mark">о́</span>д</td>
+      <td>고로드</td>
+      <td class="reduced">го́рат</td>
+      <td class="meaning-col">도시</td>
+      <td>O→아 + 어말D→Т</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>핵심 규칙 요약</h2>
+<div class="grid">
+
+  <div class="card" style="background:#fffdf0; border-color:#fde68a">
+    <h3>О 약화 — 가장 중요</h3>
+    <p>
+      강세 <strong>O</strong> = "오" 그대로<br>
+      강세 없는 <strong>O</strong> <span class="arrow">→</span> "아"<br>
+      강세 앞 위치일수록 더 약화됨<br>
+      <code>молоко</code> = 말-라-코
+    </p>
+  </div>
+
+  <div class="card" style="background:#eff6ff; border-color:#bfdbfe">
+    <h3>Е 약화 — 두 번째로 중요</h3>
+    <p>
+      강세 <strong>Е</strong> = "예/에"<br>
+      강세 없는 <strong>Е</strong> <span class="arrow">→</span> "이" 유사<br>
+      Я도 비강세 위치에서 같은 방향으로 약화<br>
+      <code>сестра</code> = 시-стра
+    </p>
+  </div>
+
+  <div class="card" style="background:#f0fdf4; border-color:#bbf7d0">
+    <h3>약화 안 되는 모음</h3>
+    <ul>
+      <li><strong>И</strong> — 강세 무관 유지</li>
+      <li><strong>Ы</strong> — 강세 무관 유지</li>
+      <li><strong>У / Ю</strong> — 거의 유지</li>
+      <li><strong>Ё</strong> — 항상 강세, 약화 없음</li>
+    </ul>
+  </div>
+
+  <div class="card" style="background:#fdf4ff; border-color:#e9d5ff">
+    <h3>강세 위치 찾는 법</h3>
+    <ul>
+      <li>일반 텍스트: 표시 없음 → 단어마다 외워야</li>
+      <li>Ё가 있으면 → 그 위치가 강세</li>
+      <li>학습 사전: ударение(´) 표시 있음</li>
+      <li>강세 위치가 바뀌면 뜻도 바뀜:<br><code>за́мок</code>(성) vs <code>замо́к</code>(자물쇠)</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>왜 듣기가 어려운가</h3>
+    <p>
+      철자엔 О와 Е가 가득하지만<br>
+      강세 없는 위치에선 모두 "아"/"이"로 들림.<br>
+      철자 → 발음 방향 연습 필수.<br>
+      <code>хорошо</code> 철자 읽기 vs 실제 발음 비교.
+    </p>
+  </div>
+
+</div>
+
+</body>
+</html>
