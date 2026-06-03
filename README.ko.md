@@ -44,6 +44,10 @@ brain/
   - **Fluent** — 예외·뉘앙스·엣지케이스까지 막힘없이 처리
 - `.review/` — 복습 세션 중에만 존재하는 휘발성 폴더입니다. 세션이 끝나면 삭제됩니다(git 추적 제외).
 
+## 수준 기록
+
+주제별 현재 수준 — [brain.dongwook.kim/levels](https://brain.dongwook.kim/levels)
+
 ## 노트
 
 [brain.dongwook.kim](https://brain.dongwook.kim)에서 바로 열 수 있는 학습 노트입니다.

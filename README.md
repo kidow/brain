@@ -44,6 +44,10 @@ brain/
   - **Fluent** — handles exceptions, nuance, and edge cases without hesitation
 - `.review/` — an ephemeral folder that exists only during a review session and is deleted when it ends (excluded from git).
 
+## Levels
+
+Current level per topic — [brain.dongwook.kim/levels](https://brain.dongwook.kim/levels)
+
 ## Notes
 
 All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.kim).
