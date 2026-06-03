@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>스페인어 알파벳 이름</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  background: #0f1117;
+  color: #e2e8f0;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  padding: 40px 24px;
+  min-height: 100vh;
+}
+h1 { font-size: 16px; color: #5a6a82; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 24px; text-align: center; }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: 10px;
+  max-width: 860px;
+  margin: 0 auto 32px;
+}
+.card {
+  background: #161b27;
+  border: 1px solid #252d3d;
+  border-radius: 10px;
+  padding: 14px 16px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  cursor: pointer;
+  transition: all 0.12s;
+}
+.card:hover { border-color: #7c9ef5; background: #1e2e4a; }
+.card.playing { border-color: #f6c460; background: #2a2010; }
+.letter { font-size: 32px; font-weight: 700; color: #7c9ef5; min-width: 32px; text-align: center; }
+.right { display: flex; flex-direction: column; gap: 2px; }
+.name { font-size: 15px; font-weight: 600; }
+.reading { font-size: 12px; color: #5a6a82; }
+.notes {
+  max-width: 860px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.note {
+  background: #161b27;
+  border-left: 3px solid #f6c460;
+  padding: 10px 14px;
+  border-radius: 0 8px 8px 0;
+  font-size: 13px;
+  color: #aaa;
+}
+.note strong { color: #e2e8f0; }
+</style>
+</head>
+<body>
+
+<h1>스페인어 알파벳 이름 — 클릭해서 듣기</h1>
+
+<div class="grid" id="grid"></div>
+
+<div class="notes">
+  <div class="note"><strong>h = 아체</strong> — 묵음이지만 글자 이름에 소리 있음</div>
+  <div class="note"><strong>w = 도블레 우베</strong> — "두 개의 v". 영어 double u와 같은 논리</div>
+  <div class="note"><strong>b vs v</strong> — 발음 동일. 구분 시 b="베 라르가(긴 b)", v="베 코르타(짧은 b)"</div>
+  <div class="note"><strong>y</strong> — 공식 이름 ye, 구식 이름 i griega("그리스의 i") 병용</div>
+</div>
+
+<script>
+const letters = [
+  { l: 'a',  name: 'a',          read: '아' },
+  { l: 'b',  name: 'be',         read: '베' },
+  { l: 'c',  name: 'ce',         read: '세' },
+  { l: 'd',  name: 'de',         read: '데' },
+  { l: 'e',  name: 'e',          read: '에' },
+  { l: 'f',  name: 'efe',        read: '에페' },
+  { l: 'g',  name: 'ge',         read: '헤' },
+  { l: 'h',  name: 'hache',      read: '아체' },
+  { l: 'i',  name: 'i',          read: '이' },
+  { l: 'j',  name: 'jota',       read: '호타' },
+  { l: 'k',  name: 'ka',         read: '까' },
+  { l: 'l',  name: 'ele',        read: '에레' },
+  { l: 'm',  name: 'eme',        read: '에메' },
+  { l: 'n',  name: 'ene',        read: '에네' },
+  { l: 'ñ',  name: 'eñe',        read: '에녜' },
+  { l: 'o',  name: 'o',          read: '오' },
+  { l: 'p',  name: 'pe',         read: '뻬' },
+  { l: 'q',  name: 'cu',         read: '꾸' },
+  { l: 'r',  name: 'erre',       read: '에르레' },
+  { l: 's',  name: 'ese',        read: '에세' },
+  { l: 't',  name: 'te',         read: '떼' },
+  { l: 'u',  name: 'u',          read: '우' },
+  { l: 'v',  name: 'uve',        read: '우베' },
+  { l: 'w',  name: 'doble uve',  read: '도블레 우베' },
+  { l: 'x',  name: 'equis',      read: '에끼스' },
+  { l: 'y',  name: 'ye',         read: '예' },
+  { l: 'z',  name: 'zeta',       read: '세타' },
+];
+
+const grid = document.getElementById('grid');
+letters.forEach(({ l, name, read }) => {
+  const card = document.createElement('div');
+  card.className = 'card';
+  card.innerHTML = `<div class="letter">${l}</div><div class="right"><div class="name">${name}</div><div class="reading">${read}</div></div>`;
+  card.onclick = () => playName(name, card);
+  grid.appendChild(card);
+});
+
+function playName(text, card) {
+  document.querySelectorAll('.card').forEach(c => c.classList.remove('playing'));
+  card.classList.add('playing');
+  const url = `https://translate.google.com/translate_tts?ie=UTF-8&q=${encodeURIComponent(text)}&tl=es&client=tw-ob&ttsspeed=0.85`;
+  const audio = new Audio(url);
+  audio.onended = () => card.classList.remove('playing');
+  audio.onerror = () => { speak(text, card); };
+  audio.play().catch(() => speak(text, card));
+}
+
+function speak(text, card) {
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = 'es-ES'; u.rate = 0.85;
+  u.onend = () => card.classList.remove('playing');
+  speechSynthesis.cancel();
+  speechSynthesis.speak(u);
+}
+</script>
+</body>
+</html>
