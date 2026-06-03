@@ -31,6 +31,7 @@ brain/
 ├── notes/            # learned knowledge (written by teach-me, read by review-me)
 │   ├── topic_name.md #  - one file per topic, no date (git history tracks time)
 │   └── <domain>/     #  - notes auto-organize into domain subfolders as they grow
+├── sheets/           # quick-reference cheat sheets (HTML, served via GitHub Pages)
 ├── levels.md         # per-topic level memory (Blank/Glimpsed/Grounded/Fluent)
 └── README.md
 ```
@@ -42,6 +43,28 @@ brain/
   - **Grounded** — explains it independently and applies it in new contexts
   - **Fluent** — handles exceptions, nuance, and edge cases without hesitation
 - `.review/` — an ephemeral folder that exists only during a review session and is deleted when it ends (excluded from git).
+
+## Cheat Sheets
+
+Quick-reference sheets served live at [brain.dongwook.kim](https://brain.dongwook.kim).
+
+**Japanese**
+- [히라가나 치트시트](https://brain.dongwook.kim/sheets/히라가나_치트시트.html)
+- [가타카나 치트시트](https://brain.dongwook.kim/sheets/가타카나_치트시트.html)
+
+**Russian**
+- [러시아어 치트시트](https://brain.dongwook.kim/sheets/러시아어_치트시트.html)
+- [러시아어 알파벳 이름](https://brain.dongwook.kim/sheets/러시아어_알파벳_이름.html)
+- [러시아어 모음 약화](https://brain.dongwook.kim/sheets/러시아어_모음_약화.html)
+
+**Chinese**
+- [병음 표](https://brain.dongwook.kim/sheets/병음_표.html)
+
+**German**
+- [독일어 치트시트](https://brain.dongwook.kim/sheets/독일어_치트시트.html)
+
+**Spanish**
+- [스페인어 알파벳 이름](https://brain.dongwook.kim/sheets/스페인어_알파벳_이름.html)
 
 ## Installing the skills
 

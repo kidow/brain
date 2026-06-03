@@ -31,6 +31,7 @@ brain/
 ├── notes/            # 배운 지식 (teach-me가 작성, review-me가 읽음)
 │   ├── topic_name.md #  - 주제당 1파일, 날짜 없음(git 히스토리가 시점 추적)
 │   └── <domain>/     #  - 주제가 쌓이면 도메인별 하위 폴더로 자동 정리
+├── sheets/           # 빠른 참조용 치트시트 (HTML, GitHub Pages로 서빙)
 ├── levels.md         # 주제별 수준 메모리 (Blank/Glimpsed/Grounded/Fluent)
 └── README.md
 ```
@@ -42,6 +43,28 @@ brain/
   - **Grounded** — 자기 말로 설명하고 새 맥락에 적용 가능
   - **Fluent** — 예외·뉘앙스·엣지케이스까지 막힘없이 처리
 - `.review/` — 복습 세션 중에만 존재하는 휘발성 폴더입니다. 세션이 끝나면 삭제됩니다(git 추적 제외).
+
+## 치트시트
+
+[brain.dongwook.kim](https://brain.dongwook.kim)에서 바로 열 수 있는 빠른 참조 시트입니다.
+
+**일본어**
+- [히라가나 치트시트](https://brain.dongwook.kim/sheets/히라가나_치트시트.html)
+- [가타카나 치트시트](https://brain.dongwook.kim/sheets/가타카나_치트시트.html)
+
+**러시아어**
+- [러시아어 치트시트](https://brain.dongwook.kim/sheets/러시아어_치트시트.html)
+- [러시아어 알파벳 이름](https://brain.dongwook.kim/sheets/러시아어_알파벳_이름.html)
+- [러시아어 모음 약화](https://brain.dongwook.kim/sheets/러시아어_모음_약화.html)
+
+**중국어**
+- [병음 표](https://brain.dongwook.kim/sheets/병음_표.html)
+
+**독일어**
+- [독일어 치트시트](https://brain.dongwook.kim/sheets/독일어_치트시트.html)
+
+**스페인어**
+- [스페인어 알파벳 이름](https://brain.dongwook.kim/sheets/스페인어_알파벳_이름.html)
 
 ## 스킬 설치
 
