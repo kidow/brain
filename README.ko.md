@@ -44,6 +44,47 @@ brain/
   - **Fluent** — 예외·뉘앙스·엣지케이스까지 막힘없이 처리
 - `.review/` — 복습 세션 중에만 존재하는 휘발성 폴더입니다. 세션이 끝나면 삭제됩니다(git 추적 제외).
 
+## 노트
+
+[brain.dongwook.kim](https://brain.dongwook.kim)에서 바로 열 수 있는 학습 노트입니다.
+
+**언어 — 일본어**
+- [히라가나](https://brain.dongwook.kim/notes/히라가나)
+- [가타카나](https://brain.dongwook.kim/notes/가타카나)
+- [일본어 문자의 특징](https://brain.dongwook.kim/notes/일본어_문자의_특징)
+- [일본어 기본 한자](https://brain.dongwook.kim/notes/일본어_기본_한자)
+
+**언어 — 중국어**
+- [중국어 문자](https://brain.dongwook.kim/notes/중국어_문자)
+
+**언어 — 러시아어**
+- [러시아어 문자의 특징](https://brain.dongwook.kim/notes/러시아어_문자의_특징)
+
+**언어 — 스페인어**
+- [스페인어 문자](https://brain.dongwook.kim/notes/스페인어_문자)
+
+**언어 — 독일어**
+- [독일어 문자](https://brain.dongwook.kim/notes/독일어_문자)
+
+**언어 — 프랑스어**
+- [프랑스어 문자](https://brain.dongwook.kim/notes/프랑스어_문자)
+
+**언어 — 아랍어**
+- [아랍어 문자](https://brain.dongwook.kim/notes/아랍어_문자)
+
+**언어 — 영어**
+- [영어](https://brain.dongwook.kim/notes/영어)
+
+**음악**
+- [음악 이론 기초](https://brain.dongwook.kim/notes/음악_이론_기초)
+- [AI 음악 프롬프팅](https://brain.dongwook.kim/notes/AI_음악_프롬프팅)
+
+**예술**
+- [미술 작품 교양](https://brain.dongwook.kim/notes/미술_작품_교양)
+
+**과학**
+- [화학](https://brain.dongwook.kim/notes/화학)
+
 ## 치트시트
 
 [brain.dongwook.kim](https://brain.dongwook.kim)에서 바로 열 수 있는 빠른 참조 시트입니다.
