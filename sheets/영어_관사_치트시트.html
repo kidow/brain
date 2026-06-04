@@ -11,7 +11,9 @@
     font-family: system-ui, -apple-system, sans-serif;
     background: #fff;
     color: #1a1a1a;
-    padding: 1.5rem 2rem;
+    padding: 1.5rem 1.25rem;
+    max-width: 800px;
+    margin: 0 auto;
     font-size: 14px;
     line-height: 1.4;
   }
@@ -112,16 +114,90 @@
   .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 0.5rem; }
 
   .flow {
-    background: #f8f8f8;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    max-width: 520px;
+  }
+
+  .flow-step {
+    display: flex;
+    gap: 0;
+  }
+
+  .flow-stem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 2rem;
+    flex-shrink: 0;
+  }
+
+  .flow-stem .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #999;
+    flex-shrink: 0;
+    margin-top: 0.55rem;
+  }
+
+  .flow-stem .line {
+    width: 2px;
+    flex: 1;
+    background: #ddd;
+    min-height: 1rem;
+  }
+
+  .flow-body {
+    flex: 1;
+    padding-bottom: 0.75rem;
+  }
+
+  .flow-q {
+    font-weight: 700;
+    font-size: 0.82rem;
+    color: #333;
+    padding: 0.45rem 0.7rem;
+    background: #f0f0f0;
     border: 1px solid #ddd;
     border-radius: 6px;
-    padding: 0.9rem 1.1rem;
-    font-size: 0.8rem;
-    font-family: monospace;
-    line-height: 1.9;
-    margin-top: 0.5rem;
-    color: #333;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
   }
+
+  .flow-branches {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.35rem;
+    flex-wrap: wrap;
+  }
+
+  .flow-branch {
+    flex: 1;
+    min-width: 120px;
+    border-radius: 6px;
+    padding: 0.4rem 0.6rem;
+    font-size: 0.78rem;
+    line-height: 1.6;
+    border: 1px solid #ddd;
+  }
+
+  .flow-branch .label {
+    font-size: 0.68rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-bottom: 0.15rem;
+  }
+
+  .flow-branch.yes-prop  { background: #f4f0ff; border-color: #b8a0d8; }
+  .flow-branch.yes-the   { background: #fff8e8; border-color: #f0c040; }
+  .flow-branch.yes-zero  { background: #f4fff4; border-color: #80c080; }
+  .flow-branch.yes-a     { background: #f7fbff; border-color: #70a8c8; }
+  .flow-branch.no        { background: #fafafa; border-color: #ccc; color: #888; font-size:0.72rem; }
 
   tr.row-a   td { background: #f7fbff; }
   tr.row-an  td { background: #f4fff4; }
@@ -467,22 +543,75 @@
 <!-- 판단 흐름도 -->
 <h2>관사 결정 흐름도</h2>
 <div class="flow">
-명사 앞에 뭘 쓸까?
-│
-├─ 고유명사? → 기본 무관사.
-│   단, 강·산맥·신문·복수 국가명·"the+형용사+명사" 구조 → the
-│
-├─ 화자·청자 모두 어느 건지 아나? (공유 지식)
-│   ├─ 예 → <strong>the</strong>
-│   └─ 아니오 ↓
-│
-├─ 총칭 표현? (종 전체, 추상 개념 일반)
-│   ├─ 예 → 무관사 복수 / 무관사 불가산
-│   └─ 아니오 ↓
-│
-└─ 가산명사 단수?
-    ├─ 예 → <strong>a</strong> (자음 소리) / <strong>an</strong> (모음 소리)
-    └─ 복수·불가산 → 무관사 (단위명사로 우회 가능)
+
+  <!-- Step 1 -->
+  <div class="flow-step">
+    <div class="flow-stem"><div class="dot"></div><div class="line"></div></div>
+    <div class="flow-body">
+      <div class="flow-q">① 고유명사인가? (Paris, John, Korea)</div>
+      <div class="flow-branches">
+        <div class="flow-branch yes-prop">
+          <div class="label">예 →</div>
+          <strong>무관사</strong><br>
+          <span style="color:#800; font-size:0.72rem;">예외: 강·산맥·신문·복수 국가명<br>→ <strong>the</strong> Nile / the Alps / the BBC</span>
+        </div>
+        <div class="flow-branch no"><div class="label">아니오 →</div>다음 단계</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Step 2 -->
+  <div class="flow-step">
+    <div class="flow-stem"><div class="dot"></div><div class="line"></div></div>
+    <div class="flow-body">
+      <div class="flow-q">② 화자·청자 모두 어느 건지 아는가? (공유 지식)</div>
+      <div class="flow-branches">
+        <div class="flow-branch yes-the">
+          <div class="label">예 →</div>
+          <strong>the</strong><br>
+          <span style="font-size:0.72rem;">재등장 / 맥락으로 뻔함 / 세상에 하나뿐<br>the salt · the sun · the door</span>
+        </div>
+        <div class="flow-branch no"><div class="label">아니오 →</div>다음 단계</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Step 3 -->
+  <div class="flow-step">
+    <div class="flow-stem"><div class="dot"></div><div class="line"></div></div>
+    <div class="flow-body">
+      <div class="flow-q">③ 총칭 표현인가? (종 전체·추상 개념 일반)</div>
+      <div class="flow-branches">
+        <div class="flow-branch yes-zero">
+          <div class="label">예 →</div>
+          <strong>무관사</strong><br>
+          <span style="font-size:0.72rem;">Dogs are loyal.<br>Happiness is important.</span>
+        </div>
+        <div class="flow-branch no"><div class="label">아니오 →</div>다음 단계</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Step 4 -->
+  <div class="flow-step">
+    <div class="flow-stem"><div class="dot"></div></div>
+    <div class="flow-body">
+      <div class="flow-q">④ 가산명사 단수인가?</div>
+      <div class="flow-branches">
+        <div class="flow-branch yes-a">
+          <div class="label">예 →</div>
+          <strong>a</strong> (자음 소리 시작)<br>
+          <strong>an</strong> (모음 소리 시작)
+        </div>
+        <div class="flow-branch yes-zero">
+          <div class="label">복수·불가산 →</div>
+          <strong>무관사</strong><br>
+          <span style="font-size:0.72rem;">단위명사로 우회 가능<br>a glass of water</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </div>
 
 </body>

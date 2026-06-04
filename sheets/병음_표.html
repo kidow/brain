@@ -28,7 +28,9 @@ body {
   color: var(--text);
   font-family: 'Segoe UI', 'Apple SD Gothic Neo', system-ui, sans-serif;
   font-size: 13px;
-  padding: 24px;
+  padding: 1.5rem 1.25rem;
+  max-width: 800px;
+  margin: 0 auto;
   min-height: 100vh;
 }
 
@@ -215,6 +217,12 @@ td.empty { background: transparent; color: transparent; }
   font-size: 11px;
   margin-top: 12px;
   line-height: 1.6;
+}
+@media print {
+  body { padding: 0.5cm; }
+}
+@media (max-width: 600px) {
+  body { padding: 1rem; }
 }
 </style>
 </head>

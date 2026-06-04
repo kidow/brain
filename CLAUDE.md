@@ -19,6 +19,15 @@
 - 파일명의 `_`는 링크 표시 텍스트에서 공백으로 변환한다. 예: `러시아어_치트시트` → `러시아어 치트시트`
 - 언어별 그룹으로 구분한다. 새 언어는 그룹을 신설한다.
 
+### sheets/ 레이아웃 규칙
+
+모든 치트시트 HTML 파일은 다음 레이아웃을 준수한다.
+
+- `body`에 `max-width: 800px` + `margin: 0 auto` + `padding: 1.5rem 1.25rem` 적용
+- 모바일/태블릿 우선: 좌우 여백으로 콘텐츠가 중앙 정렬되어 보임
+- `@media (max-width: 600px)`에서 `padding: 1rem 1rem` 으로 축소
+- `@media print`에서 `padding: 0.5cm` 으로 축소
+
 ### levels.md 규칙
 
 - 섹션: `README.md` → `## Levels`, `README.ko.md` → `## 수준 기록`
