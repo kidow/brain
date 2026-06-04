@@ -6,15 +6,14 @@
 <style>
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body {
-  background: #0f1117;
-  color: #e2e8f0;
+  background: #fff;
+  color: #1a1a1a;
   font-family: 'Segoe UI', system-ui, sans-serif;
   padding: 1.5rem 1.25rem;
   max-width: 800px;
   margin: 0 auto;
-  min-height: 100vh;
 }
-h1 { font-size: 16px; color: #5a6a82; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 24px; text-align: center; }
+h1 { font-size: 16px; color: #666; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 24px; text-align: center; }
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
@@ -23,8 +22,8 @@ h1 { font-size: 16px; color: #5a6a82; letter-spacing: 1px; text-transform: upper
   margin: 0 auto 32px;
 }
 .card {
-  background: #161b27;
-  border: 1px solid #252d3d;
+  background: #f8f8f8;
+  border: 1px solid #ddd;
   border-radius: 10px;
   padding: 14px 16px;
   display: flex;
@@ -33,12 +32,12 @@ h1 { font-size: 16px; color: #5a6a82; letter-spacing: 1px; text-transform: upper
   cursor: pointer;
   transition: all 0.12s;
 }
-.card:hover { border-color: #7c9ef5; background: #1e2e4a; }
-.card.playing { border-color: #f6c460; background: #2a2010; }
-.letter { font-size: 32px; font-weight: 700; color: #7c9ef5; min-width: 32px; text-align: center; }
+.card:hover { border-color: #2563eb; background: #eff6ff; }
+.card.playing { border-color: #d97706; background: #fefce8; }
+.letter { font-size: 32px; font-weight: 700; color: #2563eb; min-width: 32px; text-align: center; }
 .right { display: flex; flex-direction: column; gap: 2px; }
 .name { font-size: 15px; font-weight: 600; }
-.reading { font-size: 12px; color: #5a6a82; }
+.reading { font-size: 12px; color: #888; }
 .notes {
   max-width: 860px;
   margin: 0 auto;
@@ -47,14 +46,14 @@ h1 { font-size: 16px; color: #5a6a82; letter-spacing: 1px; text-transform: upper
   gap: 8px;
 }
 .note {
-  background: #161b27;
-  border-left: 3px solid #f6c460;
+  background: #f8f8f8;
+  border-left: 3px solid #d97706;
   padding: 10px 14px;
   border-radius: 0 8px 8px 0;
   font-size: 13px;
-  color: #aaa;
+  color: #666;
 }
-.note strong { color: #e2e8f0; }
+.note strong { color: #1a1a1a; }
 @media print {
   body { padding: 0.5cm; }
 }

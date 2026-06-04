@@ -6,19 +6,19 @@
 <title>병음표 拼音表</title>
 <style>
 :root {
-  --bg: #0f1117;
-  --surface: #161b27;
-  --border: #252d3d;
-  --text: #e2e8f0;
-  --muted: #5a6a82;
-  --accent: #7c9ef5;
-  --tone1: #f6c460;
-  --tone2: #5dba7d;
-  --tone3: #5ba8d8;
-  --tone4: #e06c6c;
-  --neutral: #a98fdf;
-  --cell-valid: #141c2e;
-  --cell-hover: #1e2e4a;
+  --bg: #fff;
+  --surface: #f8f8f8;
+  --border: #ddd;
+  --text: #1a1a1a;
+  --muted: #888;
+  --accent: #2563eb;
+  --tone1: #ca8a04;
+  --tone2: #16a34a;
+  --tone3: #2563eb;
+  --tone4: #dc2626;
+  --neutral: #7c3aed;
+  --cell-valid: #eff6ff;
+  --cell-hover: #dbeafe;
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -31,7 +31,6 @@ body {
   padding: 1.5rem 1.25rem;
   max-width: 800px;
   margin: 0 auto;
-  min-height: 100vh;
 }
 
 h1 { font-size: 22px; font-weight: 700; letter-spacing: -0.5px; }
@@ -82,11 +81,11 @@ h1 { font-size: 22px; font-weight: 700; letter-spacing: -0.5px; }
   font-family: inherit;
 }
 .tone-btn:hover { border-color: var(--accent); color: var(--accent); }
-.tone-btn.active.t1 { background: #2d2510; border-color: var(--tone1); color: var(--tone1); }
-.tone-btn.active.t2 { background: #0f2318; border-color: var(--tone2); color: var(--tone2); }
-.tone-btn.active.t3 { background: #0d1e2d; border-color: var(--tone3); color: var(--tone3); }
-.tone-btn.active.t4 { background: #2a1010; border-color: var(--tone4); color: var(--tone4); }
-.tone-btn.active.t0 { background: #1e1530; border-color: var(--neutral); color: var(--neutral); }
+.tone-btn.active.t1 { background: #fef9c3; border-color: var(--tone1); color: var(--tone1); }
+.tone-btn.active.t2 { background: #dcfce7; border-color: var(--tone2); color: var(--tone2); }
+.tone-btn.active.t3 { background: #dbeafe; border-color: var(--tone3); color: var(--tone3); }
+.tone-btn.active.t4 { background: #fee2e2; border-color: var(--tone4); color: var(--tone4); }
+.tone-btn.active.t0 { background: #f3e8ff; border-color: var(--neutral); color: var(--neutral); }
 
 /* Table wrapper */
 .table-wrap {
@@ -115,7 +114,7 @@ th, td {
 thead th {
   position: sticky;
   top: 0;
-  background: #0c0f18;
+  background: #f0f0f0;
   z-index: 2;
   color: var(--accent);
   font-weight: 600;
@@ -127,7 +126,7 @@ thead th {
 td.final-cell {
   position: sticky;
   left: 0;
-  background: #0c0f18;
+  background: #f0f0f0;
   z-index: 1;
   color: var(--muted);
   font-size: 11px;
@@ -141,7 +140,7 @@ thead th:first-child {
   position: sticky;
   left: 0;
   z-index: 3;
-  background: #090b14;
+  background: #e8e8e8;
   font-size: 10px;
   color: var(--muted);
   font-weight: 400;
@@ -152,7 +151,7 @@ thead th:first-child {
 
 /* Group header rows */
 tr.group-hdr td {
-  background: #0d1020;
+  background: #e8eeff;
   color: var(--accent);
   font-size: 10px;
   letter-spacing: 0.3px;
@@ -164,7 +163,7 @@ tr.group-hdr td {
 }
 tr.group-hdr td + td {
   position: static;
-  background: #0d1020;
+  background: #e8eeff;
   border-left: none;
 }
 
@@ -172,17 +171,17 @@ tr.group-hdr td + td {
 td.valid {
   background: var(--cell-valid);
   cursor: pointer;
-  color: #89b4fa;
+  color: var(--accent);
   transition: background 0.1s, color 0.1s;
   font-weight: 500;
 }
 td.valid:hover {
   background: var(--cell-hover);
-  color: #fff;
+  color: #1a1a1a;
 }
 td.valid.playing {
-  background: #1a3358;
-  color: #fff;
+  background: #dbeafe;
+  color: #1a1a1a;
   outline: 1px solid var(--accent);
 }
 
@@ -208,7 +207,7 @@ td.empty { background: transparent; color: transparent; }
   font-weight: 700;
   display: none;
   z-index: 999;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
   letter-spacing: 1px;
 }
 
