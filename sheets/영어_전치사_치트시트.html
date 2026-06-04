@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>영어 전치사 치트시트</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: system-ui, -apple-system, sans-serif;
+    background: #fff;
+    color: #1a1a1a;
+    padding: 1.5rem 2rem;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  h1 { font-size: 1.4rem; margin-bottom: 0.25rem; }
+
+  .subtitle {
+    color: #666;
+    font-size: 0.85rem;
+    margin-bottom: 1.5rem;
+  }
+
+  h2 {
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin: 1.5rem 0 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #444;
+  }
+
+  table { border-collapse: collapse; width: 100%; margin-bottom: 0.5rem; }
+
+  th, td {
+    border: 1px solid #ddd;
+    text-align: left;
+    vertical-align: middle;
+    padding: 0.4rem 0.6rem;
+  }
+
+  thead th {
+    background: #f0f0f0;
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: #555;
+    text-align: center;
+  }
+
+  .prep {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    white-space: nowrap;
+    text-align: center;
+    min-width: 80px;
+  }
+
+  .meaning {
+    font-size: 0.8rem;
+    color: #444;
+  }
+
+  .examples {
+    font-size: 0.78rem;
+    color: #666;
+    font-style: italic;
+  }
+
+  .badge {
+    display: inline-block;
+    font-size: 0.65rem;
+    font-weight: 700;
+    padding: 0.1rem 0.3rem;
+    border-radius: 3px;
+    vertical-align: middle;
+    margin-left: 3px;
+  }
+  .badge.formal  { background: #e0eeff; color: #05c; }
+  .badge.casual  { background: #e8ffe8; color: #080; }
+  .badge.warn    { background: #ffe0e0; color: #c00; }
+
+  .ok  { color: #080; font-weight: 700; }
+  .bad { color: #c00; font-weight: 700; text-decoration: line-through; }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 0.75rem;
+    margin-top: 0.5rem;
+  }
+
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0.75rem 0.9rem;
+    background: #fff;
+  }
+  .card.blue   { background: #f7fbff; }
+  .card.amber  { background: #fff8e8; }
+  .card.purple { background: #f4f0ff; }
+  .card.green  { background: #f4fff4; }
+  .card.red    { background: #fff0f0; }
+
+  .card h3 {
+    font-size: 0.74rem;
+    font-weight: 700;
+    color: #666;
+    margin-bottom: 0.45rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+
+  .card p, .card li {
+    font-size: 0.8rem;
+    color: #444;
+    line-height: 1.8;
+  }
+
+  .card ul {
+    padding-left: 1rem;
+  }
+
+  .card code {
+    font-size: 0.8rem;
+    background: #f0f0f0;
+    padding: 0.05rem 0.25rem;
+    border-radius: 4px;
+  }
+
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 0.5rem; }
+
+  .colloc-group { margin-bottom: 0.75rem; }
+  .colloc-label {
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.25rem;
+  }
+  .colloc-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+  }
+  .colloc-item {
+    font-size: 0.78rem;
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 0.15rem 0.4rem;
+    color: #333;
+  }
+
+  tr.time-in  td { background: #f7fbff; }
+  tr.time-on  td { background: #f4fff4; }
+  tr.time-at  td { background: #fff8e8; }
+  tr.place-in td { background: #f7fbff; }
+  tr.place-on td { background: #f4fff4; }
+  tr.place-at td { background: #fff8e8; }
+
+  @media print {
+    body { padding: 0.5cm; font-size: 11px; }
+    h2 { margin-top: 0.75rem; }
+    .grid { grid-template-columns: repeat(2, 1fr); }
+    .two-col { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  @media (max-width: 600px) {
+    body { padding: 1rem; }
+    .grid { grid-template-columns: 1fr; }
+    .two-col { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<h1>영어 전치사 치트시트</h1>
+<p class="subtitle">시간·장소·이동·방향·원인·관계·콜로케이션·생략 규칙 총정리</p>
+
+<!-- 시간 -->
+<h2>시간 전치사 — 범위 클수록 in, 작을수록 at</h2>
+<table>
+  <thead>
+    <tr><th style="width:80px">전치사</th><th>범위</th><th>예시</th></tr>
+  </thead>
+  <tbody>
+    <tr class="time-in">
+      <td class="prep">in</td>
+      <td class="meaning">넓은 기간 (연·월·계절·아침/오후)</td>
+      <td class="examples">in 2024, in March, in summer, in the morning</td>
+    </tr>
+    <tr class="time-on">
+      <td class="prep">on</td>
+      <td class="meaning">하루 단위 (요일·날짜)</td>
+      <td class="examples">on Monday, on March 5th, on Christmas Day</td>
+    </tr>
+    <tr class="time-at">
+      <td class="prep">at</td>
+      <td class="meaning">특정 시점 (시각·순간)</td>
+      <td class="examples">at 3 o'clock, at noon, at midnight, at the moment</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="grid">
+  <div class="card amber">
+    <h3>함정 — this/next/last 붙으면 전치사 탈락</h3>
+    <ul>
+      <li><span class="ok">on</span> Friday → <span class="ok">this</span> Friday (on 없음)</li>
+      <li><span class="ok">on</span> Monday → <span class="ok">next</span> Monday (on 없음)</li>
+      <li><span class="ok">in</span> the morning → <span class="ok">on</span> Monday morning (날 우선)</li>
+    </ul>
+  </div>
+  <div class="card red">
+    <h3>전치사 생략 — 시간 부사</h3>
+    <ul>
+      <li><span class="bad">on</span> yesterday / today / tomorrow</li>
+      <li><span class="bad">on</span> last Monday / <span class="bad">on</span> next week</li>
+      <li>yesterday, today, tomorrow, last~, next~, every~ → 전치사 없음</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 장소 -->
+<h2>장소 전치사 — 동일 논리</h2>
+<table>
+  <thead>
+    <tr><th style="width:80px">전치사</th><th>범위</th><th>예시</th></tr>
+  </thead>
+  <tbody>
+    <tr class="place-in">
+      <td class="prep">in</td>
+      <td class="meaning">둘러싸인 공간 안</td>
+      <td class="examples">in the room, in Seoul, in the box, in a car (밀폐)</td>
+    </tr>
+    <tr class="place-on">
+      <td class="prep">on</td>
+      <td class="meaning">표면 위 접촉</td>
+      <td class="examples">on the table, on the wall, on the floor, on a bus/train/plane</td>
+    </tr>
+    <tr class="place-at">
+      <td class="prep">at</td>
+      <td class="meaning">특정 지점·장소</td>
+      <td class="examples">at the bus stop, at the door, at school (위치), at the office</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="grid">
+  <div class="card blue">
+    <h3>교통수단 — in vs on</h3>
+    <ul>
+      <li><code>in</code> — 밀폐: in a car, in a taxi, in a helicopter</li>
+      <li><code>on</code> — 탑승 플랫폼: on a bus, on a train, on a plane, on a bike</li>
+    </ul>
+  </div>
+  <div class="card purple">
+    <h3>at school vs in school</h3>
+    <ul>
+      <li><code>at school</code> — 학교라는 장소에 있음 (위치)</li>
+      <li><code>in school</code> — 학교 교육 시스템 안에 있음 (재학 중)</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 이동 -->
+<h2>이동 전치사 — 도달하냐 vs 방향만이냐</h2>
+<table>
+  <thead>
+    <tr><th style="width:80px">전치사</th><th>의미</th><th>예시</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="prep">to</td>
+      <td class="meaning">목적지 도달</td>
+      <td class="examples">go to Seoul, walk to the door</td>
+    </tr>
+    <tr>
+      <td class="prep">toward</td>
+      <td class="meaning">방향만 (도달 여부 모름)</td>
+      <td class="examples">walk toward the door (열지 않을 수도)</td>
+    </tr>
+    <tr>
+      <td class="prep">into</td>
+      <td class="meaning">안으로 진입 (동작)</td>
+      <td class="examples">walk into the room, jump into the pool</td>
+    </tr>
+    <tr>
+      <td class="prep">onto</td>
+      <td class="meaning">표면 위로 도달 (동작)</td>
+      <td class="examples">climb onto the roof, jump onto the table</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="grid">
+  <div class="card green">
+    <h3>상태 vs 동작</h3>
+    <ul>
+      <li><code>in</code> (상태) → She is <strong>in</strong> the room.</li>
+      <li><code>into</code> (동작) → She walked <strong>into</strong> the room.</li>
+      <li><code>on</code> (상태) → The cat is <strong>on</strong> the table.</li>
+      <li><code>onto</code> (동작) → The cat jumped <strong>onto</strong> the table.</li>
+    </ul>
+  </div>
+  <div class="card red">
+    <h3>onto vs over</h3>
+    <ul>
+      <li><code>onto</code> — 올라가서 <strong>거기 착지</strong> (표면이 목적지)</li>
+      <li><code>over</code> — <strong>위를 넘어서</strong> 반대편으로</li>
+      <li>He climbed <span class="ok">onto</span> the roof. (지붕에 올라감)</li>
+      <li>He jumped <span class="ok">over</span> the fence. (울타리 너머로)</li>
+    </ul>
+  </div>
+  <div class="card amber">
+    <h3>방향 내포 동사 — to 생략</h3>
+    <ul>
+      <li><span class="bad">enter to</span> the room → <span class="ok">enter</span> the room</li>
+      <li><span class="bad">reach to</span> Seoul → <span class="ok">reach</span> Seoul</li>
+      <li><span class="bad">approach to</span> → <span class="ok">approach</span> the table</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 투과 -->
+<h2>투과·통과 전치사 — 어떻게 지나가냐</h2>
+<table>
+  <thead>
+    <tr><th style="width:80px">전치사</th><th>의미</th><th>예시</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="prep">through</td>
+      <td class="meaning">내부를 관통 (3D 공간 안)</td>
+      <td class="examples">through the tunnel, through the window, through the forest</td>
+    </tr>
+    <tr>
+      <td class="prep">across</td>
+      <td class="meaning">표면을 가로질러 (2D 평면)</td>
+      <td class="examples">across the street, across the bridge, across the room</td>
+    </tr>
+    <tr>
+      <td class="prep">along</td>
+      <td class="meaning">선을 따라 이동</td>
+      <td class="examples">along the river, along the road, along the corridor</td>
+    </tr>
+    <tr>
+      <td class="prep">past</td>
+      <td class="meaning">옆을 지나침 (멈추지 않음)</td>
+      <td class="examples">walk past the shop, drive past the school</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="grid">
+  <div class="card blue">
+    <h3>through vs across</h3>
+    <ul>
+      <li>터널 → <code>through</code> (안을 관통)</li>
+      <li>다리 → <code>across</code> (표면 위를 건넘)</li>
+      <li>숲 → <code>through</code> (나무 사이 안)</li>
+      <li>광장 → <code>across</code> (열린 평면)</li>
+    </ul>
+  </div>
+  <div class="card purple">
+    <h3>through vs beyond</h3>
+    <ul>
+      <li><code>through</code> — 관통해서 반대편 도달</li>
+      <li><code>beyond</code> — 그것을 넘어선 저편 (더 먼 곳)</li>
+      <li>She looked <span class="ok">through</span> the window.</li>
+      <li>A city <span class="ok">beyond</span> the mountains.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 수직 -->
+<h2>수직 위치 전치사 — 접촉하냐 vs 안 하냐</h2>
+<table>
+  <thead>
+    <tr><th style="width:80px">전치사</th><th>의미</th><th>접촉</th><th>예시</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="prep">over</td>
+      <td class="meaning">바로 위 (덮거나 이동 포함)</td>
+      <td class="meaning" style="text-align:center">가능</td>
+      <td class="examples">a blanket over him, fly over the city</td>
+    </tr>
+    <tr>
+      <td class="prep">above</td>
+      <td class="meaning">위 (단순 높이·수치 비교)</td>
+      <td class="meaning" style="text-align:center">없음</td>
+      <td class="examples">lamp above the table, above zero, above average</td>
+    </tr>
+    <tr>
+      <td class="prep">under</td>
+      <td class="meaning">바로 아래 (덮여 있는 느낌)</td>
+      <td class="meaning" style="text-align:center">가능</td>
+      <td class="examples">under the table, under the blanket</td>
+    </tr>
+    <tr>
+      <td class="prep">below</td>
+      <td class="meaning">아래 (단순 위치·수치·층위)</td>
+      <td class="meaning" style="text-align:center">없음</td>
+      <td class="examples">below zero, below sea level, below average</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- 근접·분리 -->
+<h2>근접·분리 전치사</h2>
+<table>
+  <thead>
+    <tr><th style="width:80px">전치사</th><th>의미</th><th>예시</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="prep">near</td>
+      <td class="meaning">가까이 (거리 막연)</td>
+      <td class="examples">near the station, near here</td>
+    </tr>
+    <tr>
+      <td class="prep">by / beside</td>
+      <td class="meaning">바로 옆 (near보다 가까움)</td>
+      <td class="examples">sit by me, stand beside the door</td>
+    </tr>
+    <tr>
+      <td class="prep">between</td>
+      <td class="meaning">사이 (둘, 또는 명확히 구분된 것들)</td>
+      <td class="examples">between A and B, between you and me</td>
+    </tr>
+    <tr>
+      <td class="prep">among</td>
+      <td class="meaning">사이 (셋 이상, 무리 속에 섞임)</td>
+      <td class="examples">among friends, among the trees, among the clothes</td>
+    </tr>
+    <tr>
+      <td class="prep">from</td>
+      <td class="meaning">출발점·분리·출신</td>
+      <td class="examples">from Korea, take from the shelf, far from perfect</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- 원인·수단 -->
+<h2>원인·수단·도구 전치사</h2>
+<table>
+  <thead>
+    <tr><th style="width:80px">전치사</th><th>의미</th><th>예시</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="prep">by</td>
+      <td class="meaning">수단·방법 / 행위자 (수동태)</td>
+      <td class="examples">by car, by hand, painted by Picasso, by pushing</td>
+    </tr>
+    <tr>
+      <td class="prep">with</td>
+      <td class="meaning">도구 (손에 쥔 것)</td>
+      <td class="examples">cut with a knife, write with a pen, killed with a knife</td>
+    </tr>
+    <tr>
+      <td class="prep">because of</td>
+      <td class="meaning">원인 <span class="badge casual">구어</span></td>
+      <td class="examples">late because of traffic, because of you</td>
+    </tr>
+    <tr>
+      <td class="prep">due to</td>
+      <td class="meaning">원인 <span class="badge formal">격식</span></td>
+      <td class="examples">cancelled due to rain, delayed due to bad weather</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="card amber" style="margin-top:0.5rem">
+  <h3>by 교통수단 — 관사 없음</h3>
+  <p><span class="ok">by car / by bus / by train / by plane</span> &nbsp;|&nbsp; <span class="bad">by a car</span> / <span class="bad">by the bus</span></p>
+</div>
+
+<!-- 관련·주제 -->
+<h2>관련·주제 전치사</h2>
+<table>
+  <thead>
+    <tr><th style="width:80px">전치사</th><th>의미</th><th>예시</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="prep">about</td>
+      <td class="meaning">~에 관해 <span class="badge casual">구어</span></td>
+      <td class="examples">talk about money, a book about war</td>
+    </tr>
+    <tr>
+      <td class="prep">on</td>
+      <td class="meaning">~에 관해 <span class="badge formal">격식·학술</span></td>
+      <td class="examples">a lecture on economics, an essay on climate</td>
+    </tr>
+    <tr>
+      <td class="prep">of</td>
+      <td class="meaning">~의 (소속·내용·구성·추상)</td>
+      <td class="examples">the smell of coffee, fear of failure, made of wood</td>
+    </tr>
+    <tr>
+      <td class="prep">for</td>
+      <td class="meaning">~을 위해 / 이유 / 기간</td>
+      <td class="examples">for you, famous for kimchi, wait for 2 hours</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="grid">
+  <div class="card green">
+    <h3>made of vs made from</h3>
+    <ul>
+      <li><code>made of</code> — 재료 그대로: table made <strong>of</strong> wood</li>
+      <li><code>made from</code> — 재료가 변형됨: wine made <strong>from</strong> grapes</li>
+    </ul>
+  </div>
+  <div class="card blue">
+    <h3>for 기간 vs since 시점</h3>
+    <ul>
+      <li><code>for</code> + 기간: I waited <strong>for</strong> 2 hours.</li>
+      <li><code>since</code> + 시작 시점: I've worked here <strong>since</strong> 2020.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 콜로케이션 -->
+<h2>동사+전치사 고정 표현 (콜로케이션) — 규칙 없음, 통째로 암기</h2>
+
+<div class="two-col">
+  <div>
+    <div class="colloc-group">
+      <div class="colloc-label">on</div>
+      <div class="colloc-list">
+        <span class="colloc-item">depend <strong>on</strong></span>
+        <span class="colloc-item">focus <strong>on</strong></span>
+        <span class="colloc-item">insist <strong>on</strong></span>
+        <span class="colloc-item">congratulate sb <strong>on</strong></span>
+        <span class="colloc-item">rely <strong>on</strong></span>
+      </div>
+    </div>
+    <div class="colloc-group">
+      <div class="colloc-label">with</div>
+      <div class="colloc-list">
+        <span class="colloc-item">agree <strong>with</strong></span>
+        <span class="colloc-item">deal <strong>with</strong></span>
+        <span class="colloc-item">help sb <strong>with</strong></span>
+        <span class="colloc-item">be satisfied <strong>with</strong></span>
+        <span class="colloc-item">provide sb <strong>with</strong></span>
+      </div>
+    </div>
+    <div class="colloc-group">
+      <div class="colloc-label">for</div>
+      <div class="colloc-list">
+        <span class="colloc-item">apologize <strong>for</strong></span>
+        <span class="colloc-item">apply <strong>for</strong></span>
+        <span class="colloc-item">wait <strong>for</strong></span>
+        <span class="colloc-item">blame sb <strong>for</strong></span>
+        <span class="colloc-item">search <strong>for</strong></span>
+      </div>
+    </div>
+    <div class="colloc-group">
+      <div class="colloc-label">of</div>
+      <div class="colloc-list">
+        <span class="colloc-item">consist <strong>of</strong></span>
+        <span class="colloc-item">think <strong>of</strong></span>
+        <span class="colloc-item">be afraid <strong>of</strong></span>
+        <span class="colloc-item">remind sb <strong>of</strong></span>
+        <span class="colloc-item">approve <strong>of</strong></span>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <div class="colloc-group">
+      <div class="colloc-label">at</div>
+      <div class="colloc-list">
+        <span class="colloc-item">look <strong>at</strong></span>
+        <span class="colloc-item">laugh <strong>at</strong></span>
+        <span class="colloc-item">arrive <strong>at</strong></span>
+        <span class="colloc-item">be good <strong>at</strong></span>
+        <span class="colloc-item">aim <strong>at</strong></span>
+      </div>
+    </div>
+    <div class="colloc-group">
+      <div class="colloc-label">to</div>
+      <div class="colloc-list">
+        <span class="colloc-item">listen <strong>to</strong></span>
+        <span class="colloc-item">belong <strong>to</strong></span>
+        <span class="colloc-item">apologize <strong>to</strong> (사람)</span>
+        <span class="colloc-item">respond <strong>to</strong></span>
+        <span class="colloc-item">object <strong>to</strong></span>
+      </div>
+    </div>
+    <div class="colloc-group">
+      <div class="colloc-label">from</div>
+      <div class="colloc-list">
+        <span class="colloc-item">suffer <strong>from</strong></span>
+        <span class="colloc-item">recover <strong>from</strong></span>
+        <span class="colloc-item">differ <strong>from</strong></span>
+        <span class="colloc-item">result <strong>from</strong></span>
+      </div>
+    </div>
+    <div class="colloc-group">
+      <div class="colloc-label">in</div>
+      <div class="colloc-list">
+        <span class="colloc-item">believe <strong>in</strong></span>
+        <span class="colloc-item">result <strong>in</strong></span>
+        <span class="colloc-item">succeed <strong>in</strong></span>
+        <span class="colloc-item">specialize <strong>in</strong></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card red" style="margin-top:0.75rem">
+  <h3>자주 틀리는 콜로케이션 함정</h3>
+  <ul>
+    <li><span class="bad">agree to</span> his opinion → <span class="ok">agree with</span> his opinion</li>
+    <li><span class="bad">wait to</span> you → <span class="ok">wait for</span> you</li>
+    <li><span class="bad">apologize to</span> my mistake → <span class="ok">apologize for</span> my mistake (행위에는 for / 사람에게는 to)</li>
+  </ul>
+</div>
+
+<!-- 생략 규칙 -->
+<h2>장소 전치사 생략 — home / here / there</h2>
+<div class="grid">
+  <div class="card red">
+    <h3>home — 부사, 전치사 없음</h3>
+    <ul>
+      <li><span class="bad">go to</span> home → <span class="ok">go home</span></li>
+      <li><span class="bad">come to</span> here → <span class="ok">come here</span></li>
+      <li>단, 소유격 붙으면 복활: <span class="ok">go to my home</span></li>
+    </ul>
+  </div>
+  <div class="card amber">
+    <h3>congratulate 구조</h3>
+    <ul>
+      <li>congratulate + <strong>사람</strong> + on + <strong>사건</strong></li>
+      <li>Congratulate <strong>her</strong> on <strong>winning</strong>.</li>
+      <li><span class="bad">Congratulate on</span> your promotion. (사람 필수)</li>
+    </ul>
+  </div>
+</div>
+
+</body>
+</html>

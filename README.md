@@ -112,6 +112,9 @@ Quick-reference sheets served live at [brain.dongwook.kim](https://brain.dongwoo
 **Spanish**
 - [스페인어 알파벳 이름](https://brain.dongwook.kim/sheets/스페인어_알파벳_이름.html)
 
+**English**
+- [영어 전치사 치트시트](https://brain.dongwook.kim/sheets/영어_전치사_치트시트.html)
+
 ## Installing the skills
 
 ```bash
