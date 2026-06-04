@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>영어 관사 치트시트</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: system-ui, -apple-system, sans-serif;
+    background: #fff;
+    color: #1a1a1a;
+    padding: 1.5rem 2rem;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  h1 { font-size: 1.4rem; margin-bottom: 0.25rem; }
+
+  .subtitle {
+    color: #666;
+    font-size: 0.85rem;
+    margin-bottom: 1.5rem;
+  }
+
+  h2 {
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin: 1.5rem 0 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #444;
+  }
+
+  table { border-collapse: collapse; width: 100%; margin-bottom: 0.5rem; }
+
+  th, td {
+    border: 1px solid #ddd;
+    text-align: left;
+    vertical-align: middle;
+    padding: 0.4rem 0.6rem;
+  }
+
+  thead th {
+    background: #f0f0f0;
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: #555;
+    text-align: center;
+  }
+
+  .art {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    white-space: nowrap;
+    text-align: center;
+    min-width: 70px;
+  }
+
+  .meaning { font-size: 0.8rem; color: #444; }
+  .examples { font-size: 0.78rem; color: #666; font-style: italic; }
+
+  .ok  { color: #080; font-weight: 700; }
+  .bad { color: #c00; font-weight: 700; text-decoration: line-through; }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 0.75rem;
+    margin-top: 0.5rem;
+  }
+
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0.75rem 0.9rem;
+    background: #fff;
+  }
+  .card.blue   { background: #f7fbff; }
+  .card.amber  { background: #fff8e8; }
+  .card.purple { background: #f4f0ff; }
+  .card.green  { background: #f4fff4; }
+  .card.red    { background: #fff0f0; }
+  .card.gray   { background: #f8f8f8; }
+
+  .card h3 {
+    font-size: 0.74rem;
+    font-weight: 700;
+    color: #666;
+    margin-bottom: 0.45rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+
+  .card p, .card li {
+    font-size: 0.8rem;
+    color: #444;
+    line-height: 1.8;
+  }
+
+  .card ul { padding-left: 1rem; }
+
+  .card code {
+    font-size: 0.8rem;
+    background: #f0f0f0;
+    padding: 0.05rem 0.25rem;
+    border-radius: 4px;
+  }
+
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 0.5rem; }
+
+  .flow {
+    background: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0.9rem 1.1rem;
+    font-size: 0.8rem;
+    font-family: monospace;
+    line-height: 1.9;
+    margin-top: 0.5rem;
+    color: #333;
+  }
+
+  tr.row-a   td { background: #f7fbff; }
+  tr.row-an  td { background: #f4fff4; }
+  tr.row-the td { background: #fff8e8; }
+  tr.row-zero td { background: #f8f8f8; }
+
+  @media print {
+    body { padding: 0.5cm; font-size: 11px; }
+    h2 { margin-top: 0.75rem; }
+    .grid { grid-template-columns: repeat(2, 1fr); }
+    .two-col { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  @media (max-width: 600px) {
+    body { padding: 1rem; }
+    .grid { grid-template-columns: 1fr; }
+    .two-col { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<h1>영어 관사 치트시트</h1>
+<p class="subtitle">a / an / the / 무관사 — 언제 뭘 쓰는지 한 장 정리</p>
+
+<!-- 개요 -->
+<h2>관사 3종 한눈에</h2>
+<table>
+  <thead>
+    <tr><th style="width:70px">관사</th><th>핵심 의미</th><th>예시</th></tr>
+  </thead>
+  <tbody>
+    <tr class="row-a">
+      <td class="art">a / an</td>
+      <td class="meaning">처음 언급 · 청자가 모르는 것 · 집합의 한 구성원</td>
+      <td class="examples">I saw a dog. / She is a doctor.</td>
+    </tr>
+    <tr class="row-the">
+      <td class="art">the</td>
+      <td class="meaning">화자·청자 모두 <em>어느 것인지</em> 아는 것 (공유 지식)</td>
+      <td class="examples">Pass the salt. / The dog bit me.</td>
+    </tr>
+    <tr class="row-zero">
+      <td class="art">∅ (무관사)</td>
+      <td class="meaning">총칭 · 고유명사 · 불가산 총칭 · 특정 장소 기능</td>
+      <td class="examples">Dogs are loyal. / I love music. / go to school.</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- a vs an -->
+<h2>a vs an — 철자가 아니라 소리 기준</h2>
+<table>
+  <thead>
+    <tr><th style="width:70px">형태</th><th>조건</th><th>예시</th><th>주의</th></tr>
+  </thead>
+  <tbody>
+    <tr class="row-a">
+      <td class="art">a</td>
+      <td class="meaning">자음 소리로 시작</td>
+      <td class="examples">a dog, a car, a university (/juː/), a European (/jʊər/)</td>
+      <td class="examples">철자가 모음이어도 발음이 /j/면 a</td>
+    </tr>
+    <tr class="row-an">
+      <td class="art">an</td>
+      <td class="meaning">모음 소리로 시작</td>
+      <td class="examples">an apple, an hour (/aʊər/), an MBA (/em/), an X-ray (/eks/)</td>
+      <td class="examples">h 묵음이면 an / 약어는 첫 글자 발음 기준</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- the 조건 -->
+<h2>the 쓰는 조건 — 공유 지식의 3가지 출처</h2>
+<div class="grid">
+  <div class="card blue">
+    <h3>1. 재등장 (앞서 언급됨)</h3>
+    <ul>
+      <li>I bought <strong>a</strong> laptop.</li>
+      <li><strong>The</strong> laptop crashed the next day.</li>
+    </ul>
+  </div>
+  <div class="card green">
+    <h3>2. 맥락 (상황으로 뻔함)</h3>
+    <ul>
+      <li>Pass me <strong>the</strong> salt. (식탁에 하나)</li>
+      <li>Close <strong>the</strong> door. (이 방의 문)</li>
+    </ul>
+  </div>
+  <div class="card amber">
+    <h3>3. 유일성 (세상에 하나뿐)</h3>
+    <ul>
+      <li><strong>The</strong> sun, <strong>the</strong> moon</li>
+      <li><strong>The</strong> president of the US</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 무관사 패턴 -->
+<h2>무관사 (Zero Article) 주요 패턴</h2>
+<table>
+  <thead>
+    <tr><th>패턴</th><th>예시</th><th>단, the 붙으면</th></tr>
+  </thead>
+  <tbody>
+    <tr class="row-zero">
+      <td class="meaning">복수 가산명사 — 총칭</td>
+      <td class="examples">Dogs are loyal. / Books are useful.</td>
+      <td class="examples">The dogs are in the yard. (특정 개들)</td>
+    </tr>
+    <tr class="row-zero">
+      <td class="meaning">불가산명사 — 총칭</td>
+      <td class="examples">I love music. / Water is essential.</td>
+      <td class="examples">Turn off the music. (지금 이 음악)</td>
+    </tr>
+    <tr class="row-zero">
+      <td class="meaning">추상명사 — 총칭</td>
+      <td class="examples">Happiness is important. / Love is complex.</td>
+      <td class="examples">The happiness I felt that day. (특정 감정)</td>
+    </tr>
+    <tr class="row-zero">
+      <td class="meaning">고유명사 (사람·도시·단수 국가)</td>
+      <td class="examples">Korea, Paris, John, Tokyo</td>
+      <td class="examples">—</td>
+    </tr>
+    <tr class="row-zero">
+      <td class="meaning">식사·스포츠·언어·학과</td>
+      <td class="examples">at breakfast, play tennis, speak Korean, study economics</td>
+      <td class="examples">The breakfast we had was great. (특정 식사)</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- 고유명사 예외 -->
+<h2>고유명사 예외 — the 붙는 경우</h2>
+<div class="two-col">
+  <table>
+    <thead>
+      <tr><th>the 없음</th><th>the 있음</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="examples">Korea, France, Japan</td>
+        <td class="examples"><strong>the</strong> United States, <strong>the</strong> Netherlands</td>
+      </tr>
+      <tr>
+        <td class="examples">Everest, Fuji</td>
+        <td class="examples"><strong>the</strong> Alps, <strong>the</strong> Himalayas (산맥)</td>
+      </tr>
+      <tr>
+        <td class="examples">Lake Baikal</td>
+        <td class="examples"><strong>the</strong> Nile, <strong>the</strong> Amazon (강)</td>
+      </tr>
+      <tr>
+        <td class="examples">John, Mary</td>
+        <td class="examples"><strong>the</strong> BBC, <strong>the</strong> New York Times</td>
+      </tr>
+      <tr>
+        <td class="examples">Buckingham Palace (이름=명사)</td>
+        <td class="examples"><strong>the</strong> White House, <strong>the</strong> Eiffel Tower</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="card amber">
+    <h3>왜 the Nile은 the가 붙나?</h3>
+    <p>원래 "the Nile <strong>River</strong>" — 이름이 수식어, 공통명사(river)에 the가 남음.</p>
+    <p style="margin-top:0.5rem">"Paris"는 이름 자체가 완전한 명사 → the 불필요.</p>
+    <p style="margin-top:0.5rem">규칙: 이름 = 수식어인 유형(강·산맥·신문)은 the 잔존.</p>
+  </div>
+</div>
+
+<!-- 장소 명사 -->
+<h2>장소 명사 — 관사 유무가 의미를 바꿈</h2>
+<table>
+  <thead>
+    <tr><th style="width:120px">무관사</th><th>의미</th><th style="width:120px">the + 명사</th><th>의미</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="art" style="font-size:0.85rem">go to school</td>
+      <td class="meaning">학생으로서 (기능)</td>
+      <td class="art" style="font-size:0.85rem">go to the school</td>
+      <td class="meaning">건물 방문</td>
+    </tr>
+    <tr>
+      <td class="art" style="font-size:0.85rem">go to church</td>
+      <td class="meaning">예배 목적</td>
+      <td class="art" style="font-size:0.85rem">go to the church</td>
+      <td class="meaning">건물 자체</td>
+    </tr>
+    <tr>
+      <td class="art" style="font-size:0.85rem">go to hospital</td>
+      <td class="meaning">입원·치료</td>
+      <td class="art" style="font-size:0.85rem">go to the hospital</td>
+      <td class="meaning">건물 방문</td>
+    </tr>
+    <tr>
+      <td class="art" style="font-size:0.85rem">go to prison</td>
+      <td class="meaning">수감됨</td>
+      <td class="art" style="font-size:0.85rem">go to the prison</td>
+      <td class="meaning">교도소 방문</td>
+    </tr>
+    <tr>
+      <td class="art" style="font-size:0.85rem">go to bed</td>
+      <td class="meaning">자러 감</td>
+      <td class="art" style="font-size:0.85rem">go to the bed</td>
+      <td class="meaning">침대 쪽으로 이동</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="card red" style="margin-top:0.5rem">
+  <h3>home — 부사, 전치사 to도 없음</h3>
+  <ul>
+    <li><span class="bad">go to home</span> / <span class="bad">go to the home</span> → <span class="ok">go home</span></li>
+    <li>비슷한 부사형: go <strong>abroad</strong>, go <strong>downtown</strong>, arrive <strong>home</strong></li>
+    <li>소유격 붙으면 복활: <span class="ok">go to my home</span></li>
+  </ul>
+</div>
+
+<!-- 총칭 3가지 비교 -->
+<h2>총칭 표현 3가지 비교 — "개는 충직하다"</h2>
+<table>
+  <thead>
+    <tr><th>형태</th><th>예시</th><th>뉘앙스</th><th>추천?</th></tr>
+  </thead>
+  <tbody>
+    <tr class="row-a">
+      <td class="art">A + 단수</td>
+      <td class="examples">A dog is loyal.</td>
+      <td class="meaning">정의적, 교과서·격식</td>
+      <td class="meaning" style="text-align:center">△</td>
+    </tr>
+    <tr class="row-the">
+      <td class="art">The + 단수</td>
+      <td class="examples">The dog is loyal.</td>
+      <td class="meaning">종 전체 지칭, 학술·문어</td>
+      <td class="meaning" style="text-align:center">△</td>
+    </tr>
+    <tr class="row-zero">
+      <td class="art">무관사 복수</td>
+      <td class="examples">Dogs are loyal.</td>
+      <td class="meaning">가장 자연스러운 일상 표현</td>
+      <td class="meaning" style="text-align:center; color:#080; font-weight:700">✓</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- 최상급·서수 -->
+<h2>최상급·서수·특정 한정어 — 항상 the</h2>
+<div class="grid">
+  <div class="card amber">
+    <h3>최상급 → the (유일하므로)</h3>
+    <ul>
+      <li><strong>The</strong> tallest building in the world</li>
+      <li><strong>The</strong> best movie I've ever watched</li>
+      <li>cf. a better option (비교급 → a 가능)</li>
+    </ul>
+  </div>
+  <div class="card blue">
+    <h3>서수·특정 한정어 → the</h3>
+    <ul>
+      <li><strong>The</strong> first time I saw snow</li>
+      <li><strong>The</strong> only reason / <strong>the</strong> same problem</li>
+      <li><strong>The</strong> next train / <strong>the</strong> last chance</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 불가산명사 -->
+<h2>불가산명사 — a/an 사용법</h2>
+<div class="grid">
+  <div class="card red">
+    <h3>직접 쓰면 오류</h3>
+    <ul>
+      <li><span class="bad">a water</span> / <span class="bad">a music</span></li>
+      <li><span class="bad">an information</span> / <span class="bad">a furniture</span></li>
+    </ul>
+  </div>
+  <div class="card green">
+    <h3>단위 명사로 우회</h3>
+    <ul>
+      <li>a <strong>glass of</strong> water</li>
+      <li>a <strong>piece of</strong> music / furniture</li>
+      <li>a <strong>bit of</strong> information</li>
+    </ul>
+  </div>
+  <div class="card purple">
+    <h3>"종류" 의미로는 가산 가능</h3>
+    <ul>
+      <li>This is <strong>a</strong> wine from France. (한 종류)</li>
+      <li>We offer three <strong>wines</strong> from Italy.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 직업·신분 -->
+<h2>직업·신분 — a/an vs the</h2>
+<div class="two-col">
+  <div class="card blue">
+    <h3>a/an — 직업 집합의 구성원</h3>
+    <ul>
+      <li>She is <strong>a</strong> doctor. (의사라는 직업)</li>
+      <li>He is <strong>an</strong> engineer.</li>
+      <li>I am <strong>a</strong> Korean.</li>
+    </ul>
+  </div>
+  <div class="card amber">
+    <h3>the — 특정 1인 or 유일 자리</h3>
+    <ul>
+      <li>She is <strong>the</strong> doctor. (그 특정 의사)</li>
+      <li>He was elected <strong>the</strong> president.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 한국인 실수 -->
+<h2>한국인 실수 TOP 3</h2>
+<div class="grid">
+  <div class="card red">
+    <h3>1. 총칭에 the</h3>
+    <ul>
+      <li><span class="bad">The</span> Korean people are hardworking.</li>
+      <li><span class="ok">Korean</span> people are hardworking.</li>
+    </ul>
+  </div>
+  <div class="card red">
+    <h3>2. 직업 앞 관사 생략</h3>
+    <ul>
+      <li>She is <span class="bad">doctor</span>.</li>
+      <li>She is <span class="ok">a doctor</span>.</li>
+    </ul>
+  </div>
+  <div class="card red">
+    <h3>3. 추상명사에 the</h3>
+    <ul>
+      <li><span class="bad">The</span> happiness is important.</li>
+      <li><span class="ok">Happiness</span> is important.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 판단 흐름도 -->
+<h2>관사 결정 흐름도</h2>
+<div class="flow">
+명사 앞에 뭘 쓸까?
+│
+├─ 고유명사? → 기본 무관사.
+│   단, 강·산맥·신문·복수 국가명·"the+형용사+명사" 구조 → the
+│
+├─ 화자·청자 모두 어느 건지 아나? (공유 지식)
+│   ├─ 예 → <strong>the</strong>
+│   └─ 아니오 ↓
+│
+├─ 총칭 표현? (종 전체, 추상 개념 일반)
+│   ├─ 예 → 무관사 복수 / 무관사 불가산
+│   └─ 아니오 ↓
+│
+└─ 가산명사 단수?
+    ├─ 예 → <strong>a</strong> (자음 소리) / <strong>an</strong> (모음 소리)
+    └─ 복수·불가산 → 무관사 (단위명사로 우회 가능)
+</div>
+
+</body>
+</html>
