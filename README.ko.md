@@ -120,6 +120,8 @@ brain/
 - [영어 전치사 치트시트](https://brain.dongwook.kim/sheets/영어_전치사_치트시트.html)
 - [영어 관사 치트시트](https://brain.dongwook.kim/sheets/영어_관사_치트시트.html)
 - [영어 조동사 치트시트](https://brain.dongwook.kim/sheets/영어_조동사_치트시트.html)
+- [영어 부사 치트시트](https://brain.dongwook.kim/sheets/영어_부사_치트시트.html)
+- [영어 가정법 치트시트](https://brain.dongwook.kim/sheets/영어_가정법_치트시트.html)
 
 ## 스킬 설치
 

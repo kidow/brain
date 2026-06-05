@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>영어 부사 치트시트</title>
+<style>
+  :root {
+    --bg: #fff;
+    --fg: #1a1a1a;
+    --muted: #888;
+    --border: #ddd;
+    --surface: #f8f8f8;
+    --accent: #2563eb;
+    --accent-light: #eff6ff;
+    --red: #dc2626;
+    --green: #16a34a;
+    --orange: #ea580c;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1.5rem 1.25rem;
+  }
+  h1 { font-size: 1.4rem; font-weight: 700; color: var(--accent); margin-bottom: 0.25rem; }
+  .subtitle { color: var(--muted); font-size: 0.85rem; margin-bottom: 1.5rem; }
+  h2 {
+    font-size: 0.8rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.06em; color: var(--muted);
+    margin: 1.5rem 0 0.6rem;
+    padding-bottom: 0.3rem; border-bottom: 1px solid var(--border);
+  }
+  table { width: 100%; border-collapse: collapse; font-size: 0.84rem; margin-bottom: 0.5rem; }
+  th { background: var(--surface); padding: 0.4rem 0.6rem; text-align: left; font-weight: 600; border: 1px solid var(--border); }
+  td { padding: 0.4rem 0.6rem; border: 1px solid var(--border); vertical-align: top; }
+  code {
+    font-family: 'Courier New', monospace; font-weight: 700;
+    color: var(--accent); font-size: 0.85rem;
+  }
+  .wrong { color: var(--red); text-decoration: line-through; }
+  .right { color: var(--green); font-weight: 600; }
+  .rule-box {
+    background: var(--surface); border: 1px solid var(--border);
+    border-left: 3px solid var(--accent); border-radius: 0 6px 6px 0;
+    padding: 0.5rem 0.75rem; font-size: 0.84rem; margin-bottom: 0.4rem;
+  }
+  .warn-box {
+    background: #fff7ed; border: 1px solid #fed7aa;
+    border-left: 3px solid var(--orange); border-radius: 0 6px 6px 0;
+    padding: 0.5rem 0.75rem; font-size: 0.84rem; margin-bottom: 0.4rem;
+  }
+  .grid { display: grid; gap: 0.75rem; }
+  .grid-2 { grid-template-columns: 1fr 1fr; }
+  .card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 6px; padding: 0.6rem 0.75rem;
+  }
+  .card-title { font-weight: 700; font-size: 0.8rem; color: var(--accent); margin-bottom: 0.35rem; }
+  pre {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 6px; padding: 0.6rem 0.75rem;
+    font-family: 'Courier New', monospace; font-size: 0.8rem;
+    overflow-x: auto; margin-bottom: 0.4rem;
+  }
+  .bar-group { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; overflow: hidden; }
+  .bar-row { display: flex; align-items: center; padding: 0.4rem 0.75rem; border-bottom: 1px solid var(--border); gap: 0.75rem; }
+  .bar-row:last-child { border-bottom: none; }
+  .bar-label { font-family: 'Courier New', monospace; font-weight: 700; font-size: 0.82rem; min-width: 80px; color: var(--accent); }
+  .bar-track { flex: 1; height: 7px; background: var(--border); border-radius: 4px; overflow: hidden; }
+  .bar-fill { height: 100%; border-radius: 4px; background: var(--accent); }
+  .bar-desc { font-size: 0.76rem; color: var(--muted); min-width: 120px; text-align: right; }
+  @media (max-width: 600px) {
+    body { padding: 1rem; }
+    .grid-2 { grid-template-columns: 1fr; }
+    .bar-desc { display: none; }
+  }
+  @media print { body { padding: 0.5cm; } }
+</style>
+</head>
+<body>
+
+<h1>영어 부사 치트시트</h1>
+<p class="subtitle">English Adverbs — 수식·위치·종류 한눈에</p>
+
+<h2>부사의 수식 대상 4가지</h2>
+<table>
+  <tr><th>수식 대상</th><th>예시</th><th>비고</th></tr>
+  <tr><td>동사</td><td>She runs <strong>quickly</strong>.</td><td></td></tr>
+  <tr><td>형용사</td><td>He is <strong>very</strong> tall.</td><td></td></tr>
+  <tr><td>다른 부사</td><td>She runs <strong>incredibly</strong> quickly.</td><td></td></tr>
+  <tr><td>문장 전체</td><td><strong>Fortunately</strong>, no one was hurt.</td><td>문장 부사</td></tr>
+</table>
+<div class="warn-box">⚠️ 명사 수식 = 형용사 역할 → 부사로 명사 수식 시 문법 오류</div>
+
+<h2>-ly 규칙과 예외</h2>
+<div class="grid grid-2">
+  <div class="card">
+    <div class="card-title">-ly 붙어도 형용사인 것</div>
+    friendly / lovely / lonely / likely<br>
+    <span class="wrong">She smiled friendly</span> → <span class="right">in a friendly way</span>
+  </div>
+  <div class="card">
+    <div class="card-title">형용사 = 부사 (동형)</div>
+    fast / hard / late / early<br>
+    He runs <code>fast</code>. (부사) / a <code>fast</code> car (형용사)
+  </div>
+  <div class="card" style="grid-column: 1 / -1;">
+    <div class="card-title">-ly 붙이면 의미 변화 ⚠️</div>
+    <code>hard</code> (열심히) vs <code>hardly</code> (거의 ~않다)<br>
+    <code>late</code> (늦게) vs <code>lately</code> (최근에)
+  </div>
+</div>
+
+<h2>위치가 의미를 결정한다 — only 예시</h2>
+<table>
+  <tr><th>문장</th><th>뜻</th></tr>
+  <tr><td><strong>Only</strong> I told her the truth.</td><td>나만 말했다</td></tr>
+  <tr><td>I <strong>only</strong> told her the truth.</td><td>말만 했다</td></tr>
+  <tr><td>I told <strong>only</strong> her the truth.</td><td>그녀에게만 말했다</td></tr>
+  <tr><td>I told her <strong>only</strong> the truth.</td><td>진실만 말했다</td></tr>
+</table>
+<div class="rule-box">부사는 수식 대상 바로 앞(또는 뒤)에 위치 → 위치가 바뀌면 의미 변화</div>
+
+<h2>빈도 부사 스펙트럼</h2>
+<div class="bar-group">
+  <div class="bar-row"><span class="bar-label">always</span><div class="bar-track"><div class="bar-fill" style="width:100%"></div></div><span class="bar-desc">항상 (100%)</span></div>
+  <div class="bar-row"><span class="bar-label">usually</span><div class="bar-track"><div class="bar-fill" style="width:80%"></div></div><span class="bar-desc">보통</span></div>
+  <div class="bar-row"><span class="bar-label">often</span><div class="bar-track"><div class="bar-fill" style="width:65%"></div></div><span class="bar-desc">자주</span></div>
+  <div class="bar-row"><span class="bar-label">sometimes</span><div class="bar-track"><div class="bar-fill" style="width:45%"></div></div><span class="bar-desc">가끔</span></div>
+  <div class="bar-row"><span class="bar-label">rarely</span><div class="bar-track"><div class="bar-fill" style="width:15%"></div></div><span class="bar-desc">거의 안 함</span></div>
+  <div class="bar-row"><span class="bar-label">never</span><div class="bar-track"><div class="bar-fill" style="width:2%"></div></div><span class="bar-desc">절대 안 함 (0%)</span></div>
+</div>
+
+<h2>빈도 부사 위치 규칙 (엄격)</h2>
+<table>
+  <tr><th>동사 종류</th><th>부사 위치</th><th>예시</th></tr>
+  <tr><td>일반 동사</td><td>동사 앞</td><td>She <strong>always</strong> runs in the morning.</td></tr>
+  <tr><td>be 동사</td><td>be 뒤</td><td>He is <strong>always</strong> late.</td></tr>
+  <tr><td>조동사</td><td>조동사 뒤</td><td>I will <strong>never</strong> do that.</td></tr>
+</table>
+<div class="warn-box"><span class="wrong">She runs always.</span> &nbsp; <span class="wrong">He always is late.</span></div>
+
+<h2>정도 부사 강도</h2>
+<div class="bar-group">
+  <div class="bar-row"><span class="bar-label">extremely</span><div class="bar-track"><div class="bar-fill" style="width:100%"></div></div><span class="bar-desc">극도로 강함</span></div>
+  <div class="bar-row"><span class="bar-label">very</span><div class="bar-track"><div class="bar-fill" style="width:80%"></div></div><span class="bar-desc">강조 (중립)</span></div>
+  <div class="bar-row"><span class="bar-label">quite</span><div class="bar-track"><div class="bar-fill" style="width:60%"></div></div><span class="bar-desc">꽤 (중립~긍정)</span></div>
+  <div class="bar-row"><span class="bar-label">rather</span><div class="bar-track"><div class="bar-fill" style="width:55%"></div></div><span class="bar-desc">예상보다 더 (약간 부정)</span></div>
+  <div class="bar-row"><span class="bar-label">fairly</span><div class="bar-track"><div class="bar-fill" style="width:45%"></div></div><span class="bar-desc">그럭저럭 (중립)</span></div>
+  <div class="bar-row"><span class="bar-label">a bit</span><div class="bar-track"><div class="bar-fill" style="width:25%"></div></div><span class="bar-desc">약간</span></div>
+  <div class="bar-row"><span class="bar-label">hardly</span><div class="bar-track"><div class="bar-fill" style="width:5%"></div></div><span class="bar-desc">거의 ~않다</span></div>
+</div>
+<div class="warn-box">⚠️ 정도 부사는 형용사·부사 수식만 — <span class="wrong">I very like it.</span> → <span class="right">I really like it.</span></div>
+
+<h2>부사 3가지 위치 (Front / Mid / End)</h2>
+<pre>[Front] + 주어 + [Mid] + 동사 + 목적어 + [End]</pre>
+<table>
+  <tr><th>위치</th><th>수식 대상</th><th>예시</th></tr>
+  <tr><td><strong>Front</strong></td><td>문장 전체·맥락 설정</td><td><strong>Suddenly</strong>, the door opened.</td></tr>
+  <tr><td><strong>Mid</strong></td><td>빈도·확신 부사</td><td>She <strong>always</strong> arrives early.</td></tr>
+  <tr><td><strong>End</strong></td><td>방법·장소·시간</td><td>She sings <strong>beautifully</strong>.</td></tr>
+</table>
+<div class="rule-box">End에 여러 부사: <strong>방법 → 장소 → 시간</strong> 순서<br>
+She sang <em>beautifully</em> &nbsp;<em>at the concert</em> &nbsp;<em>last night</em>.</div>
+
+<h2>문장 부사 (Sentence Adverbs)</h2>
+<div class="rule-box">항상 <strong>Front + 쉼표</strong>. 사실이 아닌 화자의 태도를 표현.</div>
+<div class="card" style="margin-bottom:0.5rem;">
+  <div class="card-title">대표 단어</div>
+  Fortunately / Unfortunately / Honestly / Clearly / Obviously / Apparently / Surprisingly
+</div>
+<table>
+  <tr><th>문장</th><th>역할</th></tr>
+  <tr><td>He spoke <strong>honestly</strong>.</td><td>방법 부사 (말하는 방식)</td></tr>
+  <tr><td><strong>Honestly</strong>, he spoke too much.</td><td>문장 부사 (화자의 평가)</td></tr>
+</table>
+
+<h2>비교급·최상급</h2>
+<div class="grid grid-2">
+  <div class="card">
+    <div class="card-title">짧은 부사 (1음절): -er / -est</div>
+    fast → faster → fastest<br>hard → harder → hardest
+  </div>
+  <div class="card">
+    <div class="card-title">-ly 부사 (2음절+): more / most</div>
+    quickly → more quickly → most quickly
+  </div>
+</div>
+<table style="margin-top:0.6rem;">
+  <tr><th>원급</th><th>비교급</th><th>최상급</th></tr>
+  <tr><td><code>well</code></td><td>better</td><td>best</td></tr>
+  <tr><td><code>badly</code></td><td>worse</td><td>worst</td></tr>
+  <tr><td><code>far</code></td><td>farther / further</td><td>farthest / furthest</td></tr>
+  <tr><td><code>little</code></td><td>less</td><td>least</td></tr>
+  <tr><td><code>much</code></td><td>more</td><td>most</td></tr>
+</table>
+
+<h2>연결 동사 뒤엔 형용사 (부사 아님)</h2>
+<div class="rule-box">연결 동사: be / look / feel / smell / taste / sound / seem / appear / become / get</div>
+<table>
+  <tr><th>올바른 표현</th><th>틀린 표현</th></tr>
+  <tr><td>She looks <strong>beautiful</strong>. ✅</td><td><span class="wrong">She looks beautifully.</span></td></tr>
+  <tr><td>The soup smells <strong>good</strong>. ✅</td><td><span class="wrong">The soup smells well.</span></td></tr>
+  <tr><td>He felt <strong>bad</strong> about it. ✅</td><td><span class="wrong">He felt badly about it.</span></td></tr>
+</table>
+<div class="rule-box">체크법: 동사를 <code>be</code>로 바꿔봄 → 자연스러우면 연결 동사 → 형용사 사용</div>
+
+</body>
+</html>
