@@ -19,6 +19,20 @@
 - 파일명의 `_`는 링크 표시 텍스트에서 공백으로 변환한다. 예: `러시아어_치트시트` → `러시아어 치트시트`
 - 언어별 그룹으로 구분한다. 새 언어는 그룹을 신설한다.
 
+### sheets/ head 태그 규칙
+
+모든 치트시트 HTML 파일의 `<head>`에는 다음 태그를 반드시 포함한다. `<meta charset="UTF-8">` 바로 다음에 삽입한다.
+
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#ffffff">
+```
+
 ### sheets/ 색상 규칙
 
 - 모든 치트시트 HTML 파일은 **라이트 모드**로만 작성한다. 다크 배경(`#0f1117`, `#161b27` 등) 사용 금지.
