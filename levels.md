@@ -68,6 +68,12 @@ Level: Blank — 원소, 화합물, 혼합물의 구분을 아직 설명할 수 
 
 ## 영어_관사
 
+## 영어_수동태
+
+Level: Glimpsed — 목적어를 주어 자리로 옮기는 기본 개념은 있음. 동사 형태(`be + p.p.`)를 모름(`have cooked`, `has building` 등 오류). 진행형 수동(`is being built`) 미노출. 행위자 전치사 `by` vs `with` 혼동. 다음 학습 우선순위 = `be + p.p.` 기본 형태, 시제별 수동태, 진행형 수동, `by` 행위자 표현.
+
+## 영어_관사
+
 Level: Glimpsed — a/an vs the 표면적 구분 가능. 기본 오용 탐지 됨(the Paris가 틀렸다는 것 앎). 단, "고유명사 앞에 the 붙음"이라고 잘못 기억 중(실제는 반대). the의 핵심 원리(화자·청자 공유 지식 = 한정성)를 언어화 못 함. 무관사(zero article) 규칙, 총칭 용법(generic use), a/an의 부정관사 원리 미노출.
 
 ## 영어_부사
