@@ -80,6 +80,8 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [영어](https://brain.dongwook.kim/notes/영어)
 - [영어 전치사](https://brain.dongwook.kim/notes/영어_전치사)
 - [영어 관사](https://brain.dongwook.kim/notes/영어_관사)
+- [영어 부사](https://brain.dongwook.kim/notes/영어_부사)
+- [영어 조동사](https://brain.dongwook.kim/notes/영어_조동사)
 
 **Music**
 - [음악 이론 기초](https://brain.dongwook.kim/notes/음악_이론_기초)
