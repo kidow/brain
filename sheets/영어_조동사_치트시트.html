@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>영어 조동사 치트시트</title>
+<style>
+  :root {
+    --bg: #fff;
+    --fg: #1a1a1a;
+    --muted: #888;
+    --border: #ddd;
+    --surface: #f8f8f8;
+    --accent: #2563eb;
+    --accent-light: #eff6ff;
+    --red: #dc2626;
+    --green: #16a34a;
+    --orange: #ea580c;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1.5rem 1.25rem;
+  }
+  h1 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--accent);
+    margin-bottom: 0.25rem;
+  }
+  .subtitle {
+    color: var(--muted);
+    font-size: 0.85rem;
+    margin-bottom: 1.5rem;
+  }
+  h2 {
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--muted);
+    margin: 1.5rem 0 0.6rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .grid {
+    display: grid;
+    gap: 0.75rem;
+  }
+  .grid-2 { grid-template-columns: 1fr 1fr; }
+  .grid-3 { grid-template-columns: 1fr 1fr 1fr; }
+  .bar-group {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  .bar-row {
+    display: flex;
+    align-items: center;
+    padding: 0.45rem 0.75rem;
+    border-bottom: 1px solid var(--border);
+    gap: 0.75rem;
+  }
+  .bar-row:last-child { border-bottom: none; }
+  .bar-label {
+    font-family: 'Courier New', monospace;
+    font-weight: 700;
+    font-size: 0.85rem;
+    min-width: 90px;
+    color: var(--accent);
+  }
+  .bar-track {
+    flex: 1;
+    height: 8px;
+    background: var(--border);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .bar-fill {
+    height: 100%;
+    border-radius: 4px;
+    background: var(--accent);
+  }
+  .bar-fill.danger { background: var(--red); }
+  .bar-fill.warning { background: var(--orange); }
+  .bar-fill.safe { background: var(--green); }
+  .bar-desc {
+    font-size: 0.78rem;
+    color: var(--muted);
+    min-width: 140px;
+    text-align: right;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.84rem;
+  }
+  th {
+    background: var(--surface);
+    padding: 0.4rem 0.6rem;
+    text-align: left;
+    font-weight: 600;
+    border: 1px solid var(--border);
+    color: var(--fg);
+  }
+  td {
+    padding: 0.4rem 0.6rem;
+    border: 1px solid var(--border);
+    vertical-align: top;
+  }
+  td code, th code {
+    font-family: 'Courier New', monospace;
+    font-weight: 700;
+    color: var(--accent);
+    font-size: 0.85rem;
+  }
+  .tag {
+    display: inline-block;
+    font-size: 0.7rem;
+    padding: 0.1rem 0.4rem;
+    border-radius: 3px;
+    font-weight: 600;
+  }
+  .tag-red { background: #fee2e2; color: var(--red); }
+  .tag-blue { background: var(--accent-light); color: var(--accent); }
+  .tag-gray { background: var(--surface); color: var(--muted); }
+  .rule-box {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
+    border-radius: 0 6px 6px 0;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.84rem;
+  }
+  .rule-box + .rule-box { margin-top: 0.4rem; }
+  .rule-box code {
+    font-family: 'Courier New', monospace;
+    font-weight: 700;
+    color: var(--accent);
+  }
+  .wrong { color: var(--red); text-decoration: line-through; }
+  .right { color: var(--green); }
+  @media (max-width: 600px) {
+    body { padding: 1rem; }
+    .grid-2, .grid-3 { grid-template-columns: 1fr; }
+    .bar-desc { display: none; }
+  }
+  @media print {
+    body { padding: 0.5cm; }
+  }
+</style>
+</head>
+<body>
+
+<h1>영어 조동사 치트시트</h1>
+<p class="subtitle">English Modal Verbs — 강도·용법·비교 한눈에</p>
+
+<h2>핵심 규칙</h2>
+<div class="rule-box">조동사 뒤 → 반드시 동사원형 &nbsp;<span class="wrong">He can works</span> &nbsp;→&nbsp; <span class="right">He can work</span></div>
+<div class="rule-box">3인칭 단수 -s 없음 &nbsp;<span class="wrong">She musts go</span> &nbsp;→&nbsp; <span class="right">She must go</span></div>
+<div class="rule-box">두 개 연속 불가 &nbsp;<span class="wrong">He will can go</span> &nbsp;→&nbsp; <span class="right">He will be able to go</span></div>
+
+<h2>의무·권고 강도</h2>
+<div class="bar-group">
+  <div class="bar-row">
+    <span class="bar-label">had better</span>
+    <div class="bar-track"><div class="bar-fill danger" style="width:100%"></div></div>
+    <span class="bar-desc">경고 — 안 하면 결과 있음</span>
+  </div>
+  <div class="bar-row">
+    <span class="bar-label">must</span>
+    <div class="bar-track"><div class="bar-fill danger" style="width:85%"></div></div>
+    <span class="bar-desc">강한 의무 (내부 압박)</span>
+  </div>
+  <div class="bar-row">
+    <span class="bar-label">have to</span>
+    <div class="bar-track"><div class="bar-fill warning" style="width:75%"></div></div>
+    <span class="bar-desc">외부 의무 (규칙·상황)</span>
+  </div>
+  <div class="bar-row">
+    <span class="bar-label">should</span>
+    <div class="bar-track"><div class="bar-fill safe" style="width:55%"></div></div>
+    <span class="bar-desc">권고 (하는 게 좋음)</span>
+  </div>
+  <div class="bar-row">
+    <span class="bar-label">could/might</span>
+    <div class="bar-track"><div class="bar-fill safe" style="width:25%"></div></div>
+    <span class="bar-desc">약한 제안</span>
+  </div>
+</div>
+
+<h2>추측 확신도</h2>
+<div class="bar-group">
+  <div class="bar-row">
+    <span class="bar-label">must</span>
+    <div class="bar-track"><div class="bar-fill" style="width:95%"></div></div>
+    <span class="bar-desc">틀림없다 (~95%)</span>
+  </div>
+  <div class="bar-row">
+    <span class="bar-label">should</span>
+    <div class="bar-track"><div class="bar-fill" style="width:80%"></div></div>
+    <span class="bar-desc">그럴 것이다 (~80%)</span>
+  </div>
+  <div class="bar-row">
+    <span class="bar-label">may</span>
+    <div class="bar-track"><div class="bar-fill" style="width:50%"></div></div>
+    <span class="bar-desc">~50%</span>
+  </div>
+  <div class="bar-row">
+    <span class="bar-label">could</span>
+    <div class="bar-track"><div class="bar-fill" style="width:40%"></div></div>
+    <span class="bar-desc">~40%</span>
+  </div>
+  <div class="bar-row">
+    <span class="bar-label">might</span>
+    <div class="bar-track"><div class="bar-fill" style="width:30%"></div></div>
+    <span class="bar-desc">~30%</span>
+  </div>
+  <div class="bar-row">
+    <span class="bar-label">can't</span>
+    <div class="bar-track"><div class="bar-fill danger" style="width:5%"></div></div>
+    <span class="bar-desc">절대 아니다 (~0%)</span>
+  </div>
+</div>
+
+<h2>요청 공손도</h2>
+<div class="bar-group">
+  <div class="bar-row">
+    <span class="bar-label">Could you ~?</span>
+    <div class="bar-track"><div class="bar-fill" style="width:100%"></div></div>
+    <span class="bar-desc">가장 공손 (일상 기본값)</span>
+  </div>
+  <div class="bar-row">
+    <span class="bar-label">Would you ~?</span>
+    <div class="bar-track"><div class="bar-fill" style="width:75%"></div></div>
+    <span class="bar-desc">격식·비즈니스</span>
+  </div>
+  <div class="bar-row">
+    <span class="bar-label">Will you ~?</span>
+    <div class="bar-track"><div class="bar-fill" style="width:45%"></div></div>
+    <span class="bar-desc">평범한 요청</span>
+  </div>
+</div>
+
+<h2>허락 격식도</h2>
+<div class="bar-group">
+  <div class="bar-row">
+    <span class="bar-label">May I ~?</span>
+    <div class="bar-track"><div class="bar-fill" style="width:100%"></div></div>
+    <span class="bar-desc">최고 격식</span>
+  </div>
+  <div class="bar-row">
+    <span class="bar-label">Could I ~?</span>
+    <div class="bar-track"><div class="bar-fill" style="width:70%"></div></div>
+    <span class="bar-desc">격식·공손</span>
+  </div>
+  <div class="bar-row">
+    <span class="bar-label">Can I ~?</span>
+    <div class="bar-track"><div class="bar-fill" style="width:40%"></div></div>
+    <span class="bar-desc">비격식 일상</span>
+  </div>
+</div>
+
+<h2>must / have to / don't have to / must not 비교</h2>
+<table>
+  <tr>
+    <th>표현</th>
+    <th>뜻</th>
+    <th>예문</th>
+  </tr>
+  <tr>
+    <td><code>must</code></td>
+    <td>의무 (내 의지)</td>
+    <td>I must finish this.</td>
+  </tr>
+  <tr>
+    <td><code>have to</code></td>
+    <td>의무 (외부 규칙)</td>
+    <td>I have to wear a uniform.</td>
+  </tr>
+  <tr>
+    <td><code>must not</code></td>
+    <td>금지 <span class="tag tag-red">≠ don't have to</span></td>
+    <td>You must not smoke here.</td>
+  </tr>
+  <tr>
+    <td><code>don't have to</code></td>
+    <td>선택 자유 (안 해도 됨)</td>
+    <td>You don't have to come.</td>
+  </tr>
+</table>
+
+<h2>조동사 + have + p.p. — 과거 판단</h2>
+<table>
+  <tr>
+    <th>표현</th>
+    <th>뜻</th>
+  </tr>
+  <tr>
+    <td><code>must have p.p.</code></td>
+    <td>~했음이 틀림없다 (강한 추측)</td>
+  </tr>
+  <tr>
+    <td><code>can't have p.p.</code></td>
+    <td>~했을 리 없다 (강한 부정)</td>
+  </tr>
+  <tr>
+    <td><code>should have p.p.</code></td>
+    <td>~했어야 했는데 (후회·비판)</td>
+  </tr>
+  <tr>
+    <td><code>could have p.p.</code></td>
+    <td>~할 수 있었는데 (하지 않은 가능성)</td>
+  </tr>
+  <tr>
+    <td><code>might have p.p.</code></td>
+    <td>~했을지도 모른다 (약한 추측)</td>
+  </tr>
+</table>
+
+<h2>과거 습관 — used to vs would</h2>
+<table>
+  <tr>
+    <th></th>
+    <th><code>used to</code></th>
+    <th><code>would</code></th>
+  </tr>
+  <tr>
+    <td>상태 동사 (live, know…)</td>
+    <td><span class="right">✅ 가능</span></td>
+    <td><span class="wrong">❌ 불가</span></td>
+  </tr>
+  <tr>
+    <td>반복 행동</td>
+    <td><span class="right">✅ 가능</span></td>
+    <td><span class="right">✅ 가능</span></td>
+  </tr>
+  <tr>
+    <td>현재와 단절 뉘앙스</td>
+    <td>명시적</td>
+    <td>문맥에 따라</td>
+  </tr>
+</table>
+
+</body>
+</html>
