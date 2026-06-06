@@ -89,6 +89,7 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [영어 접속사](https://brain.dongwook.kim/notes/영어_접속사)
 - [영어 분사구문](https://brain.dongwook.kim/notes/영어_분사구문)
 - [영어 시제 심화](https://brain.dongwook.kim/notes/영어_시제_심화)
+- [영어 가산/불가산 명사](https://brain.dongwook.kim/notes/영어_가산_불가산_명사)
 
 **Music**
 - [음악 이론 기초](https://brain.dongwook.kim/notes/음악_이론_기초)
@@ -134,6 +135,7 @@ Quick-reference sheets served live at [brain.dongwook.kim](https://brain.dongwoo
 - [영어 접속사 치트시트](https://brain.dongwook.kim/sheets/영어_접속사_치트시트.html)
 - [영어 분사구문 치트시트](https://brain.dongwook.kim/sheets/영어_분사구문_치트시트.html)
 - [영어 시제 심화 치트시트](https://brain.dongwook.kim/sheets/영어_시제_심화_치트시트.html)
+- [영어 가산/불가산 명사 치트시트](https://brain.dongwook.kim/sheets/영어_가산_불가산_명사_치트시트.html)
 
 ## Installing the skills
 

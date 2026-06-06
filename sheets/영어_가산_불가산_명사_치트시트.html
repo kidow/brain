@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#ffffff">
+<title>영어 가산/불가산 명사 치트시트</title>
+<style>
+  :root {
+    --bg: #fff;
+    --fg: #1a1a1a;
+    --muted: #888;
+    --border: #ddd;
+    --surface: #f8f8f8;
+    --accent: #2563eb;
+    --accent-light: #eff6ff;
+    --red: #dc2626;
+    --green: #16a34a;
+    --orange: #ea580c;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg); color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 14px; line-height: 1.6;
+    max-width: 800px; margin: 0 auto; padding: 1.5rem 1.25rem;
+  }
+  h1 { font-size: 1.4rem; font-weight: 700; color: var(--accent); margin-bottom: 0.25rem; }
+  .subtitle { color: var(--muted); font-size: 0.85rem; margin-bottom: 1.5rem; }
+  h2 {
+    font-size: 0.8rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.06em; color: var(--muted);
+    margin: 1.5rem 0 0.6rem; padding-bottom: 0.3rem;
+    border-bottom: 1px solid var(--border);
+  }
+  table { width: 100%; border-collapse: collapse; font-size: 0.84rem; margin-bottom: 0.5rem; }
+  th { background: var(--surface); padding: 0.4rem 0.6rem; text-align: left; font-weight: 600; border: 1px solid var(--border); }
+  td { padding: 0.4rem 0.6rem; border: 1px solid var(--border); vertical-align: top; }
+  td code, th code { font-family: 'Courier New', monospace; font-weight: 700; color: var(--accent); font-size: 0.85rem; }
+  .rule-box {
+    background: var(--surface); border: 1px solid var(--border);
+    border-left: 3px solid var(--accent); border-radius: 0 6px 6px 0;
+    padding: 0.5rem 0.75rem; font-size: 0.84rem; margin-bottom: 0.4rem;
+  }
+  .rule-box.warn { border-left-color: var(--red); }
+  .rule-box.ok   { border-left-color: var(--green); }
+  .rule-box code { font-family: 'Courier New', monospace; font-weight: 700; color: var(--accent); }
+  .grid { display: grid; gap: 0.75rem; }
+  .grid-2 { grid-template-columns: 1fr 1fr; }
+  .grid-3 { grid-template-columns: 1fr 1fr 1fr; }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 0.65rem 0.75rem; }
+  .card-title { font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--accent); margin-bottom: 0.45rem; }
+  .card p { font-size: 0.82rem; color: #444; margin-top: 0.25rem; }
+  .ex {
+    font-family: 'Courier New', monospace; font-size: 0.82rem;
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 4px; padding: 0.35rem 0.6rem; margin-top: 0.3rem;
+    color: #333; white-space: pre-wrap;
+  }
+  .ok  { color: var(--green); }
+  .bad { color: var(--red); text-decoration: line-through; }
+  .tag { display: inline-block; font-size: 0.7rem; padding: 0.1rem 0.4rem; border-radius: 3px; font-weight: 600; margin-right: 0.25rem; }
+  .tag-blue  { background: var(--accent-light); color: var(--accent); }
+  .tag-red   { background: #fee2e2; color: var(--red); }
+  .tag-green { background: #dcfce7; color: var(--green); }
+  .tag-gray  { background: var(--surface); color: var(--muted); border: 1px solid var(--border); }
+  @media (max-width: 600px) { body { padding: 1rem 1rem; } .grid-2, .grid-3 { grid-template-columns: 1fr; } }
+  @media print { body { padding: 0.5cm; } }
+</style>
+</head>
+<body>
+
+<h1>영어 가산/불가산 명사 치트시트</h1>
+<p class="subtitle">Countable &amp; Uncountable Nouns — 수량 표현·겸용 명사·헷갈리는 케이스 한눈에</p>
+
+<h2>가산 vs 불가산 기본</h2>
+<table>
+  <tr><th></th><th>가산 (Countable)</th><th>불가산 (Uncountable)</th></tr>
+  <tr><td>셀 수 있나?</td><td>✅</td><td>❌</td></tr>
+  <tr><td>단수/복수</td><td><code>a chair / chairs</code></td><td>—</td></tr>
+  <tr><td>예</td><td>book, apple, idea, mistake</td><td>water, music, advice, furniture</td></tr>
+</table>
+<div class="rule-box">불가산 = 경계 없는 덩어리. 물(water)은 어디서 잘라도 "하나"가 안 됨.</div>
+<div class="rule-box warn">한국어 화자 함정 — 셀 것 같지만 불가산: <code>information / advice / furniture / homework / news / research</code></div>
+
+<h2>수량 한정사 — 가산 vs 불가산</h2>
+<table>
+  <tr><th></th><th>가산 복수</th><th>불가산</th></tr>
+  <tr><td>많다</td><td><code>many</code></td><td><code>much</code></td></tr>
+  <tr><td>적다 (부정적)</td><td><code>few</code></td><td><code>little</code></td></tr>
+  <tr><td>조금 있다 (긍정적)</td><td><code>a few</code></td><td><code>a little</code></td></tr>
+  <tr><td>비격식 긍정</td><td><code>a lot of</code></td><td><code>a lot of</code></td></tr>
+  <tr><td>있다·없다</td><td><code>some / any</code></td><td><code>some / any</code></td></tr>
+</table>
+<div class="ex"><span class="bad">I have few money.</span>  → <span class="ok">I have little money.</span>  (money = 불가산)
+<span class="ok">A few people came.</span>  (몇 명 왔다 — 긍정)
+<span class="ok">Few people came.</span>   (거의 안 왔다 — 부정)</div>
+
+<h2>much / many — 격식·비격식</h2>
+<div class="rule-box"><code>much / many</code>는 부정·의문문에서 자연스러움. 긍정문엔 <code>a lot of</code> 선호.</div>
+<table>
+  <tr><th>상황</th><th>자연스러운 표현</th><th>예</th></tr>
+  <tr><td>긍정 (비격식)</td><td><code>a lot of</code></td><td>I have a lot of work.</td></tr>
+  <tr><td>긍정 (격식·문어)</td><td><code>many / much</code></td><td>Many studies suggest…</td></tr>
+  <tr><td>부정</td><td><code>many / much</code></td><td>I don't have much time.</td></tr>
+  <tr><td>의문</td><td><code>many / much</code></td><td>Do you have many friends?</td></tr>
+</table>
+
+<h2>some / any</h2>
+<table>
+  <tr><th>상황</th><th>사용</th><th>예</th></tr>
+  <tr><td>긍정문</td><td><code>some</code></td><td>I have some milk.</td></tr>
+  <tr><td>부정문</td><td><code>any</code></td><td>I don't have any milk.</td></tr>
+  <tr><td>의문 (일반)</td><td><code>any</code></td><td>Do you have any questions?</td></tr>
+  <tr><td>의문 (권유·부탁)</td><td><code>some</code></td><td>Would you like some coffee?</td></tr>
+</table>
+<div class="ex">"Do you have <span class="ok">some</span> money?"  → 있겠지, 얼마 줄 수 있어? (전제 있음)
+"Do you have <span class="ok">any</span> money?"   → 혹시 있어? (없을 수도 있다고 생각)</div>
+
+<h2>no / none / not any</h2>
+<table>
+  <tr><th></th><th>구조</th><th>예</th></tr>
+  <tr><td><code>no</code></td><td>no + 명사</td><td>I have no time. / There are no chairs.</td></tr>
+  <tr><td><code>not any</code></td><td>not + any + 명사</td><td>I don't have any time.</td></tr>
+  <tr><td><code>none</code></td><td>단독 (명사 대체)</td><td>None of them came.</td></tr>
+</table>
+<div class="rule-box"><code>no</code> = <code>not any</code> (의미 동일, <code>no</code>가 더 강조·간결) &nbsp;|&nbsp; <code>none</code>은 대명사로 단독 사용</div>
+<div class="rule-box ok"><code>none of</code> + 복수명사 → 동사 단수(격식) / 복수(일반) 둘 다 허용</div>
+
+<h2>불가산명사 수량화 — a piece of</h2>
+<div class="rule-box">패턴: <code>a / two / three + 단위명사 + of + 불가산명사</code></div>
+<div class="grid grid-2">
+  <div class="card">
+    <div class="card-title">범용</div>
+    <div class="ex">a piece of advice
+a piece of information
+a piece of furniture
+a piece of music / art / work</div>
+  </div>
+  <div class="card">
+    <div class="card-title">음식·음료</div>
+    <div class="ex">a cup of coffee / tea
+a glass of water / juice
+a slice of bread / cake / pizza
+a bar of chocolate / soap
+a loaf of bread</div>
+  </div>
+  <div class="card">
+    <div class="card-title">추상</div>
+    <div class="ex">a bit of help / luck / fun
+a word of advice / warning
+a flash of inspiration
+a stroke of luck / genius</div>
+  </div>
+  <div class="card">
+    <div class="card-title">물질</div>
+    <div class="ex">a grain of rice / sand / salt
+a drop of water / blood
+a block of ice / wood
+a sheet of paper</div>
+  </div>
+</div>
+<div class="ex" style="margin-top:0.5rem"><span class="bad">two advices</span>  →  <span class="ok">two pieces of advice</span>
+<span class="bad">three furnitures</span>  →  <span class="ok">three pieces of furniture</span></div>
+
+<h2>가산·불가산 겸용 명사</h2>
+<table>
+  <tr><th>단어</th><th>불가산 (추상·일반)</th><th>가산 (구체·개체)</th></tr>
+  <tr><td><code>experience</code></td><td>I have experience. (경력)</td><td>I had a great experience. (특정 경험)</td></tr>
+  <tr><td><code>hair</code></td><td>Her hair is long. (머리카락 전체)</td><td>There's a hair in my soup. (한 올)</td></tr>
+  <tr><td><code>paper</code></td><td>I need paper. (종이·재료)</td><td>I wrote a paper. (논문 하나)</td></tr>
+  <tr><td><code>glass</code></td><td>Made of glass. (유리·재료)</td><td>I broke a glass. (유리잔 하나)</td></tr>
+  <tr><td><code>time</code></td><td>I don't have time. (시간 일반)</td><td>I've been there three times. (횟수)</td></tr>
+  <tr><td><code>room</code></td><td>Is there room? (공간·여유)</td><td>There are three rooms. (방)</td></tr>
+  <tr><td><code>work</code></td><td>I have work to do. (일·업무)</td><td>A great work of art. (작품)</td></tr>
+  <tr><td><code>light</code></td><td>Light travels fast. (빛)</td><td>Turn off the lights. (조명)</td></tr>
+</table>
+
+<h2>형태가 헷갈리는 명사</h2>
+<div class="grid grid-3">
+  <div class="card">
+    <div class="card-title">복수형 → 복수 동사<br><small style="font-weight:400;text-transform:none">(a pair of로 셈)</small></div>
+    <div class="ex">scissors  (가위)
+trousers  (바지)
+glasses   (안경)
+tongs     (집게)</div>
+    <p style="margin-top:0.4rem">The scissors <span class="ok">are</span> on the table.</p>
+    <p><code>a pair of</code> scissors = 하나</p>
+  </div>
+  <div class="card">
+    <div class="card-title">-s로 끝나지만 단수 동사</div>
+    <div class="ex">news        (뉴스)
+mathematics (수학)
+physics     (물리학)
+economics   (경제학)
+the United States</div>
+    <p style="margin-top:0.4rem">The news <span class="ok">is</span> good.</p>
+  </div>
+  <div class="card">
+    <div class="card-title">항상 복수 동사</div>
+    <div class="ex">people  (사람들)
+police  (경찰)
+cattle  (소 떼)</div>
+    <p style="margin-top:0.4rem">The police <span class="ok">are</span> looking for him.</p>
+  </div>
+</div>
+
+<h2>불가산 판단 기준</h2>
+<table>
+  <tr><th>유형</th><th>예</th><th>판단</th></tr>
+  <tr><td>물질·재료</td><td>water, wood, gold, plastic</td><td>불가산</td></tr>
+  <tr><td>덩어리 (어디서 잘라도 같음)</td><td>sand, air, snow, flour</td><td>불가산</td></tr>
+  <tr><td>추상 개념</td><td>love, anger, knowledge, freedom</td><td>불가산</td></tr>
+  <tr><td>집합 명사</td><td>furniture, equipment, luggage, clothing</td><td>불가산</td></tr>
+  <tr><td>학문·활동</td><td>music, homework, research, travel</td><td>불가산</td></tr>
+  <tr><td>경계 명확한 물체</td><td>chair, bottle, idea, mistake</td><td>가산</td></tr>
+</table>
+<div class="rule-box warn">논리로 유추 불가 단어는 사전 [C]/[U] 표기로 확인: <code>advice / information / news / research</code></div>
+
+</body>
+</html>
