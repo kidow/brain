@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#ffffff">
+<title>영어 관계대명사 치트시트</title>
+<style>
+  :root {
+    --bg: #fff;
+    --fg: #1a1a1a;
+    --muted: #888;
+    --border: #ddd;
+    --surface: #f8f8f8;
+    --accent: #2563eb;
+    --accent-light: #eff6ff;
+    --red: #dc2626;
+    --green: #16a34a;
+    --orange: #ea580c;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1.5rem 1.25rem;
+  }
+  h1 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--accent);
+    margin-bottom: 0.25rem;
+  }
+  .subtitle {
+    color: var(--muted);
+    font-size: 0.85rem;
+    margin-bottom: 1.5rem;
+  }
+  h2 {
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--muted);
+    margin: 1.5rem 0 0.6rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid var(--border);
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.84rem;
+    margin-bottom: 0.5rem;
+  }
+  th {
+    background: var(--surface);
+    padding: 0.4rem 0.6rem;
+    text-align: left;
+    font-weight: 600;
+    border: 1px solid var(--border);
+    color: var(--fg);
+  }
+  td {
+    padding: 0.4rem 0.6rem;
+    border: 1px solid var(--border);
+    vertical-align: top;
+  }
+  td code, th code {
+    font-family: 'Courier New', monospace;
+    font-weight: 700;
+    color: var(--accent);
+    font-size: 0.85rem;
+  }
+  .rule-box {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
+    border-radius: 0 6px 6px 0;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.84rem;
+    margin-bottom: 0.4rem;
+  }
+  .rule-box.warn { border-left-color: var(--red); }
+  .rule-box.ok   { border-left-color: var(--green); }
+  .rule-box code {
+    font-family: 'Courier New', monospace;
+    font-weight: 700;
+    color: var(--accent);
+  }
+  .grid { display: grid; gap: 0.75rem; }
+  .grid-2 { grid-template-columns: 1fr 1fr; }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 0.65rem 0.75rem;
+  }
+  .card-title {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--accent);
+    margin-bottom: 0.5rem;
+  }
+  .card p { font-size: 0.82rem; color: #444; margin-top: 0.3rem; }
+  .card code {
+    font-family: 'Courier New', monospace;
+    font-weight: 700;
+    color: var(--accent);
+    background: var(--accent-light);
+    padding: 0.1rem 0.3rem;
+    border-radius: 3px;
+    font-size: 0.85rem;
+  }
+  .wrong { color: var(--red); text-decoration: line-through; }
+  .right { color: var(--green); }
+  .tag {
+    display: inline-block;
+    font-size: 0.7rem;
+    padding: 0.1rem 0.4rem;
+    border-radius: 3px;
+    font-weight: 600;
+  }
+  .tag-red   { background: #fee2e2; color: var(--red); }
+  .tag-blue  { background: var(--accent-light); color: var(--accent); }
+  .tag-gray  { background: var(--surface); color: var(--muted); }
+  .tag-green { background: #dcfce7; color: var(--green); }
+  .ex {
+    font-family: 'Courier New', monospace;
+    font-size: 0.82rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 0.35rem 0.6rem;
+    margin-top: 0.3rem;
+    color: #333;
+  }
+  .ex .ok  { color: var(--green); }
+  .ex .bad { color: var(--red); text-decoration: line-through; }
+  @media (max-width: 600px) {
+    body { padding: 1rem; }
+    .grid-2 { grid-template-columns: 1fr; }
+  }
+  @media print { body { padding: 0.5cm; } }
+</style>
+</head>
+<body>
+
+<h1>영어 관계대명사 치트시트</h1>
+<p class="subtitle">English Relative Pronouns — 구조·선택·용법 한눈에</p>
+
+<h2>핵심 구조</h2>
+<div class="rule-box">두 문장의 공통 명사 → 관계대명사로 연결 &nbsp; <code>선행사 + 관계대명사 + 절</code></div>
+<div class="ex">I know a man. + The man speaks five languages.<br>→ I know a man <span class="ok">who speaks five languages</span>.</div>
+
+<h2>관계대명사 선택표</h2>
+<table>
+  <tr>
+    <th>선행사</th>
+    <th>주격</th>
+    <th>목적격</th>
+    <th>소유격</th>
+  </tr>
+  <tr>
+    <td>사람</td>
+    <td><code>who</code></td>
+    <td><code>whom</code> (who·생략 가능)</td>
+    <td><code>whose</code></td>
+  </tr>
+  <tr>
+    <td>사물·동물</td>
+    <td><code>which</code></td>
+    <td><code>which</code> (생략 가능)</td>
+    <td><code>whose</code></td>
+  </tr>
+  <tr>
+    <td>사람·사물 모두</td>
+    <td><code>that</code></td>
+    <td><code>that</code> (생략 가능)</td>
+    <td>—</td>
+  </tr>
+  <tr>
+    <td>선행사 포함</td>
+    <td><code>what</code></td>
+    <td><code>what</code></td>
+    <td>—</td>
+  </tr>
+</table>
+
+<h2>whose — 소유격</h2>
+<div class="rule-box"><code>선행사 + whose + 명사</code> &nbsp;→&nbsp; "~의" 관계. 사람·사물 모두 가능.</div>
+<div class="ex">I have a friend <span class="ok">whose car broke down</span>. &nbsp; (친구의 차)<br>
+This is the book <span class="ok">whose cover is torn</span>. &nbsp; (책의 표지)</div>
+
+<h2>who vs whom</h2>
+<div class="grid grid-2">
+  <div class="card">
+    <div class="card-title">who — 주어 역할</div>
+    <div class="ex">The man <span class="ok">who called you</span>.<br><small>→ He called you. (주어 자리)</small></div>
+  </div>
+  <div class="card">
+    <div class="card-title">whom — 목적어 역할</div>
+    <div class="ex">The man <span class="ok">whom I called</span>.<br><small>→ I called him. (목적어 자리)</small></div>
+  </div>
+</div>
+
+<h2>관계대명사 생략</h2>
+<table>
+  <tr><th>경우</th><th>생략</th><th>예</th></tr>
+  <tr>
+    <td>목적격</td>
+    <td><span class="tag tag-green">가능</span></td>
+    <td>The man [I called] ✅</td>
+  </tr>
+  <tr>
+    <td>주격</td>
+    <td><span class="tag tag-red">불가</span></td>
+    <td><span class="wrong">The man [called me]</span> ❌</td>
+  </tr>
+  <tr>
+    <td>whose</td>
+    <td><span class="tag tag-red">불가</span></td>
+    <td>소유 관계 사라져 의미 불명</td>
+  </tr>
+</table>
+
+<h2>제한적 vs 비제한적 용법</h2>
+<div class="grid grid-2">
+  <div class="card">
+    <div class="card-title">제한적 — 쉼표 없음</div>
+    <p>선행사 범위를 좁힘. 없으면 의미 달라짐.</p>
+    <div class="ex">I have a sister <span class="ok">who is a doctor</span>.<br><small>(여러 자매 중 의사인 자매 특정)</small></div>
+  </div>
+  <div class="card">
+    <div class="card-title">비제한적 — 쉼표 있음</div>
+    <p>이미 특정된 것에 추가 정보. 없어도 의미 유지.</p>
+    <div class="ex">I have a sister<span class="ok">, who is a doctor</span>.<br><small>(자매 한 명 — 부가 정보)</small></div>
+  </div>
+</div>
+<div class="rule-box warn" style="margin-top:0.5rem">비제한적 용법에서 <code>that</code> 사용 불가 &nbsp; <span class="wrong">My car, that I bought, is red.</span></div>
+
+<h2>전치사 + 관계대명사</h2>
+<table>
+  <tr><th>용법</th><th>구조</th><th>예</th></tr>
+  <tr>
+    <td>일상·비격식</td>
+    <td>전치사 뒤</td>
+    <td>The city <code>which</code> I was born <code>in</code>.</td>
+  </tr>
+  <tr>
+    <td>격식·문어체</td>
+    <td>전치사 앞</td>
+    <td>The city <code>in which</code> I was born.</td>
+  </tr>
+</table>
+<div class="rule-box warn">전치사 앞 이동 시 <code>that</code> 불가 &nbsp; <span class="wrong">in that I was born</span> ❌</div>
+
+<h2>that만 쓰는 경우</h2>
+<div class="rule-box ok">최상급·서수 선행사 &nbsp; <code>the best / the first</code> + that</div>
+<div class="rule-box ok">사람 + 사물 동시 선행사 &nbsp; the man and his dog <code>that</code> came</div>
+<div class="rule-box ok">all / the only / every / no 선행사 &nbsp; All <code>that</code> glitters… &nbsp;|&nbsp; the only book <code>that</code> I have</div>
+
+<h2>what — 선행사 포함형</h2>
+<div class="rule-box"><code>what</code> = <code>the thing(s) which</code> &nbsp; 앞에 선행사 없음. 명사절 역할.</div>
+<table>
+  <tr><th>역할</th><th>예</th></tr>
+  <tr><td>주어</td><td><code>What he wants</code> is money.</td></tr>
+  <tr><td>목적어</td><td>I know <code>what she means</code>.</td></tr>
+  <tr><td>보어</td><td>This is <code>what I was looking for</code>.</td></tr>
+</table>
+<div class="ex">The thing <span class="ok">which I want</span> → 선행사 있음 → <code>which</code><br>
+<span class="ok">What I want</span> → 선행사 없음 → <code>what</code></div>
+
+<h2>that 못 쓰는 경우 요약</h2>
+<table>
+  <tr><th>경우</th><th>예</th></tr>
+  <tr><td>비제한적 용법 (쉼표)</td><td><span class="wrong">My car, that…</span> → <span class="right">My car, which…</span></td></tr>
+  <tr><td>전치사 바로 뒤</td><td><span class="wrong">in that</span> → <span class="right">in which</span></td></tr>
+</table>
+
+</body>
+</html>
