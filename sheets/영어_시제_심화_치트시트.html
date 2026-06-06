@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#ffffff">
+<title>영어 시제 심화 치트시트</title>
+<style>
+  :root {
+    --bg: #fff;
+    --fg: #1a1a1a;
+    --muted: #888;
+    --border: #ddd;
+    --surface: #f8f8f8;
+    --accent: #2563eb;
+    --accent-light: #eff6ff;
+    --red: #dc2626;
+    --green: #16a34a;
+    --orange: #ea580c;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg); color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 14px; line-height: 1.6;
+    max-width: 800px; margin: 0 auto; padding: 1.5rem 1.25rem;
+  }
+  h1 { font-size: 1.4rem; font-weight: 700; color: var(--accent); margin-bottom: 0.25rem; }
+  .subtitle { color: var(--muted); font-size: 0.85rem; margin-bottom: 1.5rem; }
+  h2 {
+    font-size: 0.8rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.06em; color: var(--muted);
+    margin: 1.5rem 0 0.6rem; padding-bottom: 0.3rem;
+    border-bottom: 1px solid var(--border);
+  }
+  table { width: 100%; border-collapse: collapse; font-size: 0.84rem; margin-bottom: 0.5rem; }
+  th { background: var(--surface); padding: 0.4rem 0.6rem; text-align: left; font-weight: 600; border: 1px solid var(--border); }
+  td { padding: 0.4rem 0.6rem; border: 1px solid var(--border); vertical-align: top; }
+  td code, th code { font-family: 'Courier New', monospace; font-weight: 700; color: var(--accent); font-size: 0.85rem; }
+  .rule-box {
+    background: var(--surface); border: 1px solid var(--border);
+    border-left: 3px solid var(--accent); border-radius: 0 6px 6px 0;
+    padding: 0.5rem 0.75rem; font-size: 0.84rem; margin-bottom: 0.4rem;
+  }
+  .rule-box.warn { border-left-color: var(--red); }
+  .rule-box.ok   { border-left-color: var(--green); }
+  .rule-box code { font-family: 'Courier New', monospace; font-weight: 700; color: var(--accent); }
+  .grid { display: grid; gap: 0.75rem; }
+  .grid-2 { grid-template-columns: 1fr 1fr; }
+  .grid-3 { grid-template-columns: 1fr 1fr 1fr; }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 0.65rem 0.75rem; }
+  .card-title { font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--accent); margin-bottom: 0.45rem; }
+  .card p { font-size: 0.82rem; color: #444; margin-top: 0.25rem; }
+  .ex {
+    font-family: 'Courier New', monospace; font-size: 0.82rem;
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 4px; padding: 0.35rem 0.6rem; margin-top: 0.3rem;
+    color: #333; white-space: pre-wrap;
+  }
+  .ok  { color: var(--green); }
+  .bad { color: var(--red); text-decoration: line-through; }
+  .tag { display: inline-block; font-size: 0.7rem; padding: 0.1rem 0.4rem; border-radius: 3px; font-weight: 600; }
+  .tag-red   { background: #fee2e2; color: var(--red); }
+  .tag-green { background: #dcfce7; color: var(--green); }
+  .tag-gray  { background: var(--surface); color: var(--muted); }
+  .tag-blue  { background: var(--accent-light); color: var(--accent); }
+  .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 4px; }
+  .dot-high { background: var(--green); }
+  .dot-mid  { background: var(--orange); }
+  .dot-low  { background: var(--muted); }
+  @media (max-width: 600px) { body { padding: 1rem; } .grid-2, .grid-3 { grid-template-columns: 1fr; } }
+  @media print { body { padding: 0.5cm; } }
+</style>
+</head>
+<body>
+
+<h1>영어 시제 심화 치트시트</h1>
+<p class="subtitle">English Advanced Tenses — 완료·진행·미래·시제일치 한눈에</p>
+
+<h2>12시제 전체 지도</h2>
+<table>
+  <tr><th></th><th>단순</th><th>진행</th><th>완료</th><th>완료진행</th></tr>
+  <tr><th>현재</th><td><code>do</code></td><td><code>is doing</code></td><td><code>has done</code></td><td><code>has been doing</code></td></tr>
+  <tr><th>과거</th><td><code>did</code></td><td><code>was doing</code></td><td><code>had done</code></td><td><code>had been doing</code></td></tr>
+  <tr><th>미래</th><td><code>will do</code></td><td><code>will be doing</code></td><td><code>will have done</code></td><td><code>will have been doing</code></td></tr>
+</table>
+
+<h2>현재완료 — has done</h2>
+<div class="rule-box">과거 사건 + 현재 상태·결과 연결 &nbsp;|&nbsp; yesterday / ago / last~ 와 함께 불가</div>
+<table>
+  <tr><th>용법</th><th>키워드</th><th>예</th></tr>
+  <tr><td>결과</td><td>—</td><td>I have broken my leg. <small>(지금 부러진 상태)</small></td></tr>
+  <tr><td>경험</td><td><code>ever / never / before</code></td><td>Have you ever been to Paris?</td></tr>
+  <tr><td>계속</td><td><code>for / since</code></td><td>I have lived here for 10 years.</td></tr>
+  <tr><td>완료</td><td><code>just / already / yet</code></td><td>She has just arrived.</td></tr>
+</table>
+<div class="rule-box warn"><span class="bad">I have seen him yesterday.</span> ❌ &nbsp; 과거 시점 명시 → 단순과거만</div>
+
+<h2>완료 계열 비교</h2>
+<div class="grid grid-2">
+
+  <div class="card">
+    <div class="card-title">현재완료 진행 — has been doing</div>
+    <p>과거부터 지금까지 계속·누적. for/since와 자주 씀.</p>
+    <div class="ex">I have been waiting for an hour.
+She has been studying since morning.
+I have been crying.  <small>(for 없어도 OK)</small></div>
+    <p style="margin-top:0.4rem"><code>has done</code> = 완료 &nbsp;|&nbsp; <code>has been doing</code> = 진행 중</p>
+  </div>
+
+  <div class="card">
+    <div class="card-title">과거완료 — had done</div>
+    <p>"과거 속의 과거" — 어떤 과거 시점보다 더 이전.</p>
+    <div class="ex">When I arrived, she had already left.
+I realized I had forgotten my wallet.
+He had never seen snow before he moved.</div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">과거완료 진행 — had been doing</div>
+    <p>과거 시점 이전부터 그 시점까지 계속 진행.</p>
+    <div class="ex">She had been crying when I found her.
+They had been dating for 3 years before
+they broke up.</div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">미래완료 — will have done</div>
+    <p>미래 특정 시점까지 완료되어 있을 것. by + 시점.</p>
+    <div class="ex">By next year, I will have graduated.
+By the time you arrive, I will have
+finished cooking.</div>
+  </div>
+
+</div>
+
+<h2>미래 표현 3가지</h2>
+<table>
+  <tr><th></th><th>결정 시점</th><th>특징</th><th>예</th></tr>
+  <tr>
+    <td><code>will</code></td>
+    <td>지금 막</td>
+    <td>즉흥·예측·의지</td>
+    <td>"I'll get it." (전화 울릴 때)</td>
+  </tr>
+  <tr>
+    <td><code>be going to</code></td>
+    <td>이미</td>
+    <td>계획·근거 있는 예측</td>
+    <td>I'm going to visit Paris next month.</td>
+  </tr>
+  <tr>
+    <td>현재진행</td>
+    <td>이미 확정</td>
+    <td>약속·예약</td>
+    <td>I'm meeting her at 7.</td>
+  </tr>
+</table>
+<div class="ex">Look at those clouds — it's going to rain.  <small>(근거 있는 예측 → be going to)</small>
+"The phone is ringing." "I'll get it."    <small>(즉흥 → will)</small></div>
+
+<h2>시제 일치 — 간접화법 시제 이동</h2>
+<table>
+  <tr><th>직접화법</th><th>간접화법</th></tr>
+  <tr><td><code>am/is/are</code></td><td><code>was/were</code></td></tr>
+  <tr><td><code>was/did</code></td><td><code>had done</code></td></tr>
+  <tr><td><code>has done</code></td><td><code>had done</code></td></tr>
+  <tr><td><code>will</code></td><td><code>would</code></td></tr>
+  <tr><td><code>can</code></td><td><code>could</code></td></tr>
+  <tr><td><code>may</code></td><td><code>might</code></td></tr>
+</table>
+<div class="rule-box ok">전달 시점에도 사실인 것 → 현재시제 유지 가능 &nbsp; He said the Earth <code>is</code> round. ✅</div>
+
+<h2>상태동사 — 진행형 불가</h2>
+<div class="rule-box warn">상태동사는 진행형 불가 &nbsp; <span class="bad">I am knowing the answer.</span></div>
+<div class="grid grid-2">
+  <div class="card">
+    <div class="card-title">상태동사 (진행 불가)</div>
+    <div class="ex">know / believe / understand
+like / love / hate / want / need
+own / have(소유) / contain / seem</div>
+  </div>
+  <div class="card">
+    <div class="card-title">같은 동사, 뜻에 따라 달라짐</div>
+    <div class="ex"><span class="bad">I am having</span> a car.  ❌ (소유)
+<span class="ok">I am having</span> lunch.  ✅ (행위)
+<span class="ok">I am seeing</span> her tonight. ✅ (만나다)</div>
+  </div>
+</div>
+
+<h2>실용 빈도</h2>
+<table>
+  <tr><th>시제</th><th>빈도</th></tr>
+  <tr><td>현재완료 <code>has done</code></td><td><span class="dot dot-high"></span>매우 높음</td></tr>
+  <tr><td>현재완료 진행 <code>has been doing</code></td><td><span class="dot dot-high"></span>높음</td></tr>
+  <tr><td>과거완료 <code>had done</code></td><td><span class="dot dot-mid"></span>중간</td></tr>
+  <tr><td>미래완료 <code>will have done</code></td><td><span class="dot dot-low"></span>낮음</td></tr>
+  <tr><td>과거완료 진행 <code>had been doing</code></td><td><span class="dot dot-low"></span>낮음</td></tr>
+  <tr><td>미래완료 진행 <code>will have been doing</code></td><td><span class="dot dot-low"></span>매우 낮음</td></tr>
+</table>
+
+</body>
+</html>
