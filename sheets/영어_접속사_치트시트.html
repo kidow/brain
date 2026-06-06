@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#ffffff">
+<title>영어 접속사 치트시트</title>
+<style>
+  :root {
+    --bg: #fff;
+    --fg: #1a1a1a;
+    --muted: #888;
+    --border: #ddd;
+    --surface: #f8f8f8;
+    --accent: #2563eb;
+    --accent-light: #eff6ff;
+    --red: #dc2626;
+    --green: #16a34a;
+    --orange: #ea580c;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg); color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 14px; line-height: 1.6;
+    max-width: 800px; margin: 0 auto; padding: 1.5rem 1.25rem;
+  }
+  h1 { font-size: 1.4rem; font-weight: 700; color: var(--accent); margin-bottom: 0.25rem; }
+  .subtitle { color: var(--muted); font-size: 0.85rem; margin-bottom: 1.5rem; }
+  h2 {
+    font-size: 0.8rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.06em; color: var(--muted);
+    margin: 1.5rem 0 0.6rem; padding-bottom: 0.3rem;
+    border-bottom: 1px solid var(--border);
+  }
+  table { width: 100%; border-collapse: collapse; font-size: 0.84rem; margin-bottom: 0.5rem; }
+  th { background: var(--surface); padding: 0.4rem 0.6rem; text-align: left; font-weight: 600; border: 1px solid var(--border); }
+  td { padding: 0.4rem 0.6rem; border: 1px solid var(--border); vertical-align: top; }
+  td code, th code { font-family: 'Courier New', monospace; font-weight: 700; color: var(--accent); font-size: 0.85rem; }
+  .rule-box {
+    background: var(--surface); border: 1px solid var(--border);
+    border-left: 3px solid var(--accent); border-radius: 0 6px 6px 0;
+    padding: 0.5rem 0.75rem; font-size: 0.84rem; margin-bottom: 0.4rem;
+  }
+  .rule-box.warn { border-left-color: var(--red); }
+  .rule-box code { font-family: 'Courier New', monospace; font-weight: 700; color: var(--accent); }
+  .grid { display: grid; gap: 0.75rem; }
+  .grid-2 { grid-template-columns: 1fr 1fr; }
+  .grid-3 { grid-template-columns: 1fr 1fr 1fr; }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 0.65rem 0.75rem; }
+  .card-title { font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--accent); margin-bottom: 0.45rem; }
+  .card code { font-family: 'Courier New', monospace; font-weight: 700; color: var(--accent); background: var(--accent-light); padding: 0.1rem 0.3rem; border-radius: 3px; font-size: 0.85rem; }
+  .card p { font-size: 0.82rem; color: #444; margin-top: 0.25rem; }
+  .ex { font-family: 'Courier New', monospace; font-size: 0.82rem; background: var(--surface); border: 1px solid var(--border); border-radius: 4px; padding: 0.35rem 0.6rem; margin-top: 0.3rem; color: #333; white-space: pre-wrap; }
+  .ok  { color: var(--green); }
+  .bad { color: var(--red); text-decoration: line-through; }
+  .tag { display: inline-block; font-size: 0.7rem; padding: 0.1rem 0.4rem; border-radius: 3px; font-weight: 600; }
+  .tag-red   { background: #fee2e2; color: var(--red); }
+  .tag-green { background: #dcfce7; color: var(--green); }
+  .tag-gray  { background: var(--surface); color: var(--muted); }
+  .tag-blue  { background: var(--accent-light); color: var(--accent); }
+  .fanboys { display: flex; gap: 0.4rem; flex-wrap: wrap; margin-top: 0.4rem; }
+  .fanboy { background: var(--accent); color: #fff; font-family: 'Courier New', monospace; font-weight: 700; font-size: 0.9rem; border-radius: 4px; padding: 0.3rem 0.6rem; text-align: center; }
+  .fanboy span { display: block; font-size: 0.65rem; font-weight: 400; opacity: 0.85; margin-top: 0.1rem; }
+  @media (max-width: 600px) { body { padding: 1rem; } .grid-2, .grid-3 { grid-template-columns: 1fr; } }
+  @media print { body { padding: 0.5cm; } }
+</style>
+</head>
+<body>
+
+<h1>영어 접속사 치트시트</h1>
+<p class="subtitle">English Conjunctions — 등위·종속·상관·접속부사 한눈에</p>
+
+<h2>등위접속사 FANBOYS</h2>
+<div class="fanboys">
+  <div class="fanboy">F<span>for 이유</span></div>
+  <div class="fanboy">A<span>and 추가</span></div>
+  <div class="fanboy">N<span>nor 둘 다 아님</span></div>
+  <div class="fanboy">B<span>but 대조</span></div>
+  <div class="fanboy">O<span>or 선택</span></div>
+  <div class="fanboy">Y<span>yet 강한 대조</span></div>
+  <div class="fanboy">S<span>so 결과</span></div>
+</div>
+<div class="rule-box" style="margin-top:0.6rem">두 절 연결 시 앞에 쉼표 &nbsp; <code>I was tired, but I kept working.</code></div>
+
+<h2>종속접속사 — 유형별</h2>
+<table>
+  <tr><th>유형</th><th>접속사</th><th>예</th></tr>
+  <tr><td>시간</td><td><code>when, while, after, before, until, as soon as</code></td><td>I left <code>when</code> she arrived.</td></tr>
+  <tr><td>이유</td><td><code>because, since, as</code></td><td>She cried <code>because</code> she was sad.</td></tr>
+  <tr><td>조건</td><td><code>if, unless, as long as</code></td><td>Call me <code>if</code> you need help.</td></tr>
+  <tr><td>양보</td><td><code>although, though, even though, even if</code></td><td><code>Although</code> it rained, we went.</td></tr>
+  <tr><td>목적</td><td><code>so that, in order that</code></td><td>She studied <code>so that</code> she could pass.</td></tr>
+  <tr><td>결과</td><td><code>so…that, such…that</code></td><td>It was <code>so</code> cold <code>that</code> I stayed home.</td></tr>
+  <tr><td>대조</td><td><code>while, whereas</code></td><td>I like cats, <code>whereas</code> she likes dogs.</td></tr>
+</table>
+<div class="rule-box">종속절 앞 → 쉼표 필요 &nbsp; <code>Because she was tired, she left.</code> &nbsp;|&nbsp; 종속절 뒤 → 쉼표 없음</div>
+
+<h2>헷갈리는 쌍 비교</h2>
+<div class="grid grid-2">
+
+  <div class="card">
+    <div class="card-title">while vs whereas</div>
+    <p><code>while</code> = 시간(동안) 또는 대조(비격식)<br><code>whereas</code> = 대조만 (격식·문어)</p>
+    <div class="ex">While I was cooking, she watched TV.  <small>(시간)</small>
+While I like cats, she likes dogs.     <small>(대조)</small>
+I like cats, whereas she likes dogs.   <small>(격식)</small></div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">because vs since vs as</div>
+    <p><code>because</code> = 직접 이유 (새 정보·강조)<br><code>since</code> = 알려진 배경 이유 (격식)<br><code>as</code> = 알려진 배경 이유 (고격식)</p>
+    <div class="ex">I stayed home because I was sick.
+Since you're here, let's start.
+As it was late, we left.</div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">even though vs even if</div>
+    <p><code>even though</code> = 사실인 것에 대한 양보<br><code>even if</code> = 가정·불확실한 것에 대한 양보</p>
+    <div class="ex">Even though I was tired, I finished.  <small>(사실)</small>
+Even if I am tired, I will finish.    <small>(가정)</small></div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">so that vs so…that</div>
+    <p><code>so that</code> = 목적 (~하기 위해)<br><code>so + 형/부 + that</code> = 결과 (너무~해서)<br><code>such…that</code> = 결과 (명사 앞)</p>
+    <div class="ex">She studied so that she could pass.
+It was so cold that I stayed home.
+It was such a cold day that I stayed.</div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">if vs unless</div>
+    <p><code>unless</code> = <code>if…not</code> (예외 조건)</p>
+    <div class="ex">I'll go unless it rains.
+= I'll go if it doesn't rain.</div>
+    <div class="rule-box warn" style="margin-top:0.4rem;font-size:0.78rem"><span class="bad">Unless you don't come.</span> ← 이중 부정 금지</div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">whether vs if (명사절)</div>
+    <p>둘 다 "~인지 아닌지". 주어 자리 · or not 직결 → <code>whether</code>만.</p>
+    <div class="ex"><span class="ok">Whether</span> she comes or not doesn't matter.
+<span class="bad">If</span> she comes or not doesn't matter. ❌</div>
+  </div>
+
+</div>
+
+<h2>상관접속사</h2>
+<table>
+  <tr><th>상관접속사</th><th>뜻</th><th>수일치</th></tr>
+  <tr><td><code>both A and B</code></td><td>A와 B 둘 다</td><td>복수</td></tr>
+  <tr><td><code>either A or B</code></td><td>A 또는 B</td><td>B에 맞춤</td></tr>
+  <tr><td><code>neither A nor B</code></td><td>A도 B도 아님</td><td>B에 맞춤</td></tr>
+  <tr><td><code>not only A but also B</code></td><td>A뿐만 아니라 B도</td><td>B에 맞춤</td></tr>
+  <tr><td><code>not A but B</code></td><td>A가 아니라 B</td><td>B에 맞춤</td></tr>
+</table>
+<div class="ex">Either she or <span class="ok">I am</span> right.  &nbsp; Neither he nor <span class="ok">they are</span> wrong.</div>
+
+<h2>접속부사 — 접속사 아님 (쉼표로 절 연결 불가)</h2>
+<div class="rule-box warn"><span class="bad">I was tired, however I kept working.</span> &nbsp;→&nbsp; <span class="ok">I was tired. However, I kept working.</span></div>
+<table>
+  <tr><th>접속부사</th><th>뜻</th><th>비고</th></tr>
+  <tr><td><code>however</code></td><td>그러나</td><td></td></tr>
+  <tr><td><code>therefore</code></td><td>따라서</td><td>일반 격식</td></tr>
+  <tr><td><code>thus</code></td><td>따라서</td><td>논문·고격식</td></tr>
+  <tr><td><code>moreover</code></td><td>게다가</td><td>단순 추가</td></tr>
+  <tr><td><code>furthermore</code></td><td>더 나아가</td><td>앞 주장 강화</td></tr>
+  <tr><td><code>nevertheless</code></td><td>그럼에도 불구하고</td><td></td></tr>
+</table>
+
+<h2>as — 다중 용법</h2>
+<table>
+  <tr><th>용법</th><th>뜻</th><th>예</th></tr>
+  <tr><td>시간</td><td>~할 때 (동시)</td><td>As I walked in, she left.</td></tr>
+  <tr><td>이유</td><td>~이므로 (배경)</td><td>As it was late, we left.</td></tr>
+  <tr><td>방식</td><td>~대로</td><td>Do as I say.</td></tr>
+  <tr><td>비례</td><td>~할수록</td><td>As you get older, time flies.</td></tr>
+</table>
+
+</body>
+</html>
