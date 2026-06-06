@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#ffffff">
+<title>영어 분사구문 치트시트</title>
+<style>
+  :root {
+    --bg: #fff;
+    --fg: #1a1a1a;
+    --muted: #888;
+    --border: #ddd;
+    --surface: #f8f8f8;
+    --accent: #2563eb;
+    --accent-light: #eff6ff;
+    --red: #dc2626;
+    --green: #16a34a;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg); color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 14px; line-height: 1.6;
+    max-width: 800px; margin: 0 auto; padding: 1.5rem 1.25rem;
+  }
+  h1 { font-size: 1.4rem; font-weight: 700; color: var(--accent); margin-bottom: 0.25rem; }
+  .subtitle { color: var(--muted); font-size: 0.85rem; margin-bottom: 1.5rem; }
+  h2 {
+    font-size: 0.8rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.06em; color: var(--muted);
+    margin: 1.5rem 0 0.6rem; padding-bottom: 0.3rem;
+    border-bottom: 1px solid var(--border);
+  }
+  table { width: 100%; border-collapse: collapse; font-size: 0.84rem; margin-bottom: 0.5rem; }
+  th { background: var(--surface); padding: 0.4rem 0.6rem; text-align: left; font-weight: 600; border: 1px solid var(--border); }
+  td { padding: 0.4rem 0.6rem; border: 1px solid var(--border); vertical-align: top; }
+  td code, th code { font-family: 'Courier New', monospace; font-weight: 700; color: var(--accent); font-size: 0.85rem; }
+  .rule-box {
+    background: var(--surface); border: 1px solid var(--border);
+    border-left: 3px solid var(--accent); border-radius: 0 6px 6px 0;
+    padding: 0.5rem 0.75rem; font-size: 0.84rem; margin-bottom: 0.4rem;
+  }
+  .rule-box.warn { border-left-color: var(--red); }
+  .rule-box.ok   { border-left-color: var(--green); }
+  .rule-box code { font-family: 'Courier New', monospace; font-weight: 700; color: var(--accent); }
+  .grid { display: grid; gap: 0.75rem; }
+  .grid-2 { grid-template-columns: 1fr 1fr; }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 0.65rem 0.75rem; }
+  .card-title { font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--accent); margin-bottom: 0.45rem; }
+  .card p { font-size: 0.82rem; color: #444; margin-top: 0.25rem; }
+  .ex {
+    font-family: 'Courier New', monospace; font-size: 0.82rem;
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 4px; padding: 0.35rem 0.6rem; margin-top: 0.3rem;
+    color: #333; white-space: pre-wrap;
+  }
+  .ok  { color: var(--green); }
+  .bad { color: var(--red); text-decoration: line-through; }
+  .arrow { color: var(--muted); }
+  .steps { counter-reset: step; display: flex; flex-direction: column; gap: 0.3rem; margin-top: 0.3rem; }
+  .step { display: flex; gap: 0.5rem; font-size: 0.83rem; }
+  .step::before { counter-increment: step; content: counter(step); background: var(--accent); color: #fff; border-radius: 50%; min-width: 1.2rem; height: 1.2rem; display: flex; align-items: center; justify-content: center; font-size: 0.7rem; font-weight: 700; margin-top: 0.1rem; }
+  @media (max-width: 600px) { body { padding: 1rem; } .grid-2 { grid-template-columns: 1fr; } }
+  @media print { body { padding: 0.5cm; } }
+</style>
+</head>
+<body>
+
+<h1>영어 분사구문 치트시트</h1>
+<p class="subtitle">English Participial Constructions — 압축·유형·오류 한눈에</p>
+
+<h2>만드는 법 — 부사절 → 분사구문</h2>
+<div class="steps">
+  <div class="step">접속사 제거</div>
+  <div class="step">주절과 주어 같으면 주어 제거</div>
+  <div class="step">동사 → <code>-ing</code></div>
+</div>
+<div class="ex" style="margin-top:0.5rem">Because I was tired, I went home.
+<span class="arrow">→</span> <span class="ok">Being tired, I went home.</span></div>
+
+<h2>분사 선택 — 능동 vs 수동</h2>
+<div class="grid-2" style="display:grid;gap:0.75rem">
+  <div class="card">
+    <div class="card-title">현재분사 -ing — 능동</div>
+    <p>주어가 직접 동작</p>
+    <div class="ex">Walking to school, I saw an accident.
+Hearing the news, she called me.</div>
+  </div>
+  <div class="card">
+    <div class="card-title">과거분사 p.p. — 수동</div>
+    <p>주어가 당하는 상태</p>
+    <div class="ex">Written in Korean, the book was hard.
+Excited by the news, she called me.</div>
+  </div>
+</div>
+<div class="rule-box" style="margin-top:0.5rem">"~된 상태로" → <code>p.p.</code> &nbsp;|&nbsp; "~하면서·~하고" → <code>-ing</code></div>
+
+<h2>의미 유형</h2>
+<table>
+  <tr><th>의미</th><th>예</th></tr>
+  <tr><td>이유</td><td>Being late, he apologized.</td></tr>
+  <tr><td>시간</td><td>Entering the room, she smiled.</td></tr>
+  <tr><td>조건</td><td>Turning left, you'll see the bank.</td></tr>
+  <tr><td>동시 동작</td><td>She sat reading a book.</td></tr>
+  <tr><td>연속 동작</td><td>He stood up, walking to the window.</td></tr>
+</table>
+<div class="rule-box">접속사 없으므로 정확한 의미는 문맥 판단. <code>-ing</code> 절 → 이유/시간/조건 중 자연스러운 것으로 읽기.</div>
+
+<h2>특수 형태</h2>
+<div class="grid grid-2">
+
+  <div class="card">
+    <div class="card-title">완료 — Having + p.p.</div>
+    <p>주절보다 먼저 일어난 일</p>
+    <div class="ex">Having finished, he went home.
+Having lived in Japan, he speaks Japanese.
+Having been told the news, she cried. <small>(수동)</small></div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">부정 — Not + -ing</div>
+    <p><code>not</code>은 분사 앞에</p>
+    <div class="ex">Not knowing what to say, he was silent.
+Not having slept well, she felt tired.
+<span class="bad">Knowing not</span> ❌</div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">독립 분사구문 — 주어 다를 때</div>
+    <p>주절과 주어 다르면 분사구문에 주어 명시</p>
+    <div class="ex">The weather being fine, we went out.
+It being Sunday, the shop was closed.
+All things considered, it was a success.</div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">with 분사구문 — 부대 상황</div>
+    <p><code>with + 목적어 + -ing/p.p.</code> &nbsp; "~한 채로"</p>
+    <div class="ex">He sat with his arms folded.       <small>(p.p.)</small>
+She walked in with her phone ringing. <small>(-ing)</small>
+with the door open                  <small>(형용사)</small></div>
+  </div>
+
+</div>
+
+<h2>관계절 압축</h2>
+<table>
+  <tr><th>관계절</th><th>분사구문</th></tr>
+  <tr><td>the man <code>who is standing</code> there</td><td>the man <code>standing</code> there</td></tr>
+  <tr><td>the letter <code>which was written</code> in French</td><td>the letter <code>written</code> in French</td></tr>
+  <tr><td>the girl <code>who is singing</code></td><td>the girl <code>singing</code></td></tr>
+  <tr><td>the window <code>that was broken</code></td><td>the window <code>broken</code></td></tr>
+</table>
+<div class="rule-box"><code>who/which + is/are + -ing</code> → <code>-ing</code>만 &nbsp;|&nbsp; <code>who/which + was/were + p.p.</code> → <code>p.p.</code>만</div>
+
+<h2>관용 독립 분사구문 (구어 허용)</h2>
+<table>
+  <tr><th>표현</th><th>뜻</th></tr>
+  <tr><td><code>Generally speaking</code></td><td>일반적으로 말하면</td></tr>
+  <tr><td><code>Strictly speaking</code></td><td>엄밀히 말하면</td></tr>
+  <tr><td><code>Frankly speaking</code></td><td>솔직히 말하면</td></tr>
+  <tr><td><code>Judging from ~</code></td><td>~로 판단하면</td></tr>
+  <tr><td><code>Considering ~</code></td><td>~을 고려하면</td></tr>
+  <tr><td><code>Speaking of ~</code></td><td>~얘기가 나왔으니</td></tr>
+</table>
+
+<h2>Dangling Participle — 주어 불일치 오류</h2>
+<div class="rule-box warn">분사구문의 암묵적 주어 ≠ 주절 주어 → 논리 오류</div>
+<div class="ex"><span class="bad">Walking down the street, a dog bit me.</span>  ❌ (개가 걷고 있었다?)
+<span class="ok">Walking down the street, I was bitten by a dog.</span>  ✅
+
+<span class="bad">Having studied hard, the exam was easy.</span>  ❌ (시험이 공부했다?)
+<span class="ok">Having studied hard, I found the exam easy.</span>  ✅</div>
+<div class="rule-box ok" style="margin-top:0.4rem">확인: 분사구문을 완전한 절로 펼쳤을 때 주절 주어와 일치하는지 체크.</div>
+
+</body>
+</html>

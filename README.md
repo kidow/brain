@@ -87,6 +87,7 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [영어 관계대명사](https://brain.dongwook.kim/notes/영어_관계대명사)
 - [영어 관계부사](https://brain.dongwook.kim/notes/영어_관계부사)
 - [영어 접속사](https://brain.dongwook.kim/notes/영어_접속사)
+- [영어 분사구문](https://brain.dongwook.kim/notes/영어_분사구문)
 
 **Music**
 - [음악 이론 기초](https://brain.dongwook.kim/notes/음악_이론_기초)
@@ -130,6 +131,7 @@ Quick-reference sheets served live at [brain.dongwook.kim](https://brain.dongwoo
 - [영어 관계대명사 치트시트](https://brain.dongwook.kim/sheets/영어_관계대명사_치트시트.html)
 - [영어 관계부사 치트시트](https://brain.dongwook.kim/sheets/영어_관계부사_치트시트.html)
 - [영어 접속사 치트시트](https://brain.dongwook.kim/sheets/영어_접속사_치트시트.html)
+- [영어 분사구문 치트시트](https://brain.dongwook.kim/sheets/영어_분사구문_치트시트.html)
 
 ## Installing the skills
 
