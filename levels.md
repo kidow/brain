@@ -68,6 +68,10 @@ Level: Blank — 원소, 화합물, 혼합물의 구분을 아직 설명할 수 
 
 ## 영어_관사
 
+## 영어_접속사
+
+Level: Glimpsed — 등위접속사 but 정확히 사용. although 종속절 어순(Although S V, S V) 설명 가능. 목적 접속사 so that 즉시 선택. 약점: while(시간/대조 이중 용법)과 whereas(대조 전용·격식) 구분 미인지. 상관접속사(both A and B / either A or B), 결과·조건·양보 접속사 세부 분류 미노출.
+
 ## 영어_관계부사
 
 Level: Glimpsed — where(장소 선행사) 즉시 정확히 선택. when(시간 선행사) 미인지 — "the day" 자리에 that 선택. why(이유 선행사)·how 관계부사 미노출. 관계부사 = 전치사 + which로 변환 가능하다는 구조 원리 미노출.
