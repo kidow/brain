@@ -68,6 +68,10 @@ Level: Blank — 원소, 화합물, 혼합물의 구분을 아직 설명할 수 
 
 ## 영어_관사
 
+## 영어_관계대명사
+
+Level: Glimpsed — who(사람 선행사)·which(사물 선행사) 기본 구분은 작동함. whose(소유격) 미인지 — "whose cover" 자리에 which 선택. whom·that·관계대명사 생략·전치사+관계대명사 구조 미노출. 제한적/비제한적 용법 구분 전혀 미노출.
+
 ## 영어_수동태
 
 Level: Glimpsed — 목적어를 주어 자리로 옮기는 기본 개념은 있음. 동사 형태(`be + p.p.`)를 모름(`have cooked`, `has building` 등 오류). 진행형 수동(`is being built`) 미노출. 행위자 전치사 `by` vs `with` 혼동. 다음 학습 우선순위 = `be + p.p.` 기본 형태, 시제별 수동태, 진행형 수동, `by` 행위자 표현.
