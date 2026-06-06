@@ -68,6 +68,10 @@ Level: Blank — 원소, 화합물, 혼합물의 구분을 아직 설명할 수 
 
 ## 영어_관사
 
+## 영어_분사구문
+
+Level: Blank — 분사구문 자체 미노출. "Being tired, I went home."과 "Because I was tired, I went home."의 관계 설명 불가. 현재분사·과거분사 구분, 부사절 압축 원리, 독립 분사구문 전혀 미노출.
+
 ## 영어_접속사
 
 Level: Glimpsed — 등위접속사 but 정확히 사용. although 종속절 어순(Although S V, S V) 설명 가능. 목적 접속사 so that 즉시 선택. 약점: while(시간/대조 이중 용법)과 whereas(대조 전용·격식) 구분 미인지. 상관접속사(both A and B / either A or B), 결과·조건·양보 접속사 세부 분류 미노출.
