@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#ffffff">
+<title>영어 수동태 치트시트</title>
+<style>
+  :root {
+    --bg: #fff;
+    --fg: #1a1a1a;
+    --muted: #888;
+    --border: #ddd;
+    --surface: #f8f8f8;
+    --accent: #2563eb;
+    --accent-light: #eff6ff;
+    --red: #dc2626;
+    --green: #16a34a;
+    --orange: #ea580c;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1.5rem 1.25rem;
+  }
+  h1 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--accent);
+    margin-bottom: 0.25rem;
+  }
+  .subtitle {
+    color: var(--muted);
+    font-size: 0.85rem;
+    margin-bottom: 1.5rem;
+  }
+  h2 {
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--muted);
+    margin: 1.5rem 0 0.6rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid var(--border);
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.84rem;
+    margin-bottom: 0.5rem;
+  }
+  th {
+    background: var(--surface);
+    padding: 0.4rem 0.6rem;
+    text-align: left;
+    font-weight: 600;
+    border: 1px solid var(--border);
+    color: var(--fg);
+  }
+  td {
+    padding: 0.4rem 0.6rem;
+    border: 1px solid var(--border);
+    vertical-align: top;
+  }
+  td code, th code {
+    font-family: 'Courier New', monospace;
+    font-weight: 700;
+    color: var(--accent);
+    font-size: 0.85rem;
+  }
+  .rule-box {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
+    border-radius: 0 6px 6px 0;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.84rem;
+    margin-bottom: 0.4rem;
+  }
+  .rule-box code {
+    font-family: 'Courier New', monospace;
+    font-weight: 700;
+    color: var(--accent);
+  }
+  .rule-box.warn {
+    border-left-color: var(--red);
+  }
+  .grid { display: grid; gap: 0.75rem; }
+  .grid-2 { grid-template-columns: 1fr 1fr; }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 0.65rem 0.75rem;
+  }
+  .card-title {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--accent);
+    margin-bottom: 0.4rem;
+  }
+  .card code {
+    font-family: 'Courier New', monospace;
+    font-weight: 700;
+    color: var(--accent);
+    background: var(--accent-light);
+    padding: 0.1rem 0.3rem;
+    border-radius: 3px;
+    font-size: 0.85rem;
+  }
+  .example {
+    font-size: 0.82rem;
+    color: #444;
+    margin-top: 0.3rem;
+  }
+  .wrong { color: var(--red); text-decoration: line-through; }
+  .right { color: var(--green); }
+  .tag {
+    display: inline-block;
+    font-size: 0.7rem;
+    padding: 0.1rem 0.4rem;
+    border-radius: 3px;
+    font-weight: 600;
+  }
+  .tag-red { background: #fee2e2; color: var(--red); }
+  .tag-blue { background: var(--accent-light); color: var(--accent); }
+  .tag-gray { background: var(--surface); color: var(--muted); }
+  .tag-green { background: #dcfce7; color: var(--green); }
+  .pill-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-top: 0.3rem;
+  }
+  .pill {
+    font-family: 'Courier New', monospace;
+    font-size: 0.78rem;
+    font-weight: 700;
+    background: var(--accent-light);
+    color: var(--accent);
+    border: 1px solid #bfdbfe;
+    border-radius: 12px;
+    padding: 0.15rem 0.55rem;
+  }
+  .two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    font-size: 0.82rem;
+  }
+  .two-col .label { font-weight: 700; color: var(--muted); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 0.2rem; }
+  @media (max-width: 600px) {
+    body { padding: 1rem 1rem; }
+    .grid-2 { grid-template-columns: 1fr; }
+    .two-col { grid-template-columns: 1fr; }
+  }
+  @media print {
+    body { padding: 0.5cm; }
+  }
+</style>
+</head>
+<body>
+
+<h1>영어 수동태 치트시트</h1>
+<p class="subtitle">English Passive Voice — 구조·시제·패턴 한눈에</p>
+
+<h2>핵심 구조</h2>
+<div class="rule-box">능동 → 수동: <code>목적어 → 주어</code> &nbsp;|&nbsp; <code>동사 → be + p.p.</code> &nbsp;|&nbsp; 원래 주어 → <code>by + 명사</code> (생략 가능)</div>
+<div class="rule-box">The chef cooked the meal. &nbsp;→&nbsp; <span class="right">The meal was cooked by the chef.</span></div>
+
+<h2>시제별 수동태</h2>
+<table>
+  <tr><th>시제</th><th>구조</th><th>예</th></tr>
+  <tr><td>현재</td><td><code>is/are + p.p.</code></td><td>The report <code>is written</code>.</td></tr>
+  <tr><td>과거</td><td><code>was/were + p.p.</code></td><td>The report <code>was written</code>.</td></tr>
+  <tr><td>미래</td><td><code>will be + p.p.</code></td><td>The report <code>will be written</code>.</td></tr>
+  <tr><td>현재완료</td><td><code>has/have been + p.p.</code></td><td>The report <code>has been written</code>.</td></tr>
+  <tr><td>과거완료</td><td><code>had been + p.p.</code></td><td>The report <code>had been written</code>.</td></tr>
+  <tr><td>현재진행</td><td><code>is/are being + p.p.</code></td><td>A bridge <code>is being built</code>.</td></tr>
+  <tr><td>과거진행</td><td><code>was/were being + p.p.</code></td><td>A bridge <code>was being built</code>.</td></tr>
+  <tr><td>조동사</td><td><code>modal + be + p.p.</code></td><td>It <code>must be finished</code>.</td></tr>
+</table>
+
+<h2>특수 패턴</h2>
+<div class="grid grid-2">
+
+  <div class="card">
+    <div class="card-title">get 수동 — 비격식</div>
+    <code>get + p.p.</code>
+    <p class="example">He <strong>got fired</strong>. / She <strong>got hurt</strong>.<br>
+    be = 격식·중립 &nbsp;|&nbsp; get = 비격식·우발</p>
+  </div>
+
+  <div class="card">
+    <div class="card-title">사역 수동</div>
+    <code>have/get + 목적어 + p.p.</code>
+    <p class="example">I <strong>had my car repaired</strong>.<br>
+    She <strong>got her hair cut</strong>.<br>
+    have = 중립 &nbsp;|&nbsp; get = 비격식·노력</p>
+  </div>
+
+  <div class="card">
+    <div class="card-title">비인칭 수동</div>
+    <code>It is said that…</code> &nbsp;=&nbsp; <code>He is said to…</code>
+    <p class="example">It is <strong>said</strong> / <strong>believed</strong> / <strong>reported</strong> / <strong>thought</strong><br>
+    과거: He is said <strong>to have been</strong> rich.</p>
+  </div>
+
+  <div class="card">
+    <div class="card-title">이중 목적어 (Ditransitive)</div>
+    <code>give / send / show / tell</code>
+    <p class="example">They gave him a prize.<br>
+    → <strong>He was given</strong> a prize. <span class="tag tag-green">선호</span><br>
+    → <strong>A prize was given to</strong> him.</p>
+  </div>
+
+</div>
+
+<h2>조동사 수동 — 과거 판단</h2>
+<table>
+  <tr><th>구조</th><th>뜻</th></tr>
+  <tr><td><code>must have been + p.p.</code></td><td>~됐음이 틀림없다</td></tr>
+  <tr><td><code>should have been + p.p.</code></td><td>~됐어야 했는데 (안 됨)</td></tr>
+  <tr><td><code>could have been + p.p.</code></td><td>~될 수 있었는데 (안 됨)</td></tr>
+  <tr><td><code>might have been + p.p.</code></td><td>~됐을지도 모른다</td></tr>
+</table>
+
+<h2>by vs with</h2>
+<div class="grid grid-2">
+  <div class="rule-box"><strong>by</strong> — 행위자 (누가)<br>The window was broken <code>by the child</code>.</div>
+  <div class="rule-box"><strong>with</strong> — 도구·수단 (무엇으로)<br>The window was broken <code>with a rock</code>.</div>
+</div>
+
+<h2>고정 전치사 패턴</h2>
+<div class="grid grid-2">
+  <div>
+    <div style="font-size:0.75rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;margin-bottom:.4rem">감정</div>
+    <table>
+      <tr><td><code>be interested <strong>in</strong></code></td><td>~에 관심 있다</td></tr>
+      <tr><td><code>be surprised <strong>at/by</strong></code></td><td>~에 놀라다</td></tr>
+      <tr><td><code>be satisfied <strong>with</strong></code></td><td>~에 만족하다</td></tr>
+      <tr><td><code>be disappointed <strong>with/in</strong></code></td><td>~에 실망하다</td></tr>
+      <tr><td><code>be excited <strong>about</strong></code></td><td>~에 흥분하다</td></tr>
+      <tr><td><code>be worried <strong>about</strong></code></td><td>~를 걱정하다</td></tr>
+      <tr><td><code>be tired <strong>of</strong></code></td><td>~에 지치다</td></tr>
+    </table>
+  </div>
+  <div>
+    <div style="font-size:0.75rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;margin-bottom:.4rem">관계·상태</div>
+    <table>
+      <tr><td><code>be known <strong>for</strong></code></td><td>~로 알려지다</td></tr>
+      <tr><td><code>be known <strong>as</strong></code></td><td>~로 알려지다 (신분)</td></tr>
+      <tr><td><code>be made <strong>of</strong></code></td><td>재료 눈에 보임</td></tr>
+      <tr><td><code>be made <strong>from</strong></code></td><td>재료 변형됨</td></tr>
+      <tr><td><code>be covered <strong>with/in</strong></code></td><td>~로 덮이다</td></tr>
+      <tr><td><code>be involved <strong>in</strong></code></td><td>~에 관여하다</td></tr>
+      <tr><td><code>be based <strong>on</strong></code></td><td>~에 기반하다</td></tr>
+    </table>
+  </div>
+</div>
+
+<h2>상태 수동 vs 동작 수동</h2>
+<table>
+  <tr><th>문장</th><th>해석</th><th>판별</th></tr>
+  <tr><td>The door <code>is locked</code>.</td><td>문이 잠겨 있다</td><td><span class="tag tag-gray">상태</span></td></tr>
+  <tr><td>The door <code>is locked</code> every night.</td><td>문이 매일 밤 잠긴다</td><td><span class="tag tag-blue">동작</span></td></tr>
+</table>
+<div class="rule-box" style="margin-top:0.4rem">by + 행위자 추가 가능 → 동작 &nbsp;|&nbsp; get으로 교체 자연스러움 → 동작 &nbsp;|&nbsp; 둘 다 어색 → 상태</div>
+
+<h2>수동태 불가</h2>
+<div class="rule-box warn">자동사(목적어 없음) → 수동 불가 &nbsp; <span class="wrong">The accident was happened.</span></div>
+<div class="pill-row">
+  <span class="pill">happen</span>
+  <span class="pill">occur</span>
+  <span class="pill">arrive</span>
+  <span class="pill">appear</span>
+  <span class="pill">sleep</span>
+  <span class="pill">die</span>
+</div>
+<div class="rule-box" style="margin-top:0.5rem">같은 단어도 타동사 용법이면 수동 가능 &nbsp; She runs the company. → <span class="right">The company is run by her.</span></div>
+
+<h2>수동태를 쓰는 이유</h2>
+<table>
+  <tr><th>상황</th><th>예</th></tr>
+  <tr><td>행위자 불명확·중요하지 않음</td><td>My wallet was stolen.</td></tr>
+  <tr><td>행위자를 의도적으로 숨김</td><td>Mistakes were made.</td></tr>
+  <tr><td>결과·대상에 초점</td><td>Three people were injured.</td></tr>
+</table>
+
+</body>
+</html>
