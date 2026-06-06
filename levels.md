@@ -68,6 +68,10 @@ Level: Blank — 원소, 화합물, 혼합물의 구분을 아직 설명할 수 
 
 ## 영어_관사
 
+## 영어_관계부사
+
+Level: Glimpsed — where(장소 선행사) 즉시 정확히 선택. when(시간 선행사) 미인지 — "the day" 자리에 that 선택. why(이유 선행사)·how 관계부사 미노출. 관계부사 = 전치사 + which로 변환 가능하다는 구조 원리 미노출.
+
 ## 영어_관계대명사
 
 Level: Glimpsed — who(사람 선행사)·which(사물 선행사) 기본 구분은 작동함. whose(소유격) 미인지 — "whose cover" 자리에 which 선택. whom·that·관계대명사 생략·전치사+관계대명사 구조 미노출. 제한적/비제한적 용법 구분 전혀 미노출.
