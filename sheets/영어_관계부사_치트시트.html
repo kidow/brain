@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#ffffff">
+<title>영어 관계부사 치트시트</title>
+<style>
+  :root {
+    --bg: #fff;
+    --fg: #1a1a1a;
+    --muted: #888;
+    --border: #ddd;
+    --surface: #f8f8f8;
+    --accent: #2563eb;
+    --accent-light: #eff6ff;
+    --red: #dc2626;
+    --green: #16a34a;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1.5rem 1.25rem;
+  }
+  h1 { font-size: 1.4rem; font-weight: 700; color: var(--accent); margin-bottom: 0.25rem; }
+  .subtitle { color: var(--muted); font-size: 0.85rem; margin-bottom: 1.5rem; }
+  h2 {
+    font-size: 0.8rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.06em; color: var(--muted);
+    margin: 1.5rem 0 0.6rem; padding-bottom: 0.3rem;
+    border-bottom: 1px solid var(--border);
+  }
+  table { width: 100%; border-collapse: collapse; font-size: 0.84rem; margin-bottom: 0.5rem; }
+  th {
+    background: var(--surface); padding: 0.4rem 0.6rem;
+    text-align: left; font-weight: 600; border: 1px solid var(--border);
+  }
+  td { padding: 0.4rem 0.6rem; border: 1px solid var(--border); vertical-align: top; }
+  td code, th code {
+    font-family: 'Courier New', monospace; font-weight: 700;
+    color: var(--accent); font-size: 0.85rem;
+  }
+  .rule-box {
+    background: var(--surface); border: 1px solid var(--border);
+    border-left: 3px solid var(--accent); border-radius: 0 6px 6px 0;
+    padding: 0.5rem 0.75rem; font-size: 0.84rem; margin-bottom: 0.4rem;
+  }
+  .rule-box.warn { border-left-color: var(--red); }
+  .rule-box code { font-family: 'Courier New', monospace; font-weight: 700; color: var(--accent); }
+  .grid { display: grid; gap: 0.75rem; }
+  .grid-2 { grid-template-columns: 1fr 1fr; }
+  .card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 6px; padding: 0.65rem 0.75rem;
+  }
+  .card-title {
+    font-size: 0.75rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.05em; color: var(--accent); margin-bottom: 0.45rem;
+  }
+  .card code {
+    font-family: 'Courier New', monospace; font-weight: 700;
+    color: var(--accent); background: var(--accent-light);
+    padding: 0.1rem 0.3rem; border-radius: 3px; font-size: 0.85rem;
+  }
+  .card p { font-size: 0.82rem; color: #444; margin-top: 0.25rem; }
+  .ex {
+    font-family: 'Courier New', monospace; font-size: 0.82rem;
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 4px; padding: 0.35rem 0.6rem; margin-top: 0.3rem; color: #333;
+    white-space: pre-wrap;
+  }
+  .ok  { color: var(--green); }
+  .bad { color: var(--red); text-decoration: line-through; }
+  .tag { display: inline-block; font-size: 0.7rem; padding: 0.1rem 0.4rem; border-radius: 3px; font-weight: 600; }
+  .tag-red   { background: #fee2e2; color: var(--red); }
+  .tag-green { background: #dcfce7; color: var(--green); }
+  .tag-gray  { background: var(--surface); color: var(--muted); }
+  @media (max-width: 600px) { body { padding: 1rem; } .grid-2 { grid-template-columns: 1fr; } }
+  @media print { body { padding: 0.5cm; } }
+</style>
+</head>
+<body>
+
+<h1>영어 관계부사 치트시트</h1>
+<p class="subtitle">English Relative Adverbs — where / when / why / how 한눈에</p>
+
+<h2>핵심 구조</h2>
+<div class="rule-box">관계부사 = <code>전치사 + which</code> 흡수 &nbsp;|&nbsp; 선행사 + 관계부사 + 완전한 절</div>
+<div class="ex">This is the city <span class="ok">where</span> I was born.
+= This is the city <span class="ok">in which</span> I was born.</div>
+
+<h2>관계부사 선택표</h2>
+<table>
+  <tr><th>관계부사</th><th>선행사</th><th>= 전치사 + which</th><th>예</th></tr>
+  <tr>
+    <td><code>where</code></td>
+    <td>장소</td>
+    <td><code>in/at/on which</code></td>
+    <td>the city <code>where</code> I live</td>
+  </tr>
+  <tr>
+    <td><code>when</code></td>
+    <td>시간</td>
+    <td><code>in/on/at which</code></td>
+    <td>the day <code>when</code> we met</td>
+  </tr>
+  <tr>
+    <td><code>why</code></td>
+    <td>the reason</td>
+    <td><code>for which</code></td>
+    <td>the reason <code>why</code> he left</td>
+  </tr>
+  <tr>
+    <td><code>how</code></td>
+    <td>없음 (생략 필수)</td>
+    <td><code>in which</code></td>
+    <td><code>how</code> she did it</td>
+  </tr>
+</table>
+
+<h2>각 관계부사 용법</h2>
+<div class="grid grid-2">
+
+  <div class="card">
+    <div class="card-title">where — 장소</div>
+    <div class="ex">This is the place <span class="ok">where</span> it happened.
+I know <span class="ok">where</span> she lives.  <small>(선행사 생략)</small></div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">when — 시간</div>
+    <div class="ex">I remember the day <span class="ok">when</span> we met.
+I know <span class="ok">when</span> it happened. <small>(선행사 생략)</small></div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">why — 이유 (the reason)</div>
+    <div class="ex">the reason <span class="ok">why</span> he quit
+= the reason <span class="ok">that</span> he quit
+= the reason he quit  <small>(구어 선호)</small></div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">how — 방법 (선행사 없음)</div>
+    <div class="ex"><span class="bad">the way how</span> ❌
+<span class="ok">how</span> she did it ✅
+<span class="ok">the way</span> she did it ✅
+<span class="ok">the way that</span> she did it ✅</div>
+  </div>
+
+</div>
+
+<h2>선행사 생략 → 명사절</h2>
+<table>
+  <tr><th>역할</th><th>예</th></tr>
+  <tr><td>주어</td><td><code>Where she lives</code> is a mystery.</td></tr>
+  <tr><td>목적어</td><td>Tell me <code>where you live</code>.</td></tr>
+  <tr><td>보어</td><td>The question is <code>why he quit</code>.</td></tr>
+</table>
+
+<h2>관계부사 vs 관계대명사 — 빈자리 판별</h2>
+<div class="rule-box">관계절을 독립 문장으로 펼쳤을 때 <strong>명사 자리가 비어있으면 관계대명사</strong>, 없으면 관계부사.</div>
+<div class="grid grid-2" style="margin-top:0.5rem">
+  <div class="card">
+    <div class="card-title">관계대명사 — 빈자리 있음</div>
+    <div class="ex">the city <span class="ok">which</span> I visited
+→ I visited [___]  ← 목적어 빈자리</div>
+  </div>
+  <div class="card">
+    <div class="card-title">관계부사 — 빈자리 없음</div>
+    <div class="ex">the city <span class="ok">where</span> I was born
+→ I was born in the city.
+← 주어+동사 완전</div>
+  </div>
+</div>
+
+<h2>비제한적 용법 — 쉼표 있음</h2>
+<div class="grid grid-2">
+  <div class="card">
+    <div class="card-title">제한적 — 선행사 범위 좁힘</div>
+    <div class="ex">I like summers <span class="ok">when</span> it doesn't rain.
+<small>(비 안 오는 여름만 특정)</small></div>
+  </div>
+  <div class="card">
+    <div class="card-title">비제한적 — 부가 정보</div>
+    <div class="ex">I visited Paris<span class="ok">, where</span> I met an old friend.
+<small>(파리에 갔는데, 거기서…)</small></div>
+  </div>
+</div>
+
+<h2>격식 차이</h2>
+<table>
+  <tr><th>용법</th><th>형태</th><th>예</th></tr>
+  <tr><td>일상</td><td>관계부사</td><td>the city <code>where</code> I was born</td></tr>
+  <tr><td>격식·문어</td><td>전치사 + which</td><td>the city <code>in which</code> I was born</td></tr>
+</table>
+<div class="rule-box" style="margin-top:0.4rem">뜻 동일. 독해 시 <code>in which</code> = <code>where</code>로 바로 읽으면 됨.</div>
+
+</body>
+</html>
