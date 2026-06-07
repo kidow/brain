@@ -8,20 +8,20 @@
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.json">
-<meta name="theme-color" content="#ffffff">
+<meta name="theme-color" content="#0f172a">
 <title>영어 가산/불가산 명사 치트시트</title>
 <style>
   :root {
-    --bg: #fff;
-    --fg: #1a1a1a;
-    --muted: #888;
-    --border: #ddd;
-    --surface: #f8f8f8;
-    --accent: #2563eb;
-    --accent-light: #eff6ff;
-    --red: #dc2626;
-    --green: #16a34a;
-    --orange: #ea580c;
+    --bg: #0f172a;
+    --fg: #e2e8f0;
+    --muted: #94a3b8;
+    --border: #334155;
+    --surface: #1e293b;
+    --accent: #60a5fa;
+    --accent-light: #1e3a5f;
+    --red: #f87171;
+    --green: #4ade80;
+    --orange: #fb923c;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body {
@@ -55,19 +55,19 @@
   .grid-3 { grid-template-columns: 1fr 1fr 1fr; }
   .card { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 0.65rem 0.75rem; }
   .card-title { font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--accent); margin-bottom: 0.45rem; }
-  .card p { font-size: 0.82rem; color: #444; margin-top: 0.25rem; }
+  .card p { font-size: 0.82rem; color: #cbd5e1; margin-top: 0.25rem; }
   .ex {
     font-family: 'Courier New', monospace; font-size: 0.82rem;
     background: var(--surface); border: 1px solid var(--border);
     border-radius: 4px; padding: 0.35rem 0.6rem; margin-top: 0.3rem;
-    color: #333; white-space: pre-wrap;
+    color: #cbd5e1; white-space: pre-wrap;
   }
   .ok  { color: var(--green); }
   .bad { color: var(--red); text-decoration: line-through; }
   .tag { display: inline-block; font-size: 0.7rem; padding: 0.1rem 0.4rem; border-radius: 3px; font-weight: 600; margin-right: 0.25rem; }
   .tag-blue  { background: var(--accent-light); color: var(--accent); }
-  .tag-red   { background: #fee2e2; color: var(--red); }
-  .tag-green { background: #dcfce7; color: var(--green); }
+  .tag-red   { background: #3f1515; color: var(--red); }
+  .tag-green { background: #14351f; color: var(--green); }
   .tag-gray  { background: var(--surface); color: var(--muted); border: 1px solid var(--border); }
   @media (max-width: 600px) { body { padding: 1rem 1rem; } .grid-2, .grid-3 { grid-template-columns: 1fr; } }
   @media print { body { padding: 0.5cm; } }
@@ -221,6 +221,5 @@ cattle  (소 떼)</div>
   <tr><td>경계 명확한 물체</td><td>chair, bottle, idea, mistake</td><td>가산</td></tr>
 </table>
 <div class="rule-box warn">논리로 유추 불가 단어는 사전 [C]/[U] 표기로 확인: <code>advice / information / news / research</code></div>
-
 </body>
 </html>

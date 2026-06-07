@@ -8,15 +8,27 @@
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.json">
-<meta name="theme-color" content="#ffffff">
+<meta name="theme-color" content="#0f172a">
 <title>키릴 알파벳 이름 치트시트</title>
 <style>
+  :root {
+    --bg: #0f172a;
+    --fg: #e2e8f0;
+    --muted: #94a3b8;
+    --border: #334155;
+    --surface: #1e293b;
+    --accent: #60a5fa;
+    --accent-light: #1e3a5f;
+    --red: #f87171;
+    --green: #4ade80;
+    --orange: #fb923c;
+  }
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
   body {
     font-family: system-ui, -apple-system, sans-serif;
-    background: #fff;
-    color: #1a1a1a;
+    background: var(--bg);
+    color: var(--fg);
     padding: 1.5rem 1.25rem;
     max-width: 800px;
     margin: 0 auto;
@@ -25,7 +37,7 @@
   }
 
   h1 { font-size: 1.4rem; margin-bottom: 0.25rem; }
-  .subtitle { color: #666; font-size: 0.85rem; margin-bottom: 1.25rem; }
+  .subtitle { color: var(--muted); font-size: 0.85rem; margin-bottom: 1.25rem; }
 
   h2 {
     font-size: 0.9rem;
@@ -33,7 +45,7 @@
     margin: 1.25rem 0 0.5rem;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    color: #444;
+    color: #cbd5e1;
   }
 
   .legend {
@@ -44,7 +56,7 @@
     font-size: 0.78rem;
   }
   .legend-item { display: flex; align-items: center; gap: 0.35rem; }
-  .legend-dot { width: 12px; height: 12px; border-radius: 2px; border: 1px solid #ccc; }
+  .legend-dot { width: 12px; height: 12px; border-radius: 2px; border: 1px solid var(--border); }
 
   /* ── Main alphabet grid ── */
   .alpha-grid {
@@ -55,7 +67,7 @@
   }
 
   .alpha-card {
-    border: 1px solid #ddd;
+    border: 1px solid var(--border);
     border-radius: 6px;
     padding: 0.55rem 0.65rem;
     display: flex;
@@ -65,26 +77,26 @@
     cursor: default;
     transition: background 0.1s;
   }
-  .alpha-card:hover { background: #fffbcc !important; }
+  .alpha-card:hover { background: #2a2515 !important; }
 
-  .alpha-card.vowel     { background: #f7fbff; }
-  .alpha-card.soft-vowel { background: #eef5ff; }
-  .alpha-card.consonant { background: #fff; }
-  .alpha-card.always-hard { background: #fff4f0; }
-  .alpha-card.always-soft { background: #f0fff4; }
-  .alpha-card.sonorant  { background: #fffaf0; }
-  .alpha-card.sign      { background: #fff8e8; }
+  .alpha-card.vowel     { background: #1a2a3a; }
+  .alpha-card.soft-vowel { background: #1e2f4a; }
+  .alpha-card.consonant { background: var(--surface); }
+  .alpha-card.always-hard { background: #3f1515; }
+  .alpha-card.always-soft { background: #1a2e1f; }
+  .alpha-card.sonorant  { background: #2a2008; }
+  .alpha-card.sign      { background: #2a2008; }
 
   .letter-pair {
     font-size: 1.6rem;
     font-weight: 700;
     line-height: 1.1;
-    color: #111;
+    color: var(--fg);
   }
 
   .letter-name {
     font-size: 0.72rem;
-    color: #555;
+    color: var(--muted);
     font-style: italic;
     text-align: center;
   }
@@ -92,13 +104,13 @@
   .letter-sound {
     font-size: 0.7rem;
     font-weight: 700;
-    color: #c00;
+    color: var(--red);
     text-align: center;
   }
 
   .letter-note {
     font-size: 0.62rem;
-    color: #888;
+    color: var(--muted);
     text-align: center;
     line-height: 1.4;
   }
@@ -111,7 +123,7 @@
   }
 
   th, td {
-    border: 1px solid #ddd;
+    border: 1px solid var(--border);
     text-align: left;
     vertical-align: middle;
     padding: 0.35rem 0.6rem;
@@ -119,24 +131,24 @@
   }
 
   thead th {
-    background: #f0f0f0;
+    background: var(--surface);
     font-size: 0.75rem;
     font-weight: 700;
-    color: #555;
+    color: var(--muted);
   }
 
   .char-col { font-size: 1.25rem; font-weight: 700; text-align: center; min-width: 48px; }
-  .name-col { font-style: italic; color: #444; }
-  .sound-col { font-weight: 700; color: #c00; }
-  .note-col { color: #666; font-size: 0.75rem; }
+  .name-col { font-style: italic; color: var(--fg); }
+  .sound-col { font-weight: 700; color: var(--red); }
+  .note-col { color: var(--muted); font-size: 0.75rem; }
 
-  tr.vowel td     { background: #f7fbff; }
-  tr.soft-vowel td { background: #eef5ff; }
-  tr.always-hard td { background: #fff4f0; }
-  tr.always-soft td { background: #f0fff4; }
-  tr.sonorant td  { background: #fffaf0; }
-  tr.sign td      { background: #fff8e8; }
-  tr:hover td     { background: #fffbcc !important; }
+  tr.vowel td     { background: #1a2a3a; }
+  tr.soft-vowel td { background: #1e2f4a; }
+  tr.always-hard td { background: #3f1515; }
+  tr.always-soft td { background: #1a2e1f; }
+  tr.sonorant td  { background: #2a2008; }
+  tr.sign td      { background: #2a2008; }
+  tr:hover td     { background: #2a2515 !important; }
 
   /* ── Quick rules ── */
   .grid {
@@ -147,7 +159,7 @@
   }
 
   .card {
-    border: 1px solid #ddd;
+    border: 1px solid var(--border);
     border-radius: 6px;
     padding: 0.65rem 0.85rem;
   }
@@ -155,7 +167,7 @@
   .card h3 {
     font-size: 0.72rem;
     font-weight: 700;
-    color: #666;
+    color: var(--muted);
     margin-bottom: 0.4rem;
     text-transform: uppercase;
     letter-spacing: 0.03em;
@@ -163,14 +175,14 @@
 
   .card p, .card li {
     font-size: 0.78rem;
-    color: #444;
+    color: var(--fg);
     line-height: 1.6;
   }
 
   .card ul { padding-left: 1rem; }
   .card code {
     font-size: 0.78rem;
-    background: #f5f5f5;
+    background: var(--surface);
     padding: 0.05rem 0.22rem;
     border-radius: 3px;
   }
@@ -182,13 +194,13 @@
     margin-top: 0.3rem;
   }
   .pair {
-    background: #f5f5f5;
+    background: var(--surface);
     border-radius: 4px;
     padding: 0.15rem 0.5rem;
     font-size: 0.8rem;
     font-weight: 600;
   }
-  .pair span { color: #c00; }
+  .pair span { color: var(--red); }
 
   @media print {
     body { padding: 0.5cm; font-size: 11px; }
@@ -210,13 +222,13 @@
 <p class="subtitle">러시아어 33자 — 글자 이름 · 발음 · 분류</p>
 
 <div class="legend">
-  <div class="legend-item"><div class="legend-dot" style="background:#f7fbff"></div> 모음 (Hard)</div>
-  <div class="legend-item"><div class="legend-dot" style="background:#eef5ff"></div> 모음 (Soft/이오타화)</div>
-  <div class="legend-item"><div class="legend-dot" style="background:#fff"></div> 자음 (일반)</div>
-  <div class="legend-item"><div class="legend-dot" style="background:#fff4f0"></div> 항상 Hard 자음</div>
-  <div class="legend-item"><div class="legend-dot" style="background:#f0fff4"></div> 항상 Soft 자음</div>
-  <div class="legend-item"><div class="legend-dot" style="background:#fffaf0"></div> 공명음 (짝꿍 없음)</div>
-  <div class="legend-item"><div class="legend-dot" style="background:#fff8e8"></div> 부호 (발음 없음)</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#1a2a3a"></div> 모음 (Hard)</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#1e2f4a"></div> 모음 (Soft/이오타화)</div>
+  <div class="legend-item"><div class="legend-dot" style="background:var(--surface)"></div> 자음 (일반)</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#3f1515"></div> 항상 Hard 자음</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#1a2e1f"></div> 항상 Soft 자음</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#2a2008"></div> 공명음 (짝꿍 없음)</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#2a2008"></div> 부호 (발음 없음)</div>
 </div>
 
 <h2>알파벳 카드</h2>
@@ -458,7 +470,7 @@
 <h2>발음 핵심 규칙</h2>
 <div class="grid">
 
-  <div class="card" style="background:#f7fbff">
+  <div class="card" style="background:#1a2a3a">
     <h3>Hard vs Soft 모음 쌍</h3>
     <div class="pair-row">
       <span class="pair">А <span>↔</span> Я</span>
@@ -470,7 +482,7 @@
     <p style="margin-top:0.5rem">Soft 모음이 뒤에 오면 앞 자음 연화.</p>
   </div>
 
-  <div class="card" style="background:#fff8e8">
+  <div class="card" style="background:#2a2008">
     <h3>유성 ↔ 무성 쌍</h3>
     <div class="pair-row">
       <span class="pair">Б<span>↔</span>П</span>
@@ -483,7 +495,7 @@
     <p style="margin-top:0.5rem">어말 유성 → 무성으로 발음. 자음 동화도 적용.</p>
   </div>
 
-  <div class="card" style="background:#fff4f0">
+  <div class="card" style="background:#3f1515">
     <h3>항상 Hard — Ж · Ш · Ц</h3>
     <ul>
       <li>뒤에 И가 와도 Ы처럼 읽힘</li>
@@ -491,7 +503,7 @@
     </ul>
   </div>
 
-  <div class="card" style="background:#f0fff4">
+  <div class="card" style="background:#1a2e1f">
     <h3>항상 Soft — Ч · Щ</h3>
     <ul>
       <li>뒤에 А·У로 써도 발음은 soft</li>
@@ -508,7 +520,7 @@
     </ul>
   </div>
 
-  <div class="card" style="background:#eef5ff">
+  <div class="card" style="background:#1e2f4a">
     <h3>이오타화 — Е · Ё · Ю · Я</h3>
     <ul>
       <li>단어 첫머리 / 모음 뒤: <code>й + 모음</code>처럼 발음</li>
@@ -534,6 +546,5 @@
   </div>
 
 </div>
-
 </body>
 </html>

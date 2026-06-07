@@ -8,15 +8,27 @@
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.json">
-<meta name="theme-color" content="#ffffff">
+<meta name="theme-color" content="#0f172a">
 <title>러시아어 문자 치트시트</title>
 <style>
+  :root {
+    --bg: #0f172a;
+    --fg: #e2e8f0;
+    --muted: #94a3b8;
+    --border: #334155;
+    --surface: #1e293b;
+    --accent: #60a5fa;
+    --accent-light: #1e3a5f;
+    --red: #f87171;
+    --green: #4ade80;
+    --orange: #fb923c;
+  }
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
   body {
     font-family: system-ui, -apple-system, sans-serif;
-    background: #fff;
-    color: #1a1a1a;
+    background: var(--bg);
+    color: var(--fg);
     padding: 1.5rem 1.25rem;
     max-width: 800px;
     margin: 0 auto;
@@ -30,7 +42,7 @@
   }
 
   .subtitle {
-    color: #666;
+    color: var(--muted);
     font-size: 0.85rem;
     margin-bottom: 1.5rem;
   }
@@ -41,7 +53,7 @@
     margin: 1.25rem 0 0.5rem;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    color: #444;
+    color: #cbd5e1;
   }
 
   .legend {
@@ -54,7 +66,7 @@
   .legend-item { display: flex; align-items: center; gap: 0.35rem; }
   .legend-dot {
     width: 12px; height: 12px; border-radius: 2px;
-    border: 1px solid #ccc;
+    border: 1px solid var(--border);
   }
 
   table {
@@ -63,25 +75,25 @@
   }
 
   th, td {
-    border: 1px solid #ddd;
+    border: 1px solid var(--border);
     text-align: center;
     vertical-align: middle;
     padding: 0.4rem 0.5rem;
   }
 
   thead th {
-    background: #f0f0f0;
+    background: var(--surface);
     font-size: 0.78rem;
     font-weight: 700;
-    color: #555;
+    color: var(--muted);
     padding: 0.4rem;
   }
 
   .row-header {
-    background: #f5f5f5;
+    background: var(--surface);
     font-size: 0.75rem;
     font-weight: 700;
-    color: #555;
+    color: var(--muted);
     white-space: nowrap;
     min-width: 92px;
   }
@@ -108,18 +120,18 @@
   .note {
     display: block;
     font-size: 0.68rem;
-    color: #666;
+    color: var(--muted);
     margin-top: 2px;
   }
 
-  .empty { background: #fafafa; }
+  .empty { background: var(--surface); }
 
-  .vowel td.cell { background: #fff; }
-  .consonant td.cell { background: #f7fbff; }
-  .special td.cell { background: #fff8e8; }
-  .rule td.cell { background: #f4f0ff; }
+  .vowel td.cell { background: var(--bg); }
+  .consonant td.cell { background: #1a2a3a; }
+  .special td.cell { background: #2a2008; }
+  .rule td.cell { background: #221533; }
 
-  tr:hover td.cell { background: #fffbcc !important; }
+  tr:hover td.cell { background: #2a2515 !important; }
 
   .grid {
     display: grid;
@@ -129,20 +141,20 @@
   }
 
   .card {
-    border: 1px solid #ddd;
+    border: 1px solid var(--border);
     border-radius: 6px;
     padding: 0.75rem 0.9rem;
-    background: #fff;
+    background: var(--surface);
   }
 
-  .card.vowel-card { background: #f7fbff; }
-  .card.sign-card { background: #fff8e8; }
-  .card.rule-card { background: #f4f0ff; }
+  .card.vowel-card { background: #1a2a3a; }
+  .card.sign-card { background: #2a2008; }
+  .card.rule-card { background: #221533; }
 
   .card h3 {
     font-size: 0.74rem;
     font-weight: 700;
-    color: #666;
+    color: var(--muted);
     margin-bottom: 0.45rem;
     text-transform: uppercase;
     letter-spacing: 0.03em;
@@ -150,7 +162,7 @@
 
   .card p, .card li {
     font-size: 0.8rem;
-    color: #444;
+    color: var(--fg);
     line-height: 1.6;
   }
 
@@ -166,7 +178,7 @@
   }
 
   .mini-table th {
-    background: #f5f5f5;
+    background: var(--surface);
     font-size: 0.72rem;
     padding: 0.28rem 0.6rem;
   }
@@ -188,7 +200,7 @@
 
   .latin-alert code {
     font-size: 0.8rem;
-    background: #f5f5f5;
+    background: var(--surface);
     padding: 0.05rem 0.25rem;
     border-radius: 4px;
   }
@@ -211,10 +223,10 @@
 <p class="subtitle">키릴 문자 33자 요약 — English-style romanization</p>
 
 <div class="legend">
-  <div class="legend-item"><div class="legend-dot" style="background:#fff"></div> 기본 글자</div>
-  <div class="legend-item"><div class="legend-dot" style="background:#f7fbff"></div> 자음</div>
-  <div class="legend-item"><div class="legend-dot" style="background:#fff8e8"></div> 특수 기호</div>
-  <div class="legend-item"><div class="legend-dot" style="background:#f4f0ff"></div> 발음 규칙</div>
+  <div class="legend-item"><div class="legend-dot" style="background:var(--bg)"></div> 기본 글자</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#1a2a3a"></div> 자음</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#2a2008"></div> 특수 기호</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#221533"></div> 발음 규칙</div>
 </div>
 
 <h2>알파벳 33자</h2>
@@ -490,6 +502,5 @@
     </div>
   </div>
 </div>
-
 </body>
 </html>

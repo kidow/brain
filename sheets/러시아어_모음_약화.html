@@ -8,15 +8,27 @@
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.json">
-<meta name="theme-color" content="#ffffff">
+<meta name="theme-color" content="#0f172a">
 <title>러시아어 모음 약화 치트시트</title>
 <style>
+  :root {
+    --bg: #0f172a;
+    --fg: #e2e8f0;
+    --muted: #94a3b8;
+    --border: #334155;
+    --surface: #1e293b;
+    --accent: #60a5fa;
+    --accent-light: #1e3a5f;
+    --red: #f87171;
+    --green: #4ade80;
+    --orange: #fb923c;
+  }
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
   body {
     font-family: system-ui, -apple-system, sans-serif;
-    background: #fff;
-    color: #1a1a1a;
+    background: var(--bg);
+    color: var(--fg);
     padding: 1.5rem 1.25rem;
     max-width: 800px;
     margin: 0 auto;
@@ -25,7 +37,7 @@
   }
 
   h1 { font-size: 1.4rem; margin-bottom: 0.25rem; }
-  .subtitle { color: #666; font-size: 0.85rem; margin-bottom: 1.5rem; }
+  .subtitle { color: var(--muted); font-size: 0.85rem; margin-bottom: 1.5rem; }
 
   h2 {
     font-size: 0.9rem;
@@ -33,7 +45,7 @@
     margin: 1.5rem 0 0.5rem;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    color: #444;
+    color: #cbd5e1;
   }
 
   /* ── Main reduction table ── */
@@ -45,7 +57,7 @@
   }
 
   .vowel-block {
-    border: 1px solid #ddd;
+    border: 1px solid var(--border);
     border-radius: 8px;
     overflow: hidden;
   }
@@ -66,20 +78,20 @@
 
   .vowel-name {
     font-size: 0.72rem;
-    color: #666;
+    color: var(--muted);
     line-height: 1.4;
   }
 
   .stress-row {
     display: flex;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid var(--border);
   }
 
   .stress-cell {
     flex: 1;
     padding: 0.5rem 0.6rem;
     text-align: center;
-    border-right: 1px solid #eee;
+    border-right: 1px solid var(--border);
   }
   .stress-cell:last-child { border-right: none; }
 
@@ -98,44 +110,44 @@
 
   .stress-ipa {
     font-size: 0.65rem;
-    color: #888;
+    color: var(--muted);
     margin-top: 2px;
   }
 
   /* О block */
-  .block-o .vowel-header { background: #fff3cd; }
-  .block-o .stressed { background: #fffdf0; }
-  .block-o .unstressed { background: #fff8e8; }
-  .block-o .stressed .stress-sound { color: #b45309; }
-  .block-o .unstressed .stress-sound { color: #ef4444; }
+  .block-o .vowel-header { background: #2a2008; }
+  .block-o .stressed { background: #231a06; }
+  .block-o .unstressed { background: #2a2008; }
+  .block-o .stressed .stress-sound { color: #fb923c; }
+  .block-o .unstressed .stress-sound { color: var(--red); }
 
   /* Е block */
-  .block-e .vowel-header { background: #dbeafe; }
-  .block-e .stressed { background: #eff6ff; }
-  .block-e .unstressed { background: #e0f2fe; }
-  .block-e .stressed .stress-sound { color: #1d4ed8; }
-  .block-e .unstressed .stress-sound { color: #ef4444; }
+  .block-e .vowel-header { background: #1a2a3a; }
+  .block-e .stressed { background: #152030; }
+  .block-e .unstressed { background: #1a2e40; }
+  .block-e .stressed .stress-sound { color: var(--accent); }
+  .block-e .unstressed .stress-sound { color: var(--red); }
 
   /* А block */
-  .block-a .vowel-header { background: #d1fae5; }
-  .block-a .stressed { background: #f0fdf4; }
-  .block-a .unstressed { background: #ecfdf5; }
-  .block-a .stressed .stress-sound { color: #047857; }
-  .block-a .unstressed .stress-sound { color: #6b7280; }
+  .block-a .vowel-header { background: #1a2e1f; }
+  .block-a .stressed { background: #152518; }
+  .block-a .unstressed { background: #1a2e1f; }
+  .block-a .stressed .stress-sound { color: var(--green); }
+  .block-a .unstressed .stress-sound { color: var(--muted); }
 
   /* Я block */
-  .block-ya .vowel-header { background: #ede9fe; }
-  .block-ya .stressed { background: #f5f3ff; }
-  .block-ya .unstressed { background: #ede9fe; }
-  .block-ya .stressed .stress-sound { color: #7c3aed; }
-  .block-ya .unstressed .stress-sound { color: #ef4444; }
+  .block-ya .vowel-header { background: #221533; }
+  .block-ya .stressed { background: #1c1028; }
+  .block-ya .unstressed { background: #221533; }
+  .block-ya .stressed .stress-sound { color: #c084fc; }
+  .block-ya .unstressed .stress-sound { color: var(--red); }
 
   /* И·Ы·У block */
-  .block-stable .vowel-header { background: #f1f5f9; }
-  .block-stable .stressed { background: #f8fafc; }
-  .block-stable .unstressed { background: #f1f5f9; }
-  .block-stable .stressed .stress-sound { color: #475569; }
-  .block-stable .unstressed .stress-sound { color: #475569; }
+  .block-stable .vowel-header { background: var(--surface); }
+  .block-stable .stressed { background: #162030; }
+  .block-stable .unstressed { background: var(--surface); }
+  .block-stable .stressed .stress-sound { color: var(--muted); }
+  .block-stable .unstressed .stress-sound { color: var(--muted); }
 
   /* ── Example words table ── */
   table {
@@ -145,29 +157,29 @@
   }
 
   th, td {
-    border: 1px solid #ddd;
+    border: 1px solid var(--border);
     padding: 0.35rem 0.6rem;
     font-size: 0.8rem;
     vertical-align: middle;
   }
 
   thead th {
-    background: #f0f0f0;
+    background: var(--surface);
     font-size: 0.75rem;
     font-weight: 700;
-    color: #555;
+    color: var(--muted);
     text-align: left;
   }
 
   .word-col { font-size: 1.1rem; font-weight: 700; }
-  .stress-mark { color: #ef4444; font-weight: 900; }
-  .reduced { color: #ef4444; font-style: italic; }
-  .meaning-col { color: #666; }
+  .stress-mark { color: var(--red); font-weight: 900; }
+  .reduced { color: var(--red); font-style: italic; }
+  .meaning-col { color: var(--muted); }
 
-  tr.o-row td { background: #fffdf0; }
-  tr.e-row td { background: #eff6ff; }
-  tr.both-row td { background: #fdf4ff; }
-  tr:hover td { background: #fffbcc !important; }
+  tr.o-row td { background: #231a06; }
+  tr.e-row td { background: #1a2a3a; }
+  tr.both-row td { background: #221533; }
+  tr:hover td { background: #2a2515 !important; }
 
   /* ── Rules summary cards ── */
   .grid {
@@ -178,7 +190,7 @@
   }
 
   .card {
-    border: 1px solid #ddd;
+    border: 1px solid var(--border);
     border-radius: 6px;
     padding: 0.65rem 0.85rem;
   }
@@ -186,7 +198,7 @@
   .card h3 {
     font-size: 0.72rem;
     font-weight: 700;
-    color: #666;
+    color: var(--muted);
     margin-bottom: 0.4rem;
     text-transform: uppercase;
     letter-spacing: 0.03em;
@@ -194,13 +206,13 @@
 
   .card p, .card li {
     font-size: 0.78rem;
-    color: #444;
+    color: var(--fg);
     line-height: 1.7;
   }
 
   .card ul { padding-left: 1rem; }
   .card code {
-    background: #f5f5f5;
+    background: var(--surface);
     padding: 0.05rem 0.22rem;
     border-radius: 3px;
     font-size: 0.78rem;
@@ -213,7 +225,7 @@
     border: 2px solid #f59e0b;
     border-radius: 8px;
     padding: 0.65rem 1rem;
-    background: #fffbeb;
+    background: #2a2008;
     margin-top: 0.5rem;
     display: flex;
     align-items: flex-start;
@@ -228,7 +240,7 @@
     flex-shrink: 0;
   }
 
-  .yo-text { font-size: 0.8rem; color: #444; line-height: 1.7; }
+  .yo-text { font-size: 0.8rem; color: #cbd5e1; line-height: 1.7; }
   .yo-text strong { color: #b45309; }
 
   @media print {
@@ -435,7 +447,7 @@
 <h2>핵심 규칙 요약</h2>
 <div class="grid">
 
-  <div class="card" style="background:#fffdf0; border-color:#fde68a">
+  <div class="card" style="background:#231a06; border-color:#a16207">
     <h3>О 약화 — 가장 중요</h3>
     <p>
       강세 <strong>O</strong> = "오" 그대로<br>
@@ -445,7 +457,7 @@
     </p>
   </div>
 
-  <div class="card" style="background:#eff6ff; border-color:#bfdbfe">
+  <div class="card" style="background:#1a2a3a; border-color:#334155">
     <h3>Е 약화 — 두 번째로 중요</h3>
     <p>
       강세 <strong>Е</strong> = "예/에"<br>
@@ -455,7 +467,7 @@
     </p>
   </div>
 
-  <div class="card" style="background:#f0fdf4; border-color:#bbf7d0">
+  <div class="card" style="background:#1a2e1f; border-color:#166534">
     <h3>약화 안 되는 모음</h3>
     <ul>
       <li><strong>И</strong> — 강세 무관 유지</li>
@@ -465,7 +477,7 @@
     </ul>
   </div>
 
-  <div class="card" style="background:#fdf4ff; border-color:#e9d5ff">
+  <div class="card" style="background:#221533; border-color:#6b21a8">
     <h3>강세 위치 찾는 법</h3>
     <ul>
       <li>일반 텍스트: 표시 없음 → 단어마다 외워야</li>
@@ -486,6 +498,5 @@
   </div>
 
 </div>
-
 </body>
 </html>

@@ -8,23 +8,28 @@
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.json">
-<meta name="theme-color" content="#ffffff">
+<meta name="theme-color" content="#0f172a">
 <title>병음표 拼音表</title>
 <style>
 :root {
-  --bg: #fff;
-  --surface: #f8f8f8;
-  --border: #ddd;
-  --text: #1a1a1a;
-  --muted: #888;
-  --accent: #2563eb;
-  --tone1: #ca8a04;
-  --tone2: #16a34a;
-  --tone3: #2563eb;
-  --tone4: #dc2626;
-  --neutral: #7c3aed;
-  --cell-valid: #eff6ff;
-  --cell-hover: #dbeafe;
+    --bg: #0f172a;
+    --fg: #e2e8f0;
+    --muted: #94a3b8;
+    --border: #334155;
+    --surface: #1e293b;
+    --accent: #60a5fa;
+    --accent-light: #1e3a5f;
+    --red: #f87171;
+    --green: #4ade80;
+    --orange: #fb923c;
+  --text: #e2e8f0;
+  --tone1: #fbbf24;
+  --tone2: #4ade80;
+  --tone3: #60a5fa;
+  --tone4: #f87171;
+  --neutral: #c084fc;
+  --cell-valid: #1e3a5f;
+  --cell-hover: #1a2a3a;
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -87,11 +92,11 @@ h1 { font-size: 22px; font-weight: 700; letter-spacing: -0.5px; }
   font-family: inherit;
 }
 .tone-btn:hover { border-color: var(--accent); color: var(--accent); }
-.tone-btn.active.t1 { background: #fef9c3; border-color: var(--tone1); color: var(--tone1); }
-.tone-btn.active.t2 { background: #dcfce7; border-color: var(--tone2); color: var(--tone2); }
-.tone-btn.active.t3 { background: #dbeafe; border-color: var(--tone3); color: var(--tone3); }
-.tone-btn.active.t4 { background: #fee2e2; border-color: var(--tone4); color: var(--tone4); }
-.tone-btn.active.t0 { background: #f3e8ff; border-color: var(--neutral); color: var(--neutral); }
+.tone-btn.active.t1 { background: #2a2008; border-color: var(--tone1); color: var(--tone1); }
+.tone-btn.active.t2 { background: #14351f; border-color: var(--tone2); color: var(--tone2); }
+.tone-btn.active.t3 { background: #1a2a3a; border-color: var(--tone3); color: var(--tone3); }
+.tone-btn.active.t4 { background: #3f1515; border-color: var(--tone4); color: var(--tone4); }
+.tone-btn.active.t0 { background: #221533; border-color: var(--neutral); color: var(--neutral); }
 
 /* Table wrapper */
 .table-wrap {
@@ -120,7 +125,7 @@ th, td {
 thead th {
   position: sticky;
   top: 0;
-  background: #f0f0f0;
+  background: var(--surface);
   z-index: 2;
   color: var(--accent);
   font-weight: 600;
@@ -132,7 +137,7 @@ thead th {
 td.final-cell {
   position: sticky;
   left: 0;
-  background: #f0f0f0;
+  background: var(--surface);
   z-index: 1;
   color: var(--muted);
   font-size: 11px;
@@ -146,7 +151,7 @@ thead th:first-child {
   position: sticky;
   left: 0;
   z-index: 3;
-  background: #e8e8e8;
+  background: #162030;
   font-size: 10px;
   color: var(--muted);
   font-weight: 400;
@@ -157,7 +162,7 @@ thead th:first-child {
 
 /* Group header rows */
 tr.group-hdr td {
-  background: #e8eeff;
+  background: var(--accent-light);
   color: var(--accent);
   font-size: 10px;
   letter-spacing: 0.3px;
@@ -169,7 +174,7 @@ tr.group-hdr td {
 }
 tr.group-hdr td + td {
   position: static;
-  background: #e8eeff;
+  background: var(--accent-light);
   border-left: none;
 }
 
@@ -183,11 +188,11 @@ td.valid {
 }
 td.valid:hover {
   background: var(--cell-hover);
-  color: #1a1a1a;
+  color: var(--fg);
 }
 td.valid.playing {
-  background: #dbeafe;
-  color: #1a1a1a;
+  background: #1a2a3a;
+  color: var(--fg);
   outline: 1px solid var(--accent);
 }
 
@@ -206,7 +211,7 @@ td.empty { background: transparent; color: transparent; }
   bottom: 24px;
   right: 24px;
   background: var(--accent);
-  color: #fff;
+  color: var(--bg);
   padding: 10px 20px;
   border-radius: 10px;
   font-size: 20px;
