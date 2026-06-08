@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#ffffff">
+  <title>중국어 성모표</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #0f172a;
+      color: #e2e8f0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 15px;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+    }
+    h1 { font-size: 1.5rem; font-weight: 700; color: #60a5fa; margin-bottom: 0.25rem; }
+    .subtitle { color: #94a3b8; font-size: 0.875rem; margin-bottom: 1.75rem; }
+    h2 { font-size: 1rem; font-weight: 600; color: #94a3b8; text-transform: uppercase;
+         letter-spacing: 0.05em; margin: 1.75rem 0 0.75rem; }
+    table { width: 100%; border-collapse: collapse; margin-bottom: 1rem; }
+    th {
+      background: #1e293b;
+      color: #94a3b8;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 0.5rem 0.75rem;
+      text-align: left;
+      border-bottom: 1px solid #334155;
+    }
+    td {
+      padding: 0.6rem 0.75rem;
+      border-bottom: 1px solid #1e293b;
+      vertical-align: middle;
+    }
+    tr:last-child td { border-bottom: none; }
+    .label {
+      color: #94a3b8;
+      font-size: 0.8rem;
+    }
+    .han {
+      color: #64748b;
+      font-size: 0.75rem;
+      margin-left: 0.25rem;
+    }
+    .initial {
+      display: inline-block;
+      background: #1e293b;
+      color: #60a5fa;
+      font-family: 'Courier New', monospace;
+      font-size: 1rem;
+      font-weight: 700;
+      padding: 0.25rem 0.5rem;
+      border-radius: 4px;
+      border: 1px solid #334155;
+      margin: 0.15rem;
+      min-width: 2.2rem;
+      text-align: center;
+    }
+    .initial.aspirated {
+      color: #f59e0b;
+      border-color: #78350f;
+      background: #1c1007;
+    }
+    .initial.nasal, .initial.fricative, .initial.lateral {
+      color: #a78bfa;
+      border-color: #4c1d95;
+      background: #0d0720;
+    }
+    .initial.voiced {
+      color: #34d399;
+      border-color: #065f46;
+      background: #021a10;
+    }
+    .note {
+      background: #1e293b;
+      border-left: 3px solid #60a5fa;
+      padding: 0.75rem 1rem;
+      border-radius: 0 6px 6px 0;
+      margin: 1rem 0;
+      font-size: 0.875rem;
+      color: #cbd5e1;
+    }
+    .note strong { color: #60a5fa; }
+    .legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin: 1rem 0;
+      font-size: 0.8rem;
+    }
+    .legend-item { display: flex; align-items: center; gap: 0.4rem; }
+    .legend-dot {
+      width: 10px; height: 10px; border-radius: 2px;
+    }
+    .dot-unaspirated { background: #60a5fa; }
+    .dot-aspirated { background: #f59e0b; }
+    .dot-special { background: #a78bfa; }
+    .dot-voiced { background: #34d399; }
+    .rule-box {
+      background: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 8px;
+      padding: 1rem 1.25rem;
+      margin: 0.75rem 0;
+    }
+    .rule-box h3 { font-size: 0.875rem; color: #60a5fa; margin-bottom: 0.5rem; }
+    .rule-box ul { list-style: none; }
+    .rule-box li { font-size: 0.875rem; color: #cbd5e1; padding: 0.2rem 0; }
+    .rule-box li::before { content: "→ "; color: #60a5fa; }
+    code {
+      background: #0f172a;
+      color: #60a5fa;
+      font-family: 'Courier New', monospace;
+      font-size: 0.875rem;
+      padding: 0.1rem 0.35rem;
+      border-radius: 3px;
+    }
+    @media (max-width: 600px) {
+      body { padding: 1rem 1rem; }
+      .initial { font-size: 0.9rem; padding: 0.2rem 0.4rem; min-width: 1.8rem; }
+    }
+    @media print { body { padding: 0.5cm; } }
+  </style>
+</head>
+<body>
+
+  <h1>중국어 성모표 <span style="font-size:1rem;font-weight:400;color:#94a3b8;">聲母表</span></h1>
+  <p class="subtitle">조음 위치별 성모 분류 · 21개 성모 + 零声母</p>
+
+  <div class="legend">
+    <div class="legend-item"><div class="legend-dot dot-unaspirated"></div><span>무기음(無氣)</span></div>
+    <div class="legend-item"><div class="legend-dot dot-aspirated"></div><span>유기음(有氣)</span></div>
+    <div class="legend-item"><div class="legend-dot dot-special"></div><span>비음·마찰·설측</span></div>
+    <div class="legend-item"><div class="legend-dot dot-voiced"></div><span>유성 마찰</span></div>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th style="width:30%">분류</th>
+        <th style="width:20%">무기음</th>
+        <th style="width:20%">유기음</th>
+        <th style="width:30%">비음·마찰·기타</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <strong>순음</strong><span class="han">唇音</span><br>
+          <span class="label">두 입술</span>
+        </td>
+        <td><span class="initial">b</span></td>
+        <td><span class="initial aspirated">p</span></td>
+        <td><span class="initial nasal">m</span></td>
+      </tr>
+      <tr>
+        <td>
+          <strong>순치음</strong><span class="han">唇齒音</span><br>
+          <span class="label">윗니 + 아랫입술</span>
+        </td>
+        <td>—</td>
+        <td>—</td>
+        <td><span class="initial nasal">f</span></td>
+      </tr>
+      <tr>
+        <td>
+          <strong>치음</strong><span class="han">齒音</span><br>
+          <span class="label">혀끝 + 앞니 뒤</span>
+        </td>
+        <td><span class="initial">z</span></td>
+        <td><span class="initial aspirated">c</span></td>
+        <td><span class="initial nasal">s</span></td>
+      </tr>
+      <tr>
+        <td>
+          <strong>권설음</strong><span class="han">捲舌音</span><br>
+          <span class="label">혀 말아 경구개 뒤</span>
+        </td>
+        <td><span class="initial">zh</span></td>
+        <td><span class="initial aspirated">ch</span></td>
+        <td><span class="initial nasal">sh</span> <span class="initial voiced">r</span></td>
+      </tr>
+      <tr>
+        <td>
+          <strong>구개음</strong><span class="han">口蓋音</span><br>
+          <span class="label">혀 + 경구개</span>
+        </td>
+        <td><span class="initial">j</span></td>
+        <td><span class="initial aspirated">q</span></td>
+        <td><span class="initial nasal">x</span></td>
+      </tr>
+      <tr>
+        <td>
+          <strong>연구개음</strong><span class="han">軟口蓋音</span><br>
+          <span class="label">혀 뒤 + 연구개</span>
+        </td>
+        <td><span class="initial">g</span></td>
+        <td><span class="initial aspirated">k</span></td>
+        <td><span class="initial nasal">h</span></td>
+      </tr>
+      <tr>
+        <td>
+          <strong>설첨음</strong><span class="han">舌尖音</span><br>
+          <span class="label">혀끝 + 잇몸</span>
+        </td>
+        <td><span class="initial">d</span></td>
+        <td><span class="initial aspirated">t</span></td>
+        <td><span class="initial nasal">n</span> <span class="initial lateral">l</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>핵심 규칙</h2>
+
+  <div class="rule-box">
+    <h3>결합 제약</h3>
+    <ul>
+      <li><code>j q x</code> → <code>i-</code> / <code>ü-</code> 운모만 결합 (ja, qo, xe 없음)</li>
+      <li><code>zh ch sh r</code> → <code>u-</code> 계열과 주로 결합 (zhu, chu, shu)</li>
+      <li><code>b p m f</code> → <code>ü-</code> 운모와 결합 안 함</li>
+    </ul>
+  </div>
+
+  <div class="rule-box">
+    <h3>유기음 구별법</h3>
+    <ul>
+      <li>얇은 종이를 입 앞에 대고 발음 — 유기음만 종이 흔들림</li>
+      <li><code>b d g</code> = 한국어 어두 ㅂ/ㄷ/ㄱ과 동일 (무성·무기)</li>
+      <li><code>p t k</code> = 강한 기식 — 영어 p/t/k처럼</li>
+    </ul>
+  </div>
+
+  <div class="rule-box">
+    <h3>한국어에 없는 소리</h3>
+    <ul>
+      <li><code>f</code> — 윗니+아랫입술. ㅍ으로 대체 금지</li>
+      <li><code>h</code> — 목구멍 깊은 마찰. 한국어 ㅎ보다 훨씬 강함</li>
+      <li><code>r</code> — 혀 말아 + 성대 울림. 영어 r에 가까움</li>
+      <li><code>zh ch sh</code> — 혀 말아 내는 권설음. 한국어 ㅈ/ㅊ/ㅅ보다 혀가 뒤로</li>
+    </ul>
+  </div>
+
+  <div class="note">
+    <strong>零声母(영성모)</strong> — 성모 없이 운모만 오는 음절.<br>
+    i- 시작 → <strong>y</strong> 삽입 (iān→yān) · u- 시작 → <strong>w</strong> 삽입 (uǒ→wǒ) · ü 단독 → <strong>yu</strong>
+  </div>
+
+</body>
+</html>

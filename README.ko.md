@@ -60,6 +60,7 @@ brain/
 
 **언어 — 중국어**
 - [중국어 문자](https://brain.dongwook.kim/notes/중국어_문자)
+- [중국어 발음](https://brain.dongwook.kim/notes/중국어_발음)
 
 **언어 — 러시아어**
 - [러시아어 문자의 특징](https://brain.dongwook.kim/notes/러시아어_문자의_특징)
@@ -116,6 +117,8 @@ brain/
 
 **중국어**
 - [병음 표](https://brain.dongwook.kim/sheets/병음_표.html)
+- [중국어 성모표](https://brain.dongwook.kim/sheets/중국어_성모표.html)
+- [중국어 성조규칙](https://brain.dongwook.kim/sheets/중국어_성조규칙.html)
 
 **독일어**
 - [독일어 치트시트](https://brain.dongwook.kim/sheets/독일어_치트시트.html)

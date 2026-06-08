@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#ffffff">
+  <title>중국어 성조 규칙</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #0f172a;
+      color: #e2e8f0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 15px;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+    }
+    h1 { font-size: 1.5rem; font-weight: 700; color: #60a5fa; margin-bottom: 0.25rem; }
+    .subtitle { color: #94a3b8; font-size: 0.875rem; margin-bottom: 1.75rem; }
+    h2 { font-size: 0.8rem; font-weight: 600; color: #94a3b8; text-transform: uppercase;
+         letter-spacing: 0.05em; margin: 1.75rem 0 0.75rem; }
+    table { width: 100%; border-collapse: collapse; margin-bottom: 1rem; }
+    th {
+      background: #1e293b;
+      color: #94a3b8;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      padding: 0.5rem 0.75rem;
+      text-align: left;
+      border-bottom: 1px solid #334155;
+    }
+    td {
+      padding: 0.6rem 0.75rem;
+      border-bottom: 1px solid #1e293b;
+      vertical-align: middle;
+      font-size: 0.875rem;
+    }
+    tr:last-child td { border-bottom: none; }
+    code {
+      background: #1e293b;
+      color: #60a5fa;
+      font-family: 'Courier New', monospace;
+      font-size: 0.9rem;
+      padding: 0.1rem 0.4rem;
+      border-radius: 3px;
+    }
+    .tone-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 0.75rem;
+      margin-bottom: 1rem;
+    }
+    .tone-card {
+      background: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 8px;
+      padding: 0.75rem 0.5rem;
+      text-align: center;
+    }
+    .tone-card.t1 { border-color: #1d4ed8; }
+    .tone-card.t2 { border-color: #15803d; }
+    .tone-card.t3 { border-color: #7e22ce; }
+    .tone-card.t4 { border-color: #b91c1c; }
+    .tone-card.t0 { border-color: #475569; }
+    .tone-mark { font-size: 1.6rem; font-weight: 700; margin-bottom: 0.25rem; }
+    .t1 .tone-mark { color: #60a5fa; }
+    .t2 .tone-mark { color: #4ade80; }
+    .t3 .tone-mark { color: #a78bfa; }
+    .t4 .tone-mark { color: #f87171; }
+    .t0 .tone-mark { color: #94a3b8; }
+    .tone-name { font-size: 0.7rem; color: #94a3b8; margin-bottom: 0.4rem; }
+    .tone-curve {
+      margin: 0.3rem auto 0.4rem;
+      display: block;
+    }
+    .tone-feel { font-size: 0.7rem; color: #cbd5e1; }
+    .tone-ex { font-size: 0.75rem; color: #64748b; margin-top: 0.25rem; }
+    .rule-block {
+      background: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 8px;
+      padding: 1rem 1.25rem;
+      margin: 0.75rem 0;
+    }
+    .rule-block h3 {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: #60a5fa;
+      margin-bottom: 0.6rem;
+    }
+    .rule-row {
+      display: flex;
+      align-items: baseline;
+      gap: 0.75rem;
+      padding: 0.3rem 0;
+      border-bottom: 1px solid #0f172a;
+      font-size: 0.875rem;
+    }
+    .rule-row:last-child { border-bottom: none; }
+    .rule-cond { color: #94a3b8; min-width: 130px; font-size: 0.8rem; }
+    .rule-result { color: #e2e8f0; }
+    .rule-ex { color: #60a5fa; font-family: 'Courier New', monospace; font-size: 0.8rem; }
+    .position-rule {
+      background: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 8px;
+      padding: 1rem 1.25rem;
+      margin: 0.75rem 0;
+    }
+    .position-rule h3 { font-size: 0.875rem; font-weight: 600; color: #60a5fa; margin-bottom: 0.75rem; }
+    .pos-steps {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      font-size: 0.875rem;
+    }
+    .pos-step {
+      background: #0f172a;
+      border: 1px solid #334155;
+      border-radius: 6px;
+      padding: 0.4rem 0.75rem;
+      color: #e2e8f0;
+    }
+    .pos-step strong { color: #60a5fa; }
+    .pos-arrow { color: #475569; font-size: 1rem; }
+    .pos-examples {
+      margin-top: 0.75rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+      gap: 0.4rem;
+    }
+    .pos-ex {
+      background: #0f172a;
+      border-radius: 4px;
+      padding: 0.3rem 0.6rem;
+      font-family: 'Courier New', monospace;
+      font-size: 0.8rem;
+      color: #94a3b8;
+    }
+    .pos-ex span { color: #60a5fa; }
+    .note {
+      background: #1e293b;
+      border-left: 3px solid #60a5fa;
+      padding: 0.6rem 0.9rem;
+      border-radius: 0 6px 6px 0;
+      margin: 0.75rem 0;
+      font-size: 0.8rem;
+      color: #94a3b8;
+    }
+    @media (max-width: 600px) {
+      body { padding: 1rem; }
+      .tone-grid { grid-template-columns: repeat(3, 1fr); }
+      .rule-cond { min-width: 100px; }
+    }
+    @media print { body { padding: 0.5cm; } }
+  </style>
+</head>
+<body>
+
+  <h1>중국어 성조 규칙 <span style="font-size:1rem;font-weight:400;color:#94a3b8;">聲調</span></h1>
+  <p class="subtitle">4성 · 변성조 · 성조 표기 위치 · 경성</p>
+
+  <h2>4성 + 경성</h2>
+  <div class="tone-grid">
+    <div class="tone-card t1">
+      <div class="tone-mark">ā</div>
+      <div class="tone-name">1성 · 一声</div>
+      <svg class="tone-curve" width="48" height="28" viewBox="0 0 48 28">
+        <line x1="4" y1="6" x2="44" y2="6" stroke="#60a5fa" stroke-width="2.5" stroke-linecap="round"/>
+      </svg>
+      <div class="tone-feel">높고 평평 5→5</div>
+      <div class="tone-ex">妈 mā (엄마)</div>
+    </div>
+    <div class="tone-card t2">
+      <div class="tone-mark">á</div>
+      <div class="tone-name">2성 · 二声</div>
+      <svg class="tone-curve" width="48" height="28" viewBox="0 0 48 28">
+        <line x1="4" y1="22" x2="44" y2="4" stroke="#4ade80" stroke-width="2.5" stroke-linecap="round"/>
+      </svg>
+      <div class="tone-feel">올라감 3→5</div>
+      <div class="tone-ex">麻 má (삼)</div>
+    </div>
+    <div class="tone-card t3">
+      <div class="tone-mark">ǎ</div>
+      <div class="tone-name">3성 · 三声</div>
+      <svg class="tone-curve" width="48" height="28" viewBox="0 0 48 28">
+        <path d="M4,12 Q16,26 24,24 Q36,22 44,8" stroke="#a78bfa" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+      </svg>
+      <div class="tone-feel">낮게 깔다 2→1→4</div>
+      <div class="tone-ex">马 mǎ (말)</div>
+    </div>
+    <div class="tone-card t4">
+      <div class="tone-mark">à</div>
+      <div class="tone-name">4성 · 四声</div>
+      <svg class="tone-curve" width="48" height="28" viewBox="0 0 48 28">
+        <line x1="4" y1="4" x2="44" y2="24" stroke="#f87171" stroke-width="2.5" stroke-linecap="round"/>
+      </svg>
+      <div class="tone-feel">뚝 내려감 5→1</div>
+      <div class="tone-ex">骂 mà (꾸짖다)</div>
+    </div>
+    <div class="tone-card t0">
+      <div class="tone-mark">a</div>
+      <div class="tone-name">경성 · 轻声</div>
+      <svg class="tone-curve" width="48" height="28" viewBox="0 0 48 28">
+        <circle cx="24" cy="16" r="3" fill="#94a3b8"/>
+      </svg>
+      <div class="tone-feel">짧고 가볍게</div>
+      <div class="tone-ex">吗 ma (의문)</div>
+    </div>
+  </div>
+  <div class="note">성조는 절대 음정이 아닌 <strong>상대적 높낮이 변화</strong> — 자기 목소리 범위 안에서 표현.</div>
+
+  <h2>변성조 규칙</h2>
+
+  <div class="rule-block">
+    <h3>규칙 1 — 3성 + 3성</h3>
+    <div class="rule-row">
+      <span class="rule-cond">3성 + 3성</span>
+      <span class="rule-result">→ 앞 3성이 <strong>2성</strong>으로</span>
+      <span class="rule-ex">你好 nǐhǎo → níhǎo</span>
+    </div>
+    <div style="font-size:0.75rem;color:#64748b;margin-top:0.5rem;">표기는 원래 성조(nǐhǎo) 유지. 발음만 변함.</div>
+  </div>
+
+  <div class="rule-block">
+    <h3>규칙 2 — 不(bù) 변성조</h3>
+    <div class="rule-row">
+      <span class="rule-cond">不 + 4성</span>
+      <span class="rule-result">→ 不가 <strong>2성</strong></span>
+      <span class="rule-ex">不是 bú shì</span>
+    </div>
+    <div class="rule-row">
+      <span class="rule-cond">不 + 1·2·3성</span>
+      <span class="rule-result">→ 그대로 4성</span>
+      <span class="rule-ex">不吃 bù chī</span>
+    </div>
+  </div>
+
+  <div class="rule-block">
+    <h3>규칙 3 — 一(yī) 변성조</h3>
+    <div class="rule-row">
+      <span class="rule-cond">一 + 4성</span>
+      <span class="rule-result">→ 一가 <strong>2성</strong></span>
+      <span class="rule-ex">一个 yí gè</span>
+    </div>
+    <div class="rule-row">
+      <span class="rule-cond">一 + 1·2·3성</span>
+      <span class="rule-result">→ 一가 <strong>4성</strong></span>
+      <span class="rule-ex">一天 yì tiān</span>
+    </div>
+    <div class="rule-row">
+      <span class="rule-cond">서수·날짜 독립</span>
+      <span class="rule-result">→ 1성 유지</span>
+      <span class="rule-ex">一月 yī yuè</span>
+    </div>
+  </div>
+
+  <h2>성조 표기 위치</h2>
+
+  <div class="position-rule">
+    <h3>운모에 모음 여럿일 때 어느 모음 위에 붙나</h3>
+    <div class="pos-steps">
+      <div class="pos-step">1. <strong>a</strong> 또는 <strong>e</strong> 있으면 → 거기</div>
+      <div class="pos-arrow">▸</div>
+      <div class="pos-step">2. <strong>ou</strong> 있으면 → <strong>o</strong> 위</div>
+      <div class="pos-arrow">▸</div>
+      <div class="pos-step">3. 그 외 → <strong>마지막 모음</strong></div>
+    </div>
+    <div class="pos-examples">
+      <div class="pos-ex">h<span>ǎ</span>o ← a</div>
+      <div class="pos-ex">xi<span>è</span> ← e</div>
+      <div class="pos-ex">du<span>ì</span> ← 마지막 i</div>
+      <div class="pos-ex">li<span>ú</span> ← 마지막 u</div>
+      <div class="pos-ex">gu<span>ǒ</span> ← 마지막 o</div>
+      <div class="pos-ex">h<span>ǎ</span>o ← a (ou≠)</div>
+    </div>
+  </div>
+
+  <h2>경성(轻声) 주요 목록</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>유형</th>
+        <th>예시</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>어기조사</td>
+        <td><code>吗 ma</code> · <code>呢 ne</code> · <code>啊 a</code> · <code>吧 ba</code></td>
+      </tr>
+      <tr>
+        <td>접미사 子·们·的</td>
+        <td><code>桌子 zhuō·zi</code> · <code>我们 wǒ·men</code></td>
+      </tr>
+      <tr>
+        <td>관계 명사</td>
+        <td><code>爸爸 bà·ba</code> · <code>妈妈 mā·ma</code></td>
+      </tr>
+      <tr>
+        <td>반복 동사 2번째</td>
+        <td><code>看看 kàn·kan</code> · <code>说说 shuō·shuo</code></td>
+      </tr>
+      <tr>
+        <td>방향보어</td>
+        <td><code>进来 jìn·lai</code> · <code>出去 chū·qu</code></td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
