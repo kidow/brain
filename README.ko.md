@@ -125,6 +125,9 @@ brain/
 
 **스페인어**
 - [스페인어 알파벳 이름](https://brain.dongwook.kim/sheets/스페인어_알파벳_이름.html)
+- [스페인어 발음 규칙](https://brain.dongwook.kim/sheets/스페인어_발음_규칙.html)
+- [스페인어 악센트 강세](https://brain.dongwook.kim/sheets/스페인어_악센트_강세.html)
+- [스페인어 특수부호 키보드](https://brain.dongwook.kim/sheets/스페인어_특수부호_키보드.html)
 
 **영어**
 - [영어 전치사 치트시트](https://brain.dongwook.kim/sheets/영어_전치사_치트시트.html)

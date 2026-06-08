@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#0f172a">
+<title>스페인어 특수 부호 & 키보드</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  background: #0f172a;
+  color: #e2e8f0;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem;
+}
+h1 { font-size: 18px; color: #e2e8f0; margin-bottom: 4px; }
+.subtitle { font-size: 12px; color: #94a3b8; margin-bottom: 24px; }
+.section { margin-bottom: 20px; }
+.section-title {
+  font-size: 11px;
+  color: #60a5fa;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #1e293b;
+}
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th { text-align: left; color: #94a3b8; font-weight: 500; padding: 6px 10px; background: #1e293b; font-size: 11px; }
+td { padding: 8px 10px; border-bottom: 1px solid #1e293b; vertical-align: middle; }
+tr:last-child td { border-bottom: none; }
+.sym { font-size: 24px; font-weight: 700; color: #60a5fa; }
+.name { font-size: 11px; color: #94a3b8; display: block; }
+kbd {
+  display: inline-block;
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 4px;
+  padding: 2px 7px;
+  font-size: 11px;
+  font-family: monospace;
+  color: #e2e8f0;
+  white-space: nowrap;
+}
+.os-badge {
+  display: inline-block;
+  font-size: 10px;
+  padding: 1px 6px;
+  border-radius: 4px;
+  margin-right: 4px;
+  font-weight: 600;
+}
+.mac { background: #1e3a5f; color: #60a5fa; }
+.win { background: #1e2a1e; color: #4ade80; }
+.mob { background: #2a1e1e; color: #f87171; }
+.note-box {
+  background: #1e293b;
+  border-left: 3px solid #f59e0b;
+  padding: 10px 14px;
+  border-radius: 0 6px 6px 0;
+  font-size: 12px;
+  color: #94a3b8;
+  margin-top: 8px;
+  line-height: 1.7;
+}
+.note-box strong { color: #e2e8f0; }
+@media (max-width: 600px) { body { padding: 1rem; } td { font-size: 12px; } }
+@media print { body { padding: 0.5cm; } }
+</style>
+</head>
+<body>
+
+<h1>스페인어 특수 부호 & 키보드 입력</h1>
+<p class="subtitle">특수 문자 용도 + Mac / Windows / 모바일 입력법</p>
+
+<div class="section">
+  <div class="section-title">특수 문자 & 역할</div>
+  <table>
+    <tr><th>문자</th><th>이름</th><th>역할</th><th>예시</th></tr>
+    <tr>
+      <td><span class="sym">ñ</span></td>
+      <td>에녜 (eñe)<span class="name">n + 틸데(~)</span></td>
+      <td>ny 소리. n과 완전히 다른 글자.</td>
+      <td><em>España</em> = 에스파냐<br><em>año</em>(해) ≠ <em>ano</em>(항문)</td>
+    </tr>
+    <tr>
+      <td><span class="sym">á é í ó ú</span></td>
+      <td>악센트 모음<span class="name">acento (´)</span></td>
+      <td>①강세 위치 ②동음이의어 구분 ③히아토 표시</td>
+      <td><em>sí</em>(네) vs <em>si</em>(만약)<br><em>habló</em>(말했다) vs <em>hablo</em>(말한다)</td>
+    </tr>
+    <tr>
+      <td><span class="sym">ü</span></td>
+      <td>디에레시스<span class="name">diéresis (¨)</span></td>
+      <td>gue/gui에서 u를 발음함을 표시</td>
+      <td><em>güisqui</em> = 귀스끼<br><em>cigüeña</em> = 시귀에냐</td>
+    </tr>
+    <tr>
+      <td><span class="sym">¿</span></td>
+      <td>거꾸로 물음표</td>
+      <td>의문문 시작에 위치</td>
+      <td><em>¿Cómo estás?</em></td>
+    </tr>
+    <tr>
+      <td><span class="sym">¡</span></td>
+      <td>거꾸로 느낌표</td>
+      <td>감탄문 시작에 위치</td>
+      <td><em>¡Hola!</em> = 안녕!</td>
+    </tr>
+    <tr>
+      <td><span class="sym">« »</span></td>
+      <td>길예메 (guillemets)</td>
+      <td>전통 인용부호. 쉼표·마침표는 따옴표 밖.</td>
+      <td><em>«No tengo tiempo»,</em></td>
+    </tr>
+  </table>
+</div>
+
+<div class="section">
+  <div class="section-title">Mac 키보드 단축키</div>
+  <table>
+    <tr><th>문자</th><th>입력법</th></tr>
+    <tr><td><span class="sym" style="font-size:18px">á é í ó ú</span></td><td><kbd>⌥ Option</kbd> + <kbd>e</kbd> → 모음 입력</td></tr>
+    <tr><td><span class="sym" style="font-size:18px">ñ</span></td><td><kbd>⌥ Option</kbd> + <kbd>n</kbd> → <kbd>n</kbd></td></tr>
+    <tr><td><span class="sym" style="font-size:18px">ü</span></td><td><kbd>⌥ Option</kbd> + <kbd>u</kbd> → <kbd>u</kbd></td></tr>
+    <tr><td><span class="sym" style="font-size:18px">¿</span></td><td><kbd>⌥ Option</kbd> + <kbd>⇧ Shift</kbd> + <kbd>?</kbd></td></tr>
+    <tr><td><span class="sym" style="font-size:18px">¡</span></td><td><kbd>⌥ Option</kbd> + <kbd>1</kbd></td></tr>
+    <tr><td><span class="sym" style="font-size:18px">«</span></td><td><kbd>⌥ Option</kbd> + <kbd>\</kbd></td></tr>
+    <tr><td><span class="sym" style="font-size:18px">»</span></td><td><kbd>⌥ Option</kbd> + <kbd>⇧ Shift</kbd> + <kbd>\</kbd></td></tr>
+  </table>
+</div>
+
+<div class="section">
+  <div class="section-title">Windows & 모바일</div>
+  <table>
+    <tr><th>방법</th><th>설명</th></tr>
+    <tr>
+      <td><span class="os-badge win">Win</span>키보드 레이아웃</td>
+      <td>설정 → 언어 → 스페인어 키보드 추가. <kbd>Win</kbd> + <kbd>Space</kbd>로 전환.</td>
+    </tr>
+    <tr>
+      <td><span class="os-badge win">Win</span>Alt 코드</td>
+      <td>숫자패드 필요: á=<kbd>Alt+0225</kbd>, é=<kbd>Alt+0233</kbd>, í=<kbd>Alt+0237</kbd>, ó=<kbd>Alt+0243</kbd>, ú=<kbd>Alt+0250</kbd>, ñ=<kbd>Alt+0241</kbd>, ü=<kbd>Alt+0252</kbd></td>
+    </tr>
+    <tr>
+      <td><span class="os-badge mob">모바일</span>길게 누르기</td>
+      <td>모음(a/e/i/o/u/n) 길게 누르면 á·à·â·ñ 등 선택 팝업 표시</td>
+    </tr>
+  </table>
+</div>
+
+<div class="note-box">
+  <strong>가장 실용적인 방법</strong><br>
+  • 맥: Option 조합 익히면 자연스러움<br>
+  • 스페인어 많이 쓴다면: 시스템 언어에 스페인어 키보드 추가 (Mac/Win 공통)<br>
+  • 모바일: 길게 누르기가 가장 빠름
+</div>
+
+</body>
+</html>

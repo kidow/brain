@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#0f172a">
+<title>스페인어 발음 규칙</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  background: #0f172a;
+  color: #e2e8f0;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem;
+}
+h1 { font-size: 18px; color: #e2e8f0; margin-bottom: 4px; }
+.subtitle { font-size: 12px; color: #94a3b8; margin-bottom: 24px; }
+.section { margin-bottom: 20px; }
+.section-title {
+  font-size: 11px;
+  color: #60a5fa;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #1e293b;
+}
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th { text-align: left; color: #94a3b8; font-weight: 500; padding: 6px 10px; background: #1e293b; font-size: 11px; }
+td { padding: 7px 10px; border-bottom: 1px solid #1e293b; vertical-align: top; }
+tr:last-child td { border-bottom: none; }
+.letter { font-size: 20px; font-weight: 700; color: #60a5fa; min-width: 36px; display: inline-block; }
+.ex { color: #94a3b8; font-style: italic; }
+.tag { display: inline-block; font-size: 10px; padding: 1px 6px; border-radius: 4px; margin-left: 4px; }
+.tag-la { background: #1e3a5f; color: #60a5fa; }
+.tag-es { background: #1e1e40; color: #a78bfa; }
+.note-box {
+  background: #1e293b;
+  border-left: 3px solid #f59e0b;
+  padding: 10px 14px;
+  border-radius: 0 6px 6px 0;
+  font-size: 12px;
+  color: #94a3b8;
+  margin-top: 8px;
+}
+.note-box strong { color: #e2e8f0; }
+@media (max-width: 600px) { body { padding: 1rem; } }
+@media print { body { padding: 0.5cm; } }
+</style>
+</head>
+<body>
+
+<h1>스페인어 발음 규칙</h1>
+<p class="subtitle">영어와 다른 글자 발음 + 변화 규칙</p>
+
+<div class="section">
+  <div class="section-title">항상 고정된 발음</div>
+  <table>
+    <tr><th>글자</th><th>발음</th><th>예시</th></tr>
+    <tr><td><span class="letter">h</span></td><td>묵음 (항상 무음)</td><td><span class="ex">hola</span> = 올라, <span class="ex">hombre</span> = 옴브레</td></tr>
+    <tr><td><span class="letter">b / v</span></td><td>동일 — "ㅂ"</td><td><span class="ex">vino</span> = <span class="ex">bino</span> = 비노</td></tr>
+    <tr><td><span class="letter">j</span></td><td>목구멍 마찰음 "ㅎ"</td><td><span class="ex">José</span> = 호세, <span class="ex">jota</span> = 호타</td></tr>
+    <tr><td><span class="letter">ll</span></td><td>"야/여/요" (y와 동일)</td><td><span class="ex">llama</span> = 야마, <span class="ex">llegar</span> = 예가르</td></tr>
+    <tr><td><span class="letter">ñ</span></td><td>"냐/녜/뇨" (ny 소리)</td><td><span class="ex">España</span> = 에스파냐, <span class="ex">año</span> = 아뇨</td></tr>
+    <tr><td><span class="letter">rr</span></td><td>혀 연속 트릴</td><td><span class="ex">perro</span> = 뻬rrro (개) ≠ <span class="ex">pero</span> = 뻬로 (그러나)</td></tr>
+    <tr><td><span class="letter">r (어두)</span></td><td>항상 트릴</td><td><span class="ex">rosa</span> = rrosa, <span class="ex">rico</span> = rrico</td></tr>
+  </table>
+</div>
+
+<div class="section">
+  <div class="section-title">c — 뒤 모음에 따라 변화</div>
+  <table>
+    <tr><th>조합</th><th>발음</th><th>예시</th></tr>
+    <tr><td>c + a / o / u</td><td>"ㅋ"</td><td><span class="ex">casa</span> = 카사, <span class="ex">cosa</span> = 코사</td></tr>
+    <tr><td>c + e / i</td><td><span class="tag tag-la">중남미</span> "ㅅ" &nbsp; <span class="tag tag-es">스페인</span> "th"</td><td><span class="ex">ciudad</span> = 시우닷 / th유닷</td></tr>
+  </table>
+</div>
+
+<div class="section">
+  <div class="section-title">g — 뒤 모음에 따라 변화</div>
+  <table>
+    <tr><th>조합</th><th>발음</th><th>예시</th></tr>
+    <tr><td>g + a / o / u</td><td>"ㄱ"</td><td><span class="ex">gato</span> = 가토, <span class="ex">gustar</span> = 구스타르</td></tr>
+    <tr><td>g + e / i</td><td>"ㅎ" (j와 동일)</td><td><span class="ex">gente</span> = 헨테, <span class="ex">girar</span> = 히라르</td></tr>
+    <tr><td>gue / gui</td><td>"게" / "기" (u = 묵음)</td><td><span class="ex">guerra</span> = 게라, <span class="ex">guitarra</span> = 기타라</td></tr>
+    <tr><td>güe / güi</td><td>"궤" / "귀" (ü = 발음)</td><td><span class="ex">cigüeña</span> = 시귀에냐</td></tr>
+  </table>
+</div>
+
+<div class="section">
+  <div class="section-title">x — 위치에 따라 변화</div>
+  <table>
+    <tr><th>위치</th><th>발음</th><th>예시</th></tr>
+    <tr><td>모음 사이</td><td>"ks"</td><td><span class="ex">éxito</span> = 엑시토 (성공)</td></tr>
+    <tr><td>자음 앞</td><td>"s" 또는 "ks" 혼용</td><td><span class="ex">explicar</span> = 에스플리카르</td></tr>
+    <tr><td>고유명사 (멕시코 지명)</td><td>"ㅎ" (j 소리)</td><td><span class="ex">México</span> = 메히코, <span class="ex">Oaxaca</span> = 와하카</td></tr>
+  </table>
+</div>
+
+<div class="section">
+  <div class="section-title">z — 지역별 차이</div>
+  <table>
+    <tr><th></th><th>발음</th><th>예시</th></tr>
+    <tr><td><span class="tag tag-la">중남미</span></td><td>"ㅅ" (s와 동일)</td><td><span class="ex">zapato</span> = 사파토</td></tr>
+    <tr><td><span class="tag tag-es">스페인</span></td><td>영어 th 소리</td><td><span class="ex">zapato</span> = th아파토</td></tr>
+  </table>
+  <div class="note-box">z는 e/i 앞에 안 씀 → <strong>c</strong> 사용: <span class="ex">cero</span>(영), <span class="ex">ciudad</span>(도시) / a·o·u 앞엔 <strong>z</strong>: <span class="ex">zapato</span>, <span class="ex">zona</span></div>
+</div>
+
+<div class="section">
+  <div class="section-title">que / qui — 묵음 u</div>
+  <table>
+    <tr><th>조합</th><th>발음</th><th>예시</th></tr>
+    <tr><td>que</td><td>"케"</td><td><span class="ex">queso</span> = 케소 (치즈), <span class="ex">porque</span> = 뽀르케</td></tr>
+    <tr><td>qui</td><td>"키"</td><td><span class="ex">quién</span> = 키엔 (누구)</td></tr>
+  </table>
+  <div class="note-box">q는 항상 qu 세트. u는 항상 묵음.</div>
+</div>
+
+</body>
+</html>

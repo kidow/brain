@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#0f172a">
+<title>스페인어 악센트 & 강세</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  background: #0f172a;
+  color: #e2e8f0;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem;
+}
+h1 { font-size: 18px; color: #e2e8f0; margin-bottom: 4px; }
+.subtitle { font-size: 12px; color: #94a3b8; margin-bottom: 24px; }
+.section { margin-bottom: 20px; }
+.section-title {
+  font-size: 11px;
+  color: #60a5fa;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #1e293b;
+}
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th { text-align: left; color: #94a3b8; font-weight: 500; padding: 6px 10px; background: #1e293b; font-size: 11px; }
+td { padding: 7px 10px; border-bottom: 1px solid #1e293b; vertical-align: top; }
+tr:last-child td { border-bottom: none; }
+.ex { color: #94a3b8; font-style: italic; }
+.accent { color: #f59e0b; font-weight: 700; }
+.card-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; }
+.card {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  padding: 12px 14px;
+}
+.card-num { font-size: 10px; color: #60a5fa; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 4px; }
+.card-title { font-size: 14px; font-weight: 700; margin-bottom: 6px; }
+.card-desc { font-size: 12px; color: #94a3b8; line-height: 1.5; }
+.pair-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.pair {
+  background: #1e293b;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 13px;
+}
+.pair-word { font-size: 20px; font-weight: 700; color: #e2e8f0; }
+.pair-mean { font-size: 12px; color: #94a3b8; margin-top: 2px; }
+.vowel-row { display: flex; gap: 8px; flex-wrap: wrap; }
+.vowel-chip {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 6px;
+  padding: 6px 14px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #60a5fa;
+}
+.note-box {
+  background: #1e293b;
+  border-left: 3px solid #f59e0b;
+  padding: 10px 14px;
+  border-radius: 0 6px 6px 0;
+  font-size: 12px;
+  color: #94a3b8;
+  margin-top: 8px;
+  line-height: 1.6;
+}
+.note-box strong { color: #e2e8f0; }
+@media (max-width: 600px) {
+  body { padding: 1rem; }
+  .card-row { grid-template-columns: 1fr; }
+  .pair-row { grid-template-columns: 1fr; }
+}
+@media print { body { padding: 0.5cm; } }
+</style>
+</head>
+<body>
+
+<h1>스페인어 악센트 & 강세</h1>
+<p class="subtitle">악센트(´)의 세 가지 역할 + 강세 규칙 + 이중모음 vs 히아토</p>
+
+<div class="section">
+  <div class="section-title">악센트(´)가 붙는 모음</div>
+  <div class="vowel-row">
+    <div class="vowel-chip">á</div>
+    <div class="vowel-chip">é</div>
+    <div class="vowel-chip">í</div>
+    <div class="vowel-chip">ó</div>
+    <div class="vowel-chip">ú</div>
+  </div>
+  <div class="note-box" style="margin-top:10px">모양(´)은 성조 표시 아님. 중국어처럼 음을 올리는 게 아니라 <strong>"이 음절을 강하게"</strong>라는 위치 표시.</div>
+</div>
+
+<div class="section">
+  <div class="section-title">악센트의 세 가지 역할</div>
+  <div class="card-row">
+    <div class="card">
+      <div class="card-num">역할 1</div>
+      <div class="card-title">강세 위치 표시</div>
+      <div class="card-desc">규칙 예외일 때 표시<br><br><span class="ex">hablo</span> = <strong>HA</strong>-blo (나는 말함)<br><span class="ex">habló</span> = ha-<strong>BLÓ</strong> (그가 말했음)</div>
+    </div>
+    <div class="card">
+      <div class="card-num">역할 2</div>
+      <div class="card-title">동음이의어 구분</div>
+      <div class="card-desc">발음은 같고 뜻만 다름<br><br><span class="ex">si</span> (만약) vs <span class="ex">sí</span> (네)<br><span class="ex">el</span> (정관사) vs <span class="ex">él</span> (그)<br><span class="ex">tu</span> (너의) vs <span class="ex">tú</span> (너)</div>
+    </div>
+    <div class="card">
+      <div class="card-num">역할 3</div>
+      <div class="card-title">이중모음 쪼개기</div>
+      <div class="card-desc">i/u + 강모음도 히아토로<br><br><span class="ex">hacia</span> = a-cia (2음절)<br><span class="ex">hacía</span> = ha-cí-a (3음절)</div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">강세 기본 규칙 (악센트 없을 때)</div>
+  <table>
+    <tr><th>단어 끝</th><th>강세 위치</th><th>예시</th></tr>
+    <tr><td>모음 / n / s</td><td>끝에서 <strong>두 번째</strong> 음절</td><td><span class="ex">ca-<strong>sa</strong></span> → <strong>CA</strong>-sa, <span class="ex">co-men</span> → <strong>CO</strong>-men</td></tr>
+    <tr><td>그 외 자음</td><td><strong>마지막</strong> 음절</td><td><span class="ex">ha-blar</span> → ha-<strong>BLAR</strong>, <span class="ex">ciu-dad</span> → ciu-<strong>DAD</strong></td></tr>
+  </table>
+  <div class="note-box">악센트 표시된 단어 = 위 규칙의 예외. <span class="ex">café</span> (규칙대로면 <strong>CA</strong>-fe → 예외라 <span class="accent">é</span> 표시), <span class="ex">árbol</span> (규칙대로면 ar-<strong>BOL</strong> → 예외라 <span class="accent">á</span> 표시)</div>
+</div>
+
+<div class="section">
+  <div class="section-title">이중모음 (diptongo) — 두 모음이 한 음절로 합쳐짐</div>
+  <div class="note-box" style="margin-bottom:10px"><strong>조건:</strong> i 또는 u + 다른 모음 (악센트 없을 때)</div>
+  <table>
+    <tr><th>조합</th><th>발음</th><th>예시</th></tr>
+    <tr><td>ia</td><td>"야"</td><td><span class="ex">gracias</span> = 그라-시아스</td></tr>
+    <tr><td>ie</td><td>"예"</td><td><span class="ex">bien</span> = 비엔</td></tr>
+    <tr><td>ue</td><td>"웨"</td><td><span class="ex">bueno</span> = 부에노</td></tr>
+    <tr><td>au</td><td>"아우"</td><td><span class="ex">auto</span> = 아우토</td></tr>
+    <tr><td>ei</td><td>"에이"</td><td><span class="ex">seis</span> = 세이스 (6)</td></tr>
+  </table>
+</div>
+
+<div class="section">
+  <div class="section-title">히아토 (hiato) — 두 모음이 별도 음절로 분리됨</div>
+  <div class="note-box" style="margin-bottom:10px"><strong>조건 1:</strong> 강한 모음(a·e·o) + 강한 모음 → 항상 히아토<br><strong>조건 2:</strong> i/u에 악센트(í/ú) 있을 때 → 강제 히아토</div>
+  <table>
+    <tr><th>단어</th><th>음절 분리</th><th>뜻</th></tr>
+    <tr><td><span class="ex">real</span></td><td>re-al (2음절)</td><td>진짜의 (영어 "리얼"과 대조)</td></tr>
+    <tr><td><span class="ex">poeta</span></td><td>po-e-ta (3음절)</td><td>시인</td></tr>
+    <tr><td><span class="ex">teatro</span></td><td>te-a-tro (3음절)</td><td>극장</td></tr>
+    <tr><td><span class="ex">hacía</span></td><td>ha-cí-a (3음절)</td><td>하고 있었다 (í로 히아토)</td></tr>
+  </table>
+</div>
+
+</body>
+</html>
