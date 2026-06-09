@@ -73,6 +73,7 @@ brain/
 
 **언어 — 프랑스어**
 - [프랑스어 문자](https://brain.dongwook.kim/notes/프랑스어_문자)
+- [프랑스어 명사 성](https://brain.dongwook.kim/notes/프랑스어_명사_성)
 
 **언어 — 아랍어**
 - [아랍어 문자](https://brain.dongwook.kim/notes/아랍어_문자)
@@ -122,6 +123,9 @@ brain/
 
 **독일어**
 - [독일어 치트시트](https://brain.dongwook.kim/sheets/독일어_치트시트.html)
+
+**프랑스어**
+- [프랑스어 명사 성](https://brain.dongwook.kim/sheets/french-nouns.html)
 
 **스페인어**
 - [스페인어 알파벳 이름](https://brain.dongwook.kim/sheets/스페인어_알파벳_이름.html)
