@@ -123,6 +123,7 @@ brain/
 
 **독일어**
 - [독일어 치트시트](https://brain.dongwook.kim/sheets/독일어_치트시트.html)
+- [독일어 명사 치트시트](https://brain.dongwook.kim/sheets/독일어_명사_치트시트.html)
 
 **프랑스어**
 - [프랑스어 명사 성](https://brain.dongwook.kim/sheets/french-nouns.html)

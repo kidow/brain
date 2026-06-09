@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#ffffff">
+<title>독일어 명사 치트시트</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #0f172a;
+    color: #e2e8f0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 14px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1.5rem 1.25rem;
+  }
+  h1 { color: #60a5fa; font-size: 1.4rem; margin-bottom: 0.25rem; }
+  .subtitle { color: #94a3b8; font-size: 0.85rem; margin-bottom: 1.5rem; }
+  h2 { color: #60a5fa; font-size: 0.95rem; font-weight: 600; margin-bottom: 0.6rem; text-transform: uppercase; letter-spacing: 0.05em; }
+  .section { margin-bottom: 1.5rem; }
+  .grid { display: grid; gap: 1rem; grid-template-columns: 1fr 1fr; }
+  .grid-3 { display: grid; gap: 1rem; grid-template-columns: 1fr 1fr 1fr; }
+  .card { background: #1e293b; border: 1px solid #334155; border-radius: 8px; padding: 0.9rem; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th { background: #334155; color: #94a3b8; font-weight: 600; padding: 0.4rem 0.6rem; text-align: center; font-size: 12px; }
+  td { padding: 0.35rem 0.6rem; border-bottom: 1px solid #1e293b; text-align: center; }
+  tr:last-child td { border-bottom: none; }
+  td:first-child { text-align: left; color: #94a3b8; font-weight: 600; font-size: 12px; }
+  .m { color: #60a5fa; font-weight: 700; }
+  .f { color: #f472b6; font-weight: 700; }
+  .n { color: #34d399; font-weight: 700; }
+  .p { color: #fb923c; font-weight: 700; }
+  .changed { color: #fbbf24; font-weight: 700; }
+  .tag { display: inline-block; padding: 0.15rem 0.45rem; border-radius: 4px; font-size: 11px; font-weight: 700; margin: 0.1rem; }
+  .tag-m { background: #1e3a5f; color: #60a5fa; }
+  .tag-f { background: #4a1942; color: #f472b6; }
+  .tag-n { background: #0f3a2f; color: #34d399; }
+  .label { font-size: 11px; color: #94a3b8; margin-bottom: 0.4rem; }
+  .rule-list { list-style: none; }
+  .rule-list li { padding: 0.3rem 0; border-bottom: 1px solid #334155; font-size: 13px; }
+  .rule-list li:last-child { border-bottom: none; }
+  .rule-list .affix { color: #fbbf24; font-weight: 700; font-family: monospace; }
+  .rule-list .arrow { color: #94a3b8; margin: 0 0.3rem; }
+  .row-group td { background: #162032; }
+  .note { color: #94a3b8; font-size: 12px; margin-top: 0.5rem; }
+  .badge { display: inline-block; background: #334155; color: #e2e8f0; border-radius: 4px; padding: 0.1rem 0.4rem; font-size: 11px; margin: 0.1rem; }
+  .contr-table { display: grid; grid-template-columns: 1fr 1fr; gap: 0.2rem; }
+  .contr-row { display: flex; align-items: center; gap: 0.4rem; font-size: 13px; padding: 0.25rem 0.4rem; border-radius: 4px; background: #162032; }
+  .contr-from { color: #94a3b8; }
+  .contr-to { color: #fbbf24; font-weight: 700; font-family: monospace; min-width: 2.5rem; }
+  @media (max-width: 600px) {
+    body { padding: 1rem; }
+    .grid, .grid-3 { grid-template-columns: 1fr; }
+    .contr-table { grid-template-columns: 1fr; }
+  }
+  @media print {
+    body { background: #fff; color: #000; padding: 0.5cm; }
+    .card { border: 1px solid #ccc; background: #f9f9f9; }
+    th { background: #e0e0e0; color: #333; }
+    .m { color: #1d4ed8; }
+    .f { color: #be185d; }
+    .n { color: #047857; }
+    .changed { color: #b45309; }
+  }
+</style>
+</head>
+<body>
+
+<h1>독일어 명사 치트시트</h1>
+<p class="subtitle">Deutsches Substantiv — 관사·격·성·복수 빠른 참조</p>
+
+<!-- 정관사 격변화 -->
+<div class="section">
+  <h2>정관사 격변화 (Bestimmter Artikel)</h2>
+  <div class="card">
+    <table>
+      <thead>
+        <tr>
+          <th>격</th>
+          <th class="m">남성 (M)</th>
+          <th class="f">여성 (F)</th>
+          <th class="n">중성 (N)</th>
+          <th class="p">복수 (Pl)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Nominativ (주어)</td>
+          <td class="m">der</td>
+          <td class="f">die</td>
+          <td class="n">das</td>
+          <td class="p">die</td>
+        </tr>
+        <tr>
+          <td>Akkusativ (목적어)</td>
+          <td class="changed">den</td>
+          <td class="f">die</td>
+          <td class="n">das</td>
+          <td class="p">die</td>
+        </tr>
+        <tr>
+          <td>Dativ (~에게)</td>
+          <td class="changed">dem</td>
+          <td class="changed">der</td>
+          <td class="changed">dem</td>
+          <td class="changed">den</td>
+        </tr>
+        <tr>
+          <td>Genitiv (~의)</td>
+          <td class="changed">des</td>
+          <td class="changed">der</td>
+          <td class="changed">des</td>
+          <td class="changed">der</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="note">황색 = 변화 있음 · 남성 Genitiv·복수 Dativ는 명사에 -s/-en 추가</p>
+  </div>
+</div>
+
+<!-- 부정관사 / kein -->
+<div class="section">
+  <h2>부정관사 · kein 격변화</h2>
+  <div class="grid">
+    <div class="card">
+      <div class="label">부정관사 ein (a/an)</div>
+      <table>
+        <thead>
+          <tr><th>격</th><th class="m">M</th><th class="f">F</th><th class="n">N</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Nom</td><td class="m">ein</td><td class="f">eine</td><td class="n">ein</td></tr>
+          <tr><td>Akk</td><td class="changed">einen</td><td class="f">eine</td><td class="n">ein</td></tr>
+          <tr><td>Dat</td><td class="changed">einem</td><td class="changed">einer</td><td class="changed">einem</td></tr>
+          <tr><td>Gen</td><td class="changed">eines</td><td class="changed">einer</td><td class="changed">eines</td></tr>
+        </tbody>
+      </table>
+      <p class="note">복수형 없음</p>
+    </div>
+    <div class="card">
+      <div class="label">kein (no / not a) — ein과 동일 + 복수</div>
+      <table>
+        <thead>
+          <tr><th>격</th><th class="m">M</th><th class="f">F</th><th class="n">N</th><th class="p">Pl</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Nom</td><td>kein</td><td>keine</td><td>kein</td><td class="p">keine</td></tr>
+          <tr><td>Akk</td><td class="changed">keinen</td><td>keine</td><td>kein</td><td class="p">keine</td></tr>
+          <tr><td>Dat</td><td class="changed">keinem</td><td class="changed">keiner</td><td class="changed">keinem</td><td class="changed">keinen</td></tr>
+          <tr><td>Gen</td><td class="changed">keines</td><td class="changed">keiner</td><td class="changed">keines</td><td class="changed">keiner</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- dieser -->
+<div class="section">
+  <h2>dieser / jeder / welcher (der-Wörter)</h2>
+  <div class="card">
+    <table>
+      <thead>
+        <tr><th>격</th><th class="m">남성</th><th class="f">여성</th><th class="n">중성</th><th class="p">복수</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Nom</td><td class="m">dieser</td><td class="f">diese</td><td class="n">dieses</td><td class="p">diese</td></tr>
+        <tr><td>Akk</td><td class="changed">diesen</td><td class="f">diese</td><td class="n">dieses</td><td class="p">diese</td></tr>
+        <tr><td>Dat</td><td class="changed">diesem</td><td class="changed">dieser</td><td class="changed">diesem</td><td class="changed">diesen</td></tr>
+        <tr><td>Gen</td><td class="changed">dieses</td><td class="changed">dieser</td><td class="changed">dieses</td><td class="changed">dieser</td></tr>
+      </tbody>
+    </table>
+    <p class="note">패턴: dies- + 정관사 어미. 같은 패턴: jeder, welcher, jener, mancher</p>
+  </div>
+</div>
+
+<!-- 성 예측 -->
+<div class="section">
+  <h2>성 예측 — 어미 패턴</h2>
+  <div class="grid">
+    <div class="card">
+      <div class="label"><span class="f">▌</span> 여성 die — 신뢰도 높음</div>
+      <ul class="rule-list">
+        <li><span class="affix">-ung</span><span class="arrow">→</span>die Zeitung, Wohnung</li>
+        <li><span class="affix">-heit / -keit</span><span class="arrow">→</span>Freiheit, Möglichkeit</li>
+        <li><span class="affix">-tion</span><span class="arrow">→</span>Nation, Station</li>
+        <li><span class="affix">-schaft</span><span class="arrow">→</span>Mannschaft</li>
+        <li><span class="affix">-in</span><span class="arrow">→</span>Lehrerin, Ärztin</li>
+        <li><span class="affix">-ei</span><span class="arrow">→</span>Türkei, Mongolei</li>
+      </ul>
+    </div>
+    <div class="card">
+      <div class="label"><span class="n">▌</span> 중성 das — 신뢰도 높음</div>
+      <ul class="rule-list">
+        <li><span class="affix">-chen / -lein</span><span class="arrow">→</span>Mädchen, Büchlein</li>
+        <li><span class="affix">-um</span><span class="arrow">→</span>Zentrum, Museum</li>
+        <li><span class="affix">-ment</span><span class="arrow">→</span>Instrument, Dokument</li>
+        <li>동사 명사화<span class="arrow">→</span>das Essen, das Leben</li>
+      </ul>
+      <div class="label" style="margin-top:0.7rem"><span class="m">▌</span> 남성 der</div>
+      <ul class="rule-list">
+        <li><span class="affix">-er</span> (행위자)<span class="arrow">→</span>Lehrer, Fahrer</li>
+        <li><span class="affix">-ling</span><span class="arrow">→</span>Frühling</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- 의미로 성 예측 -->
+<div class="section">
+  <h2>성 예측 — 의미 범주</h2>
+  <div class="grid-3">
+    <div class="card">
+      <div class="label"><span class="m">▌</span> 남성 der</div>
+      <ul class="rule-list">
+        <li>요일 (Montag...)</li>
+        <li>월 (Januar...)</li>
+        <li>계절 (Frühling...)</li>
+        <li>방향 (Norden, Süden...)</li>
+      </ul>
+    </div>
+    <div class="card">
+      <div class="label"><span class="f">▌</span> 여성 die</div>
+      <ul class="rule-list">
+        <li>숫자 (die Eins, Zwei...)</li>
+        <li>독일 강 대부분</li>
+        <li>예외: der Rhein, Main</li>
+      </ul>
+    </div>
+    <div class="card">
+      <div class="label"><span class="n">▌</span> 중성 das</div>
+      <ul class="rule-list">
+        <li>나라·도시·대륙 대부분</li>
+        <li>보통 무관사로 씀</li>
+        <li>예외: die Türkei, Schweiz</li>
+        <li>예외: der Iran, Irak</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- 복수형 -->
+<div class="section">
+  <h2>복수형 5패턴</h2>
+  <div class="card">
+    <table>
+      <thead>
+        <tr><th>패턴</th><th>예시</th><th>비고</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>-e</td><td>der Hund → die Hunde</td><td>남성·중성 많음</td></tr>
+        <tr><td>-er (+ 움라우트)</td><td>das Kind → die Kinder</td><td>중성 많음</td></tr>
+        <tr><td>-en / -n</td><td>die Frau → die Frauen</td><td>여성 많음</td></tr>
+        <tr><td>-s</td><td>das Auto → die Autos</td><td>외래어</td></tr>
+        <tr><td>무변화</td><td>der Lehrer → die Lehrer</td><td>-er 끝 남성</td></tr>
+      </tbody>
+    </table>
+    <p class="note">복수형 관사는 성에 상관없이 항상 <strong>die</strong></p>
+  </div>
+</div>
+
+<!-- 전치사와 격 -->
+<div class="section">
+  <h2>전치사와 격</h2>
+  <div class="grid">
+    <div class="card">
+      <div class="label">항상 Akkusativ</div>
+      <div style="margin-bottom:0.7rem">
+        <span class="badge">durch</span>
+        <span class="badge">für</span>
+        <span class="badge">gegen</span>
+        <span class="badge">ohne</span>
+        <span class="badge">um</span>
+      </div>
+      <div class="label">항상 Dativ</div>
+      <div>
+        <span class="badge">aus</span>
+        <span class="badge">bei</span>
+        <span class="badge">mit</span>
+        <span class="badge">nach</span>
+        <span class="badge">seit</span>
+        <span class="badge">von</span>
+        <span class="badge">zu</span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="label">Wechselpräpositionen — 이동 Akk / 위치 Dat</div>
+      <div style="margin-bottom:0.6rem">
+        <span class="badge">an</span>
+        <span class="badge">auf</span>
+        <span class="badge">hinter</span>
+        <span class="badge">in</span>
+        <span class="badge">neben</span>
+        <span class="badge">über</span>
+        <span class="badge">unter</span>
+        <span class="badge">vor</span>
+        <span class="badge">zwischen</span>
+      </div>
+      <table>
+        <tbody>
+          <tr><td style="color:#e2e8f0">이동 (방향)</td><td><span class="changed">Akkusativ</span></td><td style="color:#94a3b8;font-size:12px">Ich lege es <em>auf den</em> Tisch</td></tr>
+          <tr><td style="color:#e2e8f0">위치 (상태)</td><td><span class="changed">Dativ</span></td><td style="color:#94a3b8;font-size:12px">Es liegt <em>auf dem</em> Tisch</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- 축약형 -->
+<div class="section">
+  <h2>전치사 + 관사 축약형</h2>
+  <div class="card">
+    <div class="contr-table">
+      <div class="contr-row"><span class="contr-from">in + dem</span><span style="color:#94a3b8">→</span><span class="contr-to">im</span><span style="color:#94a3b8;font-size:12px">im Haus</span></div>
+      <div class="contr-row"><span class="contr-from">in + das</span><span style="color:#94a3b8">→</span><span class="contr-to">ins</span><span style="color:#94a3b8;font-size:12px">ins Kino</span></div>
+      <div class="contr-row"><span class="contr-from">an + dem</span><span style="color:#94a3b8">→</span><span class="contr-to">am</span><span style="color:#94a3b8;font-size:12px">am Montag</span></div>
+      <div class="contr-row"><span class="contr-from">an + das</span><span style="color:#94a3b8">→</span><span class="contr-to">ans</span><span style="color:#94a3b8;font-size:12px">ans Meer</span></div>
+      <div class="contr-row"><span class="contr-from">zu + dem</span><span style="color:#94a3b8">→</span><span class="contr-to">zum</span><span style="color:#94a3b8;font-size:12px">zum Arzt</span></div>
+      <div class="contr-row"><span class="contr-from">zu + der</span><span style="color:#94a3b8">→</span><span class="contr-to">zur</span><span style="color:#94a3b8;font-size:12px">zur Schule</span></div>
+      <div class="contr-row"><span class="contr-from">bei + dem</span><span style="color:#94a3b8">→</span><span class="contr-to">beim</span><span style="color:#94a3b8;font-size:12px">beim Essen</span></div>
+      <div class="contr-row"><span class="contr-from">von + dem</span><span style="color:#94a3b8">→</span><span class="contr-to">vom</span><span style="color:#94a3b8;font-size:12px">vom Bahnhof</span></div>
+      <div class="contr-row"><span class="contr-from">auf + das</span><span style="color:#94a3b8">→</span><span class="contr-to">aufs</span><span style="color:#94a3b8;font-size:12px">aufs Land</span></div>
+      <div class="contr-row"><span class="contr-from">für + das</span><span style="color:#94a3b8">→</span><span class="contr-to">fürs</span><span style="color:#94a3b8;font-size:12px">fürs Erste</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- 무관사 -->
+<div class="section">
+  <h2>무관사 (Nullartikel)</h2>
+  <div class="card">
+    <table>
+      <thead>
+        <tr><th>경우</th><th>예시</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>직업·국적 (sein 뒤)</td><td>Ich bin Lehrer. / Er ist Koreaner.</td></tr>
+        <tr><td>형용사 붙으면 관사 부활</td><td>Ich bin <em>ein guter</em> Lehrer.</td></tr>
+        <tr><td>재료·물질 총칭</td><td>Das Haus ist aus Holz.</td></tr>
+        <tr><td>고유명사</td><td>Ich komme aus Korea. Berlin ist schön.</td></tr>
+        <tr><td>복수 총칭</td><td>Hunde sind treu.</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- 약변화 명사 -->
+<div class="section">
+  <h2>약변화 명사 (n-Deklination)</h2>
+  <div class="card">
+    <table>
+      <thead>
+        <tr><th>격</th><th>der Mensch</th><th>der Student</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Nom</td><td>der Mensch</td><td>der Student</td></tr>
+        <tr><td>Akk</td><td class="changed">den Menschen</td><td class="changed">den Studenten</td></tr>
+        <tr><td>Dat</td><td class="changed">dem Menschen</td><td class="changed">dem Studenten</td></tr>
+        <tr><td>Gen</td><td class="changed">des Menschen</td><td class="changed">des Studenten</td></tr>
+      </tbody>
+    </table>
+    <p class="note">Nominativ 단수 빼고 전 격에 -en/-n 추가. 주로 남성 사람·직업·국적 명사.</p>
+    <p class="note">단어장 표기 <strong>der Student, -en</strong> = 약변화 신호</p>
+  </div>
+</div>
+
+</body>
+</html>

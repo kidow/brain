@@ -123,6 +123,7 @@ Quick-reference sheets served live at [brain.dongwook.kim](https://brain.dongwoo
 
 **German**
 - [독일어 치트시트](https://brain.dongwook.kim/sheets/독일어_치트시트.html)
+- [독일어 명사 치트시트](https://brain.dongwook.kim/sheets/독일어_명사_치트시트.html)
 
 **French**
 - [프랑스어 명사 성](https://brain.dongwook.kim/sheets/french-nouns.html)
