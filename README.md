@@ -100,6 +100,9 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 **Art**
 - [미술 작품 교양](https://brain.dongwook.kim/notes/미술_작품_교양)
 
+**Economics / Finance**
+- [회계학](https://brain.dongwook.kim/notes/회계학)
+
 **Science**
 - [화학](https://brain.dongwook.kim/notes/화학)
 

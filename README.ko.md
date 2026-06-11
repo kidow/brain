@@ -100,6 +100,9 @@ brain/
 **예술**
 - [미술 작품 교양](https://brain.dongwook.kim/notes/미술_작품_교양)
 
+**경제/금융**
+- [회계학](https://brain.dongwook.kim/notes/회계학)
+
 **과학**
 - [화학](https://brain.dongwook.kim/notes/화학)
 
