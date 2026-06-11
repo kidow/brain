@@ -92,6 +92,18 @@
 
   tr:hover td.cell { background: #2a2515 !important; }
 
+  .section-divider {
+    text-align: left;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    padding: 0.35rem 0.75rem;
+    border-top: 2px solid var(--border);
+  }
+  .divider-seion   { background: #162032; color: #7ab8f5; }
+  .divider-dakuten { background: #0f1e2e; color: #67b4f7; border-top-color: #2a4a6a; }
+  .divider-han     { background: #0f1e17; color: #5bcf80; border-top-color: #1e4a2a; }
+
   /* 요음 */
   .youon-grid {
     display: grid;
@@ -256,6 +268,7 @@
     </tr>
   </thead>
   <tbody>
+    <tr><th colspan="6" class="section-divider divider-seion">청음 (清音) — 기본 46자</th></tr>
     <tr class="seion">
       <th class="row-header" scope="row">ア행</th>
       <td class="cell"><span class="kana">ア</span><span class="romaji">a</span><span class="hira">あ</span></td>
@@ -342,6 +355,7 @@
       <td class="empty" colspan="4"></td>
     </tr>
     <!-- 탁음 -->
+    <tr><th colspan="6" class="section-divider divider-dakuten">탁음 (濁音) — 청음 + ゛(탁점)</th></tr>
     <tr class="dakuten">
       <th class="row-header" scope="row">ガ행 g</th>
       <td class="cell"><span class="kana">ガ</span><span class="romaji">ga</span></td>
@@ -375,6 +389,7 @@
       <td class="cell"><span class="kana">ボ</span><span class="romaji">bo</span></td>
     </tr>
     <!-- 반탁음 -->
+    <tr><th colspan="6" class="section-divider divider-han">반탁음 (半濁音) — ハ행 + ゜(반탁점)</th></tr>
     <tr class="han">
       <th class="row-header" scope="row">パ행 p</th>
       <td class="cell"><span class="kana">パ</span><span class="romaji">pa</span></td>
