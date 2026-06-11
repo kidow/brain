@@ -102,6 +102,7 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 
 **Economics / Finance**
 - [회계학](https://brain.dongwook.kim/notes/회계학)
+- [세금 용어](https://brain.dongwook.kim/notes/세금_용어)
 
 **Science**
 - [화학](https://brain.dongwook.kim/notes/화학)

@@ -102,6 +102,7 @@ brain/
 
 **경제/금융**
 - [회계학](https://brain.dongwook.kim/notes/회계학)
+- [세금 용어](https://brain.dongwook.kim/notes/세금_용어)
 
 **과학**
 - [화학](https://brain.dongwook.kim/notes/화학)
