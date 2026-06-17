@@ -107,6 +107,9 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 **Science**
 - [화학](https://brain.dongwook.kim/notes/화학)
 
+**Technology**
+- [컴퓨터 부품](https://brain.dongwook.kim/notes/컴퓨터_부품)
+
 ## Cheat Sheets
 
 Quick-reference sheets served live at [brain.dongwook.kim](https://brain.dongwook.kim).

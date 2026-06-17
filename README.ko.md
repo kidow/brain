@@ -107,6 +107,9 @@ brain/
 **과학**
 - [화학](https://brain.dongwook.kim/notes/화학)
 
+**기술**
+- [컴퓨터 부품](https://brain.dongwook.kim/notes/컴퓨터_부품)
+
 ## 치트시트
 
 [brain.dongwook.kim](https://brain.dongwook.kim)에서 바로 열 수 있는 빠른 참조 시트입니다.
