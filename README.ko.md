@@ -155,6 +155,9 @@ brain/
 - [영어 시제 심화 치트시트](https://brain.dongwook.kim/sheets/영어_시제_심화_치트시트.html)
 - [영어 가산/불가산 명사 치트시트](https://brain.dongwook.kim/sheets/영어_가산_불가산_명사_치트시트.html)
 
+**기술**
+- [컴퓨터 부품](https://brain.dongwook.kim/sheets/컴퓨터_부품.html)
+
 ## 스킬 설치
 
 ```bash

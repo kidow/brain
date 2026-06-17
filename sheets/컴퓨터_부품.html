@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#ffffff">
+<title>컴퓨터 부품 치트시트</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #0f172a;
+    color: #e2e8f0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 14px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1.5rem 1.25rem;
+  }
+  h1 { font-size: 1.4rem; color: #60a5fa; margin-bottom: 0.25rem; }
+  .subtitle { color: #94a3b8; font-size: 0.85rem; margin-bottom: 1.5rem; }
+  h2 { font-size: 0.9rem; color: #94a3b8; text-transform: uppercase; letter-spacing: 0.08em; margin: 1.5rem 0 0.75rem; }
+  .diagram-wrap { background: #1e293b; border: 1px solid #334155; border-radius: 10px; padding: 1rem; margin-bottom: 1.5rem; overflow-x: auto; }
+  .diagram-wrap svg { display: block; width: 100%; height: auto; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; }
+  .card {
+    background: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    padding: 0.85rem 1rem;
+  }
+  .card-title { color: #60a5fa; font-weight: 700; font-size: 0.95rem; margin-bottom: 0.35rem; }
+  .card-sub { color: #94a3b8; font-size: 0.8rem; margin-bottom: 0.5rem; }
+  .tag { display: inline-block; background: #0f172a; border: 1px solid #334155; border-radius: 4px; padding: 0.1rem 0.45rem; font-size: 0.75rem; color: #94a3b8; margin: 0.15rem 0.1rem 0.15rem 0; }
+  .tag.blue { border-color: #3b82f6; color: #60a5fa; }
+  .tag.green { border-color: #10b981; color: #34d399; }
+  .tag.purple { border-color: #7c3aed; color: #a78bfa; }
+  .row { display: flex; gap: 0.5rem; align-items: baseline; margin-bottom: 0.25rem; }
+  .label { color: #94a3b8; font-size: 0.8rem; min-width: 90px; }
+  .val { color: #e2e8f0; font-size: 0.85rem; }
+  .note { color: #64748b; font-size: 0.78rem; margin-top: 0.3rem; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.82rem; }
+  th { color: #94a3b8; text-align: left; padding: 0.4rem 0.5rem; border-bottom: 1px solid #334155; font-weight: 600; }
+  td { padding: 0.4rem 0.5rem; border-bottom: 1px solid #1e293b; color: #e2e8f0; }
+  tr:last-child td { border-bottom: none; }
+  @media (max-width: 600px) {
+    body { padding: 1rem 1rem; }
+    .grid { grid-template-columns: 1fr; }
+    .diagram-wrap svg { min-width: 520px; }
+  }
+  @media print {
+    body { padding: 0.5cm; background: #fff; color: #000; }
+  }
+</style>
+</head>
+<body>
+
+<h1>컴퓨터 부품</h1>
+<p class="subtitle">PC 주요 부품 구조 & 역할 치트시트</p>
+
+<h2>구조 개요</h2>
+<div class="diagram-wrap">
+  <svg viewBox="0 0 660 480" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, sans-serif">
+    <!-- Case -->
+    <rect x="10" y="10" width="640" height="460" rx="12" fill="none" stroke="#334155" stroke-width="2" stroke-dasharray="8 4"/>
+    <text x="26" y="32" font-size="12" fill="#94a3b8" font-weight="600">케이스 (Case)</text>
+
+    <!-- PSU -->
+    <rect x="28" y="46" width="120" height="64" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+    <text x="88" y="72" font-size="12" fill="#60a5fa" font-weight="700" text-anchor="middle">PSU</text>
+    <text x="88" y="88" font-size="10" fill="#94a3b8" text-anchor="middle">220V AC → DC 변환</text>
+    <text x="88" y="102" font-size="10" fill="#64748b" text-anchor="middle">전력 공급</text>
+
+    <!-- Case fans -->
+    <rect x="162" y="46" width="120" height="64" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+    <text x="222" y="72" font-size="12" fill="#60a5fa" font-weight="700" text-anchor="middle">케이스 팬</text>
+    <text x="222" y="88" font-size="10" fill="#94a3b8" text-anchor="middle">흡기 / 배기</text>
+    <text x="222" y="102" font-size="10" fill="#64748b" text-anchor="middle">공기 흐름 설계</text>
+
+    <!-- HDD -->
+    <rect x="296" y="46" width="120" height="64" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+    <text x="356" y="72" font-size="12" fill="#60a5fa" font-weight="700" text-anchor="middle">HDD (선택)</text>
+    <text x="356" y="88" font-size="10" fill="#94a3b8" text-anchor="middle">대용량 보관</text>
+    <text x="356" y="102" font-size="10" fill="#64748b" text-anchor="middle">SATA 연결</text>
+
+    <!-- Motherboard -->
+    <rect x="28" y="126" width="622" height="328" rx="8" fill="#1e293b" stroke="#3b82f6" stroke-width="2"/>
+    <text x="46" y="148" font-size="12" fill="#60a5fa" font-weight="700">메인보드 (Motherboard)</text>
+
+    <!-- Chipset -->
+    <rect x="490" y="160" width="142" height="64" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1.5"/>
+    <text x="561" y="186" font-size="12" fill="#a78bfa" font-weight="700" text-anchor="middle">칩셋</text>
+    <text x="561" y="202" font-size="10" fill="#94a3b8" text-anchor="middle">데이터 흐름 중계</text>
+    <text x="561" y="216" font-size="10" fill="#64748b" text-anchor="middle">납땜 내장</text>
+
+    <!-- CPU -->
+    <rect x="46" y="160" width="192" height="120" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1.5"/>
+    <text x="142" y="182" font-size="11" fill="#60a5fa" font-weight="700" text-anchor="middle">CPU 소켓</text>
+    <rect x="60" y="190" width="90" height="68" rx="5" fill="#1e293b" stroke="#3b82f6" stroke-width="1.5"/>
+    <text x="105" y="218" font-size="12" fill="#f1f5f9" font-weight="700" text-anchor="middle">CPU</text>
+    <text x="105" y="234" font-size="10" fill="#94a3b8" text-anchor="middle">연산·추론</text>
+    <text x="105" y="249" font-size="10" fill="#64748b" text-anchor="middle">클럭 GHz</text>
+    <rect x="158" y="190" width="66" height="68" rx="5" fill="#1e293b" stroke="#475569" stroke-width="1.2"/>
+    <text x="191" y="222" font-size="11" fill="#94a3b8" text-anchor="middle">쿨러</text>
+    <text x="191" y="238" font-size="10" fill="#64748b" text-anchor="middle">열 관리</text>
+
+    <!-- RAM -->
+    <rect x="252" y="160" width="222" height="120" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1.5"/>
+    <text x="363" y="182" font-size="11" fill="#60a5fa" font-weight="700" text-anchor="middle">RAM 슬롯</text>
+    <rect x="266" y="192" width="36" height="68" rx="4" fill="#1e293b" stroke="#3b82f6" stroke-width="1.2"/>
+    <text x="284" y="230" font-size="9" fill="#94a3b8" text-anchor="middle" writing-mode="tb">DDR5</text>
+    <rect x="310" y="192" width="36" height="68" rx="4" fill="#1e293b" stroke="#3b82f6" stroke-width="1.2"/>
+    <text x="328" y="230" font-size="9" fill="#94a3b8" text-anchor="middle" writing-mode="tb">DDR5</text>
+    <rect x="354" y="192" width="36" height="68" rx="4" fill="#1e293b" stroke="#334155" stroke-width="1.2" stroke-dasharray="4 2"/>
+    <rect x="398" y="192" width="36" height="68" rx="4" fill="#1e293b" stroke="#334155" stroke-width="1.2" stroke-dasharray="4 2"/>
+    <text x="363" y="274" font-size="10" fill="#64748b" text-anchor="middle">휘발성 · 작업 메모리</text>
+
+    <!-- PCIe / GPU -->
+    <rect x="46" y="300" width="290" height="130" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1.5"/>
+    <text x="191" y="322" font-size="11" fill="#60a5fa" font-weight="700" text-anchor="middle">PCIe 슬롯</text>
+    <rect x="60" y="332" width="262" height="70" rx="5" fill="#1e293b" stroke="#7c3aed" stroke-width="1.5"/>
+    <text x="191" y="362" font-size="12" fill="#a78bfa" font-weight="700" text-anchor="middle">GPU</text>
+    <text x="191" y="380" font-size="10" fill="#94a3b8" text-anchor="middle">그래픽 · 병렬 연산 · 수천 코어</text>
+    <text x="191" y="418" font-size="10" fill="#64748b" text-anchor="middle">그래픽카드</text>
+
+    <!-- M.2 / NVMe -->
+    <rect x="352" y="300" width="298" height="130" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1.5"/>
+    <text x="501" y="322" font-size="11" fill="#60a5fa" font-weight="700" text-anchor="middle">M.2 슬롯</text>
+    <rect x="366" y="332" width="270" height="30" rx="4" fill="#1e293b" stroke="#10b981" stroke-width="1.5"/>
+    <text x="501" y="352" font-size="11" fill="#34d399" font-weight="600" text-anchor="middle">NVMe SSD</text>
+    <text x="501" y="380" font-size="10" fill="#94a3b8" text-anchor="middle">비휘발성 · 영구 저장</text>
+    <text x="501" y="396" font-size="10" fill="#64748b" text-anchor="middle">3,000~7,000 MB/s</text>
+  </svg>
+</div>
+
+<h2>부품별 요약</h2>
+<div class="grid">
+  <div class="card">
+    <div class="card-title">CPU</div>
+    <div class="card-sub">Central Processing Unit — 연산·추론</div>
+    <div class="row"><span class="label">역할</span><span class="val">명령 실행, 논리 연산</span></div>
+    <div class="row"><span class="label">단위</span><span class="val">코어 수, GHz (클럭)</span></div>
+    <div class="row"><span class="label">특징</span><span class="val">소수의 강력한 코어</span></div>
+    <div class="note">인간으로 치면 뇌. 복잡한 작업을 순서대로 처리.</div>
+  </div>
+  <div class="card">
+    <div class="card-title">RAM</div>
+    <div class="card-sub">Random Access Memory — 작업 메모리</div>
+    <div class="row"><span class="label">역할</span><span class="val">실행 중 데이터 임시 저장</span></div>
+    <div class="row"><span class="label">특징</span><span class="val">휘발성 (전원 끄면 소멸)</span></div>
+    <div class="row"><span class="label">규격</span><span class="val">DDR4 / DDR5, GB, CL</span></div>
+    <div class="note">책상 위의 작업 공간. 넓을수록 동시 작업 가능.</div>
+  </div>
+  <div class="card">
+    <div class="card-title">GPU</div>
+    <div class="card-sub">Graphics Processing Unit</div>
+    <div class="row"><span class="label">역할</span><span class="val">그래픽 렌더링, 병렬 연산</span></div>
+    <div class="row"><span class="label">코어</span><span class="val">수천~수만 개 (단순·소형)</span></div>
+    <div class="row"><span class="label">연결</span><span class="val">PCIe 슬롯</span></div>
+    <div class="note">단순 작업을 수천 개 동시에. CPU와 구조 자체가 다름.</div>
+  </div>
+  <div class="card">
+    <div class="card-title">메인보드</div>
+    <div class="card-sub">Motherboard — 연결 기판</div>
+    <div class="row"><span class="label">역할</span><span class="val">모든 부품 연결·중계</span></div>
+    <div class="row"><span class="label">슬롯</span><span class="val">PCIe, M.2, RAM, CPU 소켓</span></div>
+    <div class="row"><span class="label">규격</span><span class="val">ATX / mATX / Mini-ITX</span></div>
+    <div class="note">척수·신경계. 칩셋이 납땜 내장됨.</div>
+  </div>
+  <div class="card">
+    <div class="card-title">NVMe SSD</div>
+    <div class="card-sub">Non-Volatile Memory Express</div>
+    <div class="row"><span class="label">역할</span><span class="val">데이터 영구 저장</span></div>
+    <div class="row"><span class="label">특징</span><span class="val">비휘발성, 3,000~7,000 MB/s</span></div>
+    <div class="row"><span class="label">연결</span><span class="val">M.2 슬롯 (PCIe 직결)</span></div>
+    <div class="note">SATA SSD보다 6~14배 빠름.</div>
+  </div>
+  <div class="card">
+    <div class="card-title">PSU</div>
+    <div class="card-sub">Power Supply Unit — 파워서플라이</div>
+    <div class="row"><span class="label">역할</span><span class="val">220V AC → DC 변환·공급</span></div>
+    <div class="row"><span class="label">단위</span><span class="val">W (와트)</span></div>
+    <div class="row"><span class="label">용량</span><span class="val">일반 400W / 게이밍 650~850W</span></div>
+    <div class="note">변압기 달린 멀티탭. 부족하면 부팅 불가.</div>
+  </div>
+</div>
+
+<h2>저장장치 비교</h2>
+<div class="card" style="margin-bottom: 1rem;">
+  <table>
+    <tr><th>종류</th><th>속도</th><th>용도</th><th>연결</th></tr>
+    <tr><td><span class="tag green">NVMe SSD</span></td><td>3,000~7,000 MB/s</td><td>주저장장치</td><td>M.2 슬롯</td></tr>
+    <tr><td><span class="tag blue">SATA SSD</span></td><td>~500 MB/s</td><td>보조 저장</td><td>SATA 포트</td></tr>
+    <tr><td><span class="tag">HDD</span></td><td>~150 MB/s</td><td>대용량 보관</td><td>SATA 포트</td></tr>
+  </table>
+</div>
+
+<h2>칩셋 등급 (Intel 기준)</h2>
+<div class="card">
+  <table>
+    <tr><th>등급</th><th>특징</th><th>오버클럭</th></tr>
+    <tr><td><span class="tag blue">Z 계열</span></td><td>고급형, 확장 슬롯 최다</td><td>✓ 지원</td></tr>
+    <tr><td><span class="tag blue">X 계열</span></td><td>HEDT 플랫폼 고급형</td><td>✓ 지원</td></tr>
+    <tr><td><span class="tag">B 계열</span></td><td>중급형, 가성비</td><td>✗ 불가</td></tr>
+    <tr><td><span class="tag">H / A 계열</span></td><td>보급형, 기능 제한</td><td>✗ 불가</td></tr>
+  </table>
+</div>
+
+<h2>클럭 & 오버클럭</h2>
+<div class="grid">
+  <div class="card">
+    <div class="card-title">클럭 (Clock)</div>
+    <div class="card-sub">CPU 동작 박자 신호</div>
+    <div class="note" style="color: #e2e8f0; font-size: 0.83rem; line-height: 1.6;">수십억 트랜지스터 동기화. 단위 GHz.<br>3.5GHz = 1초 35억 번 박자.<br>오케스트라 지휘자 역할.</div>
+  </div>
+  <div class="card">
+    <div class="card-title">오버클럭</div>
+    <div class="card-sub">기본 클럭 초과 설정</div>
+    <div class="note" style="color: #e2e8f0; font-size: 0.83rem; line-height: 1.6;">공식 권장 기능 아님. Z/X 칩셋만 허용.<br>장점: 성능 향상. 단점: 발열·불안정.<br>일반 사용자는 부스트 클럭으로 충분.</div>
+  </div>
+</div>
+
+<h2>서멀 구리스</h2>
+<div class="card">
+  <div class="card-sub" style="margin-bottom: 0.5rem;">CPU와 쿨러 사이 열 전도 페이스트 — 2~3년마다 교체</div>
+  <table>
+    <tr><th>종류</th><th>특징</th><th>적합 대상</th></tr>
+    <tr><td><span class="tag">산화아연·알루미늄</span></td><td>비전도성, 합선 없음</td><td>일반 사용자</td></tr>
+    <tr><td><span class="tag blue">은(Silver)</span></td><td>고열 전도, 전기 통함</td><td>오버클럭 사용자</td></tr>
+    <tr><td><span class="tag purple">액체 금속</span></td><td>최강 열 전도, 알루미늄 부식</td><td>극한 튜닝</td></tr>
+  </table>
+</div>
+
+</body>
+</html>
