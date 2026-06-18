@@ -140,6 +140,10 @@ Level: Glimpsed — 목적어를 주어 자리로 옮기는 기본 개념은 있
 
 Level: Glimpsed — a/an vs the 표면적 구분 가능. 기본 오용 탐지 됨(the Paris가 틀렸다는 것 앎). 단, "고유명사 앞에 the 붙음"이라고 잘못 기억 중(실제는 반대). the의 핵심 원리(화자·청자 공유 지식 = 한정성)를 언어화 못 함. 무관사(zero article) 규칙, 총칭 용법(generic use), a/an의 부정관사 원리 미노출.
 
+## 영어_5형식
+
+Level: Glimpsed — 4형식(SVOO) 구조와 간접/직접목적어 개념 인지. 5형식(SVOC) 미인지 — "We elected him president"에서 president를 2번째 목적어로 오인(실제는 목적격 보어). 목적격 보어와 2번째 목적어 구분 기준 미노출. 1~3형식 명시적 분류, 형식별 대표 동사 패턴 전반 미노출.
+
 ## 영어_가산_불가산_명사
 
 Level: Glimpsed — 대표 불가산 명사(information, money, furniture, advice) 인식. 가산·불가산 기본 구분 작동. 약점: few/little 구분 미적용(money에 few 선택). 미노출: much/many 구분, 가산·불가산 겸용 명사(experience/experiences, hair/hairs 등), 불가산 명사 수량화 표현(a piece of advice, a bit of information).
