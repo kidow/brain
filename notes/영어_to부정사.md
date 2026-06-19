@@ -106,3 +106,22 @@ to부정사 주어를 뒤로 밀고 앞에 가주어 it을 세움.
 why + to부정사는 불가 — why + 절 사용.
 - ❌ I don't know why to do this.
 - ✅ I don't know why I should do this.
+
+---
+
+## to부정사 부정·완료·수동 형태
+
+**① 부정**: not to + 동사원형 (not은 to 앞에)
+- She told me not to worry.
+- ❌ to not worry (비격식에서만 허용)
+
+**② 완료**: to have + p.p. (주절보다 더 이전 시점)
+- She seems to have known the truth.
+- I'm glad to meet you. (지금 만나서) vs I'm glad to have met you. (과거에 만났던 것이)
+
+**③ 수동**: to be + p.p.
+- This problem needs to be solved.
+- She wants to be invited to the party.
+
+**④ 완료수동**: to have been + p.p.
+- He seems to have been fired.
