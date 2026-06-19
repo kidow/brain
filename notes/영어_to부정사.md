@@ -29,3 +29,21 @@ to부정사 3가지 역할:
 - My dream is to travel the world. (주격 보어)
 
 핵심: 명사가 올 자리를 to부정사가 대신 채움.
+
+---
+
+## 가주어 it ~ to 구문
+
+to부정사 주어를 뒤로 밀고 앞에 가주어 it을 세움.
+- To learn English is important. → It is important to learn English.
+
+구조: It + be동사 + 형용사/명사 + to부정사
+
+의미상 주어 — 누가 하는지 명시: for + 사람 (to부정사 바로 앞)
+- It is easy for me to understand.
+- It is hard for children to sit still.
+
+사람 평가 형용사(kind/stupid/rude/clever/wise/foolish)일 때 → of + 사람
+- It is kind of you to help.
+- It is stupid of him to say that.
+나머지 → for + 사람.
