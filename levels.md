@@ -144,6 +144,10 @@ Level: Glimpsed — 목적어를 주어 자리로 옮기는 기본 개념은 있
 
 Level: Glimpsed — a/an vs the 표면적 구분 가능. 기본 오용 탐지 됨(the Paris가 틀렸다는 것 앎). 단, "고유명사 앞에 the 붙음"이라고 잘못 기억 중(실제는 반대). the의 핵심 원리(화자·청자 공유 지식 = 한정성)를 언어화 못 함. 무관사(zero article) 규칙, 총칭 용법(generic use), a/an의 부정관사 원리 미노출.
 
+## 영어_to부정사
+
+Level: Glimpsed — want + to부정사(동명사 불가) 인지. 명사적 용법(주어) 설명 가능. 약점: 형용사적 용법(homework to do) 미인지 — to를 전치사로 오인. 부사적 용법, 가주어 it ~ to, 의문사 + to부정사, not to 부정형, 독립부정사 전반 미노출.
+
 ## 영어_5형식
 
 Level: Glimpsed — 4형식(SVOO) 구조와 간접/직접목적어 개념 인지. 5형식(SVOC) 미인지 — "We elected him president"에서 president를 2번째 목적어로 오인(실제는 목적격 보어). 목적격 보어와 2번째 목적어 구분 기준 미노출. 1~3형식 명시적 분류, 형식별 대표 동사 패턴 전반 미노출.
