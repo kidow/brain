@@ -84,3 +84,25 @@ to부정사 주어를 뒤로 밀고 앞에 가주어 it을 세움.
 **④ 조건**: ~한다면
 - To hear him talk, you'd think he was an expert.
 - To be honest, I don't know.
+
+---
+
+## 의문사 + to부정사
+
+의문사 + to부정사 = 의문사 + 주어 + should + 동사원형
+
+| 표현 | 뜻 |
+|---|---|
+| what to do | 무엇을 해야 할지 |
+| how to do | 어떻게 해야 할지 |
+| where to go | 어디로 가야 할지 |
+| when to start | 언제 시작해야 할지 |
+| which to choose | 어느 것을 골라야 할지 |
+| who(m) to ask | 누구에게 물어야 할지 |
+
+- I don't know what to do. = I don't know what I should do.
+- Can you tell me how to use this?
+
+why + to부정사는 불가 — why + 절 사용.
+- ❌ I don't know why to do this.
+- ✅ I don't know why I should do this.
