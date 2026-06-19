@@ -125,3 +125,23 @@ why + to부정사는 불가 — why + 절 사용.
 
 **④ 완료수동**: to have been + p.p.
 - He seems to have been fired.
+
+---
+
+## 독립부정사 — 관용 표현
+
+문장 전체 수식. 주어와 무관하게 독립적으로 쓰임.
+
+| 표현 | 뜻 |
+|---|---|
+| To be honest | 솔직히 말하면 |
+| To tell the truth | 사실을 말하면 |
+| To be frank | 솔직히 말하면 |
+| To begin with | 우선, 먼저 |
+| To make matters worse | 설상가상으로 |
+| To make a long story short | 간단히 말하면 |
+| Needless to say | 말할 것도 없이 |
+| So to speak | 말하자면 |
+| Strange to say | 이상하게도 |
+
+분사구문 Dangling 규칙 적용 안 됨 — 굳어진 관용 표현이라 예외.
