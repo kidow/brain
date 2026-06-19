@@ -63,3 +63,24 @@ to부정사 주어를 뒤로 밀고 앞에 가주어 it을 세움.
 - She needs someone to talk to. (talk to someone)
 - a pen to write with (write with a pen)
 - a chair to sit on (sit on a chair)
+
+---
+
+## 부사적 용법 — 목적·결과·원인·조건
+
+**① 목적**: ~하기 위해 (가장 흔함)
+- I study to pass the exam.
+- = in order to / so as to (격식)
+
+**② 결과**: ~해서 결국 …했다
+- He grew up to be a doctor.
+- I woke up to find the house empty.
+
+**③ 원인·이유**: 감정 형용사 뒤 "~해서"
+- I'm glad to meet you.
+- She was surprised to hear the news.
+- 감정 형용사: happy, glad, surprised, sorry, disappointed, shocked
+
+**④ 조건**: ~한다면
+- To hear him talk, you'd think he was an expert.
+- To be honest, I don't know.
