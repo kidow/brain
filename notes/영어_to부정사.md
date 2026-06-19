@@ -47,3 +47,19 @@ to부정사 주어를 뒤로 밀고 앞에 가주어 it을 세움.
 - It is kind of you to help.
 - It is stupid of him to say that.
 나머지 → for + 사람.
+
+---
+
+## 형용사적 용법 — 명사 수식
+
+명사 바로 뒤에서 꾸밈. "~할, ~해야 할"
+- I have homework to do.
+- There is nothing to eat.
+- Give me a chance to explain.
+
+한국어는 명사 앞에서 꾸밈("해야 할 숙제"), 영어는 명사 뒤에서 꾸밈.
+
+전치사 주의: 원래 문장에 전치사가 있으면 반드시 남김.
+- She needs someone to talk to. (talk to someone)
+- a pen to write with (write with a pen)
+- a chair to sit on (sit on a chair)
