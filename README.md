@@ -92,6 +92,7 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [영어 분사구문](https://brain.dongwook.kim/notes/영어_분사구문)
 - [영어 시제 심화](https://brain.dongwook.kim/notes/영어_시제_심화)
 - [영어 가산/불가산 명사](https://brain.dongwook.kim/notes/영어_가산_불가산_명사)
+- [영어 비교급 최상급](https://brain.dongwook.kim/notes/영어_비교급_최상급)
 
 **Music**
 - [음악 이론 기초](https://brain.dongwook.kim/notes/음악_이론_기초)
@@ -133,7 +134,7 @@ Quick-reference sheets served live at [brain.dongwook.kim](https://brain.dongwoo
 - [독일어 명사 치트시트](https://brain.dongwook.kim/sheets/독일어_명사_치트시트.html)
 
 **French**
-- [프랑스어 명사 성](https://brain.dongwook.kim/sheets/french-nouns.html)
+- [프랑스어 명사 치트시트](https://brain.dongwook.kim/sheets/프랑스어_명사_치트시트.html)
 
 **Spanish**
 - [스페인어 알파벳 이름](https://brain.dongwook.kim/sheets/스페인어_알파벳_이름.html)
