@@ -57,6 +57,8 @@ brain/
 - [가타카나](https://brain.dongwook.kim/notes/가타카나)
 - [일본어 문자의 특징](https://brain.dongwook.kim/notes/일본어_문자의_특징)
 - [일본어 기본 한자](https://brain.dongwook.kim/notes/일본어_기본_한자)
+- [일본어 동사](https://brain.dongwook.kim/notes/일본어_동사)
+- [일본어 조사](https://brain.dongwook.kim/notes/일본어_조사)
 
 **언어 — 중국어**
 - [중국어 문자](https://brain.dongwook.kim/notes/중국어_문자)
@@ -67,13 +69,17 @@ brain/
 
 **언어 — 스페인어**
 - [스페인어 문자](https://brain.dongwook.kim/notes/스페인어_문자)
+- [스페인어 명사와 성](https://brain.dongwook.kim/notes/스페인어_명사와_성)
 
 **언어 — 독일어**
 - [독일어 문자](https://brain.dongwook.kim/notes/독일어_문자)
+- [독일어 명사](https://brain.dongwook.kim/notes/독일어_명사)
+- [독일어 동사](https://brain.dongwook.kim/notes/독일어_동사)
 
 **언어 — 프랑스어**
 - [프랑스어 문자](https://brain.dongwook.kim/notes/프랑스어_문자)
 - [프랑스어 명사 성](https://brain.dongwook.kim/notes/프랑스어_명사_성)
+- [프랑스어 동사 현재형](https://brain.dongwook.kim/notes/프랑스어_동사_현재형)
 
 **언어 — 아랍어**
 - [아랍어 문자](https://brain.dongwook.kim/notes/아랍어_문자)
@@ -91,6 +97,8 @@ brain/
 - [영어 접속사](https://brain.dongwook.kim/notes/영어_접속사)
 - [영어 분사구문](https://brain.dongwook.kim/notes/영어_분사구문)
 - [영어 시제 심화](https://brain.dongwook.kim/notes/영어_시제_심화)
+- [영어 5형식](https://brain.dongwook.kim/notes/영어_5형식)
+- [영어 to부정사](https://brain.dongwook.kim/notes/영어_to부정사)
 - [영어 가산/불가산 명사](https://brain.dongwook.kim/notes/영어_가산_불가산_명사)
 - [영어 비교급 최상급](https://brain.dongwook.kim/notes/영어_비교급_최상급)
 
@@ -104,6 +112,13 @@ brain/
 **경제/금융**
 - [회계학](https://brain.dongwook.kim/notes/회계학)
 - [세금 용어](https://brain.dongwook.kim/notes/세금_용어)
+- [경제학](https://brain.dongwook.kim/notes/경제학)
+- [투자 기초](https://brain.dongwook.kim/notes/투자_기초)
+- [부동산 기초](https://brain.dongwook.kim/notes/부동산_기초)
+
+**실생활**
+- [근로기준법](https://brain.dongwook.kim/notes/근로기준법)
+- [자동차 상식](https://brain.dongwook.kim/notes/자동차_상식)
 
 **과학**
 - [화학](https://brain.dongwook.kim/notes/화학)
