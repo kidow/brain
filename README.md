@@ -101,6 +101,7 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [영어 to부정사](https://brain.dongwook.kim/notes/영어_to부정사)
 - [영어 가산/불가산 명사](https://brain.dongwook.kim/notes/영어_가산_불가산_명사)
 - [영어 비교급 최상급](https://brain.dongwook.kim/notes/영어_비교급_최상급)
+- [영어 분사](https://brain.dongwook.kim/notes/영어_분사)
 
 **Music**
 - [음악 이론 기초](https://brain.dongwook.kim/notes/음악_이론_기초)
