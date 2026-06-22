@@ -120,6 +120,10 @@ Level: Blank — 원소, 화합물, 혼합물의 구분을 아직 설명할 수 
 
 ## 영어_관사
 
+## 영어_분사
+
+Level: Glimpsed — 현재분사(-ing)와 과거분사(-ed)의 형용사적 용법 인지. boring vs bored(능동/수동) 구분 정확. 분사구문(부사구 역할)은 미노출 — 접속사로 혼동. 감정동사 분사 목록, 분사의 보어 역할 전반 미노출.
+
 ## 영어_분사구문
 
 Level: Blank — 분사구문 자체 미노출. "Being tired, I went home."과 "Because I was tired, I went home."의 관계 설명 불가. 현재분사·과거분사 구분, 부사절 압축 원리, 독립 분사구문 전혀 미노출.
