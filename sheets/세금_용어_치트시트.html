@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#ffffff">
+  <title>세금 용어 치트시트</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #0f172a;
+      color: #e2e8f0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 14px;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+    }
+    h1 { font-size: 1.5rem; color: #60a5fa; margin-bottom: 0.25rem; }
+    .subtitle { color: #94a3b8; margin-bottom: 1.5rem; font-size: 0.85rem; }
+    h2 { font-size: 1rem; color: #60a5fa; margin: 1.5rem 0 0.75rem; border-left: 3px solid #60a5fa; padding-left: 0.6rem; }
+    .note { background: #1e293b; border: 1px solid #334155; border-radius: 6px; padding: 0.6rem 0.8rem; margin-bottom: 0.75rem; font-size: 0.85rem; color: #94a3b8; }
+    .note strong { color: #e2e8f0; }
+    table { width: 100%; border-collapse: collapse; margin-bottom: 1rem; font-size: 0.85rem; }
+    th { background: #1e293b; color: #94a3b8; font-weight: 600; text-align: left; padding: 0.5rem 0.6rem; border-bottom: 1px solid #334155; }
+    td { padding: 0.45rem 0.6rem; border-bottom: 1px solid #1e293b; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    .flow { display: flex; align-items: center; flex-wrap: wrap; gap: 0.3rem; margin-bottom: 0.75rem; }
+    .flow-box { background: #1e293b; border: 1px solid #334155; border-radius: 6px; padding: 0.4rem 0.6rem; font-size: 0.82rem; }
+    .flow-box.highlight { border-color: #60a5fa; color: #60a5fa; }
+    .flow-arrow { color: #94a3b8; }
+    .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-bottom: 0.75rem; }
+    .card { background: #1e293b; border: 1px solid #334155; border-radius: 6px; padding: 0.75rem; }
+    .card-title { font-size: 0.75rem; color: #94a3b8; margin-bottom: 0.4rem; text-transform: uppercase; letter-spacing: 0.05em; }
+    .term { font-weight: 600; color: #e2e8f0; }
+    .section { margin-bottom: 1.5rem; }
+    .tag { display: inline-block; border-radius: 4px; padding: 0.1rem 0.4rem; font-size: 0.75rem; }
+    .tag-national { background: #1e3a5f; color: #60a5fa; border: 1px solid #3b82f6; }
+    .tag-local { background: #1a2e1a; color: #4ade80; border: 1px solid #22c55e; }
+    .pct { color: #60a5fa; font-weight: 700; }
+    @media (max-width: 600px) { body { padding: 1rem; } .grid2 { grid-template-columns: 1fr; } }
+    @media print { body { padding: 0.5cm; } }
+  </style>
+</head>
+<body>
+  <h1>세금 용어 치트시트</h1>
+  <p class="subtitle">강제성 · 반대급부 없음 · 조세법률주의</p>
+
+  <div class="section">
+    <h2>연말정산 흐름</h2>
+    <div class="flow">
+      <div class="flow-box">총급여</div>
+      <div class="flow-arrow">−</div>
+      <div class="flow-box">근로소득공제</div>
+      <div class="flow-arrow">=</div>
+      <div class="flow-box">근로소득금액</div>
+      <div class="flow-arrow">−</div>
+      <div class="flow-box">소득공제</div>
+      <div class="flow-arrow">=</div>
+      <div class="flow-box highlight">과세표준</div>
+      <div class="flow-arrow">×</div>
+      <div class="flow-box">세율</div>
+      <div class="flow-arrow">=</div>
+      <div class="flow-box">산출세액</div>
+      <div class="flow-arrow">−</div>
+      <div class="flow-box">세액공제</div>
+      <div class="flow-arrow">=</div>
+      <div class="flow-box">결정세액</div>
+      <div class="flow-arrow">−</div>
+      <div class="flow-box">기납부세액</div>
+      <div class="flow-arrow">=</div>
+      <div class="flow-box highlight">환급 or 추가납부</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>핵심 용어</h2>
+    <table>
+      <tr><th>용어</th><th>설명</th></tr>
+      <tr><td><span class="term">과세표준</span></td><td>세금 계산 기준 금액. 소득 − 공제. <em>세금 = 과세표준 × 세율</em></td></tr>
+      <tr><td><span class="term">소득공제</span></td><td>과세표준을 낮추는 공제. (세금 자체가 아님)</td></tr>
+      <tr><td><span class="term">세액공제</span></td><td>산출세액에서 직접 차감. 소득공제보다 강력.</td></tr>
+      <tr><td><span class="term">원천징수</span></td><td>회사가 세금 미리 떼고 나머지 지급. 직원은 간접 납부.</td></tr>
+      <tr><td><span class="term">한계세율</span></td><td>내 소득이 닿은 마지막 구간 세율.</td></tr>
+      <tr><td><span class="term">실효세율</span></td><td>실제 낸 세금 ÷ 총 소득. 한계세율보다 항상 낮음.</td></tr>
+      <tr><td><span class="term">누진세율</span></td><td>소득 높을수록 세율 높아짐. 구간별 초과분에만 적용.</td></tr>
+      <tr><td><span class="term">비례세율</span></td><td>소득 무관 동일 비율. 예: 부가가치세 10%</td></tr>
+      <tr><td><span class="term">직접세</span></td><td>납세자 = 담세자. 소득세, 법인세.</td></tr>
+      <tr><td><span class="term">간접세</span></td><td>납세자 ≠ 담세자 (소비자 부담). 부가세, 개별소비세.</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>세금 종류 한눈에</h2>
+    <table>
+      <tr><th>세금</th><th>구분</th><th>대상</th><th>세율/특징</th></tr>
+      <tr><td>소득세</td><td><span class="tag tag-national">국세</span></td><td>개인 소득</td><td>6~45% 누진</td></tr>
+      <tr><td>법인세</td><td><span class="tag tag-national">국세</span></td><td>법인 순이익</td><td>9~24% 누진</td></tr>
+      <tr><td>부가가치세</td><td><span class="tag tag-national">국세</span></td><td>물건·서비스</td><td>10% 고정, 간접세</td></tr>
+      <tr><td>종합부동산세</td><td><span class="tag tag-national">국세</span></td><td>고가·다주택</td><td>12월 납부</td></tr>
+      <tr><td>상속·증여세</td><td><span class="tag tag-national">국세</span></td><td>상속/생전 증여</td><td>10~50% 누진</td></tr>
+      <tr><td>재산세</td><td><span class="tag tag-local">지방세</span></td><td>모든 부동산</td><td>7월·9월 고지</td></tr>
+      <tr><td>취득세</td><td><span class="tag tag-local">지방세</span></td><td>부동산·차량 취득</td><td>1~12% (다주택 중과)</td></tr>
+      <tr><td>지방소득세</td><td><span class="tag tag-local">지방세</span></td><td>소득세·법인세의 10%</td><td>프리랜서 3.3% = 3%+0.3%</td></tr>
+      <tr><td>양도소득세</td><td><span class="tag tag-national">국세</span></td><td>자산 매도 차익</td><td>장기보유 공제, 1주택 2년↑ 비과세</td></tr>
+      <tr><td>개별소비세</td><td><span class="tag tag-national">국세</span></td><td>사치품·기호품</td><td>승용차 10%, 귀금속 20%</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>소득세 종류 비교</h2>
+    <table>
+      <tr><th>구분</th><th>대상</th><th>납부 방식</th><th>정산 시기</th></tr>
+      <tr><td>근로소득</td><td>직장인</td><td>원천징수</td><td>연말정산 (다음해 1~2월)</td></tr>
+      <tr><td>사업소득</td><td>프리랜서·자영업자</td><td>원천징수 3.3%</td><td>5월 종합소득세 신고</td></tr>
+    </table>
+    <div class="note">직장인도 부업 수입·이자+배당 2,000만 초과·투잡 있으면 <strong>5월 종합소득세</strong> 신고 필요</div>
+  </div>
+
+  <div class="section">
+    <h2>부가가치세 구조</h2>
+    <div class="note">
+      <strong>최종 납부 = 매출세액 − 매입세액</strong><br>
+      예: 밥값 11,000원 = 음식 10,000원 + 부가세 1,000원 → 식당이 1,000원 국가에 납부<br>
+      단, 식당이 식재료 살 때 낸 부가세(매입세액)는 차감 가능
+    </div>
+    <table>
+      <tr><th>사업자 유형</th><th>조건</th><th>특징</th></tr>
+      <tr><td>일반과세자</td><td>연 매출 1억 4,000만 이상</td><td>세금계산서 발행, 매입세액공제</td></tr>
+      <tr><td>간이과세자</td><td>연 매출 1억 4,000만 미만</td><td>단순 계산, 세금계산서 제한</td></tr>
+      <tr><td>면세사업자</td><td>의료·교육·금융·농수산물</td><td>부가세 없음, 매입세액공제도 불가</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>절세 vs 조세회피 vs 탈세</h2>
+    <table>
+      <tr><th>구분</th><th>방법</th><th>합법</th><th>결과</th></tr>
+      <tr><td><strong>절세</strong></td><td>공제·감면 등 허용된 방법</td><td style="color:#4ade80;">합법</td><td>문제없음</td></tr>
+      <tr><td><strong>조세회피</strong></td><td>법 허점 이용, 입법 취지 반함</td><td style="color:#fbbf24;">회색</td><td>추징 가능 (형사처벌 없음)</td></tr>
+      <tr><td><strong>탈세</strong></td><td>소득 은닉·허위 신고·서류 위조</td><td style="color:#f87171;">불법</td><td>형사처벌 + 가산세</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>가산세</h2>
+    <table>
+      <tr><th>종류</th><th>조건</th><th>세율</th></tr>
+      <tr><td>무신고가산세</td><td>신고 미이행</td><td>납부세액의 <span class="pct">20%</span></td></tr>
+      <tr><td>과소신고가산세</td><td>적게 신고</td><td>과소신고분의 <span class="pct">10%</span></td></tr>
+      <tr><td>납부지연가산세</td><td>납부 지연</td><td>미납세액 × 일수 × <span class="pct">0.022%/일</span></td></tr>
+    </table>
+    <div class="note"><strong>돈 없어도 신고 먼저</strong> → 무신고가산세(20%) 면제, 납부지연가산세만 적용</div>
+  </div>
+
+  <div class="section">
+    <h2>주요 공제 항목</h2>
+    <div class="grid2">
+      <div class="card">
+        <div class="card-title">소득공제 (과세표준 ↓)</div>
+        기본공제: 부양가족 1인당 150만<br>
+        신용카드: 총급여 25% 초과분<br>
+        국민연금·건강보험 전액<br>
+        주택청약저축 40% (무주택자)
+      </div>
+      <div class="card">
+        <div class="card-title">세액공제 (세금 직접 ↓)</div>
+        자녀세액공제<br>
+        연금저축·IRP<br>
+        월세 세액공제<br>
+        의료비·교육비 일부
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>4대보험 (세금 아님)</h2>
+    <table>
+      <tr><th>항목</th><th>근로자</th><th>사업주</th></tr>
+      <tr><td>국민연금</td><td class="pct">4.5%</td><td>4.5%</td></tr>
+      <tr><td>건강보험</td><td class="pct">3.545%</td><td>3.545%</td></tr>
+      <tr><td>장기요양보험</td><td colspan="2" style="color:#94a3b8;">건강보험료의 12.95% (절반씩)</td></tr>
+      <tr><td>고용보험</td><td class="pct">0.9%</td><td>0.9%+추가</td></tr>
+      <tr><td>산재보험</td><td>없음</td><td class="pct">전액 부담</td></tr>
+    </table>
+    <div class="note">세금과 달리 <strong>반대급부 있음</strong> — 납부자 본인에게 직접 돌아옴 (연금·의료비·실업급여 등)</div>
+  </div>
+
+  <div class="section">
+    <h2>비과세 vs 과세이연</h2>
+    <div class="grid2">
+      <div class="card">
+        <div class="card-title">비과세 — 세금 자체 없음</div>
+        ISA 계좌 수익<br>
+        10년 이상 저축성 보험 차익<br>
+        1세대 1주택 2년 보유·12억↓
+      </div>
+      <div class="card">
+        <div class="card-title">과세이연 — 지금 말고 나중에</div>
+        연금저축·IRP<br>
+        납입 시 세액공제 → 수령 시 과세<br>
+        <span style="color:#94a3b8;font-size:0.8rem;">중간 복리 효과가 나중 세금보다 큼</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>경정청구 vs 수정신고</h2>
+    <table>
+      <tr><th>구분</th><th>상황</th><th>기한</th></tr>
+      <tr><td><strong>경정청구</strong></td><td>세금 많이 낸 경우 → 돌려달라 요청</td><td>법정신고기한으로부터 5년</td></tr>
+      <tr><td><strong>수정신고</strong></td><td>세금 적게 낸 경우 → 자진 추가 납부</td><td>가산세 감면 혜택</td></tr>
+    </table>
+    <div class="note">돌려받을 세금도 청구 안 하면 소멸. 공제 누락 발견 시 5년 이내 적극 청구.</div>
+  </div>
+</body>
+</html>

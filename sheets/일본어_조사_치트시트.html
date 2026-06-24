@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#ffffff">
+  <title>일본어 조사 치트시트</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #0f172a;
+      color: #e2e8f0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 14px;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+    }
+    h1 { font-size: 1.5rem; color: #60a5fa; margin-bottom: 0.25rem; }
+    .subtitle { color: #94a3b8; margin-bottom: 1.5rem; font-size: 0.85rem; }
+    h2 { font-size: 1rem; color: #60a5fa; margin: 1.5rem 0 0.75rem; border-left: 3px solid #60a5fa; padding-left: 0.6rem; }
+    .note { background: #1e293b; border: 1px solid #334155; border-radius: 6px; padding: 0.6rem 0.8rem; margin-bottom: 0.75rem; font-size: 0.85rem; color: #94a3b8; }
+    .note strong { color: #e2e8f0; }
+    table { width: 100%; border-collapse: collapse; margin-bottom: 1rem; font-size: 0.85rem; }
+    th { background: #1e293b; color: #94a3b8; font-weight: 600; text-align: left; padding: 0.5rem 0.6rem; border-bottom: 1px solid #334155; }
+    td { padding: 0.45rem 0.6rem; border-bottom: 1px solid #1e293b; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    .jp { font-size: 1.3rem; color: #60a5fa; font-weight: 700; }
+    .particle-card { background: #1e293b; border: 1px solid #334155; border-radius: 8px; padding: 0.8rem 1rem; margin-bottom: 0.75rem; }
+    .particle-header { display: flex; align-items: baseline; gap: 0.75rem; margin-bottom: 0.5rem; }
+    .particle-symbol { font-size: 1.6rem; color: #60a5fa; font-weight: 700; }
+    .particle-rom { color: #94a3b8; font-size: 0.85rem; }
+    .particle-role { color: #e2e8f0; font-size: 0.9rem; }
+    .ex { color: #94a3b8; font-size: 0.82rem; margin-top: 0.15rem; }
+    .compare { background: #0f172a; border: 1px solid #334155; border-radius: 4px; padding: 0.4rem 0.6rem; margin-top: 0.4rem; font-size: 0.82rem; }
+    .section { margin-bottom: 1.5rem; }
+    .tag { display: inline-block; background: #0f172a; border: 1px solid #334155; border-radius: 4px; padding: 0.1rem 0.4rem; font-size: 0.75rem; color: #94a3b8; }
+    @media (max-width: 600px) { body { padding: 1rem; } }
+    @media print { body { padding: 0.5cm; } }
+  </style>
+</head>
+<body>
+  <h1>일본어 조사 치트시트</h1>
+  <p class="subtitle">는·이·을·에·에서·와·의·도·까 — 8개 핵심 조사</p>
+
+  <div class="section">
+    <h2>핵심 조사 발음 예외 3개</h2>
+    <table>
+      <tr><th>조사</th><th>표기 발음</th><th>실제 발음</th></tr>
+      <tr><td><span class="jp">は</span></td><td>ha (하)</td><td><strong>wa (와)</strong></td></tr>
+      <tr><td><span class="jp">へ</span></td><td>he (헤)</td><td><strong>e (에)</strong></td></tr>
+      <tr><td><span class="jp">を</span></td><td>wo (워)</td><td><strong>o (오)</strong></td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>각 조사 상세</h2>
+
+    <div class="particle-card">
+      <div class="particle-header">
+        <span class="particle-symbol">は</span>
+        <span class="particle-rom">wa</span>
+        <span class="particle-role">화제 표지 — 은/는</span>
+      </div>
+      <div class="ex">田中さんは先生です。 다나카 씨는 선생님입니다.</div>
+      <div class="ex">東京は大きいです。 도쿄는 큽니다.</div>
+      <div class="compare">
+        <strong>は vs が:</strong> は = 화제("~에 대해선"), が = 주체("~이/가 한다")<br>
+        田中さん<strong>は</strong>来ました。→ "다나카 씨는요, 왔어요." (화제)<br>
+        田中さん<strong>が</strong>来ました。→ "다나카 씨가 왔어요!" (누가 왔냐 답)<br>
+        <span style="color:#94a3b8;">공식: 모르는 것 → が / 알려진 것 이야기 → は</span>
+      </div>
+    </div>
+
+    <div class="particle-card">
+      <div class="particle-header">
+        <span class="particle-symbol">が</span>
+        <span class="particle-rom">ga</span>
+        <span class="particle-role">주어 표지 — 이/가</span>
+      </div>
+      <div class="ex">猫が魚を食べます。 고양이가 생선을 먹습니다.</div>
+      <div class="compare">초점 = が 앞 명사. "누가 했냐"를 강조할 때.</div>
+    </div>
+
+    <div class="particle-card">
+      <div class="particle-header">
+        <span class="particle-symbol">を</span>
+        <span class="particle-rom">o</span>
+        <span class="particle-role">목적어 표지 — 을/를</span>
+      </div>
+      <div class="ex">コーヒーを飲みます。 커피를 마십니다.</div>
+      <div class="ex">日本語を勉強します。 일본어를 공부합니다.</div>
+    </div>
+
+    <div class="particle-card">
+      <div class="particle-header">
+        <span class="particle-symbol">に</span>
+        <span class="particle-rom">ni</span>
+        <span class="particle-role">방향·위치·시간</span>
+      </div>
+      <div class="ex">① 방향: 学校に行きます。 학교에 갑니다.</div>
+      <div class="ex">② 위치·존재 (いる/ある와): 家にいます。 집에 있습니다.</div>
+      <div class="ex">③ 시간: 7時に起きます。 7시에 일어납니다.</div>
+      <div class="compare">
+        <strong>に vs で:</strong><br>
+        に = 존재/도착/시간 → 学校に<strong>います</strong> (학교에 있다)<br>
+        で = 행위 장소 → 学校で<strong>勉強します</strong> (학교에서 공부한다)
+      </div>
+    </div>
+
+    <div class="particle-card">
+      <div class="particle-header">
+        <span class="particle-symbol">で</span>
+        <span class="particle-rom">de</span>
+        <span class="particle-role">행위 장소·수단</span>
+      </div>
+      <div class="ex">① 행위 장소: 図書館で勉強します。 도서관에서 공부합니다.</div>
+      <div class="ex">② 수단·도구: 電車で行きます。 전철로 갑니다. / 箸で食べます。 젓가락으로 먹습니다.</div>
+    </div>
+
+    <div class="particle-card">
+      <div class="particle-header">
+        <span class="particle-symbol">と</span>
+        <span class="particle-rom">to</span>
+        <span class="particle-role">함께·열거</span>
+      </div>
+      <div class="ex">① 함께: 友達と映画を見ます。 친구와 영화를 봅니다.</div>
+      <div class="ex">② 열거(전부): りんごとバナナを買いました。 사과와 바나나를 샀습니다.</div>
+      <div class="compare">
+        <strong>に vs と:</strong><br>
+        に = 일방향 → 先生に聞く (선생님께 묻다)<br>
+        と = 쌍방향 → 先生と話す (선생님과 이야기하다)
+      </div>
+    </div>
+
+    <div class="particle-card">
+      <div class="particle-header">
+        <span class="particle-symbol">の</span>
+        <span class="particle-rom">no</span>
+        <span class="particle-role">소유·수식</span>
+      </div>
+      <div class="ex">① 소유: 私の本。나의 책. / 田中さんのかばん。다나카 씨의 가방.</div>
+      <div class="ex">② 명사 수식: 日本語の先生。일본어 선생님.</div>
+      <div class="ex">③ 소유 대명사: これは母のです。이건 어머니 것입니다.</div>
+      <div class="compare">연속 사용 가능: 私の友達の本 → 나의 친구의 책</div>
+    </div>
+
+    <div class="particle-card">
+      <div class="particle-header">
+        <span class="particle-symbol">も</span>
+        <span class="particle-rom">mo</span>
+        <span class="particle-role">포함·역시 — 도</span>
+      </div>
+      <div class="ex">私も学生です。나도 학생입니다.</div>
+      <div class="ex">コーヒーも紅茶も好きです。커피도 홍차도 좋아합니다.</div>
+      <div class="compare">
+        <strong>부정문:</strong> 의문사 + も + 부정 = "아무~도 ~않다"<br>
+        何も食べません。아무것도 먹지 않습니다.<br>
+        どこにも行きません。아무 데도 가지 않습니다.
+      </div>
+    </div>
+
+    <div class="particle-card">
+      <div class="particle-header">
+        <span class="particle-symbol">か</span>
+        <span class="particle-rom">ka</span>
+        <span class="particle-role">의문·선택</span>
+      </div>
+      <div class="ex">これは本ですか。이것은 책입니까?</div>
+      <div class="compare">
+        <strong>と vs か:</strong><br>
+        りんごとバナナ → 사과와 바나나 (둘 다)<br>
+        りんごかバナナ → 사과나 바나나 (하나 선택)
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>빠른 비교표</h2>
+    <table>
+      <tr><th>조사</th><th>한국어</th><th>핵심 역할</th></tr>
+      <tr><td><span class="jp">は</span> wa</td><td>은/는</td><td>화제 표지 (초점 = 서술어)</td></tr>
+      <tr><td><span class="jp">が</span> ga</td><td>이/가</td><td>주어 표지 (초점 = 주어)</td></tr>
+      <tr><td><span class="jp">を</span> o</td><td>을/를</td><td>목적어 표지</td></tr>
+      <tr><td><span class="jp">に</span> ni</td><td>에 (존재·방향·시간)</td><td>도착점·존재 장소·시간</td></tr>
+      <tr><td><span class="jp">で</span> de</td><td>에서·으로</td><td>행위 장소·수단</td></tr>
+      <tr><td><span class="jp">と</span> to</td><td>와/과</td><td>함께(쌍방향)·열거</td></tr>
+      <tr><td><span class="jp">の</span> no</td><td>의</td><td>소유·명사 수식</td></tr>
+      <tr><td><span class="jp">も</span> mo</td><td>도</td><td>포함·역시</td></tr>
+      <tr><td><span class="jp">か</span> ka</td><td>까 (의문)</td><td>의문문·선택</td></tr>
+    </table>
+  </div>
+</body>
+</html>

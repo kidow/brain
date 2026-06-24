@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#ffffff">
+  <title>프랑스어 동사 현재형 치트시트</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #0f172a;
+      color: #e2e8f0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 14px;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+    }
+    h1 { font-size: 1.5rem; color: #60a5fa; margin-bottom: 0.25rem; }
+    .subtitle { color: #94a3b8; margin-bottom: 1.5rem; font-size: 0.85rem; }
+    h2 { font-size: 1rem; color: #60a5fa; margin: 1.5rem 0 0.75rem; border-left: 3px solid #60a5fa; padding-left: 0.6rem; }
+    .note { background: #1e293b; border: 1px solid #334155; border-radius: 6px; padding: 0.6rem 0.8rem; margin-bottom: 0.75rem; font-size: 0.85rem; color: #94a3b8; }
+    .note strong { color: #e2e8f0; }
+    table { width: 100%; border-collapse: collapse; margin-bottom: 1rem; font-size: 0.85rem; }
+    th { background: #1e293b; color: #94a3b8; font-weight: 600; text-align: left; padding: 0.5rem 0.6rem; border-bottom: 1px solid #334155; }
+    td { padding: 0.45rem 0.6rem; border-bottom: 1px solid #1e293b; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    .conj-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.6rem; margin-bottom: 1rem; }
+    .conj-card { background: #1e293b; border: 1px solid #334155; border-radius: 8px; padding: 0.75rem; }
+    .conj-card h3 { font-size: 0.85rem; color: #60a5fa; margin-bottom: 0.6rem; border-bottom: 1px solid #334155; padding-bottom: 0.3rem; }
+    .conj-row { display: flex; justify-content: space-between; padding: 0.2rem 0; font-size: 0.82rem; }
+    .conj-subj { color: #94a3b8; }
+    .conj-verb { color: #e2e8f0; font-weight: 500; }
+    .conj-pron { color: #94a3b8; font-size: 0.75rem; }
+    .section { margin-bottom: 1.5rem; }
+    code { background: #1e293b; padding: 0.1rem 0.3rem; border-radius: 3px; font-size: 0.85em; color: #60a5fa; }
+    @media (max-width: 600px) { body { padding: 1rem; } .conj-grid { grid-template-columns: 1fr; } }
+    @media print { body { padding: 0.5cm; } }
+  </style>
+</head>
+<body>
+  <h1>프랑스어 동사 현재형 치트시트</h1>
+  <p class="subtitle">주어마다 어미 다름 · 주어 생략 불가 · -er/-ir/-re 규칙동사 + 불규칙</p>
+
+  <div class="section">
+    <h2>핵심 원리</h2>
+    <div class="note">
+      <strong>왜 주어 생략 불가?</strong><br>
+      parle / parles / parlent 전부 <strong>/파흘/</strong>로 동일 발음 → 어미로 주어 구분 불가 → 주어 필수.<br>
+      한국어는 주어 달라도 어미 같음 ↔ 프랑스어는 주어 바뀌면 어미도 바뀜.
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>규칙동사 3그룹</h2>
+    <div class="conj-grid">
+      <div class="conj-card">
+        <h3>-er 동사 (parler, 말하다)</h3>
+        <div class="conj-row"><span class="conj-subj">je</span><span class="conj-verb">parle</span><span class="conj-pron">/파흘/</span></div>
+        <div class="conj-row"><span class="conj-subj">tu</span><span class="conj-verb">parles</span><span class="conj-pron">/파흘/</span></div>
+        <div class="conj-row"><span class="conj-subj">il/elle</span><span class="conj-verb">parle</span><span class="conj-pron">/파흘/</span></div>
+        <div class="conj-row"><span class="conj-subj">nous</span><span class="conj-verb">parlons</span><span class="conj-pron">/파흘롱/</span></div>
+        <div class="conj-row"><span class="conj-subj">vous</span><span class="conj-verb">parlez</span><span class="conj-pron">/파흘레/</span></div>
+        <div class="conj-row"><span class="conj-subj">ils/elles</span><span class="conj-verb">parlent</span><span class="conj-pron">/파흘/</span></div>
+      </div>
+      <div class="conj-card">
+        <h3>-ir 동사 (finir, 끝내다)</h3>
+        <div class="conj-row"><span class="conj-subj">je</span><span class="conj-verb">finis</span></div>
+        <div class="conj-row"><span class="conj-subj">tu</span><span class="conj-verb">finis</span></div>
+        <div class="conj-row"><span class="conj-subj">il/elle</span><span class="conj-verb">finit</span></div>
+        <div class="conj-row"><span class="conj-subj">nous</span><span class="conj-verb">finissons</span></div>
+        <div class="conj-row"><span class="conj-subj">vous</span><span class="conj-verb">finissez</span></div>
+        <div class="conj-row"><span class="conj-subj">ils/elles</span><span class="conj-verb">finissent</span></div>
+      </div>
+      <div class="conj-card">
+        <h3>-re 동사 (vendre, 팔다)</h3>
+        <div class="conj-row"><span class="conj-subj">je</span><span class="conj-verb">vends</span></div>
+        <div class="conj-row"><span class="conj-subj">tu</span><span class="conj-verb">vends</span></div>
+        <div class="conj-row"><span class="conj-subj">il/elle</span><span class="conj-verb">vend</span></div>
+        <div class="conj-row"><span class="conj-subj">nous</span><span class="conj-verb">vendons</span></div>
+        <div class="conj-row"><span class="conj-subj">vous</span><span class="conj-verb">vendez</span></div>
+        <div class="conj-row"><span class="conj-subj">ils/elles</span><span class="conj-verb">vendent</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>être (이다/있다) — 완전 불규칙</h2>
+    <div class="conj-grid">
+      <div class="conj-card">
+        <h3>être 활용</h3>
+        <div class="conj-row"><span class="conj-subj">je</span><span class="conj-verb">suis</span><span class="conj-pron">/쒸이/</span></div>
+        <div class="conj-row"><span class="conj-subj">tu</span><span class="conj-verb">es</span><span class="conj-pron">/에/</span></div>
+        <div class="conj-row"><span class="conj-subj">il/elle</span><span class="conj-verb">est</span><span class="conj-pron">/에/</span></div>
+        <div class="conj-row"><span class="conj-subj">nous</span><span class="conj-verb">sommes</span><span class="conj-pron">/솜/</span></div>
+        <div class="conj-row"><span class="conj-subj">vous</span><span class="conj-verb">êtes</span><span class="conj-pron">/에트/</span></div>
+        <div class="conj-row"><span class="conj-subj">ils/elles</span><span class="conj-verb">sont</span><span class="conj-pron">/송/</span></div>
+      </div>
+      <div class="conj-card" style="grid-column: span 2;">
+        <h3>être 용법</h3>
+        <table style="margin:0;">
+          <tr><td>형용사·직업·국적 연결</td><td>Je suis étudiant. / Il est grand.</td></tr>
+          <tr><td>출신</td><td>Elle est de Paris.</td></tr>
+          <tr><td>국적·언어</td><td>Nous sommes français.</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>avoir (가지다) — 불규칙</h2>
+    <div class="conj-grid">
+      <div class="conj-card">
+        <h3>avoir 활용</h3>
+        <div class="conj-row"><span class="conj-subj">je</span><span class="conj-verb">ai</span><span class="conj-pron">/에/</span></div>
+        <div class="conj-row"><span class="conj-subj">tu</span><span class="conj-verb">as</span><span class="conj-pron">/아/</span></div>
+        <div class="conj-row"><span class="conj-subj">il/elle</span><span class="conj-verb">a</span><span class="conj-pron">/아/</span></div>
+        <div class="conj-row"><span class="conj-subj">nous</span><span class="conj-verb">avons</span><span class="conj-pron">/아봉/</span></div>
+        <div class="conj-row"><span class="conj-subj">vous</span><span class="conj-verb">avez</span><span class="conj-pron">/아베/</span></div>
+        <div class="conj-row"><span class="conj-subj">ils/elles</span><span class="conj-verb">ont</span><span class="conj-pron">/옹/</span></div>
+      </div>
+      <div class="conj-card" style="grid-column: span 2;">
+        <h3>avoir 특수 용법</h3>
+        <table style="margin:0;">
+          <tr><td>소유</td><td>J'ai un chat. 고양이가 있다.</td></tr>
+          <tr><td>나이 <em>(영어 am ≠)</em></td><td>J'ai 25 ans. 나는 25살이다.</td></tr>
+          <tr><td>avoir faim</td><td>배고프다</td></tr>
+          <tr><td>avoir soif</td><td>목마르다</td></tr>
+          <tr><td>avoir peur</td><td>무섭다</td></tr>
+          <tr><td>avoir chaud/froid</td><td>덥다/춥다</td></tr>
+        </table>
+      </div>
+    </div>
+    <div class="note"><strong>être vs avoir:</strong> être = 상태·정체성 / avoir = 소유·보유<br>
+    Il est fatigué. (그는 피곤한 상태다) vs Il a de la fatigue. (피로감을 가지다)</div>
+  </div>
+
+  <div class="section">
+    <h2>자주 쓰는 불규칙 동사</h2>
+    <table>
+      <tr><th>동사</th><th>뜻</th><th>je</th><th>tu</th><th>il/elle</th><th>nous</th><th>vous</th><th>ils/elles</th></tr>
+      <tr><td>aller</td><td>가다</td><td>vais</td><td>vas</td><td>va</td><td>allons</td><td>allez</td><td>vont</td></tr>
+      <tr><td>faire</td><td>하다·만들다</td><td>fais</td><td>fais</td><td>fait</td><td>faisons</td><td>faites</td><td>font</td></tr>
+      <tr><td>venir</td><td>오다</td><td>viens</td><td>viens</td><td>vient</td><td>venons</td><td>venez</td><td>viennent</td></tr>
+      <tr><td>voir</td><td>보다</td><td>vois</td><td>vois</td><td>voit</td><td>voyons</td><td>voyez</td><td>voient</td></tr>
+      <tr><td>pouvoir</td><td>~할 수 있다</td><td>peux</td><td>peux</td><td>peut</td><td>pouvons</td><td>pouvez</td><td>peuvent</td></tr>
+      <tr><td>vouloir</td><td>원하다</td><td>veux</td><td>veux</td><td>veut</td><td>voulons</td><td>voulez</td><td>veulent</td></tr>
+      <tr><td>savoir</td><td>알다</td><td>sais</td><td>sais</td><td>sait</td><td>savons</td><td>savez</td><td>savent</td></tr>
+      <tr><td>prendre</td><td>잡다·타다</td><td>prends</td><td>prends</td><td>prend</td><td>prenons</td><td>prenez</td><td>prennent</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>-er 동사 철자 변화 주의</h2>
+    <table>
+      <tr><th>조건</th><th>변화</th><th>예</th></tr>
+      <tr><td>-ger 동사 (nous)</td><td>e 추가 (발음 유지)</td><td>manger → nous mangeons</td></tr>
+      <tr><td>-cer 동사 (nous)</td><td>c → ç</td><td>commencer → nous commençons</td></tr>
+      <tr><td>e+자음+er (je, tu, il, ils)</td><td>è로 변환</td><td>acheter → j'achète</td></tr>
+      <tr><td>-yer 동사</td><td>y → i (je, tu, il, ils)</td><td>payer → je paie</td></tr>
+    </table>
+  </div>
+</body>
+</html>

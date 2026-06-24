@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#ffffff">
+  <title>영어 5형식 치트시트</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #0f172a;
+      color: #e2e8f0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 14px;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+    }
+    h1 { font-size: 1.5rem; color: #60a5fa; margin-bottom: 0.25rem; }
+    .subtitle { color: #94a3b8; margin-bottom: 1.5rem; font-size: 0.85rem; }
+    h2 { font-size: 1rem; color: #60a5fa; margin: 1.5rem 0 0.75rem; border-left: 3px solid #60a5fa; padding-left: 0.6rem; }
+    .note { background: #1e293b; border: 1px solid #334155; border-radius: 6px; padding: 0.6rem 0.8rem; margin-bottom: 0.75rem; font-size: 0.85rem; color: #94a3b8; }
+    .note strong { color: #e2e8f0; }
+    table { width: 100%; border-collapse: collapse; margin-bottom: 1rem; font-size: 0.85rem; }
+    th { background: #1e293b; color: #94a3b8; font-weight: 600; text-align: left; padding: 0.5rem 0.6rem; border-bottom: 1px solid #334155; }
+    td { padding: 0.45rem 0.6rem; border-bottom: 1px solid #1e293b; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    .formula-card { background: #1e293b; border: 1px solid #334155; border-radius: 8px; padding: 0.8rem 1rem; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 1rem; }
+    .formula-num { font-size: 1.5rem; font-weight: 700; color: #60a5fa; min-width: 2rem; }
+    .formula-structure { font-family: monospace; font-size: 0.9rem; color: #60a5fa; }
+    .formula-example { color: #94a3b8; font-size: 0.82rem; }
+    .formula-desc { flex: 1; }
+    .tag { display: inline-block; background: #0f172a; border: 1px solid #334155; border-radius: 4px; padding: 0.1rem 0.4rem; font-size: 0.75rem; color: #94a3b8; margin: 0.1rem; }
+    .tag.blue { border-color: #3b82f6; color: #60a5fa; }
+    .ok { color: #4ade80; }
+    .no { color: #f87171; }
+    .highlight { color: #fbbf24; }
+    .section { margin-bottom: 1.5rem; }
+    .eq-test { background: #1e293b; border: 1px solid #334155; border-radius: 6px; padding: 0.75rem; margin-bottom: 0.75rem; }
+    .eq-test .title { font-size: 0.75rem; color: #94a3b8; margin-bottom: 0.4rem; }
+    @media (max-width: 600px) { body { padding: 1rem; } }
+    @media print { body { padding: 0.5cm; } }
+  </style>
+</head>
+<body>
+  <h1>영어 5형식 치트시트</h1>
+  <p class="subtitle">모든 영어 문장은 5가지 패턴 중 하나 — 동사가 형식을 결정</p>
+
+  <div class="section">
+    <h2>5형식 전체 지도</h2>
+
+    <div class="formula-card">
+      <div class="formula-num">1</div>
+      <div class="formula-desc">
+        <div class="formula-structure">S + V</div>
+        <div class="formula-example">The bird flew. / She arrived yesterday.</div>
+      </div>
+      <div style="color:#94a3b8;font-size:0.8rem;">완전 자동사<br>목적어 불필요</div>
+    </div>
+
+    <div class="formula-card">
+      <div class="formula-num">2</div>
+      <div class="formula-desc">
+        <div class="formula-structure">S + V + C</div>
+        <div class="formula-example">She looks <span class="highlight">tired</span>. (She = tired)</div>
+      </div>
+      <div style="color:#94a3b8;font-size:0.8rem;">S = C<br>연결동사</div>
+    </div>
+
+    <div class="formula-card">
+      <div class="formula-num">3</div>
+      <div class="formula-desc">
+        <div class="formula-structure">S + V + O</div>
+        <div class="formula-example">I love coffee. / She broke the window.</div>
+      </div>
+      <div style="color:#94a3b8;font-size:0.8rem;">완전 타동사<br>목적어 하나</div>
+    </div>
+
+    <div class="formula-card">
+      <div class="formula-num">4</div>
+      <div class="formula-desc">
+        <div class="formula-structure">S + V + O₁ + O₂</div>
+        <div class="formula-example">I gave <span class="highlight">her</span> <span class="highlight">a gift</span>. (her ≠ gift)</div>
+      </div>
+      <div style="color:#94a3b8;font-size:0.8rem;">O₁≠O₂<br>간접+직접목적어</div>
+    </div>
+
+    <div class="formula-card">
+      <div class="formula-num">5</div>
+      <div class="formula-desc">
+        <div class="formula-structure">S + V + O + OC</div>
+        <div class="formula-example">We elected him <span class="highlight">president</span>. (him = president)</div>
+      </div>
+      <div style="color:#94a3b8;font-size:0.8rem;">O = OC<br>목적격 보어</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>2형식 — 연결동사(Linking Verb)</h2>
+    <table>
+      <tr><th>동사</th><th>뜻</th><th>예</th></tr>
+      <tr><td>be / become</td><td>이다 / 되다</td><td>He became a doctor.</td></tr>
+      <tr><td>look / seem / appear</td><td>~처럼 보이다</td><td>She looks tired.</td></tr>
+      <tr><td>feel / smell / taste / sound</td><td>감각</td><td>It smells good.</td></tr>
+      <tr><td>get / turn / grow / remain / stay</td><td>상태 변화</td><td>It got dark.</td></tr>
+    </table>
+    <div class="note">연결동사 뒤 = <strong>형용사</strong>(보어). 부사 쓰면 틀림.<br><span class="no">✗</span> She looks <em>tiredly</em>. &nbsp; <span class="ok">✓</span> She looks tired.</div>
+  </div>
+
+  <div class="section">
+    <h2>4형식 → 3형식 전환</h2>
+    <table>
+      <tr><th>전치사</th><th>동사</th><th>예</th></tr>
+      <tr><td><strong>to</strong> (전달)</td><td>give, send, show, tell, teach, lend</td><td>I gave a gift <strong>to</strong> her.</td></tr>
+      <tr><td><strong>for</strong> (혜택)</td><td>buy, make, cook, find, get</td><td>She made coffee <strong>for</strong> me.</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>4형식 vs 5형식 구별법</h2>
+    <div class="eq-test">
+      <div class="title">등호(=) 테스트: O = OC 성립하면 5형식</div>
+      <table style="margin:0;">
+        <tr>
+          <td>I gave her a gift.</td>
+          <td>her <strong>≠</strong> gift</td>
+          <td><span class="tag blue">4형식</span></td>
+        </tr>
+        <tr>
+          <td>I made her happy.</td>
+          <td>her <strong>=</strong> happy</td>
+          <td><span class="tag blue">5형식</span></td>
+        </tr>
+        <tr>
+          <td>We elected him president.</td>
+          <td>him <strong>=</strong> president</td>
+          <td><span class="tag blue">5형식</span></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>5형식 목적격 보어 종류</h2>
+    <table>
+      <tr><th>보어 형태</th><th>예</th><th>동사 유형</th></tr>
+      <tr><td>명사</td><td>They elected him <span class="highlight">president</span>.</td><td>임명·선출</td></tr>
+      <tr><td>형용사</td><td>She made me <span class="highlight">happy</span>.</td><td>상태 변화</td></tr>
+      <tr><td>to부정사</td><td>I want you <span class="highlight">to stay</span>.</td><td>want/tell/ask</td></tr>
+      <tr><td>원형부정사</td><td>I saw him <span class="highlight">run</span>.</td><td>지각동사</td></tr>
+      <tr><td>현재분사</td><td>I heard her <span class="highlight">singing</span>.</td><td>지각동사 (진행)</td></tr>
+      <tr><td>과거분사</td><td>She had her hair <span class="highlight">cut</span>.</td><td>have (수동)</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>지각동사·사역동사 — 원형 vs to부정사</h2>
+    <table>
+      <tr><th>동사 유형</th><th>보어</th><th>예</th></tr>
+      <tr><td>지각동사 see/hear/feel/watch</td><td>원형 or -ing</td><td>I saw him <strong>run</strong> / <strong>running</strong></td></tr>
+      <tr><td>사역 make (강제)</td><td>원형</td><td>She made me <strong>do</strong> it.</td></tr>
+      <tr><td>사역 let (허락)</td><td>원형</td><td>Let me <strong>try</strong>.</td></tr>
+      <tr><td>사역 have (지시)</td><td>원형</td><td>I had him <strong>fix</strong> it.</td></tr>
+      <tr><td>get (설득)</td><td>to부정사</td><td>I got him <strong>to fix</strong> it.</td></tr>
+    </table>
+    <div class="note">지각동사: 원형 = 행위 전체 목격 / -ing = 진행 중인 장면 목격</div>
+  </div>
+
+  <div class="section">
+    <h2>형식별 수동태</h2>
+    <table>
+      <tr><th>형식</th><th>능동</th><th>수동</th></tr>
+      <tr><td>3형식</td><td>They built the bridge.</td><td>The bridge <strong>was built</strong> by them.</td></tr>
+      <tr><td rowspan="2">4형식</td><td rowspan="2">They gave her a gift.</td><td>She <strong>was given</strong> a gift.</td></tr>
+      <tr><td>A gift <strong>was given</strong> to her.</td></tr>
+      <tr><td>5형식</td><td>They elected him president.</td><td>He <strong>was elected</strong> president.</td></tr>
+      <tr><td>지각/사역</td><td>I saw him run.</td><td>He <strong>was seen to run</strong>. (to 추가)</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>5형식 대표 동사</h2>
+    <table>
+      <tr><th>그룹</th><th>동사</th></tr>
+      <tr><td>임명·선출</td><td>elect, appoint, choose, name, call</td></tr>
+      <tr><td>상태 변화</td><td>make, keep, leave, turn, drive</td></tr>
+      <tr><td>인식·판단</td><td>think, find, consider, believe</td></tr>
+      <tr><td>지각</td><td>see, hear, feel, watch</td></tr>
+    </table>
+  </div>
+</body>
+</html>

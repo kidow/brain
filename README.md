@@ -131,9 +131,13 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 
 Quick-reference sheets served live at [brain.dongwook.kim](https://brain.dongwook.kim).
 
+**Arabic**
+- [아랍어 문자 치트시트](https://brain.dongwook.kim/sheets/아랍어_문자_치트시트.html)
+
 **Japanese**
 - [히라가나 치트시트](https://brain.dongwook.kim/sheets/히라가나_치트시트.html)
 - [가타카나 치트시트](https://brain.dongwook.kim/sheets/가타카나_치트시트.html)
+- [일본어 조사 치트시트](https://brain.dongwook.kim/sheets/일본어_조사_치트시트.html)
 
 **Russian**
 - [러시아어 치트시트](https://brain.dongwook.kim/sheets/러시아어_치트시트.html)
@@ -151,12 +155,15 @@ Quick-reference sheets served live at [brain.dongwook.kim](https://brain.dongwoo
 
 **French**
 - [프랑스어 명사 치트시트](https://brain.dongwook.kim/sheets/프랑스어_명사_치트시트.html)
+- [프랑스어 문자 치트시트](https://brain.dongwook.kim/sheets/프랑스어_문자_치트시트.html)
+- [프랑스어 동사 현재형 치트시트](https://brain.dongwook.kim/sheets/프랑스어_동사_현재형_치트시트.html)
 
 **Spanish**
 - [스페인어 알파벳 이름](https://brain.dongwook.kim/sheets/스페인어_알파벳_이름.html)
 - [스페인어 발음 규칙](https://brain.dongwook.kim/sheets/스페인어_발음_규칙.html)
 - [스페인어 악센트 강세](https://brain.dongwook.kim/sheets/스페인어_악센트_강세.html)
 - [스페인어 특수부호 키보드](https://brain.dongwook.kim/sheets/스페인어_특수부호_키보드.html)
+- [스페인어 명사와 성 치트시트](https://brain.dongwook.kim/sheets/스페인어_명사와_성_치트시트.html)
 
 **English**
 - [영어 전치사 치트시트](https://brain.dongwook.kim/sheets/영어_전치사_치트시트.html)
@@ -171,6 +178,15 @@ Quick-reference sheets served live at [brain.dongwook.kim](https://brain.dongwoo
 - [영어 분사구문 치트시트](https://brain.dongwook.kim/sheets/영어_분사구문_치트시트.html)
 - [영어 시제 심화 치트시트](https://brain.dongwook.kim/sheets/영어_시제_심화_치트시트.html)
 - [영어 가산/불가산 명사 치트시트](https://brain.dongwook.kim/sheets/영어_가산_불가산_명사_치트시트.html)
+- [영어 5형식 치트시트](https://brain.dongwook.kim/sheets/영어_5형식_치트시트.html)
+- [영어 to부정사 치트시트](https://brain.dongwook.kim/sheets/영어_to부정사_치트시트.html)
+- [영어 비교급 최상급 치트시트](https://brain.dongwook.kim/sheets/영어_비교급_최상급_치트시트.html)
+
+**Music**
+- [음악 이론 기초 치트시트](https://brain.dongwook.kim/sheets/음악_이론_기초_치트시트.html)
+
+**Economics / Finance**
+- [세금 용어 치트시트](https://brain.dongwook.kim/sheets/세금_용어_치트시트.html)
 
 **Technology**
 - [컴퓨터 부품](https://brain.dongwook.kim/sheets/컴퓨터_부품.html)

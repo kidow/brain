@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#ffffff">
+  <title>음악 이론 기초 치트시트</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #0f172a;
+      color: #e2e8f0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 14px;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+    }
+    h1 { font-size: 1.5rem; color: #60a5fa; margin-bottom: 0.25rem; }
+    .subtitle { color: #94a3b8; margin-bottom: 1.5rem; font-size: 0.85rem; }
+    h2 { font-size: 1rem; color: #60a5fa; margin: 1.5rem 0 0.75rem; border-left: 3px solid #60a5fa; padding-left: 0.6rem; }
+    .note { background: #1e293b; border: 1px solid #334155; border-radius: 6px; padding: 0.6rem 0.8rem; margin-bottom: 0.75rem; font-size: 0.85rem; color: #94a3b8; }
+    .note strong { color: #e2e8f0; }
+    table { width: 100%; border-collapse: collapse; margin-bottom: 1rem; font-size: 0.85rem; }
+    th { background: #1e293b; color: #94a3b8; font-weight: 600; text-align: left; padding: 0.5rem 0.6rem; border-bottom: 1px solid #334155; }
+    td { padding: 0.45rem 0.6rem; border-bottom: 1px solid #1e293b; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    .piano-row { display: flex; gap: 0; margin-bottom: 1rem; }
+    .key-white { background: #e2e8f0; color: #0f172a; width: 36px; height: 60px; border: 1px solid #334155; border-radius: 0 0 4px 4px; display: flex; align-items: flex-end; justify-content: center; padding-bottom: 4px; font-size: 0.65rem; font-weight: 600; position: relative; }
+    .key-black { background: #1e293b; color: #e2e8f0; width: 24px; height: 38px; border: 1px solid #475569; border-radius: 0 0 3px 3px; margin: 0 -12px; z-index: 1; display: flex; align-items: flex-end; justify-content: center; padding-bottom: 3px; font-size: 0.6rem; position: relative; }
+    .scale-row { display: flex; gap: 0.25rem; margin-bottom: 0.75rem; align-items: center; flex-wrap: wrap; }
+    .note-box { background: #1e293b; border: 1px solid #334155; border-radius: 4px; padding: 0.2rem 0.4rem; font-size: 0.8rem; min-width: 28px; text-align: center; }
+    .note-box.active { background: #1d4ed8; border-color: #60a5fa; color: white; }
+    .interval { color: #94a3b8; font-size: 0.7rem; text-align: center; padding: 0 0.1rem; }
+    .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-bottom: 0.75rem; }
+    .card { background: #1e293b; border: 1px solid #334155; border-radius: 6px; padding: 0.75rem; }
+    .card-title { font-size: 0.75rem; color: #94a3b8; margin-bottom: 0.4rem; text-transform: uppercase; letter-spacing: 0.05em; }
+    .section { margin-bottom: 1.5rem; }
+    .chord-row { display: flex; gap: 0.4rem; margin-bottom: 0.5rem; flex-wrap: wrap; }
+    .chord { background: #1e293b; border: 1px solid #334155; border-radius: 6px; padding: 0.3rem 0.5rem; font-size: 0.8rem; text-align: center; min-width: 44px; }
+    .chord .name { color: #60a5fa; font-weight: 700; }
+    .chord .notes { color: #94a3b8; font-size: 0.7rem; }
+    .roman { color: #94a3b8; font-size: 0.7rem; }
+    .major-chord { border-color: #3b82f6; }
+    .minor-chord { border-color: #8b5cf6; }
+    .bpm-bar { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.3rem; }
+    .bpm-val { color: #60a5fa; font-weight: 700; min-width: 40px; font-size: 0.85rem; }
+    .bpm-track { flex: 1; background: #334155; border-radius: 2px; height: 6px; }
+    .bpm-fill { background: #60a5fa; height: 100%; border-radius: 2px; }
+    .bpm-label { color: #94a3b8; font-size: 0.75rem; }
+    @media (max-width: 600px) { body { padding: 1rem; } .grid2 { grid-template-columns: 1fr; } }
+    @media print { body { padding: 0.5cm; } }
+  </style>
+</head>
+<body>
+  <h1>음악 이론 기초 치트시트</h1>
+  <p class="subtitle">12음 · 장단음계 · 코드 · BPM · 코드 진행</p>
+
+  <div class="section">
+    <h2>12개 음 (반음 단위)</h2>
+    <div class="piano-row">
+      <div class="key-white">C<br>도</div>
+      <div class="key-black">C#<br>도#</div>
+      <div class="key-white">D<br>레</div>
+      <div class="key-black">D#<br>레#</div>
+      <div class="key-white">E<br>미</div>
+      <div class="key-white">F<br>파</div>
+      <div class="key-black">F#<br>파#</div>
+      <div class="key-white">G<br>솔</div>
+      <div class="key-black">G#<br>솔#</div>
+      <div class="key-white">A<br>라</div>
+      <div class="key-black">A#<br>라#</div>
+      <div class="key-white">B<br>시</div>
+      <div class="key-white" style="background:#bfdbfe;border-color:#60a5fa;">C<br>(↑8va)</div>
+    </div>
+    <div class="grid2">
+      <div class="card">
+        <div class="card-title">반음 (Semitone)</div>
+        인접한 두 음 간격<br>C → C# = 반음 1개
+      </div>
+      <div class="card">
+        <div class="card-title">온음 (Whole Tone)</div>
+        반음 2개<br>C → D = 온음 1개
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>음계 패턴</h2>
+    <table>
+      <tr><th>음계</th><th>패턴 (온·반)</th><th>숫자</th></tr>
+      <tr><td><strong>장음계 (Major)</strong></td><td>온 온 반 온 온 온 반</td><td>2·2·1·2·2·2·1</td></tr>
+      <tr><td><strong>자연 단음계 (Minor)</strong></td><td>온 반 온 온 반 온 온</td><td>2·1·2·2·1·2·2</td></tr>
+    </table>
+    <div class="grid2">
+      <div class="card">
+        <div class="card-title">C 장음계</div>
+        <div class="scale-row">
+          <div class="note-box active">C</div><div class="interval">온</div>
+          <div class="note-box active">D</div><div class="interval">온</div>
+          <div class="note-box active">E</div><div class="interval">반</div>
+          <div class="note-box active">F</div><div class="interval">온</div>
+          <div class="note-box active">G</div><div class="interval">온</div>
+          <div class="note-box active">A</div><div class="interval">온</div>
+          <div class="note-box active">B</div><div class="interval">반</div>
+          <div class="note-box active">C</div>
+        </div>
+        <div style="color:#94a3b8;font-size:0.8rem;">흰 건반만 → 교육 기준음</div>
+      </div>
+      <div class="card">
+        <div class="card-title">A 자연 단음계</div>
+        <div class="scale-row">
+          <div class="note-box active" style="border-color:#8b5cf6;background:#2e1065;">A</div><div class="interval">온</div>
+          <div class="note-box active" style="border-color:#8b5cf6;background:#2e1065;">B</div><div class="interval">반</div>
+          <div class="note-box active" style="border-color:#8b5cf6;background:#2e1065;">C</div><div class="interval">온</div>
+          <div class="note-box active" style="border-color:#8b5cf6;background:#2e1065;">D</div><div class="interval">온</div>
+          <div class="note-box active" style="border-color:#8b5cf6;background:#2e1065;">E</div><div class="interval">반</div>
+          <div class="note-box active" style="border-color:#8b5cf6;background:#2e1065;">F</div><div class="interval">온</div>
+          <div class="note-box active" style="border-color:#8b5cf6;background:#2e1065;">G</div><div class="interval">온</div>
+          <div class="note-box active" style="border-color:#8b5cf6;background:#2e1065;">A</div>
+        </div>
+        <div style="color:#94a3b8;font-size:0.8rem;">C 장음계와 같은 7음, 시작점 다름</div>
+      </div>
+    </div>
+    <div class="note"><strong>느낌 차이:</strong> 장음계 = 밝음 / 단음계 = 어두움<br>이유: 중심음(home)이 다름. 장은 C, 단은 A로 돌아올 때 안정.</div>
+  </div>
+
+  <div class="section">
+    <h2>코드 (Chord) — 트라이어드 = 1·3·5음</h2>
+    <div class="chord-row">
+      <div class="chord major-chord">
+        <div class="name">C</div>
+        <div class="notes">C+E+G</div>
+        <div style="color:#60a5fa;font-size:0.7rem;">밝음</div>
+      </div>
+      <div class="chord minor-chord">
+        <div class="name">Cm</div>
+        <div class="notes">C+E♭+G</div>
+        <div style="color:#8b5cf6;font-size:0.7rem;">어두움</div>
+      </div>
+      <div class="chord major-chord">
+        <div class="name">Am</div>
+        <div class="notes">A+C+E</div>
+        <div style="color:#8b5cf6;font-size:0.7rem;">단코드</div>
+      </div>
+      <div class="chord major-chord">
+        <div class="name">G</div>
+        <div class="notes">G+B+D</div>
+        <div style="color:#60a5fa;font-size:0.7rem;">장코드</div>
+      </div>
+      <div class="chord major-chord">
+        <div class="name">F</div>
+        <div class="notes">F+A+C</div>
+        <div style="color:#60a5fa;font-size:0.7rem;">장코드</div>
+      </div>
+    </div>
+    <div class="note">차이: 가운데 3음 하나. E → E♭(반음 낮춤) = 단코드<br>
+    major/minor는 흰/검은 건반 차이 아님 — <strong>3음이 반음 낮으면 minor</strong></div>
+  </div>
+
+  <div class="section">
+    <h2>코드 진행 (Chord Progression)</h2>
+    <table>
+      <tr><th>C 장조 위치</th><th>I</th><th>II</th><th>III</th><th>IV</th><th>V</th><th>VI</th><th>VII</th></tr>
+      <tr><td>코드</td><td>C</td><td>Dm</td><td>Em</td><td>F</td><td>G</td><td>Am</td><td>Bdim</td></tr>
+      <tr><td>성질</td><td style="color:#60a5fa;">장</td><td style="color:#8b5cf6;">단</td><td style="color:#8b5cf6;">단</td><td style="color:#60a5fa;">장</td><td style="color:#60a5fa;">장</td><td style="color:#8b5cf6;">단</td><td style="color:#94a3b8;">감</td></tr>
+    </table>
+    <table>
+      <tr><th>진행</th><th>C장조</th><th>느낌</th></tr>
+      <tr><td><strong>I-V-VI-IV</strong></td><td>C - G - Am - F</td><td>팝의 기본, 밝음·긍정</td></tr>
+      <tr><td><strong>i-VII-VI-VII</strong></td><td>Am - G - F - G</td><td>Phonk/단조, 어두움·순환</td></tr>
+      <tr><td><strong>i-VI-III-VII</strong></td><td>Am - F - C - G</td><td>감성적, 팝발라드</td></tr>
+    </table>
+    <div class="note">로마 숫자 표기 이유: 키 바뀌어도 진행의 <strong>느낌</strong> 동일. I-V-VI-IV는 어느 조에서도 같은 감정.</div>
+  </div>
+
+  <div class="section">
+    <h2>BPM · 박자</h2>
+    <div style="margin-bottom:0.75rem;">
+      <div class="bpm-bar"><span class="bpm-val">80</span><div class="bpm-track"><div class="bpm-fill" style="width:30%;"></div></div><span class="bpm-label">느린 팝·R&B</span></div>
+      <div class="bpm-bar"><span class="bpm-val">120</span><div class="bpm-track"><div class="bpm-fill" style="width:55%;"></div></div><span class="bpm-label">일반 팝·EDM</span></div>
+      <div class="bpm-bar"><span class="bpm-val">140</span><div class="bpm-track"><div class="bpm-fill" style="width:70%;"></div></div><span class="bpm-label">Phonk / Trap</span></div>
+      <div class="bpm-bar"><span class="bpm-val">174</span><div class="bpm-track"><div class="bpm-fill" style="width:90%;"></div></div><span class="bpm-label">드럼앤베이스</span></div>
+    </div>
+    <table>
+      <tr><th>BPM</th><th>1박 (초)</th><th>1마디 4/4 (초)</th></tr>
+      <tr><td>80</td><td>0.75초</td><td>3.0초</td></tr>
+      <tr><td>128</td><td>0.47초</td><td>1.875초</td></tr>
+      <tr><td>150</td><td>0.40초</td><td>1.6초</td></tr>
+    </table>
+    <div class="note">4/4 박자: 한 마디 = 4박. 강·약·중강·약 순서.<br>킥=강박(1·3), 스네어=엇박(2·4), 하이햇=세분화</div>
+  </div>
+
+  <div class="section">
+    <h2>드럼 기초</h2>
+    <table>
+      <tr><th>악기</th><th>소리</th><th>역할</th></tr>
+      <tr><td>킥 (Kick)</td><td>쿵</td><td>강박 1·3박, 곡의 심장</td></tr>
+      <tr><td>스네어 (Snare)</td><td>딱</td><td>엇박 2·4박, 그루브</td></tr>
+      <tr><td>하이햇 (Hi-hat)</td><td>치치치</td><td>리듬 세분화. 닫힘=치, 열림=츠~</td></tr>
+      <tr><td>808 베이스</td><td>웅~</td><td>음정 있는 베이스, Phonk 정체성</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>Phonk 흔한 키</h2>
+    <table>
+      <tr><th>키</th><th>느낌</th><th>특징</th></tr>
+      <tr><td>A minor</td><td>기본 어두움</td><td>흰 건반만 → 입문용</td></tr>
+      <tr><td>D minor</td><td>더 무겁고 어두움</td><td>낮은 음역대</td></tr>
+      <tr><td>F# minor</td><td>날카롭고 공격적</td><td>검은 건반 많음</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>텐션과 해결</h2>
+    <div class="note">
+      <strong>팝 (해결 있음):</strong> Am - G - F → G(텐션) → <strong>Am(해결)</strong> — 안정으로 복귀<br>
+      <strong>Phonk (해결 없음):</strong> Am - G - F - G 반복 → Am 복귀 없음 → 계속 떠도는 최면적 느낌
+    </div>
+  </div>
+</body>
+</html>

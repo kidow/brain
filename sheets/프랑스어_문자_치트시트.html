@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#ffffff">
+  <title>프랑스어 문자 치트시트</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #0f172a;
+      color: #e2e8f0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 14px;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+    }
+    h1 { font-size: 1.5rem; color: #60a5fa; margin-bottom: 0.25rem; }
+    .subtitle { color: #94a3b8; margin-bottom: 1.5rem; font-size: 0.85rem; }
+    h2 { font-size: 1rem; color: #60a5fa; margin: 1.5rem 0 0.75rem; border-left: 3px solid #60a5fa; padding-left: 0.6rem; }
+    .note { background: #1e293b; border: 1px solid #334155; border-radius: 6px; padding: 0.6rem 0.8rem; margin-bottom: 0.75rem; font-size: 0.85rem; color: #94a3b8; }
+    .note strong { color: #e2e8f0; }
+    table { width: 100%; border-collapse: collapse; margin-bottom: 1rem; font-size: 0.85rem; }
+    th { background: #1e293b; color: #94a3b8; font-weight: 600; text-align: left; padding: 0.5rem 0.6rem; border-bottom: 1px solid #334155; }
+    td { padding: 0.45rem 0.6rem; border-bottom: 1px solid #1e293b; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    .accent-big { font-size: 1.3rem; color: #60a5fa; font-weight: 700; }
+    .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-bottom: 0.75rem; }
+    .card { background: #1e293b; border: 1px solid #334155; border-radius: 6px; padding: 0.75rem; }
+    .card-title { font-size: 0.75rem; color: #94a3b8; margin-bottom: 0.4rem; text-transform: uppercase; letter-spacing: 0.05em; }
+    .nasal { color: #a78bfa; }
+    .highlight { color: #fbbf24; }
+    .section { margin-bottom: 1.5rem; }
+    .careful-rule { background: #1e293b; border-left: 3px solid #f59e0b; padding: 0.5rem 0.75rem; border-radius: 0 4px 4px 0; margin-bottom: 0.5rem; font-size: 0.85rem; }
+    @media (max-width: 600px) { body { padding: 1rem; } .grid2 { grid-template-columns: 1fr; } }
+    @media print { body { padding: 0.5cm; } }
+  </style>
+</head>
+<body>
+  <h1>프랑스어 문자 치트시트</h1>
+  <p class="subtitle">영어 26자 + 악센트 5종 · 표기 ≠ 발음 · 끝 자음은 기본 묵음</p>
+
+  <div class="section">
+    <h2>악센트(Accent) 5종</h2>
+    <div class="note">악센트 = 별도 글자 아님. 기존 글자 위에 얹는 부호. 알파벳 수(26개)에 포함 안 됨.</div>
+    <table>
+      <tr><th>기호</th><th>이름</th><th>예</th><th>발음 변화</th></tr>
+      <tr><td><span class="accent-big">é</span></td><td>accent aigu</td><td>café, étudiant</td><td>닫힌 "에" — 입술 긴장</td></tr>
+      <tr><td><span class="accent-big">è</span></td><td>accent grave</td><td>très, mère</td><td>열린 "에" — 입 더 벌림</td></tr>
+      <tr><td><span class="accent-big">ê</span></td><td>accent circonflexe</td><td>fête, être</td><td>열린 "에" (è와 거의 동일)</td></tr>
+      <tr><td><span class="accent-big">â ô</span></td><td>accent circonflexe</td><td>âge, côte</td><td>현대 파리 발음 = a/o와 거의 동일</td></tr>
+      <tr><td><span class="accent-big">î û</span></td><td>accent circonflexe</td><td>île, sûr</td><td>발음 변화 없음 — 역사·철자 표시</td></tr>
+      <tr><td><span class="accent-big">ë ï</span></td><td>tréma</td><td>Noël, naïf</td><td>앞 모음과 분리해서 읽어라</td></tr>
+      <tr><td><span class="accent-big">ç</span></td><td>cédille</td><td>garçon, français</td><td>c를 항상 "ㅅ" 소리로 (없으면 "ㄲ")</td></tr>
+    </table>
+    <div class="note"><strong>먼저 익힐 것:</strong> é (가장 빈번) → ç (다음) → 나머지</div>
+  </div>
+
+  <div class="section">
+    <h2>끝 자음 묵음 규칙</h2>
+    <div class="careful-rule">기본값: 끝 자음 = <strong>묵음</strong></div>
+    <table>
+      <tr><td>Paris</td><td>/파리/ (s 묵음)</td></tr>
+      <tr><td>chat</td><td>/샤/ (t 묵음)</td></tr>
+      <tr><td>grand</td><td>/그헝/ (d 묵음)</td></tr>
+      <tr><td>beaucoup</td><td>/보쿠/ (p 묵음)</td></tr>
+    </table>
+    <div class="careful-rule">예외 — 발음하는 끝 자음: <span class="highlight">C · a · R · e · F · u · L</span> → <strong>CaReFuL</strong></div>
+    <table>
+      <tr><td><strong>C</strong></td><td>avec → /아베<strong>크</strong>/</td></tr>
+      <tr><td><strong>R</strong></td><td>mer → /메<strong>흐</strong>/</td></tr>
+      <tr><td><strong>F</strong></td><td>chef → /셰<strong>프</strong>/</td></tr>
+      <tr><td><strong>L</strong></td><td>bal → /바<strong>ㄹ</strong>/</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>연음(Liaison)</h2>
+    <div class="note">끝 자음 묵음이 기본이지만, 다음 단어가 <strong>모음으로 시작</strong>하면 죽었던 자음이 살아남.</div>
+    <table>
+      <tr><th>종류</th><th>예</th><th>규칙</th></tr>
+      <tr><td><strong>필수</strong> 연음</td><td>les amis → /레<strong>z</strong>아미/</td><td>관사+명사, 대명사+동사</td></tr>
+      <tr><td>선택 연음</td><td>격식체에서만</td><td>문어체·공식 발표</td></tr>
+      <tr><td>금지 연음</td><td>고유명사 앞 등</td><td>절대 불가</td></tr>
+    </table>
+    <div class="note">s, x 끝 자음 → 연음 시 <strong>/z/</strong> 소리<br>
+    vous avez → /부<strong>z</strong>아베/ / un enfant → /앙<strong>n</strong>엉팡/</div>
+  </div>
+
+  <div class="section">
+    <h2>비모음(Voyelles Nasales)</h2>
+    <div class="note">모음 + n/m 뒤에 <strong>자음이 오거나 단어 끝</strong>일 때 → 코로 공기 흘리는 비모음<br>
+    핵심: 모음+n/m 뒤에 <strong>모음이 오면 → 비모음 아님</strong> (bonne /본/ vs bon /봉/)</div>
+    <table>
+      <tr><th>표기</th><th>발음</th><th>예</th></tr>
+      <tr><td>an, am, en, em</td><td class="nasal">/ɑ̃/ "앙"</td><td>enfant /엉팡/, temps /텅/</td></tr>
+      <tr><td>in, im, ain, ein</td><td class="nasal">/ɛ̃/ "앵"</td><td>vin /뱅/, pain /팡/</td></tr>
+      <tr><td>on, om</td><td class="nasal">/ɔ̃/ "옹"</td><td>bon /봉/, nom /농/</td></tr>
+      <tr><td>un, um</td><td class="nasal">/œ̃/ "윙"→"앵"</td><td>un /앵/ (현대 파리: /ɛ̃/와 합류 중)</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>특수 자음 조합</h2>
+    <table>
+      <tr><th>조합</th><th>소리</th><th>예</th></tr>
+      <tr><td><strong>ch</strong></td><td>/ʃ/ "쉬"</td><td>chat /샤/, chef /셰프/ (영어 ch=/ㅊ/ 아님!)</td></tr>
+      <tr><td><strong>ph</strong></td><td>/f/ "프"</td><td>photo /포토/</td></tr>
+      <tr><td><strong>gn</strong></td><td>/ɲ/ "뉴"계열</td><td>champagne /샹파뉴/, montagne /몽타뉴/</td></tr>
+      <tr><td><strong>qu</strong></td><td>/k/ (u 묵음)</td><td>qui /키/, que /크/</td></tr>
+      <tr><td><strong>gu+모음</strong></td><td>/g/ (u 묵음)</td><td>guerre /게흐/, guide /기드/</td></tr>
+      <tr><td><strong>ou</strong></td><td>/u/ "우"</td><td>vous /부/, rouge /후주/</td></tr>
+      <tr><td><strong>eau, au</strong></td><td>/o/ "오"</td><td>eau /오/, chaud /쇼/</td></tr>
+      <tr><td><strong>ai, ei</strong></td><td>/ɛ/ "에"(열린)</td><td>lait /레/, neige /네주/</td></tr>
+      <tr><td><strong>eu</strong></td><td>/ø/ "으/외"</td><td>feu /프/, peur /프흐/</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>R 발음 — 목젖 마찰음</h2>
+    <div class="note">영어 r = 혀를 뒤로 말음 ↔ 프랑스어 r = <strong>혀 고정, 목젖(uvula) 진동</strong><br>
+    만드는 법: ① 혀 평평하게 아래 고정 ② "ㅎ"을 목 뒤에서 마찰 ③ 가래 뱉기 직전 소리<br>
+    예: rue /흐위/, Paris /파히/, merci /메흐시/</div>
+  </div>
+
+  <div class="section">
+    <h2>강세 (Accent Tonique)</h2>
+    <div class="note">규칙: <strong>항상 마지막 음절.</strong> 예외 없음.<br>
+    café → ca-<strong>fé</strong> / université → u-ni-ver-si-<strong>té</strong><br>
+    단, 묵음 e는 음절 안 셈: table = ta-ble → 실질 마지막 = <strong>ta</strong> → /타블/</div>
+  </div>
+
+  <div class="section">
+    <h2>대소문자 — 영어보다 덜 씀</h2>
+    <div class="grid2">
+      <div class="card">
+        <div class="card-title">소문자 (영어는 대문자)</div>
+        요일: lundi (Monday)<br>
+        월: janvier (January)<br>
+        언어: français (French)<br>
+        국적 형용사: vin français
+      </div>
+      <div class="card">
+        <div class="card-title">대문자 유지</div>
+        국적 명사(사람): un Français<br>
+        제목: 첫 단어만 대문자<br>
+        <em>Le comte de Monte-Cristo</em>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>문장부호 특이점</h2>
+    <table>
+      <tr><th>부호</th><th>프랑스어</th><th>비고</th></tr>
+      <tr><td>따옴표</td><td>« texte »</td><td>안쪽에 공백 포함</td></tr>
+      <tr><td>?·!·:·; 앞</td><td>공백 추가</td><td>word ?&nbsp; word !</td></tr>
+      <tr><td>어포스트로피</td><td>je aime → j'aime</td><td>모음 충돌 시 생략</td></tr>
+    </table>
+  </div>
+</body>
+</html>

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#ffffff">
+  <title>아랍어 문자 치트시트</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #0f172a;
+      color: #e2e8f0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 14px;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+    }
+    h1 { font-size: 1.5rem; color: #60a5fa; margin-bottom: 0.25rem; }
+    .subtitle { color: #94a3b8; margin-bottom: 1.5rem; font-size: 0.85rem; }
+    h2 { font-size: 1rem; color: #60a5fa; margin: 1.5rem 0 0.75rem; border-left: 3px solid #60a5fa; padding-left: 0.6rem; }
+    .note { background: #1e293b; border: 1px solid #334155; border-radius: 6px; padding: 0.6rem 0.8rem; margin-bottom: 0.75rem; font-size: 0.85rem; color: #94a3b8; }
+    .note strong { color: #e2e8f0; }
+    table { width: 100%; border-collapse: collapse; margin-bottom: 1rem; font-size: 0.85rem; }
+    th { background: #1e293b; color: #94a3b8; font-weight: 600; text-align: left; padding: 0.5rem 0.6rem; border-bottom: 1px solid #334155; }
+    td { padding: 0.45rem 0.6rem; border-bottom: 1px solid #1e293b; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    .ar { font-size: 1.4rem; direction: rtl; color: #60a5fa; font-family: 'Amiri', 'Traditional Arabic', serif; }
+    .tag { display: inline-block; background: #1e293b; border: 1px solid #334155; border-radius: 4px; padding: 0.1rem 0.4rem; font-size: 0.75rem; color: #94a3b8; margin: 0.1rem; }
+    .tag.blue { border-color: #3b82f6; color: #60a5fa; }
+    .tag.green { border-color: #22c55e; color: #4ade80; }
+    .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-bottom: 0.75rem; }
+    .card { background: #1e293b; border: 1px solid #334155; border-radius: 6px; padding: 0.75rem; }
+    .card-title { font-size: 0.75rem; color: #94a3b8; margin-bottom: 0.4rem; text-transform: uppercase; letter-spacing: 0.05em; }
+    .card-value { font-size: 1rem; color: #e2e8f0; }
+    .formula { background: #1e293b; border: 1px solid #334155; border-radius: 6px; padding: 0.6rem 0.8rem; font-family: monospace; font-size: 0.85rem; color: #60a5fa; margin-bottom: 0.75rem; }
+    .brothers { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 0.5rem; }
+    .brother-group { background: #1e293b; border: 1px solid #334155; border-radius: 6px; padding: 0.4rem 0.6rem; display: flex; align-items: center; gap: 0.5rem; }
+    .section { margin-bottom: 1.5rem; }
+    @media (max-width: 600px) {
+      body { padding: 1rem 1rem; }
+      .grid2 { grid-template-columns: 1fr; }
+    }
+    @media print { body { padding: 0.5cm; } }
+  </style>
+</head>
+<body>
+  <h1>아랍어 문자 치트시트</h1>
+  <p class="subtitle">아브자드(자음 중심 문자) · 28글자 · 우→좌 방향</p>
+
+  <div class="section">
+    <h2>핵심 개념</h2>
+    <div class="grid2">
+      <div class="card">
+        <div class="card-title">아브자드(Abjad)</div>
+        <div class="card-value">자음만 적고 단모음 생략<br><span style="color:#94a3b8;font-size:0.85rem;">كتاب = k·t·b (+ 긴모음 ā)</span></div>
+      </div>
+      <div class="card">
+        <div class="card-title">글자 구성</div>
+        <div class="card-value">17개 기본형 + 점 위치·개수<br><span style="color:#94a3b8;font-size:0.85rem;">= 28글자</span></div>
+      </div>
+    </div>
+    <div class="formula">세금 = 과세표준 × 세율 &nbsp;|&nbsp; 아랍어 = 기본형 + 점 → 28자</div>
+  </div>
+
+  <div class="section">
+    <h2>형제 글자 (같은 기본형, 점만 다름)</h2>
+    <table>
+      <tr><th>그룹</th><th colspan="3">글자 · 발음 · 점</th></tr>
+      <tr>
+        <td>ب 계열</td>
+        <td><span class="ar">ب</span> b · 아래1</td>
+        <td><span class="ar">ت</span> t · 위2</td>
+        <td><span class="ar">ث</span> th · 위3</td>
+      </tr>
+      <tr>
+        <td>ج 계열</td>
+        <td><span class="ar">ج</span> j · 안1</td>
+        <td><span class="ar">ح</span> ḥ · 없음</td>
+        <td><span class="ar">خ</span> kh · 위1</td>
+      </tr>
+      <tr>
+        <td>د 계열</td>
+        <td><span class="ar">د</span> d · 없음</td>
+        <td><span class="ar">ذ</span> ð · 위1</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>ر 계열</td>
+        <td><span class="ar">ر</span> r · 없음</td>
+        <td><span class="ar">ز</span> z · 위1</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>س 계열</td>
+        <td><span class="ar">س</span> s · 없음</td>
+        <td><span class="ar">ش</span> sh · 위3</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>강조 계열</td>
+        <td><span class="ar">ص</span> ṣ</td>
+        <td><span class="ar">ض</span> ḍ</td>
+        <td><span class="ar">ط</span> ṭ &nbsp;<span class="ar">ظ</span> ẓ</td>
+      </tr>
+      <tr>
+        <td>ع 계열</td>
+        <td><span class="ar">ع</span> ʿ · 없음</td>
+        <td><span class="ar">غ</span> gh · 위1</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>ف 계열</td>
+        <td><span class="ar">ف</span> f · 위1</td>
+        <td><span class="ar">ق</span> q · 위2</td>
+        <td></td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>4가지 위치 형태</h2>
+    <table>
+      <tr><th>위치</th><th>이름</th><th>예 (ب)</th><th>설명</th></tr>
+      <tr><td>독립</td><td>Isolated</td><td><span class="ar">ب</span></td><td>혼자</td></tr>
+      <tr><td>어두</td><td>Initial</td><td><span class="ar">بـ</span></td><td>단어 앞</td></tr>
+      <tr><td>어중</td><td>Medial</td><td><span class="ar">ـبـ</span></td><td>단어 중간</td></tr>
+      <tr><td>어말</td><td>Final</td><td><span class="ar">ـب</span></td><td>단어 끝</td></tr>
+    </table>
+    <div class="note"><strong>연결 안 되는 6글자:</strong> <span class="ar">ا و ذ ر ز د</span> — 오른쪽에만 연결, 왼쪽 불가 → 이 글자 다음에서 단어 내 연결 끊김</div>
+  </div>
+
+  <div class="section">
+    <h2>긴 모음 3개</h2>
+    <table>
+      <tr><th>단모음(생략)</th><th>긴 모음</th><th>글자</th><th>이름</th></tr>
+      <tr><td>a</td><td>ā</td><td><span class="ar">ا</span></td><td>alif</td></tr>
+      <tr><td>i</td><td>ī</td><td><span class="ar">ي</span></td><td>yā'</td></tr>
+      <tr><td>u</td><td>ū</td><td><span class="ar">و</span></td><td>wāw</td></tr>
+    </table>
+    <div class="note">예: <span class="ar">كتاب</span> = k + t + <strong>ā</strong> + b (단모음 i, a는 생략)</div>
+  </div>
+
+  <div class="section">
+    <h2>알리프 계열 총정리</h2>
+    <table>
+      <tr><th>글자</th><th>발음</th><th>설명</th></tr>
+      <tr><td><span class="ar">ا</span></td><td>ā</td><td>긴 모음</td></tr>
+      <tr><td><span class="ar">أ</span></td><td>'a</td><td>함자 + a (어두)</td></tr>
+      <tr><td><span class="ar">إ</span></td><td>'i</td><td>함자 + i (어두)</td></tr>
+      <tr><td><span class="ar">آ</span></td><td>'ā</td><td>마다: 함자 + 긴 a</td></tr>
+      <tr><td><span class="ar">ى</span></td><td>ā</td><td>알리프 막수라: 점 없는 야, 단어 끝에만</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>모음 부호 (하라카트) — 교재·쿠란에만 표기</h2>
+    <table>
+      <tr><th>부호</th><th>발음</th><th>이름</th><th>설명</th></tr>
+      <tr><td><span class="ar">فَ</span></td><td>fa</td><td>파트하</td><td>단모음 a</td></tr>
+      <tr><td><span class="ar">فِ</span></td><td>fi</td><td>카스라</td><td>단모음 i</td></tr>
+      <tr><td><span class="ar">فُ</span></td><td>fu</td><td>담마</td><td>단모음 u</td></tr>
+      <tr><td><span class="ar">فْ</span></td><td>f (모음 없음)</td><td>수쿤</td><td>자음만, 다음 자음으로</td></tr>
+      <tr><td><span class="ar">فّ</span></td><td>ff</td><td>샷다</td><td>자음 두 배 발음</td></tr>
+      <tr><td>ً ٍ ٌ</td><td>-an/-in/-un</td><td>탄윈</td><td>불특정 어미 n</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>정관사 ال (al-) — 태양/달 글자</h2>
+    <div class="grid2">
+      <div class="card">
+        <div class="card-title">🌙 달 글자 (14개) — al- 그대로</div>
+        <div style="direction:rtl;font-size:1.1rem;color:#60a5fa;letter-spacing:0.3rem;">ا ب ج ح خ ع غ ف ق ك م ه و ي</div>
+        <div style="color:#94a3b8;font-size:0.8rem;margin-top:0.3rem;">예: الكتاب = al-kitāb</div>
+      </div>
+      <div class="card">
+        <div class="card-title">☀️ 태양 글자 (14개) — l 탈락·동화</div>
+        <div style="direction:rtl;font-size:1.1rem;color:#f59e0b;letter-spacing:0.3rem;">ت ث د ذ ر ز س ش ص ض ط ظ ل ن</div>
+        <div style="color:#94a3b8;font-size:0.8rem;margin-top:0.3rem;">예: الشمس = ash-shams</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>특수 문자</h2>
+    <table>
+      <tr><th>글자</th><th>이름</th><th>발음/기능</th></tr>
+      <tr><td><span class="ar">ة</span></td><td>타 마르부타</td><td>여성형 어미. 단독→묵음, 연결→t</td></tr>
+      <tr><td><span class="ar">ء</span></td><td>함자</td><td>성문 파열음. 좌석(ا·و·ي) 위에 얹힘</td></tr>
+      <tr><td><span class="ar">لا</span></td><td>라암-알리프 합자</td><td>ل + ا 의무 합자. "없다/아니다"</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>격(格) 체계 — 이으랍</h2>
+    <table>
+      <tr><th>격</th><th>어미</th><th>역할</th><th>예</th></tr>
+      <tr><td>주격</td><td>-u / -un</td><td>주어·서술어</td><td><span class="ar">كتابٌ</span></td></tr>
+      <tr><td>속격</td><td>-i / -in</td><td>전치사 뒤·소유</td><td><span class="ar">كتابٍ</span></td></tr>
+      <tr><td>목적격</td><td>-a / -an</td><td>목적어·부사어</td><td><span class="ar">كتاباً</span></td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>부정어 4개</h2>
+    <table>
+      <tr><th>부정어</th><th>용도</th><th>예</th></tr>
+      <tr><td><span class="ar">لا</span></td><td>현재·일반</td><td><span class="ar">لا أكتبُ</span> 안 쓴다</td></tr>
+      <tr><td><span class="ar">لم</span></td><td>과거 (+ 현재형 동사)</td><td><span class="ar">لم أكتبْ</span> 안 썼다</td></tr>
+      <tr><td><span class="ar">لن</span></td><td>미래</td><td><span class="ar">لن أكتبَ</span> 쓰지 않을 것</td></tr>
+      <tr><td><span class="ar">ليس</span></td><td>명사문</td><td><span class="ar">ليس كبيراً</span> 크지 않다</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>동아랍 숫자</h2>
+    <table>
+      <tr>
+        <td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td>
+      </tr>
+      <tr style="font-size:1.3rem;direction:rtl;color:#60a5fa;">
+        <td>٠</td><td>١</td><td>٢</td><td>٣</td><td>٤</td><td>٥</td><td>٦</td><td>٧</td><td>٨</td><td>٩</td>
+      </tr>
+    </table>
+    <div class="note">숫자 방향은 왼→오른 (텍스트 방향과 반대)</div>
+  </div>
+
+  <div class="section">
+    <h2>어근 파생 (k-t-b 예시)</h2>
+    <table>
+      <tr><th>패턴</th><th>결과</th><th>의미</th></tr>
+      <tr><td>فَعَلَ</td><td><span class="ar">كَتَبَ</span></td><td>썼다</td></tr>
+      <tr><td>فَاعِل</td><td><span class="ar">كَاتِب</span></td><td>작가</td></tr>
+      <tr><td>مَفْعُول</td><td><span class="ar">مَكْتُوب</span></td><td>편지·쓰여진 것</td></tr>
+      <tr><td>مَفْعَل</td><td><span class="ar">مَكْتَب</span></td><td>사무실·책상</td></tr>
+    </table>
+    <div class="note">어근 3자음 + 틀(wazn) = 단어 자동 파생. 어근 하나로 수십 단어.</div>
+  </div>
+</body>
+</html>

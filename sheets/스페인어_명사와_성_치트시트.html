@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#ffffff">
+  <title>스페인어 명사와 성 치트시트</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #0f172a;
+      color: #e2e8f0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 14px;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+    }
+    h1 { font-size: 1.5rem; color: #60a5fa; margin-bottom: 0.25rem; }
+    .subtitle { color: #94a3b8; margin-bottom: 1.5rem; font-size: 0.85rem; }
+    h2 { font-size: 1rem; color: #60a5fa; margin: 1.5rem 0 0.75rem; border-left: 3px solid #60a5fa; padding-left: 0.6rem; }
+    .note { background: #1e293b; border: 1px solid #334155; border-radius: 6px; padding: 0.6rem 0.8rem; margin-bottom: 0.75rem; font-size: 0.85rem; color: #94a3b8; }
+    .note strong { color: #e2e8f0; }
+    table { width: 100%; border-collapse: collapse; margin-bottom: 1rem; font-size: 0.85rem; }
+    th { background: #1e293b; color: #94a3b8; font-weight: 600; text-align: left; padding: 0.5rem 0.6rem; border-bottom: 1px solid #334155; }
+    td { padding: 0.45rem 0.6rem; border-bottom: 1px solid #1e293b; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-bottom: 0.75rem; }
+    .card { background: #1e293b; border: 1px solid #334155; border-radius: 6px; padding: 0.75rem; }
+    .card-title { font-size: 0.75rem; color: #94a3b8; margin-bottom: 0.4rem; text-transform: uppercase; letter-spacing: 0.05em; }
+    .m { color: #60a5fa; } /* masculine */
+    .f { color: #f472b6; } /* feminine */
+    .highlight { color: #fbbf24; }
+    .ok { color: #4ade80; }
+    .no { color: #f87171; }
+    .section { margin-bottom: 1.5rem; }
+    code { background: #1e293b; padding: 0.1rem 0.3rem; border-radius: 3px; font-size: 0.85em; color: #60a5fa; }
+    @media (max-width: 600px) { body { padding: 1rem; } .grid2 { grid-template-columns: 1fr; } }
+    @media print { body { padding: 0.5cm; } }
+  </style>
+</head>
+<body>
+  <h1>스페인어 명사와 성 치트시트</h1>
+  <p class="subtitle">모든 명사는 남성(masculino) 또는 여성(femenino) — 관사·형용사 전부 일치</p>
+
+  <div class="section">
+    <h2>정관사와 부정관사</h2>
+    <table>
+      <tr><th></th><th class="m">남성 단수</th><th class="m">남성 복수</th><th class="f">여성 단수</th><th class="f">여성 복수</th></tr>
+      <tr><td>정관사</td><td><code class="m">el</code></td><td><code class="m">los</code></td><td><code class="f">la</code></td><td><code class="f">las</code></td></tr>
+      <tr><td>부정관사</td><td><code class="m">un</code></td><td><code class="m">unos</code></td><td><code class="f">una</code></td><td><code class="f">unas</code></td></tr>
+    </table>
+    <div class="note">처음 언급 → <code>un/una</code>, 재언급 → <code>el/la</code><br>
+    <em>Tengo <strong>un</strong> libro. <strong>El</strong> libro es rojo.</em></div>
+  </div>
+
+  <div class="section">
+    <h2>성 판별 규칙</h2>
+    <table>
+      <tr><th>어미</th><th>성</th><th>예</th><th>주요 예외</th></tr>
+      <tr><td><code>-o</code></td><td><span class="m">남성</span> (75~80%)</td><td>el libro, el niño</td><td>la mano (손) ← 여성</td></tr>
+      <tr><td><code>-a</code></td><td><span class="f">여성</span> (75~80%)</td><td>la mesa, la casa</td><td>el día, el problema, el tema, el sistema ← 남성</td></tr>
+      <tr><td>자음</td><td><span class="m">주로 남성</span></td><td>el papel, el árbol</td><td></td></tr>
+      <tr><td><code>-e</code></td><td>예측 불가</td><td>el nombre / la noche</td><td>관사와 함께 암기</td></tr>
+      <tr><td><code>-ión/-dad/-tad/-tud</code></td><td><span class="f">여성</span> (거의 항상)</td><td>la nación, la ciudad, la libertad</td><td></td></tr>
+      <tr><td><code>-ista</code></td><td>남녀 공용</td><td>el/la artista, el/la turista</td><td>관사로 구분</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>복수형 만들기</h2>
+    <table>
+      <tr><th>조건</th><th>규칙</th><th>예</th></tr>
+      <tr><td>모음 끝</td><td>+ <code>-s</code></td><td>libro→libros, mesa→mesas</td></tr>
+      <tr><td>자음 끝</td><td>+ <code>-es</code></td><td>papel→papeles, nación→naciones</td></tr>
+      <tr><td><code>-z</code> 끝</td><td>z→c + <code>-es</code></td><td>luz→luces, voz→voces</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>형용사 성수 일치</h2>
+    <table>
+      <tr><th>형용사 유형</th><th>남성 단수</th><th>여성 단수</th><th>남성 복수</th><th>여성 복수</th></tr>
+      <tr><td>-o형 (4형태)</td><td>rojo</td><td>roja</td><td>rojos</td><td>rojas</td></tr>
+      <tr><td>-e·자음형 (2형태)</td><td>inteligente</td><td>inteligente</td><td>inteligentes</td><td>inteligentes</td></tr>
+    </table>
+    <div class="note">형용사는 명사 <strong>뒤</strong>에 위치<br>
+    el libro <span class="highlight">rojo</span> / la mesa <span class="highlight">roja</span> / los libros <span class="highlight">rojos</span></div>
+  </div>
+
+  <div class="section">
+    <h2>자연 성: 사람·동물</h2>
+    <table>
+      <tr><th>패턴</th><th>남성</th><th>여성</th></tr>
+      <tr><td>-o/-a 교체</td><td>niño, hermano, amigo</td><td>niña, hermana, amiga</td></tr>
+      <tr><td>-or/-ora</td><td>profesor, doctor</td><td>profesora, doctora</td></tr>
+      <tr><td>불규칙</td><td>actor, hombre, padre, rey</td><td>actriz, mujer, madre, reina</td></tr>
+      <tr><td>형태 동일</td><td>el estudiante, el artista</td><td>la estudiante, la artista</td></tr>
+    </table>
+    <div class="note">혼합 집단 → 남성 복수 통칭: 남녀 학생 → <code>los estudiantes</code></div>
+  </div>
+
+  <div class="section">
+    <h2>지시 형용사 (이/그/저)</h2>
+    <table>
+      <tr><th>거리</th><th class="m">남단</th><th class="f">여단</th><th class="m">남복</th><th class="f">여복</th></tr>
+      <tr><td>이 (가까운)</td><td><code>este</code></td><td><code>esta</code></td><td><code>estos</code></td><td><code>estas</code></td></tr>
+      <tr><td>그 (중간)</td><td><code>ese</code></td><td><code>esa</code></td><td><code>esos</code></td><td><code>esas</code></td></tr>
+      <tr><td>저 (먼)</td><td><code>aquel</code></td><td><code>aquella</code></td><td><code>aquellos</code></td><td><code>aquellas</code></td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>소유 형용사</h2>
+    <table>
+      <tr><th>인칭</th><th>단수</th><th>복수</th></tr>
+      <tr><td>나의</td><td><code>mi</code></td><td><code>mis</code></td></tr>
+      <tr><td>너의</td><td><code>tu</code></td><td><code>tus</code></td></tr>
+      <tr><td>그/그녀/당신의</td><td><code>su</code></td><td><code>sus</code></td></tr>
+      <tr><td>우리의</td><td><code>nuestro/nuestra</code></td><td><code>nuestros/nuestras</code></td></tr>
+    </table>
+    <div class="note">mi/tu/su = 명사 성 무관. nuestro/vuestro = 명사 성 일치<br>
+    주의: <code>tu</code>(너의) vs <code>tú</code>(너) — 악센트 구분</div>
+  </div>
+
+  <div class="section">
+    <h2>핵심 규칙 모음</h2>
+    <table>
+      <tr><th>규칙</th><th>예</th></tr>
+      <tr><td>de + el = <code>del</code></td><td>El libro <strong>del</strong> estudiante.</td></tr>
+      <tr><td>a + el = <code>al</code></td><td>Voy <strong>al</strong> mercado.</td></tr>
+      <tr><td>총칭 = 정관사 필수</td><td>Los perros son leales. (Dogs are loyal.)</td></tr>
+      <tr><td>ser 뒤 직업 = 무관사</td><td>Soy médico. / Es profesora.</td></tr>
+      <tr><td>요일·달 일반 = 무관사</td><td>Hoy es lunes. / Nació en enero.</td></tr>
+      <tr><td>축소형: -ito/-ita</td><td>perro→perrito, casa→casita</td></tr>
+    </table>
+  </div>
+</body>
+</html>
