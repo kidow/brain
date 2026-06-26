@@ -116,6 +116,7 @@ brain/
 - [세금 용어](https://brain.dongwook.kim/notes/세금_용어)
 - [경제학](https://brain.dongwook.kim/notes/경제학)
 - [투자 기초](https://brain.dongwook.kim/notes/투자_기초)
+- [주식 용어](https://brain.dongwook.kim/notes/주식_용어)
 - [부동산 기초](https://brain.dongwook.kim/notes/부동산_기초)
 
 **실생활**
