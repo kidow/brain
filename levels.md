@@ -124,6 +124,10 @@ Level: Blank — 원소, 화합물, 혼합물의 구분을 아직 설명할 수 
 
 Level: Glimpsed — 현재분사(-ing)와 과거분사(-ed)의 형용사적 용법 인지. boring vs bored(능동/수동) 구분 정확. 분사구문(부사구 역할)은 미노출 — 접속사로 혼동. 감정동사 분사 목록, 분사의 보어 역할 전반 미노출.
 
+## 영어_강조_구문
+
+Level: Glimpsed — It-cleft(It was ~ that) 구조 인지·분석 가능. 강조 대상 식별 가능. do 강조, wh-cleft(What ~ is), 부사·부정어 강조 전반 미노출.
+
 ## 영어_도치
 
 Level: Blank — 도치 개념 자체 미노출. Never have I seen 같은 부정어 도치, 조건절 도치(Should/Were/Had), 장소부사 도치 전반 미노출.
