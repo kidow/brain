@@ -107,6 +107,7 @@ brain/
 - [영어 강조 구문](https://brain.dongwook.kim/notes/영어_강조_구문)
 - [영어 관계사 심화](https://brain.dongwook.kim/notes/영어_관계사_심화)
 - [영어 부사절 심화](https://brain.dongwook.kim/notes/영어_부사절_심화)
+- [영어 동사구 심화](https://brain.dongwook.kim/notes/영어_동사구_심화)
 
 **음악**
 - [음악 이론 기초](https://brain.dongwook.kim/notes/음악_이론_기초)
