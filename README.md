@@ -110,6 +110,7 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [영어 동사구 심화](https://brain.dongwook.kim/notes/영어/영어_동사구_심화)
 - [영어 문장 구조 심화](https://brain.dongwook.kim/notes/영어/영어_문장_구조_심화)
 - [영어 동명사](https://brain.dongwook.kim/notes/영어/영어_동명사)
+- [영어 화법](https://brain.dongwook.kim/notes/영어/영어_화법)
 
 **Music**
 - [음악 이론 기초](https://brain.dongwook.kim/notes/음악_이론_기초)
