@@ -112,6 +112,7 @@ brain/
 - [영어 동명사](https://brain.dongwook.kim/notes/영어/영어_동명사)
 - [영어 화법](https://brain.dongwook.kim/notes/영어/영어_화법)
 - [영어 구두점](https://brain.dongwook.kim/notes/영어/영어_구두점)
+- [영어 어휘 확장](https://brain.dongwook.kim/notes/영어/영어_어휘_확장)
 
 **음악**
 - [음악 이론 기초](https://brain.dongwook.kim/notes/음악_이론_기초)
