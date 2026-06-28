@@ -199,3 +199,7 @@ Level: Glimpsed — CPU(연산·추론 담당), RAM(휘발성 작업 메모리),
 ## 영어_관계사_심화
 
 Level: Glimpsed — 전치사+관계대명사(in which) 구조 인지. 관계대명사 what 기본 노출. 복합관계대명사(whoever/whatever/whichever), 절 전체를 선행사로 받는 which, 유사관계대명사(as/but/than) 미노출.
+
+## 영어_부사절_심화
+
+Level: Glimpsed — while의 시간·양보 이중 용법 인지. as의 다중 용법(시간·이유·비례) 구분 미노출. 부사절 의미 유형(시간·조건·양보·이유·목적·결과·방식·비례) 세분화 전반 미노출.
