@@ -105,6 +105,7 @@ brain/
 - [영어 명사절](https://brain.dongwook.kim/notes/영어_명사절)
 - [영어 도치](https://brain.dongwook.kim/notes/영어_도치)
 - [영어 강조 구문](https://brain.dongwook.kim/notes/영어_강조_구문)
+- [영어 관계사 심화](https://brain.dongwook.kim/notes/영어_관계사_심화)
 
 **음악**
 - [음악 이론 기초](https://brain.dongwook.kim/notes/음악_이론_기초)
