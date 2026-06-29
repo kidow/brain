@@ -115,6 +115,7 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [영어 어휘 확장](https://brain.dongwook.kim/notes/영어/영어_어휘_확장)
 - [영어 회화](https://brain.dongwook.kim/notes/영어/영어_회화)
 - [영어 슬랭·관용어](https://brain.dongwook.kim/notes/영어/영어_슬랭·관용어)
+- [영어 발음](https://brain.dongwook.kim/notes/영어/영어_발음)
 
 **Music**
 - [음악 이론 기초](https://brain.dongwook.kim/notes/음악_이론_기초)
