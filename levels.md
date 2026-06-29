@@ -223,3 +223,7 @@ Level: Blank — 기본 관용어(break a leg / raining cats and dogs) 미노출
 ## 영어_발음
 
 Level: Glimpsed — 명사/동사 강세 이동(RE-cord/re-CORD), wanna류 축약, t 탈락 개념 알고 있음. 연음 규칙·flapping·모음 체계·리듬 패턴 등 체계적 정리는 미노출.
+
+## 영어_쓰기
+
+Level: Glimpsed — 간결함이 낫다는 직관 있음. 장황한 문장·반복 어느 정도 감지. 문단 구조·이메일 형식·문체 규칙·단락 전개 등 체계적 지식 미노출.
