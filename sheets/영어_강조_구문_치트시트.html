@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#0f172a">
+<title>영어 강조 구문 치트시트</title>
+<style>
+  :root {
+    --bg: #0f172a;
+    --fg: #e2e8f0;
+    --muted: #94a3b8;
+    --border: #334155;
+    --surface: #1e293b;
+    --accent: #60a5fa;
+    --accent-light: #1e3a5f;
+    --red: #f87171;
+    --green: #4ade80;
+    --orange: #fb923c;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1.5rem 1.25rem;
+  }
+  h1 { font-size: 1.4rem; font-weight: 700; color: var(--accent); margin-bottom: 0.25rem; }
+  .subtitle { color: var(--muted); font-size: 0.85rem; margin-bottom: 1.5rem; }
+  h2 {
+    font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em;
+    color: var(--muted); margin: 1.5rem 0 0.6rem; padding-bottom: 0.3rem; border-bottom: 1px solid var(--border);
+  }
+  table { width: 100%; border-collapse: collapse; font-size: 0.84rem; }
+  th { background: var(--surface); padding: 0.4rem 0.6rem; text-align: left; font-weight: 600; border: 1px solid var(--border); color: var(--fg); }
+  td { padding: 0.4rem 0.6rem; border: 1px solid var(--border); vertical-align: top; }
+  td code, th code { font-family: 'Courier New', monospace; font-weight: 700; color: var(--accent); font-size: 0.85rem; }
+  .tag { display: inline-block; font-size: 0.7rem; padding: 0.1rem 0.4rem; border-radius: 3px; font-weight: 600; }
+  .tag-red { background: #3f1515; color: var(--red); }
+  .tag-blue { background: var(--accent-light); color: var(--accent); }
+  .tag-gray { background: var(--surface); color: var(--muted); }
+  .rule-box {
+    background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--accent);
+    border-radius: 0 6px 6px 0; padding: 0.5rem 0.75rem; font-size: 0.84rem;
+  }
+  .rule-box + .rule-box { margin-top: 0.4rem; }
+  .rule-box code { font-family: 'Courier New', monospace; font-weight: 700; color: var(--accent); }
+  .wrong { color: var(--red); text-decoration: line-through; }
+  .right { color: var(--green); }
+  @media (max-width: 600px) { body { padding: 1rem; } }
+  @media print { body { padding: 0.5cm; } }
+</style>
+</head>
+<body>
+
+<h1>영어 강조 구문 치트시트</h1>
+<p class="subtitle">Emphatic Structures — do / cleft / 재귀대명사 / 어순 강조</p>
+
+<h2>do 강조</h2>
+<div class="rule-box">주어 + <code>do/does/did</code> + 동사원형 — 뒤 동사는 반드시 원형</div>
+<table>
+  <tr><th>예문</th><th>뜻</th></tr>
+  <tr><td>I <code>do</code> like you.</td><td>정말로 좋아해</td></tr>
+  <tr><td>She <code>does</code> know the answer.</td><td>정말 알고 있어</td></tr>
+  <tr><td>He <code>did</code> call me last night.</td><td>분명 전화했어</td></tr>
+</table>
+
+<h2>It-cleft (분열문)</h2>
+<div class="rule-box"><code>It is/was + 강조 대상 + that(who) + 나머지</code></div>
+<table>
+  <tr><th>강조 대상</th><th>예문</th></tr>
+  <tr><td>주어</td><td>It was <code>she</code> that broke the window.</td></tr>
+  <tr><td>목적어</td><td>It was <code>the window</code> that she broke.</td></tr>
+  <tr><td>부사구</td><td>It was <code>yesterday</code> that he called me.</td></tr>
+</table>
+<p class="subtitle">사람 강조 → <code>who</code> 가능. 부정: It was not she that broke it.</p>
+
+<h2>Wh-cleft (의사 분열문)</h2>
+<table>
+  <tr><th>형태</th><th>예문</th></tr>
+  <tr><td><code>What + 주어 + 동사 + is/was + 강조</code></td><td>What I need is a break.</td></tr>
+  <tr><td>역전형</td><td>A break is what I need.</td></tr>
+  <tr><td>All-cleft (오직 ~만)</td><td>All I want is peace. / All she did was cry.</td></tr>
+</table>
+
+<h2>재귀대명사 강조</h2>
+<div class="rule-box">강조할 명사 바로 뒤 또는 문장 끝에 <code>-self/-selves</code></div>
+<table>
+  <tr><th>구분</th><th>예문</th><th>생략 가능?</th></tr>
+  <tr><td>강조</td><td>I did it myself.</td><td><span class="right">✅ 생략 가능</span></td></tr>
+  <tr><td>재귀</td><td>I hurt myself.</td><td><span class="wrong">❌ 생략 불가</span></td></tr>
+</table>
+<p class="subtitle"><code>by oneself</code> = 혼자서(alone), 강조 용법과 다름</p>
+
+<h2>부사 강조 — Gradable vs Ungradable</h2>
+<table>
+  <tr><th>Gradable (very/extremely 등)</th><th>Ungradable (absolutely/completely 등)</th></tr>
+  <tr><td>tired</td><td>exhausted</td></tr>
+  <tr><td>good</td><td>perfect</td></tr>
+  <tr><td>surprised</td><td>amazed</td></tr>
+  <tr><td>bad</td><td>terrible / awful</td></tr>
+</table>
+<div class="rule-box"><span class="right">very tired</span> / <span class="right">absolutely exhausted</span> &nbsp;|&nbsp; <span class="wrong">very exhausted</span> / <span class="wrong">very perfect</span></div>
+
+<h2>어순 강조 (전치)</h2>
+<div class="rule-box">목적어·보어를 문두로 — 주어·동사 어순은 유지 (격식·문어체)</div>
+<table>
+  <tr><th>예문</th></tr>
+  <tr><td>This book I have read three times.</td></tr>
+  <tr><td>Happy I was not.</td></tr>
+  <tr><td>This I can do. That I cannot. (대비 강조)</td></tr>
+</table>
+
+</body>
+</html>

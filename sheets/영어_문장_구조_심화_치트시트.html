@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#0f172a">
+<title>영어 문장 구조 심화 치트시트</title>
+<style>
+  :root {
+    --bg: #0f172a; --fg: #e2e8f0; --muted: #94a3b8; --border: #334155; --surface: #1e293b;
+    --accent: #60a5fa; --accent-light: #1e3a5f; --red: #f87171; --green: #4ade80; --orange: #fb923c;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg); color: var(--fg); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 14px; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 1.5rem 1.25rem;
+  }
+  h1 { font-size: 1.4rem; font-weight: 700; color: var(--accent); margin-bottom: 0.25rem; }
+  .subtitle { color: var(--muted); font-size: 0.85rem; margin-bottom: 1.5rem; }
+  h2 {
+    font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em;
+    color: var(--muted); margin: 1.5rem 0 0.6rem; padding-bottom: 0.3rem; border-bottom: 1px solid var(--border);
+  }
+  table { width: 100%; border-collapse: collapse; font-size: 0.84rem; }
+  th { background: var(--surface); padding: 0.4rem 0.6rem; text-align: left; font-weight: 600; border: 1px solid var(--border); color: var(--fg); }
+  td { padding: 0.4rem 0.6rem; border: 1px solid var(--border); vertical-align: top; }
+  td code, th code { font-family: 'Courier New', monospace; font-weight: 700; color: var(--accent); font-size: 0.85rem; }
+  .tag { display: inline-block; font-size: 0.7rem; padding: 0.1rem 0.4rem; border-radius: 3px; font-weight: 600; }
+  .tag-red { background: #3f1515; color: var(--red); }
+  .tag-blue { background: var(--accent-light); color: var(--accent); }
+  .tag-gray { background: var(--surface); color: var(--muted); }
+  .rule-box {
+    background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--accent);
+    border-radius: 0 6px 6px 0; padding: 0.5rem 0.75rem; font-size: 0.84rem;
+  }
+  .rule-box + .rule-box { margin-top: 0.4rem; }
+  .rule-box code { font-family: 'Courier New', monospace; font-weight: 700; color: var(--accent); }
+  .wrong { color: var(--red); text-decoration: line-through; }
+  .right { color: var(--green); }
+  @media (max-width: 600px) { body { padding: 1rem; } }
+  @media print { body { padding: 0.5cm; } }
+</style>
+</head>
+<body>
+
+<h1>영어 문장 구조 심화 치트시트</h1>
+<p class="subtitle">Advanced Sentence Structure — 정보구조 / 병렬 / 수동태 전략 / 분열문</p>
+
+<h2>정보 구조 — 화제 vs 초점</h2>
+<table>
+  <tr><th>개념</th><th>뜻</th><th>위치</th></tr>
+  <tr><td>화제(Topic)</td><td>문장이 무엇에 대한 이야기인지</td><td>보통 주어</td></tr>
+  <tr><td>초점(Focus)</td><td>새 정보·강조</td><td>보통 문장 끝</td></tr>
+</table>
+
+<h2>문말 초점 원칙 (End-Focus)</h2>
+<div class="rule-box">중요·새 정보·긴 요소는 문장 끝으로 — 어색한 영어 문장 원인 대부분 = 이 원칙 위반</div>
+<table>
+  <tr><td><span class="wrong">That she passed surprised everyone.</span></td></tr>
+  <tr><td><span class="right">It surprised everyone that she passed.</span></td></tr>
+</table>
+
+<h2>병렬 구조 (Parallel Structure)</h2>
+<table>
+  <tr><td><span class="wrong">She likes reading, to swim, and going to the gym.</span></td></tr>
+  <tr><td><span class="right">She likes reading, swimming, and going to the gym.</span></td></tr>
+</table>
+<p class="subtitle">and/but/or, not only~but also, both~and, either~or 양쪽 → 같은 품사·형태</p>
+
+<h2>수동태의 전략적 사용</h2>
+<table>
+  <tr><th>용도</th><th>예</th></tr>
+  <tr><td>행위자 생략</td><td>Mistakes were made.</td></tr>
+  <tr><td>화제 유지</td><td>Police arrested the suspect. The suspect was later released.</td></tr>
+  <tr><td>by구 생략 기준</td><td>불명·비중요 → 생략 / 중요 신정보 → by 명시</td></tr>
+</table>
+
+<h2>문장 길이와 리듬</h2>
+<table>
+  <tr><th>길이</th><th>효과</th></tr>
+  <tr><td>짧은 문장</td><td>충격·강조·결론</td></tr>
+  <tr><td>긴 문장</td><td>복잡한 관계·흐름·배경</td></tr>
+</table>
+<p class="subtitle">실용 규칙: 핵심 메시지=짧게, 배경=길게, 3~4문장마다 길이 변화</p>
+
+<h2>명사화 (Nominalization)</h2>
+<table>
+  <tr><td>decide → decision</td><td>develop → development</td></tr>
+  <tr><td>analyze → analysis</td><td>significant → significance</td></tr>
+</table>
+<div class="rule-box"><span class="wrong">The implementation of the recommendation resulted in the improvement of performance.</span><br><span class="right">Implementing the recommendation improved performance.</span></div>
+
+<h2>존재 구문 (There)</h2>
+<table>
+  <tr><td>There is a problem.</td><td>신정보 도입</td></tr>
+  <tr><td>There is a reason for this.</td><td>존재함(신정보)</td></tr>
+  <tr><td>It is the reason I left.</td><td>이미 언급된 것 가리킴</td></tr>
+</table>
+
+<h2>삽입 구문 (Parenthetical)</h2>
+<table>
+  <tr><th>표시</th><th>느낌</th></tr>
+  <tr><td>쉼표</td><td>중립, 가장 일반적</td></tr>
+  <tr><td>대시 —</td><td>강조·극적, 구어적</td></tr>
+  <tr><td>괄호 ( )</td><td>부가·참고, 읽어도 그만</td></tr>
+</table>
+<div class="rule-box">삽입 구문 제거해도 문장이 완전해야 함 — 한 문장에 하나가 원칙</div>
+
+<h2>구정보·신정보와 관사</h2>
+<div class="rule-box">신정보(처음) → a/an &nbsp;|&nbsp; 구정보(이미 언급) → the</div>
+<table>
+  <tr><td>I saw <code>a</code> dog. <code>The</code> dog was barking at <code>a</code> cat. <code>The</code> cat ran away.</td></tr>
+</table>
+
+<h2>분열문 (Cleft Sentences)</h2>
+<table>
+  <tr><th>유형</th><th>구조</th><th>예</th></tr>
+  <tr><td>It-cleft</td><td>It is/was ~ that</td><td>It was she who bought the car.</td></tr>
+  <tr><td>Wh-cleft</td><td>What + 주어 + 동사 = 강조</td><td>What I need is a break.</td></tr>
+  <tr><td>역 Wh-cleft</td><td>강조 + is what ~</td><td>A break is what I need.</td></tr>
+</table>
+
+<h2>대등 연결 vs 종속 연결</h2>
+<table>
+  <tr><th>유형</th><th>예</th><th>효과</th></tr>
+  <tr><td>대등(and/but)</td><td>He worked hard, and he succeeded.</td><td>두 사건 나열, 인과 불명확</td></tr>
+  <tr><td>종속(because)</td><td>Because he worked hard, he succeeded.</td><td>인과 명시</td></tr>
+</table>
+
+<h2>범위 부사 (only의 위치)</h2>
+<table>
+  <tr><td>Only she told him the truth.</td><td>그녀만 말했다</td></tr>
+  <tr><td>She only told him the truth.</td><td>말하기만 했다</td></tr>
+  <tr><td>She told only him the truth.</td><td>그에게만 말했다</td></tr>
+  <tr><td>She told him only the truth.</td><td>진실만 말했다</td></tr>
+</table>
+
+<h2>문장 구조와 격식 수준</h2>
+<table>
+  <tr><th>비격식</th><th>격식</th></tr>
+  <tr><td>짧은 문장, 구동사</td><td>긴 복합문, 단일 동사</td></tr>
+  <tr><td>대등 연결</td><td>종속 연결</td></tr>
+  <tr><td>능동태 위주</td><td>수동태·명사화 혼용</td></tr>
+</table>
+<div class="rule-box">격식 ≠ 복잡함 — 명확함이 우선</div>
+
+<h2>주제문과 단락 구조</h2>
+<table>
+  <tr><td>1. 주제문(Topic Sentence)</td><td>단락이 무엇에 관한지</td></tr>
+  <tr><td>2. 뒷받침 문장</td><td>근거·예시·설명</td></tr>
+  <tr><td>3. 마무리 문장</td><td>요약 또는 다음 단락 연결</td></tr>
+</table>
+
+</body>
+</html>

@@ -199,6 +199,16 @@ Quick-reference sheets served live at [brain.dongwook.kim](https://brain.dongwoo
 - [영어 5형식 치트시트](https://brain.dongwook.kim/sheets/영어_5형식_치트시트.html)
 - [영어 to부정사 치트시트](https://brain.dongwook.kim/sheets/영어_to부정사_치트시트.html)
 - [영어 비교급 최상급 치트시트](https://brain.dongwook.kim/sheets/영어_비교급_최상급_치트시트.html)
+- [영어 강조 구문 치트시트](https://brain.dongwook.kim/sheets/영어_강조_구문_치트시트.html)
+- [영어 관계사 심화 치트시트](https://brain.dongwook.kim/sheets/영어_관계사_심화_치트시트.html)
+- [영어 구두점 치트시트](https://brain.dongwook.kim/sheets/영어_구두점_치트시트.html)
+- [영어 도치 치트시트](https://brain.dongwook.kim/sheets/영어_도치_치트시트.html)
+- [영어 동명사 치트시트](https://brain.dongwook.kim/sheets/영어_동명사_치트시트.html)
+- [영어 동사구 심화 치트시트](https://brain.dongwook.kim/sheets/영어_동사구_심화_치트시트.html)
+- [영어 명사절 치트시트](https://brain.dongwook.kim/sheets/영어_명사절_치트시트.html)
+- [영어 문장 구조 심화 치트시트](https://brain.dongwook.kim/sheets/영어_문장_구조_심화_치트시트.html)
+- [영어 부사절 심화 치트시트](https://brain.dongwook.kim/sheets/영어_부사절_심화_치트시트.html)
+- [영어 분사 치트시트](https://brain.dongwook.kim/sheets/영어_분사_치트시트.html)
 
 **Music**
 - [음악 이론 기초 치트시트](https://brain.dongwook.kim/sheets/음악_이론_기초_치트시트.html)

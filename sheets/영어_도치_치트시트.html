@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#0f172a">
+<title>영어 도치 치트시트</title>
+<style>
+  :root {
+    --bg: #0f172a; --fg: #e2e8f0; --muted: #94a3b8; --border: #334155; --surface: #1e293b;
+    --accent: #60a5fa; --accent-light: #1e3a5f; --red: #f87171; --green: #4ade80; --orange: #fb923c;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg); color: var(--fg); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 14px; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 1.5rem 1.25rem;
+  }
+  h1 { font-size: 1.4rem; font-weight: 700; color: var(--accent); margin-bottom: 0.25rem; }
+  .subtitle { color: var(--muted); font-size: 0.85rem; margin-bottom: 1.5rem; }
+  h2 {
+    font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em;
+    color: var(--muted); margin: 1.5rem 0 0.6rem; padding-bottom: 0.3rem; border-bottom: 1px solid var(--border);
+  }
+  table { width: 100%; border-collapse: collapse; font-size: 0.84rem; }
+  th { background: var(--surface); padding: 0.4rem 0.6rem; text-align: left; font-weight: 600; border: 1px solid var(--border); color: var(--fg); }
+  td { padding: 0.4rem 0.6rem; border: 1px solid var(--border); vertical-align: top; }
+  td code, th code { font-family: 'Courier New', monospace; font-weight: 700; color: var(--accent); font-size: 0.85rem; }
+  .tag { display: inline-block; font-size: 0.7rem; padding: 0.1rem 0.4rem; border-radius: 3px; font-weight: 600; }
+  .tag-red { background: #3f1515; color: var(--red); }
+  .tag-blue { background: var(--accent-light); color: var(--accent); }
+  .tag-gray { background: var(--surface); color: var(--muted); }
+  .rule-box {
+    background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--accent);
+    border-radius: 0 6px 6px 0; padding: 0.5rem 0.75rem; font-size: 0.84rem;
+  }
+  .rule-box + .rule-box { margin-top: 0.4rem; }
+  .rule-box code { font-family: 'Courier New', monospace; font-weight: 700; color: var(--accent); }
+  .wrong { color: var(--red); text-decoration: line-through; }
+  .right { color: var(--green); }
+  @media (max-width: 600px) { body { padding: 1rem; } }
+  @media print { body { padding: 0.5cm; } }
+</style>
+</head>
+<body>
+
+<h1>영어 도치 치트시트</h1>
+<p class="subtitle">English Inversion — 부정어 / 조건절 / 장소부사구 / So·Neither / Only</p>
+
+<div class="rule-box">기본 어순(주어+동사)을 동사+주어로 뒤집는 것 — 강조 표현을 문두에 두면 동사가 따라옴</div>
+
+<h2>부정어 도치</h2>
+<div class="rule-box"><code>부정어 + 조동사/be동사 + 주어 + 동사원형</code></div>
+<table>
+  <tr><th>부정어</th><th>예문</th></tr>
+  <tr><td>Never</td><td>Never have I seen this.</td></tr>
+  <tr><td>Rarely</td><td>Rarely does she speak in public.</td></tr>
+  <tr><td>Hardly</td><td>Hardly did he sleep last night.</td></tr>
+</table>
+
+<h2>Not only ~ but also</h2>
+<div class="rule-box">Not only가 문두 → 첫 절만 도치, 두 번째 절은 도치 안 함</div>
+<table>
+  <tr><td>Not only <code>did</code> he lie, but he also stole money.</td></tr>
+  <tr><td>Not until midnight <code>did</code> he arrive.</td></tr>
+</table>
+
+<h2>조건절 도치 (if 생략)</h2>
+<table>
+  <tr><th>if절</th><th>도치형</th></tr>
+  <tr><td>If he should come</td><td>Should he come</td></tr>
+  <tr><td>If I were you</td><td>Were I you</td></tr>
+  <tr><td>If I had known</td><td>Had I known</td></tr>
+</table>
+<p class="subtitle">이메일 관용구: Should you have any questions, do not hesitate to contact us.</p>
+
+<h2>장소·방향 부사구 도치</h2>
+<table>
+  <tr><td>On the wall hung a beautiful painting.</td></tr>
+  <tr><td>Here comes the bus.</td></tr>
+  <tr><td>In the corner sat an old man.</td></tr>
+</table>
+<div class="rule-box">주어가 대명사면 도치 없음 — <code>Here he comes.</code> (대명사) vs <code>Here comes the bus.</code> (명사)</div>
+
+<h2>So / Neither 도치</h2>
+<table>
+  <tr><th>형태</th><th>의미</th><th>예문</th></tr>
+  <tr><td><code>So + 조동사 + 주어</code></td><td>~도 그렇다 (긍정 동의)</td><td>A: I love coffee. B: So do I.</td></tr>
+  <tr><td><code>Neither/Nor + 조동사 + 주어</code></td><td>~도 아니다 (부정 동의)</td><td>A: I don't like it. B: Neither do I.</td></tr>
+</table>
+<p class="subtitle">조동사는 앞 문장 동사에 맞춤: love→do, is→is, can→can</p>
+
+<h2>Only + 부사구 도치</h2>
+<table>
+  <tr><td>Only then <code>did</code> I understand.</td></tr>
+  <tr><td>Only after the meeting <code>did</code> she tell him.</td></tr>
+  <tr><td>Only by working hard <code>can</code> you succeed.</td></tr>
+</table>
+<div class="rule-box">Only + 주어이면 도치 없음: <code>Only she knows the answer.</code></div>
+
+</body>
+</html>

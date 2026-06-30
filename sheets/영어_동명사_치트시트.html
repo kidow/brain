@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#0f172a">
+<title>영어 동명사 치트시트</title>
+<style>
+  :root {
+    --bg: #0f172a; --fg: #e2e8f0; --muted: #94a3b8; --border: #334155; --surface: #1e293b;
+    --accent: #60a5fa; --accent-light: #1e3a5f; --red: #f87171; --green: #4ade80; --orange: #fb923c;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg); color: var(--fg); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 14px; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 1.5rem 1.25rem;
+  }
+  h1 { font-size: 1.4rem; font-weight: 700; color: var(--accent); margin-bottom: 0.25rem; }
+  .subtitle { color: var(--muted); font-size: 0.85rem; margin-bottom: 1.5rem; }
+  h2 {
+    font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em;
+    color: var(--muted); margin: 1.5rem 0 0.6rem; padding-bottom: 0.3rem; border-bottom: 1px solid var(--border);
+  }
+  table { width: 100%; border-collapse: collapse; font-size: 0.84rem; }
+  th { background: var(--surface); padding: 0.4rem 0.6rem; text-align: left; font-weight: 600; border: 1px solid var(--border); color: var(--fg); }
+  td { padding: 0.4rem 0.6rem; border: 1px solid var(--border); vertical-align: top; }
+  td code, th code { font-family: 'Courier New', monospace; font-weight: 700; color: var(--accent); font-size: 0.85rem; }
+  .tag { display: inline-block; font-size: 0.7rem; padding: 0.1rem 0.4rem; border-radius: 3px; font-weight: 600; }
+  .tag-red { background: #3f1515; color: var(--red); }
+  .tag-blue { background: var(--accent-light); color: var(--accent); }
+  .tag-gray { background: var(--surface); color: var(--muted); }
+  .rule-box {
+    background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--accent);
+    border-radius: 0 6px 6px 0; padding: 0.5rem 0.75rem; font-size: 0.84rem;
+  }
+  .rule-box + .rule-box { margin-top: 0.4rem; }
+  .rule-box code { font-family: 'Courier New', monospace; font-weight: 700; color: var(--accent); }
+  .wrong { color: var(--red); text-decoration: line-through; }
+  .right { color: var(--green); }
+  @media (max-width: 600px) { body { padding: 1rem; } }
+  @media print { body { padding: 0.5cm; } }
+</style>
+</head>
+<body>
+
+<h1>영어 동명사 치트시트</h1>
+<p class="subtitle">English Gerund — 동명사 vs to부정사 / 의미상 주어 / 관용표현</p>
+
+<h2>동명사 vs 현재분사</h2>
+<table>
+  <tr><th>형태</th><th>역할</th><th>예문</th></tr>
+  <tr><td>동명사</td><td>명사 (주어 자리)</td><td>Swimming is fun.</td></tr>
+  <tr><td>현재분사</td><td>형용사 (명사 수식)</td><td>The swimming boy is fast.</td></tr>
+  <tr><td>현재분사</td><td>동사 (진행형)</td><td>He is swimming.</td></tr>
+</table>
+
+<h2>의미상 주어</h2>
+<div class="rule-box">주절 주어와 같으면 생략, 다르면 소유격/목적격 표시</div>
+<table>
+  <tr><td>격식: I don't mind <code>your</code> being late.</td></tr>
+  <tr><td>구어: I don't mind <code>you</code> being late.</td></tr>
+</table>
+
+<h2>동명사 vs to부정사 — 동사 목적어</h2>
+<table>
+  <tr><th>동명사만</th><th>to부정사만</th><th>둘 다 (의미 동일)</th></tr>
+  <tr><td>enjoy / finish / avoid / mind</td><td>want / hope / decide / plan</td><td>like / love / hate</td></tr>
+  <tr><td>consider / suggest / admit / deny</td><td>promise / refuse / expect / need</td><td>begin / start / continue</td></tr>
+  <tr><td>quit / postpone / practice / give up</td><td>agree / manage / fail / afford</td><td></td></tr>
+</table>
+<p class="subtitle">패턴: 동명사 = 이미 일어난 일·회피 / to부정사 = 미래·의지·계획</p>
+
+<h2>의미가 달라지는 동사</h2>
+<table>
+  <tr><th>동사</th><th>+ -ing</th><th>+ to부정사</th></tr>
+  <tr><td>remember</td><td>locking — 잠갔던 것 기억(과거)</td><td>to lock — 잠가야 함을 기억(미래)</td></tr>
+  <tr><td>forget</td><td>meeting — 만났던 것 잊음</td><td>to meet — 만나야 함을 잊음</td></tr>
+  <tr><td>stop</td><td>smoking — 끊음</td><td>to smoke — 피우려고 멈춤</td></tr>
+  <tr><td>try</td><td>eating — 시험 삼아 해봄</td><td>to eat — 노력·시도</td></tr>
+</table>
+
+<h2>전치사 + 동명사</h2>
+<div class="rule-box">전치사 뒤엔 반드시 동명사 — <span class="wrong">good at to swim</span> → <span class="right">good at swimming</span></div>
+<table>
+  <tr><td><code>look forward to -ing</code></td><td>I look forward to seeing you.</td></tr>
+  <tr><td><code>be used to -ing</code></td><td>I'm used to waking up early. (used to + 원형 = 과거습관과 다름)</td></tr>
+  <tr><td><code>object to -ing</code></td><td>He objected to paying more.</td></tr>
+</table>
+
+<h2>동명사의 시제·태·부정</h2>
+<table>
+  <tr><th>형태</th><th>예문</th></tr>
+  <tr><td>완료 동명사</td><td>She admitted having stolen it.</td></tr>
+  <tr><td>수동 동명사</td><td>I hate being ignored.</td></tr>
+  <tr><td>완료 수동</td><td>He denied having been told.</td></tr>
+  <tr><td>부정(not 동명사 앞)</td><td>I regret not telling her.</td></tr>
+</table>
+
+<h2>동명사 관용 표현</h2>
+<table>
+  <tr><td><code>go + -ing</code></td><td>go swimming / hiking / shopping</td></tr>
+  <tr><td><code>can't help -ing</code></td><td>~하지 않을 수 없다</td></tr>
+  <tr><td><code>feel like -ing</code></td><td>~하고 싶다</td></tr>
+  <tr><td><code>it's no use -ing</code></td><td>소용없다</td></tr>
+  <tr><td><code>be worth -ing</code></td><td>~할 가치 있다</td></tr>
+  <tr><td><code>have trouble -ing</code></td><td>~하는 데 어려움</td></tr>
+  <tr><td><code>spend/waste 시간 -ing</code></td><td>He spent hours fixing the car.</td></tr>
+</table>
+
+</body>
+</html>
