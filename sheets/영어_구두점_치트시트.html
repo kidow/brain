@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#0f172a">
+<title>영어 구두점 치트시트</title>
+<style>
+  :root {
+    --bg: #0f172a; --fg: #e2e8f0; --muted: #94a3b8; --border: #334155; --surface: #1e293b;
+    --accent: #60a5fa; --accent-light: #1e3a5f; --red: #f87171; --green: #4ade80; --orange: #fb923c;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg); color: var(--fg); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 14px; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 1.5rem 1.25rem;
+  }
+  h1 { font-size: 1.4rem; font-weight: 700; color: var(--accent); margin-bottom: 0.25rem; }
+  .subtitle { color: var(--muted); font-size: 0.85rem; margin-bottom: 1.5rem; }
+  h2 {
+    font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em;
+    color: var(--muted); margin: 1.5rem 0 0.6rem; padding-bottom: 0.3rem; border-bottom: 1px solid var(--border);
+  }
+  table { width: 100%; border-collapse: collapse; font-size: 0.84rem; }
+  th { background: var(--surface); padding: 0.4rem 0.6rem; text-align: left; font-weight: 600; border: 1px solid var(--border); color: var(--fg); }
+  td { padding: 0.4rem 0.6rem; border: 1px solid var(--border); vertical-align: top; }
+  td code, th code { font-family: 'Courier New', monospace; font-weight: 700; color: var(--accent); font-size: 0.85rem; }
+  .tag { display: inline-block; font-size: 0.7rem; padding: 0.1rem 0.4rem; border-radius: 3px; font-weight: 600; }
+  .tag-red { background: #3f1515; color: var(--red); }
+  .tag-blue { background: var(--accent-light); color: var(--accent); }
+  .tag-gray { background: var(--surface); color: var(--muted); }
+  .rule-box {
+    background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--accent);
+    border-radius: 0 6px 6px 0; padding: 0.5rem 0.75rem; font-size: 0.84rem;
+  }
+  .rule-box + .rule-box { margin-top: 0.4rem; }
+  .rule-box code { font-family: 'Courier New', monospace; font-weight: 700; color: var(--accent); }
+  .wrong { color: var(--red); text-decoration: line-through; }
+  .right { color: var(--green); }
+  @media (max-width: 600px) { body { padding: 1rem; } }
+  @media print { body { padding: 0.5cm; } }
+</style>
+</head>
+<body>
+
+<h1>영어 구두점 치트시트</h1>
+<p class="subtitle">English Punctuation — 쉼표 / 세미콜론 / 콜론 / 대시 / 따옴표</p>
+
+<h2>마침표·물음표·느낌표</h2>
+<div class="rule-box">직접 의문문만 <code>?</code> — 간접의문문은 마침표: <span class="right">I wonder if he's coming.</span></div>
+
+<h2>쉼표 (Comma)</h2>
+<table>
+  <tr><th>상황</th><th>예문</th></tr>
+  <tr><td>독립절+독립절</td><td>I was tired, but I kept working.</td></tr>
+  <tr><td>동사구 연결(쉼표 불필요)</td><td>I was tired but kept working.</td></tr>
+  <tr><td>Oxford comma</td><td>apples, oranges, and bananas.</td></tr>
+  <tr><td>문두 어구 뒤</td><td>However, I disagree.</td></tr>
+  <tr><td>삽입 구문 양쪽</td><td>My boss, a former engineer, understood.</td></tr>
+</table>
+<div class="rule-box"><span class="wrong">The man who came yesterday, said hello.</span> — 주어·동사 사이 쉼표 금지</div>
+
+<h2>세미콜론 (;)</h2>
+<table>
+  <tr><th>용법</th><th>예문</th></tr>
+  <tr><td>접속사 없이 독립절 연결</td><td>I was tired; I went to bed early.</td></tr>
+  <tr><td>접속부사 앞 (뒤엔 쉼표)</td><td>I was tired; however, I kept working.</td></tr>
+  <tr><td>쉼표 포함 항목 열거</td><td>John, the manager; Sarah, the designer.</td></tr>
+</table>
+<div class="rule-box"><span class="wrong">Although I was tired; I kept working.</span> — 종속절-주절 사이엔 금지</div>
+
+<h2>콜론 (:)</h2>
+<div class="rule-box">앞은 반드시 완전한 절 — <span class="wrong">I need: milk, eggs.</span> → <span class="right">I need three things: milk, eggs, and bread.</span></div>
+<table>
+  <tr><td>인용 도입(격식)</td><td>He said: "Never give up."</td></tr>
+  <tr><td>제목·부제</td><td>English Grammar: A Complete Guide</td></tr>
+</table>
+
+<h2>대시 — Em / En / 하이픈</h2>
+<table>
+  <tr><th>기호</th><th>용도</th><th>예</th></tr>
+  <tr><td><code>—</code> em dash</td><td>삽입·강조·급전환</td><td>She finally arrived — three hours late.</td></tr>
+  <tr><td><code>–</code> en dash</td><td>범위·대립</td><td>pages 10–20 / 2020–2024</td></tr>
+  <tr><td><code>-</code> 하이픈</td><td>단어 결합</td><td>well-known / twenty-three</td></tr>
+</table>
+<p class="subtitle">강도: 하이픈 &lt; en dash &lt; em dash</p>
+
+<h2>따옴표</h2>
+<table>
+  <tr><th></th><th>미국식</th><th>영국식</th></tr>
+  <tr><td>인용 부호</td><td><code>"..."</code></td><td><code>'...'</code></td></tr>
+  <tr><td>마침표·쉼표 위치</td><td>따옴표 안</td><td>따옴표 밖</td></tr>
+</table>
+<div class="rule-box">물음표·느낌표 — 인용 내용에 속하면 안, 문장에 속하면 밖: She asked, "Are you coming?" / Did she say "I'm tired"?</div>
+
+<h2>아포스트로피</h2>
+<table>
+  <tr><th>형태</th><th>예</th></tr>
+  <tr><td>단수 소유격</td><td>the dog's tail</td></tr>
+  <tr><td>복수(-s) 소유격</td><td>the dogs' tails</td></tr>
+  <tr><td>불규칙 복수 소유격</td><td>the children's toys</td></tr>
+  <tr><td>고유명사 -s 끝</td><td>James's(미) / James'(영)</td></tr>
+</table>
+<div class="rule-box"><code>it's</code> = it is/has &nbsp;|&nbsp; <code>its</code> = 소유격 (아포스트로피 없음) &nbsp;|&nbsp; <span class="wrong">The 1990's</span> → <span class="right">The 1990s</span></div>
+
+<h2>괄호와 줄임표</h2>
+<table>
+  <tr><th>기호</th><th>용도</th></tr>
+  <tr><td><code>( )</code></td><td>부가·참고 정보 — 제거해도 문장 완전</td></tr>
+  <tr><td><code>[ ]</code></td><td>인용 내 편집자 개입 표시</td></tr>
+  <tr><td><code>…</code></td><td>인용 생략 / 말 흐림 / 긴장감</td></tr>
+</table>
+
+</body>
+</html>

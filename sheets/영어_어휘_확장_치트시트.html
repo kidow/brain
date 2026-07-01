@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#0f172a">
+<title>영어 어휘 확장 치트시트</title>
+<style>
+  :root {
+    --bg: #0f172a; --fg: #e2e8f0; --muted: #94a3b8; --border: #334155; --surface: #1e293b;
+    --accent: #60a5fa; --accent-light: #1e3a5f; --red: #f87171; --green: #4ade80; --orange: #fb923c;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg); color: var(--fg); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 14px; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 1.5rem 1.25rem;
+  }
+  h1 { font-size: 1.4rem; font-weight: 700; color: var(--accent); margin-bottom: 0.25rem; }
+  .subtitle { color: var(--muted); font-size: 0.85rem; margin-bottom: 1.5rem; }
+  h2 {
+    font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em;
+    color: var(--muted); margin: 1.5rem 0 0.6rem; padding-bottom: 0.3rem; border-bottom: 1px solid var(--border);
+  }
+  table { width: 100%; border-collapse: collapse; font-size: 0.84rem; }
+  th { background: var(--surface); padding: 0.4rem 0.6rem; text-align: left; font-weight: 600; border: 1px solid var(--border); color: var(--fg); }
+  td { padding: 0.4rem 0.6rem; border: 1px solid var(--border); vertical-align: top; }
+  td code, th code { font-family: 'Courier New', monospace; font-weight: 700; color: var(--accent); font-size: 0.85rem; }
+  .rule-box {
+    background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--accent);
+    border-radius: 0 6px 6px 0; padding: 0.5rem 0.75rem; font-size: 0.84rem;
+  }
+  .wrong { color: var(--red); text-decoration: line-through; }
+  .right { color: var(--green); }
+  @media (max-width: 600px) { body { padding: 1rem; } }
+  @media print { body { padding: 0.5cm; } }
+</style>
+</head>
+<body>
+
+<h1>영어 어휘 확장 치트시트</h1>
+<p class="subtitle">Vocabulary Building — 어근·접두사·접미사 / 콜로케이션 / 뉘앙스</p>
+
+<h2>어근 (Root)</h2>
+<table>
+  <tr><th>어근</th><th>의미</th><th>예시</th></tr>
+  <tr><td><code>port</code></td><td>운반하다</td><td>transport, export, portable</td></tr>
+  <tr><td><code>dict</code></td><td>말하다</td><td>predict, contradict, verdict</td></tr>
+  <tr><td><code>script/scrib</code></td><td>쓰다</td><td>describe, prescription, subscribe</td></tr>
+  <tr><td><code>rupt</code></td><td>끊다·깨다</td><td>interrupt, erupt, corrupt</td></tr>
+  <tr><td><code>vis/vid</code></td><td>보다</td><td>vision, visible, evidence</td></tr>
+  <tr><td><code>duc/duct</code></td><td>이끌다</td><td>produce, educate, conduct</td></tr>
+</table>
+
+<h2>접두사 (Prefix)</h2>
+<table>
+  <tr><th>접두사</th><th>의미</th></tr>
+  <tr><td><code>un- / in-/im-/ir-/il- / dis- / non- / anti-</code></td><td>부정·반대</td></tr>
+  <tr><td><code>pre-</code></td><td>이전</td></tr>
+  <tr><td><code>post-</code></td><td>이후</td></tr>
+  <tr><td><code>over- / under-</code></td><td>초과 / 부족</td></tr>
+  <tr><td><code>re-</code></td><td>다시</td></tr>
+</table>
+<div class="rule-box">"unprecedented" = un(부정) + precedent(선례) + ed → 전례 없는</div>
+
+<h2>접미사 (Suffix) — 품사 변환</h2>
+<table>
+  <tr><th>변환</th><th>접미사</th><th>예</th></tr>
+  <tr><td>동사→명사</td><td>-tion/-sion / -ment / -er/-or / -ance/-ence</td><td>decide→decision</td></tr>
+  <tr><td>형용사→명사</td><td>-ness / -ity</td><td>happy→happiness</td></tr>
+  <tr><td>명사/동사→형용사</td><td>-ful/-less / -able/-ible / -ous / -al</td><td>help→helpful</td></tr>
+  <tr><td>형용사→부사</td><td>-ly</td><td>quick→quickly</td></tr>
+</table>
+
+<h2>콜로케이션 (Collocation)</h2>
+<table>
+  <tr><td><span class="right">make a decision</span></td><td><span class="wrong">do a decision</span></td></tr>
+  <tr><td><span class="right">do homework</span></td><td><span class="wrong">make homework</span></td></tr>
+  <tr><td><span class="right">take a photo</span></td><td><span class="wrong">make a photo</span></td></tr>
+  <tr><td><span class="right">heavy rain</span></td><td><span class="wrong">strong rain</span></td></tr>
+</table>
+<p class="subtitle">단어 하나가 아닌 짝으로 암기 — 직역은 콜로케이션을 모름</p>
+
+<h2>다의어 vs 동음이의어</h2>
+<table>
+  <tr><td>다의어</td><td>하나의 단어, 파생 의미 — "bank"(은행/강둑/기울다)</td></tr>
+  <tr><td>동음이의어</td><td>형태 같지만 기원 다름 — "bat"(방망이/박쥐)</td></tr>
+</table>
+
+<h2>어휘 수준 조절</h2>
+<table>
+  <tr><th>비격식</th><th>중립</th><th>격식</th></tr>
+  <tr><td>get</td><td>obtain</td><td>acquire</td></tr>
+  <tr><td>use</td><td>utilize</td><td>employ</td></tr>
+  <tr><td>show</td><td>demonstrate</td><td>illustrate</td></tr>
+  <tr><td>help</td><td>assist</td><td>facilitate</td></tr>
+</table>
+<div class="rule-box">격식 남발이 명확성 해침 — <span class="wrong">endeavour to ascertain the veracity</span> → <span class="right">check if it's true</span></div>
+
+<h2>동의어의 미묘한 차이</h2>
+<table>
+  <tr><th>말하다</th><th>뜻</th></tr>
+  <tr><td>say</td><td>내용 중심</td></tr>
+  <tr><td>tell</td><td>청자 중심 (목적어 필수)</td></tr>
+  <tr><td>speak</td><td>말하는 행위</td></tr>
+  <tr><td>talk</td><td>대화·교류</td></tr>
+</table>
+<table>
+  <tr><th>보다</th><th>뜻</th></tr>
+  <tr><td>see</td><td>자연스럽게 눈에 들어옴</td></tr>
+  <tr><td>look</td><td>의도적 시선</td></tr>
+  <tr><td>watch</td><td>움직이는 것 집중해서 봄</td></tr>
+</table>
+
+<h2>어휘 확장 학습 전략</h2>
+<table>
+  <tr><td>어휘 묶음 학습</td><td>nation→national→nationality→internationally — 어근 중심 파생 묶음</td></tr>
+  <tr><td>입력 기반 확장</td><td>모르는 단어 → 문맥 추론 → 확인</td></tr>
+  <tr><td>맥락 결합</td><td>단어 카드 대신 예문으로 암기</td></tr>
+  <tr><td>간격 반복</td><td>1일 → 3일 → 1주 → 1개월</td></tr>
+  <tr><td>고빈도 우선</td><td>상위 1,000개 단어가 일상 텍스트 85% 커버</td></tr>
+</table>
+
+</body>
+</html>

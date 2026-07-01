@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#0f172a">
+<title>영어 분사 치트시트</title>
+<style>
+  :root {
+    --bg: #0f172a; --fg: #e2e8f0; --muted: #94a3b8; --border: #334155; --surface: #1e293b;
+    --accent: #60a5fa; --accent-light: #1e3a5f; --red: #f87171; --green: #4ade80; --orange: #fb923c;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg); color: var(--fg); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 14px; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 1.5rem 1.25rem;
+  }
+  h1 { font-size: 1.4rem; font-weight: 700; color: var(--accent); margin-bottom: 0.25rem; }
+  .subtitle { color: var(--muted); font-size: 0.85rem; margin-bottom: 1.5rem; }
+  h2 {
+    font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em;
+    color: var(--muted); margin: 1.5rem 0 0.6rem; padding-bottom: 0.3rem; border-bottom: 1px solid var(--border);
+  }
+  table { width: 100%; border-collapse: collapse; font-size: 0.84rem; }
+  th { background: var(--surface); padding: 0.4rem 0.6rem; text-align: left; font-weight: 600; border: 1px solid var(--border); color: var(--fg); }
+  td { padding: 0.4rem 0.6rem; border: 1px solid var(--border); vertical-align: top; }
+  td code, th code { font-family: 'Courier New', monospace; font-weight: 700; color: var(--accent); font-size: 0.85rem; }
+  .tag { display: inline-block; font-size: 0.7rem; padding: 0.1rem 0.4rem; border-radius: 3px; font-weight: 600; }
+  .tag-red { background: #3f1515; color: var(--red); }
+  .tag-blue { background: var(--accent-light); color: var(--accent); }
+  .tag-gray { background: var(--surface); color: var(--muted); }
+  .rule-box {
+    background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--accent);
+    border-radius: 0 6px 6px 0; padding: 0.5rem 0.75rem; font-size: 0.84rem;
+  }
+  .rule-box + .rule-box { margin-top: 0.4rem; }
+  .rule-box code { font-family: 'Courier New', monospace; font-weight: 700; color: var(--accent); }
+  .wrong { color: var(--red); text-decoration: line-through; }
+  .right { color: var(--green); }
+  @media (max-width: 600px) { body { padding: 1rem; } }
+  @media print { body { padding: 0.5cm; } }
+</style>
+</head>
+<body>
+
+<h1>영어 분사 치트시트</h1>
+<p class="subtitle">English Participles — 감정동사 / 분사구문 / 독립분사구문 / 완료분사구문</p>
+
+<h2>감정동사 분사: -ing vs -ed</h2>
+<div class="rule-box">주어가 감정을 유발하면 -ing, 느끼면 -ed</div>
+<table>
+  <tr><th>동사</th><th>-ing(유발)</th><th>-ed(경험)</th></tr>
+  <tr><td>bore</td><td>boring</td><td>bored</td></tr>
+  <tr><td>interest</td><td>interesting</td><td>interested</td></tr>
+  <tr><td>excite</td><td>exciting</td><td>excited</td></tr>
+  <tr><td>surprise</td><td>surprising</td><td>surprised</td></tr>
+  <tr><td>confuse</td><td>confusing</td><td>confused</td></tr>
+  <tr><td>disappoint</td><td>disappointing</td><td>disappointed</td></tr>
+  <tr><td>amaze</td><td>amazing</td><td>amazed</td></tr>
+</table>
+
+<h2>분사 위치 — 명사 앞 vs 뒤</h2>
+<table>
+  <tr><th>형태</th><th>위치</th><th>예</th></tr>
+  <tr><td>단독</td><td>앞</td><td>a sleeping baby / a broken window</td></tr>
+  <tr><td>구(phrase)</td><td>뒤</td><td>a baby sleeping in the crib</td></tr>
+</table>
+
+<h2>분사의 보어 역할</h2>
+<table>
+  <tr><th>형식</th><th>예</th></tr>
+  <tr><td>주격 보어(2형식)</td><td>She sat crying. / The door remained locked.</td></tr>
+  <tr><td>목적격 보어(5형식)</td><td>I heard him singing. / She found the door locked.</td></tr>
+</table>
+<p class="subtitle">목적어가 능동으로 하면 -ing, 수동으로 받으면 -ed</p>
+
+<h2>분사구문 만들기</h2>
+<div class="rule-box">① 주어 같으면 생략 ② 동사 → 분사 ③ 접속사 생략</div>
+<table>
+  <tr><td>Because he was tired</td><td>→ Being tired (= Tired), he went to bed early.</td></tr>
+  <tr><td>While she was walking home</td><td>→ Walking home, she met him.</td></tr>
+</table>
+
+<h2>분사구문의 의미 관계</h2>
+<table>
+  <tr><th>의미</th><th>예</th></tr>
+  <tr><td>시간/동시동작</td><td>Walking home, she met him.</td></tr>
+  <tr><td>이유</td><td>Being tired, she went to bed early.</td></tr>
+  <tr><td>조건</td><td>Turning left, you'll see the bank.</td></tr>
+  <tr><td>양보</td><td>Admitting his fault, he didn't apologize.</td></tr>
+</table>
+<p class="subtitle">주절이 결과·상태 → 이유 / 주절이 사건 → 시간·동시동작</p>
+
+<h2>독립 분사구문</h2>
+<div class="rule-box">주절과 주어 다를 때 자체 주어 남김 — Weather permitting, we'll go on a picnic.</div>
+<table>
+  <tr><td>Generally speaking</td><td>일반적으로 말하면</td></tr>
+  <tr><td>Strictly speaking</td><td>엄밀히 말하면</td></tr>
+  <tr><td>Judging from ~</td><td>~로 판단하면</td></tr>
+  <tr><td>Considering ~</td><td>~을 고려하면</td></tr>
+</table>
+
+<h2>완료 분사구문</h2>
+<div class="rule-box">주절보다 먼저 일어난 동작: <code>Having + p.p.</code></div>
+<table>
+  <tr><td>Having finished the report, she went home.</td></tr>
+  <tr><td>Having lost his wallet, he couldn't pay.</td></tr>
+  <tr><td>수동 완료: Having been + p.p. (= Warned before, having been 생략 가능)</td></tr>
+</table>
+<p class="subtitle">단순 -ing = 동시/직전 / Having + p.p. = 확실히 먼저</p>
+
+</body>
+</html>

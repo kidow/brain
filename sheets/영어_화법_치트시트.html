@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#0f172a">
+<title>영어 화법 치트시트</title>
+<style>
+  :root {
+    --bg: #0f172a; --fg: #e2e8f0; --muted: #94a3b8; --border: #334155; --surface: #1e293b;
+    --accent: #60a5fa; --accent-light: #1e3a5f; --red: #f87171; --green: #4ade80; --orange: #fb923c;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg); color: var(--fg); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 14px; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 1.5rem 1.25rem;
+  }
+  h1 { font-size: 1.4rem; font-weight: 700; color: var(--accent); margin-bottom: 0.25rem; }
+  .subtitle { color: var(--muted); font-size: 0.85rem; margin-bottom: 1.5rem; }
+  h2 {
+    font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em;
+    color: var(--muted); margin: 1.5rem 0 0.6rem; padding-bottom: 0.3rem; border-bottom: 1px solid var(--border);
+  }
+  table { width: 100%; border-collapse: collapse; font-size: 0.84rem; }
+  th { background: var(--surface); padding: 0.4rem 0.6rem; text-align: left; font-weight: 600; border: 1px solid var(--border); color: var(--fg); }
+  td { padding: 0.4rem 0.6rem; border: 1px solid var(--border); vertical-align: top; }
+  td code, th code { font-family: 'Courier New', monospace; font-weight: 700; color: var(--accent); font-size: 0.85rem; }
+  .rule-box {
+    background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--accent);
+    border-radius: 0 6px 6px 0; padding: 0.5rem 0.75rem; font-size: 0.84rem;
+  }
+  .rule-box + .rule-box { margin-top: 0.4rem; }
+  .wrong { color: var(--red); text-decoration: line-through; }
+  .right { color: var(--green); }
+  @media (max-width: 600px) { body { padding: 1rem; } }
+  @media print { body { padding: 0.5cm; } }
+</style>
+</head>
+<body>
+
+<h1>영어 화법 치트시트</h1>
+<p class="subtitle">Reported Speech — 시제 후퇴 / 인칭·시간 변환 / 의문문·명령문 전환</p>
+
+<h2>직접화법 vs 간접화법</h2>
+<table>
+  <tr><td>직접</td><td>She said, "I am tired."</td></tr>
+  <tr><td>간접</td><td>She said (that) she was tired.</td></tr>
+</table>
+<p class="subtitle">현재도 사실인 내용(진리·불변)은 시제 유지 가능: He said the Earth is round.</p>
+
+<h2>시제 후퇴 (Backshift)</h2>
+<table>
+  <tr><th>직접화법</th><th>간접화법</th></tr>
+  <tr><td>am/is/are</td><td>was/were</td></tr>
+  <tr><td>will</td><td>would</td></tr>
+  <tr><td>can</td><td>could</td></tr>
+  <tr><td>may</td><td>might</td></tr>
+  <tr><td>have p.p.</td><td>had p.p.</td></tr>
+  <tr><td>was/were</td><td>had been</td></tr>
+</table>
+<p class="subtitle">후퇴 안 해도 되는 경우: 전달동사 현재형 / 현재도 사실 / 가정법(이미 과거형)</p>
+
+<h2>지시어·시간 표현 변환</h2>
+<table>
+  <tr><th>직접</th><th>간접</th></tr>
+  <tr><td>this/these</td><td>that/those</td></tr>
+  <tr><td>here</td><td>there</td></tr>
+  <tr><td>now</td><td>then</td></tr>
+  <tr><td>today</td><td>that day</td></tr>
+  <tr><td>yesterday</td><td>the day before</td></tr>
+  <tr><td>tomorrow</td><td>the next day</td></tr>
+  <tr><td>last week</td><td>the week before</td></tr>
+  <tr><td>next year</td><td>the following year</td></tr>
+</table>
+<p class="subtitle">전달 시점이 같은 날이면 today/tomorrow 그대로 유지 가능</p>
+
+<h2>의문문의 간접화법</h2>
+<table>
+  <tr><th>유형</th><th>변환</th></tr>
+  <tr><td>Yes/No 의문문</td><td>if / whether — He asked if I was coming.</td></tr>
+  <tr><td>Wh- 의문문</td><td>의문사 + 평서문 어순 — She asked where I lived.</td></tr>
+</table>
+<div class="rule-box"><span class="wrong">She asked where did I live.</span> — 의문문 어순 그대로 쓰면 오류</div>
+
+<h2>명령문의 간접화법</h2>
+<div class="rule-box"><code>tell/ask + 목적어 + to부정사</code></div>
+<table>
+  <tr><td>"Close the door."</td><td>She told me to close the door.</td></tr>
+  <tr><td>"Don't move."</td><td>She told me not to move.</td></tr>
+</table>
+
+<h2>전달 동사 선택</h2>
+<table>
+  <tr><th>상황</th><th>동사</th></tr>
+  <tr><td>약속</td><td>promise</td></tr>
+  <tr><td>제안</td><td>suggest / propose</td></tr>
+  <tr><td>거절</td><td>refuse</td></tr>
+  <tr><td>부인</td><td>deny</td></tr>
+  <tr><td>주장</td><td>claim / insist</td></tr>
+  <tr><td>인정</td><td>admit</td></tr>
+  <tr><td>경고</td><td>warn</td></tr>
+</table>
+<div class="rule-box"><code>say</code> 목적어 없이 가능 / <code>tell</code> 목적어 필수 — <span class="wrong">She told that she was tired.</span> ❌</div>
+
+<h2>자유 간접화법 (Free Indirect Speech)</h2>
+<table>
+  <tr><td>직접</td><td>She thought, "I can't do this anymore."</td></tr>
+  <tr><td>간접</td><td>She thought that she couldn't do that anymore.</td></tr>
+  <tr><td>자유간접</td><td>She couldn't do this anymore. (전달동사·따옴표 없음)</td></tr>
+</table>
+<p class="subtitle">신호: 전달 동사 없이 과거 시제 + 인물 감정 = 자유 간접화법. 소설·에세이 표준 기법.</p>
+
+</body>
+</html>

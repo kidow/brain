@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#0f172a">
+<title>영어 명사절 치트시트</title>
+<style>
+  :root {
+    --bg: #0f172a; --fg: #e2e8f0; --muted: #94a3b8; --border: #334155; --surface: #1e293b;
+    --accent: #60a5fa; --accent-light: #1e3a5f; --red: #f87171; --green: #4ade80; --orange: #fb923c;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg); color: var(--fg); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 14px; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 1.5rem 1.25rem;
+  }
+  h1 { font-size: 1.4rem; font-weight: 700; color: var(--accent); margin-bottom: 0.25rem; }
+  .subtitle { color: var(--muted); font-size: 0.85rem; margin-bottom: 1.5rem; }
+  h2 {
+    font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em;
+    color: var(--muted); margin: 1.5rem 0 0.6rem; padding-bottom: 0.3rem; border-bottom: 1px solid var(--border);
+  }
+  table { width: 100%; border-collapse: collapse; font-size: 0.84rem; }
+  th { background: var(--surface); padding: 0.4rem 0.6rem; text-align: left; font-weight: 600; border: 1px solid var(--border); color: var(--fg); }
+  td { padding: 0.4rem 0.6rem; border: 1px solid var(--border); vertical-align: top; }
+  td code, th code { font-family: 'Courier New', monospace; font-weight: 700; color: var(--accent); font-size: 0.85rem; }
+  .tag { display: inline-block; font-size: 0.7rem; padding: 0.1rem 0.4rem; border-radius: 3px; font-weight: 600; }
+  .tag-red { background: #3f1515; color: var(--red); }
+  .tag-blue { background: var(--accent-light); color: var(--accent); }
+  .tag-gray { background: var(--surface); color: var(--muted); }
+  .rule-box {
+    background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--accent);
+    border-radius: 0 6px 6px 0; padding: 0.5rem 0.75rem; font-size: 0.84rem;
+  }
+  .rule-box + .rule-box { margin-top: 0.4rem; }
+  .rule-box code { font-family: 'Courier New', monospace; font-weight: 700; color: var(--accent); }
+  .wrong { color: var(--red); text-decoration: line-through; }
+  .right { color: var(--green); }
+  @media (max-width: 600px) { body { padding: 1rem; } }
+  @media print { body { padding: 0.5cm; } }
+</style>
+</head>
+<body>
+
+<h1>영어 명사절 치트시트</h1>
+<p class="subtitle">English Noun Clauses — 주어절·목적어절·보어절 / whether vs if / 동격절</p>
+
+<h2>명사절의 세 가지 역할</h2>
+<table>
+  <tr><th>역할</th><th>예문</th></tr>
+  <tr><td>주어절</td><td>That she passed the exam surprised everyone.</td></tr>
+  <tr><td>목적어절</td><td>I know that she is right. / I don't know where she lives.</td></tr>
+  <tr><td>보어절</td><td>The problem is that we have no money.</td></tr>
+</table>
+<div class="rule-box">주어절은 무거워서 보통 가주어 it으로 대체: It surprised everyone that she passed.</div>
+
+<h2>that 생략</h2>
+<table>
+  <tr><th>위치</th><th>생략</th></tr>
+  <tr><td>주어절</td><td><span class="wrong">생략 불가</span> (구조 깨짐)</td></tr>
+  <tr><td>목적어절</td><td><span class="right">생략 가능</span> (구어 자연스러움, think/know/say/believe 등 뒤)</td></tr>
+</table>
+
+<h2>간접의문문 어순</h2>
+<div class="rule-box"><code>의문사 + 주어 + 동사</code> — 도치 없음</div>
+<table>
+  <tr><td>Where does she live? → I don't know <code>where she lives</code>.</td></tr>
+  <tr><td>What time is it? → Tell me <code>what time it is</code>.</td></tr>
+</table>
+
+<h2>whether vs if</h2>
+<table>
+  <tr><th></th><th>주어절</th><th>목적어절</th><th>보어절</th><th>or not</th><th>전치사 뒤</th></tr>
+  <tr><td><code>whether</code></td><td><span class="right">✅</span></td><td><span class="right">✅</span></td><td><span class="right">✅</span></td><td><span class="right">✅</span></td><td><span class="right">✅</span></td></tr>
+  <tr><td><code>if</code></td><td><span class="wrong">❌</span></td><td><span class="right">✅</span></td><td><span class="wrong">❌</span></td><td><span class="wrong">❌</span></td><td><span class="wrong">❌</span></td></tr>
+</table>
+<p class="subtitle">헷갈리면 항상 whether 사용</p>
+
+<h2>동격절</h2>
+<div class="rule-box">명사 + that + 완전한 절 — "~라는"</div>
+<table>
+  <tr><td>The fact <code>that</code> he lied shocked everyone.</td></tr>
+  <tr><td>There's a possibility <code>that</code> it will rain.</td></tr>
+</table>
+<p class="subtitle">동격절 받는 명사: fact / news / idea / possibility / hope / belief / rumor / evidence / suggestion / fear</p>
+<table>
+  <tr><th>구분</th><th>판별</th></tr>
+  <tr><td>동격절</td><td>that 뒤 완전한 절</td></tr>
+  <tr><td>관계사절</td><td>that 뒤 불완전한 절 (빈자리)</td></tr>
+</table>
+
+<h2>명사절 속 가정법 현재</h2>
+<div class="rule-box">suggest / recommend / insist / demand / require / ask / order + that절 → <code>동사원형</code> (주어·시제 무관)</div>
+<table>
+  <tr><td>I suggest that he <code>go</code> to the doctor.</td></tr>
+  <tr><td>She insisted that he <code>apologize</code>.</td></tr>
+  <tr><td>부정: I suggest that he <code>not go</code> there.</td></tr>
+</table>
+<p class="subtitle">영국식: should + 원형도 허용 / 미국식: 원형 직접 사용</p>
+
+</body>
+</html>

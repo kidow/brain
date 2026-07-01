@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#0f172a">
+<title>영어 발음 치트시트</title>
+<style>
+  :root {
+    --bg: #0f172a; --fg: #e2e8f0; --muted: #94a3b8; --border: #334155; --surface: #1e293b;
+    --accent: #60a5fa; --accent-light: #1e3a5f; --red: #f87171; --green: #4ade80; --orange: #fb923c;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg); color: var(--fg); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 14px; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 1.5rem 1.25rem;
+  }
+  h1 { font-size: 1.4rem; font-weight: 700; color: var(--accent); margin-bottom: 0.25rem; }
+  .subtitle { color: var(--muted); font-size: 0.85rem; margin-bottom: 1.5rem; }
+  h2 {
+    font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em;
+    color: var(--muted); margin: 1.5rem 0 0.6rem; padding-bottom: 0.3rem; border-bottom: 1px solid var(--border);
+  }
+  table { width: 100%; border-collapse: collapse; font-size: 0.84rem; }
+  th { background: var(--surface); padding: 0.4rem 0.6rem; text-align: left; font-weight: 600; border: 1px solid var(--border); color: var(--fg); }
+  td { padding: 0.4rem 0.6rem; border: 1px solid var(--border); vertical-align: top; }
+  td code, th code { font-family: 'Courier New', monospace; font-weight: 700; color: var(--accent); font-size: 0.85rem; }
+  .rule-box {
+    background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--accent);
+    border-radius: 0 6px 6px 0; padding: 0.5rem 0.75rem; font-size: 0.84rem;
+  }
+  .wrong { color: var(--red); text-decoration: line-through; }
+  .right { color: var(--green); }
+  @media (max-width: 600px) { body { padding: 1rem; } }
+  @media print { body { padding: 0.5cm; } }
+</style>
+</head>
+<body>
+
+<h1>영어 발음 치트시트</h1>
+<p class="subtitle">English Pronunciation — 강세 / 연음 / 축약 / T변형 / 모음·자음 / 억양</p>
+
+<h2>강세의 두 층위</h2>
+<table>
+  <tr><td>음절 강세</td><td>PHO-to-graph / pho-TOG-ra-phy — 파생형마다 위치 바뀜</td></tr>
+  <tr><td>문장 강세</td><td>강조 단어 선택에 따라 의미 달라짐</td></tr>
+</table>
+
+<h2>내용어 vs 기능어</h2>
+<table>
+  <tr><td>내용어(강하게)</td><td>명사·동사·형용사·부사·의문사</td></tr>
+  <tr><td>기능어(약하게)</td><td>관사·전치사·접속사·대명사·조동사</td></tr>
+</table>
+<div class="rule-box">I can see a dog in the park. → i c'n SEE a DOG in the PARK</div>
+
+<h2>연음 (Linking)</h2>
+<table>
+  <tr><td>자음+모음</td><td>"pick it up" → "pi-ki-tup"</td></tr>
+  <tr><td>같은 자음</td><td>"bad day" → "ba-day"</td></tr>
+  <tr><td>자음+자음</td><td>"next door" → "nex-door"</td></tr>
+</table>
+
+<h2>축약과 약화</h2>
+<table>
+  <tr><td>슈와 [ə]</td><td>강세 없는 음절 모음이 수렴 — about, taken, lemon</td></tr>
+  <tr><td>조동사 축약</td><td>can→c'n / will→'ll / have→'ve</td></tr>
+  <tr><td>완전 탈락</td><td>going to→gonna / want to→wanna / got to→gotta</td></tr>
+</table>
+
+<h2>T 소리의 4가지 변형</h2>
+<table>
+  <tr><th>유형</th><th>위치</th><th>예</th></tr>
+  <tr><td>강한 T</td><td>단어 시작·강세 음절</td><td>top, time</td></tr>
+  <tr><td>Flap T</td><td>모음 사이 (미국식)</td><td>water→wa-der</td></tr>
+  <tr><td>성문 폐쇄음</td><td>단어 끝, 강세 뒤</td><td>button→bu'n</td></tr>
+  <tr><td>묵음 T</td><td>자음 앞</td><td>next→nex</td></tr>
+</table>
+
+<h2>헷갈리는 모음</h2>
+<table>
+  <tr><td>[æ] vs [ɛ]</td><td>bad vs bed</td></tr>
+  <tr><td>[ɪ] vs [iː]</td><td>bit vs beat / leave vs live</td></tr>
+  <tr><td>[ʌ] vs [ɑ]</td><td>cup vs cop</td></tr>
+  <tr><td>[ʊ] vs [uː]</td><td>book vs boot</td></tr>
+</table>
+
+<h2>헷갈리는 자음</h2>
+<table>
+  <tr><td>[f] vs [p]</td><td>fan vs pan</td></tr>
+  <tr><td>[v] vs [b]</td><td>very vs berry</td></tr>
+  <tr><td>[θ] vs [s]</td><td>think(씽크 ❌) / three(쓰리 ❌)</td></tr>
+  <tr><td>[l] vs [r]</td><td>light vs right / rice vs lice</td></tr>
+</table>
+
+<h2>억양(Intonation)</h2>
+<table>
+  <tr><td>내리는 ↘</td><td>평서문, wh-의문문, 명령문</td></tr>
+  <tr><td>올리는 ↗</td><td>yes/no 의문문, 확인 요청</td></tr>
+  <tr><td>올렸다 내리는 ↘↗</td><td>망설임·유보</td></tr>
+</table>
+<div class="rule-box">"You're coming." ↘ 사실진술 / "You're coming?" ↗ 확인 / "You're coming." ↘↗ 의심</div>
+
+<h2>리듬 — 강세 박자 언어</h2>
+<div class="rule-box">영어=강세 박자 / 한국어=음절 박자 — 강세 단어 간격이 일정하게 유지됨</div>
+
+<h2>미국식 vs 영국식</h2>
+<table>
+  <tr><th></th><th>미국</th><th>영국</th></tr>
+  <tr><td>R</td><td>항상 발음(rhotic)</td><td>모음 뒤 묵음</td></tr>
+  <tr><td>bath</td><td>[bæθ] 배쓰</td><td>[bɑːθ] 바-쓰</td></tr>
+  <tr><td>T</td><td>모음 사이 flap</td><td>강한 T 유지</td></tr>
+</table>
+
+<h2>발음 학습 전략</h2>
+<table>
+  <tr><td>소리→철자 순서</td><td>철자 보고 발음 추측 금지</td></tr>
+  <tr><td>Shadowing</td><td>0.5초 뒤 따라 말하기</td></tr>
+  <tr><td>최소대립쌍</td><td>bit/beat/bet/bat/but/boot</td></tr>
+  <tr><td>강세부터</td><td>모음·자음보다 강세 위치 먼저 — 틀리면 단어 자체를 못 알아들음</td></tr>
+</table>
+
+</body>
+</html>
