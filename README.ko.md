@@ -209,6 +209,14 @@ brain/
 - [영어 문장 구조 심화 치트시트](https://brain.dongwook.kim/sheets/영어_문장_구조_심화_치트시트.html)
 - [영어 부사절 심화 치트시트](https://brain.dongwook.kim/sheets/영어_부사절_심화_치트시트.html)
 - [영어 분사 치트시트](https://brain.dongwook.kim/sheets/영어_분사_치트시트.html)
+- [영어 회화 치트시트](https://brain.dongwook.kim/sheets/영어_회화_치트시트.html)
+- [영어 화법 치트시트](https://brain.dongwook.kim/sheets/영어_화법_치트시트.html)
+- [영어 어휘 확장 치트시트](https://brain.dongwook.kim/sheets/영어_어휘_확장_치트시트.html)
+- [영어 슬랭·관용어 치트시트](https://brain.dongwook.kim/sheets/영어_슬랭·관용어_치트시트.html)
+- [영어 발음 치트시트](https://brain.dongwook.kim/sheets/영어_발음_치트시트.html)
+- [영어 쓰기 치트시트](https://brain.dongwook.kim/sheets/영어_쓰기_치트시트.html)
+- [영어 비즈니스 영어 치트시트](https://brain.dongwook.kim/sheets/영어_비즈니스_영어_치트시트.html)
+- [영어 독해 치트시트](https://brain.dongwook.kim/sheets/영어_독해_치트시트.html)
 
 **음악**
 - [음악 이론 기초 치트시트](https://brain.dongwook.kim/sheets/음악_이론_기초_치트시트.html)
