@@ -59,6 +59,11 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [일본어 기본 한자](https://brain.dongwook.kim/notes/일본어/일본어_기본_한자)
 - [일본어 동사](https://brain.dongwook.kim/notes/일본어/일본어_동사)
 - [일본어 조사](https://brain.dongwook.kim/notes/일본어/일본어_조사)
+- [일본어 부사](https://brain.dongwook.kim/notes/일본어/일본어_부사)
+- [일본어 형용사](https://brain.dongwook.kim/notes/일본어/일본어_형용사)
+- [일본어 지시대명사](https://brain.dongwook.kim/notes/일본어/일본어_지시대명사)
+- [일본어 조수사](https://brain.dongwook.kim/notes/일본어/일본어_조수사)
+- [일본어 비교 표현](https://brain.dongwook.kim/notes/일본어/일본어_비교_표현)
 
 **Languages — Chinese**
 - [중국어 문자](https://brain.dongwook.kim/notes/중국어_문자)
