@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#ffffff">
+  <title>근로기준법 치트시트</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: #0f172a; color: #e2e8f0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 14px; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 1.5rem 1.25rem; }
+    h1 { font-size: 1.5rem; color: #60a5fa; margin-bottom: 0.25rem; }
+    .subtitle { color: #94a3b8; margin-bottom: 1.5rem; font-size: 0.85rem; }
+    h2 { font-size: 1rem; color: #60a5fa; margin: 1.5rem 0 0.75rem; border-left: 3px solid #60a5fa; padding-left: 0.6rem; }
+    .note { background: #1e293b; border: 1px solid #334155; border-radius: 6px; padding: 0.6rem 0.8rem; margin-bottom: 0.75rem; font-size: 0.85rem; color: #94a3b8; }
+    table { width: 100%; border-collapse: collapse; margin-bottom: 1rem; font-size: 0.85rem; }
+    th { background: #1e293b; color: #94a3b8; font-weight: 600; text-align: left; padding: 0.5rem 0.6rem; border-bottom: 1px solid #334155; }
+    td { padding: 0.45rem 0.6rem; border-bottom: 1px solid #1e293b; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    .section { margin-bottom: 1.5rem; }
+    @media (max-width: 600px) { body { padding: 1rem; } }
+    @media print { body { padding: 0.5cm; } }
+  </style>
+</head>
+<body>
+  <h1>근로기준법 치트시트</h1>
+  <p class="subtitle">5인 기준 적용 범위 + 임금·해고·연차·4대보험</p>
+
+  <div class="section">
+    <h2>5인 기준 적용 범위</h2>
+    <table>
+      <tr><th>항목</th><th>5인 미만</th><th>5인 이상</th></tr>
+      <tr><td>최저임금</td><td>✅</td><td>✅</td></tr>
+      <tr><td>주휴수당</td><td>✅</td><td>✅</td></tr>
+      <tr><td>퇴직금(1인 이상)</td><td>✅</td><td>✅</td></tr>
+      <tr><td>연차유급휴가</td><td>❌</td><td>✅</td></tr>
+      <tr><td>해고 제한</td><td>❌</td><td>✅</td></tr>
+      <tr><td>연장근무 가산임금(1.5배)</td><td>❌</td><td>✅</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>임금·최저임금·주휴수당</h2>
+    <div class="note">
+      <strong>임금 4대 원칙:</strong> 통화불·직접불·전액불·정기불. 위반 시 3년 이하 징역/2천만원 이하 벌금. 소멸시효 3년.<br>
+      <strong>최저임금(2025):</strong> 시급 10,030원. 월급→시급 = 월급÷209시간(주40+주휴8)×4.345주<br>
+      <strong>주휴수당:</strong> 주15시간+ 개근 시 발생. 계산 = (주 소정근로시간÷5)×시급
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>연차 유급휴가 (5인 이상)</h2>
+    <table>
+      <tr><th>근속</th><th>연차</th></tr>
+      <tr><td>1년 미만</td><td>개근 시 월 1일, 최대 11일</td></tr>
+      <tr><td>1년 이상</td><td>15일</td></tr>
+      <tr><td>3년 이상</td><td>15일+2년마다 1일(최대 25일)</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>근로시간 (주 52시간)</h2>
+    <div class="note">법정 40시간 + 연장 최대 12시간 = 주 52시간 상한. 연장/야간(22~06시)/휴일 = 통상임금×1.5배, 야간+연장 중복=2배(5인 이상만).</div>
+  </div>
+
+  <div class="section">
+    <h2>퇴직금 · 해고 · 실업급여</h2>
+    <div class="note">
+      <strong>퇴직금:</strong> 1인 이상 사업장, 근속 1년+주 15시간 이상. 평균임금×30일×근속연수. 300만원 초과 시 IRP 계좌 입금 의무.<br>
+      <strong>해고(5인 이상):</strong> 정리해고 4요건(긴박한 경영상 필요/회피노력/공정한 선정/50일 전 통보). 30일 전 예고 or 해고예고수당.<br>
+      <strong>실업급여:</strong> 18개월 중 180일 이상 가입 + 비자발적 이직. 평균임금 60%×소정급여일수(120~270일).
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>권고사직 vs 해고</h2>
+    <table>
+      <tr><th></th><th>권고사직</th><th>해고</th></tr>
+      <tr><td>형식</td><td>근로자 자진 퇴사</td><td>사용자 일방 통보</td></tr>
+      <tr><td>실업급여</td><td>✅</td><td>✅</td></tr>
+      <tr><td>부당해고 구제</td><td>❌ 원칙 불가</td><td>✅</td></tr>
+    </table>
+    <div class="note">권고사직은 거부 가능. 동의서 서명 시 자발적 퇴사 처리 → 구제 불가.</div>
+  </div>
+
+  <div class="section">
+    <h2>4대보험 (1인 이상 전 사업장)</h2>
+    <table>
+      <tr><th>보험</th><th>근로자 부담</th><th>사업주 부담</th></tr>
+      <tr><td>국민연금</td><td>4.5%</td><td>4.5%</td></tr>
+      <tr><td>건강보험</td><td>3.545%</td><td>3.545%</td></tr>
+      <tr><td>고용보험</td><td>0.9%</td><td>0.9%~</td></tr>
+      <tr><td>산재보험</td><td>0%</td><td>전액</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>직장 내 괴롭힘 · 육아휴직</h2>
+    <div class="note">
+      <strong>괴롭힘 성립 요건(전부):</strong> 업무상 적정범위 초과 + 신체·정신적 고통 + 지위·관계 우위 이용.<br>
+      <strong>육아휴직:</strong> 만 8세 이하 자녀, 부모 각 최대 1년. 급여 통상임금 80%(상한150만원), "6+6제" 첫 3개월 100%(상한250만원).
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#ffffff">
+  <title>일본어 동사 치트시트</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: #0f172a; color: #e2e8f0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 14px; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 1.5rem 1.25rem; }
+    h1 { font-size: 1.5rem; color: #60a5fa; margin-bottom: 0.25rem; }
+    .subtitle { color: #94a3b8; margin-bottom: 1.5rem; font-size: 0.85rem; }
+    h2 { font-size: 1rem; color: #60a5fa; margin: 1.5rem 0 0.75rem; border-left: 3px solid #60a5fa; padding-left: 0.6rem; }
+    .note { background: #1e293b; border: 1px solid #334155; border-radius: 6px; padding: 0.6rem 0.8rem; margin-bottom: 0.75rem; font-size: 0.85rem; color: #94a3b8; }
+    .note strong { color: #e2e8f0; }
+    table { width: 100%; border-collapse: collapse; margin-bottom: 1rem; font-size: 0.85rem; }
+    th { background: #1e293b; color: #94a3b8; font-weight: 600; text-align: left; padding: 0.5rem 0.6rem; border-bottom: 1px solid #334155; }
+    td { padding: 0.45rem 0.6rem; border-bottom: 1px solid #1e293b; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    .jp { font-size: 1.2rem; color: #60a5fa; font-weight: 700; }
+    .ex { color: #94a3b8; font-size: 0.82rem; margin-top: 0.15rem; }
+    .section { margin-bottom: 1.5rem; }
+    @media (max-width: 600px) { body { padding: 1rem; } }
+    @media print { body { padding: 0.5cm; } }
+  </style>
+</head>
+<body>
+  <h1>일본어 동사 치트시트</h1>
+  <p class="subtitle">3그룹 분류 + ます形·て形·ない形 활용</p>
+
+  <div class="section">
+    <h2>동사 3그룹 판별</h2>
+    <table>
+      <tr><th>그룹</th><th>규칙</th><th>예</th></tr>
+      <tr><td>1그룹(u동사)</td><td>る 이외 う단 / る로 끝나도 앞이 a·u·o</td><td>書く, 飲む, 話す, 乗る(o)</td></tr>
+      <tr><td>2그룹(ru동사)</td><td>る로 끝나고 앞이 i·e</td><td>食べる(e), 見る(i), 起きる</td></tr>
+      <tr><td>3그룹(불규칙)</td><td>딱 2개, 통암기</td><td>する, 来る(くる)</td></tr>
+    </table>
+    <div class="note">판별 순서: ①る로 안 끝남→1그룹 ②る로 끝남→앞 소리(i·e→2 / a·u·o→1) ③する·くる→3그룹</div>
+  </div>
+
+  <div class="section">
+    <h2>ます形 4형태 (정중체)</h2>
+    <table>
+      <tr><th></th><th>긍정</th><th>부정</th></tr>
+      <tr><td>현재/미래</td><td>~ます</td><td>~ません</td></tr>
+      <tr><td>과거</td><td>~ました</td><td>~ませんでした</td></tr>
+    </table>
+    <div class="note">1그룹: う단→い단+ます (書く→書きます) / 2그룹: る떼고+ます (食べる→食べます) / 3그룹: します・来ます(きます)</div>
+  </div>
+
+  <div class="section">
+    <h2>て形 — 1그룹 음편 규칙</h2>
+    <table>
+      <tr><th>어미</th><th>변화</th><th>예</th></tr>
+      <tr><td>う・つ・る</td><td>→って</td><td>買う→買って, 待つ→待って, 乗る→乗って</td></tr>
+      <tr><td>む・ぶ・ぬ</td><td>→んで</td><td>飲む→飲んで, 遊ぶ→遊んで, 死ぬ→死んで</td></tr>
+      <tr><td>く</td><td>→いて</td><td>書く→書いて</td></tr>
+      <tr><td>ぐ</td><td>→いで</td><td>泳ぐ→泳いで</td></tr>
+      <tr><td>す</td><td>→して</td><td>話す→話して</td></tr>
+    </table>
+    <div class="note">2그룹: る떼고+て(食べて) / 3그룹: して・来て(きて) / 예외: 行く→行って(く규칙 안 따름)</div>
+  </div>
+
+  <div class="section">
+    <h2>ない形 (반말 부정)</h2>
+    <table>
+      <tr><th>그룹</th><th>ます형</th><th>ない형</th></tr>
+      <tr><td>1그룹</td><td>い단+ます</td><td>あ단+ない (書かない, 예외: 買う→買わない)</td></tr>
+      <tr><td>2그룹</td><td>る떼고+ます</td><td>る떼고+ない</td></tr>
+      <tr><td>3그룹</td><td>します/来ます</td><td>しない/来ない(こない)</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>주요 문형</h2>
+    <div class="ex">~ている: 진행(今、勉強しています) / 상태지속(結婚しています)</div>
+    <div class="ex">~てください: 요청 (待ってください) / 부정요청은 ない형+ないでください</div>
+  </div>
+</body>
+</html>

@@ -160,21 +160,32 @@ brain/
 **일본어**
 - [히라가나 치트시트](https://brain.dongwook.kim/sheets/히라가나_치트시트.html)
 - [가타카나 치트시트](https://brain.dongwook.kim/sheets/가타카나_치트시트.html)
+- [일본어 문자의 특징 치트시트](https://brain.dongwook.kim/sheets/일본어_문자의_특징_치트시트.html)
+- [일본어 기본 한자 치트시트](https://brain.dongwook.kim/sheets/일본어_기본_한자_치트시트.html)
+- [일본어 동사 치트시트](https://brain.dongwook.kim/sheets/일본어_동사_치트시트.html)
+- [일본어 형용사 치트시트](https://brain.dongwook.kim/sheets/일본어_형용사_치트시트.html)
 - [일본어 조사 치트시트](https://brain.dongwook.kim/sheets/일본어_조사_치트시트.html)
+- [일본어 부사 치트시트](https://brain.dongwook.kim/sheets/일본어_부사_치트시트.html)
+- [일본어 지시대명사 치트시트](https://brain.dongwook.kim/sheets/일본어_지시대명사_치트시트.html)
+- [일본어 조수사 치트시트](https://brain.dongwook.kim/sheets/일본어_조수사_치트시트.html)
+- [일본어 비교 표현 치트시트](https://brain.dongwook.kim/sheets/일본어_비교_표현_치트시트.html)
 
 **러시아어**
 - [러시아어 치트시트](https://brain.dongwook.kim/sheets/러시아어_치트시트.html)
 - [러시아어 알파벳 이름](https://brain.dongwook.kim/sheets/러시아어_알파벳_이름.html)
 - [러시아어 모음 약화](https://brain.dongwook.kim/sheets/러시아어_모음_약화.html)
+- [러시아어 문자의 특징 치트시트](https://brain.dongwook.kim/sheets/러시아어_문자의_특징_치트시트.html)
 
 **중국어**
 - [병음 표](https://brain.dongwook.kim/sheets/병음_표.html)
 - [중국어 성모표](https://brain.dongwook.kim/sheets/중국어_성모표.html)
 - [중국어 성조규칙](https://brain.dongwook.kim/sheets/중국어_성조규칙.html)
+- [중국어 문자 치트시트](https://brain.dongwook.kim/sheets/중국어_문자_치트시트.html)
 
 **독일어**
 - [독일어 치트시트](https://brain.dongwook.kim/sheets/독일어_치트시트.html)
 - [독일어 명사 치트시트](https://brain.dongwook.kim/sheets/독일어_명사_치트시트.html)
+- [독일어 문자 치트시트](https://brain.dongwook.kim/sheets/독일어_문자_치트시트.html)
 
 **프랑스어**
 - [프랑스어 명사 치트시트](https://brain.dongwook.kim/sheets/프랑스어_명사_치트시트.html)
@@ -228,6 +239,14 @@ brain/
 
 **경제/금융**
 - [세금 용어 치트시트](https://brain.dongwook.kim/sheets/세금_용어_치트시트.html)
+- [경제학 치트시트](https://brain.dongwook.kim/sheets/경제학_치트시트.html)
+- [회계학 치트시트](https://brain.dongwook.kim/sheets/회계학_치트시트.html)
+- [투자 기초 치트시트](https://brain.dongwook.kim/sheets/투자_기초_치트시트.html)
+- [주식 용어 치트시트](https://brain.dongwook.kim/sheets/주식_용어_치트시트.html)
+- [부동산 기초 치트시트](https://brain.dongwook.kim/sheets/부동산_기초_치트시트.html)
+
+**실생활**
+- [근로기준법 치트시트](https://brain.dongwook.kim/sheets/근로기준법_치트시트.html)
 
 **기술**
 - [컴퓨터 부품](https://brain.dongwook.kim/sheets/컴퓨터_부품.html)

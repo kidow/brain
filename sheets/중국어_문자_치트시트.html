@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#ffffff">
+  <title>중국어 문자 치트시트</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: #0f172a; color: #e2e8f0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 14px; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 1.5rem 1.25rem; }
+    h1 { font-size: 1.5rem; color: #60a5fa; margin-bottom: 0.25rem; }
+    .subtitle { color: #94a3b8; margin-bottom: 1.5rem; font-size: 0.85rem; }
+    h2 { font-size: 1rem; color: #60a5fa; margin: 1.5rem 0 0.75rem; border-left: 3px solid #60a5fa; padding-left: 0.6rem; }
+    .note { background: #1e293b; border: 1px solid #334155; border-radius: 6px; padding: 0.6rem 0.8rem; margin-bottom: 0.75rem; font-size: 0.85rem; color: #94a3b8; }
+    table { width: 100%; border-collapse: collapse; margin-bottom: 1rem; font-size: 0.85rem; }
+    th { background: #1e293b; color: #94a3b8; font-weight: 600; text-align: left; padding: 0.5rem 0.6rem; border-bottom: 1px solid #334155; }
+    td { padding: 0.45rem 0.6rem; border-bottom: 1px solid #1e293b; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    .zh { color: #60a5fa; font-weight: 700; font-size: 1.05rem; }
+    .section { margin-bottom: 1.5rem; }
+    @media (max-width: 600px) { body { padding: 1rem; } }
+    @media print { body { padding: 0.5cm; } }
+  </style>
+</head>
+<body>
+  <h1>중국어 문자 치트시트</h1>
+  <p class="subtitle">표어문자 · 4성 · 병음 · 부수·형성자</p>
+
+  <div class="section">
+    <h2>4성 (표준 중국어)</h2>
+    <table>
+      <tr><th>성조</th><th>부호</th><th>설명</th><th>예</th></tr>
+      <tr><td>1성</td><td>ā ¯ 평평</td><td>높고 길게 유지</td><td class="zh">mā 妈(엄마)</td></tr>
+      <tr><td>2성</td><td>á ╱ 올라감</td><td>낮→높, 의문 어조</td><td class="zh">má 麻(삼)</td></tr>
+      <tr><td>3성</td><td>ǎ ∨ 내려갔다 올라옴</td><td>낮게 내렸다 올림</td><td class="zh">mǎ 马(말)</td></tr>
+      <tr><td>4성</td><td>à ╲ 내려감</td><td>높→낮, 단호</td><td class="zh">mà 骂(꾸짖다)</td></tr>
+      <tr><td>경성</td><td>a (부호 없음)</td><td>빠르고 가볍게</td><td class="zh">ma 吗(의문)</td></tr>
+    </table>
+    <div class="note">같은 발음 + 성조만 다르면 완전히 다른 단어. 한국어엔 없는 개념 — 프랑스어 악센트(모음 질 변경)와 달리 성조는 피치 곡선 변경.</div>
+  </div>
+
+  <div class="section">
+    <h2>병음(拼音) 구조</h2>
+    <div class="note">성모(초성) + 운모(중·종성) + 성조부호. 예: b + ei + ˇ → běi(북녘), j + īng + ¯ → jīng(수도). 병음은 한자를 대체하지 않는 발음 도우미(1958년 제정).</div>
+  </div>
+
+  <div class="section">
+    <h2>간체자 vs 번체자</h2>
+    <table>
+      <tr><th>번체자</th><th>간체자</th><th>뜻</th></tr>
+      <tr><td class="zh">愛</td><td class="zh">爱</td><td>사랑</td></tr>
+      <tr><td class="zh">龍</td><td class="zh">龙</td><td>용</td></tr>
+      <tr><td class="zh">車</td><td class="zh">车</td><td>수레/차</td></tr>
+      <tr><td class="zh">國</td><td class="zh">国</td><td>나라</td></tr>
+    </table>
+    <div class="note">중국 대륙·싱가포르=간체자 / 대만·홍콩·마카오=번체자. 한국 한자는 번체자 기반. 발음은 동일, 모양만 다름.</div>
+  </div>
+
+  <div class="section">
+    <h2>한자 구성 방식</h2>
+    <table>
+      <tr><th>유형</th><th>비중</th><th>원리</th><th>예</th></tr>
+      <tr><td>상형자(象形字)</td><td>~4%</td><td>사물 모양 직접 그림</td><td class="zh">日 月 山 木 水 人</td></tr>
+      <tr><td>회의자(會意字)</td><td>~13%</td><td>의미부 둘 이상 합쳐 새 뜻</td><td class="zh">明(日+月) 休(人+木) 好(女+子)</td></tr>
+      <tr><td>형성자(形聲字)</td><td>~80%</td><td>의미부+발음부 조합</td><td class="zh">清(氵뜻+青발음)</td></tr>
+      <tr><td>가차(假借)</td><td>—</td><td>뜻 무관, 소리만 차용(외래어)</td><td class="zh">咖啡(coffee) 沙发(sofa)</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>부수(部首) — 의미 힌트</h2>
+    <table>
+      <tr><th>부수</th><th>의미 영역</th><th>예</th></tr>
+      <tr><td class="zh">氵(물 수)</td><td>물 관련</td><td>海 河 泳 洗</td></tr>
+      <tr><td class="zh">木(나무 목)</td><td>나무 관련</td><td>树 桌 椅</td></tr>
+      <tr><td class="zh">口(입 구)</td><td>입·말 관련</td><td>吃 喝 唱</td></tr>
+    </table>
+    <div class="note">총 214개 부수 기준. 병음 모를 때 부수로 한자 검색 가능.</div>
+  </div>
+
+  <div class="section">
+    <h2>한 글자 ≠ 한 단어 — 조합 원리</h2>
+    <div class="note">电(전기)+话(말)→电话(전화) / 电+脑(뇌)→电脑(컴퓨터) / 手(손)+机(기계)→手机(휴대폰). 한국 한자어와 완전히 같은 원리(電話·電腦·手機) — 글자 뜻 알면 단어 유추 가능.</div>
+  </div>
+
+  <div class="section">
+    <h2>한국 한자어 직독 활용</h2>
+    <div class="note">학교(學校)=学校 xuéxiào / 전화(電話)=电话 diànhuà / 문화(文化)=文化 wénhuà. 한국어 어휘 60~70%가 한자어 → 뜻은 이미 알고 발음(병음)+성조만 새로 배우면 됨.</div>
+  </div>
+</body>
+</html>
