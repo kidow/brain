@@ -113,6 +113,7 @@ brain/
 - [러시아어 회화](https://brain.dongwook.kim/notes/러시아어/러시아어_회화)
 - [러시아어 숫자](https://brain.dongwook.kim/notes/러시아어/러시아어_숫자)
 - [러시아어 재귀동사](https://brain.dongwook.kim/notes/러시아어/러시아어_재귀동사)
+- [러시아어 접속사 종속절](https://brain.dongwook.kim/notes/러시아어/러시아어_접속사_종속절)
 
 **언어 — 스페인어**
 - [스페인어 문자](https://brain.dongwook.kim/notes/스페인어/스페인어_문자)
@@ -158,6 +159,7 @@ brain/
 - [독일어 존댓말과 격식체](https://brain.dongwook.kim/notes/독일어/독일어_존댓말과_격식체)
 - [독일어 숫자와 시간 심화](https://brain.dongwook.kim/notes/독일어/독일어_숫자와_시간_심화)
 - [독일어 요일 시간대 표현](https://brain.dongwook.kim/notes/독일어/독일어_요일_시간대_표현)
+- [독일어 시제](https://brain.dongwook.kim/notes/독일어/독일어_시제)
 
 **언어 — 프랑스어**
 - [프랑스어 문자](https://brain.dongwook.kim/notes/프랑스어/프랑스어_문자)
