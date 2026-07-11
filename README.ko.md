@@ -84,6 +84,7 @@ brain/
 - [러시아어 격변화 기초](https://brain.dongwook.kim/notes/러시아어_격변화_기초)
 - [러시아어 명사의 성](https://brain.dongwook.kim/notes/러시아어_명사의_성)
 - [러시아어 형용사 격변화](https://brain.dongwook.kim/notes/러시아어_형용사_격변화)
+- [러시아어 동사 현재형](https://brain.dongwook.kim/notes/러시아어_동사_현재형)
 
 **언어 — 스페인어**
 - [스페인어 문자](https://brain.dongwook.kim/notes/스페인어_문자)
