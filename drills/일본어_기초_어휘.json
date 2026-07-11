@@ -639,7 +639,7 @@
     "id": 106,
     "expression": "奥さん",
     "reading": "おくさん",
-    "meaning": "(다른 사람의) 아내 (Hon.)"
+    "meaning": "(다른 사람의) 아내 (높임말)"
   },
   {
     "id": 107,
@@ -687,7 +687,7 @@
     "id": 114,
     "expression": "お茶",
     "reading": "おちゃ",
-    "meaning": "(녹차"
+    "meaning": "차, 녹차"
   },
   {
     "id": 115,
@@ -849,13 +849,13 @@
     "id": 141,
     "expression": "～回",
     "reading": "～かい",
-    "meaning": "발생 카운터(~회)"
+    "meaning": "횟수를 세는 조수사 (~회)"
   },
   {
     "id": 142,
     "expression": "～階",
     "reading": "～かい",
-    "meaning": "건물의 층(층) 카운터"
+    "meaning": "건물 층수를 세는 조수사"
   },
   {
     "id": 143,
@@ -1035,7 +1035,7 @@
     "id": 172,
     "expression": "花瓶",
     "reading": "かびん",
-    "meaning": "(꽃병"
+    "meaning": "꽃병"
   },
   {
     "id": 173,
@@ -1305,7 +1305,7 @@
     "id": 217,
     "expression": "下さい",
     "reading": "ください",
-    "meaning": "(te형 동사와 함께) 나를 위해 해주세요"
+    "meaning": "(て형 동사와 함께) 나를 위해 해주세요"
   },
   {
     "id": 218,
@@ -1449,7 +1449,7 @@
     "id": 241,
     "expression": "～個",
     "reading": "～こ",
-    "meaning": "작은 품목(예: 과일, 컵)을 위한 카운터"
+    "meaning": "작은 물건(과일·컵 등)을 세는 조수사"
   },
   {
     "id": 242,
@@ -1569,13 +1569,13 @@
     "id": 261,
     "expression": "言葉",
     "reading": "ことば",
-    "meaning": "언어; 단어); 표현"
+    "meaning": "언어; 단어; 표현"
   },
   {
     "id": 262,
     "expression": "子供",
     "reading": "こども",
-    "meaning": "어린이들)"
+    "meaning": "아이, 어린이"
   },
   {
     "id": 263,
@@ -1689,7 +1689,7 @@
     "id": 281,
     "expression": "～冊",
     "reading": "～さつ",
-    "meaning": "책 카운터"
+    "meaning": "책을 세는 조수사"
   },
   {
     "id": 282,
@@ -1953,7 +1953,7 @@
     "id": 325,
     "expression": "～人",
     "reading": "～じん",
-    "meaning": "사람들을 위한 카운터"
+    "meaning": "사람을 세는 조수사"
   },
   {
     "id": 326,
@@ -2223,7 +2223,7 @@
     "id": 370,
     "expression": "～台",
     "reading": "～だい",
-    "meaning": "차량용 카운터; 기계"
+    "meaning": "차량·기계를 세는 조수사"
   },
   {
     "id": 371,
@@ -2367,7 +2367,7 @@
     "id": 394,
     "expression": "誰",
     "reading": "だれ",
-    "meaning": "WHO"
+    "meaning": "누구"
   },
   {
     "id": 395,
@@ -2655,7 +2655,7 @@
     "id": 442,
     "expression": "～度",
     "reading": "～ど",
-    "meaning": "발생 카운터; ~ 정도; ~ 포인트"
+    "meaning": "횟수를 세는 조수사; ~정도; ~포인트"
   },
   {
     "id": 443,
@@ -2781,7 +2781,7 @@
     "id": 463,
     "expression": "どなた",
     "reading": "どなた",
-    "meaning": "WHO"
+    "meaning": "누구 (높임말)"
   },
   {
     "id": 464,
@@ -3027,7 +3027,7 @@
     "id": 504,
     "expression": "～人",
     "reading": "～にん",
-    "meaning": "사람들을 위한 카운터"
+    "meaning": "사람을 세는 조수사"
   },
   {
     "id": 505,
@@ -3117,7 +3117,7 @@
     "id": 519,
     "expression": "～杯",
     "reading": "～はい",
-    "meaning": "한 컵 분량의 카운터"
+    "meaning": "컵에 담긴 분량을 세는 조수사"
   },
   {
     "id": 520,
@@ -3303,7 +3303,7 @@
     "id": 550,
     "expression": "～番",
     "reading": "～ばん",
-    "meaning": "~st; ~최고"
+    "meaning": "~번째; ~등"
   },
   {
     "id": 551,
@@ -3345,7 +3345,7 @@
     "id": 557,
     "expression": "～匹",
     "reading": "～ひき",
-    "meaning": "작은 동물용 카운터"
+    "meaning": "작은 동물을 세는 조수사"
   },
   {
     "id": 558,
@@ -3663,7 +3663,7 @@
     "id": 610,
     "expression": "～本",
     "reading": "～ほん",
-    "meaning": "긴 원통형 물건을 위한 카운터"
+    "meaning": "길고 가는 물건을 세는 조수사"
   },
   {
     "id": 611,
@@ -3681,7 +3681,7 @@
     "id": 613,
     "expression": "～枚",
     "reading": "～まい",
-    "meaning": "평평한 물건을 위한 카운터"
+    "meaning": "얇고 평평한 물건을 세는 조수사"
   },
   {
     "id": 614,
@@ -3927,7 +3927,7 @@
     "id": 654,
     "expression": "目",
     "reading": "め",
-    "meaning": "눈)"
+    "meaning": "눈"
   },
   {
     "id": 655,
