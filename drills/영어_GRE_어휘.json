@@ -1,0 +1,2996 @@
+[
+  {
+    "id": 0,
+    "word": "abash",
+    "pos": "verb",
+    "meaning": "To make ashamed; to embarrass; to destroy the self-possession of, as by exciting suddenly a consciousness of guilt, mistake, or inferiority; to disconcert; to discomfit."
+  },
+  {
+    "id": 1,
+    "word": "abate",
+    "pos": "verb",
+    "meaning": "(obsolete outside law) To put an end to; to cause to cease."
+  },
+  {
+    "id": 2,
+    "word": "aberrant",
+    "pos": "adjective",
+    "meaning": "(sometimes figurative) Straying from the right way; deviating from morality or truth."
+  },
+  {
+    "id": 3,
+    "word": "abject",
+    "pos": "adjective",
+    "meaning": "Cast down in spirit or hope; degraded; servile; grovelling; despicable; lacking courage; offered in a humble and often ingratiating spirit."
+  },
+  {
+    "id": 4,
+    "word": "abrasive",
+    "pos": "adjective",
+    "meaning": "Being rough and coarse in manner or disposition; causing irritation."
+  },
+  {
+    "id": 5,
+    "word": "abscond",
+    "pos": "verb",
+    "meaning": "To flee, often secretly; to steal away, particularly to avoid arrest or prosecution."
+  },
+  {
+    "id": 6,
+    "word": "abstain",
+    "pos": "verb",
+    "meaning": "Refrain from (something or doing something); keep from doing, especially an indulgence."
+  },
+  {
+    "id": 7,
+    "word": "abysmal",
+    "pos": "adjective",
+    "meaning": "Pertaining to, or resembling an abyss."
+  },
+  {
+    "id": 8,
+    "word": "acquiesce",
+    "pos": "verb",
+    "meaning": "(with in (or sometimes with, to)) To rest satisfied, or apparently satisfied, or to rest without opposition and discontent (usually implying previous opposition or discontent); to accept or consent by silence or by omitting to object."
+  },
+  {
+    "id": 9,
+    "word": "acrid",
+    "pos": "adjective",
+    "meaning": "Sharp and harsh, or bitter and not to the taste."
+  },
+  {
+    "id": 10,
+    "word": "adherent",
+    "pos": "adjective",
+    "meaning": "Having the quality of clinging or sticking fast to something."
+  },
+  {
+    "id": 11,
+    "word": "admonish",
+    "pos": "verb",
+    "meaning": "To counsel against wrong practices; to caution or advise; to warn against danger or an offense; — followed by of, against, or a subordinate clause."
+  },
+  {
+    "id": 12,
+    "word": "adulterate",
+    "pos": "adjective",
+    "meaning": "Corrupted; impure; adulterated."
+  },
+  {
+    "id": 13,
+    "word": "adversity",
+    "pos": "noun",
+    "meaning": "The state of adverse conditions; state of misfortune or calamity."
+  },
+  {
+    "id": 14,
+    "word": "advocate",
+    "pos": "verb",
+    "meaning": "To encourage support for something."
+  },
+  {
+    "id": 15,
+    "word": "aesthetic",
+    "pos": "adjective",
+    "meaning": "Beautiful or appealing to one's sense of beauty and/or art."
+  },
+  {
+    "id": 16,
+    "word": "affable",
+    "pos": "adjective",
+    "meaning": "Receiving others kindly and conversing with them in a free and friendly manner; friendly, courteous, sociable."
+  },
+  {
+    "id": 17,
+    "word": "affectation",
+    "pos": "noun",
+    "meaning": "An attempt to assume or exhibit what is not natural or real; false display; artificial show."
+  },
+  {
+    "id": 18,
+    "word": "aggravate",
+    "pos": "verb",
+    "meaning": "To give extra weight or intensity to; to exaggerate, to magnify."
+  },
+  {
+    "id": 19,
+    "word": "aggregate",
+    "pos": "adjective",
+    "meaning": "Formed into clusters or groups of lobules."
+  },
+  {
+    "id": 20,
+    "word": "aghast",
+    "pos": "adjective",
+    "meaning": "Terrified; struck with amazement; showing signs of terror or horror."
+  },
+  {
+    "id": 21,
+    "word": "alchemy",
+    "pos": "noun",
+    "meaning": "The ancient search for a universal panacea, and of the philosopher's stone, that eventually developed into chemistry."
+  },
+  {
+    "id": 22,
+    "word": "allege",
+    "pos": "verb",
+    "meaning": "To make a claim as justification or proof; to make an assertion without proof."
+  },
+  {
+    "id": 23,
+    "word": "allusion",
+    "pos": "noun",
+    "meaning": "An indirect reference; a hint; a reference to something supposed to be known, but not explicitly mentioned"
+  },
+  {
+    "id": 24,
+    "word": "amalgamate",
+    "pos": "adjective",
+    "meaning": "Coalesced; united; combined."
+  },
+  {
+    "id": 25,
+    "word": "ambience",
+    "pos": "noun",
+    "meaning": "(3D models) A secondary color of a polygon that becomes more pronounced with shading."
+  },
+  {
+    "id": 26,
+    "word": "ambiguous",
+    "pos": "adjective",
+    "meaning": "Open to multiple interpretations."
+  },
+  {
+    "id": 27,
+    "word": "ameliorate",
+    "pos": "verb",
+    "meaning": "To make better, or improve, something perceived to be in a negative condition."
+  },
+  {
+    "id": 28,
+    "word": "amenable",
+    "pos": "adjective",
+    "meaning": "(of a group) Being a locally compact topological group carrying a kind of averaging operation on bounded functions that is invariant under translation by group elements."
+  },
+  {
+    "id": 29,
+    "word": "amiable",
+    "pos": "adjective",
+    "meaning": "Friendly; kind; sweet; gracious"
+  },
+  {
+    "id": 30,
+    "word": "amorous",
+    "pos": "adjective",
+    "meaning": "Inclined or having a propensity to love, or to sexual enjoyment."
+  },
+  {
+    "id": 31,
+    "word": "amorphous",
+    "pos": "adjective",
+    "meaning": "Lacking a definite form or clear shape."
+  },
+  {
+    "id": 32,
+    "word": "amortize",
+    "pos": "verb",
+    "meaning": "To even out the costs of running an algorithm over many iterations, so that high-cost iterations are much less frequent than low-cost iterations, which lowers the average running time."
+  },
+  {
+    "id": 33,
+    "word": "anarchy",
+    "pos": "noun",
+    "meaning": "Anarchism; the political theory that a community is best organized by the voluntary cooperation of individuals, rather than by a government, which is regarded as being coercive by nature."
+  },
+  {
+    "id": 34,
+    "word": "ancillary",
+    "pos": "adjective",
+    "meaning": "Subordinate; secondary; auxiliary"
+  },
+  {
+    "id": 35,
+    "word": "androgynous",
+    "pos": "adjective",
+    "meaning": "Pertaining to a feature or characteristic that is not definitively of either sex."
+  },
+  {
+    "id": 36,
+    "word": "anesthetic",
+    "pos": "adjective",
+    "meaning": "Causing anesthesia; reducing pain sensitivity."
+  },
+  {
+    "id": 37,
+    "word": "animosity",
+    "pos": "noun",
+    "meaning": "Violent hatred leading to active opposition; active enmity; energetic dislike."
+  },
+  {
+    "id": 38,
+    "word": "anomalous",
+    "pos": "adjective",
+    "meaning": "Deviating from the normal; marked by incongruity or contradiction; aberrant or abnormal."
+  },
+  {
+    "id": 39,
+    "word": "anomaly",
+    "pos": "noun",
+    "meaning": "Something or someone that is strange or unusual."
+  },
+  {
+    "id": 40,
+    "word": "antecedent",
+    "pos": "adjective",
+    "meaning": "Earlier, either in time or in order."
+  },
+  {
+    "id": 41,
+    "word": "anthology",
+    "pos": "noun",
+    "meaning": "A collection of literary works, such as poems or short stories, especially a collection from various authors."
+  },
+  {
+    "id": 42,
+    "word": "antipathy",
+    "pos": "noun",
+    "meaning": "Natural contrariety or incompatibility"
+  },
+  {
+    "id": 43,
+    "word": "antithesis",
+    "pos": "noun",
+    "meaning": "A device by which two contrasting ideas are juxtaposed in parallel form."
+  },
+  {
+    "id": 44,
+    "word": "apprise",
+    "pos": "verb",
+    "meaning": "To notify, or to make aware; to inform."
+  },
+  {
+    "id": 45,
+    "word": "approbation",
+    "pos": "noun",
+    "meaning": "The act of approving; an assenting to the propriety of a thing with some degree of pleasure or satisfaction; approval, sanction, commendation or official recognition."
+  },
+  {
+    "id": 46,
+    "word": "arbitrary",
+    "pos": "adjective",
+    "meaning": "(usually of a decision) Based on individual discretion or judgment; not based on any objective distinction, perhaps even made at random."
+  },
+  {
+    "id": 47,
+    "word": "arcane",
+    "pos": "adjective",
+    "meaning": "Understood by only a few."
+  },
+  {
+    "id": 48,
+    "word": "archaic",
+    "pos": "adjective",
+    "meaning": "(of words) No longer in ordinary use, though still used occasionally to give a sense of antiquity."
+  },
+  {
+    "id": 49,
+    "word": "archetype",
+    "pos": "verb",
+    "meaning": "To depict as, model using, or otherwise associate an object or subject with an archetype."
+  },
+  {
+    "id": 50,
+    "word": "ardent",
+    "pos": "adjective",
+    "meaning": "Full of ardor; fervent, passionate."
+  },
+  {
+    "id": 51,
+    "word": "ardor",
+    "pos": "noun",
+    "meaning": "Great warmth of feeling; fervor; passion."
+  },
+  {
+    "id": 52,
+    "word": "arduous",
+    "pos": "adjective",
+    "meaning": "Needing or using up much energy; testing powers of endurance."
+  },
+  {
+    "id": 53,
+    "word": "arrest",
+    "pos": "verb",
+    "meaning": "To seize (someone) with the authority of the law; to take into legal custody."
+  },
+  {
+    "id": 54,
+    "word": "articulate",
+    "pos": "adjective",
+    "meaning": "Speaking in a clear and effective manner."
+  },
+  {
+    "id": 55,
+    "word": "assimilate",
+    "pos": "verb",
+    "meaning": "To incorporate nutrients into the body, especially after digestion."
+  },
+  {
+    "id": 56,
+    "word": "assuage",
+    "pos": "verb",
+    "meaning": "To calm down, become less violent (of passion, hunger etc.); to subside, to abate."
+  },
+  {
+    "id": 57,
+    "word": "astute",
+    "pos": "adjective",
+    "meaning": "Quickly and critically discerning."
+  },
+  {
+    "id": 58,
+    "word": "audacious",
+    "pos": "adjective",
+    "meaning": "Showing willingness to take bold risks; recklessly daring."
+  },
+  {
+    "id": 59,
+    "word": "augment",
+    "pos": "verb",
+    "meaning": "To increase; to make larger or supplement."
+  },
+  {
+    "id": 60,
+    "word": "austere",
+    "pos": "adjective",
+    "meaning": "Grim or severe in manner or appearance"
+  },
+  {
+    "id": 61,
+    "word": "authoritarian",
+    "pos": "adjective",
+    "meaning": "Demanding obedience to authority; marked by authoritarianism; dictatorial, tyrannical."
+  },
+  {
+    "id": 62,
+    "word": "aver",
+    "pos": "verb",
+    "meaning": "To assert the truth of, to affirm with confidence; to declare in a positive manner."
+  },
+  {
+    "id": 63,
+    "word": "aversion",
+    "pos": "noun",
+    "meaning": "Opposition or repugnance of mind; fixed dislike."
+  },
+  {
+    "id": 64,
+    "word": "avid",
+    "pos": "adjective",
+    "meaning": "Enthusiastic; keen; eager; showing great interest in something or desire to do something"
+  },
+  {
+    "id": 65,
+    "word": "avow",
+    "pos": "verb",
+    "meaning": "To declare openly and boldly, as something believed to be right; to own, acknowledge or confess frankly."
+  },
+  {
+    "id": 66,
+    "word": "bedlam",
+    "pos": "noun",
+    "meaning": "A place or situation of chaotic uproar, and where confusion prevails."
+  },
+  {
+    "id": 67,
+    "word": "belabor",
+    "pos": "verb",
+    "meaning": "To labour about; labour over; work hard upon; ply diligently."
+  },
+  {
+    "id": 68,
+    "word": "beleaguer",
+    "pos": "verb",
+    "meaning": "To besiege; to surround with troops."
+  },
+  {
+    "id": 69,
+    "word": "belie",
+    "pos": "verb",
+    "meaning": "(of an army) To surround; beleaguer."
+  },
+  {
+    "id": 70,
+    "word": "bellicose",
+    "pos": "adjective",
+    "meaning": "Showing or having the impulse to be combative."
+  },
+  {
+    "id": 71,
+    "word": "belligerent",
+    "pos": "adjective",
+    "meaning": "(by extension) Aggressively hostile, eager to fight."
+  },
+  {
+    "id": 72,
+    "word": "beneficent",
+    "pos": "adjective",
+    "meaning": "Given to acts that are kind, charitable, philanthropic or beneficial."
+  },
+  {
+    "id": 73,
+    "word": "benign",
+    "pos": "adjective",
+    "meaning": "(in combination) Not harmful to the environment."
+  },
+  {
+    "id": 74,
+    "word": "bent",
+    "pos": "adjective",
+    "meaning": "Determined or insistent."
+  },
+  {
+    "id": 75,
+    "word": "bereave",
+    "pos": "verb",
+    "meaning": "To take away someone or something that is important or close; deprive."
+  },
+  {
+    "id": 76,
+    "word": "boisterous",
+    "pos": "adjective",
+    "meaning": "Characterized by violence and agitation; wild; stormy."
+  },
+  {
+    "id": 77,
+    "word": "bolster",
+    "pos": "verb",
+    "meaning": "To brace, reinforce, secure, or support."
+  },
+  {
+    "id": 78,
+    "word": "bombast",
+    "pos": "adjective",
+    "meaning": "Big without meaning, or high-sounding; bombastic, inflated; magniloquent."
+  },
+  {
+    "id": 79,
+    "word": "brevity",
+    "pos": "noun",
+    "meaning": "The quality of being brief in duration."
+  },
+  {
+    "id": 80,
+    "word": "broach",
+    "pos": "verb",
+    "meaning": "To open, to make an opening into; to pierce."
+  },
+  {
+    "id": 81,
+    "word": "buff",
+    "pos": "adjective",
+    "meaning": "Unusually muscular. (also buffed or buffed out)"
+  },
+  {
+    "id": 82,
+    "word": "burgeon",
+    "pos": "verb",
+    "meaning": "To grow or expand."
+  },
+  {
+    "id": 83,
+    "word": "burnish",
+    "pos": "verb",
+    "meaning": "To make smooth or shiny by rubbing; to polish; to shine."
+  },
+  {
+    "id": 84,
+    "word": "buttress",
+    "pos": "verb",
+    "meaning": "(by extension) To support something or someone by supplying evidence; to corroborate or substantiate."
+  },
+  {
+    "id": 85,
+    "word": "candor",
+    "pos": "noun",
+    "meaning": "The state of being sincere and open in speech; honesty in expression."
+  },
+  {
+    "id": 86,
+    "word": "capricious",
+    "pos": "adjective",
+    "meaning": "Impulsive and unpredictable; determined by chance, impulse, or whim"
+  },
+  {
+    "id": 87,
+    "word": "cardinal",
+    "pos": "adjective",
+    "meaning": "Of fundamental importance; crucial, pivotal."
+  },
+  {
+    "id": 88,
+    "word": "castigation",
+    "pos": "noun",
+    "meaning": "severe criticism or punishment"
+  },
+  {
+    "id": 89,
+    "word": "catalyst",
+    "pos": "noun",
+    "meaning": "Someone or something that encourages progress or change."
+  },
+  {
+    "id": 90,
+    "word": "caustic",
+    "pos": "adjective",
+    "meaning": "(of language, etc.) Sharp, bitter, cutting, biting, and sarcastic in a scathing way."
+  },
+  {
+    "id": 91,
+    "word": "cavalier",
+    "pos": "adjective",
+    "meaning": "Of or pertaining to the party of King Charles I of England (1600–1649)."
+  },
+  {
+    "id": 92,
+    "word": "censure",
+    "pos": "verb",
+    "meaning": "To form or express a judgment in regard to; to estimate; to judge."
+  },
+  {
+    "id": 93,
+    "word": "centrifuge",
+    "pos": "verb",
+    "meaning": "To rotate something in a centrifuge in order to separate its constituents"
+  },
+  {
+    "id": 94,
+    "word": "chauvinist",
+    "pos": "adjective",
+    "meaning": "Chauvinistic; excessively patriotic or heavily biased."
+  },
+  {
+    "id": 95,
+    "word": "circumspect",
+    "pos": "adjective",
+    "meaning": "Carefully aware of all circumstances; considerate of all that is pertinent."
+  },
+  {
+    "id": 96,
+    "word": "coalesce",
+    "pos": "verb",
+    "meaning": "(of separate elements) To join into a single mass or whole."
+  },
+  {
+    "id": 97,
+    "word": "coercive",
+    "pos": "adjective",
+    "meaning": "(of a function F) such that the ration of |F(x)| to x approaches infinity as x approaches infinity"
+  },
+  {
+    "id": 98,
+    "word": "cogent",
+    "pos": "adjective",
+    "meaning": "Forcefully persuasive; relevant, pertinent."
+  },
+  {
+    "id": 99,
+    "word": "cognizant",
+    "pos": "adjective",
+    "meaning": "Aware; fully informed; having understanding of a fact"
+  },
+  {
+    "id": 100,
+    "word": "color",
+    "pos": "adjective",
+    "meaning": "Conveying color, as opposed to shades of gray."
+  },
+  {
+    "id": 101,
+    "word": "commensurate",
+    "pos": "adjective",
+    "meaning": "Describing a crystal in which every atom or molecule is placed in the same relative position"
+  },
+  {
+    "id": 102,
+    "word": "complaisance",
+    "pos": "noun",
+    "meaning": "willingness to please others; eager compliance"
+  },
+  {
+    "id": 103,
+    "word": "complement",
+    "pos": "verb",
+    "meaning": "To complete, to bring to perfection, to make whole."
+  },
+  {
+    "id": 104,
+    "word": "compliant",
+    "pos": "adjective",
+    "meaning": "Willing to comply; submissive; willing to do what someone wants."
+  },
+  {
+    "id": 105,
+    "word": "conciliatory",
+    "pos": "adjective",
+    "meaning": "Willing to conciliate, or to make concessions."
+  },
+  {
+    "id": 106,
+    "word": "condemn",
+    "pos": "verb",
+    "meaning": "To strongly criticise or denounce; to excoriate the perpetrators of."
+  },
+  {
+    "id": 107,
+    "word": "condolence",
+    "pos": "noun",
+    "meaning": "Comfort, support or sympathy."
+  },
+  {
+    "id": 108,
+    "word": "condone",
+    "pos": "verb",
+    "meaning": "To forgive, excuse or overlook (something that is considered morally wrong, offensive, or generally disliked)."
+  },
+  {
+    "id": 109,
+    "word": "connoisseur",
+    "pos": "noun",
+    "meaning": "A specialist in a given field whose opinion is highly valued, especially in one of the fine arts or in matters of taste"
+  },
+  {
+    "id": 110,
+    "word": "conspicuous",
+    "pos": "adjective",
+    "meaning": "Obvious or easy to notice."
+  },
+  {
+    "id": 111,
+    "word": "conspire",
+    "pos": "verb",
+    "meaning": "To try to bring about."
+  },
+  {
+    "id": 112,
+    "word": "consternation",
+    "pos": "noun",
+    "meaning": "Amazement or horror that confounds the faculties, and incapacitates for reflection; terror, combined with amazement; dismay."
+  },
+  {
+    "id": 113,
+    "word": "contemptuous",
+    "pos": "adjective",
+    "meaning": "Showing contempt; expressing disdain; showing a lack of respect."
+  },
+  {
+    "id": 114,
+    "word": "contentious",
+    "pos": "adjective",
+    "meaning": "Given to struggling with others out of jealousy or discord."
+  },
+  {
+    "id": 115,
+    "word": "contiguous",
+    "pos": "adjective",
+    "meaning": "Connecting without a break."
+  },
+  {
+    "id": 116,
+    "word": "contrite",
+    "pos": "adjective",
+    "meaning": "Sincerely penitent or feeling regret or sorrow, especially for one’s own actions; apologetic."
+  },
+  {
+    "id": 117,
+    "word": "convention",
+    "pos": "noun",
+    "meaning": "A meeting or gathering."
+  },
+  {
+    "id": 118,
+    "word": "converge",
+    "pos": "verb",
+    "meaning": "Of two or more entities, to approach each other; to get closer and closer."
+  },
+  {
+    "id": 119,
+    "word": "conversion",
+    "pos": "noun",
+    "meaning": "The act of converting something or someone."
+  },
+  {
+    "id": 120,
+    "word": "copious",
+    "pos": "adjective",
+    "meaning": "Full of thought, information, or matter; exuberant in words, expression, or style."
+  },
+  {
+    "id": 121,
+    "word": "corroborate",
+    "pos": "verb",
+    "meaning": "To confirm or support something with additional evidence; to attest or vouch for."
+  },
+  {
+    "id": 122,
+    "word": "corrosion",
+    "pos": "noun",
+    "meaning": "(by extension) The gradual destruction or undermining of something."
+  },
+  {
+    "id": 123,
+    "word": "covert",
+    "pos": "adjective",
+    "meaning": "Hidden, covered over; overgrown, sheltered."
+  },
+  {
+    "id": 124,
+    "word": "covet",
+    "pos": "verb",
+    "meaning": "To yearn; to have or indulge an inordinate desire, especially for another's possession."
+  },
+  {
+    "id": 125,
+    "word": "cower",
+    "pos": "verb",
+    "meaning": "To crouch or cringe, or to avoid or shy away from something, in fear."
+  },
+  {
+    "id": 126,
+    "word": "credulous",
+    "pos": "adjective",
+    "meaning": "Excessively ready to believe things; gullible."
+  },
+  {
+    "id": 127,
+    "word": "culpable",
+    "pos": "adjective",
+    "meaning": "Meriting condemnation, censure or blame, especially as something wrong, harmful or injurious; blameworthy."
+  },
+  {
+    "id": 128,
+    "word": "cultured",
+    "pos": "adjective",
+    "meaning": "Artificially developed."
+  },
+  {
+    "id": 129,
+    "word": "cunning",
+    "pos": "adjective",
+    "meaning": "Wrought with, or exhibiting, skill or ingenuity; ingenious."
+  },
+  {
+    "id": 130,
+    "word": "curmudgeon",
+    "pos": "noun",
+    "meaning": "An ill-tempered person full of stubborn ideas or opinions."
+  },
+  {
+    "id": 131,
+    "word": "cursory",
+    "pos": "adjective",
+    "meaning": "Hasty; superficial; careless"
+  },
+  {
+    "id": 132,
+    "word": "cynical",
+    "pos": "adjective",
+    "meaning": "Of or relating to the belief that human actions are motivated only or primarily by base desires or selfishness."
+  },
+  {
+    "id": 133,
+    "word": "damp",
+    "pos": "adjective",
+    "meaning": "In a state between dry and wet; moderately wet; moist."
+  },
+  {
+    "id": 134,
+    "word": "daunt",
+    "pos": "verb",
+    "meaning": "To discourage, intimidate."
+  },
+  {
+    "id": 135,
+    "word": "dearth",
+    "pos": "noun",
+    "meaning": "A period or condition when food is rare and hence expensive; famine."
+  },
+  {
+    "id": 136,
+    "word": "debacle",
+    "pos": "noun",
+    "meaning": "An event or enterprise that ends suddenly and disastrously, often with humiliating consequences."
+  },
+  {
+    "id": 137,
+    "word": "debased",
+    "pos": "adjective",
+    "meaning": "Brought low; degraded."
+  },
+  {
+    "id": 138,
+    "word": "debauchery",
+    "pos": "noun",
+    "meaning": "Indulgence in sensual pleasures; scandalous activities involving sex, alcohol, or drugs without inhibition."
+  },
+  {
+    "id": 139,
+    "word": "decibel",
+    "pos": "noun",
+    "meaning": "A common measure of sound intensity ratio that is one tenth of a bel on the logarithmic intensity scale. It is defined as dB = 10 log10(P1 / P2), where P1 and P2 are the relative powers of the sound."
+  },
+  {
+    "id": 140,
+    "word": "decimate",
+    "pos": "verb",
+    "meaning": "To kill one-tenth of a group, (specifically) as a military punishment in the Roman army selected by lot, usually carried out by the surviving soldiers."
+  },
+  {
+    "id": 141,
+    "word": "defer",
+    "pos": "verb",
+    "meaning": "To delay or postpone"
+  },
+  {
+    "id": 142,
+    "word": "deference",
+    "pos": "noun",
+    "meaning": "Great respect."
+  },
+  {
+    "id": 143,
+    "word": "deign",
+    "pos": "verb",
+    "meaning": "To condescend; to do despite a perceived affront to one's dignity."
+  },
+  {
+    "id": 144,
+    "word": "deleterious",
+    "pos": "adjective",
+    "meaning": "Harmful often in a subtle or unexpected way."
+  },
+  {
+    "id": 145,
+    "word": "demure",
+    "pos": "adjective",
+    "meaning": "(usually of women) Quiet, modest, reserved, sober, or serious."
+  },
+  {
+    "id": 146,
+    "word": "denigrate",
+    "pos": "verb",
+    "meaning": "To treat as worthless; belittle, degrade or disparage."
+  },
+  {
+    "id": 147,
+    "word": "denounce",
+    "pos": "verb",
+    "meaning": "To criticize or speak out against (someone or something); to point out as deserving of reprehension, etc.; to openly accuse or condemn in a threatening manner; to invoke censure upon; to stigmatize; to blame."
+  },
+  {
+    "id": 148,
+    "word": "deride",
+    "pos": "verb",
+    "meaning": "To harshly mock; ridicule."
+  },
+  {
+    "id": 149,
+    "word": "derision",
+    "pos": "noun",
+    "meaning": "Something to be derided; a laughing stock."
+  },
+  {
+    "id": 150,
+    "word": "derivative",
+    "pos": "adjective",
+    "meaning": "Obtained by derivation; not radical, original, or fundamental."
+  },
+  {
+    "id": 151,
+    "word": "detraction",
+    "pos": "noun",
+    "meaning": "the action of disparaging someone or something"
+  },
+  {
+    "id": 152,
+    "word": "deviance",
+    "pos": "noun",
+    "meaning": "Actions or behaviors that violate formal and informal cultural norms such as laws and customs."
+  },
+  {
+    "id": 153,
+    "word": "deviation",
+    "pos": "noun",
+    "meaning": "The state or result of having deviated; a transgression; an act of sin; an error; an offense."
+  },
+  {
+    "id": 154,
+    "word": "diabolic",
+    "pos": "adjective",
+    "meaning": "Showing wickedness typical of a devil."
+  },
+  {
+    "id": 155,
+    "word": "diatribe",
+    "pos": "noun",
+    "meaning": "A speech or writing which bitterly denounces something."
+  },
+  {
+    "id": 156,
+    "word": "dichotomy",
+    "pos": "noun",
+    "meaning": "Division and subdivision; bifurcation, as of a stem of a plant or a vein of the body into two parts as it proceeds from its origin; often successive."
+  },
+  {
+    "id": 157,
+    "word": "diffuse",
+    "pos": "verb",
+    "meaning": "To be spread over or through as in air, water, or other matter, especially by fluid motion or passive means."
+  },
+  {
+    "id": 158,
+    "word": "digress",
+    "pos": "verb",
+    "meaning": "To step or turn aside; to deviate; to swerve; especially, to turn aside from the main subject of attention, or course of argument, in writing or speaking."
+  },
+  {
+    "id": 159,
+    "word": "dilapidated",
+    "pos": "adjective",
+    "meaning": "Having fallen into a state of disrepair or deterioration, especially through neglect."
+  },
+  {
+    "id": 160,
+    "word": "din",
+    "pos": "noun",
+    "meaning": "A loud noise; a cacophony or loud commotion."
+  },
+  {
+    "id": 161,
+    "word": "disabuse",
+    "pos": "verb",
+    "meaning": "To free (someone) of a misconception or misapprehension; to unveil a falsehood held by (somebody)."
+  },
+  {
+    "id": 162,
+    "word": "discomfit",
+    "pos": "adjective",
+    "meaning": "Discomfited; overthrown."
+  },
+  {
+    "id": 163,
+    "word": "discordant",
+    "pos": "adjective",
+    "meaning": "Of a differing type of rock cutting across a formation"
+  },
+  {
+    "id": 164,
+    "word": "discourse",
+    "pos": "verb",
+    "meaning": "To exercise reason; to employ the mind in judging and inferring; to reason."
+  },
+  {
+    "id": 165,
+    "word": "discreet",
+    "pos": "adjective",
+    "meaning": "Respectful of privacy or secrecy; exercising caution in order to avoid causing embarrassment; quiet; diplomatic."
+  },
+  {
+    "id": 166,
+    "word": "discrepancy",
+    "pos": "noun",
+    "meaning": "An inconsistency between facts or sentiments."
+  },
+  {
+    "id": 167,
+    "word": "discrete",
+    "pos": "adjective",
+    "meaning": "Separate; distinct; individual; non-continuous."
+  },
+  {
+    "id": 168,
+    "word": "discretion",
+    "pos": "noun",
+    "meaning": "The quality of being discreet or circumspect."
+  },
+  {
+    "id": 169,
+    "word": "disingenuous",
+    "pos": "adjective",
+    "meaning": "Assuming a pose of naïveté to make a point or for deception."
+  },
+  {
+    "id": 170,
+    "word": "disinterest",
+    "pos": "adjective",
+    "meaning": "Free of personal bias."
+  },
+  {
+    "id": 171,
+    "word": "disparage",
+    "pos": "verb",
+    "meaning": "To dishonor by a comparison with what is inferior; to lower in rank or estimation by actions or words; to speak slightingly of; to depreciate; to undervalue."
+  },
+  {
+    "id": 172,
+    "word": "disparate",
+    "pos": "adjective",
+    "meaning": "Composed of inherently different or distinct elements; incongruous."
+  },
+  {
+    "id": 173,
+    "word": "dispersed",
+    "pos": "verb",
+    "meaning": "To scatter in different directions"
+  },
+  {
+    "id": 174,
+    "word": "dissemble",
+    "pos": "verb",
+    "meaning": "To deliberately ignore something; to pretend not to notice."
+  },
+  {
+    "id": 175,
+    "word": "dissolution",
+    "pos": "noun",
+    "meaning": "The quality of being dissolute."
+  },
+  {
+    "id": 176,
+    "word": "distill",
+    "pos": "verb",
+    "meaning": "To exude in small drops."
+  },
+  {
+    "id": 177,
+    "word": "distraught",
+    "pos": "adjective",
+    "meaning": "Deeply hurt, saddened, or worried; distressed."
+  },
+  {
+    "id": 178,
+    "word": "divest",
+    "pos": "verb",
+    "meaning": "To strip, deprive, or dispossess (someone) of something (such as a right, passion, privilege, or prejudice)."
+  },
+  {
+    "id": 179,
+    "word": "divulge",
+    "pos": "verb",
+    "meaning": "To make public or known; to communicate to the public; to tell (information, especially a secret) so that it may become generally known"
+  },
+  {
+    "id": 180,
+    "word": "dogma",
+    "pos": "noun",
+    "meaning": "A doctrine (or set of doctrines) relating to matters such as morality and faith, set forth authoritatively by a religious organization or leader."
+  },
+  {
+    "id": 181,
+    "word": "dynamo",
+    "pos": "noun",
+    "meaning": "An energetic person."
+  },
+  {
+    "id": 182,
+    "word": "eccentric",
+    "pos": "adjective",
+    "meaning": "Not perfectly circular; elliptical."
+  },
+  {
+    "id": 183,
+    "word": "eclectic",
+    "pos": "adjective",
+    "meaning": "Selecting a mixture of what appears to be best of various doctrines, methods or styles."
+  },
+  {
+    "id": 184,
+    "word": "eloquent",
+    "pos": "adjective",
+    "meaning": "Effective in expressing meaning by speech"
+  },
+  {
+    "id": 185,
+    "word": "elucidate",
+    "pos": "verb",
+    "meaning": "To make clear; to clarify; to shed light upon."
+  },
+  {
+    "id": 186,
+    "word": "empirical",
+    "pos": "adjective",
+    "meaning": "Pertaining to, derived from, or testable by observations made using the physical senses or using instruments which extend the senses."
+  },
+  {
+    "id": 187,
+    "word": "emulate",
+    "pos": "adjective",
+    "meaning": "Striving to excel; ambitious; emulous."
+  },
+  {
+    "id": 188,
+    "word": "enervate",
+    "pos": "adjective",
+    "meaning": "Made feeble; weakened."
+  },
+  {
+    "id": 189,
+    "word": "engender",
+    "pos": "verb",
+    "meaning": "To bring into existence (a situation, quality, result etc.); to give rise to, cause, create."
+  },
+  {
+    "id": 190,
+    "word": "enigmatic",
+    "pos": "adjective",
+    "meaning": "Pertaining to an enigma."
+  },
+  {
+    "id": 191,
+    "word": "enumerate",
+    "pos": "verb",
+    "meaning": "to specify each member of a sequence individually"
+  },
+  {
+    "id": 192,
+    "word": "ephemeral",
+    "pos": "adjective",
+    "meaning": "(of a body of water) Usually dry, but filling with water for brief periods during and after precipitation."
+  },
+  {
+    "id": 193,
+    "word": "episodic",
+    "pos": "adjective",
+    "meaning": "Made up a sequence of seemingly unconnected episodes"
+  },
+  {
+    "id": 194,
+    "word": "epitome",
+    "pos": "noun",
+    "meaning": "The embodiment or encapsulation of a class of items."
+  },
+  {
+    "id": 195,
+    "word": "equivocal",
+    "pos": "adjective",
+    "meaning": "Having two or more equally applicable meanings; capable of double or multiple interpretation."
+  },
+  {
+    "id": 196,
+    "word": "equivocate",
+    "pos": "verb",
+    "meaning": "To use words of equivocal or doubtful signification; to express one's opinions in terms which admit of different senses, with intent to deceive; to use ambiguous expressions with a view to mislead; as, to equivocate is the work of duplicity."
+  },
+  {
+    "id": 197,
+    "word": "eradicate",
+    "pos": "verb",
+    "meaning": "To destroy completely; to reduce to nothing radically; to put an end to; to extirpate."
+  },
+  {
+    "id": 198,
+    "word": "espouse",
+    "pos": "verb",
+    "meaning": "To accept, support, or take on as one’s own (an idea or a cause)."
+  },
+  {
+    "id": 199,
+    "word": "estimable",
+    "pos": "adjective",
+    "meaning": "Capable of being estimated; estimatable."
+  },
+  {
+    "id": 200,
+    "word": "ethereal",
+    "pos": "adjective",
+    "meaning": "Pertaining to the hypothetical upper, purer air, or to the higher regions beyond the earth or beyond the atmosphere; celestial; otherworldly."
+  },
+  {
+    "id": 201,
+    "word": "eulogy",
+    "pos": "noun",
+    "meaning": "Speaking highly of someone or something; the act of praising or commending someone or something."
+  },
+  {
+    "id": 202,
+    "word": "euphemism",
+    "pos": "noun",
+    "meaning": "The use of a word or phrase to replace another with one that is considered less offensive, blunt or vulgar than the word or phrase which it replaces."
+  },
+  {
+    "id": 203,
+    "word": "evanescent",
+    "pos": "adjective",
+    "meaning": "Barely there; almost imperceptible."
+  },
+  {
+    "id": 204,
+    "word": "exacerbate",
+    "pos": "verb",
+    "meaning": "To make worse (a problem, bad situation, negative feeling, etc.); aggravate; exasperate."
+  },
+  {
+    "id": 205,
+    "word": "exculpate",
+    "pos": "verb",
+    "meaning": "To clear of or to free from guilt; exonerate."
+  },
+  {
+    "id": 206,
+    "word": "exemplar",
+    "pos": "noun",
+    "meaning": "A handwritten manuscript used by a scribe to make a handwritten copy; the original copy of what gets multiply reproduced in a copy machine."
+  },
+  {
+    "id": 207,
+    "word": "exonerate",
+    "pos": "adjective",
+    "meaning": "Freed from an obligation; freed from accusation or blame; acquitted, exonerated."
+  },
+  {
+    "id": 208,
+    "word": "expel",
+    "pos": "verb",
+    "meaning": "To remove from membership."
+  },
+  {
+    "id": 209,
+    "word": "extemporaneous",
+    "pos": "adjective",
+    "meaning": "Without preparation or advanced thought; offhand."
+  },
+  {
+    "id": 210,
+    "word": "extend",
+    "pos": "verb",
+    "meaning": "To possess a certain extent; to cover an amount of space."
+  },
+  {
+    "id": 211,
+    "word": "extraneous",
+    "pos": "adjective",
+    "meaning": "Not belonging to, or dependent upon, a thing; without or beyond a thing; foreign"
+  },
+  {
+    "id": 212,
+    "word": "facetious",
+    "pos": "adjective",
+    "meaning": "Treating serious issues with (often deliberately) inappropriate humour; flippant."
+  },
+  {
+    "id": 213,
+    "word": "facilitate",
+    "pos": "verb",
+    "meaning": "To preside over (a meeting, a seminar)."
+  },
+  {
+    "id": 214,
+    "word": "fallacy",
+    "pos": "noun",
+    "meaning": "An argument, or apparent argument, which professes to be decisive of the matter at issue, while in reality it is not. A specious argument."
+  },
+  {
+    "id": 215,
+    "word": "fancy",
+    "pos": "adjective",
+    "meaning": "Decorative."
+  },
+  {
+    "id": 216,
+    "word": "fawn",
+    "pos": "adjective",
+    "meaning": "Of the fawn colour."
+  },
+  {
+    "id": 217,
+    "word": "fervent",
+    "pos": "adjective",
+    "meaning": "Exhibiting particular enthusiasm, zeal, conviction, persistence, or belief."
+  },
+  {
+    "id": 218,
+    "word": "fidelity",
+    "pos": "noun",
+    "meaning": "Faithfulness to one's duties."
+  },
+  {
+    "id": 219,
+    "word": "filibuster",
+    "pos": "verb",
+    "meaning": "To take part in a private military action in a foreign country."
+  },
+  {
+    "id": 220,
+    "word": "flag",
+    "pos": "verb",
+    "meaning": "(often with down) To signal to, especially to stop a passing vehicle etc."
+  },
+  {
+    "id": 221,
+    "word": "flamboyant",
+    "pos": "adjective",
+    "meaning": "Referring to the final stage of French Gothic architecture from the 14th to the 16th centuries."
+  },
+  {
+    "id": 222,
+    "word": "flip",
+    "pos": "verb",
+    "meaning": "To throw so as to turn over."
+  },
+  {
+    "id": 223,
+    "word": "flounder",
+    "pos": "noun",
+    "meaning": "A European species of flatfish having dull brown colouring with reddish-brown blotches; fluke, European flounder, Platichthys flesus."
+  },
+  {
+    "id": 224,
+    "word": "flout",
+    "pos": "verb",
+    "meaning": "To express contempt for (laws, rules, etc.) by word or action."
+  },
+  {
+    "id": 225,
+    "word": "flush",
+    "pos": "verb",
+    "meaning": "To cause to take flight from concealment."
+  },
+  {
+    "id": 226,
+    "word": "forbearance",
+    "pos": "noun",
+    "meaning": "A refraining from the enforcement of something (as a debt, right, or obligation) that is due."
+  },
+  {
+    "id": 227,
+    "word": "forestall",
+    "pos": "verb",
+    "meaning": "To prevent, delay or hinder something by taking precautionary or anticipatory measures; to avert."
+  },
+  {
+    "id": 228,
+    "word": "forswear",
+    "pos": "verb",
+    "meaning": "To renounce or deny something, especially under oath."
+  },
+  {
+    "id": 229,
+    "word": "forte",
+    "pos": "noun",
+    "meaning": "A strength or talent."
+  },
+  {
+    "id": 230,
+    "word": "fortuitous",
+    "pos": "adjective",
+    "meaning": "Happening by a lucky chance; lucky or fortunate."
+  },
+  {
+    "id": 231,
+    "word": "founder",
+    "pos": "noun",
+    "meaning": "One who founds or establishes (especially said of a company, project, organisation, state)"
+  },
+  {
+    "id": 232,
+    "word": "fraud",
+    "pos": "verb",
+    "meaning": "To defraud"
+  },
+  {
+    "id": 233,
+    "word": "frugality",
+    "pos": "noun",
+    "meaning": "The quality of being frugal; prudent economy; thrift."
+  },
+  {
+    "id": 234,
+    "word": "furtive",
+    "pos": "adjective",
+    "meaning": "Exhibiting guilty or evasive secrecy."
+  },
+  {
+    "id": 235,
+    "word": "garner",
+    "pos": "verb",
+    "meaning": "To earn; to get; to accumulate or acquire by some effort or due to some fact"
+  },
+  {
+    "id": 236,
+    "word": "genial",
+    "pos": "adjective",
+    "meaning": "Contributing to, or concerned in, propagation or production; generative; procreative; productive."
+  },
+  {
+    "id": 237,
+    "word": "glib",
+    "pos": "adjective",
+    "meaning": "Smooth or slippery."
+  },
+  {
+    "id": 238,
+    "word": "goad",
+    "pos": "verb",
+    "meaning": "To incite or provoke."
+  },
+  {
+    "id": 239,
+    "word": "gratis",
+    "pos": "adjective",
+    "meaning": "Free, without charge."
+  },
+  {
+    "id": 240,
+    "word": "gratitude",
+    "pos": "noun",
+    "meaning": "The state of being grateful."
+  },
+  {
+    "id": 241,
+    "word": "hankering",
+    "pos": "verb",
+    "meaning": "To crave, want or desire."
+  },
+  {
+    "id": 242,
+    "word": "hegemony",
+    "pos": "noun",
+    "meaning": "Dominance of one social group over another, such that the ruling group or hegemon acquires some degree of consent from the subordinate, as opposed to dominance purely by force."
+  },
+  {
+    "id": 243,
+    "word": "heretical",
+    "pos": "adjective",
+    "meaning": "(of ideas or views) Contrary to mainstream or accepted opinion."
+  },
+  {
+    "id": 244,
+    "word": "hyperbole",
+    "pos": "noun",
+    "meaning": "Deliberate or unintentional overstatement, particularly extreme overstatement."
+  },
+  {
+    "id": 245,
+    "word": "idiosyncrasy",
+    "pos": "noun",
+    "meaning": "A peculiarity that serves to distinguish or identify."
+  },
+  {
+    "id": 246,
+    "word": "idolatrous",
+    "pos": "adjective",
+    "meaning": "Partaking in idolatry; worshipping idols or false gods."
+  },
+  {
+    "id": 247,
+    "word": "illusory",
+    "pos": "adjective",
+    "meaning": "Resulting from an illusion; deceptive, imaginary, unreal"
+  },
+  {
+    "id": 248,
+    "word": "imminent",
+    "pos": "adjective",
+    "meaning": "About to happen, occur, or take place very soon, especially of something which won't last long."
+  },
+  {
+    "id": 249,
+    "word": "impassive",
+    "pos": "adjective",
+    "meaning": "Having, or revealing, no emotion."
+  },
+  {
+    "id": 250,
+    "word": "impediment",
+    "pos": "noun",
+    "meaning": "A disability, especially one affecting the hearing or speech."
+  },
+  {
+    "id": 251,
+    "word": "impenetrable",
+    "pos": "adjective",
+    "meaning": "Not penetrable."
+  },
+  {
+    "id": 252,
+    "word": "imperturbable",
+    "pos": "adjective",
+    "meaning": "Calm and collected, even under pressure."
+  },
+  {
+    "id": 253,
+    "word": "impetuous",
+    "pos": "adjective",
+    "meaning": "Making arbitrary decisions, especially in an impulsive and forceful manner."
+  },
+  {
+    "id": 254,
+    "word": "implacable",
+    "pos": "adjective",
+    "meaning": "Impossible to prevent or stop; inexorable, unrelenting, unstoppable."
+  },
+  {
+    "id": 255,
+    "word": "improbable",
+    "pos": "adjective",
+    "meaning": "Not likely to be true."
+  },
+  {
+    "id": 256,
+    "word": "impudent",
+    "pos": "adjective",
+    "meaning": "Not showing due respect; impertinent; bold-faced."
+  },
+  {
+    "id": 257,
+    "word": "impunity",
+    "pos": "noun",
+    "meaning": "Freedom from punishment or retribution; security from any reprisal or injurious consequences of an action, behaviour etc."
+  },
+  {
+    "id": 258,
+    "word": "incipient",
+    "pos": "adjective",
+    "meaning": "In an initial stage; beginning, starting, coming into existence."
+  },
+  {
+    "id": 259,
+    "word": "incorrigible",
+    "pos": "adjective",
+    "meaning": "Defective and impossible to materially correct or set aright."
+  },
+  {
+    "id": 260,
+    "word": "incubation",
+    "pos": "noun",
+    "meaning": "One of the four proposed stages of creativity (preparation, incubation, illumination, and verification): the unconscious recombination of thought elements that were stimulated through conscious work at one point in time, resulting in novel ideas at a later point."
+  },
+  {
+    "id": 261,
+    "word": "incumbent",
+    "pos": "adjective",
+    "meaning": "Imposed on someone as an obligation, especially due to one's office."
+  },
+  {
+    "id": 262,
+    "word": "indefatigable",
+    "pos": "adjective",
+    "meaning": "Extremely persistent and untiring."
+  },
+  {
+    "id": 263,
+    "word": "indifferent",
+    "pos": "adjective",
+    "meaning": "Not caring or concerned; uninterested, apathetic."
+  },
+  {
+    "id": 264,
+    "word": "indignation",
+    "pos": "noun",
+    "meaning": "An anger aroused by something perceived as an indignity, notably an offense or injustice."
+  },
+  {
+    "id": 265,
+    "word": "indolent",
+    "pos": "adjective",
+    "meaning": "Habitually lazy, procrastinating, or resistant to physical labor"
+  },
+  {
+    "id": 266,
+    "word": "indomitable",
+    "pos": "adjective",
+    "meaning": "Incapable of being subdued, overcome, or vanquished."
+  },
+  {
+    "id": 267,
+    "word": "inept",
+    "pos": "adjective",
+    "meaning": "Not able to do something; not proficient; displaying incompetence."
+  },
+  {
+    "id": 268,
+    "word": "inerrancy",
+    "pos": "noun",
+    "meaning": "the quality of being incapable of error; infallibility"
+  },
+  {
+    "id": 269,
+    "word": "inert",
+    "pos": "adjective",
+    "meaning": "In chemistry, not readily reacting with other elements or compounds."
+  },
+  {
+    "id": 270,
+    "word": "ingenuity",
+    "pos": "noun",
+    "meaning": "The ability to solve difficult problems, often in original, clever, and inventive ways."
+  },
+  {
+    "id": 271,
+    "word": "inherent",
+    "pos": "adjective",
+    "meaning": "Naturally as part or consequence of something."
+  },
+  {
+    "id": 272,
+    "word": "innocuous",
+    "pos": "adjective",
+    "meaning": "Inoffensive; unprovocative; not exceptional."
+  },
+  {
+    "id": 273,
+    "word": "inopportune",
+    "pos": "adjective",
+    "meaning": "Unsuitable for some particular purpose"
+  },
+  {
+    "id": 274,
+    "word": "inquisitive",
+    "pos": "adjective",
+    "meaning": "Too curious; overly interested; nosy."
+  },
+  {
+    "id": 275,
+    "word": "insipid",
+    "pos": "adjective",
+    "meaning": "Unappetizingly flavorless."
+  },
+  {
+    "id": 276,
+    "word": "insular",
+    "pos": "adjective",
+    "meaning": "Separate or isolated from the surroundings; having little interaction with external parties; provincial."
+  },
+  {
+    "id": 277,
+    "word": "intemperance",
+    "pos": "noun",
+    "meaning": "Lack of moderation or temperance; excess."
+  },
+  {
+    "id": 278,
+    "word": "intimate",
+    "pos": "adjective",
+    "meaning": "Closely acquainted; familiar."
+  },
+  {
+    "id": 279,
+    "word": "intransigent",
+    "pos": "adjective",
+    "meaning": "Unwilling to compromise or moderate a position; unreasonable"
+  },
+  {
+    "id": 280,
+    "word": "intrepid",
+    "pos": "adjective",
+    "meaning": "Fearless; bold; brave."
+  },
+  {
+    "id": 281,
+    "word": "introspection",
+    "pos": "noun",
+    "meaning": "A looking inward; specifically, the act or process of self-examination, or inspection of one's own thoughts and feelings; the cognition which the mind has of its own acts and states"
+  },
+  {
+    "id": 282,
+    "word": "inundate",
+    "pos": "verb",
+    "meaning": "To cover with large amounts of water; to flood."
+  },
+  {
+    "id": 283,
+    "word": "inured",
+    "pos": "verb",
+    "meaning": "To take effect, to be operative."
+  },
+  {
+    "id": 284,
+    "word": "irascible",
+    "pos": "adjective",
+    "meaning": "Easily provoked to outbursts of anger; irritable."
+  },
+  {
+    "id": 285,
+    "word": "irony",
+    "pos": "noun",
+    "meaning": "A statement that, when taken in context, may actually mean something different from, or the opposite of, what is written literally; the use of words expressing something other than their literal intention, often in a humorous context."
+  },
+  {
+    "id": 286,
+    "word": "itinerant",
+    "pos": "adjective",
+    "meaning": "Habitually travelling from place to place."
+  },
+  {
+    "id": 287,
+    "word": "itinerate",
+    "pos": "verb",
+    "meaning": "To travel from place to place, especially to preach or lecture."
+  },
+  {
+    "id": 288,
+    "word": "judicious",
+    "pos": "adjective",
+    "meaning": "Having, characterized by, or done with good judgment or sound thinking."
+  },
+  {
+    "id": 289,
+    "word": "lackluster",
+    "pos": "adjective",
+    "meaning": "Not exceptional; not worthy of special merit, attention, or interest; having no vitality."
+  },
+  {
+    "id": 290,
+    "word": "lament",
+    "pos": "verb",
+    "meaning": "To express grief; to weep or wail; to mourn."
+  },
+  {
+    "id": 291,
+    "word": "latent",
+    "pos": "adjective",
+    "meaning": "Lying dormant or hidden until circumstances are suitable for development or manifestation."
+  },
+  {
+    "id": 292,
+    "word": "lethargic",
+    "pos": "adjective",
+    "meaning": "Indifferent, apathetic"
+  },
+  {
+    "id": 293,
+    "word": "lucid",
+    "pos": "adjective",
+    "meaning": "Bright, luminous, translucent or transparent"
+  },
+  {
+    "id": 294,
+    "word": "luminous",
+    "pos": "adjective",
+    "meaning": "Emitting light; glowing brightly."
+  },
+  {
+    "id": 295,
+    "word": "magnate",
+    "pos": "noun",
+    "meaning": "Powerful industrialist; captain of industry."
+  },
+  {
+    "id": 296,
+    "word": "makeshift",
+    "pos": "adjective",
+    "meaning": "Made to work or suffice; improvised; substituted."
+  },
+  {
+    "id": 297,
+    "word": "malevolent",
+    "pos": "adjective",
+    "meaning": "Having or displaying ill will; wishing harm on others"
+  },
+  {
+    "id": 298,
+    "word": "malleable",
+    "pos": "adjective",
+    "meaning": "Flexible, liable to change."
+  },
+  {
+    "id": 299,
+    "word": "manifest",
+    "pos": "adjective",
+    "meaning": "Obvious to the understanding; apparent to the mind; easily apprehensible; plain; not obscure or hidden."
+  },
+  {
+    "id": 300,
+    "word": "marginal",
+    "pos": "adjective",
+    "meaning": "Of, relating to, or located at or near a margin or edge; also figurative usages of location and margin (edge)."
+  },
+  {
+    "id": 301,
+    "word": "martial",
+    "pos": "adjective",
+    "meaning": "Containing, or relating to, iron (which was symbolically associated with the planet Mars by alchemists); chalybeate, ferric, ferrous."
+  },
+  {
+    "id": 302,
+    "word": "maverick",
+    "pos": "adjective",
+    "meaning": "Showing independence in thoughts or actions."
+  },
+  {
+    "id": 303,
+    "word": "membrane",
+    "pos": "noun",
+    "meaning": "A flexible enclosing or separating tissue forming a plane or film and separating two environments (usually in a plant or animal)."
+  },
+  {
+    "id": 304,
+    "word": "metamorphose",
+    "pos": "verb",
+    "meaning": "To transform (something) so that it has a completely different appearance."
+  },
+  {
+    "id": 305,
+    "word": "meticulous",
+    "pos": "adjective",
+    "meaning": "Characterized by very precise, conscientious attention to details."
+  },
+  {
+    "id": 306,
+    "word": "milk",
+    "pos": "noun",
+    "meaning": "An individual serving of milk."
+  },
+  {
+    "id": 307,
+    "word": "misanthrope",
+    "pos": "noun",
+    "meaning": "One who hates all mankind; one who hates the human race."
+  },
+  {
+    "id": 308,
+    "word": "misappropriate",
+    "pos": "verb",
+    "meaning": "To embezzle."
+  },
+  {
+    "id": 309,
+    "word": "misconstrue",
+    "pos": "verb",
+    "meaning": "To interpret erroneously, to understand incorrectly; to misunderstand."
+  },
+  {
+    "id": 310,
+    "word": "miscreant",
+    "pos": "adjective",
+    "meaning": "Lacking in conscience or moral principles; unscrupulous."
+  },
+  {
+    "id": 311,
+    "word": "miserly",
+    "pos": "adjective",
+    "meaning": "Like a miser; very covetous; cautious with money"
+  },
+  {
+    "id": 312,
+    "word": "mitigate",
+    "pos": "verb",
+    "meaning": "To reduce, lessen, or decrease; to make less severe or easier to bear."
+  },
+  {
+    "id": 313,
+    "word": "mollify",
+    "pos": "verb",
+    "meaning": "To ease a burden, particularly worry; make less painful; to comfort."
+  },
+  {
+    "id": 314,
+    "word": "monotonous",
+    "pos": "adjective",
+    "meaning": "Tedious, repetitious or lacking in variety."
+  },
+  {
+    "id": 315,
+    "word": "morose",
+    "pos": "adjective",
+    "meaning": "Sullen, gloomy; showing a brooding ill humour."
+  },
+  {
+    "id": 316,
+    "word": "multifaceted",
+    "pos": "adjective",
+    "meaning": "Having multiple facets."
+  },
+  {
+    "id": 317,
+    "word": "myriad",
+    "pos": "adjective",
+    "meaning": "(modifying a plural noun) Great in number; innumerable, multitudinous"
+  },
+  {
+    "id": 318,
+    "word": "nominal",
+    "pos": "adjective",
+    "meaning": "Existing in name only."
+  },
+  {
+    "id": 319,
+    "word": "nonplused",
+    "pos": "adjective",
+    "meaning": "bewildered; unsure how to respond or act"
+  },
+  {
+    "id": 320,
+    "word": "novel",
+    "pos": "adjective",
+    "meaning": "Original, especially in an interesting way; new and striking; not of the typical or ordinary type."
+  },
+  {
+    "id": 321,
+    "word": "obdurate",
+    "pos": "adjective",
+    "meaning": "Stubbornly persistent, generally in wrongdoing; refusing to reform or repent."
+  },
+  {
+    "id": 322,
+    "word": "oblique",
+    "pos": "adjective",
+    "meaning": "(grammar) Of speech or narration, indirect, employing the actual words of the speaker, but as related by a third person, having the first person in pronoun and verb converted into the third person, adverbs of present time into the past, etc."
+  },
+  {
+    "id": 323,
+    "word": "obsequious",
+    "pos": "adjective",
+    "meaning": "excessively eager to please or obey; fawning, servile"
+  },
+  {
+    "id": 324,
+    "word": "obstinate",
+    "pos": "adjective",
+    "meaning": "Stubbornly adhering to an opinion, purpose, or course, usually with implied unreasonableness; persistent."
+  },
+  {
+    "id": 325,
+    "word": "obtuse",
+    "pos": "adjective",
+    "meaning": "Blunt; not sharp, pointed, or acute in form."
+  },
+  {
+    "id": 326,
+    "word": "obviate",
+    "pos": "verb",
+    "meaning": "To anticipate and prevent or bypass (something which would otherwise have been necessary or required)."
+  },
+  {
+    "id": 327,
+    "word": "odious",
+    "pos": "adjective",
+    "meaning": "Arousing or meriting strong dislike, aversion, or intense displeasure."
+  },
+  {
+    "id": 328,
+    "word": "ominous",
+    "pos": "adjective",
+    "meaning": "Specifically, giving indication of a coming ill; being an evil omen"
+  },
+  {
+    "id": 329,
+    "word": "onerous",
+    "pos": "adjective",
+    "meaning": "Imposing or constituting a physical, mental, or figurative load which can be borne only with effort; burdensome."
+  },
+  {
+    "id": 330,
+    "word": "opaque",
+    "pos": "adjective",
+    "meaning": "Describes a type for which higher-level callers have no knowledge of data values or their representations; all operations are carried out by the type's defined abstract operators."
+  },
+  {
+    "id": 331,
+    "word": "ornery",
+    "pos": "adjective",
+    "meaning": "Mischievous, prankish, teasing, disagreeable but in a good way."
+  },
+  {
+    "id": 332,
+    "word": "ostentatious",
+    "pos": "adjective",
+    "meaning": "Intended to attract notice."
+  },
+  {
+    "id": 333,
+    "word": "ostracism",
+    "pos": "noun",
+    "meaning": "In ancient Athens (and some other cities), the temporary banishment by popular vote of a citizen considered dangerous to the state."
+  },
+  {
+    "id": 334,
+    "word": "paradigm",
+    "pos": "noun",
+    "meaning": "A pattern, a way of doing something, especially a pattern of thought, a system of beliefs, a conceptual framework."
+  },
+  {
+    "id": 335,
+    "word": "paradox",
+    "pos": "noun",
+    "meaning": "An apparently self-contradictory statement, which can only be true if it is false, and vice versa."
+  },
+  {
+    "id": 336,
+    "word": "parody",
+    "pos": "verb",
+    "meaning": "To make a parody of something."
+  },
+  {
+    "id": 337,
+    "word": "partisan",
+    "pos": "adjective",
+    "meaning": "Serving as commander or member of a body of detached light troops."
+  },
+  {
+    "id": 338,
+    "word": "patent",
+    "pos": "verb",
+    "meaning": "To successfully register an invention with a government agency; to secure a letter patent."
+  },
+  {
+    "id": 339,
+    "word": "pedagogy",
+    "pos": "noun",
+    "meaning": "The activities of educating, teaching or instructing."
+  },
+  {
+    "id": 340,
+    "word": "pedantic",
+    "pos": "adjective",
+    "meaning": "Like a pedant, overly concerned with formal rules and trivial points of learning."
+  },
+  {
+    "id": 341,
+    "word": "penchant",
+    "pos": "noun",
+    "meaning": "Taste, liking, or inclination (for)."
+  },
+  {
+    "id": 342,
+    "word": "penultimate",
+    "pos": "adjective",
+    "meaning": "(in United States usually formal) Next to last, second to last; immediately preceding the end of a sequence, list, etc."
+  },
+  {
+    "id": 343,
+    "word": "penury",
+    "pos": "noun",
+    "meaning": "Extreme want; poverty; destitution."
+  },
+  {
+    "id": 344,
+    "word": "perennial",
+    "pos": "adjective",
+    "meaning": "Lasting or remaining active throughout the year, or all the time."
+  },
+  {
+    "id": 345,
+    "word": "peripheral",
+    "pos": "adjective",
+    "meaning": "Related to or located in the peripheral nervous system."
+  },
+  {
+    "id": 346,
+    "word": "perjury",
+    "pos": "noun",
+    "meaning": "The deliberate giving of false or misleading testimony under oath."
+  },
+  {
+    "id": 347,
+    "word": "personable",
+    "pos": "adjective",
+    "meaning": "(of a person) Having a pleasing appearance or manner; attractive; handsome; friendly; amiable."
+  },
+  {
+    "id": 348,
+    "word": "pertinent",
+    "pos": "adjective",
+    "meaning": "Important with regard to (a subject or matter); relevant"
+  },
+  {
+    "id": 349,
+    "word": "peruse",
+    "pos": "verb",
+    "meaning": "To go from place to place; to wander."
+  },
+  {
+    "id": 350,
+    "word": "pervasive",
+    "pos": "adjective",
+    "meaning": "Manifested throughout; pervading, permeating, penetrating or affecting everything."
+  },
+  {
+    "id": 351,
+    "word": "petulant",
+    "pos": "adjective",
+    "meaning": "Childishly irritable"
+  },
+  {
+    "id": 352,
+    "word": "pine",
+    "pos": "noun",
+    "meaning": "Any coniferous tree of the genus Pinus."
+  },
+  {
+    "id": 353,
+    "word": "pious",
+    "pos": "adjective",
+    "meaning": "Of or pertaining to piety, exhibiting piety, devout, godfearing."
+  },
+  {
+    "id": 354,
+    "word": "placate",
+    "pos": "verb",
+    "meaning": "To calm; to bring peace to; to influence someone who was furious to the point that they become content or at least no longer irate."
+  },
+  {
+    "id": 355,
+    "word": "placebo",
+    "pos": "noun",
+    "meaning": "A dummy medicine containing no active ingredients; an inert treatment."
+  },
+  {
+    "id": 356,
+    "word": "plasticity",
+    "pos": "noun",
+    "meaning": "The property of a solid body whereby it undergoes a permanent change in shape or size when subjected to a stress exceeding a particular value (the yield value)"
+  },
+  {
+    "id": 357,
+    "word": "platitude",
+    "pos": "noun",
+    "meaning": "An often-quoted saying that is supposed to be meaningful but has become unoriginal or hackneyed through overuse; a cliché."
+  },
+  {
+    "id": 358,
+    "word": "plethora",
+    "pos": "noun",
+    "meaning": "(usually followed by of) An excessive amount or number; an abundance."
+  },
+  {
+    "id": 359,
+    "word": "plod",
+    "pos": "verb",
+    "meaning": "To walk or move slowly and heavily or laboriously (+ on, through, over)."
+  },
+  {
+    "id": 360,
+    "word": "plummet",
+    "pos": "verb",
+    "meaning": "To drop swiftly, in a direct manner; to fall quickly."
+  },
+  {
+    "id": 361,
+    "word": "poignant",
+    "pos": "adjective",
+    "meaning": "Neat; eloquent; applicable; relevant."
+  },
+  {
+    "id": 362,
+    "word": "pompous",
+    "pos": "adjective",
+    "meaning": "Affectedly grand, solemn or self-important."
+  },
+  {
+    "id": 363,
+    "word": "porous",
+    "pos": "adjective",
+    "meaning": "Full of tiny pores that allow fluids or gasses to pass through."
+  },
+  {
+    "id": 364,
+    "word": "pragmatic",
+    "pos": "adjective",
+    "meaning": "Practical, concerned with making decisions and actions that are useful in practice, not just theory."
+  },
+  {
+    "id": 365,
+    "word": "precarious",
+    "pos": "adjective",
+    "meaning": "Dangerously insecure or unstable; perilous."
+  },
+  {
+    "id": 366,
+    "word": "precipitate",
+    "pos": "adjective",
+    "meaning": "Moving with excessive speed or haste."
+  },
+  {
+    "id": 367,
+    "word": "precursor",
+    "pos": "adjective",
+    "meaning": "(of intersymbol interference) Caused by the following symbol."
+  },
+  {
+    "id": 368,
+    "word": "preempt",
+    "pos": "verb",
+    "meaning": "To displace something, or take precedence over something."
+  },
+  {
+    "id": 369,
+    "word": "presumption",
+    "pos": "noun",
+    "meaning": "The belief of something based upon reasonable evidence, or upon something known to be true"
+  },
+  {
+    "id": 370,
+    "word": "presumptuous",
+    "pos": "adjective",
+    "meaning": "Going beyond what is right, proper, or appropriate because of an excess of self-confidence or arrogance."
+  },
+  {
+    "id": 371,
+    "word": "prime",
+    "pos": "adjective",
+    "meaning": "First in importance, degree, or rank."
+  },
+  {
+    "id": 372,
+    "word": "pristine",
+    "pos": "adjective",
+    "meaning": "Unspoiled; still with its original purity; uncorrupted or unsullied."
+  },
+  {
+    "id": 373,
+    "word": "proclivity",
+    "pos": "noun",
+    "meaning": "A predisposition or natural inclination, propensity, or a predilection; especially, a strong disposition or bent."
+  },
+  {
+    "id": 374,
+    "word": "prodigal",
+    "pos": "adjective",
+    "meaning": "Wastefully extravagant."
+  },
+  {
+    "id": 375,
+    "word": "profuse",
+    "pos": "adjective",
+    "meaning": "In great quantity or abundance; liberal or generous to the point of excess."
+  },
+  {
+    "id": 376,
+    "word": "proliferate",
+    "pos": "verb",
+    "meaning": "To increase in number or spread rapidly; to multiply."
+  },
+  {
+    "id": 377,
+    "word": "prone",
+    "pos": "adjective",
+    "meaning": "Lying face downward."
+  },
+  {
+    "id": 378,
+    "word": "propagate",
+    "pos": "verb",
+    "meaning": "To cause to spread to extend; to impel or continue forward in space"
+  },
+  {
+    "id": 379,
+    "word": "propensity",
+    "pos": "noun",
+    "meaning": "An inclination, disposition, tendency, preference, or attraction."
+  },
+  {
+    "id": 380,
+    "word": "provincial",
+    "pos": "adjective",
+    "meaning": "Of or pertaining to a province."
+  },
+  {
+    "id": 381,
+    "word": "prudent",
+    "pos": "adjective",
+    "meaning": "Practically wise, judicious, shrewd"
+  },
+  {
+    "id": 382,
+    "word": "prune",
+    "pos": "verb",
+    "meaning": "To become wrinkled like a dried plum, as the fingers and toes do when kept submerged in water."
+  },
+  {
+    "id": 383,
+    "word": "pursuant",
+    "pos": "adjective",
+    "meaning": "In conformance to, or in agreement with."
+  },
+  {
+    "id": 384,
+    "word": "qualify",
+    "pos": "verb",
+    "meaning": "To throw and catch each object at least twice."
+  },
+  {
+    "id": 385,
+    "word": "qualm",
+    "pos": "verb",
+    "meaning": "To have a sickly feeling."
+  },
+  {
+    "id": 386,
+    "word": "query",
+    "pos": "verb",
+    "meaning": "To pass a set of instructions to a database to retrieve information from it."
+  },
+  {
+    "id": 387,
+    "word": "queue",
+    "pos": "verb",
+    "meaning": "To put oneself or itself at the end of a waiting line."
+  },
+  {
+    "id": 388,
+    "word": "quintessential",
+    "pos": "adjective",
+    "meaning": "Of the nature of a quintessence (in all senses); ultimate."
+  },
+  {
+    "id": 389,
+    "word": "rarefy",
+    "pos": "verb",
+    "meaning": "To expand or enlarge without adding any new portion of matter to."
+  },
+  {
+    "id": 390,
+    "word": "raucous",
+    "pos": "adjective",
+    "meaning": "Harsh and rough-sounding."
+  },
+  {
+    "id": 391,
+    "word": "recalcitrant",
+    "pos": "adjective",
+    "meaning": "(of seed, pollen, spores) Not viable for an extended period; damaged by drying or freezing."
+  },
+  {
+    "id": 392,
+    "word": "recluse",
+    "pos": "adjective",
+    "meaning": "Sequestered; secluded, isolated"
+  },
+  {
+    "id": 393,
+    "word": "reconciliation",
+    "pos": "noun",
+    "meaning": "The reestablishment of friendly relations; conciliation or rapprochement."
+  },
+  {
+    "id": 394,
+    "word": "reconnaissance",
+    "pos": "noun",
+    "meaning": "The act of scouting or exploring (especially military or medical) to gain information."
+  },
+  {
+    "id": 395,
+    "word": "rectify",
+    "pos": "verb",
+    "meaning": "To remedy or fix (an undesirable state of affairs, situation etc.)."
+  },
+  {
+    "id": 396,
+    "word": "refute",
+    "pos": "verb",
+    "meaning": "To deny the truth or correctness of (something)."
+  },
+  {
+    "id": 397,
+    "word": "relegate",
+    "pos": "verb",
+    "meaning": "Exile, banish, remove, or send away."
+  },
+  {
+    "id": 398,
+    "word": "relish",
+    "pos": "verb",
+    "meaning": "To take great pleasure in."
+  },
+  {
+    "id": 399,
+    "word": "remedial",
+    "pos": "adjective",
+    "meaning": "Intended to correct or improve deficient skills in some subject"
+  },
+  {
+    "id": 400,
+    "word": "remonstrate",
+    "pos": "verb",
+    "meaning": "(often with an object consisting of direct speech or a clause beginning with that) To state or plead as an objection, formal protest, or expression of disapproval."
+  },
+  {
+    "id": 401,
+    "word": "remuneration",
+    "pos": "noun",
+    "meaning": "Something given in exchange for goods or services rendered."
+  },
+  {
+    "id": 402,
+    "word": "renaissance",
+    "pos": "noun",
+    "meaning": "(historic) Alternative form of Renaissance"
+  },
+  {
+    "id": 403,
+    "word": "renege",
+    "pos": "verb",
+    "meaning": "In a card game, to break one's commitment to follow suit when capable."
+  },
+  {
+    "id": 404,
+    "word": "reproach",
+    "pos": "verb",
+    "meaning": "To criticize or rebuke (someone)."
+  },
+  {
+    "id": 405,
+    "word": "repudiate",
+    "pos": "verb",
+    "meaning": "To refuse to have anything to do with; to disown."
+  },
+  {
+    "id": 406,
+    "word": "rescind",
+    "pos": "verb",
+    "meaning": "To repeal, annul, or declare void; to take (something such as a rule or contract) out of effect."
+  },
+  {
+    "id": 407,
+    "word": "resolute",
+    "pos": "adjective",
+    "meaning": "Firm, unyielding, determined."
+  },
+  {
+    "id": 408,
+    "word": "respite",
+    "pos": "verb",
+    "meaning": "To allow (a person) extra time to fulfil some obligation."
+  },
+  {
+    "id": 409,
+    "word": "restitution",
+    "pos": "noun",
+    "meaning": "A return or restoration to a previous condition or position."
+  },
+  {
+    "id": 410,
+    "word": "resurrect",
+    "pos": "verb",
+    "meaning": "To raise from the dead, to bring life back to."
+  },
+  {
+    "id": 411,
+    "word": "retard",
+    "pos": "verb",
+    "meaning": "To keep delaying; to continue to hinder; to prevent from progress"
+  },
+  {
+    "id": 412,
+    "word": "reticent",
+    "pos": "adjective",
+    "meaning": "Hesitant or not wanting to take some action; reluctant (usually followed by a verb in the infinitive)."
+  },
+  {
+    "id": 413,
+    "word": "reverent",
+    "pos": "adjective",
+    "meaning": "Showing or characterized by great respect or reverence; respectful."
+  },
+  {
+    "id": 414,
+    "word": "rhetoric",
+    "pos": "adjective",
+    "meaning": "Part of or similar to rhetoric, the use of language as a means to persuade."
+  },
+  {
+    "id": 415,
+    "word": "rubric",
+    "pos": "adjective",
+    "meaning": "Of or relating to the rubric or rubrics; rubrical."
+  },
+  {
+    "id": 416,
+    "word": "rue",
+    "pos": "noun",
+    "meaning": "Sorrow; repentance; regret."
+  },
+  {
+    "id": 417,
+    "word": "salient",
+    "pos": "adjective",
+    "meaning": "Worthy of note; pertinent or relevant."
+  },
+  {
+    "id": 418,
+    "word": "salutary",
+    "pos": "adjective",
+    "meaning": "Effecting or designed to effect an improvement; remedial: salutary advice."
+  },
+  {
+    "id": 419,
+    "word": "salve",
+    "pos": "noun",
+    "meaning": "An ointment, cream, or balm with soothing, healing, or calming effects."
+  },
+  {
+    "id": 420,
+    "word": "sanction",
+    "pos": "verb",
+    "meaning": "To give official authorization or approval to; to countenance."
+  },
+  {
+    "id": 421,
+    "word": "sap",
+    "pos": "verb",
+    "meaning": "To drain, suck or absorb from (tree, etc.)."
+  },
+  {
+    "id": 422,
+    "word": "satire",
+    "pos": "noun",
+    "meaning": "A satirical work."
+  },
+  {
+    "id": 423,
+    "word": "saturate",
+    "pos": "adjective",
+    "meaning": "Very intense."
+  },
+  {
+    "id": 424,
+    "word": "savor",
+    "pos": "noun",
+    "meaning": "Sense of smell; power to scent, or trace by scent."
+  },
+  {
+    "id": 425,
+    "word": "schism",
+    "pos": "noun",
+    "meaning": "A formal division or split within a religious body."
+  },
+  {
+    "id": 426,
+    "word": "secrete",
+    "pos": "adjective",
+    "meaning": "Separated"
+  },
+  {
+    "id": 427,
+    "word": "sedative",
+    "pos": "adjective",
+    "meaning": "(pharmaceutical effect) Calming, soothing, inducing sleep, tranquilizing"
+  },
+  {
+    "id": 428,
+    "word": "serenity",
+    "pos": "noun",
+    "meaning": "A title given to a reigning prince or similar dignitary."
+  },
+  {
+    "id": 429,
+    "word": "sever",
+    "pos": "verb",
+    "meaning": "To cut free."
+  },
+  {
+    "id": 430,
+    "word": "shard",
+    "pos": "verb",
+    "meaning": "To divide (an MMORPG) into several shards, or to establish a shard of one."
+  },
+  {
+    "id": 431,
+    "word": "singular",
+    "pos": "adjective",
+    "meaning": "Being only one of a larger population."
+  },
+  {
+    "id": 432,
+    "word": "slight",
+    "pos": "adjective",
+    "meaning": "Of slender build"
+  },
+  {
+    "id": 433,
+    "word": "slothful",
+    "pos": "adjective",
+    "meaning": "Lazy; idle; tending to sloth."
+  },
+  {
+    "id": 434,
+    "word": "soliloquy",
+    "pos": "verb",
+    "meaning": "(very rare) To issue a soliloquy."
+  },
+  {
+    "id": 435,
+    "word": "solvent",
+    "pos": "adjective",
+    "meaning": "able to pay all debts as they become due"
+  },
+  {
+    "id": 436,
+    "word": "somber",
+    "pos": "adjective",
+    "meaning": "Grave; extremely serious."
+  },
+  {
+    "id": 437,
+    "word": "sordid",
+    "pos": "adjective",
+    "meaning": "Distasteful, ignoble, vile, or contemptible."
+  },
+  {
+    "id": 438,
+    "word": "sparing",
+    "pos": "adjective",
+    "meaning": "Prudent and restrained in the use of resources; careful, economical or frugal."
+  },
+  {
+    "id": 439,
+    "word": "sparse",
+    "pos": "adjective",
+    "meaning": "Having widely spaced intervals."
+  },
+  {
+    "id": 440,
+    "word": "spendthrift",
+    "pos": "adjective",
+    "meaning": "Improvident, profligate, or wasteful."
+  },
+  {
+    "id": 441,
+    "word": "sporadic",
+    "pos": "adjective",
+    "meaning": "(of diseases) occurring in isolated instances; not epidemic."
+  },
+  {
+    "id": 442,
+    "word": "spurious",
+    "pos": "adjective",
+    "meaning": "False, not authentic, not genuine."
+  },
+  {
+    "id": 443,
+    "word": "squalid",
+    "pos": "adjective",
+    "meaning": "Showing a contemptible lack of moral standards."
+  },
+  {
+    "id": 444,
+    "word": "stanza",
+    "pos": "noun",
+    "meaning": "A unit of a poem, written or printed as a paragraph; equivalent to a verse."
+  },
+  {
+    "id": 445,
+    "word": "static",
+    "pos": "adjective",
+    "meaning": "Defined for the class itself, as opposed to instances of it; thus shared between all instances and accessible even without an instance."
+  },
+  {
+    "id": 446,
+    "word": "staunch",
+    "pos": "adjective",
+    "meaning": "Loyal, trustworthy, reliable."
+  },
+  {
+    "id": 447,
+    "word": "stint",
+    "pos": "verb",
+    "meaning": "To be sparing or mean."
+  },
+  {
+    "id": 448,
+    "word": "subliminal",
+    "pos": "adjective",
+    "meaning": "(of a stimulus) Below the threshold of conscious perception, especially if still able to produce a response."
+  },
+  {
+    "id": 449,
+    "word": "subpoena",
+    "pos": "verb",
+    "meaning": "To summon with a subpoena."
+  },
+  {
+    "id": 450,
+    "word": "subtle",
+    "pos": "adjective",
+    "meaning": "Hard to grasp; not obvious or easily understood; barely noticeable."
+  },
+  {
+    "id": 451,
+    "word": "succinct",
+    "pos": "adjective",
+    "meaning": "Compressed into a tiny area."
+  },
+  {
+    "id": 452,
+    "word": "sundry",
+    "pos": "adjective",
+    "meaning": "Consisting of a haphazard assortment of different kinds; miscellaneous."
+  },
+  {
+    "id": 453,
+    "word": "superfluous",
+    "pos": "adjective",
+    "meaning": "In excess of what is required or sufficient."
+  },
+  {
+    "id": 454,
+    "word": "supplant",
+    "pos": "verb",
+    "meaning": "To take the place of; to replace, to supersede."
+  },
+  {
+    "id": 455,
+    "word": "surreptitious",
+    "pos": "adjective",
+    "meaning": "Stealthy, furtive, well hidden, covert (especially movements)."
+  },
+  {
+    "id": 456,
+    "word": "synergy",
+    "pos": "noun",
+    "meaning": "The cooperation of two or more nerves, muscles, organs, etc."
+  },
+  {
+    "id": 457,
+    "word": "tacit",
+    "pos": "adjective",
+    "meaning": "Expressed in silence; implied, but not made explicit; silent."
+  },
+  {
+    "id": 458,
+    "word": "taciturn",
+    "pos": "adjective",
+    "meaning": "Silent; temperamentally untalkative; disinclined to speak."
+  },
+  {
+    "id": 459,
+    "word": "tact",
+    "pos": "verb",
+    "meaning": "To use a tact (a kind of verbal operant; see noun sense)."
+  },
+  {
+    "id": 460,
+    "word": "tangential",
+    "pos": "adjective",
+    "meaning": "Only indirectly related."
+  },
+  {
+    "id": 461,
+    "word": "tantalize",
+    "pos": "verb",
+    "meaning": "To tease (someone) by offering something desirable but keeping it out of reach"
+  },
+  {
+    "id": 462,
+    "word": "tautology",
+    "pos": "noun",
+    "meaning": "Redundant use of words, a pleonasm, an unnecessary and tedious repetition."
+  },
+  {
+    "id": 463,
+    "word": "temper",
+    "pos": "verb",
+    "meaning": "To moderate or control."
+  },
+  {
+    "id": 464,
+    "word": "temperate",
+    "pos": "adjective",
+    "meaning": "Moderate; not excessive"
+  },
+  {
+    "id": 465,
+    "word": "tenacity",
+    "pos": "noun",
+    "meaning": "The greatest longitudinal stress a substance can bear without tearing asunder, usually expressed with reference to a unit area of the cross section of the substance, as the number of pounds per square inch, or kilograms per square centimeter, necessary to produce rupture."
+  },
+  {
+    "id": 466,
+    "word": "tender",
+    "pos": "adjective",
+    "meaning": "Easily bruised or injured; not firm or hard; delicate."
+  },
+  {
+    "id": 467,
+    "word": "tentative",
+    "pos": "adjective",
+    "meaning": "Of or pertaining to a trial or trials; essaying; experimental."
+  },
+  {
+    "id": 468,
+    "word": "tenuous",
+    "pos": "adjective",
+    "meaning": "Thin in substance or consistency."
+  },
+  {
+    "id": 469,
+    "word": "terse",
+    "pos": "adjective",
+    "meaning": "(by extension) Of manner or speech: abruptly or brusquely short; curt."
+  },
+  {
+    "id": 470,
+    "word": "tirade",
+    "pos": "verb",
+    "meaning": "To make a long, angry or violent speech, a tirade."
+  },
+  {
+    "id": 471,
+    "word": "torque",
+    "pos": "verb",
+    "meaning": "to twist or turn something"
+  },
+  {
+    "id": 472,
+    "word": "tout",
+    "pos": "verb",
+    "meaning": "To flaunt, to publicize/publicise; to boast or brag; to promote."
+  },
+  {
+    "id": 473,
+    "word": "tranquil",
+    "pos": "adjective",
+    "meaning": "Free from emotional or mental disturbance."
+  },
+  {
+    "id": 474,
+    "word": "travesty",
+    "pos": "verb",
+    "meaning": "To make a travesty of; to parody."
+  },
+  {
+    "id": 475,
+    "word": "trepidation",
+    "pos": "noun",
+    "meaning": "A fearful state; a state of concern or hesitation."
+  },
+  {
+    "id": 476,
+    "word": "trivial",
+    "pos": "adjective",
+    "meaning": "Relating to or designating the name of a species; specific as opposed to generic."
+  },
+  {
+    "id": 477,
+    "word": "unfettered",
+    "pos": "adjective",
+    "meaning": "Not bound by chains or shackles."
+  },
+  {
+    "id": 478,
+    "word": "unremitting",
+    "pos": "adjective",
+    "meaning": "Incessant; never slackening"
+  },
+  {
+    "id": 479,
+    "word": "vacillate",
+    "pos": "verb",
+    "meaning": "To swing indecisively from one course of action or opinion to another."
+  },
+  {
+    "id": 480,
+    "word": "veracity",
+    "pos": "noun",
+    "meaning": "Agreement with the facts; accordance with the truth; accuracy or precision."
+  },
+  {
+    "id": 481,
+    "word": "veritable",
+    "pos": "adjective",
+    "meaning": "True; genuine."
+  },
+  {
+    "id": 482,
+    "word": "vexation",
+    "pos": "noun",
+    "meaning": "The act of annoying, vexing, or irritating."
+  },
+  {
+    "id": 483,
+    "word": "viable",
+    "pos": "adjective",
+    "meaning": "Able to live on its own (as for a newborn)."
+  },
+  {
+    "id": 484,
+    "word": "vigilant",
+    "pos": "adjective",
+    "meaning": "Watchful, especially for danger or disorder; alert; wary"
+  },
+  {
+    "id": 485,
+    "word": "vigor",
+    "pos": "noun",
+    "meaning": "Active strength or force of body or mind; capacity for exertion, physically, intellectually, or morally; energy."
+  },
+  {
+    "id": 486,
+    "word": "vilify",
+    "pos": "verb",
+    "meaning": "To say defamatory things about someone or something; to speak ill of."
+  },
+  {
+    "id": 487,
+    "word": "viscous",
+    "pos": "adjective",
+    "meaning": "Having a thick, sticky consistency between solid and liquid."
+  },
+  {
+    "id": 488,
+    "word": "vitality",
+    "pos": "noun",
+    "meaning": "That which distinguishes living from nonliving things; life, animateness."
+  },
+  {
+    "id": 489,
+    "word": "volatile",
+    "pos": "adjective",
+    "meaning": "Passing through the air on wings, or by the buoyant force of the atmosphere; flying; having the power to fly."
+  },
+  {
+    "id": 490,
+    "word": "voracious",
+    "pos": "adjective",
+    "meaning": "Having a great appetite for anything (e.g., a voracious reader)."
+  },
+  {
+    "id": 491,
+    "word": "waffle",
+    "pos": "verb",
+    "meaning": "To smash."
+  },
+  {
+    "id": 492,
+    "word": "waft",
+    "pos": "verb",
+    "meaning": "To (cause to) float easily or gently through the air."
+  },
+  {
+    "id": 493,
+    "word": "wane",
+    "pos": "verb",
+    "meaning": "Said of the Moon as it passes through the phases of its monthly cycle where its surface is less and less visible."
+  },
+  {
+    "id": 494,
+    "word": "warranted",
+    "pos": "adjective",
+    "meaning": "Deserved, necessary, appropriate."
+  },
+  {
+    "id": 495,
+    "word": "waver",
+    "pos": "verb",
+    "meaning": "To sway back and forth; to totter or reel."
+  },
+  {
+    "id": 496,
+    "word": "weather",
+    "pos": "adjective",
+    "meaning": "Facing towards the flow of a fluid, usually air."
+  },
+  {
+    "id": 497,
+    "word": "whimsical",
+    "pos": "adjective",
+    "meaning": "Given to whimsy."
+  },
+  {
+    "id": 498,
+    "word": "zealous",
+    "pos": "adjective",
+    "meaning": "Full of zeal; ardent, fervent; exhibiting enthusiasm or strong passion."
+  }
+]
