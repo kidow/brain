@@ -121,6 +121,7 @@ brain/
 - [스페인어 과거시제](https://brain.dongwook.kim/notes/스페인어/스페인어_과거시제)
 - [스페인어 현재완료](https://brain.dongwook.kim/notes/스페인어/스페인어_현재완료)
 - [스페인어 미래시제](https://brain.dongwook.kim/notes/스페인어/스페인어_미래시제)
+- [스페인어 비교급 최상급](https://brain.dongwook.kim/notes/스페인어/스페인어_비교급_최상급)
 
 **언어 — 독일어**
 - [독일어 문자](https://brain.dongwook.kim/notes/독일어/독일어_문자)
