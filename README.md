@@ -81,6 +81,7 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 **Languages — Russian**
 - [러시아어 문자의 특징](https://brain.dongwook.kim/notes/러시아어_문자의_특징)
 - [러시아어 기초 어휘](https://brain.dongwook.kim/notes/러시아어_기초_어휘)
+- [러시아어 격변화 기초](https://brain.dongwook.kim/notes/러시아어_격변화_기초)
 
 **Languages — Spanish**
 - [스페인어 문자](https://brain.dongwook.kim/notes/스페인어_문자)
