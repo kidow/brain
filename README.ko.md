@@ -119,6 +119,7 @@ brain/
 - [프랑스어 재귀동사](https://brain.dongwook.kim/notes/프랑스어_재귀동사)
 - [프랑스어 복합과거](https://brain.dongwook.kim/notes/프랑스어_복합과거)
 - [프랑스어 재귀동사 복합과거](https://brain.dongwook.kim/notes/프랑스어_재귀동사_복합과거)
+- [프랑스어 반과거](https://brain.dongwook.kim/notes/프랑스어_반과거)
 
 **언어 — 아랍어**
 - [아랍어 문자](https://brain.dongwook.kim/notes/아랍어_문자)
@@ -314,6 +315,9 @@ brain/
 
 **스페인어**
 - [스페인어 기초 어휘](https://brain.dongwook.kim/drills/스페인어_기초_어휘.html)
+
+**독일어**
+- [독일어 기초 어휘](https://brain.dongwook.kim/drills/독일어_기초_어휘.html)
 
 ## 스킬 설치
 
