@@ -99,6 +99,7 @@ brain/
 - [러시아어 이동동사](https://brain.dongwook.kim/notes/러시아어_이동동사)
 - [러시아어 소유대명사 격변화](https://brain.dongwook.kim/notes/러시아어_소유대명사_격변화)
 - [러시아어 지시대명사](https://brain.dongwook.kim/notes/러시아어_지시대명사)
+- [러시아어 의문문 심화](https://brain.dongwook.kim/notes/러시아어_의문문_심화)
 
 **언어 — 스페인어**
 - [스페인어 문자](https://brain.dongwook.kim/notes/스페인어_문자)
@@ -240,6 +241,10 @@ brain/
 - [일본어 지시대명사 치트시트](https://brain.dongwook.kim/sheets/일본어/일본어_지시대명사_치트시트.html)
 - [일본어 조수사 치트시트](https://brain.dongwook.kim/sheets/일본어/일본어_조수사_치트시트.html)
 - [일본어 비교 표현 치트시트](https://brain.dongwook.kim/sheets/일본어/일본어_비교_표현_치트시트.html)
+- [일본어 존댓말 치트시트](https://brain.dongwook.kim/sheets/일본어/일본어_존댓말_치트시트.html)
+- [일본어 조건 표현 치트시트](https://brain.dongwook.kim/sheets/일본어/일본어_조건_표현_치트시트.html)
+- [일본어 자동사·타동사 치트시트](https://brain.dongwook.kim/sheets/일본어/일본어_자동사_타동사_치트시트.html)
+- [일본어 숫자 체계 치트시트](https://brain.dongwook.kim/sheets/일본어/일본어_숫자_체계_치트시트.html)
 
 **러시아어**
 - [러시아어 치트시트](https://brain.dongwook.kim/sheets/러시아어/러시아어_치트시트.html)
