@@ -272,6 +272,11 @@ brain/
 - [러시아어 알파벳 이름](https://brain.dongwook.kim/sheets/러시아어/러시아어_알파벳_이름.html)
 - [러시아어 모음 약화](https://brain.dongwook.kim/sheets/러시아어/러시아어_모음_약화.html)
 - [러시아어 문자의 특징 치트시트](https://brain.dongwook.kim/sheets/러시아어/러시아어_문자의_특징_치트시트.html)
+- [러시아어 격변화 치트시트](https://brain.dongwook.kim/sheets/러시아어/러시아어_격변화_치트시트.html)
+- [러시아어 인칭대명사 치트시트](https://brain.dongwook.kim/sheets/러시아어/러시아어_인칭대명사_치트시트.html)
+- [러시아어 동사 현재형 치트시트](https://brain.dongwook.kim/sheets/러시아어/러시아어_동사_현재형_치트시트.html)
+- [러시아어 시간 표현 치트시트](https://brain.dongwook.kim/sheets/러시아어/러시아어_시간_표현_치트시트.html)
+- [러시아어 소유대명사 치트시트](https://brain.dongwook.kim/sheets/러시아어/러시아어_소유대명사_치트시트.html)
 
 **중국어**
 - [병음 표](https://brain.dongwook.kim/sheets/중국어/병음_표.html)
