@@ -151,6 +151,7 @@ brain/
 - [독일어 형용사 전치사 지배](https://brain.dongwook.kim/notes/독일어/독일어_형용사_전치사_지배)
 - [독일어 명사 전치사 지배](https://brain.dongwook.kim/notes/독일어/독일어_명사_전치사_지배)
 - [독일어 존댓말과 격식체](https://brain.dongwook.kim/notes/독일어/독일어_존댓말과_격식체)
+- [독일어 숫자와 시간 심화](https://brain.dongwook.kim/notes/독일어/독일어_숫자와_시간_심화)
 
 **언어 — 프랑스어**
 - [프랑스어 문자](https://brain.dongwook.kim/notes/프랑스어/프랑스어_문자)
