@@ -1,0 +1,3002 @@
+[
+  {
+    "id": 0,
+    "word": "ich",
+    "gender": null,
+    "meaning": "나(1인칭 주어)"
+  },
+  {
+    "id": 1,
+    "word": "sie",
+    "gender": null,
+    "meaning": "그녀/그들(3인칭)"
+  },
+  {
+    "id": 2,
+    "word": "das",
+    "gender": null,
+    "meaning": "그것/이것"
+  },
+  {
+    "id": 3,
+    "word": "ist",
+    "gender": null,
+    "meaning": "(sein) ~이다(3인칭)"
+  },
+  {
+    "id": 4,
+    "word": "du",
+    "gender": null,
+    "meaning": "너(2인칭 주어)"
+  },
+  {
+    "id": 5,
+    "word": "nicht",
+    "gender": null,
+    "meaning": "~아니다(부정)"
+  },
+  {
+    "id": 6,
+    "word": "die",
+    "gender": null,
+    "meaning": "그(여성/복수 정관사)"
+  },
+  {
+    "id": 7,
+    "word": "es",
+    "gender": null,
+    "meaning": "그것(비인칭 주어)"
+  },
+  {
+    "id": 8,
+    "word": "und",
+    "gender": null,
+    "meaning": "그리고"
+  },
+  {
+    "id": 9,
+    "word": "der",
+    "gender": null,
+    "meaning": "그(남성 정관사)"
+  },
+  {
+    "id": 10,
+    "word": "wir",
+    "gender": null,
+    "meaning": "우리"
+  },
+  {
+    "id": 11,
+    "word": "was",
+    "gender": null,
+    "meaning": "무엇"
+  },
+  {
+    "id": 12,
+    "word": "zu",
+    "gender": null,
+    "meaning": "~로, 너무"
+  },
+  {
+    "id": 13,
+    "word": "er",
+    "gender": null,
+    "meaning": "그(남성 3인칭)"
+  },
+  {
+    "id": 14,
+    "word": "ein",
+    "gender": null,
+    "meaning": "하나의(부정관사)"
+  },
+  {
+    "id": 15,
+    "word": "in",
+    "gender": null,
+    "meaning": "~안에"
+  },
+  {
+    "id": 16,
+    "word": "ja",
+    "gender": null,
+    "meaning": "응/네"
+  },
+  {
+    "id": 17,
+    "word": "mir",
+    "gender": null,
+    "meaning": "나에게(여격)"
+  },
+  {
+    "id": 18,
+    "word": "mit",
+    "gender": null,
+    "meaning": "~와 함께"
+  },
+  {
+    "id": 19,
+    "word": "wie",
+    "gender": null,
+    "meaning": "어떻게"
+  },
+  {
+    "id": 20,
+    "word": "den",
+    "gender": null,
+    "meaning": "그(남성 목적격)"
+  },
+  {
+    "id": 21,
+    "word": "mich",
+    "gender": null,
+    "meaning": "나를(목적격)"
+  },
+  {
+    "id": 22,
+    "word": "auf",
+    "gender": null,
+    "meaning": "~위에"
+  },
+  {
+    "id": 23,
+    "word": "dass",
+    "gender": null,
+    "meaning": "~라는 것"
+  },
+  {
+    "id": 24,
+    "word": "aber",
+    "gender": null,
+    "meaning": "하지만"
+  },
+  {
+    "id": 25,
+    "word": "eine",
+    "gender": null,
+    "meaning": "하나의(여성)"
+  },
+  {
+    "id": 26,
+    "word": "so",
+    "gender": null,
+    "meaning": "그렇게"
+  },
+  {
+    "id": 27,
+    "word": "hat",
+    "gender": null,
+    "meaning": "(haben) 가지다(3인칭)"
+  },
+  {
+    "id": 28,
+    "word": "hier",
+    "gender": null,
+    "meaning": "여기"
+  },
+  {
+    "id": 29,
+    "word": "haben",
+    "gender": null,
+    "meaning": "가지다/있다"
+  },
+  {
+    "id": 30,
+    "word": "für",
+    "gender": null,
+    "meaning": "~을 위해"
+  },
+  {
+    "id": 31,
+    "word": "sind",
+    "gender": null,
+    "meaning": "(sein) ~이다(복수)"
+  },
+  {
+    "id": 32,
+    "word": "war",
+    "gender": null,
+    "meaning": "(sein) ~이었다(과거)"
+  },
+  {
+    "id": 33,
+    "word": "von",
+    "gender": null,
+    "meaning": "~로부터"
+  },
+  {
+    "id": 34,
+    "word": "wenn",
+    "gender": null,
+    "meaning": "만약 ~라면"
+  },
+  {
+    "id": 35,
+    "word": "dich",
+    "gender": null,
+    "meaning": "너를(목적격)"
+  },
+  {
+    "id": 36,
+    "word": "ihr",
+    "gender": null,
+    "meaning": "너희/그녀의"
+  },
+  {
+    "id": 37,
+    "word": "nein",
+    "gender": null,
+    "meaning": "아니/아니요"
+  },
+  {
+    "id": 38,
+    "word": "habe",
+    "gender": null,
+    "meaning": "(haben) 가지다(1인칭)"
+  },
+  {
+    "id": 39,
+    "word": "an",
+    "gender": null,
+    "meaning": "~에(접촉)"
+  },
+  {
+    "id": 40,
+    "word": "bin",
+    "gender": null,
+    "meaning": "(sein) ~이다(1인칭)"
+  },
+  {
+    "id": 41,
+    "word": "noch",
+    "gender": null,
+    "meaning": "아직"
+  },
+  {
+    "id": 42,
+    "word": "nur",
+    "gender": null,
+    "meaning": "오직"
+  },
+  {
+    "id": 43,
+    "word": "da",
+    "gender": null,
+    "meaning": "거기, 그때"
+  },
+  {
+    "id": 44,
+    "word": "dir",
+    "gender": null,
+    "meaning": "너에게(여격)"
+  },
+  {
+    "id": 45,
+    "word": "sich",
+    "gender": null,
+    "meaning": "자기 자신(재귀)"
+  },
+  {
+    "id": 46,
+    "word": "einen",
+    "gender": null,
+    "meaning": "하나의(목적격)"
+  },
+  {
+    "id": 47,
+    "word": "uns",
+    "gender": null,
+    "meaning": "우리를/에게"
+  },
+  {
+    "id": 48,
+    "word": "hast",
+    "gender": null,
+    "meaning": "(haben) 가지다(2인칭)"
+  },
+  {
+    "id": 49,
+    "word": "dem",
+    "gender": null,
+    "meaning": "그(여격)"
+  },
+  {
+    "id": 50,
+    "word": "kann",
+    "gender": null,
+    "meaning": "(können) ~할 수 있다"
+  },
+  {
+    "id": 51,
+    "word": "gut",
+    "gender": null,
+    "meaning": "좋은"
+  },
+  {
+    "id": 52,
+    "word": "auch",
+    "gender": null,
+    "meaning": "또한"
+  },
+  {
+    "id": 53,
+    "word": "schon",
+    "gender": null,
+    "meaning": "벌써"
+  },
+  {
+    "id": 54,
+    "word": "als",
+    "gender": null,
+    "meaning": "~로서, ~보다"
+  },
+  {
+    "id": 55,
+    "word": "sein",
+    "gender": null,
+    "meaning": "~이다(원형)/그의"
+  },
+  {
+    "id": 56,
+    "word": "mal",
+    "gender": null,
+    "meaning": "한번, 좀"
+  },
+  {
+    "id": 57,
+    "word": "jetzt",
+    "gender": null,
+    "meaning": "지금"
+  },
+  {
+    "id": 58,
+    "word": "ihn",
+    "gender": null,
+    "meaning": "그를(목적격)"
+  },
+  {
+    "id": 59,
+    "word": "dann",
+    "gender": null,
+    "meaning": "그다음"
+  },
+  {
+    "id": 60,
+    "word": "aus",
+    "gender": null,
+    "meaning": "~에서, ~로부터"
+  },
+  {
+    "id": 61,
+    "word": "meine",
+    "gender": null,
+    "meaning": "나의(소유격)"
+  },
+  {
+    "id": 62,
+    "word": "um",
+    "gender": null,
+    "meaning": "~을 둘러싸고, ~시에"
+  },
+  {
+    "id": 63,
+    "word": "im",
+    "gender": null,
+    "meaning": "~안에(축약)"
+  },
+  {
+    "id": 64,
+    "word": "wird",
+    "gender": null,
+    "meaning": "(werden) ~될 것이다(3인칭)"
+  },
+  {
+    "id": 65,
+    "word": "mein",
+    "gender": null,
+    "meaning": "나의"
+  },
+  {
+    "id": 66,
+    "word": "bist",
+    "gender": null,
+    "meaning": "(sein) ~이다(2인칭)"
+  },
+  {
+    "id": 67,
+    "word": "doch",
+    "gender": null,
+    "meaning": "그래도"
+  },
+  {
+    "id": 68,
+    "word": "alles",
+    "gender": null,
+    "meaning": "모든 것"
+  },
+  {
+    "id": 69,
+    "word": "weiß",
+    "gender": null,
+    "meaning": "(wissen) 알다(1/3인칭)"
+  },
+  {
+    "id": 70,
+    "word": "keine",
+    "gender": null,
+    "meaning": "아무것도 아닌"
+  },
+  {
+    "id": 71,
+    "word": "oder",
+    "gender": null,
+    "meaning": "또는"
+  },
+  {
+    "id": 72,
+    "word": "nach",
+    "gender": null,
+    "meaning": "~후에, ~로"
+  },
+  {
+    "id": 73,
+    "word": "s",
+    "gender": null,
+    "meaning": "es의 구어 축약형"
+  },
+  {
+    "id": 74,
+    "word": "nichts",
+    "gender": null,
+    "meaning": "아무것도"
+  },
+  {
+    "id": 75,
+    "word": "man",
+    "gender": null,
+    "meaning": "사람들(일반주어)"
+  },
+  {
+    "id": 76,
+    "word": "muss",
+    "gender": null,
+    "meaning": "(müssen) ~해야 한다"
+  },
+  {
+    "id": 77,
+    "word": "werden",
+    "gender": null,
+    "meaning": "~되다"
+  },
+  {
+    "id": 78,
+    "word": "will",
+    "gender": null,
+    "meaning": "(wollen) ~하고 싶다"
+  },
+  {
+    "id": 79,
+    "word": "ihnen",
+    "gender": null,
+    "meaning": "그들에게"
+  },
+  {
+    "id": 80,
+    "word": "geht",
+    "gender": null,
+    "meaning": "(gehen) 가다(3인칭)"
+  },
+  {
+    "id": 81,
+    "word": "wo",
+    "gender": null,
+    "meaning": "어디"
+  },
+  {
+    "id": 82,
+    "word": "etwas",
+    "gender": null,
+    "meaning": "어떤 것"
+  },
+  {
+    "id": 83,
+    "word": "oh",
+    "gender": null,
+    "meaning": "오"
+  },
+  {
+    "id": 84,
+    "word": "mehr",
+    "gender": null,
+    "meaning": "더 많이"
+  },
+  {
+    "id": 85,
+    "word": "bei",
+    "gender": null,
+    "meaning": "~에서, ~옆에"
+  },
+  {
+    "id": 86,
+    "word": "also",
+    "gender": null,
+    "meaning": "그러니까"
+  },
+  {
+    "id": 87,
+    "word": "bitte",
+    "gender": null,
+    "meaning": "부탁해요/천만에요"
+  },
+  {
+    "id": 88,
+    "word": "immer",
+    "gender": null,
+    "meaning": "항상"
+  },
+  {
+    "id": 89,
+    "word": "hab",
+    "gender": null,
+    "meaning": "(haben) 가지다(구어축약)"
+  },
+  {
+    "id": 90,
+    "word": "warum",
+    "gender": null,
+    "meaning": "왜"
+  },
+  {
+    "id": 91,
+    "word": "vor",
+    "gender": null,
+    "meaning": "~앞에"
+  },
+  {
+    "id": 92,
+    "word": "los",
+    "gender": null,
+    "meaning": "출발, 어서"
+  },
+  {
+    "id": 93,
+    "word": "können",
+    "gender": null,
+    "meaning": "~할 수 있다"
+  },
+  {
+    "id": 94,
+    "word": "wieder",
+    "gender": null,
+    "meaning": "다시"
+  },
+  {
+    "id": 95,
+    "word": "sagen",
+    "gender": null,
+    "meaning": "말하다"
+  },
+  {
+    "id": 96,
+    "word": "machen",
+    "gender": null,
+    "meaning": "하다/만들다"
+  },
+  {
+    "id": 97,
+    "word": "danke",
+    "gender": null,
+    "meaning": "고마워"
+  },
+  {
+    "id": 98,
+    "word": "sehr",
+    "gender": null,
+    "meaning": "매우"
+  },
+  {
+    "id": 99,
+    "word": "alle",
+    "gender": null,
+    "meaning": "모두"
+  },
+  {
+    "id": 100,
+    "word": "denn",
+    "gender": null,
+    "meaning": "왜냐하면"
+  },
+  {
+    "id": 101,
+    "word": "Mann",
+    "gender": "m",
+    "meaning": "남자"
+  },
+  {
+    "id": 102,
+    "word": "tun",
+    "gender": null,
+    "meaning": "하다"
+  },
+  {
+    "id": 103,
+    "word": "ihm",
+    "gender": null,
+    "meaning": "그에게(여격)"
+  },
+  {
+    "id": 104,
+    "word": "zum",
+    "gender": null,
+    "meaning": "~로(축약)"
+  },
+  {
+    "id": 105,
+    "word": "gehen",
+    "gender": null,
+    "meaning": "가다"
+  },
+  {
+    "id": 106,
+    "word": "sehen",
+    "gender": null,
+    "meaning": "보다"
+  },
+  {
+    "id": 107,
+    "word": "vielleicht",
+    "gender": null,
+    "meaning": "아마도"
+  },
+  {
+    "id": 108,
+    "word": "einem",
+    "gender": null,
+    "meaning": "하나의(여격)"
+  },
+  {
+    "id": 109,
+    "word": "wer",
+    "gender": null,
+    "meaning": "누구"
+  },
+  {
+    "id": 110,
+    "word": "ihre",
+    "gender": null,
+    "meaning": "그녀의/그들의"
+  },
+  {
+    "id": 111,
+    "word": "diese",
+    "gender": null,
+    "meaning": "이(지시대명사)"
+  },
+  {
+    "id": 112,
+    "word": "euch",
+    "gender": null,
+    "meaning": "너희를/에게"
+  },
+  {
+    "id": 113,
+    "word": "einer",
+    "gender": null,
+    "meaning": "하나(소유격/여격)"
+  },
+  {
+    "id": 114,
+    "word": "komm",
+    "gender": null,
+    "meaning": "(kommen) 와(명령형)"
+  },
+  {
+    "id": 115,
+    "word": "über",
+    "gender": null,
+    "meaning": "~위로, ~에 관해"
+  },
+  {
+    "id": 116,
+    "word": "gibt",
+    "gender": null,
+    "meaning": "(geben) 주다(es gibt=있다)"
+  },
+  {
+    "id": 117,
+    "word": "okay",
+    "gender": null,
+    "meaning": "알았어/좋아"
+  },
+  {
+    "id": 118,
+    "word": "wissen",
+    "gender": null,
+    "meaning": "알다"
+  },
+  {
+    "id": 119,
+    "word": "deine",
+    "gender": null,
+    "meaning": "너의(소유격)"
+  },
+  {
+    "id": 120,
+    "word": "müssen",
+    "gender": null,
+    "meaning": "~해야 한다"
+  },
+  {
+    "id": 121,
+    "word": "soll",
+    "gender": null,
+    "meaning": "(sollen) ~해야 한다"
+  },
+  {
+    "id": 122,
+    "word": "werde",
+    "gender": null,
+    "meaning": "(werden) ~될 것이다(1인칭)"
+  },
+  {
+    "id": 123,
+    "word": "nie",
+    "gender": null,
+    "meaning": "결코 ~않다"
+  },
+  {
+    "id": 124,
+    "word": "wirklich",
+    "gender": null,
+    "meaning": "정말로"
+  },
+  {
+    "id": 125,
+    "word": "hey",
+    "gender": null,
+    "meaning": "야/저기"
+  },
+  {
+    "id": 126,
+    "word": "kein",
+    "gender": null,
+    "meaning": "아무~도 없는"
+  },
+  {
+    "id": 127,
+    "word": "viel",
+    "gender": null,
+    "meaning": "많은"
+  },
+  {
+    "id": 128,
+    "word": "weg",
+    "gender": null,
+    "meaning": "떠난, 없어진"
+  },
+  {
+    "id": 129,
+    "word": "würde",
+    "gender": null,
+    "meaning": "(werden) ~할 것이다(접속법)"
+  },
+  {
+    "id": 130,
+    "word": "tut",
+    "gender": null,
+    "meaning": "(tun) 하다(tut mir leid=미안해)"
+  },
+  {
+    "id": 131,
+    "word": "am",
+    "gender": null,
+    "meaning": "~에서(축약)"
+  },
+  {
+    "id": 132,
+    "word": "des",
+    "gender": null,
+    "meaning": "그(속격)"
+  },
+  {
+    "id": 133,
+    "word": "einfach",
+    "gender": null,
+    "meaning": "간단한/그냥"
+  },
+  {
+    "id": 134,
+    "word": "Leben",
+    "gender": "n",
+    "meaning": "삶, 인생"
+  },
+  {
+    "id": 135,
+    "word": "hatte",
+    "gender": null,
+    "meaning": "(haben) 가지다(과거)"
+  },
+  {
+    "id": 136,
+    "word": "Zeit",
+    "gender": "f",
+    "meaning": "시간"
+  },
+  {
+    "id": 137,
+    "word": "weil",
+    "gender": null,
+    "meaning": "왜냐하면"
+  },
+  {
+    "id": 138,
+    "word": "willst",
+    "gender": null,
+    "meaning": "(wollen) 원하다(2인칭)"
+  },
+  {
+    "id": 139,
+    "word": "kommen",
+    "gender": null,
+    "meaning": "오다"
+  },
+  {
+    "id": 140,
+    "word": "dein",
+    "gender": null,
+    "meaning": "너의"
+  },
+  {
+    "id": 141,
+    "word": "heute",
+    "gender": null,
+    "meaning": "오늘"
+  },
+  {
+    "id": 142,
+    "word": "kommt",
+    "gender": null,
+    "meaning": "(kommen) 오다(3인칭)"
+  },
+  {
+    "id": 143,
+    "word": "wollen",
+    "gender": null,
+    "meaning": "원하다"
+  },
+  {
+    "id": 144,
+    "word": "damit",
+    "gender": null,
+    "meaning": "그것으로, ~하기 위해"
+  },
+  {
+    "id": 145,
+    "word": "ganz",
+    "gender": null,
+    "meaning": "완전히"
+  },
+  {
+    "id": 146,
+    "word": "wäre",
+    "gender": null,
+    "meaning": "(sein) ~일 것이다(접속법)"
+  },
+  {
+    "id": 147,
+    "word": "wollte",
+    "gender": null,
+    "meaning": "(wollen) 원했다(과거)"
+  },
+  {
+    "id": 148,
+    "word": "weißt",
+    "gender": null,
+    "meaning": "(wissen) 알다(2인칭)"
+  },
+  {
+    "id": 149,
+    "word": "ok",
+    "gender": null,
+    "meaning": "알았어"
+  },
+  {
+    "id": 150,
+    "word": "sicher",
+    "gender": null,
+    "meaning": "확실한"
+  },
+  {
+    "id": 151,
+    "word": "gesagt",
+    "gender": null,
+    "meaning": "(sagen) 말했다(과거분사)"
+  },
+  {
+    "id": 152,
+    "word": "Frau",
+    "gender": "f",
+    "meaning": "여자, 부인"
+  },
+  {
+    "id": 153,
+    "word": "nun",
+    "gender": null,
+    "meaning": "이제"
+  },
+  {
+    "id": 154,
+    "word": "bis",
+    "gender": null,
+    "meaning": "~까지"
+  },
+  {
+    "id": 155,
+    "word": "wurde",
+    "gender": null,
+    "meaning": "(werden) ~되었다(과거)"
+  },
+  {
+    "id": 156,
+    "word": "Leid",
+    "gender": "n",
+    "meaning": "유감, 슬픔"
+  },
+  {
+    "id": 157,
+    "word": "na",
+    "gender": null,
+    "meaning": "자, 그럼"
+  },
+  {
+    "id": 158,
+    "word": "kannst",
+    "gender": null,
+    "meaning": "(können) 할 수 있다(2인칭)"
+  },
+  {
+    "id": 159,
+    "word": "macht",
+    "gender": null,
+    "meaning": "(machen) 하다(3인칭)"
+  },
+  {
+    "id": 160,
+    "word": "dieser",
+    "gender": null,
+    "meaning": "이(지시대명사, 남성)"
+  },
+  {
+    "id": 161,
+    "word": "zurück",
+    "gender": null,
+    "meaning": "다시, 뒤로"
+  },
+  {
+    "id": 162,
+    "word": "lassen",
+    "gender": null,
+    "meaning": "~하게 하다, 놔두다"
+  },
+  {
+    "id": 163,
+    "word": "hallo",
+    "gender": null,
+    "meaning": "안녕"
+  },
+  {
+    "id": 164,
+    "word": "meinen",
+    "gender": null,
+    "meaning": "의미하다"
+  },
+  {
+    "id": 165,
+    "word": "Gott",
+    "gender": "m",
+    "meaning": "신, 하느님"
+  },
+  {
+    "id": 166,
+    "word": "seine",
+    "gender": null,
+    "meaning": "그의(소유격)"
+  },
+  {
+    "id": 167,
+    "word": "hätte",
+    "gender": null,
+    "meaning": "(haben) 가졌을 것이다(접속법)"
+  },
+  {
+    "id": 168,
+    "word": "zwei",
+    "gender": null,
+    "meaning": "둘"
+  },
+  {
+    "id": 169,
+    "word": "könnte",
+    "gender": null,
+    "meaning": "(können) 할 수 있을 것이다"
+  },
+  {
+    "id": 170,
+    "word": "genau",
+    "gender": null,
+    "meaning": "정확히"
+  },
+  {
+    "id": 171,
+    "word": "waren",
+    "gender": null,
+    "meaning": "(sein) ~이었다(복수과거)"
+  },
+  {
+    "id": 172,
+    "word": "zur",
+    "gender": null,
+    "meaning": "~로(축약)"
+  },
+  {
+    "id": 173,
+    "word": "lass",
+    "gender": null,
+    "meaning": "(lassen) 놔둬(명령형)"
+  },
+  {
+    "id": 174,
+    "word": "klar",
+    "gender": null,
+    "meaning": "명확한, 물론"
+  },
+  {
+    "id": 175,
+    "word": "morgen",
+    "gender": null,
+    "meaning": "내일"
+  },
+  {
+    "id": 176,
+    "word": "Leute",
+    "gender": null,
+    "meaning": "사람들"
+  },
+  {
+    "id": 177,
+    "word": "Vater",
+    "gender": "m",
+    "meaning": "아버지"
+  },
+  {
+    "id": 178,
+    "word": "schön",
+    "gender": null,
+    "meaning": "아름다운"
+  },
+  {
+    "id": 179,
+    "word": "glaube",
+    "gender": null,
+    "meaning": "(glauben) 믿다(1인칭)"
+  },
+  {
+    "id": 180,
+    "word": "mr.",
+    "gender": null,
+    "meaning": "미스터(영어 존칭)"
+  },
+  {
+    "id": 181,
+    "word": "ab",
+    "gender": null,
+    "meaning": "~부터"
+  },
+  {
+    "id": 182,
+    "word": "gerade",
+    "gender": null,
+    "meaning": "지금 막"
+  },
+  {
+    "id": 183,
+    "word": "Tag",
+    "gender": "m",
+    "meaning": "날, 하루"
+  },
+  {
+    "id": 184,
+    "word": "gesehen",
+    "gender": null,
+    "meaning": "(sehen) 봤다(과거분사)"
+  },
+  {
+    "id": 185,
+    "word": "reden",
+    "gender": null,
+    "meaning": "이야기하다"
+  },
+  {
+    "id": 186,
+    "word": "wohl",
+    "gender": null,
+    "meaning": "아마"
+  },
+  {
+    "id": 187,
+    "word": "Liebe",
+    "gender": "f",
+    "meaning": "사랑"
+  },
+  {
+    "id": 188,
+    "word": "sollte",
+    "gender": null,
+    "meaning": "(sollen) ~해야 할 것이다"
+  },
+  {
+    "id": 189,
+    "word": "sagte",
+    "gender": null,
+    "meaning": "(sagen) 말했다(과거)"
+  },
+  {
+    "id": 190,
+    "word": "unsere",
+    "gender": null,
+    "meaning": "우리의"
+  },
+  {
+    "id": 191,
+    "word": "jemand",
+    "gender": null,
+    "meaning": "누군가"
+  },
+  {
+    "id": 192,
+    "word": "Geld",
+    "gender": "n",
+    "meaning": "돈"
+  },
+  {
+    "id": 193,
+    "word": "durch",
+    "gender": null,
+    "meaning": "~을 통해"
+  },
+  {
+    "id": 194,
+    "word": "ob",
+    "gender": null,
+    "meaning": "~인지 아닌지"
+  },
+  {
+    "id": 195,
+    "word": "keinen",
+    "gender": null,
+    "meaning": "아무도 ~않는(목적격)"
+  },
+  {
+    "id": 196,
+    "word": "Mutter",
+    "gender": "f",
+    "meaning": "어머니"
+  },
+  {
+    "id": 197,
+    "word": "raus",
+    "gender": null,
+    "meaning": "밖으로(구어)"
+  },
+  {
+    "id": 198,
+    "word": "gemacht",
+    "gender": null,
+    "meaning": "(machen) 했다(과거분사)"
+  },
+  {
+    "id": 199,
+    "word": "paar",
+    "gender": null,
+    "meaning": "몇몇(ein paar)"
+  },
+  {
+    "id": 200,
+    "word": "mach",
+    "gender": null,
+    "meaning": "(machen) 해(명령형)"
+  },
+  {
+    "id": 201,
+    "word": "passiert",
+    "gender": null,
+    "meaning": "(passieren) 일어나다(3인칭)"
+  },
+  {
+    "id": 202,
+    "word": "dachte",
+    "gender": null,
+    "meaning": "(denken) 생각했다(과거)"
+  },
+  {
+    "id": 203,
+    "word": "besser",
+    "gender": null,
+    "meaning": "더 나은"
+  },
+  {
+    "id": 204,
+    "word": "musst",
+    "gender": null,
+    "meaning": "(müssen) ~해야 한다(2인칭)"
+  },
+  {
+    "id": 205,
+    "word": "wieso",
+    "gender": null,
+    "meaning": "왜"
+  },
+  {
+    "id": 206,
+    "word": "sir",
+    "gender": null,
+    "meaning": "선생님(영어 경칭)"
+  },
+  {
+    "id": 207,
+    "word": "dieses",
+    "gender": null,
+    "meaning": "이(지시대명사, 중성)"
+  },
+  {
+    "id": 208,
+    "word": "selbst",
+    "gender": null,
+    "meaning": "스스로, 자신"
+  },
+  {
+    "id": 209,
+    "word": "gehört",
+    "gender": null,
+    "meaning": "(gehören) 속하다(3인칭)"
+  },
+  {
+    "id": 210,
+    "word": "möchte",
+    "gender": null,
+    "meaning": "(mögen) ~하고 싶다"
+  },
+  {
+    "id": 211,
+    "word": "ohne",
+    "gender": null,
+    "meaning": "~없이"
+  },
+  {
+    "id": 212,
+    "word": "hör",
+    "gender": null,
+    "meaning": "(hören) 들어(명령형)"
+  },
+  {
+    "id": 213,
+    "word": "her",
+    "gender": null,
+    "meaning": "이리로"
+  },
+  {
+    "id": 214,
+    "word": "sag",
+    "gender": null,
+    "meaning": "(sagen) 말해(명령형)"
+  },
+  {
+    "id": 215,
+    "word": "meiner",
+    "gender": null,
+    "meaning": "나의(소유격/여격)"
+  },
+  {
+    "id": 216,
+    "word": "anderen",
+    "gender": null,
+    "meaning": "다른(사람들)"
+  },
+  {
+    "id": 217,
+    "word": "helfen",
+    "gender": null,
+    "meaning": "돕다"
+  },
+  {
+    "id": 218,
+    "word": "Nacht",
+    "gender": "f",
+    "meaning": "밤"
+  },
+  {
+    "id": 219,
+    "word": "finden",
+    "gender": null,
+    "meaning": "찾다"
+  },
+  {
+    "id": 220,
+    "word": "diesen",
+    "gender": null,
+    "meaning": "이(목적격)"
+  },
+  {
+    "id": 221,
+    "word": "gute",
+    "gender": null,
+    "meaning": "좋은"
+  },
+  {
+    "id": 222,
+    "word": "wirst",
+    "gender": null,
+    "meaning": "(werden) ~될 것이다(2인칭)"
+  },
+  {
+    "id": 223,
+    "word": "lange",
+    "gender": null,
+    "meaning": "오래"
+  },
+  {
+    "id": 224,
+    "word": "natürlich",
+    "gender": null,
+    "meaning": "당연히"
+  },
+  {
+    "id": 225,
+    "word": "ach",
+    "gender": null,
+    "meaning": "아"
+  },
+  {
+    "id": 226,
+    "word": "meinem",
+    "gender": null,
+    "meaning": "나의(여격)"
+  },
+  {
+    "id": 227,
+    "word": "gar",
+    "gender": null,
+    "meaning": "전혀"
+  },
+  {
+    "id": 228,
+    "word": "ins",
+    "gender": null,
+    "meaning": "~안으로(축약)"
+  },
+  {
+    "id": 229,
+    "word": "sei",
+    "gender": null,
+    "meaning": "(sein) ~이어라(명령형)"
+  },
+  {
+    "id": 230,
+    "word": "dort",
+    "gender": null,
+    "meaning": "거기에"
+  },
+  {
+    "id": 231,
+    "word": "weiter",
+    "gender": null,
+    "meaning": "계속해서"
+  },
+  {
+    "id": 232,
+    "word": "geben",
+    "gender": null,
+    "meaning": "주다"
+  },
+  {
+    "id": 233,
+    "word": "seit",
+    "gender": null,
+    "meaning": "~이래로"
+  },
+  {
+    "id": 234,
+    "word": "gleich",
+    "gender": null,
+    "meaning": "같은, 곧"
+  },
+  {
+    "id": 235,
+    "word": "sagt",
+    "gender": null,
+    "meaning": "(sagen) 말하다(3인칭)"
+  },
+  {
+    "id": 236,
+    "word": "recht",
+    "gender": null,
+    "meaning": "옳은(recht haben=맞다)"
+  },
+  {
+    "id": 237,
+    "word": "ihren",
+    "gender": null,
+    "meaning": "그녀의/그들의(목적격)"
+  },
+  {
+    "id": 238,
+    "word": "richtig",
+    "gender": null,
+    "meaning": "옳은, 맞는"
+  },
+  {
+    "id": 239,
+    "word": "Ordnung",
+    "gender": "f",
+    "meaning": "질서(in Ordnung=괜찮아)"
+  },
+  {
+    "id": 240,
+    "word": "vom",
+    "gender": null,
+    "meaning": "~로부터(축약)"
+  },
+  {
+    "id": 241,
+    "word": "hören",
+    "gender": null,
+    "meaning": "듣다"
+  },
+  {
+    "id": 242,
+    "word": "sieht",
+    "gender": null,
+    "meaning": "(sehen) 보다(3인칭)"
+  },
+  {
+    "id": 243,
+    "word": "davon",
+    "gender": null,
+    "meaning": "그것으로부터"
+  },
+  {
+    "id": 244,
+    "word": "dafür",
+    "gender": null,
+    "meaning": "그것을 위해"
+  },
+  {
+    "id": 245,
+    "word": "geh",
+    "gender": null,
+    "meaning": "(gehen) 가(명령형)"
+  },
+  {
+    "id": 246,
+    "word": "diesem",
+    "gender": null,
+    "meaning": "이(여격)"
+  },
+  {
+    "id": 247,
+    "word": "wegen",
+    "gender": null,
+    "meaning": "~때문에"
+  },
+  {
+    "id": 248,
+    "word": "Hause",
+    "gender": "n",
+    "meaning": "집(nach Hause=집으로)"
+  },
+  {
+    "id": 249,
+    "word": "sollten",
+    "gender": null,
+    "meaning": "(sollen) ~해야 할 것이다(복수)"
+  },
+  {
+    "id": 250,
+    "word": "Mädchen",
+    "gender": "n",
+    "meaning": "소녀"
+  },
+  {
+    "id": 251,
+    "word": "hin",
+    "gender": null,
+    "meaning": "그쪽으로"
+  },
+  {
+    "id": 252,
+    "word": "sollen",
+    "gender": null,
+    "meaning": "~해야 한다"
+  },
+  {
+    "id": 253,
+    "word": "Abend",
+    "gender": "m",
+    "meaning": "저녁"
+  },
+  {
+    "id": 254,
+    "word": "Haus",
+    "gender": "n",
+    "meaning": "집"
+  },
+  {
+    "id": 255,
+    "word": "denke",
+    "gender": null,
+    "meaning": "(denken) 생각하다(1인칭)"
+  },
+  {
+    "id": 256,
+    "word": "viele",
+    "gender": null,
+    "meaning": "많은(것들)"
+  },
+  {
+    "id": 257,
+    "word": "drei",
+    "gender": null,
+    "meaning": "셋"
+  },
+  {
+    "id": 258,
+    "word": "deinen",
+    "gender": null,
+    "meaning": "너의(목적격)"
+  },
+  {
+    "id": 259,
+    "word": "Freund",
+    "gender": "m",
+    "meaning": "친구, 남자친구"
+  },
+  {
+    "id": 260,
+    "word": "guten",
+    "gender": null,
+    "meaning": "좋은(격변화)"
+  },
+  {
+    "id": 261,
+    "word": "unser",
+    "gender": null,
+    "meaning": "우리의"
+  },
+  {
+    "id": 262,
+    "word": "warte",
+    "gender": null,
+    "meaning": "(warten) 기다리다(1인칭)"
+  },
+  {
+    "id": 263,
+    "word": "machst",
+    "gender": null,
+    "meaning": "(machen) 하다(2인칭)"
+  },
+  {
+    "id": 264,
+    "word": "Menschen",
+    "gender": "m",
+    "meaning": "사람들"
+  },
+  {
+    "id": 265,
+    "word": "essen",
+    "gender": null,
+    "meaning": "먹다"
+  },
+  {
+    "id": 266,
+    "word": "Angst",
+    "gender": "f",
+    "meaning": "두려움"
+  },
+  {
+    "id": 267,
+    "word": "bleiben",
+    "gender": null,
+    "meaning": "머무르다"
+  },
+  {
+    "id": 268,
+    "word": "zusammen",
+    "gender": null,
+    "meaning": "함께"
+  },
+  {
+    "id": 269,
+    "word": "Welt",
+    "gender": "f",
+    "meaning": "세계"
+  },
+  {
+    "id": 270,
+    "word": "unter",
+    "gender": null,
+    "meaning": "~아래에"
+  },
+  {
+    "id": 271,
+    "word": "habt",
+    "gender": null,
+    "meaning": "(haben) 가지다(2인칭복수)"
+  },
+  {
+    "id": 272,
+    "word": "schnell",
+    "gender": null,
+    "meaning": "빠른"
+  },
+  {
+    "id": 273,
+    "word": "andere",
+    "gender": null,
+    "meaning": "다른"
+  },
+  {
+    "id": 274,
+    "word": "tot",
+    "gender": null,
+    "meaning": "죽은"
+  },
+  {
+    "id": 275,
+    "word": "getan",
+    "gender": null,
+    "meaning": "(tun) 했다(과거분사)"
+  },
+  {
+    "id": 276,
+    "word": "darf",
+    "gender": null,
+    "meaning": "(dürfen) ~해도 된다"
+  },
+  {
+    "id": 277,
+    "word": "erst",
+    "gender": null,
+    "meaning": "비로소, 처음"
+  },
+  {
+    "id": 278,
+    "word": "rein",
+    "gender": null,
+    "meaning": "안으로, 순수한"
+  },
+  {
+    "id": 279,
+    "word": "stimmt",
+    "gender": null,
+    "meaning": "(stimmen) 맞다(3인칭)"
+  },
+  {
+    "id": 280,
+    "word": "nehmen",
+    "gender": null,
+    "meaning": "잡다, 가지다"
+  },
+  {
+    "id": 281,
+    "word": "Kinder",
+    "gender": "n",
+    "meaning": "아이들"
+  },
+  {
+    "id": 282,
+    "word": "eines",
+    "gender": null,
+    "meaning": "하나의(속격/중성)"
+  },
+  {
+    "id": 283,
+    "word": "glauben",
+    "gender": null,
+    "meaning": "믿다"
+  },
+  {
+    "id": 284,
+    "word": "bringen",
+    "gender": null,
+    "meaning": "가져오다"
+  },
+  {
+    "id": 285,
+    "word": "ganze",
+    "gender": null,
+    "meaning": "전체의"
+  },
+  {
+    "id": 286,
+    "word": "genug",
+    "gender": null,
+    "meaning": "충분히"
+  },
+  {
+    "id": 287,
+    "word": "Scheiße",
+    "gender": "f",
+    "meaning": "젠장, 똥"
+  },
+  {
+    "id": 288,
+    "word": "brauchen",
+    "gender": null,
+    "meaning": "필요하다"
+  },
+  {
+    "id": 289,
+    "word": "gegen",
+    "gender": null,
+    "meaning": "~에 반대하여"
+  },
+  {
+    "id": 290,
+    "word": "Moment",
+    "gender": "m",
+    "meaning": "순간"
+  },
+  {
+    "id": 291,
+    "word": "Junge",
+    "gender": "m",
+    "meaning": "소년"
+  },
+  {
+    "id": 292,
+    "word": "steht",
+    "gender": null,
+    "meaning": "(stehen) 서다(3인칭)"
+  },
+  {
+    "id": 293,
+    "word": "sonst",
+    "gender": null,
+    "meaning": "그렇지 않으면"
+  },
+  {
+    "id": 294,
+    "word": "Musik",
+    "gender": "f",
+    "meaning": "음악"
+  },
+  {
+    "id": 295,
+    "word": "Arbeit",
+    "gender": "f",
+    "meaning": "일, 노동"
+  },
+  {
+    "id": 296,
+    "word": "seid",
+    "gender": null,
+    "meaning": "(sein) ~이다(2인칭복수)"
+  },
+  {
+    "id": 297,
+    "word": "ihrer",
+    "gender": null,
+    "meaning": "그녀의(속격/여격)"
+  },
+  {
+    "id": 298,
+    "word": "fragen",
+    "gender": null,
+    "meaning": "묻다"
+  },
+  {
+    "id": 299,
+    "word": "Herr",
+    "gender": "m",
+    "meaning": "신사, ~씨"
+  },
+  {
+    "id": 300,
+    "word": "dabei",
+    "gender": null,
+    "meaning": "그때, 함께"
+  },
+  {
+    "id": 301,
+    "word": "heißt",
+    "gender": null,
+    "meaning": "(heißen) ~라고 불리다(3인칭)"
+  },
+  {
+    "id": 302,
+    "word": "Familie",
+    "gender": "f",
+    "meaning": "가족"
+  },
+  {
+    "id": 303,
+    "word": "warten",
+    "gender": null,
+    "meaning": "기다리다"
+  },
+  {
+    "id": 304,
+    "word": "niemand",
+    "gender": null,
+    "meaning": "아무도 ~않다"
+  },
+  {
+    "id": 305,
+    "word": "sofort",
+    "gender": null,
+    "meaning": "즉시"
+  },
+  {
+    "id": 306,
+    "word": "bevor",
+    "gender": null,
+    "meaning": "~하기 전에"
+  },
+  {
+    "id": 307,
+    "word": "Jahre",
+    "gender": "n",
+    "meaning": "해들, 연도들"
+  },
+  {
+    "id": 308,
+    "word": "einmal",
+    "gender": null,
+    "meaning": "한 번"
+  },
+  {
+    "id": 309,
+    "word": "Problem",
+    "gender": "n",
+    "meaning": "문제"
+  },
+  {
+    "id": 310,
+    "word": "Sohn",
+    "gender": "m",
+    "meaning": "아들"
+  },
+  {
+    "id": 311,
+    "word": "wann",
+    "gender": null,
+    "meaning": "언제"
+  },
+  {
+    "id": 312,
+    "word": "brauche",
+    "gender": null,
+    "meaning": "(brauchen) 필요하다(1인칭)"
+  },
+  {
+    "id": 313,
+    "word": "fertig",
+    "gender": null,
+    "meaning": "다 된, 준비된"
+  },
+  {
+    "id": 314,
+    "word": "halt",
+    "gender": null,
+    "meaning": "그냥, 멈춰"
+  },
+  {
+    "id": 315,
+    "word": "allein",
+    "gender": null,
+    "meaning": "혼자"
+  },
+  {
+    "id": 316,
+    "word": "beim",
+    "gender": null,
+    "meaning": "~에서(축약)"
+  },
+  {
+    "id": 317,
+    "word": "sprechen",
+    "gender": null,
+    "meaning": "말하다"
+  },
+  {
+    "id": 318,
+    "word": "beide",
+    "gender": null,
+    "meaning": "둘 다"
+  },
+  {
+    "id": 319,
+    "word": "gefunden",
+    "gender": null,
+    "meaning": "(finden) 찾았다(과거분사)"
+  },
+  {
+    "id": 320,
+    "word": "hatten",
+    "gender": null,
+    "meaning": "(haben) 가졌다(복수과거)"
+  },
+  {
+    "id": 321,
+    "word": "Sache",
+    "gender": "f",
+    "meaning": "일, 사물"
+  },
+  {
+    "id": 322,
+    "word": "Hilfe",
+    "gender": "f",
+    "meaning": "도움"
+  },
+  {
+    "id": 323,
+    "word": "verdammt",
+    "gender": null,
+    "meaning": "젠장, 빌어먹을"
+  },
+  {
+    "id": 324,
+    "word": "ne",
+    "gender": null,
+    "meaning": "그렇지?(구어체 반문)"
+  },
+  {
+    "id": 325,
+    "word": "jeder",
+    "gender": null,
+    "meaning": "모든 사람, 각각"
+  },
+  {
+    "id": 326,
+    "word": "warst",
+    "gender": null,
+    "meaning": "(sein) ~이었다(2인칭)"
+  },
+  {
+    "id": 327,
+    "word": "gern",
+    "gender": null,
+    "meaning": "기꺼이"
+  },
+  {
+    "id": 328,
+    "word": "konnte",
+    "gender": null,
+    "meaning": "(können) 할 수 있었다"
+  },
+  {
+    "id": 329,
+    "word": "darüber",
+    "gender": null,
+    "meaning": "그것에 대해"
+  },
+  {
+    "id": 330,
+    "word": "halten",
+    "gender": null,
+    "meaning": "잡다, 유지하다"
+  },
+  {
+    "id": 331,
+    "word": "siehst",
+    "gender": null,
+    "meaning": "(sehen) 보다(2인칭)"
+  },
+  {
+    "id": 332,
+    "word": "verstehe",
+    "gender": null,
+    "meaning": "(verstehen) 이해하다(1인칭)"
+  },
+  {
+    "id": 333,
+    "word": "Jahren",
+    "gender": "n",
+    "meaning": "해들(여격)"
+  },
+  {
+    "id": 334,
+    "word": "kam",
+    "gender": null,
+    "meaning": "(kommen) 왔다(과거)"
+  },
+  {
+    "id": 335,
+    "word": "Kind",
+    "gender": "n",
+    "meaning": "아이"
+  },
+  {
+    "id": 336,
+    "word": "wusste",
+    "gender": null,
+    "meaning": "(wissen) 알았다(과거)"
+  },
+  {
+    "id": 337,
+    "word": "wahr",
+    "gender": null,
+    "meaning": "진실한"
+  },
+  {
+    "id": 338,
+    "word": "seinen",
+    "gender": null,
+    "meaning": "그의(목적격)"
+  },
+  {
+    "id": 339,
+    "word": "dazu",
+    "gender": null,
+    "meaning": "그것에 더해"
+  },
+  {
+    "id": 340,
+    "word": "Bruder",
+    "gender": "m",
+    "meaning": "형제"
+  },
+  {
+    "id": 341,
+    "word": "daran",
+    "gender": null,
+    "meaning": "그것에"
+  },
+  {
+    "id": 342,
+    "word": "ihrem",
+    "gender": null,
+    "meaning": "그녀의(여격)"
+  },
+  {
+    "id": 343,
+    "word": "denken",
+    "gender": null,
+    "meaning": "생각하다"
+  },
+  {
+    "id": 344,
+    "word": "könnten",
+    "gender": null,
+    "meaning": "(können) 할 수 있을 것이다(복수)"
+  },
+  {
+    "id": 345,
+    "word": "Dank",
+    "gender": "m",
+    "meaning": "감사"
+  },
+  {
+    "id": 346,
+    "word": "würden",
+    "gender": null,
+    "meaning": "(werden) ~할 것이다(복수)"
+  },
+  {
+    "id": 347,
+    "word": "lieber",
+    "gender": null,
+    "meaning": "차라리"
+  },
+  {
+    "id": 348,
+    "word": "Fall",
+    "gender": "m",
+    "meaning": "경우, 사건"
+  },
+  {
+    "id": 349,
+    "word": "deiner",
+    "gender": null,
+    "meaning": "너의(속격/여격)"
+  },
+  {
+    "id": 350,
+    "word": "sehe",
+    "gender": null,
+    "meaning": "(sehen) 보다(1인칭)"
+  },
+  {
+    "id": 351,
+    "word": "egal",
+    "gender": null,
+    "meaning": "상관없는"
+  },
+  {
+    "id": 352,
+    "word": "kennen",
+    "gender": null,
+    "meaning": "알다(사람/것을)"
+  },
+  {
+    "id": 353,
+    "word": "deinem",
+    "gender": null,
+    "meaning": "너의(여격)"
+  },
+  {
+    "id": 354,
+    "word": "vergessen",
+    "gender": null,
+    "meaning": "잊다"
+  },
+  {
+    "id": 355,
+    "word": "Frage",
+    "gender": "f",
+    "meaning": "질문"
+  },
+  {
+    "id": 356,
+    "word": "mache",
+    "gender": null,
+    "meaning": "(machen) 하다(1인칭)"
+  },
+  {
+    "id": 357,
+    "word": "komme",
+    "gender": null,
+    "meaning": "(kommen) 오다(1인칭)"
+  },
+  {
+    "id": 358,
+    "word": "sage",
+    "gender": null,
+    "meaning": "(sagen) 말하다(1인칭)"
+  },
+  {
+    "id": 359,
+    "word": "mag",
+    "gender": null,
+    "meaning": "(mögen) 좋아하다"
+  },
+  {
+    "id": 360,
+    "word": "sieh",
+    "gender": null,
+    "meaning": "(sehen) 봐(명령형)"
+  },
+  {
+    "id": 361,
+    "word": "echt",
+    "gender": null,
+    "meaning": "진짜의"
+  },
+  {
+    "id": 362,
+    "word": "gib",
+    "gender": null,
+    "meaning": "(geben) 줘(명령형)"
+  },
+  {
+    "id": 363,
+    "word": "eigentlich",
+    "gender": null,
+    "meaning": "사실은"
+  },
+  {
+    "id": 364,
+    "word": "jeden",
+    "gender": null,
+    "meaning": "모든(목적격)"
+  },
+  {
+    "id": 365,
+    "word": "Dad",
+    "gender": "m",
+    "meaning": "아빠"
+  },
+  {
+    "id": 366,
+    "word": "gab",
+    "gender": null,
+    "meaning": "(geben) 주었다(과거)"
+  },
+  {
+    "id": 367,
+    "word": "Uhr",
+    "gender": "f",
+    "meaning": "시계, ~시"
+  },
+  {
+    "id": 368,
+    "word": "Stadt",
+    "gender": "f",
+    "meaning": "도시"
+  },
+  {
+    "id": 369,
+    "word": "Männer",
+    "gender": "m",
+    "meaning": "남자들"
+  },
+  {
+    "id": 370,
+    "word": "Baby",
+    "gender": "n",
+    "meaning": "아기"
+  },
+  {
+    "id": 371,
+    "word": "fahren",
+    "gender": null,
+    "meaning": "(탈것으로) 가다"
+  },
+  {
+    "id": 372,
+    "word": "Namen",
+    "gender": "m",
+    "meaning": "이름"
+  },
+  {
+    "id": 373,
+    "word": "bekommen",
+    "gender": null,
+    "meaning": "받다"
+  },
+  {
+    "id": 374,
+    "word": "Kopf",
+    "gender": "m",
+    "meaning": "머리"
+  },
+  {
+    "id": 375,
+    "word": "hi",
+    "gender": null,
+    "meaning": "안녕"
+  },
+  {
+    "id": 376,
+    "word": "gehe",
+    "gender": null,
+    "meaning": "(gehen) 가다(1인칭)"
+  },
+  {
+    "id": 377,
+    "word": "kleine",
+    "gender": null,
+    "meaning": "작은"
+  },
+  {
+    "id": 378,
+    "word": "später",
+    "gender": null,
+    "meaning": "나중에"
+  },
+  {
+    "id": 379,
+    "word": "Glück",
+    "gender": "n",
+    "meaning": "행운, 행복"
+  },
+  {
+    "id": 380,
+    "word": "letzte",
+    "gender": null,
+    "meaning": "마지막의"
+  },
+  {
+    "id": 381,
+    "word": "Freunde",
+    "gender": "m",
+    "meaning": "친구들"
+  },
+  {
+    "id": 382,
+    "word": "n",
+    "gender": null,
+    "meaning": "ein의 구어 축약형"
+  },
+  {
+    "id": 383,
+    "word": "all",
+    "gender": null,
+    "meaning": "모든"
+  },
+  {
+    "id": 384,
+    "word": "darauf",
+    "gender": null,
+    "meaning": "그 위에"
+  },
+  {
+    "id": 385,
+    "word": "Ende",
+    "gender": "n",
+    "meaning": "끝"
+  },
+  {
+    "id": 386,
+    "word": "dr.",
+    "gender": null,
+    "meaning": "박사(Doktor 약자)"
+  },
+  {
+    "id": 387,
+    "word": "bald",
+    "gender": null,
+    "meaning": "곧"
+  },
+  {
+    "id": 388,
+    "word": "töten",
+    "gender": null,
+    "meaning": "죽이다"
+  },
+  {
+    "id": 389,
+    "word": "Dinge",
+    "gender": "n",
+    "meaning": "것들, 물건들"
+  },
+  {
+    "id": 390,
+    "word": "meinst",
+    "gender": null,
+    "meaning": "(meinen) 의미하다(2인칭)"
+  },
+  {
+    "id": 391,
+    "word": "toll",
+    "gender": null,
+    "meaning": "멋진"
+  },
+  {
+    "id": 392,
+    "word": "eins",
+    "gender": null,
+    "meaning": "하나"
+  },
+  {
+    "id": 393,
+    "word": "Minuten",
+    "gender": "f",
+    "meaning": "분들"
+  },
+  {
+    "id": 394,
+    "word": "vielen",
+    "gender": null,
+    "meaning": "많은(vielen Dank)"
+  },
+  {
+    "id": 395,
+    "word": "bereit",
+    "gender": null,
+    "meaning": "준비된"
+  },
+  {
+    "id": 396,
+    "word": "weit",
+    "gender": null,
+    "meaning": "먼"
+  },
+  {
+    "id": 397,
+    "word": "Ahnung",
+    "gender": "f",
+    "meaning": "짐작(keine Ahnung=몰라)"
+  },
+  {
+    "id": 398,
+    "word": "seiner",
+    "gender": null,
+    "meaning": "그의(속격/여격)"
+  },
+  {
+    "id": 399,
+    "word": "bisschen",
+    "gender": null,
+    "meaning": "조금(ein bisschen)"
+  },
+  {
+    "id": 400,
+    "word": "Tür",
+    "gender": "f",
+    "meaning": "문"
+  },
+  {
+    "id": 401,
+    "word": "Auto",
+    "gender": "n",
+    "meaning": "자동차"
+  },
+  {
+    "id": 402,
+    "word": "Jungs",
+    "gender": "m",
+    "meaning": "소년들, 얘들아"
+  },
+  {
+    "id": 403,
+    "word": "eure",
+    "gender": null,
+    "meaning": "너희의"
+  },
+  {
+    "id": 404,
+    "word": "Augen",
+    "gender": "n",
+    "meaning": "눈들"
+  },
+  {
+    "id": 405,
+    "word": "Polizei",
+    "gender": "f",
+    "meaning": "경찰"
+  },
+  {
+    "id": 406,
+    "word": "stehen",
+    "gender": null,
+    "meaning": "서 있다"
+  },
+  {
+    "id": 407,
+    "word": "sterben",
+    "gender": null,
+    "meaning": "죽다"
+  },
+  {
+    "id": 408,
+    "word": "hätten",
+    "gender": null,
+    "meaning": "(haben) 가졌을 것이다(복수)"
+  },
+  {
+    "id": 409,
+    "word": "draußen",
+    "gender": null,
+    "meaning": "밖에"
+  },
+  {
+    "id": 410,
+    "word": "kenne",
+    "gender": null,
+    "meaning": "(kennen) 알다(1인칭)"
+  },
+  {
+    "id": 411,
+    "word": "fast",
+    "gender": null,
+    "meaning": "거의"
+  },
+  {
+    "id": 412,
+    "word": "runter",
+    "gender": null,
+    "meaning": "아래로(구어)"
+  },
+  {
+    "id": 413,
+    "word": "vorbei",
+    "gender": null,
+    "meaning": "지나서, 끝난"
+  },
+  {
+    "id": 414,
+    "word": "treffen",
+    "gender": null,
+    "meaning": "만나다"
+  },
+  {
+    "id": 415,
+    "word": "gerne",
+    "gender": null,
+    "meaning": "기꺼이"
+  },
+  {
+    "id": 416,
+    "word": "dran",
+    "gender": null,
+    "meaning": "그것에(구어)"
+  },
+  {
+    "id": 417,
+    "word": "wurden",
+    "gender": null,
+    "meaning": "(werden) ~되었다(복수과거)"
+  },
+  {
+    "id": 418,
+    "word": "arbeiten",
+    "gender": null,
+    "meaning": "일하다"
+  },
+  {
+    "id": 419,
+    "word": "Mom",
+    "gender": "f",
+    "meaning": "엄마"
+  },
+  {
+    "id": 420,
+    "word": "verrückt",
+    "gender": null,
+    "meaning": "미친"
+  },
+  {
+    "id": 421,
+    "word": "neue",
+    "gender": null,
+    "meaning": "새로운"
+  },
+  {
+    "id": 422,
+    "word": "ging",
+    "gender": null,
+    "meaning": "(gehen) 갔다(과거)"
+  },
+  {
+    "id": 423,
+    "word": "hinter",
+    "gender": null,
+    "meaning": "~뒤에"
+  },
+  {
+    "id": 424,
+    "word": "Sorgen",
+    "gender": "f",
+    "meaning": "걱정들"
+  },
+  {
+    "id": 425,
+    "word": "einzige",
+    "gender": null,
+    "meaning": "유일한"
+  },
+  {
+    "id": 426,
+    "word": "jemanden",
+    "gender": null,
+    "meaning": "누군가를(목적격)"
+  },
+  {
+    "id": 427,
+    "word": "darum",
+    "gender": null,
+    "meaning": "그래서, 그것 때문에"
+  },
+  {
+    "id": 428,
+    "word": "Tochter",
+    "gender": "f",
+    "meaning": "딸"
+  },
+  {
+    "id": 429,
+    "word": "braucht",
+    "gender": null,
+    "meaning": "(brauchen) 필요하다(3인칭)"
+  },
+  {
+    "id": 430,
+    "word": "Idee",
+    "gender": "f",
+    "meaning": "생각, 아이디어"
+  },
+  {
+    "id": 431,
+    "word": "Schwester",
+    "gender": "f",
+    "meaning": "자매"
+  },
+  {
+    "id": 432,
+    "word": "drin",
+    "gender": null,
+    "meaning": "안에(구어)"
+  },
+  {
+    "id": 433,
+    "word": "ruhig",
+    "gender": null,
+    "meaning": "조용한"
+  },
+  {
+    "id": 434,
+    "word": "sah",
+    "gender": null,
+    "meaning": "(sehen) 봤다(과거)"
+  },
+  {
+    "id": 435,
+    "word": "ganzen",
+    "gender": null,
+    "meaning": "전체의(격변화)"
+  },
+  {
+    "id": 436,
+    "word": "spät",
+    "gender": null,
+    "meaning": "늦은"
+  },
+  {
+    "id": 437,
+    "word": "ziemlich",
+    "gender": null,
+    "meaning": "꽤"
+  },
+  {
+    "id": 438,
+    "word": "solltest",
+    "gender": null,
+    "meaning": "(sollen) ~해야 한다(2인칭)"
+  },
+  {
+    "id": 439,
+    "word": "Name",
+    "gender": "m",
+    "meaning": "이름"
+  },
+  {
+    "id": 440,
+    "word": "sogar",
+    "gender": null,
+    "meaning": "심지어"
+  },
+  {
+    "id": 441,
+    "word": "kurz",
+    "gender": null,
+    "meaning": "짧은"
+  },
+  {
+    "id": 442,
+    "word": "Kerl",
+    "gender": "m",
+    "meaning": "녀석, 놈"
+  },
+  {
+    "id": 443,
+    "word": "Frauen",
+    "gender": "f",
+    "meaning": "여자들"
+  },
+  {
+    "id": 444,
+    "word": "liegt",
+    "gender": null,
+    "meaning": "(liegen) 놓여있다(3인칭)"
+  },
+  {
+    "id": 445,
+    "word": "suchen",
+    "gender": null,
+    "meaning": "찾다"
+  },
+  {
+    "id": 446,
+    "word": "finde",
+    "gender": null,
+    "meaning": "(finden) 찾다(1인칭)"
+  },
+  {
+    "id": 447,
+    "word": "je",
+    "gender": null,
+    "meaning": "언젠가, ~마다"
+  },
+  {
+    "id": 448,
+    "word": "woher",
+    "gender": null,
+    "meaning": "어디에서(출처)"
+  },
+  {
+    "id": 449,
+    "word": "lang",
+    "gender": null,
+    "meaning": "긴"
+  },
+  {
+    "id": 450,
+    "word": "Job",
+    "gender": "m",
+    "meaning": "직업"
+  },
+  {
+    "id": 451,
+    "word": "keiner",
+    "gender": null,
+    "meaning": "아무도"
+  },
+  {
+    "id": 452,
+    "word": "seinem",
+    "gender": null,
+    "meaning": "그의(여격)"
+  },
+  {
+    "id": 453,
+    "word": "hört",
+    "gender": null,
+    "meaning": "(hören) 듣다(3인칭)"
+  },
+  {
+    "id": 454,
+    "word": "verstehen",
+    "gender": null,
+    "meaning": "이해하다"
+  },
+  {
+    "id": 455,
+    "word": "spielen",
+    "gender": null,
+    "meaning": "놀다, 연주하다"
+  },
+  {
+    "id": 456,
+    "word": "s.",
+    "gender": null,
+    "meaning": "참조(siehe 약자)"
+  },
+  {
+    "id": 457,
+    "word": "überhaupt",
+    "gender": null,
+    "meaning": "도대체, 전혀"
+  },
+  {
+    "id": 458,
+    "word": "Teufel",
+    "gender": "m",
+    "meaning": "악마"
+  },
+  {
+    "id": 459,
+    "word": "verstanden",
+    "gender": null,
+    "meaning": "(verstehen) 이해했다(과거분사)"
+  },
+  {
+    "id": 460,
+    "word": "verloren",
+    "gender": null,
+    "meaning": "(verlieren) 잃었다(과거분사)"
+  },
+  {
+    "id": 461,
+    "word": "große",
+    "gender": null,
+    "meaning": "큰"
+  },
+  {
+    "id": 462,
+    "word": "Hand",
+    "gender": "f",
+    "meaning": "손"
+  },
+  {
+    "id": 463,
+    "word": "Grund",
+    "gender": "m",
+    "meaning": "이유"
+  },
+  {
+    "id": 464,
+    "word": "Jahr",
+    "gender": "n",
+    "meaning": "해, 년"
+  },
+  {
+    "id": 465,
+    "word": "kommst",
+    "gender": null,
+    "meaning": "(kommen) 오다(2인칭)"
+  },
+  {
+    "id": 466,
+    "word": "Mama",
+    "gender": "f",
+    "meaning": "엄마"
+  },
+  {
+    "id": 467,
+    "word": "Ruhe",
+    "gender": "f",
+    "meaning": "고요, 휴식"
+  },
+  {
+    "id": 468,
+    "word": "gewesen",
+    "gender": null,
+    "meaning": "(sein) ~였다(과거분사)"
+  },
+  {
+    "id": 469,
+    "word": "Tod",
+    "gender": "m",
+    "meaning": "죽음"
+  },
+  {
+    "id": 470,
+    "word": "Stunden",
+    "gender": "f",
+    "meaning": "시간들"
+  },
+  {
+    "id": 471,
+    "word": "hoffe",
+    "gender": null,
+    "meaning": "(hoffen) 바라다(1인칭)"
+  },
+  {
+    "id": 472,
+    "word": "denkst",
+    "gender": null,
+    "meaning": "(denken) 생각하다(2인칭)"
+  },
+  {
+    "id": 473,
+    "word": "oben",
+    "gender": null,
+    "meaning": "위에"
+  },
+  {
+    "id": 474,
+    "word": "gestern",
+    "gender": null,
+    "meaning": "어제"
+  },
+  {
+    "id": 475,
+    "word": "versuchen",
+    "gender": null,
+    "meaning": "시도하다"
+  },
+  {
+    "id": 476,
+    "word": "Art",
+    "gender": "f",
+    "meaning": "종류, 방식"
+  },
+  {
+    "id": 477,
+    "word": "letzten",
+    "gender": null,
+    "meaning": "마지막의(격변화)"
+  },
+  {
+    "id": 478,
+    "word": "Schatz",
+    "gender": "m",
+    "meaning": "보물, 자기야"
+  },
+  {
+    "id": 479,
+    "word": "endlich",
+    "gender": null,
+    "meaning": "마침내"
+  },
+  {
+    "id": 480,
+    "word": "he",
+    "gender": null,
+    "meaning": "야, 이봐"
+  },
+  {
+    "id": 481,
+    "word": "nimm",
+    "gender": null,
+    "meaning": "(nehmen) 잡아(명령형)"
+  },
+  {
+    "id": 482,
+    "word": "etwa",
+    "gender": null,
+    "meaning": "대략"
+  },
+  {
+    "id": 483,
+    "word": "erzählt",
+    "gender": null,
+    "meaning": "(erzählen) 이야기하다(3인칭)"
+  },
+  {
+    "id": 484,
+    "word": "läuft",
+    "gender": null,
+    "meaning": "(laufen) 달리다/진행되다(3인칭)"
+  },
+  {
+    "id": 485,
+    "word": "schwer",
+    "gender": null,
+    "meaning": "무거운, 어려운"
+  },
+  {
+    "id": 486,
+    "word": "anders",
+    "gender": null,
+    "meaning": "다르게"
+  },
+  {
+    "id": 487,
+    "word": "miss",
+    "gender": null,
+    "meaning": "미스(영어 존칭)"
+  },
+  {
+    "id": 488,
+    "word": "musste",
+    "gender": null,
+    "meaning": "(müssen) ~해야 했다(과거)"
+  },
+  {
+    "id": 489,
+    "word": "fünf",
+    "gender": null,
+    "meaning": "다섯"
+  },
+  {
+    "id": 490,
+    "word": "Wasser",
+    "gender": "n",
+    "meaning": "물"
+  },
+  {
+    "id": 491,
+    "word": "lässt",
+    "gender": null,
+    "meaning": "(lassen) 놔두다(3인칭)"
+  },
+  {
+    "id": 492,
+    "word": "erste",
+    "gender": null,
+    "meaning": "첫 번째의"
+  },
+  {
+    "id": 493,
+    "word": "versucht",
+    "gender": null,
+    "meaning": "(versuchen) 시도했다(과거분사)"
+  },
+  {
+    "id": 494,
+    "word": "gekommen",
+    "gender": null,
+    "meaning": "(kommen) 왔다(과거분사)"
+  },
+  {
+    "id": 495,
+    "word": "Geschichte",
+    "gender": "f",
+    "meaning": "역사, 이야기"
+  },
+  {
+    "id": 496,
+    "word": "wenig",
+    "gender": null,
+    "meaning": "적은"
+  },
+  {
+    "id": 497,
+    "word": "holen",
+    "gender": null,
+    "meaning": "가져오다"
+  },
+  {
+    "id": 498,
+    "word": "bedeutet",
+    "gender": null,
+    "meaning": "(bedeuten) 의미하다(3인칭)"
+  },
+  {
+    "id": 499,
+    "word": "nett",
+    "gender": null,
+    "meaning": "친절한"
+  }
+]
