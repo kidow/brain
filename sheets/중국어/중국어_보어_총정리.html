@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#ffffff">
+  <title>중국어 보어 총정리</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #0f172a;
+      color: #e2e8f0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 15px;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+    }
+    h1 { font-size: 1.5rem; font-weight: 700; color: #60a5fa; margin-bottom: 0.25rem; }
+    .subtitle { color: #94a3b8; font-size: 0.875rem; margin-bottom: 1.75rem; }
+    h2 { font-size: 0.8rem; font-weight: 600; color: #94a3b8; text-transform: uppercase;
+         letter-spacing: 0.05em; margin: 1.75rem 0 0.75rem; }
+    table { width: 100%; border-collapse: collapse; margin-bottom: 1rem; }
+    th {
+      background: #1e293b;
+      color: #94a3b8;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      padding: 0.5rem 0.75rem;
+      text-align: left;
+      border-bottom: 1px solid #334155;
+    }
+    td {
+      padding: 0.6rem 0.75rem;
+      border-bottom: 1px solid #1e293b;
+      vertical-align: top;
+      font-size: 0.875rem;
+    }
+    tr:last-child td { border-bottom: none; }
+    code {
+      background: #1e293b;
+      color: #60a5fa;
+      font-family: 'Courier New', monospace;
+      font-size: 0.85rem;
+      padding: 0.1rem 0.4rem;
+      border-radius: 3px;
+    }
+    .overview-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 0.6rem;
+      margin-bottom: 1.25rem;
+    }
+    .overview-card {
+      background: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 8px;
+      padding: 0.75rem 0.6rem;
+      text-align: center;
+    }
+    .overview-card .name { font-size: 0.9rem; font-weight: 700; color: #60a5fa; margin-bottom: 0.15rem; }
+    .overview-card .desc { font-size: 0.7rem; color: #94a3b8; }
+    .card {
+      background: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 8px;
+      padding: 1rem 1.25rem;
+      margin-bottom: 0.9rem;
+    }
+    .card h3 { font-size: 0.95rem; color: #60a5fa; margin-bottom: 0.5rem; }
+    .card .structure {
+      font-family: 'Courier New', monospace;
+      font-size: 0.85rem;
+      color: #a78bfa;
+      background: #0f172a;
+      padding: 0.5rem 0.75rem;
+      border-radius: 6px;
+      margin-bottom: 0.6rem;
+      display: inline-block;
+    }
+    .card .example { font-size: 0.85rem; color: #cbd5e1; margin: 0.3rem 0; }
+    .card .example .py { color: #94a3b8; }
+    .card .note { font-size: 0.8rem; color: #94a3b8; margin-top: 0.5rem; line-height: 1.6; }
+    @media (max-width: 600px) {
+      body { padding: 1rem; }
+    }
+    @media print { body { padding: 0.5cm; } }
+  </style>
+</head>
+<body>
+
+  <h1>중국어 보어 총정리</h1>
+  <p class="subtitle">결과·방향·가능·정도·시량보어 — 동사/형용사 뒤에 붙는 5가지 성분</p>
+
+  <div class="overview-grid">
+    <div class="overview-card"><div class="name">결과보어</div><div class="desc">어떻게 됐는지</div></div>
+    <div class="overview-card"><div class="name">방향보어</div><div class="desc">어느 방향으로</div></div>
+    <div class="overview-card"><div class="name">가능보어</div><div class="desc">할 수 있는지</div></div>
+    <div class="overview-card"><div class="name">정도보어</div><div class="desc">얼마나 그런지</div></div>
+    <div class="overview-card"><div class="name">시량보어</div><div class="desc">얼마나 오래</div></div>
+  </div>
+
+  <h2>1. 결과보어(結果補語)</h2>
+  <div class="card">
+    <div class="structure">동사 + 결과(동사/형용사)</div>
+    <div class="example">听懂 <span class="py">tīngdǒng</span> — 듣고 이해하다</div>
+    <div class="example">吃完 <span class="py">chīwán</span> — 다 먹다</div>
+    <div class="note">부정: 没(有)로 부정 — 我没听懂。<br>把자문의 "뭔가 붙어야 하는" 필수 성분 대표 사례.</div>
+  </div>
+
+  <h2>2. 방향보어(方向補語)</h2>
+  <div class="card">
+    <div class="structure">동사 + (방향동사) + 来/去</div>
+    <div class="example">进来 <span class="py">jìnlái</span> — 들어오다(화자 쪽)</div>
+    <div class="example">拿出去 <span class="py">ná chūqù</span> — 꺼내 가다</div>
+    <div class="note">来/去는 화자 위치 기준 — 객관적 방향이 아님.</div>
+  </div>
+
+  <h2>3. 가능보어(可能補語)</h2>
+  <div class="card">
+    <div class="structure">동사 + 得/不 + 보어</div>
+    <div class="example">听得懂 <span class="py">tīngdedǒng</span> — 들으면 이해할 수 있다</div>
+    <div class="example">听不懂 <span class="py">tīngbudǒng</span> — 들어도 이해 못 한다</div>
+    <div class="note">得(가능)/不(불가능)이 동사-보어 사이에 낌 — 일반 不/没 부정과 다른 시스템.</div>
+  </div>
+
+  <h2>4. 정도보어(程度補語)</h2>
+  <div class="card">
+    <div class="structure">동사/형용사 + 得 + 정도표현</div>
+    <div class="example">跑得很快 <span class="py">pǎode hěn kuài</span> — 빨리 달린다(평소 실력)</div>
+    <div class="example">说得很好 <span class="py">shuōde hěn hǎo</span> — 말을 잘한다</div>
+    <div class="note">목적어 있으면 동사 반복: 说汉语说得很好。<br>比자문과 결합 가능: 他比我跑得快。</div>
+  </div>
+
+  <h2>5. 시량보어(時量補語)</h2>
+  <div class="card">
+    <div class="structure">동사 + 了 + 시간길이 (+목적어)</div>
+    <div class="example">学了三年汉语 <span class="py">xuéle sān nián Hànyǔ</span> — 3년 동안 배웠다</div>
+    <div class="example">等了他半个小时 <span class="py">děngle tā bàn ge xiǎoshí</span> — 그를 30분 기다렸다</div>
+    <div class="note">목적어가 명사면 동사 반복 권장, 대명사면 시량보어가 목적어 뒤로.<br>了…了(문장 끝 了 추가)로 "아직도 진행 중" 표시: 学了三年了。</div>
+  </div>
+
+  <h2>구별 포인트 요약</h2>
+  <table>
+    <thead>
+      <tr><th>보어</th><th>得 유무</th><th>물음</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>결과보어</td><td>없음(동사+결과 바로 붙음)</td><td>어떻게 됐어?</td></tr>
+      <tr><td>방향보어</td><td>없음</td><td>어디로?</td></tr>
+      <tr><td>가능보어</td><td>득/不 필수(동사-보어 사이)</td><td>할 수 있어?</td></tr>
+      <tr><td>정도보어</td><td>得 필수(동사/형용사 뒤)</td><td>얼마나 잘해?</td></tr>
+      <tr><td>시량보어</td><td>없음(了+시간길이)</td><td>얼마나 오래?</td></tr>
+    </tbody>
+  </table>
+  <p class="subtitle">跑快了(결과보어, 이번 사건) vs 跑得快(정도보어, 평소 실력) — 得 유무로 뉘앙스가 갈리는 대표 함정.</p>
+
+</body>
+</html>
