@@ -3,4308 +3,4308 @@
     "id": 0,
     "expression": "ああ",
     "reading": "ああ",
-    "meaning": "Ah!, Oh!"
+    "meaning": "아!, 아!"
   },
   {
     "id": 1,
     "expression": "会う",
     "reading": "あう",
-    "meaning": "to meet, to see"
+    "meaning": "만나다, 보다"
   },
   {
     "id": 2,
     "expression": "青",
     "reading": "あお",
-    "meaning": "blue"
+    "meaning": "파란색"
   },
   {
     "id": 3,
     "expression": "青い",
     "reading": "あおい",
-    "meaning": "blue"
+    "meaning": "파란색"
   },
   {
     "id": 4,
     "expression": "赤",
     "reading": "あか",
-    "meaning": "red"
+    "meaning": "빨간색"
   },
   {
     "id": 5,
     "expression": "赤い",
     "reading": "あかい",
-    "meaning": "red"
+    "meaning": "빨간색"
   },
   {
     "id": 6,
     "expression": "明るい",
     "reading": "あかるい",
-    "meaning": "bright (in reference to personality or weather); cheerful"
+    "meaning": "밝다 (성격이나 날씨와 관련하여); 쾌활한"
   },
   {
     "id": 7,
     "expression": "秋",
     "reading": "あき",
-    "meaning": "fall (season)"
+    "meaning": "가을 (계절)"
   },
   {
     "id": 8,
     "expression": "開く",
     "reading": "あく",
-    "meaning": "to open, to become open"
+    "meaning": "열리다, 열리게 되다"
   },
   {
     "id": 9,
     "expression": "開ける",
     "reading": "あける",
-    "meaning": "to open (v.t.)"
+    "meaning": "열다 (동사)"
   },
   {
     "id": 10,
     "expression": "上げる",
     "reading": "あげる",
-    "meaning": "to raise, to lift"
+    "meaning": "들어올리다, 들어올리다"
   },
   {
     "id": 11,
     "expression": "朝",
     "reading": "あさ",
-    "meaning": "morning"
+    "meaning": "아침"
   },
   {
     "id": 12,
     "expression": "朝御飯",
     "reading": "あさごはん",
-    "meaning": "breakfast"
+    "meaning": "아침"
   },
   {
     "id": 13,
     "expression": "明後日",
     "reading": "あさって",
-    "meaning": "day after tomorrow"
+    "meaning": "내일 모레"
   },
   {
     "id": 14,
     "expression": "足; 脚",
     "reading": "あし",
-    "meaning": "foot; leg"
+    "meaning": "발; 다리"
   },
   {
     "id": 15,
     "expression": "明日",
     "reading": "あした",
-    "meaning": "tomorrow"
+    "meaning": "내일"
   },
   {
     "id": 16,
     "expression": "あそこ",
     "reading": "あそこ",
-    "meaning": "there, over there, that place"
+    "meaning": "저기, 저기, 그 곳"
   },
   {
     "id": 17,
     "expression": "遊ぶ",
     "reading": "あそぶ",
-    "meaning": "to play; to spend time pleasantly; to hang out"
+    "meaning": "놀다; 즐겁게 시간을 보내다; 어울리다"
   },
   {
     "id": 18,
     "expression": "暖かい",
     "reading": "あたたかい",
-    "meaning": "warm"
+    "meaning": "따뜻한"
   },
   {
     "id": 19,
     "expression": "頭",
     "reading": "あたま",
-    "meaning": "head"
+    "meaning": "머리"
   },
   {
     "id": 20,
     "expression": "新しい",
     "reading": "あたらしい",
-    "meaning": "new"
+    "meaning": "새로운"
   },
   {
     "id": 21,
     "expression": "あちら",
     "reading": "あちら",
-    "meaning": "this way (polite)"
+    "meaning": "이쪽으로 (정중하게)"
   },
   {
     "id": 22,
     "expression": "暑い",
     "reading": "あつい",
-    "meaning": "hot (in reference to weather), warm"
+    "meaning": "덥다(날씨에 따라), 따뜻하다"
   },
   {
     "id": 23,
     "expression": "熱い",
     "reading": "あつい",
-    "meaning": "hot (objects)"
+    "meaning": "뜨거운 (물체)"
   },
   {
     "id": 24,
     "expression": "厚い",
     "reading": "あつい",
-    "meaning": "kind, warm(hearted), thick, deep"
+    "meaning": "친절한,따뜻한(마음이)두꺼운,깊은"
   },
   {
     "id": 25,
     "expression": "あっち",
     "reading": "あっち",
-    "meaning": "over there"
+    "meaning": "저기"
   },
   {
     "id": 26,
     "expression": "後",
     "reading": "あと",
-    "meaning": "afterwards (later); in the future; the rest; since then"
+    "meaning": "나중에 (나중에); 미래에; 나머지; 그 이후로"
   },
   {
     "id": 27,
     "expression": "あなた",
     "reading": "あなた",
-    "meaning": "you"
+    "meaning": "너"
   },
   {
     "id": 28,
     "expression": "兄",
     "reading": "あに",
-    "meaning": "(my) older brother (humble)"
+    "meaning": "(나의) 형 (겸손하다)"
   },
   {
     "id": 29,
     "expression": "姉",
     "reading": "あね",
-    "meaning": "(my) older sister (humble)"
+    "meaning": "(나의) 누나 (겸손하다)"
   },
   {
     "id": 30,
     "expression": "アパート",
     "reading": "アパート",
-    "meaning": "apartment (abbr.)"
+    "meaning": "아파트 (약어)"
   },
   {
     "id": 31,
     "expression": "あの",
     "reading": "あの",
-    "meaning": "that over there; like that, that way; um..."
+    "meaning": "저기 그거; 그렇게, 그렇게; 음..."
   },
   {
     "id": 32,
     "expression": "浴びる",
     "reading": "あびる",
-    "meaning": "to bathe, to shower"
+    "meaning": "목욕하다, 샤워하다"
   },
   {
     "id": 33,
     "expression": "危ない",
     "reading": "あぶない",
-    "meaning": "dangerous, critical"
+    "meaning": "위험한, 중대한"
   },
   {
     "id": 34,
     "expression": "甘い",
     "reading": "あまい",
-    "meaning": "generous, sweet"
+    "meaning": "관대한, 달콤한"
   },
   {
     "id": 35,
     "expression": "余り",
     "reading": "あまり",
-    "meaning": "not very; surplus"
+    "meaning": "별로; 여분"
   },
   {
     "id": 36,
     "expression": "雨",
     "reading": "あめ",
-    "meaning": "rain"
+    "meaning": "비"
   },
   {
     "id": 37,
     "expression": "飴",
     "reading": "あめ",
-    "meaning": "(hard) candy"
+    "meaning": "(단단한) 사탕"
   },
   {
     "id": 38,
     "expression": "洗う",
     "reading": "あらう",
-    "meaning": "to wash"
+    "meaning": "씻다"
   },
   {
     "id": 39,
     "expression": "在る",
     "reading": "ある",
-    "meaning": "to be, to have"
+    "meaning": "존재하다, 가지다"
   },
   {
     "id": 40,
     "expression": "有る",
     "reading": "ある",
-    "meaning": "to be, to have"
+    "meaning": "존재하다, 가지다"
   },
   {
     "id": 41,
     "expression": "歩く",
     "reading": "あるく",
-    "meaning": "to walk"
+    "meaning": "걷기"
   },
   {
     "id": 42,
     "expression": "あれ",
     "reading": "あれ",
-    "meaning": "that one (over there)"
+    "meaning": "그거 (저기)"
   },
   {
     "id": 43,
     "expression": "いい; よい",
     "reading": "いい; よい",
-    "meaning": "good"
+    "meaning": "좋은"
   },
   {
     "id": 44,
     "expression": "いいえ",
     "reading": "いいえ",
-    "meaning": "no, not at all"
+    "meaning": "아니, 전혀 그렇지 않아"
   },
   {
     "id": 45,
     "expression": "言う",
     "reading": "いう",
-    "meaning": "to say"
+    "meaning": "말하다"
   },
   {
     "id": 46,
     "expression": "家",
     "reading": "いえ",
-    "meaning": "house, home"
+    "meaning": "집, 집"
   },
   {
     "id": 47,
     "expression": "いかが",
     "reading": "いかが",
-    "meaning": "how, in what way"
+    "meaning": "어떻게, 어떤 식으로"
   },
   {
     "id": 48,
     "expression": "行く",
     "reading": "いく; ゆく",
-    "meaning": "to go"
+    "meaning": "가다"
   },
   {
     "id": 49,
     "expression": "いくつ",
     "reading": "いくつ",
-    "meaning": "how many, how old"
+    "meaning": "몇 명, 몇 살이야?"
   },
   {
     "id": 50,
     "expression": "いくら",
     "reading": "いくら",
-    "meaning": "how much, how many"
+    "meaning": "얼마나, 얼마나 많이"
   },
   {
     "id": 51,
     "expression": "池",
     "reading": "いけ",
-    "meaning": "pond"
+    "meaning": "연못"
   },
   {
     "id": 52,
     "expression": "医者",
     "reading": "いしゃ",
-    "meaning": "doctor; physician"
+    "meaning": "의사; 내과 의사"
   },
   {
     "id": 53,
     "expression": "椅子",
     "reading": "いす",
-    "meaning": "chair"
+    "meaning": "의자"
   },
   {
     "id": 54,
     "expression": "忙しい",
     "reading": "いそがしい",
-    "meaning": "busy (people, days)"
+    "meaning": "바쁜 (사람, 일)"
   },
   {
     "id": 55,
     "expression": "痛い",
     "reading": "いたい",
-    "meaning": "hurt; painful; sore"
+    "meaning": "아프다; 아픈; 아픈"
   },
   {
     "id": 56,
     "expression": "一",
     "reading": "いち",
-    "meaning": "one"
+    "meaning": "하나"
   },
   {
     "id": 57,
     "expression": "一日",
     "reading": "いちにち",
-    "meaning": "one day (duration)"
+    "meaning": "하루(기간)"
   },
   {
     "id": 58,
     "expression": "一番",
     "reading": "いちばん",
-    "meaning": "best (most), first, number one"
+    "meaning": "최고(가장), 첫 번째, 1위"
   },
   {
     "id": 59,
     "expression": "いつ",
     "reading": "いつ",
-    "meaning": "when"
+    "meaning": "언제"
   },
   {
     "id": 60,
     "expression": "五日",
     "reading": "いつか",
-    "meaning": "five days; fifth day of the month"
+    "meaning": "5일; 매월 다섯째 날"
   },
   {
     "id": 61,
     "expression": "一緒",
     "reading": "いっしょ",
-    "meaning": "together"
+    "meaning": "함께"
   },
   {
     "id": 62,
     "expression": "五つ",
     "reading": "いつつ",
-    "meaning": "five things"
+    "meaning": "다섯 개"
   },
   {
     "id": 63,
     "expression": "いつも",
     "reading": "いつも",
-    "meaning": "always, usually, every time, never (with neg. verb)"
+    "meaning": "항상, 보통, 매번, 결코 (부정 동사 포함)"
   },
   {
     "id": 64,
     "expression": "犬",
     "reading": "いぬ",
-    "meaning": "dog"
+    "meaning": "개"
   },
   {
     "id": 65,
     "expression": "今",
     "reading": "いま",
-    "meaning": "now"
+    "meaning": "지금"
   },
   {
     "id": 66,
     "expression": "意味",
     "reading": "いみ",
-    "meaning": "meaning, significance"
+    "meaning": "의미, 의의"
   },
   {
     "id": 67,
     "expression": "妹",
     "reading": "いもうと",
-    "meaning": "younger sister (humble)"
+    "meaning": "여동생 (겸손)"
   },
   {
     "id": 68,
     "expression": "嫌",
     "reading": "いや",
-    "meaning": "disagreeable, detestable, unpleasant"
+    "meaning": "불쾌한, 혐오스러운, 불쾌한"
   },
   {
     "id": 69,
     "expression": "入口",
     "reading": "いりぐち",
-    "meaning": "entrance"
+    "meaning": "입구"
   },
   {
     "id": 70,
     "expression": "居る",
     "reading": "いる",
-    "meaning": "(humble) to be (animate), to exist"
+    "meaning": "(겸손한) 존재하다, 존재하다"
   },
   {
     "id": 71,
     "expression": "要る",
     "reading": "いる",
-    "meaning": "to need"
+    "meaning": "필요하다"
   },
   {
     "id": 72,
     "expression": "入れる",
     "reading": "いれる",
-    "meaning": "to put in"
+    "meaning": "넣다"
   },
   {
     "id": 73,
     "expression": "色",
     "reading": "いろ",
-    "meaning": "color"
+    "meaning": "색상"
   },
   {
     "id": 74,
     "expression": "色々",
     "reading": "いろいろ",
-    "meaning": "various"
+    "meaning": "다양한"
   },
   {
     "id": 75,
     "expression": "上",
     "reading": "うえ",
-    "meaning": "above (up, top, etc.), over, on top of"
+    "meaning": "위(위, 위 등), 위, 위"
   },
   {
     "id": 76,
     "expression": "後ろ",
     "reading": "うしろ",
-    "meaning": "back, behind, rear"
+    "meaning": "뒤, 뒤, 뒤"
   },
   {
     "id": 77,
     "expression": "薄い",
     "reading": "うすい",
-    "meaning": "thin, weak"
+    "meaning": "얇은, 약한"
   },
   {
     "id": 78,
     "expression": "歌",
     "reading": "うた",
-    "meaning": "a song"
+    "meaning": "노래"
   },
   {
     "id": 79,
     "expression": "歌う",
     "reading": "うたう",
-    "meaning": "to sing"
+    "meaning": "노래하다"
   },
   {
     "id": 80,
     "expression": "うち",
     "reading": "うち",
-    "meaning": "home; house; my place"
+    "meaning": "집; 집; 내 집"
   },
   {
     "id": 81,
     "expression": "生まれる",
     "reading": "うまれる",
-    "meaning": "to be born"
+    "meaning": "태어나다"
   },
   {
     "id": 82,
     "expression": "海",
     "reading": "うみ",
-    "meaning": "sea, beach"
+    "meaning": "바다, 해변"
   },
   {
     "id": 83,
     "expression": "売る",
     "reading": "うる",
-    "meaning": "to sell (v.t.)"
+    "meaning": "팔다 (동사)"
   },
   {
     "id": 84,
     "expression": "うるさい",
     "reading": "うるさい",
-    "meaning": "noisy; annoying"
+    "meaning": "시끄러운; 짜증 나는"
   },
   {
     "id": 85,
     "expression": "上着",
     "reading": "うわぎ",
-    "meaning": "coat, jacket"
+    "meaning": "코트, 재킷"
   },
   {
     "id": 86,
     "expression": "絵",
     "reading": "え",
-    "meaning": "a painting; a picture; a drawing"
+    "meaning": "그림; 사진; 그림"
   },
   {
     "id": 87,
     "expression": "映画",
     "reading": "えいが",
-    "meaning": "movie, film"
+    "meaning": "영화, 영화"
   },
   {
     "id": 88,
     "expression": "映画館",
     "reading": "えいがかん",
-    "meaning": "movie theater, cinema"
+    "meaning": "영화관, 영화관"
   },
   {
     "id": 89,
     "expression": "英語",
     "reading": "えいご",
-    "meaning": "English (language)"
+    "meaning": "영어(언어)"
   },
   {
     "id": 90,
     "expression": "ええ",
     "reading": "ええ",
-    "meaning": "yes"
+    "meaning": "예"
   },
   {
     "id": 91,
     "expression": "駅",
     "reading": "えき",
-    "meaning": "station"
+    "meaning": "역"
   },
   {
     "id": 92,
     "expression": "エレベーター",
     "reading": "エレベーター",
-    "meaning": "elevator"
+    "meaning": "엘리베이터"
   },
   {
     "id": 93,
     "expression": "～円",
     "reading": "～えん",
-    "meaning": "Yen"
+    "meaning": "엔"
   },
   {
     "id": 94,
     "expression": "鉛筆",
     "reading": "えんぴつ",
-    "meaning": "pencil"
+    "meaning": "연필"
   },
   {
     "id": 95,
     "expression": "お～",
     "reading": "お～",
-    "meaning": "honorable ~ (honorific)"
+    "meaning": "명예로운 ~ (존경)"
   },
   {
     "id": 96,
     "expression": "美味しい",
     "reading": "おいしい",
-    "meaning": "delicious, tasty"
+    "meaning": "맛있다, 맛있다"
   },
   {
     "id": 97,
     "expression": "多い",
     "reading": "おおい",
-    "meaning": "many; there are a lot"
+    "meaning": "많은; 많이있다"
   },
   {
     "id": 98,
     "expression": "大きい",
     "reading": "おおきい",
-    "meaning": "big, large"
+    "meaning": "크다, 크다"
   },
   {
     "id": 99,
     "expression": "大きな",
     "reading": "おおきな",
-    "meaning": "big"
+    "meaning": "큰"
   },
   {
     "id": 100,
     "expression": "大勢",
     "reading": "おおぜい",
-    "meaning": "great number of people"
+    "meaning": "많은 사람들"
   },
   {
     "id": 101,
     "expression": "お母さん",
     "reading": "おかあさん",
-    "meaning": "mother (formal)"
+    "meaning": "어머니 (공식)"
   },
   {
     "id": 102,
     "expression": "お菓子",
     "reading": "おかし",
-    "meaning": "confections, sweets, snack"
+    "meaning": "과자, 과자, 스낵"
   },
   {
     "id": 103,
     "expression": "お金",
     "reading": "おかね",
-    "meaning": "money"
+    "meaning": "돈"
   },
   {
     "id": 104,
     "expression": "起きる",
     "reading": "おきる",
-    "meaning": "to get up (e.g., from sleeping); to happen"
+    "meaning": "일어나다 (예를 들어, 자다가); 일어나다"
   },
   {
     "id": 105,
     "expression": "置く",
     "reading": "おく",
-    "meaning": "to put; to lay; to place"
+    "meaning": "넣다; 누워있다; 배치하다"
   },
   {
     "id": 106,
     "expression": "奥さん",
     "reading": "おくさん",
-    "meaning": "(someone else's) wife (hon.)"
+    "meaning": "(다른 사람의) 아내 (Hon.)"
   },
   {
     "id": 107,
     "expression": "お酒",
     "reading": "おさけ",
-    "meaning": "sake; alcohol"
+    "meaning": "동기; 술"
   },
   {
     "id": 108,
     "expression": "お皿",
     "reading": "おさら",
-    "meaning": "plate, dish"
+    "meaning": "접시, 접시"
   },
   {
     "id": 109,
     "expression": "伯父; 叔父さん",
     "reading": "おじさん",
-    "meaning": "uncle, middle-aged man"
+    "meaning": "삼촌, 중년남자"
   },
   {
     "id": 110,
     "expression": "おじいさん",
     "reading": "おじいさん",
-    "meaning": "grandfather, male senior citizen"
+    "meaning": "할아버지, 남자 노인"
   },
   {
     "id": 111,
     "expression": "教える",
     "reading": "おしえる",
-    "meaning": "to teach, to inform, to instruct"
+    "meaning": "가르치다, 알리다, 가르치다"
   },
   {
     "id": 112,
     "expression": "押す",
     "reading": "おす",
-    "meaning": "to push, to press, to stamp (e.g., a passport)"
+    "meaning": "밀다, 누르다, 도장을 찍다 (예: 여권)"
   },
   {
     "id": 113,
     "expression": "遅い",
     "reading": "おそい",
-    "meaning": "slow; (to be) late"
+    "meaning": "느린; (예정) 늦다"
   },
   {
     "id": 114,
     "expression": "お茶",
     "reading": "おちゃ",
-    "meaning": "(green) tea"
+    "meaning": "(녹차"
   },
   {
     "id": 115,
     "expression": "お手洗い",
     "reading": "おてあらい",
-    "meaning": "toilet, restroom, bathroom (lit., a place to wash one's hands)"
+    "meaning": "화장실, 화장실, 욕실(문자, 손을 씻는 곳)"
   },
   {
     "id": 116,
     "expression": "お父さん",
     "reading": "おとうさん",
-    "meaning": "father (formal)"
+    "meaning": "아버지 (공식)"
   },
   {
     "id": 117,
     "expression": "弟",
     "reading": "おとうと",
-    "meaning": "younger brother"
+    "meaning": "남동생"
   },
   {
     "id": 118,
     "expression": "男",
     "reading": "おとこ",
-    "meaning": "man, male"
+    "meaning": "남자, 남자"
   },
   {
     "id": 119,
     "expression": "男の子",
     "reading": "おとこのこ",
-    "meaning": "boy"
+    "meaning": "소년"
   },
   {
     "id": 120,
     "expression": "一昨日",
     "reading": "おととい",
-    "meaning": "the day before yesterday"
+    "meaning": "그저께"
   },
   {
     "id": 121,
     "expression": "おととし",
     "reading": "おととし",
-    "meaning": "year before last"
+    "meaning": "지난 해"
   },
   {
     "id": 122,
     "expression": "大人",
     "reading": "おとな",
-    "meaning": "adult"
+    "meaning": "성인"
   },
   {
     "id": 123,
     "expression": "お腹",
     "reading": "おなか",
-    "meaning": "stomach"
+    "meaning": "위"
   },
   {
     "id": 124,
     "expression": "同じ",
     "reading": "おなじ",
-    "meaning": "same, identical"
+    "meaning": "같은, 동일한"
   },
   {
     "id": 125,
     "expression": "お兄さん",
     "reading": "おにいさん",
-    "meaning": "(someone else's) older brother (formal)"
+    "meaning": "(다른 사람의) 형 (공식적으로)"
   },
   {
     "id": 126,
     "expression": "お姉さん",
     "reading": "おねえさん",
-    "meaning": "older sister (formal)"
+    "meaning": "언니 (공식)"
   },
   {
     "id": 127,
     "expression": "伯母さん; 叔母さん",
     "reading": "おばさん",
-    "meaning": "aunt"
+    "meaning": "이모"
   },
   {
     "id": 128,
     "expression": "おばあさん",
     "reading": "おばあさん",
-    "meaning": "grandmother, female senior-citizen"
+    "meaning": "할머니, 여성 노인"
   },
   {
     "id": 129,
     "expression": "お風呂",
     "reading": "おふろ",
-    "meaning": "a bath"
+    "meaning": "목욕"
   },
   {
     "id": 130,
     "expression": "お弁当",
     "reading": "おべんとう",
-    "meaning": "a boxed lunch"
+    "meaning": "도시락"
   },
   {
     "id": 131,
     "expression": "覚える",
     "reading": "おぼえる",
-    "meaning": "to learn, to commit to memory, to remember, to memorize"
+    "meaning": "배우다, 기억하다, 기억하다, 암기하다"
   },
   {
     "id": 132,
     "expression": "おまわりさん",
     "reading": "おまわりさん",
-    "meaning": "policeman (friendly term)"
+    "meaning": "경찰관 (친절한 용어)"
   },
   {
     "id": 133,
     "expression": "重い",
     "reading": "おもい",
-    "meaning": "heavy; serious"
+    "meaning": "무거운; 심각한"
   },
   {
     "id": 134,
     "expression": "面白い",
     "reading": "おもしろい",
-    "meaning": "interesting, amusing"
+    "meaning": "흥미로운, 재미있는"
   },
   {
     "id": 135,
     "expression": "泳ぐ",
     "reading": "およぐ",
-    "meaning": "to swim"
+    "meaning": "수영하다"
   },
   {
     "id": 136,
     "expression": "降りる",
     "reading": "おりる",
-    "meaning": "to get off"
+    "meaning": "내리다"
   },
   {
     "id": 137,
     "expression": "終る",
     "reading": "おわる",
-    "meaning": "to finish, to close"
+    "meaning": "끝내다, 닫다"
   },
   {
     "id": 138,
     "expression": "音楽",
     "reading": "おんがく",
-    "meaning": "Music"
+    "meaning": "음악"
   },
   {
     "id": 139,
     "expression": "女",
     "reading": "おんな",
-    "meaning": "woman, female"
+    "meaning": "여자, 여자"
   },
   {
     "id": 140,
     "expression": "女の子",
     "reading": "おんなのこ",
-    "meaning": "girl"
+    "meaning": "소녀"
   },
   {
     "id": 141,
     "expression": "～回",
     "reading": "～かい",
-    "meaning": "counter for occurrences (~ times)"
+    "meaning": "발생 카운터(~회)"
   },
   {
     "id": 142,
     "expression": "～階",
     "reading": "～かい",
-    "meaning": "counter for stories (floors) of a building"
+    "meaning": "건물의 층(층) 카운터"
   },
   {
     "id": 143,
     "expression": "外国",
     "reading": "がいこく",
-    "meaning": "foreign country; abroad"
+    "meaning": "외국; 해외에서"
   },
   {
     "id": 144,
     "expression": "外国人",
     "reading": "がいこくじん",
-    "meaning": "foreigner"
+    "meaning": "외국인"
   },
   {
     "id": 145,
     "expression": "会社",
     "reading": "かいしゃ",
-    "meaning": "company, corporation"
+    "meaning": "회사, 법인"
   },
   {
     "id": 146,
     "expression": "階段",
     "reading": "かいだん",
-    "meaning": "stairs"
+    "meaning": "계단"
   },
   {
     "id": 147,
     "expression": "買い物",
     "reading": "かいもの",
-    "meaning": "shopping"
+    "meaning": "쇼핑"
   },
   {
     "id": 148,
     "expression": "買う",
     "reading": "かう",
-    "meaning": "to buy"
+    "meaning": "구매"
   },
   {
     "id": 149,
     "expression": "返す",
     "reading": "かえす",
-    "meaning": "to return something"
+    "meaning": "무언가를 돌려주다"
   },
   {
     "id": 150,
     "expression": "帰る",
     "reading": "かえる",
-    "meaning": "to go back, to go home, to return"
+    "meaning": "돌아가다, 집에 가다, 돌아가다"
   },
   {
     "id": 151,
     "expression": "顔",
     "reading": "かお",
-    "meaning": "face (body part)"
+    "meaning": "얼굴(신체부분)"
   },
   {
     "id": 152,
     "expression": "かかる",
     "reading": "かかる",
-    "meaning": "it takes (amount of time, money) (v.i.)"
+    "meaning": "(시간, 돈의 양)이 소요됩니다 (v.i.)"
   },
   {
     "id": 153,
     "expression": "鍵",
     "reading": "かぎ",
-    "meaning": "a lock; a key"
+    "meaning": "자물쇠; 열쇠"
   },
   {
     "id": 154,
     "expression": "書く",
     "reading": "かく",
-    "meaning": "to write"
+    "meaning": "쓰다"
   },
   {
     "id": 155,
     "expression": "学生",
     "reading": "がくせい",
-    "meaning": "student"
+    "meaning": "학생"
   },
   {
     "id": 156,
     "expression": "～か月",
     "reading": "～かげつ",
-    "meaning": "(number of) months"
+    "meaning": "(개) 개월"
   },
   {
     "id": 157,
     "expression": "掛ける",
     "reading": "かける",
-    "meaning": "to put on (e.g., glasses); to hang (e.g., on a wall)"
+    "meaning": "(예를 들어, 안경을) 쓰다; (예를 들어 벽에) 걸다"
   },
   {
     "id": 158,
     "expression": "かける",
     "reading": "かける",
-    "meaning": "to dial/call (e.g., phone); to sit down"
+    "meaning": "전화를 걸다/통화하다(예: 전화); 앉다"
   },
   {
     "id": 159,
     "expression": "傘",
     "reading": "かさ",
-    "meaning": "umbrella, parasol"
+    "meaning": "우산, 파라솔"
   },
   {
     "id": 160,
     "expression": "貸す",
     "reading": "かす",
-    "meaning": "to lend"
+    "meaning": "빌려주다"
   },
   {
     "id": 161,
     "expression": "風",
     "reading": "かぜ",
-    "meaning": "wind, breeze"
+    "meaning": "바람, 미풍"
   },
   {
     "id": 162,
     "expression": "風邪",
     "reading": "かぜ",
-    "meaning": "cold, flu"
+    "meaning": "감기, 독감"
   },
   {
     "id": 163,
     "expression": "方",
     "reading": "かた",
-    "meaning": "-- honorific form for 人 (ひと) --; way of doing"
+    "meaning": "-- 人(ひと)의 경칭 --; 하는 방법"
   },
   {
     "id": 164,
     "expression": "家族",
     "reading": "かぞく",
-    "meaning": "family, members of a family"
+    "meaning": "가족, 가족의 구성원"
   },
   {
     "id": 165,
     "expression": "片仮名",
     "reading": "かたかな",
-    "meaning": "katakana"
+    "meaning": "가타카나"
   },
   {
     "id": 166,
     "expression": "～月",
     "reading": "～がつ",
-    "meaning": "month of year"
+    "meaning": "올해의 달"
   },
   {
     "id": 167,
     "expression": "学校",
     "reading": "がっこう",
-    "meaning": "a school"
+    "meaning": "학교"
   },
   {
     "id": 168,
     "expression": "カップ",
     "reading": "カップ",
-    "meaning": "cup"
+    "meaning": "컵"
   },
   {
     "id": 169,
     "expression": "家庭",
     "reading": "かてい",
-    "meaning": "home; family"
+    "meaning": "집; 가족"
   },
   {
     "id": 170,
     "expression": "角",
     "reading": "かど",
-    "meaning": "corner (e.g., desk, pavement)"
+    "meaning": "코너(예: 책상, 도로)"
   },
   {
     "id": 171,
     "expression": "かばん",
     "reading": "かばん",
-    "meaning": "bag, basket"
+    "meaning": "가방, 바구니"
   },
   {
     "id": 172,
     "expression": "花瓶",
     "reading": "かびん",
-    "meaning": "(flower) vase"
+    "meaning": "(꽃병"
   },
   {
     "id": 173,
     "expression": "かぶる",
     "reading": "かぶる",
-    "meaning": "to wear, to put on (e.g., a hat on the head)"
+    "meaning": "입다, 쓰다 (예: 머리에 모자를 씌우다)"
   },
   {
     "id": 174,
     "expression": "紙",
     "reading": "かみ",
-    "meaning": "paper"
+    "meaning": "종이"
   },
   {
     "id": 175,
     "expression": "カメラ",
     "reading": "カメラ",
-    "meaning": "camera"
+    "meaning": "카메라"
   },
   {
     "id": 176,
     "expression": "火曜日",
     "reading": "かようび",
-    "meaning": "Tuesday"
+    "meaning": "화요일"
   },
   {
     "id": 177,
     "expression": "辛い",
     "reading": "からい",
-    "meaning": "hot and spicy; salty"
+    "meaning": "뜨겁고 매운; 짠"
   },
   {
     "id": 178,
     "expression": "体",
     "reading": "からだ",
-    "meaning": "body; health"
+    "meaning": "몸; 건강"
   },
   {
     "id": 179,
     "expression": "借りる",
     "reading": "かりる",
-    "meaning": "to borrow, to owe"
+    "meaning": "빌리다, 빚지다"
   },
   {
     "id": 180,
     "expression": "～がる",
     "reading": "～がる",
-    "meaning": "feel"
+    "meaning": "느끼다"
   },
   {
     "id": 181,
     "expression": "軽い",
     "reading": "かるい",
-    "meaning": "light, non-serious, minor"
+    "meaning": "가벼운, 심각하지 않은, 경미한"
   },
   {
     "id": 182,
     "expression": "カレー",
     "reading": "カレー",
-    "meaning": "curry (abbr. for curry and rice)"
+    "meaning": "카레(카레라이스의 약자)"
   },
   {
     "id": 183,
     "expression": "カレンダー",
     "reading": "カレンダー",
-    "meaning": "calendar"
+    "meaning": "달력"
   },
   {
     "id": 184,
     "expression": "川; 河",
     "reading": "かわ",
-    "meaning": "river"
+    "meaning": "강"
   },
   {
     "id": 185,
     "expression": "～側",
     "reading": "～がわ",
-    "meaning": "~ side"
+    "meaning": "~ 쪽"
   },
   {
     "id": 186,
     "expression": "可愛い",
     "reading": "かわいい",
-    "meaning": "cute, adorable"
+    "meaning": "귀엽고 사랑스럽다"
   },
   {
     "id": 187,
     "expression": "漢字",
     "reading": "かんじ",
-    "meaning": "kanji; Chinese character"
+    "meaning": "한자; 한자"
   },
   {
     "id": 188,
     "expression": "木",
     "reading": "き",
-    "meaning": "tree, wood, timber"
+    "meaning": "나무, 목재, 재목"
   },
   {
     "id": 189,
     "expression": "黄色",
     "reading": "きいろ",
-    "meaning": "yellow"
+    "meaning": "노란색"
   },
   {
     "id": 190,
     "expression": "黄色い",
     "reading": "きいろい",
-    "meaning": "yellow"
+    "meaning": "노란색"
   },
   {
     "id": 191,
     "expression": "消える",
     "reading": "きえる",
-    "meaning": "to vanish, to disappear"
+    "meaning": "사라지다, 사라지다"
   },
   {
     "id": 192,
     "expression": "聞く",
     "reading": "きく",
-    "meaning": "to hear, to listen, to ask"
+    "meaning": "듣다, 듣다, 묻다"
   },
   {
     "id": 193,
     "expression": "北",
     "reading": "きた",
-    "meaning": "north"
+    "meaning": "북쪽"
   },
   {
     "id": 194,
     "expression": "ギター",
     "reading": "ギター",
-    "meaning": "guitar"
+    "meaning": "기타"
   },
   {
     "id": 195,
     "expression": "汚い",
     "reading": "きたない",
-    "meaning": "dirty, unclean, filthy"
+    "meaning": "더러운, 불결한, 불결한"
   },
   {
     "id": 196,
     "expression": "喫茶店",
     "reading": "きっさてん",
-    "meaning": "café"
+    "meaning": "카페"
   },
   {
     "id": 197,
     "expression": "切手",
     "reading": "きって",
-    "meaning": "postal (postage) stamps"
+    "meaning": "우편(우표) 우표"
   },
   {
     "id": 198,
     "expression": "切符",
     "reading": "きっぷ",
-    "meaning": "a ticket"
+    "meaning": "티켓"
   },
   {
     "id": 199,
     "expression": "昨日",
     "reading": "きのう",
-    "meaning": "yesterday"
+    "meaning": "어제"
   },
   {
     "id": 200,
     "expression": "九",
     "reading": "きゅう",
-    "meaning": "nine"
+    "meaning": "아홉"
   },
   {
     "id": 201,
     "expression": "牛肉",
     "reading": "ぎゅうにく",
-    "meaning": "beef"
+    "meaning": "소고기"
   },
   {
     "id": 202,
     "expression": "牛乳",
     "reading": "ぎゅうにゅう",
-    "meaning": "milk"
+    "meaning": "우유"
   },
   {
     "id": 203,
     "expression": "今日",
     "reading": "きょう",
-    "meaning": "today, this day"
+    "meaning": "오늘, 오늘"
   },
   {
     "id": 204,
     "expression": "教室",
     "reading": "きょうしつ",
-    "meaning": "classroom"
+    "meaning": "교실"
   },
   {
     "id": 205,
     "expression": "兄弟",
     "reading": "きょうだい",
-    "meaning": "siblings (humble), brothers and sisters"
+    "meaning": "형제자매(겸손한), 형제자매"
   },
   {
     "id": 206,
     "expression": "去年",
     "reading": "きょねん",
-    "meaning": "last year"
+    "meaning": "작년"
   },
   {
     "id": 207,
     "expression": "嫌い",
     "reading": "きらい",
-    "meaning": "dislike"
+    "meaning": "싫어함"
   },
   {
     "id": 208,
     "expression": "切る",
     "reading": "きる",
-    "meaning": "to cut; to hang up (a phone)"
+    "meaning": "자르다; (전화를) 끊다"
   },
   {
     "id": 209,
     "expression": "着る",
     "reading": "きる",
-    "meaning": "to put on (clothes above your waist); to wear"
+    "meaning": "(허리 위의 옷을) 입다; 입다"
   },
   {
     "id": 210,
     "expression": "綺麗",
     "reading": "きれい",
-    "meaning": "pretty, clean, tidy"
+    "meaning": "예쁘다, 깨끗하다, 깔끔하다"
   },
   {
     "id": 211,
     "expression": "キロ; キログラム",
     "reading": "キロ; キログラム",
-    "meaning": "(abbr.) kilo (kilogram)"
+    "meaning": "(약어) 킬로(킬로그램)"
   },
   {
     "id": 212,
     "expression": "キロ; キロメートル",
     "reading": "キロ; キロメートル",
-    "meaning": "(abbr.) kilo (kilometer)"
+    "meaning": "(약어) 킬로(킬로미터)"
   },
   {
     "id": 213,
     "expression": "銀行",
     "reading": "ぎんこう",
-    "meaning": "bank"
+    "meaning": "은행"
   },
   {
     "id": 214,
     "expression": "金曜日",
     "reading": "きんようび",
-    "meaning": "Friday"
+    "meaning": "금요일"
   },
   {
     "id": 215,
     "expression": "九",
     "reading": "く",
-    "meaning": "nine"
+    "meaning": "아홉"
   },
   {
     "id": 216,
     "expression": "薬",
     "reading": "くすり",
-    "meaning": "medicine"
+    "meaning": "약"
   },
   {
     "id": 217,
     "expression": "下さい",
     "reading": "ください",
-    "meaning": "(with te-form verb) please do for me"
+    "meaning": "(te형 동사와 함께) 나를 위해 해주세요"
   },
   {
     "id": 218,
     "expression": "果物",
     "reading": "くだもの",
-    "meaning": "fruit"
+    "meaning": "과일"
   },
   {
     "id": 219,
     "expression": "口",
     "reading": "くち",
-    "meaning": "job opening; mouth"
+    "meaning": "채용공고; 입"
   },
   {
     "id": 220,
     "expression": "靴",
     "reading": "くつ",
-    "meaning": "shoes, footwear"
+    "meaning": "신발, 신발"
   },
   {
     "id": 221,
     "expression": "靴下",
     "reading": "くつした",
-    "meaning": "socks"
+    "meaning": "양말"
   },
   {
     "id": 222,
     "expression": "国",
     "reading": "くに",
-    "meaning": "country; place of origin"
+    "meaning": "국가; 원산지"
   },
   {
     "id": 223,
     "expression": "曇り",
     "reading": "くもり",
-    "meaning": "cloudiness, cloudy weather"
+    "meaning": "흐림, 흐린 날씨"
   },
   {
     "id": 224,
     "expression": "曇る",
     "reading": "くもる",
-    "meaning": "to become cloudy, to become dim"
+    "meaning": "흐려지다, 흐려지다"
   },
   {
     "id": 225,
     "expression": "暗い",
     "reading": "くらい",
-    "meaning": "dark, gloomy"
+    "meaning": "어둡다, 우울하다"
   },
   {
     "id": 226,
     "expression": "～くらい; ぐらい",
     "reading": "～くらい; ぐらい",
-    "meaning": "approximate (quantity)"
+    "meaning": "대략적인 (수량)"
   },
   {
     "id": 227,
     "expression": "クラス",
     "reading": "クラス",
-    "meaning": "a class"
+    "meaning": "수업"
   },
   {
     "id": 228,
     "expression": "グラム",
     "reading": "グラム",
-    "meaning": "gram"
+    "meaning": "그램"
   },
   {
     "id": 229,
     "expression": "来る",
     "reading": "くる",
-    "meaning": "to come"
+    "meaning": "올"
   },
   {
     "id": 230,
     "expression": "車",
     "reading": "くるま",
-    "meaning": "car, vehicle"
+    "meaning": "자동차, 차량"
   },
   {
     "id": 231,
     "expression": "黒",
     "reading": "くろ",
-    "meaning": "black"
+    "meaning": "검은색"
   },
   {
     "id": 232,
     "expression": "黒い",
     "reading": "くろい",
-    "meaning": "black; dark"
+    "meaning": "검은색; 어두운"
   },
   {
     "id": 233,
     "expression": "警官",
     "reading": "けいかん",
-    "meaning": "police officer"
+    "meaning": "경찰관"
   },
   {
     "id": 234,
     "expression": "今朝",
     "reading": "けさ",
-    "meaning": "this morning"
+    "meaning": "오늘 아침"
   },
   {
     "id": 235,
     "expression": "消す",
     "reading": "けす",
-    "meaning": "to erase, to delete, to turn off power"
+    "meaning": "지우다, 삭제하다, 전원을 끄다"
   },
   {
     "id": 236,
     "expression": "結構",
     "reading": "けっこう",
-    "meaning": "splendid; enough, tolerably"
+    "meaning": "화려한; 충분히, 견딜 수 있을 만큼"
   },
   {
     "id": 237,
     "expression": "結婚",
     "reading": "けっこん (する)",
-    "meaning": "marriage (get married)"
+    "meaning": "결혼하다(결혼하다)"
   },
   {
     "id": 238,
     "expression": "月曜日",
     "reading": "げつようび",
-    "meaning": "Monday"
+    "meaning": "월요일"
   },
   {
     "id": 239,
     "expression": "玄関",
     "reading": "げんかん",
-    "meaning": "entrance (to a house or a building)"
+    "meaning": "입구 (집이나 건물에)"
   },
   {
     "id": 240,
     "expression": "元気",
     "reading": "げんき",
-    "meaning": "health(y), energetic"
+    "meaning": "건강(y), 활력"
   },
   {
     "id": 241,
     "expression": "～個",
     "reading": "～こ",
-    "meaning": "counter for small items (e.g., fruits, cups)"
+    "meaning": "작은 품목(예: 과일, 컵)을 위한 카운터"
   },
   {
     "id": 242,
     "expression": "五",
     "reading": "ご",
-    "meaning": "five"
+    "meaning": "다섯"
   },
   {
     "id": 243,
     "expression": "～語",
     "reading": "～ご",
-    "meaning": "word, language"
+    "meaning": "단어, 언어"
   },
   {
     "id": 244,
     "expression": "公園",
     "reading": "こうえん",
-    "meaning": "a park"
+    "meaning": "공원"
   },
   {
     "id": 245,
     "expression": "交差点",
     "reading": "こうさてん",
-    "meaning": "intersection"
+    "meaning": "교차로"
   },
   {
     "id": 246,
     "expression": "紅茶",
     "reading": "こうちゃ",
-    "meaning": "black tea"
+    "meaning": "홍차"
   },
   {
     "id": 247,
     "expression": "交番",
     "reading": "こうばん",
-    "meaning": "police box"
+    "meaning": "파출소"
   },
   {
     "id": 248,
     "expression": "声",
     "reading": "こえ",
-    "meaning": "voice"
+    "meaning": "목소리"
   },
   {
     "id": 249,
     "expression": "コート",
     "reading": "コート",
-    "meaning": "coat; court (e.g., tennis)"
+    "meaning": "코트; 코트(예: 테니스)"
   },
   {
     "id": 250,
     "expression": "コーヒー",
     "reading": "コーヒー",
-    "meaning": "coffee"
+    "meaning": "커피"
   },
   {
     "id": 251,
     "expression": "ここ",
     "reading": "ここ",
-    "meaning": "here, this place"
+    "meaning": "여기, 이 곳"
   },
   {
     "id": 252,
     "expression": "午後",
     "reading": "ごご",
-    "meaning": "afternoon, P.M."
+    "meaning": "오후, P.M."
   },
   {
     "id": 253,
     "expression": "九日",
     "reading": "ここのか",
-    "meaning": "nine days; ninth day of the month"
+    "meaning": "9일; 매월 9일"
   },
   {
     "id": 254,
     "expression": "九つ",
     "reading": "ここのつ",
-    "meaning": "nine things"
+    "meaning": "아홉 가지"
   },
   {
     "id": 255,
     "expression": "午前",
     "reading": "ごぜん",
-    "meaning": "morning, A.M."
+    "meaning": "아침, A.M."
   },
   {
     "id": 256,
     "expression": "答える",
     "reading": "こたえる",
-    "meaning": "to answer, to reply"
+    "meaning": "대답하다, 대답하다"
   },
   {
     "id": 257,
     "expression": "こちら",
     "reading": "こちら",
-    "meaning": "this person (polite); this way (polite)"
+    "meaning": "이 사람 (예의바르게); 이쪽으로 (정중하게)"
   },
   {
     "id": 258,
     "expression": "こっち",
     "reading": "こっち",
-    "meaning": "this person; this direction; this side"
+    "meaning": "이 사람; 이 방향; 이쪽"
   },
   {
     "id": 259,
     "expression": "コップ",
     "reading": "コップ",
-    "meaning": "a tumbler; a glass"
+    "meaning": "텀블러; 유리"
   },
   {
     "id": 260,
     "expression": "今年",
     "reading": "ことし",
-    "meaning": "this year"
+    "meaning": "올해"
   },
   {
     "id": 261,
     "expression": "言葉",
     "reading": "ことば",
-    "meaning": "language; word(s); expression(s)"
+    "meaning": "언어; 단어); 표현"
   },
   {
     "id": 262,
     "expression": "子供",
     "reading": "こども",
-    "meaning": "child(ren)"
+    "meaning": "어린이들)"
   },
   {
     "id": 263,
     "expression": "この",
     "reading": "この",
-    "meaning": "this"
+    "meaning": "이것"
   },
   {
     "id": 264,
     "expression": "御飯",
     "reading": "ごはん",
-    "meaning": "rice (cooked); meal"
+    "meaning": "쌀(요리); 식사"
   },
   {
     "id": 265,
     "expression": "コピーする",
     "reading": "コピーする",
-    "meaning": "to copy"
+    "meaning": "복사하다"
   },
   {
     "id": 266,
     "expression": "困る",
     "reading": "こまる",
-    "meaning": "to be bothered, to have difficulty"
+    "meaning": "괴로워하다, 어려움을 겪다"
   },
   {
     "id": 267,
     "expression": "これ",
     "reading": "これ",
-    "meaning": "this one"
+    "meaning": "이거"
   },
   {
     "id": 268,
     "expression": "～ころ; ～ごろ",
     "reading": "～ころ; ～ごろ",
-    "meaning": "about, toward, approximately (time)"
+    "meaning": "대략, 대략, 대략 (시간)"
   },
   {
     "id": 269,
     "expression": "今月",
     "reading": "こんげつ",
-    "meaning": "this month"
+    "meaning": "이번 달"
   },
   {
     "id": 270,
     "expression": "今週",
     "reading": "こんしゅう",
-    "meaning": "this week"
+    "meaning": "이번 주"
   },
   {
     "id": 271,
     "expression": "こんな",
     "reading": "こんな",
-    "meaning": "such, like this"
+    "meaning": "이런, 이런"
   },
   {
     "id": 272,
     "expression": "今晩",
     "reading": "こんばん",
-    "meaning": "tonight, this evening"
+    "meaning": "오늘 밤, 오늘 저녁"
   },
   {
     "id": 273,
     "expression": "さあ",
     "reading": "さあ",
-    "meaning": "come now, well"
+    "meaning": "지금 와, 글쎄"
   },
   {
     "id": 274,
     "expression": "～歳",
     "reading": "～さい",
-    "meaning": "~ years old"
+    "meaning": "~ 살"
   },
   {
     "id": 275,
     "expression": "財布",
     "reading": "さいふ",
-    "meaning": "wallet"
+    "meaning": "지갑"
   },
   {
     "id": 276,
     "expression": "魚",
     "reading": "さかな",
-    "meaning": "fish"
+    "meaning": "물고기"
   },
   {
     "id": 277,
     "expression": "先",
     "reading": "さき",
-    "meaning": "future; recent, previous"
+    "meaning": "미래; 최근, 이전"
   },
   {
     "id": 278,
     "expression": "咲く",
     "reading": "さく",
-    "meaning": "to bloom"
+    "meaning": "꽃을 피우다"
   },
   {
     "id": 279,
     "expression": "作文",
     "reading": "さくぶん",
-    "meaning": "essay; composition"
+    "meaning": "수필; 구성"
   },
   {
     "id": 280,
     "expression": "差す",
     "reading": "さす",
-    "meaning": "to raise (stretch out) hands, to raise (e.g., umbrella)"
+    "meaning": "손을 들다 (뻗다), (우산 등을) 들다"
   },
   {
     "id": 281,
     "expression": "～冊",
     "reading": "～さつ",
-    "meaning": "counter for books"
+    "meaning": "책 카운터"
   },
   {
     "id": 282,
     "expression": "雑誌",
     "reading": "ざっし",
-    "meaning": "magazine, journal"
+    "meaning": "잡지, 저널"
   },
   {
     "id": 283,
     "expression": "砂糖",
     "reading": "さとう",
-    "meaning": "sugar"
+    "meaning": "설탕"
   },
   {
     "id": 284,
     "expression": "寒い",
     "reading": "さむい",
-    "meaning": "cold (in reference to weather)"
+    "meaning": "추운 (날씨와 관련하여)"
   },
   {
     "id": 285,
     "expression": "さ来年",
     "reading": "さらいねん",
-    "meaning": "year after next"
+    "meaning": "다음 해 이후"
   },
   {
     "id": 286,
     "expression": "～さん",
     "reading": "～さん",
-    "meaning": "Mr. ~, Ms. ~"
+    "meaning": "~씨, ~씨"
   },
   {
     "id": 287,
     "expression": "三",
     "reading": "さん",
-    "meaning": "three"
+    "meaning": "삼"
   },
   {
     "id": 288,
     "expression": "散歩",
     "reading": "さんぽ (する)",
-    "meaning": "walk, stroll"
+    "meaning": "걷다, 산책하다"
   },
   {
     "id": 289,
     "expression": "四",
     "reading": "し",
-    "meaning": "four"
+    "meaning": "네"
   },
   {
     "id": 290,
     "expression": "～時",
     "reading": "～じ",
-    "meaning": "~ o'clock (time)"
+    "meaning": "~시(시간)"
   },
   {
     "id": 291,
     "expression": "塩",
     "reading": "しお",
-    "meaning": "salt"
+    "meaning": "소금"
   },
   {
     "id": 292,
     "expression": "しかし",
     "reading": "しかし",
-    "meaning": "however; but"
+    "meaning": "하지만; 하지만"
   },
   {
     "id": 293,
     "expression": "時間",
     "reading": "じかん",
-    "meaning": "time"
+    "meaning": "시간"
   },
   {
     "id": 294,
     "expression": "～時間",
     "reading": "～じかん",
-    "meaning": "~ hours"
+    "meaning": "~ 시간"
   },
   {
     "id": 295,
     "expression": "仕事",
     "reading": "しごと",
-    "meaning": "work, job, occupation, employment"
+    "meaning": "일, 직업, 직업, 고용"
   },
   {
     "id": 296,
     "expression": "辞書",
     "reading": "じしょ",
-    "meaning": "dictionary"
+    "meaning": "사전"
   },
   {
     "id": 297,
     "expression": "静か",
     "reading": "しずか",
-    "meaning": "quiet, calm"
+    "meaning": "조용하다, 차분하다"
   },
   {
     "id": 298,
     "expression": "下",
     "reading": "した",
-    "meaning": "under, below, beneath"
+    "meaning": "아래, 아래, 아래"
   },
   {
     "id": 299,
     "expression": "七",
     "reading": "しち",
-    "meaning": "seven"
+    "meaning": "일곱"
   },
   {
     "id": 300,
     "expression": "質問",
     "reading": "しつもん",
-    "meaning": "question, inquiry"
+    "meaning": "질문, 문의"
   },
   {
     "id": 301,
     "expression": "自転車",
     "reading": "じてんしゃ",
-    "meaning": "bicycle"
+    "meaning": "자전거"
   },
   {
     "id": 302,
     "expression": "自動車",
     "reading": "じどうしゃ",
-    "meaning": "automobile"
+    "meaning": "자동차"
   },
   {
     "id": 303,
     "expression": "死ぬ",
     "reading": "しぬ",
-    "meaning": "to die"
+    "meaning": "죽다"
   },
   {
     "id": 304,
     "expression": "字引",
     "reading": "じびき",
-    "meaning": "dictionary"
+    "meaning": "사전"
   },
   {
     "id": 305,
     "expression": "自分",
     "reading": "じぶん",
-    "meaning": "myself, oneself"
+    "meaning": "나 자신"
   },
   {
     "id": 306,
     "expression": "閉まる",
     "reading": "しまる",
-    "meaning": "to close, to be closed"
+    "meaning": "닫히다, 닫히다"
   },
   {
     "id": 307,
     "expression": "閉める",
     "reading": "しめる",
-    "meaning": "to close, to shut"
+    "meaning": "닫다, 닫다"
   },
   {
     "id": 308,
     "expression": "締める",
     "reading": "しめる",
-    "meaning": "to tie, to fasten, to tighten"
+    "meaning": "묶다, 묶다, 조이다"
   },
   {
     "id": 309,
     "expression": "じゃ; じゃあ",
     "reading": "じゃ; じゃあ",
-    "meaning": "well, well then"
+    "meaning": "그럼, 그럼"
   },
   {
     "id": 310,
     "expression": "写真",
     "reading": "しゃしん",
-    "meaning": "a picture; a photograph"
+    "meaning": "사진; 사진"
   },
   {
     "id": 311,
     "expression": "シャツ",
     "reading": "シャツ",
-    "meaning": "shirt"
+    "meaning": "셔츠"
   },
   {
     "id": 312,
     "expression": "シャワー",
     "reading": "シャワー",
-    "meaning": "shower"
+    "meaning": "샤워"
   },
   {
     "id": 313,
     "expression": "十",
     "reading": "じゅう",
-    "meaning": "ten"
+    "meaning": "열"
   },
   {
     "id": 314,
     "expression": "～中",
     "reading": "～じゅう",
-    "meaning": "during, while"
+    "meaning": "동안, 동안"
   },
   {
     "id": 315,
     "expression": "～週間",
     "reading": "～しゅうかん",
-    "meaning": "~ weeks"
+    "meaning": "~ 주"
   },
   {
     "id": 316,
     "expression": "授業",
     "reading": "じゅぎょう",
-    "meaning": "a class (of school)"
+    "meaning": "(학교의) 수업"
   },
   {
     "id": 317,
     "expression": "宿題",
     "reading": "しゅくだい",
-    "meaning": "homework"
+    "meaning": "숙제"
   },
   {
     "id": 318,
     "expression": "上手",
     "reading": "じょうず",
-    "meaning": "be good at, skillful"
+    "meaning": "잘하다, 능숙하다"
   },
   {
     "id": 319,
     "expression": "丈夫",
     "reading": "じょうぶ",
-    "meaning": "strong, solid, durable"
+    "meaning": "강하다, 견고하다, 내구성이 있다"
   },
   {
     "id": 320,
     "expression": "醤油",
     "reading": "しょうゆ",
-    "meaning": "soy sauce"
+    "meaning": "간장"
   },
   {
     "id": 321,
     "expression": "食堂",
     "reading": "しょくどう",
-    "meaning": "cafeteria, dining hall"
+    "meaning": "카페테리아, 식당"
   },
   {
     "id": 322,
     "expression": "知る",
     "reading": "しる",
-    "meaning": "to know, to understand"
+    "meaning": "알다, 이해하다"
   },
   {
     "id": 323,
     "expression": "白",
     "reading": "しろ",
-    "meaning": "white"
+    "meaning": "하얀색"
   },
   {
     "id": 324,
     "expression": "白い",
     "reading": "しろい",
-    "meaning": "white"
+    "meaning": "하얀색"
   },
   {
     "id": 325,
     "expression": "～人",
     "reading": "～じん",
-    "meaning": "counter for people"
+    "meaning": "사람들을 위한 카운터"
   },
   {
     "id": 326,
     "expression": "新聞",
     "reading": "しんぶん",
-    "meaning": "newspaper"
+    "meaning": "신문"
   },
   {
     "id": 327,
     "expression": "水曜日",
     "reading": "すいようび",
-    "meaning": "Wednesday"
+    "meaning": "수요일"
   },
   {
     "id": 328,
     "expression": "吸う",
     "reading": "すう",
-    "meaning": "to breathe in, to suck"
+    "meaning": "숨을 들이쉬다, 빨아들이다"
   },
   {
     "id": 329,
     "expression": "スカート",
     "reading": "スカート",
-    "meaning": "skirt"
+    "meaning": "치마"
   },
   {
     "id": 330,
     "expression": "好き",
     "reading": "すき",
-    "meaning": "liking, fondness, love"
+    "meaning": "좋아하다, 애호하다, 사랑하다"
   },
   {
     "id": 331,
     "expression": "～すぎ",
     "reading": "～すぎ",
-    "meaning": "past; to exceed, ~ too much"
+    "meaning": "과거; 초과하다, ~을 너무 많이"
   },
   {
     "id": 332,
     "expression": "少ない",
     "reading": "すくない",
-    "meaning": "a little; a few"
+    "meaning": "조금; 몇 가지"
   },
   {
     "id": 333,
     "expression": "すぐに",
     "reading": "すぐに",
-    "meaning": "immediately, soon"
+    "meaning": "즉시, 곧"
   },
   {
     "id": 334,
     "expression": "少し",
     "reading": "すこし",
-    "meaning": "little, few"
+    "meaning": "조금, 거의"
   },
   {
     "id": 335,
     "expression": "涼しい",
     "reading": "すずしい",
-    "meaning": "cool, refreshing (in reference to weather)"
+    "meaning": "시원하다, 상쾌하다(날씨에 따라)"
   },
   {
     "id": 336,
     "expression": "～ずつ",
     "reading": "～ずつ",
-    "meaning": "at a time"
+    "meaning": "한 번에"
   },
   {
     "id": 337,
     "expression": "ストーブ",
     "reading": "ストーブ",
-    "meaning": "heater (lit: stove)"
+    "meaning": "히터 (점등 : 스토브)"
   },
   {
     "id": 338,
     "expression": "スプーン",
     "reading": "スプーン",
-    "meaning": "spoon"
+    "meaning": "숟가락"
   },
   {
     "id": 339,
     "expression": "スポーツ",
     "reading": "スポーツ",
-    "meaning": "sport(s)"
+    "meaning": "스포츠"
   },
   {
     "id": 340,
     "expression": "ズボン",
     "reading": "ズボン",
-    "meaning": "trousers"
+    "meaning": "바지"
   },
   {
     "id": 341,
     "expression": "住む",
     "reading": "すむ",
-    "meaning": "to reside, to live in"
+    "meaning": "거주하다, 거주하다"
   },
   {
     "id": 342,
     "expression": "する",
     "reading": "する",
-    "meaning": "to do, to try; to wear small items (e.g., necktie, watch, etc.)"
+    "meaning": "하려고, 시도하다; 작은 물건(예: 넥타이, 시계 등)을 착용하다"
   },
   {
     "id": 343,
     "expression": "座る",
     "reading": "すわる",
-    "meaning": "to sit"
+    "meaning": "앉다"
   },
   {
     "id": 344,
     "expression": "背",
     "reading": "せい",
-    "meaning": "(one's) height, stature"
+    "meaning": "(그의) 키, 키"
   },
   {
     "id": 345,
     "expression": "生徒",
     "reading": "せいと",
-    "meaning": "student; pupil"
+    "meaning": "학생; 학생"
   },
   {
     "id": 346,
     "expression": "セーター",
     "reading": "セーター",
-    "meaning": "sweater"
+    "meaning": "스웨터"
   },
   {
     "id": 347,
     "expression": "石鹸",
     "reading": "せっけん",
-    "meaning": "soap"
+    "meaning": "비누"
   },
   {
     "id": 348,
     "expression": "背広",
     "reading": "せびろ",
-    "meaning": "men's suit"
+    "meaning": "남자 정장"
   },
   {
     "id": 349,
     "expression": "狭い",
     "reading": "せまい",
-    "meaning": "narrow; not spacious"
+    "meaning": "좁은; 넓지 않은"
   },
   {
     "id": 350,
     "expression": "ゼロ",
     "reading": "ゼロ",
-    "meaning": "zero"
+    "meaning": "영"
   },
   {
     "id": 351,
     "expression": "千",
     "reading": "せん",
-    "meaning": "thousand"
+    "meaning": "천"
   },
   {
     "id": 352,
     "expression": "先月",
     "reading": "せんげつ",
-    "meaning": "last month"
+    "meaning": "전달"
   },
   {
     "id": 353,
     "expression": "先週",
     "reading": "せんしゅう",
-    "meaning": "last week"
+    "meaning": "지난주"
   },
   {
     "id": 354,
     "expression": "先生",
     "reading": "せんせい",
-    "meaning": "teacher, professor; master; doctor"
+    "meaning": "교사, 교수; 주인; 의사"
   },
   {
     "id": 355,
     "expression": "洗濯",
     "reading": "せんたく",
-    "meaning": "washing, laundry"
+    "meaning": "세탁, 세탁"
   },
   {
     "id": 356,
     "expression": "全部",
     "reading": "ぜんぶ",
-    "meaning": "all, entire, whole"
+    "meaning": "전부, 전체, 전체"
   },
   {
     "id": 357,
     "expression": "そう; そうです",
     "reading": "そう; そうです",
-    "meaning": "yes; appears, to be the case"
+    "meaning": "예; 그럴 것으로 보인다"
   },
   {
     "id": 358,
     "expression": "掃除",
     "reading": "そうじ (する)",
-    "meaning": "cleaning, sweeping"
+    "meaning": "청소, 쓸어내기"
   },
   {
     "id": 359,
     "expression": "そうして; そして",
     "reading": "そうして; そして",
-    "meaning": "and, like that"
+    "meaning": "그리고, 그렇게"
   },
   {
     "id": 360,
     "expression": "そこ",
     "reading": "そこ",
-    "meaning": "that place, there; bottom, sole"
+    "meaning": "그 곳, 거기; 바닥, 밑창"
   },
   {
     "id": 361,
     "expression": "そちら",
     "reading": "そちら",
-    "meaning": "over there"
+    "meaning": "저기"
   },
   {
     "id": 362,
     "expression": "そっち",
     "reading": "そっち",
-    "meaning": "over there"
+    "meaning": "저기"
   },
   {
     "id": 363,
     "expression": "外",
     "reading": "そと",
-    "meaning": "outside, exterior"
+    "meaning": "외부, 외부"
   },
   {
     "id": 364,
     "expression": "その",
     "reading": "その",
-    "meaning": "that"
+    "meaning": "저것"
   },
   {
     "id": 365,
     "expression": "そば",
     "reading": "そば",
-    "meaning": "near, close, beside; Japanese traditional buckwheat noodle"
+    "meaning": "가까이, 가까이, 옆에; 일본 전통 메밀 국수"
   },
   {
     "id": 366,
     "expression": "空",
     "reading": "そら",
-    "meaning": "sky"
+    "meaning": "하늘"
   },
   {
     "id": 367,
     "expression": "それ",
     "reading": "それ",
-    "meaning": "that one"
+    "meaning": "그거"
   },
   {
     "id": 368,
     "expression": "それから",
     "reading": "それから",
-    "meaning": "and then, after that"
+    "meaning": "그리고, 그 이후에는"
   },
   {
     "id": 369,
     "expression": "それでは",
     "reading": "それでは",
-    "meaning": "in that situation, well then..."
+    "meaning": "그렇다면 그 상황에서는..."
   },
   {
     "id": 370,
     "expression": "～台",
     "reading": "～だい",
-    "meaning": "counter for vehicles; machines"
+    "meaning": "차량용 카운터; 기계"
   },
   {
     "id": 371,
     "expression": "大学",
     "reading": "だいがく",
-    "meaning": "college; university"
+    "meaning": "대학; 대학교"
   },
   {
     "id": 372,
     "expression": "大使館",
     "reading": "たいしかん",
-    "meaning": "embassy"
+    "meaning": "대사관"
   },
   {
     "id": 373,
     "expression": "大丈夫",
     "reading": "だいじょうぶ",
-    "meaning": "It's ok (all right); No need to worry; Everything is under control"
+    "meaning": "괜찮아 (괜찮아) 걱정할 필요가 없습니다. 모든 것이 통제되고 있습니다"
   },
   {
     "id": 374,
     "expression": "大好き",
     "reading": "だいすき",
-    "meaning": "very like-able, like very much"
+    "meaning": "매우 좋아할 만하다, 매우 좋아한다"
   },
   {
     "id": 375,
     "expression": "大切",
     "reading": "たいせつ",
-    "meaning": "important"
+    "meaning": "중요한"
   },
   {
     "id": 376,
     "expression": "台所",
     "reading": "だいどころ",
-    "meaning": "kitchen"
+    "meaning": "주방"
   },
   {
     "id": 377,
     "expression": "大変",
     "reading": "たいへん",
-    "meaning": "very; difficult, hard"
+    "meaning": "매우; 어렵다, 어렵다"
   },
   {
     "id": 378,
     "expression": "高い",
     "reading": "たかい",
-    "meaning": "tall, high; expensive"
+    "meaning": "키가 크다, 키가 크다; 값비싼"
   },
   {
     "id": 379,
     "expression": "～だけ",
     "reading": "～だけ",
-    "meaning": "only ~, just ~, as ~"
+    "meaning": "단지 ~, 그냥 ~, ~처럼"
   },
   {
     "id": 380,
     "expression": "沢山",
     "reading": "たくさん",
-    "meaning": "many, much"
+    "meaning": "많이, 많이"
   },
   {
     "id": 381,
     "expression": "タクシー",
     "reading": "タクシー",
-    "meaning": "taxi"
+    "meaning": "택시"
   },
   {
     "id": 382,
     "expression": "出す",
     "reading": "だす",
-    "meaning": "to take (something) out; to hand in (something)"
+    "meaning": "(무엇을) 꺼내다; (무엇을) 넘겨주다"
   },
   {
     "id": 383,
     "expression": "～たち",
     "reading": "～たち",
-    "meaning": "plural suffix"
+    "meaning": "복수 접미사"
   },
   {
     "id": 384,
     "expression": "立つ",
     "reading": "たつ",
-    "meaning": "to stand up"
+    "meaning": "일어서다"
   },
   {
     "id": 385,
     "expression": "たて",
     "reading": "たて",
-    "meaning": "length, height"
+    "meaning": "길이, 높이"
   },
   {
     "id": 386,
     "expression": "建物",
     "reading": "たてもの",
-    "meaning": "building"
+    "meaning": "건물"
   },
   {
     "id": 387,
     "expression": "楽しい",
     "reading": "たのしい",
-    "meaning": "enjoyable, fun"
+    "meaning": "즐거운, 재미있는"
   },
   {
     "id": 388,
     "expression": "頼む",
     "reading": "たのむ",
-    "meaning": "to request, to ask (a favor)"
+    "meaning": "(부탁을) 청하다, 부탁하다"
   },
   {
     "id": 389,
     "expression": "たばこ",
     "reading": "たばこ",
-    "meaning": "tobacco, cigarettes"
+    "meaning": "담배, 담배"
   },
   {
     "id": 390,
     "expression": "多分",
     "reading": "たぶん",
-    "meaning": "perhaps, probably, maybe"
+    "meaning": "아마, 아마도, 아마도"
   },
   {
     "id": 391,
     "expression": "食べ物",
     "reading": "たべもの",
-    "meaning": "food"
+    "meaning": "음식"
   },
   {
     "id": 392,
     "expression": "食べる",
     "reading": "たべる",
-    "meaning": "to eat"
+    "meaning": "먹다"
   },
   {
     "id": 393,
     "expression": "卵",
     "reading": "たまご",
-    "meaning": "egg"
+    "meaning": "계란"
   },
   {
     "id": 394,
     "expression": "誰",
     "reading": "だれ",
-    "meaning": "who"
+    "meaning": "WHO"
   },
   {
     "id": 395,
     "expression": "誰か",
     "reading": "だれか",
-    "meaning": "someone"
+    "meaning": "누구"
   },
   {
     "id": 396,
     "expression": "誕生日",
     "reading": "たんじょうび",
-    "meaning": "birthday"
+    "meaning": "생일"
   },
   {
     "id": 397,
     "expression": "段々",
     "reading": "だんだん",
-    "meaning": "gradually, by degrees"
+    "meaning": "점차적으로, 정도에 따라"
   },
   {
     "id": 398,
     "expression": "小さい",
     "reading": "ちいさい",
-    "meaning": "small, little"
+    "meaning": "작은, 작은"
   },
   {
     "id": 399,
     "expression": "小さな",
     "reading": "ちいさな",
-    "meaning": "small, little"
+    "meaning": "작은, 작은"
   },
   {
     "id": 400,
     "expression": "近い",
     "reading": "ちかい",
-    "meaning": "near, close by, short"
+    "meaning": "가깝다, 가깝다, 짧다"
   },
   {
     "id": 401,
     "expression": "違う",
     "reading": "ちがう",
-    "meaning": "to be different; to differ; wrong"
+    "meaning": "다르다; 다르다; 잘못된"
   },
   {
     "id": 402,
     "expression": "近く",
     "reading": "ちかく",
-    "meaning": "nearby; in the neighborhood"
+    "meaning": "가까운; 동네에"
   },
   {
     "id": 403,
     "expression": "地下鉄",
     "reading": "ちかてつ",
-    "meaning": "underground train, subway"
+    "meaning": "지하철, 지하철"
   },
   {
     "id": 404,
     "expression": "地図",
     "reading": "ちず",
-    "meaning": "a map"
+    "meaning": "지도"
   },
   {
     "id": 405,
     "expression": "父",
     "reading": "ちち",
-    "meaning": "(my) father"
+    "meaning": "(나의) 아버지"
   },
   {
     "id": 406,
     "expression": "茶色",
     "reading": "ちゃいろ",
-    "meaning": "brown"
+    "meaning": "갈색"
   },
   {
     "id": 407,
     "expression": "茶碗",
     "reading": "ちゃわん",
-    "meaning": "rice bowl"
+    "meaning": "밥그릇"
   },
   {
     "id": 408,
     "expression": "～中",
     "reading": "～ちゅう",
-    "meaning": "during, while ~ing"
+    "meaning": "~하는 동안, ~하는 동안"
   },
   {
     "id": 409,
     "expression": "丁度",
     "reading": "ちょうど",
-    "meaning": "just, right, exactly"
+    "meaning": "그냥, 맞아, 정확히는"
   },
   {
     "id": 410,
     "expression": "ちょっと",
     "reading": "ちょっと",
-    "meaning": "a little, somewhat; just a little, somewhat"
+    "meaning": "조금, 다소; 그냥 조금, 어느 정도"
   },
   {
     "id": 411,
     "expression": "一日",
     "reading": "ついたち",
-    "meaning": "one day; first day of the month"
+    "meaning": "어느 날; 매월 첫째 날"
   },
   {
     "id": 412,
     "expression": "使う",
     "reading": "つかう",
-    "meaning": "to use"
+    "meaning": "사용하다"
   },
   {
     "id": 413,
     "expression": "疲れる",
     "reading": "つかれる",
-    "meaning": "to get (become) tired; to become fatigued"
+    "meaning": "피곤해지다; 피곤해지다"
   },
   {
     "id": 414,
     "expression": "次",
     "reading": "つぎ",
-    "meaning": "next"
+    "meaning": "다음"
   },
   {
     "id": 415,
     "expression": "着く",
     "reading": "つく",
-    "meaning": "to arrive at, to reach"
+    "meaning": "도착하다, 도달하다"
   },
   {
     "id": 416,
     "expression": "机",
     "reading": "つくえ",
-    "meaning": "desk"
+    "meaning": "책상"
   },
   {
     "id": 417,
     "expression": "作る",
     "reading": "つくる",
-    "meaning": "to make, to create"
+    "meaning": "만들다, 창조하다"
   },
   {
     "id": 418,
     "expression": "つける",
     "reading": "つける",
-    "meaning": "to turn on (e.g., a light); to take"
+    "meaning": "켜다(예: 조명); 가져가다"
   },
   {
     "id": 419,
     "expression": "勤める",
     "reading": "つとめる",
-    "meaning": "to work (for)"
+    "meaning": "(을 위해) 일하다"
   },
   {
     "id": 420,
     "expression": "つまらない",
     "reading": "つまらない",
-    "meaning": "boring, dull; insignificant"
+    "meaning": "지루하고 지루하다. 의미 없는"
   },
   {
     "id": 421,
     "expression": "冷たい",
     "reading": "つめたい",
-    "meaning": "cold (things, people)"
+    "meaning": "차가운 (사물, 사람)"
   },
   {
     "id": 422,
     "expression": "強い",
     "reading": "つよい",
-    "meaning": "strong, powerful"
+    "meaning": "강한, 강력한"
   },
   {
     "id": 423,
     "expression": "手",
     "reading": "て",
-    "meaning": "hand"
+    "meaning": "손"
   },
   {
     "id": 424,
     "expression": "テープ",
     "reading": "テープ",
-    "meaning": "tape"
+    "meaning": "줄자"
   },
   {
     "id": 425,
     "expression": "テープレコーダー",
     "reading": "テープレコーダー",
-    "meaning": "tape recorder"
+    "meaning": "테이프 레코더"
   },
   {
     "id": 426,
     "expression": "テーブル",
     "reading": "テーブル",
-    "meaning": "table"
+    "meaning": "테이블"
   },
   {
     "id": 427,
     "expression": "出かける",
     "reading": "でかける",
-    "meaning": "to go out; to depart"
+    "meaning": "나가다; 출발하다"
   },
   {
     "id": 428,
     "expression": "手紙",
     "reading": "てがみ",
-    "meaning": "letter"
+    "meaning": "편지"
   },
   {
     "id": 429,
     "expression": "できる",
     "reading": "できる",
-    "meaning": "to be able to (to accomplish)"
+    "meaning": "(성취하다) 할 수 있다"
   },
   {
     "id": 430,
     "expression": "出口",
     "reading": "でぐち",
-    "meaning": "an exit"
+    "meaning": "출구"
   },
   {
     "id": 431,
     "expression": "テスト",
     "reading": "テスト",
-    "meaning": "test"
+    "meaning": "시험"
   },
   {
     "id": 432,
     "expression": "では",
     "reading": "では",
-    "meaning": "then, well, so"
+    "meaning": "그럼, 그럼요."
   },
   {
     "id": 433,
     "expression": "デパート",
     "reading": "デパート",
-    "meaning": "(abbr.) department store"
+    "meaning": "(약어) 백화점"
   },
   {
     "id": 434,
     "expression": "でも",
     "reading": "でも",
-    "meaning": "but, however"
+    "meaning": "하지만, 그러나"
   },
   {
     "id": 435,
     "expression": "出る",
     "reading": "でる",
-    "meaning": "to appear, to leave"
+    "meaning": "나타나다, 떠나다"
   },
   {
     "id": 436,
     "expression": "テレビ",
     "reading": "テレビ",
-    "meaning": "television, TV"
+    "meaning": "텔레비전, 텔레비전"
   },
   {
     "id": 437,
     "expression": "天気",
     "reading": "てんき",
-    "meaning": "weather"
+    "meaning": "날씨"
   },
   {
     "id": 438,
     "expression": "電気",
     "reading": "でんき",
-    "meaning": "electricity, (electric) light"
+    "meaning": "전기, (전기) 조명"
   },
   {
     "id": 439,
     "expression": "電車",
     "reading": "でんしゃ",
-    "meaning": "electric train"
+    "meaning": "전기 열차"
   },
   {
     "id": 440,
     "expression": "電話",
     "reading": "でんわ",
-    "meaning": "a telephone"
+    "meaning": "전화"
   },
   {
     "id": 441,
     "expression": "戸",
     "reading": "と",
-    "meaning": "door (Japanese style)"
+    "meaning": "문(일본식)"
   },
   {
     "id": 442,
     "expression": "～度",
     "reading": "～ど",
-    "meaning": "counter for occurrences; ~ degree; ~ point"
+    "meaning": "발생 카운터; ~ 정도; ~ 포인트"
   },
   {
     "id": 443,
     "expression": "ドア",
     "reading": "ドア",
-    "meaning": "door (Western style)"
+    "meaning": "문(서양식)"
   },
   {
     "id": 444,
     "expression": "トイレ",
     "reading": "トイレ",
-    "meaning": "bathroom; toilet"
+    "meaning": "화장실; 화장실"
   },
   {
     "id": 445,
     "expression": "どう",
     "reading": "どう",
-    "meaning": "how, in what way"
+    "meaning": "어떻게, 어떤 식으로"
   },
   {
     "id": 446,
     "expression": "どうして",
     "reading": "どうして",
-    "meaning": "why, for what reason"
+    "meaning": "왜, 무슨 이유로"
   },
   {
     "id": 447,
     "expression": "どうぞ",
     "reading": "どうぞ",
-    "meaning": "please, kindly, by all means"
+    "meaning": "제발, 부디, 꼭"
   },
   {
     "id": 448,
     "expression": "動物",
     "reading": "どうぶつ",
-    "meaning": "animal"
+    "meaning": "동물"
   },
   {
     "id": 449,
     "expression": "どうも",
     "reading": "どうも",
-    "meaning": "Thank you; somehow; no matter how hard one may try"
+    "meaning": "감사합니다; 어떻게든; 아무리 노력해도"
   },
   {
     "id": 450,
     "expression": "十",
     "reading": "(〜を) とお",
-    "meaning": "ten (~)"
+    "meaning": "열(~)"
   },
   {
     "id": 451,
     "expression": "遠い",
     "reading": "とおい",
-    "meaning": "far (away), distant"
+    "meaning": "멀리(멀리), 먼"
   },
   {
     "id": 452,
     "expression": "十日",
     "reading": "とおか",
-    "meaning": "ten days; tenth day of the month"
+    "meaning": "일순; 매월 열흘"
   },
   {
     "id": 453,
     "expression": "～時",
     "reading": "～とき",
-    "meaning": "at the time of ~"
+    "meaning": "~할 때"
   },
   {
     "id": 454,
     "expression": "時々",
     "reading": "ときどき",
-    "meaning": "sometimes"
+    "meaning": "때때로"
   },
   {
     "id": 455,
     "expression": "時計",
     "reading": "とけい",
-    "meaning": "a watch; a clock"
+    "meaning": "시계; 시계"
   },
   {
     "id": 456,
     "expression": "どこ",
     "reading": "どこ",
-    "meaning": "where, what place"
+    "meaning": "어디서, 어떤 곳에서"
   },
   {
     "id": 457,
     "expression": "所",
     "reading": "ところ",
-    "meaning": "place"
+    "meaning": "장소"
   },
   {
     "id": 458,
     "expression": "年",
     "reading": "とし",
-    "meaning": "year, age"
+    "meaning": "년, 나이"
   },
   {
     "id": 459,
     "expression": "図書館",
     "reading": "としょかん",
-    "meaning": "library"
+    "meaning": "도서관"
   },
   {
     "id": 460,
     "expression": "どちら",
     "reading": "どちら",
-    "meaning": "which (one) (way); where (polite)"
+    "meaning": "어느 (하나) (방법); 어디 (정중하게)"
   },
   {
     "id": 461,
     "expression": "どっち",
     "reading": "どっち",
-    "meaning": "which one, which way"
+    "meaning": "어느 쪽, 어느 쪽으로"
   },
   {
     "id": 462,
     "expression": "とても",
     "reading": "とても",
-    "meaning": "very (much), greatly, exceedingly"
+    "meaning": "매우(많이), 크게, 엄청나게"
   },
   {
     "id": 463,
     "expression": "どなた",
     "reading": "どなた",
-    "meaning": "who"
+    "meaning": "WHO"
   },
   {
     "id": 464,
     "expression": "隣",
     "reading": "となり",
-    "meaning": "next to, next door to"
+    "meaning": "옆집, 옆집"
   },
   {
     "id": 465,
     "expression": "どの",
     "reading": "どの",
-    "meaning": "which"
+    "meaning": "어느"
   },
   {
     "id": 466,
     "expression": "飛ぶ",
     "reading": "とぶ",
-    "meaning": "to fly, to hop"
+    "meaning": "날다, 뛰다"
   },
   {
     "id": 467,
     "expression": "止まる",
     "reading": "とまる",
-    "meaning": "to come to a halt"
+    "meaning": "멈추다"
   },
   {
     "id": 468,
     "expression": "友達",
     "reading": "ともだち",
-    "meaning": "friend"
+    "meaning": "친구"
   },
   {
     "id": 469,
     "expression": "土曜日",
     "reading": "どようび",
-    "meaning": "Saturday"
+    "meaning": "토요일"
   },
   {
     "id": 470,
     "expression": "鳥",
     "reading": "とり",
-    "meaning": "chicken (lit., bird)"
+    "meaning": "닭 (점등어, 새)"
   },
   {
     "id": 471,
     "expression": "鶏肉",
     "reading": "とりにく",
-    "meaning": "chicken meat"
+    "meaning": "닭고기"
   },
   {
     "id": 472,
     "expression": "取る",
     "reading": "とる",
-    "meaning": "to take (a class); to get (a grade)"
+    "meaning": "(수업을) 듣다; (등급을) 얻으다"
   },
   {
     "id": 473,
     "expression": "撮る",
     "reading": "とる",
-    "meaning": "to take (a photo), to make (a film)"
+    "meaning": "(사진을) 찍다, (영화를) 찍다"
   },
   {
     "id": 474,
     "expression": "どれ",
     "reading": "どれ",
-    "meaning": "which one"
+    "meaning": "어느 것"
   },
   {
     "id": 475,
     "expression": "どんな",
     "reading": "どんな",
-    "meaning": "what, what kind of"
+    "meaning": "뭐, 어떤 종류의"
   },
   {
     "id": 476,
     "expression": "ない",
     "reading": "ない",
-    "meaning": "there isn't, doesn't have"
+    "meaning": "없어, 없어"
   },
   {
     "id": 477,
     "expression": "ナイフ",
     "reading": "ナイフ",
-    "meaning": "knife"
+    "meaning": "칼"
   },
   {
     "id": 478,
     "expression": "中",
     "reading": "なか",
-    "meaning": "inside, middle, among"
+    "meaning": "내부, 중간, 가운데"
   },
   {
     "id": 479,
     "expression": "長い",
     "reading": "ながい",
-    "meaning": "long, lengthy"
+    "meaning": "길다, 길다"
   },
   {
     "id": 480,
     "expression": "鳴く",
     "reading": "なく",
-    "meaning": "to make sound (animal)"
+    "meaning": "소리를 내다 (동물)"
   },
   {
     "id": 481,
     "expression": "無くす",
     "reading": "なくす",
-    "meaning": "to lose something"
+    "meaning": "뭔가를 잃다"
   },
   {
     "id": 482,
     "expression": "なぜ",
     "reading": "なぜ",
-    "meaning": "why (same as どうして)"
+    "meaning": "왜(どуして와 동일)"
   },
   {
     "id": 483,
     "expression": "夏",
     "reading": "なつ",
-    "meaning": "summer"
+    "meaning": "여름"
   },
   {
     "id": 484,
     "expression": "夏休み",
     "reading": "なつやすみ",
-    "meaning": "summer vacation"
+    "meaning": "여름방학"
   },
   {
     "id": 485,
     "expression": "～など",
     "reading": "～など",
-    "meaning": "et cetera"
+    "meaning": "등등"
   },
   {
     "id": 486,
     "expression": "七つ",
     "reading": "ななつ",
-    "meaning": "seven things"
+    "meaning": "일곱 가지"
   },
   {
     "id": 487,
     "expression": "何",
     "reading": "なん; なに",
-    "meaning": "what"
+    "meaning": "무엇"
   },
   {
     "id": 488,
     "expression": "七日",
     "reading": "なのか",
-    "meaning": "seven days; seventh day (of the month)"
+    "meaning": "7일; 일곱째 날(달의)"
   },
   {
     "id": 489,
     "expression": "名前",
     "reading": "なまえ",
-    "meaning": "name"
+    "meaning": "이름"
   },
   {
     "id": 490,
     "expression": "習う",
     "reading": "ならう",
-    "meaning": "to learn"
+    "meaning": "배우다"
   },
   {
     "id": 491,
     "expression": "並ぶ",
     "reading": "ならぶ",
-    "meaning": "to line up, to stand in a line (v.i.)"
+    "meaning": "줄을 서다, 줄을 서다 (v.i.)"
   },
   {
     "id": 492,
     "expression": "並べる",
     "reading": "ならべる",
-    "meaning": "to put (things) side by side; to line up"
+    "meaning": "(사물)을 나란히 놓다; 줄을 서다"
   },
   {
     "id": 493,
     "expression": "なる",
     "reading": "なる",
-    "meaning": "to become"
+    "meaning": "되다"
   },
   {
     "id": 494,
     "expression": "何～",
     "reading": "なん～",
-    "meaning": "what sort of ~"
+    "meaning": "어떤 종류의 ~"
   },
   {
     "id": 495,
     "expression": "二",
     "reading": "に",
-    "meaning": "two"
+    "meaning": "둘"
   },
   {
     "id": 496,
     "expression": "にぎやか",
     "reading": "にぎやか",
-    "meaning": "bustling, busy"
+    "meaning": "분주하다, 분주하다"
   },
   {
     "id": 497,
     "expression": "肉",
     "reading": "にく",
-    "meaning": "meat"
+    "meaning": "고기"
   },
   {
     "id": 498,
     "expression": "西",
     "reading": "にし",
-    "meaning": "west"
+    "meaning": "서쪽"
   },
   {
     "id": 499,
     "expression": "～日",
     "reading": "～にち",
-    "meaning": "~ day of the month, for ~ days"
+    "meaning": "~일, ~일 동안"
   },
   {
     "id": 500,
     "expression": "日曜日",
     "reading": "にちようび",
-    "meaning": "Sunday"
+    "meaning": "일요일"
   },
   {
     "id": 501,
     "expression": "荷物",
     "reading": "にもつ",
-    "meaning": "luggage; baggage"
+    "meaning": "수화물; 수하물"
   },
   {
     "id": 502,
     "expression": "ニュース",
     "reading": "ニュース",
-    "meaning": "news"
+    "meaning": "소식"
   },
   {
     "id": 503,
     "expression": "庭",
     "reading": "にわ",
-    "meaning": "garden"
+    "meaning": "정원"
   },
   {
     "id": 504,
     "expression": "～人",
     "reading": "～にん",
-    "meaning": "counter for people"
+    "meaning": "사람들을 위한 카운터"
   },
   {
     "id": 505,
     "expression": "脱ぐ",
     "reading": "ぬぐ",
-    "meaning": "to take off (clothes)"
+    "meaning": "(옷을) 벗다"
   },
   {
     "id": 506,
     "expression": "温い",
     "reading": "ぬるい",
-    "meaning": "lukewarm"
+    "meaning": "미적지근한"
   },
   {
     "id": 507,
     "expression": "ネクタイ",
     "reading": "ネクタイ",
-    "meaning": "tie, necktie"
+    "meaning": "넥타이, 넥타이"
   },
   {
     "id": 508,
     "expression": "猫",
     "reading": "ねこ",
-    "meaning": "cat"
+    "meaning": "고양이"
   },
   {
     "id": 509,
     "expression": "寝る",
     "reading": "ねる",
-    "meaning": "to sleep; to go to sleep; to go to bed"
+    "meaning": "자다; 잠들다; 잠자리에 들다"
   },
   {
     "id": 510,
     "expression": "～年",
     "reading": "～ねん",
-    "meaning": "~ years"
+    "meaning": "~년"
   },
   {
     "id": 511,
     "expression": "ノート",
     "reading": "ノート",
-    "meaning": "notebook"
+    "meaning": "공책"
   },
   {
     "id": 512,
     "expression": "登る",
     "reading": "のぼる",
-    "meaning": "to climb"
+    "meaning": "오르다"
   },
   {
     "id": 513,
     "expression": "飲み物",
     "reading": "のみもの",
-    "meaning": "drink, beverage"
+    "meaning": "음료수, 마실 것"
   },
   {
     "id": 514,
     "expression": "飲む",
     "reading": "のむ",
-    "meaning": "to drink"
+    "meaning": "마시다"
   },
   {
     "id": 515,
     "expression": "乗る",
     "reading": "のる",
-    "meaning": "to get on, to ride in, to board"
+    "meaning": "타다, 타다, 탑승하다"
   },
   {
     "id": 516,
     "expression": "歯",
     "reading": "は",
-    "meaning": "tooth"
+    "meaning": "이빨"
   },
   {
     "id": 517,
     "expression": "パーティー",
     "reading": "パーティー",
-    "meaning": "a party"
+    "meaning": "파티"
   },
   {
     "id": 518,
     "expression": "はい",
     "reading": "はい",
-    "meaning": "yes"
+    "meaning": "예"
   },
   {
     "id": 519,
     "expression": "～杯",
     "reading": "～はい",
-    "meaning": "counter for cupfuls"
+    "meaning": "한 컵 분량의 카운터"
   },
   {
     "id": 520,
     "expression": "灰皿",
     "reading": "はいざら",
-    "meaning": "ashtray"
+    "meaning": "재떨이"
   },
   {
     "id": 521,
     "expression": "入る",
     "reading": "はいる",
-    "meaning": "to enter, to contain, to hold"
+    "meaning": "들어가다, 담다, 보유하다"
   },
   {
     "id": 522,
     "expression": "葉書",
     "reading": "はがき",
-    "meaning": "postcard"
+    "meaning": "엽서"
   },
   {
     "id": 523,
     "expression": "はく",
     "reading": "はく",
-    "meaning": "to put on (items below your waist)"
+    "meaning": "(허리 아래에 있는 물건을) 입다"
   },
   {
     "id": 524,
     "expression": "箱",
     "reading": "はこ",
-    "meaning": "box"
+    "meaning": "상자"
   },
   {
     "id": 525,
     "expression": "橋",
     "reading": "はし",
-    "meaning": "bridge"
+    "meaning": "다리"
   },
   {
     "id": 526,
     "expression": "箸",
     "reading": "はし",
-    "meaning": "chopsticks"
+    "meaning": "젓가락"
   },
   {
     "id": 527,
     "expression": "始まる",
     "reading": "はじまる",
-    "meaning": "(something) begins"
+    "meaning": "(무엇이) 시작되다"
   },
   {
     "id": 528,
     "expression": "初め; 始め",
     "reading": "はじめ",
-    "meaning": "beginning, start"
+    "meaning": "시작하다, 시작하다"
   },
   {
     "id": 529,
     "expression": "初めて",
     "reading": "はじめて",
-    "meaning": "for the first time"
+    "meaning": "처음으로"
   },
   {
     "id": 530,
     "expression": "走る",
     "reading": "はしる",
-    "meaning": "to run"
+    "meaning": "달리다"
   },
   {
     "id": 531,
     "expression": "バス",
     "reading": "バス",
-    "meaning": "bus; bath; bass"
+    "meaning": "버스; 욕조; 베이스"
   },
   {
     "id": 532,
     "expression": "バター",
     "reading": "バター",
-    "meaning": "butter"
+    "meaning": "버터"
   },
   {
     "id": 533,
     "expression": "二十歳",
     "reading": "はたち",
-    "meaning": "20 years old"
+    "meaning": "20세"
   },
   {
     "id": 534,
     "expression": "働く",
     "reading": "はたらく",
-    "meaning": "to work"
+    "meaning": "일하다"
   },
   {
     "id": 535,
     "expression": "八",
     "reading": "はち",
-    "meaning": "eight"
+    "meaning": "여덟"
   },
   {
     "id": 536,
     "expression": "二十日",
     "reading": "はつか",
-    "meaning": "twenty days, twentieth (day of the month)"
+    "meaning": "이십일, 이십일(매월의 날)"
   },
   {
     "id": 537,
     "expression": "花",
     "reading": "はな",
-    "meaning": "flower"
+    "meaning": "꽃"
   },
   {
     "id": 538,
     "expression": "鼻",
     "reading": "はな",
-    "meaning": "nose"
+    "meaning": "코"
   },
   {
     "id": 539,
     "expression": "話",
     "reading": "はなし",
-    "meaning": "talk (chat), story"
+    "meaning": "이야기(채팅), 이야기"
   },
   {
     "id": 540,
     "expression": "話す",
     "reading": "はなす",
-    "meaning": "to speak"
+    "meaning": "말하다"
   },
   {
     "id": 541,
     "expression": "母",
     "reading": "はは",
-    "meaning": "(my) mother"
+    "meaning": "(나의) 어머니"
   },
   {
     "id": 542,
     "expression": "早い",
     "reading": "はやい",
-    "meaning": "early"
+    "meaning": "일찍"
   },
   {
     "id": 543,
     "expression": "速い",
     "reading": "はやい",
-    "meaning": "fast, quick"
+    "meaning": "빨리, 빨리"
   },
   {
     "id": 544,
     "expression": "春",
     "reading": "はる",
-    "meaning": "spring"
+    "meaning": "봄"
   },
   {
     "id": 545,
     "expression": "貼る",
     "reading": "はる",
-    "meaning": "to post; to paste; to attach"
+    "meaning": "게시하다; 붙여 넣기; 부착하다"
   },
   {
     "id": 546,
     "expression": "晴れ",
     "reading": "はれ",
-    "meaning": "clear (sunny) weather"
+    "meaning": "맑은(화창한) 날씨"
   },
   {
     "id": 547,
     "expression": "晴れる",
     "reading": "はれる",
-    "meaning": "to be sunny"
+    "meaning": "화창하다"
   },
   {
     "id": 548,
     "expression": "半",
     "reading": "はん",
-    "meaning": "half (e.g., にじはん | half-past two)"
+    "meaning": "반(예: にじはん | 2시 반)"
   },
   {
     "id": 549,
     "expression": "晩",
     "reading": "ばん",
-    "meaning": "evening"
+    "meaning": "저녁"
   },
   {
     "id": 550,
     "expression": "～番",
     "reading": "～ばん",
-    "meaning": "~st; ~th best"
+    "meaning": "~st; ~최고"
   },
   {
     "id": 551,
     "expression": "パン",
     "reading": "パン",
-    "meaning": "bread"
+    "meaning": "빵"
   },
   {
     "id": 552,
     "expression": "ハンカチ",
     "reading": "ハンカチ",
-    "meaning": "handkerchief"
+    "meaning": "손수건"
   },
   {
     "id": 553,
     "expression": "番号",
     "reading": "ばんごう",
-    "meaning": "number, series of digits"
+    "meaning": "숫자, 일련의 숫자"
   },
   {
     "id": 554,
     "expression": "晩御飯",
     "reading": "ばんごはん",
-    "meaning": "dinner, evening meal"
+    "meaning": "저녁식사, 저녁식사"
   },
   {
     "id": 555,
     "expression": "半分",
     "reading": "はんぶん",
-    "meaning": "half"
+    "meaning": "반"
   },
   {
     "id": 556,
     "expression": "東",
     "reading": "ひがし",
-    "meaning": "east"
+    "meaning": "동쪽"
   },
   {
     "id": 557,
     "expression": "～匹",
     "reading": "～ひき",
-    "meaning": "counter for small animals"
+    "meaning": "작은 동물용 카운터"
   },
   {
     "id": 558,
     "expression": "引く",
     "reading": "ひく",
-    "meaning": "to pull, to draw; subtract"
+    "meaning": "당기다, 그리다; 덜다"
   },
   {
     "id": 559,
     "expression": "弾く",
     "reading": "ひく",
-    "meaning": "to play (a string instrument or piano)"
+    "meaning": "(현악기나 피아노를) 연주하다"
   },
   {
     "id": 560,
     "expression": "低い",
     "reading": "ひくい",
-    "meaning": "short, low"
+    "meaning": "짧다, 낮다"
   },
   {
     "id": 561,
     "expression": "飛行機",
     "reading": "ひこうき",
-    "meaning": "airplane"
+    "meaning": "비행기"
   },
   {
     "id": 562,
     "expression": "左",
     "reading": "ひだり",
-    "meaning": "left hand side"
+    "meaning": "왼쪽"
   },
   {
     "id": 563,
     "expression": "人",
     "reading": "ひと",
-    "meaning": "man, person"
+    "meaning": "남자, 사람"
   },
   {
     "id": 564,
     "expression": "一つ",
     "reading": "ひとつ",
-    "meaning": "one thing"
+    "meaning": "한 가지"
   },
   {
     "id": 565,
     "expression": "一月",
     "reading": "ひとつき",
-    "meaning": "one month"
+    "meaning": "한 달"
   },
   {
     "id": 566,
     "expression": "一人",
     "reading": "ひとり",
-    "meaning": "one person"
+    "meaning": "한 사람"
   },
   {
     "id": 567,
     "expression": "暇",
     "reading": "ひま",
-    "meaning": "free time, leisure"
+    "meaning": "자유시간, 여가"
   },
   {
     "id": 568,
     "expression": "百",
     "reading": "ひゃく",
-    "meaning": "hundred"
+    "meaning": "백"
   },
   {
     "id": 569,
     "expression": "病院",
     "reading": "びょういん",
-    "meaning": "hospital"
+    "meaning": "병원"
   },
   {
     "id": 570,
     "expression": "病気",
     "reading": "びょうき",
-    "meaning": "illness; sickness"
+    "meaning": "병; 병"
   },
   {
     "id": 571,
     "expression": "平仮名",
     "reading": "ひらがな",
-    "meaning": "hiragana"
+    "meaning": "히라가나"
   },
   {
     "id": 572,
     "expression": "昼",
     "reading": "ひる",
-    "meaning": "noon, daytime"
+    "meaning": "정오, 낮"
   },
   {
     "id": 573,
     "expression": "昼御飯",
     "reading": "ひるごはん",
-    "meaning": "lunch, midday meal"
+    "meaning": "점심, 점심식사"
   },
   {
     "id": 574,
     "expression": "広い",
     "reading": "ひろい",
-    "meaning": "spacious; wide; broad"
+    "meaning": "넓다; 넓은; 넓은"
   },
   {
     "id": 575,
     "expression": "フィルム",
     "reading": "フィルム",
-    "meaning": "film (roll of)"
+    "meaning": "필름(롤)"
   },
   {
     "id": 576,
     "expression": "封筒",
     "reading": "ふうとう",
-    "meaning": "envelope"
+    "meaning": "봉투"
   },
   {
     "id": 577,
     "expression": "プール",
     "reading": "プール",
-    "meaning": "swimming pool"
+    "meaning": "수영장"
   },
   {
     "id": 578,
     "expression": "フォーク",
     "reading": "フォーク",
-    "meaning": "fork"
+    "meaning": "포크"
   },
   {
     "id": 579,
     "expression": "吹く",
     "reading": "ふく",
-    "meaning": "to blow (wind, etc.)"
+    "meaning": "(바람 등을) 불다"
   },
   {
     "id": 580,
     "expression": "服",
     "reading": "ふく",
-    "meaning": "clothes"
+    "meaning": "옷"
   },
   {
     "id": 581,
     "expression": "二つ",
     "reading": "ふたつ",
-    "meaning": "two things"
+    "meaning": "두 가지"
   },
   {
     "id": 582,
     "expression": "豚肉",
     "reading": "ぶたにく",
-    "meaning": "pork"
+    "meaning": "돼지고기"
   },
   {
     "id": 583,
     "expression": "二人",
     "reading": "ふたり",
-    "meaning": "two people"
+    "meaning": "두 사람"
   },
   {
     "id": 584,
     "expression": "二日",
     "reading": "ふつか",
-    "meaning": "two days; second day of the month"
+    "meaning": "이틀; 매월 둘째 날"
   },
   {
     "id": 585,
     "expression": "太い",
     "reading": "ふとい",
-    "meaning": "fat, thick"
+    "meaning": "뚱뚱하다, 두껍다"
   },
   {
     "id": 586,
     "expression": "冬",
     "reading": "ふゆ",
-    "meaning": "winter"
+    "meaning": "겨울"
   },
   {
     "id": 587,
     "expression": "降る",
     "reading": "ふる",
-    "meaning": "to precipitate, to fall (e.g., rain, snow, etc.)"
+    "meaning": "침전하다, 떨어지다 (예: 비, 눈 등)"
   },
   {
     "id": 588,
     "expression": "古い",
     "reading": "ふるい",
-    "meaning": "old (in reference to objects, not people), aged, ancient"
+    "meaning": "오래된 (사람이 아닌 사물과 관련하여), 나이가 많은, 고대의"
   },
   {
     "id": 589,
     "expression": "～分",
     "reading": "～ふん",
-    "meaning": "~ minutes"
+    "meaning": "~ 분"
   },
   {
     "id": 590,
     "expression": "文章",
     "reading": "ぶんしょう",
-    "meaning": "sentence, text"
+    "meaning": "문장, 텍스트"
   },
   {
     "id": 591,
     "expression": "ページ",
     "reading": "ページ",
-    "meaning": "a page"
+    "meaning": "페이지"
   },
   {
     "id": 592,
     "expression": "下手",
     "reading": "へた",
-    "meaning": "unskillful, poor"
+    "meaning": "미숙한, 가난한"
   },
   {
     "id": 593,
     "expression": "ベッド",
     "reading": "ベッド",
-    "meaning": "bed"
+    "meaning": "침대"
   },
   {
     "id": 594,
     "expression": "ペット",
     "reading": "ペット",
-    "meaning": "pet"
+    "meaning": "애완 동물"
   },
   {
     "id": 595,
     "expression": "部屋",
     "reading": "へや",
-    "meaning": "a room"
+    "meaning": "방"
   },
   {
     "id": 596,
     "expression": "辺",
     "reading": "へん",
-    "meaning": "area, vicinity"
+    "meaning": "지역, 부근"
   },
   {
     "id": 597,
     "expression": "ペン",
     "reading": "ペン",
-    "meaning": "pen"
+    "meaning": "펜"
   },
   {
     "id": 598,
     "expression": "勉強",
     "reading": "べんきょう (する)",
-    "meaning": "study"
+    "meaning": "공부하다"
   },
   {
     "id": 599,
     "expression": "便利",
     "reading": "べんり",
-    "meaning": "convenient, handy"
+    "meaning": "편리하다, 편리하다"
   },
   {
     "id": 600,
     "expression": "帽子",
     "reading": "ぼうし",
-    "meaning": "hat; cap"
+    "meaning": "모자; 캡"
   },
   {
     "id": 601,
     "expression": "ボールペン",
     "reading": "ボールペン",
-    "meaning": "ball-point pen"
+    "meaning": "볼펜"
   },
   {
     "id": 602,
     "expression": "外",
     "reading": "ほか",
-    "meaning": "other, the rest"
+    "meaning": "그 외, 나머지"
   },
   {
     "id": 603,
     "expression": "ポケット",
     "reading": "ポケット",
-    "meaning": "pocket"
+    "meaning": "포켓"
   },
   {
     "id": 604,
     "expression": "欲しい",
     "reading": "ほしい",
-    "meaning": "to want, in need of"
+    "meaning": "원하다, 필요로 하다"
   },
   {
     "id": 605,
     "expression": "ポスト",
     "reading": "ポスト",
-    "meaning": "mailbox; post, position"
+    "meaning": "사서함; 포스트, 위치"
   },
   {
     "id": 606,
     "expression": "細い",
     "reading": "ほそい",
-    "meaning": "thin, slender, fine"
+    "meaning": "가늘다, 가늘다, 좋다"
   },
   {
     "id": 607,
     "expression": "ボタン",
     "reading": "ボタン",
-    "meaning": "button"
+    "meaning": "단추"
   },
   {
     "id": 608,
     "expression": "ホテル",
     "reading": "ホテル",
-    "meaning": "hotel"
+    "meaning": "호텔"
   },
   {
     "id": 609,
     "expression": "本",
     "reading": "ほん",
-    "meaning": "book"
+    "meaning": "책"
   },
   {
     "id": 610,
     "expression": "～本",
     "reading": "～ほん",
-    "meaning": "counter for long cylindrical things"
+    "meaning": "긴 원통형 물건을 위한 카운터"
   },
   {
     "id": 611,
     "expression": "本棚",
     "reading": "ほんだな",
-    "meaning": "bookshelf"
+    "meaning": "책장"
   },
   {
     "id": 612,
     "expression": "本当",
     "reading": "ほんとう",
-    "meaning": "real, true"
+    "meaning": "진짜, 사실"
   },
   {
     "id": 613,
     "expression": "～枚",
     "reading": "～まい",
-    "meaning": "counter for flat things"
+    "meaning": "평평한 물건을 위한 카운터"
   },
   {
     "id": 614,
     "expression": "毎朝",
     "reading": "まいあさ",
-    "meaning": "every morning"
+    "meaning": "매일 아침"
   },
   {
     "id": 615,
     "expression": "毎月",
     "reading": "まいげつ; まいつき",
-    "meaning": "every month, monthly"
+    "meaning": "매달, 매월"
   },
   {
     "id": 616,
     "expression": "毎週",
     "reading": "まいしゅう",
-    "meaning": "every week"
+    "meaning": "매주"
   },
   {
     "id": 617,
     "expression": "毎日",
     "reading": "まいにち",
-    "meaning": "every day"
+    "meaning": "매일"
   },
   {
     "id": 618,
     "expression": "毎年",
     "reading": "まいねん; まいとし",
-    "meaning": "every year, yearly, annually"
+    "meaning": "매년, 매년, 매년"
   },
   {
     "id": 619,
     "expression": "毎晩",
     "reading": "まいばん",
-    "meaning": "every night"
+    "meaning": "매일 밤"
   },
   {
     "id": 620,
     "expression": "前",
     "reading": "まえ",
-    "meaning": "before, in front"
+    "meaning": "전에, 앞에"
   },
   {
     "id": 621,
     "expression": "～前",
     "reading": "～まえ",
-    "meaning": "in front of ~"
+    "meaning": "~앞에"
   },
   {
     "id": 622,
     "expression": "曲る",
     "reading": "まがる",
-    "meaning": "to turn, to bend"
+    "meaning": "돌리다, 구부리다"
   },
   {
     "id": 623,
     "expression": "まずい",
     "reading": "まずい",
-    "meaning": "terrible (in reference to food), unappetizing, unpleasant (taste)"
+    "meaning": "끔찍한 (음식과 관련하여), 맛이 없는, 불쾌한 (맛)"
   },
   {
     "id": 624,
     "expression": "また",
     "reading": "また",
-    "meaning": "and; furthermore"
+    "meaning": "그리고; 뿐만 아니라"
   },
   {
     "id": 625,
     "expression": "まだ",
     "reading": "まだ",
-    "meaning": "yet, still, besides"
+    "meaning": "아직, 아직, 게다가"
   },
   {
     "id": 626,
     "expression": "町",
     "reading": "まち",
-    "meaning": "town; city"
+    "meaning": "도시; 도시"
   },
   {
     "id": 627,
     "expression": "待つ",
     "reading": "まつ",
-    "meaning": "to wait"
+    "meaning": "기다리다"
   },
   {
     "id": 628,
     "expression": "まっすぐ",
     "reading": "まっすぐ",
-    "meaning": "straight (ahead), direct"
+    "meaning": "직진(앞), 곧장"
   },
   {
     "id": 629,
     "expression": "マッチ",
     "reading": "マッチ",
-    "meaning": "match"
+    "meaning": "성냥"
   },
   {
     "id": 630,
     "expression": "窓",
     "reading": "まど",
-    "meaning": "window"
+    "meaning": "창문"
   },
   {
     "id": 631,
     "expression": "丸い; 円い",
     "reading": "まるい",
-    "meaning": "round, circular"
+    "meaning": "원형, 원형"
   },
   {
     "id": 632,
     "expression": "万",
     "reading": "まん",
-    "meaning": "ten thousand"
+    "meaning": "만"
   },
   {
     "id": 633,
     "expression": "万年筆",
     "reading": "まんねんひつ",
-    "meaning": "fountain pen"
+    "meaning": "만년필"
   },
   {
     "id": 634,
     "expression": "磨く",
     "reading": "みがく",
-    "meaning": "to brush (teeth); to polish"
+    "meaning": "(치아를) 닦다; 닦다"
   },
   {
     "id": 635,
     "expression": "右",
     "reading": "みぎ",
-    "meaning": "right hand side"
+    "meaning": "오른쪽"
   },
   {
     "id": 636,
     "expression": "短い",
     "reading": "みじかい",
-    "meaning": "short (length)"
+    "meaning": "짧은 (길이)"
   },
   {
     "id": 637,
     "expression": "水",
     "reading": "みず",
-    "meaning": "water"
+    "meaning": "물"
   },
   {
     "id": 638,
     "expression": "店",
     "reading": "みせ",
-    "meaning": "store, shop"
+    "meaning": "가게, 가게"
   },
   {
     "id": 639,
     "expression": "見せる",
     "reading": "みせる",
-    "meaning": "to show, to display"
+    "meaning": "보여주다, 전시하다"
   },
   {
     "id": 640,
     "expression": "道",
     "reading": "みち",
-    "meaning": "road, street; way, directions"
+    "meaning": "도로, 거리; 길, 방향"
   },
   {
     "id": 641,
     "expression": "三日",
     "reading": "みっか",
-    "meaning": "three days, third day of the month"
+    "meaning": "3일, 매월 3일"
   },
   {
     "id": 642,
     "expression": "三つ",
     "reading": "みっつ",
-    "meaning": "three things"
+    "meaning": "세개"
   },
   {
     "id": 643,
     "expression": "緑",
     "reading": "みどり",
-    "meaning": "green"
+    "meaning": "녹색"
   },
   {
     "id": 644,
     "expression": "皆さん",
     "reading": "みなさん",
-    "meaning": "all of you, everyone"
+    "meaning": "여러분, 여러분"
   },
   {
     "id": 645,
     "expression": "南",
     "reading": "みなみ",
-    "meaning": "South"
+    "meaning": "남쪽"
   },
   {
     "id": 646,
     "expression": "耳",
     "reading": "みみ",
-    "meaning": "ear"
+    "meaning": "귀"
   },
   {
     "id": 647,
     "expression": "見る",
     "reading": "みる",
-    "meaning": "to see, to look"
+    "meaning": "보다, 보다"
   },
   {
     "id": 648,
     "expression": "みんな",
     "reading": "みんな",
-    "meaning": "all, everyone, everybody"
+    "meaning": "모두, 모두, 모두"
   },
   {
     "id": 649,
     "expression": "六日",
     "reading": "むいか",
-    "meaning": "six days; sixth day of month"
+    "meaning": "6일; 매월 여섯째 날"
   },
   {
     "id": 650,
     "expression": "向こう",
     "reading": "むこう",
-    "meaning": "beyond, over there"
+    "meaning": "저 너머, 저기"
   },
   {
     "id": 651,
     "expression": "難しい",
     "reading": "むずかしい",
-    "meaning": "difficult"
+    "meaning": "어려운"
   },
   {
     "id": 652,
     "expression": "六つ",
     "reading": "むっつ",
-    "meaning": "six things"
+    "meaning": "여섯 가지"
   },
   {
     "id": 653,
     "expression": "村",
     "reading": "むら",
-    "meaning": "village"
+    "meaning": "마을"
   },
   {
     "id": 654,
     "expression": "目",
     "reading": "め",
-    "meaning": "eye(s)"
+    "meaning": "눈)"
   },
   {
     "id": 655,
     "expression": "メートル",
     "reading": "メートル",
-    "meaning": "meter"
+    "meaning": "미터"
   },
   {
     "id": 656,
     "expression": "眼鏡",
     "reading": "めがね",
-    "meaning": "eye glasses"
+    "meaning": "안경"
   },
   {
     "id": 657,
     "expression": "もう",
     "reading": "もう",
-    "meaning": "already; again; more"
+    "meaning": "이미; 다시; 더"
   },
   {
     "id": 658,
     "expression": "木曜日",
     "reading": "もくようび",
-    "meaning": "Thursday"
+    "meaning": "목요일"
   },
   {
     "id": 659,
     "expression": "もしもし",
     "reading": "もしもし",
-    "meaning": "Hello? (used on the phone)"
+    "meaning": "안녕하세요? (전화에서 사용됨)"
   },
   {
     "id": 660,
     "expression": "持つ",
     "reading": "もつ",
-    "meaning": "to hold, to carry; to possess"
+    "meaning": "보유하다, 운반하다; 소유하다"
   },
   {
     "id": 661,
     "expression": "もっと",
     "reading": "もっと",
-    "meaning": "more"
+    "meaning": "더"
   },
   {
     "id": 662,
     "expression": "物",
     "reading": "もの",
-    "meaning": "thing (concrete object)"
+    "meaning": "사물(구체적인 물체)"
   },
   {
     "id": 663,
     "expression": "門",
     "reading": "もん",
-    "meaning": "gate"
+    "meaning": "문"
   },
   {
     "id": 664,
     "expression": "問題",
     "reading": "もんだい",
-    "meaning": "a problem"
+    "meaning": "문제"
   },
   {
     "id": 665,
     "expression": "～屋",
     "reading": "～や",
-    "meaning": "~ shop"
+    "meaning": "~ 가게"
   },
   {
     "id": 666,
     "expression": "八百屋",
     "reading": "やおや",
-    "meaning": "greengrocer"
+    "meaning": "청과물 상인"
   },
   {
     "id": 667,
     "expression": "野菜",
     "reading": "やさい",
-    "meaning": "vegetable"
+    "meaning": "채소"
   },
   {
     "id": 668,
     "expression": "易しい",
     "reading": "やさしい",
-    "meaning": "easy, plain, simple"
+    "meaning": "쉬운, 평범한, 단순한"
   },
   {
     "id": 669,
     "expression": "安い",
     "reading": "やすい",
-    "meaning": "inexpensive; cheap (things)"
+    "meaning": "저렴하다; 싼 (것들)"
   },
   {
     "id": 670,
     "expression": "休み",
     "reading": "やすみ",
-    "meaning": "holiday; day off; absence"
+    "meaning": "휴일; 쉬는 날; 결석"
   },
   {
     "id": 671,
     "expression": "休む",
     "reading": "やすむ",
-    "meaning": "to rest, to have a break, to get time off"
+    "meaning": "쉬다, 휴식을 취하다, 시간을 보내다"
   },
   {
     "id": 672,
     "expression": "八つ",
     "reading": "やっつ",
-    "meaning": "eight things"
+    "meaning": "여덟 가지"
   },
   {
     "id": 673,
     "expression": "山",
     "reading": "やま",
-    "meaning": "mountain"
+    "meaning": "산"
   },
   {
     "id": 674,
     "expression": "やる",
     "reading": "やる",
-    "meaning": "to do; to give (to pets, parents, siblings, etc.)"
+    "meaning": "할; (애완동물, 부모, 형제자매 등에게) 주다"
   },
   {
     "id": 675,
     "expression": "夕方",
     "reading": "ゆうがた",
-    "meaning": "late afternoon (typically just before dinner time), evening"
+    "meaning": "늦은 오후(보통 저녁 식사 직전), 저녁"
   },
   {
     "id": 676,
     "expression": "夕飯",
     "reading": "ゆうはん",
-    "meaning": "dinner, supper, evening meal"
+    "meaning": "저녁식사, 저녁식사, 저녁식사"
   },
   {
     "id": 677,
     "expression": "郵便局",
     "reading": "ゆうびんきょく",
-    "meaning": "post office"
+    "meaning": "우체국"
   },
   {
     "id": 678,
     "expression": "昨夜",
     "reading": "ゆうべ",
-    "meaning": "last night"
+    "meaning": "어젯밤"
   },
   {
     "id": 679,
     "expression": "有名",
     "reading": "ゆうめい",
-    "meaning": "famous"
+    "meaning": "유명한"
   },
   {
     "id": 680,
     "expression": "雪",
     "reading": "ゆき",
-    "meaning": "snow"
+    "meaning": "눈"
   },
   {
     "id": 681,
     "expression": "ゆっくりと",
     "reading": "ゆっくりと",
-    "meaning": "slowly, at ease"
+    "meaning": "천천히, 편안하게"
   },
   {
     "id": 682,
     "expression": "八日",
     "reading": "ようか",
-    "meaning": "eight days; eighth day of the month"
+    "meaning": "8일; 매월 8일"
   },
   {
     "id": 683,
     "expression": "洋服",
     "reading": "ようふく",
-    "meaning": "Western-style clothes"
+    "meaning": "서양식 옷"
   },
   {
     "id": 684,
     "expression": "よく",
     "reading": "よく",
-    "meaning": "frequently, often (much); well, skillfully"
+    "meaning": "자주, 자주(많이); 뭐, 능숙하게"
   },
   {
     "id": 685,
     "expression": "横",
     "reading": "よこ",
-    "meaning": "beside; side; width"
+    "meaning": "옆에; 옆; 너비"
   },
   {
     "id": 686,
     "expression": "四日",
     "reading": "よっか",
-    "meaning": "four days; fourth day of the month"
+    "meaning": "4일; 매월 넷째 날"
   },
   {
     "id": 687,
     "expression": "四つ",
     "reading": "よっつ",
-    "meaning": "four things"
+    "meaning": "네 가지"
   },
   {
     "id": 688,
     "expression": "呼ぶ",
     "reading": "よぶ",
-    "meaning": "to call (one's name); to invite"
+    "meaning": "(이름을) 부르다; 초대하다"
   },
   {
     "id": 689,
     "expression": "読む",
     "reading": "よむ",
-    "meaning": "to read"
+    "meaning": "읽기"
   },
   {
     "id": 690,
     "expression": "夜",
     "reading": "よる",
-    "meaning": "evening, night"
+    "meaning": "저녁, 밤"
   },
   {
     "id": 691,
     "expression": "弱い",
     "reading": "よわい",
-    "meaning": "weak"
+    "meaning": "약한"
   },
   {
     "id": 692,
     "expression": "来月",
     "reading": "らいげつ",
-    "meaning": "next month"
+    "meaning": "다음 달"
   },
   {
     "id": 693,
     "expression": "来週",
     "reading": "らいしゅう",
-    "meaning": "next week"
+    "meaning": "다음 주"
   },
   {
     "id": 694,
     "expression": "来年",
     "reading": "らいねん",
-    "meaning": "next year"
+    "meaning": "내년"
   },
   {
     "id": 695,
     "expression": "ラジオ",
     "reading": "ラジオ",
-    "meaning": "radio"
+    "meaning": "라디오"
   },
   {
     "id": 696,
     "expression": "ラジオカセ",
     "reading": "ラジオカセ",
-    "meaning": "radio cassette player"
+    "meaning": "라디오 카세트 플레이어"
   },
   {
     "id": 697,
     "expression": "りっぱ",
     "reading": "りっぱ",
-    "meaning": "splendid, fine"
+    "meaning": "훌륭하다, 좋다"
   },
   {
     "id": 698,
     "expression": "留学生",
     "reading": "りゅうがくせい",
-    "meaning": "international student"
+    "meaning": "유학생"
   },
   {
     "id": 699,
     "expression": "両親",
     "reading": "りょうしん",
-    "meaning": "parents (lit., both parents)"
+    "meaning": "부모 (문자, 두 부모 모두)"
   },
   {
     "id": 700,
     "expression": "料理",
     "reading": "りょうり",
-    "meaning": "cooking; cuisine"
+    "meaning": "요리; 요리"
   },
   {
     "id": 701,
     "expression": "旅行",
     "reading": "りょこう",
-    "meaning": "travel, trip"
+    "meaning": "여행, 여행"
   },
   {
     "id": 702,
     "expression": "零",
     "reading": "れい",
-    "meaning": "zero, nought"
+    "meaning": "제로, 아무것도"
   },
   {
     "id": 703,
     "expression": "冷蔵庫",
     "reading": "れいぞうこ",
-    "meaning": "refrigerator"
+    "meaning": "냉장고"
   },
   {
     "id": 704,
     "expression": "レコード",
     "reading": "レコード",
-    "meaning": "record"
+    "meaning": "기록"
   },
   {
     "id": 705,
     "expression": "レストラン",
     "reading": "レストラン",
-    "meaning": "restaurant"
+    "meaning": "식당"
   },
   {
     "id": 706,
     "expression": "練習",
     "reading": "れんしゅう (する)",
-    "meaning": "(to) practice"
+    "meaning": "(하다) 연습하다"
   },
   {
     "id": 707,
     "expression": "廊下",
     "reading": "ろうか",
-    "meaning": "corridor"
+    "meaning": "복도"
   },
   {
     "id": 708,
     "expression": "六",
     "reading": "ろく",
-    "meaning": "six"
+    "meaning": "육"
   },
   {
     "id": 709,
     "expression": "ワイシャツ",
     "reading": "ワイシャツ",
-    "meaning": "shirt (lit: white shirt), business shirt"
+    "meaning": "셔츠(점등: 흰색 셔츠), 비즈니스 셔츠"
   },
   {
     "id": 710,
     "expression": "若い",
     "reading": "わかい",
-    "meaning": "young"
+    "meaning": "어린"
   },
   {
     "id": 711,
     "expression": "分かる",
     "reading": "わかる",
-    "meaning": "to understand"
+    "meaning": "이해하다"
   },
   {
     "id": 712,
     "expression": "忘れる",
     "reading": "わすれる",
-    "meaning": "to forget"
+    "meaning": "잊다"
   },
   {
     "id": 713,
     "expression": "私",
     "reading": "わたし",
-    "meaning": "I, myself"
+    "meaning": "나 자신"
   },
   {
     "id": 714,
     "expression": "私",
     "reading": "わたくし",
-    "meaning": "I (formal), myself, private affairs"
+    "meaning": "나(공식), 나 자신, 사적인 일"
   },
   {
     "id": 715,
     "expression": "渡す",
     "reading": "わたす",
-    "meaning": "to hand (something) over (v.t.); to get across"
+    "meaning": "(무엇을) 넘겨주다 (v.t.); 건너다"
   },
   {
     "id": 716,
     "expression": "渡る",
     "reading": "わたる",
-    "meaning": "to cross over, to go across"
+    "meaning": "건너다, 가로질러 가다"
   },
   {
     "id": 717,
     "expression": "悪い",
     "reading": "わるい",
-    "meaning": "bad, sinful; inferior"
+    "meaning": "나쁜, 죄 많은; 밑에 붙이는"
   }
 ]
