@@ -53,8 +53,8 @@ brain/
 [brain.dongwook.kim](https://brain.dongwook.kim)에서 바로 열 수 있는 학습 노트입니다.
 
 **언어 — 일본어**
-- [히라가나](https://brain.dongwook.kim/notes/히라가나)
-- [가타카나](https://brain.dongwook.kim/notes/가타카나)
+- [히라가나](https://brain.dongwook.kim/notes/일본어/히라가나)
+- [가타카나](https://brain.dongwook.kim/notes/일본어/가타카나)
 - [일본어 문자의 특징](https://brain.dongwook.kim/notes/일본어/일본어_문자의_특징)
 - [일본어 기본 한자](https://brain.dongwook.kim/notes/일본어/일본어_기본_한자)
 - [일본어 동사](https://brain.dongwook.kim/notes/일본어/일본어_동사)
@@ -122,19 +122,19 @@ brain/
 - [스페인어 현재완료](https://brain.dongwook.kim/notes/스페인어/스페인어_현재완료)
 
 **언어 — 독일어**
-- [독일어 문자](https://brain.dongwook.kim/notes/독일어_문자)
-- [독일어 명사](https://brain.dongwook.kim/notes/독일어_명사)
-- [독일어 동사](https://brain.dongwook.kim/notes/독일어_동사)
-- [독일어 형용사](https://brain.dongwook.kim/notes/독일어_형용사)
-- [독일어 기초 어휘](https://brain.dongwook.kim/notes/독일어_기초_어휘)
-- [독일어 대명사](https://brain.dongwook.kim/notes/독일어_대명사)
-- [독일어 회화](https://brain.dongwook.kim/notes/독일어_회화)
-- [독일어 접속법](https://brain.dongwook.kim/notes/독일어_접속법)
-- [독일어 전치사 심화](https://brain.dongwook.kim/notes/독일어_전치사_심화)
-- [독일어 관계문 심화](https://brain.dongwook.kim/notes/독일어_관계문_심화)
-- [독일어 수동태 심화](https://brain.dongwook.kim/notes/독일어_수동태_심화)
-- [독일어 부사 심화](https://brain.dongwook.kim/notes/독일어_부사_심화)
-- [독일어 명사화 심화](https://brain.dongwook.kim/notes/독일어_명사화_심화)
+- [독일어 문자](https://brain.dongwook.kim/notes/독일어/독일어_문자)
+- [독일어 명사](https://brain.dongwook.kim/notes/독일어/독일어_명사)
+- [독일어 동사](https://brain.dongwook.kim/notes/독일어/독일어_동사)
+- [독일어 형용사](https://brain.dongwook.kim/notes/독일어/독일어_형용사)
+- [독일어 기초 어휘](https://brain.dongwook.kim/notes/독일어/독일어_기초_어휘)
+- [독일어 대명사](https://brain.dongwook.kim/notes/독일어/독일어_대명사)
+- [독일어 회화](https://brain.dongwook.kim/notes/독일어/독일어_회화)
+- [독일어 접속법](https://brain.dongwook.kim/notes/독일어/독일어_접속법)
+- [독일어 전치사 심화](https://brain.dongwook.kim/notes/독일어/독일어_전치사_심화)
+- [독일어 관계문 심화](https://brain.dongwook.kim/notes/독일어/독일어_관계문_심화)
+- [독일어 수동태 심화](https://brain.dongwook.kim/notes/독일어/독일어_수동태_심화)
+- [독일어 부사 심화](https://brain.dongwook.kim/notes/독일어/독일어_부사_심화)
+- [독일어 명사화 심화](https://brain.dongwook.kim/notes/독일어/독일어_명사화_심화)
 
 **언어 — 프랑스어**
 - [프랑스어 문자](https://brain.dongwook.kim/notes/프랑스어/프랑스어_문자)
