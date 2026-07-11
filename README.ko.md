@@ -106,6 +106,7 @@ brain/
 - [러시아어 인칭대명사 격변화](https://brain.dongwook.kim/notes/러시아어_인칭대명사_격변화)
 - [러시아어 존댓말](https://brain.dongwook.kim/notes/러시아어_존댓말)
 - [러시아어 시간 표현](https://brain.dongwook.kim/notes/러시아어_시간_표현)
+- [러시아어 서수사](https://brain.dongwook.kim/notes/러시아어_서수사)
 
 **언어 — 스페인어**
 - [스페인어 문자](https://brain.dongwook.kim/notes/스페인어_문자)
