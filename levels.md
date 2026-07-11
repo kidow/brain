@@ -376,11 +376,7 @@ Level: Glimpsed — CPU(연산·추론 담당), RAM(휘발성 작업 메모리),
 
 Level: Glimpsed — 전치사+관계대명사(in which) 구조 인지. 관계대명사 what 기본 노출. 복합관계대명사(whoever/whatever/whichever), 절 전체를 선행사로 받는 which, 유사관계대명사(as/but/than) 미노출.
 
-## 영어_부사절_심화
-
-Level: Glimpsed — while의 시간·양보 이중 용법 인지. as의 다중 용법(시간·이유·비례) 구분 미노출. 부사절 의미 유형(시간·조건·양보·이유·목적·결과·방식·비례) 세분화 전반 미노출.
-
-## 영어_동사구_심화
+## 영어_동사구
 
 Level: Glimpsed — 구동사(동사+입자 = 새 의미) 개념 인지. 명사 목적어 분리 가능, 대명사 반드시 가운데 규칙 정확히 앎. 분리 불가 구동사(inseparable), 3단어 구동사(put up with), 자동사형 구동사 미노출.
 
@@ -420,6 +416,6 @@ Level: Blank — 자막 없이 약 10%만 이해. 청취 전략 자체는 미노
 
 Level: Glimpsed — each(하나씩 개별 지칭) vs every(모든 것을 통틀어) 기본 구분 정확히 답함. few/a few, little/a little 같은 긍정·부정 뉘앙스 차이 미노출. some/any 구분, all/every/each 세부 용법, 부분표현(most of/none of) 등 전반 미노출.
 
-## 영어_수_일치_심화
+## 영어_수_일치
 
 Level: Blank — everyone/everybody류가 단수 취급된다는 기본은 앎. "the number of" vs "a number of"의 단복수 차이 전혀 모름. 집합명사, either/neither, 부분표현(most of/none of) 주어-동사 일치 규칙 전반 처음 시작.
