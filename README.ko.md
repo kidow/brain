@@ -137,6 +137,7 @@ brain/
 - [스페인어 관용구](https://brain.dongwook.kim/notes/스페인어/스페인어_관용구)
 - [스페인어 슬랭 관용어](https://brain.dongwook.kim/notes/스페인어/스페인어_슬랭_관용어)
 - [스페인어 완료 시제 심화](https://brain.dongwook.kim/notes/스페인어/스페인어_완료_시제_심화)
+- [스페인어 화법](https://brain.dongwook.kim/notes/스페인어/스페인어_화법)
 
 **언어 — 독일어**
 - [독일어 문자](https://brain.dongwook.kim/notes/독일어/독일어_문자)
