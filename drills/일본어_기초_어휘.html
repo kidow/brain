@@ -81,6 +81,7 @@
     user-select: none;
   }
   .expr { font-size: 2.4rem; font-weight: 600; }
+  .expr rt { font-size: 0.9rem; font-weight: 400; color: #94a3b8; }
   .reading { font-size: 1.1rem; color: #60a5fa; min-height: 1.4em; }
   .meaning { font-size: 1rem; color: #e2e8f0; min-height: 1.4em; }
   .hint { color: #94a3b8; font-size: 0.8rem; margin-top: 0.5rem; }
@@ -266,9 +267,14 @@ function renderCard() {
   current = queue[0];
   revealed = false;
 
+  const showFurigana = current.expression !== current.reading;
+  const exprHtml = showFurigana
+    ? `<ruby>${current.expression}<rt>${current.reading}</rt></ruby>`
+    : current.expression;
+
   area.innerHTML = `
     <div class="card" id="cardEl">
-      <div class="expr">${current.expression}</div>
+      <div class="expr">${exprHtml}</div>
       <div class="reading" id="readingEl"></div>
       <div class="meaning" id="meaningEl"></div>
       <button class="play-btn" id="playBtn" style="display:none" aria-label="발음 듣기">🔊</button>
@@ -299,7 +305,8 @@ function renderCard() {
 function reveal() {
   if (revealed) return;
   revealed = true;
-  document.getElementById("readingEl").textContent = current.reading;
+  // reading is already shown as furigana on the card front, so this stays empty
+  document.getElementById("readingEl").textContent = "";
   document.getElementById("meaningEl").textContent = current.meaning;
   document.getElementById("hintEl").textContent = "";
   document.getElementById("playBtn").style.display = "flex";
