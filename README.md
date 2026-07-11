@@ -125,6 +125,7 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [스페인어 비교급 최상급](https://brain.dongwook.kim/notes/스페인어/스페인어_비교급_최상급)
 - [스페인어 접속법](https://brain.dongwook.kim/notes/스페인어/스페인어_접속법)
 - [스페인어 관계대명사](https://brain.dongwook.kim/notes/스페인어/스페인어_관계대명사)
+- [스페인어 진행형](https://brain.dongwook.kim/notes/스페인어/스페인어_진행형)
 
 **Languages — German**
 - [독일어 문자](https://brain.dongwook.kim/notes/독일어/독일어_문자)
