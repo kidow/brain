@@ -32,3 +32,23 @@ je/tu/il/elle 전부 /페/ 동일 발음. nous faisons만 예외적으로 ai가 
 대조: Il fait froid.(날씨가 춥다, 날씨 자체) vs J'ai froid.(나는 춥다, 사람 감각) — 날씨는 faire, 사람 감각은 avoir.
 
 한국어는 "춥다" 하나로 통일 ↔ 프랑스어는 주체(날씨/사람)에 따라 동사가 갈림.
+
+## 스포츠·악기 표현 (faire du/de la/des + 활동)
+
+운동·취미는 faire + 부분관사(de+정관사 축약)로 표현.
+
+| 명사 성 | 부분관사 | 예 |
+|---|---|---|
+| 남성 단수 | du (de+le) | faire du sport |
+| 여성 단수 | de la | faire de la natation |
+| 모음 시작 | de l' | faire de l'équitation |
+| 복수 | des | faire des courses |
+
+스포츠: Je fais du football.(남성) / Je fais de la danse.(여성) / Je fais du vélo.
+악기: Je fais du piano. / Je fais de la guitare.
+
+jouer(연주하다/놀다)+à/de 로도 가능하나, faire du/de la가 일상 회화에서 더 흔함.
+
+faire des courses = "장보다" 관용구 (course=경주와 다른 뜻).
+
+한국어는 동사가 활동마다 다름(축구하다/피아노 치다) ↔ 프랑스어는 faire+부분관사(명사 성 따라) 패턴 하나로 통일.
