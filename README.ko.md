@@ -111,6 +111,7 @@ brain/
 - [러시아어 감정·상태 형용사](https://brain.dongwook.kim/notes/러시아어/러시아어_감정_상태_형용사)
 - [러시아어 날씨 표현](https://brain.dongwook.kim/notes/러시아어/러시아어_날씨_표현)
 - [러시아어 회화](https://brain.dongwook.kim/notes/러시아어/러시아어_회화)
+- [러시아어 숫자](https://brain.dongwook.kim/notes/러시아어/러시아어_숫자)
 
 **언어 — 스페인어**
 - [스페인어 문자](https://brain.dongwook.kim/notes/스페인어/스페인어_문자)
@@ -154,6 +155,7 @@ brain/
 - [독일어 명사 전치사 지배](https://brain.dongwook.kim/notes/독일어/독일어_명사_전치사_지배)
 - [독일어 존댓말과 격식체](https://brain.dongwook.kim/notes/독일어/독일어_존댓말과_격식체)
 - [독일어 숫자와 시간 심화](https://brain.dongwook.kim/notes/독일어/독일어_숫자와_시간_심화)
+- [독일어 요일 시간대 표현](https://brain.dongwook.kim/notes/독일어/독일어_요일_시간대_표현)
 
 **언어 — 프랑스어**
 - [프랑스어 문자](https://brain.dongwook.kim/notes/프랑스어/프랑스어_문자)
