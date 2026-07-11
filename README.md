@@ -149,6 +149,7 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [독일어 동사 격지배](https://brain.dongwook.kim/notes/독일어/독일어_동사_격지배)
 - [독일어 형용사 전치사 지배](https://brain.dongwook.kim/notes/독일어/독일어_형용사_전치사_지배)
 - [독일어 명사 전치사 지배](https://brain.dongwook.kim/notes/독일어/독일어_명사_전치사_지배)
+- [독일어 존댓말과 격식체](https://brain.dongwook.kim/notes/독일어/독일어_존댓말과_격식체)
 
 **Languages — French**
 - [프랑스어 문자](https://brain.dongwook.kim/notes/프랑스어/프랑스어_문자)
