@@ -36,6 +36,35 @@
     color: #94a3b8;
   }
   .progress-wrap b { color: #60a5fa; }
+  .stats-wrap {
+    background: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    padding: 0.75rem 0.9rem;
+    margin-bottom: 1.25rem;
+    font-size: 0.8rem;
+    color: #94a3b8;
+  }
+  .stats-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+  }
+  .stats-row span b { font-size: 0.95rem; }
+  .stats-row .new b { color: #94a3b8; }
+  .stats-row .learning b { color: #f59e0b; }
+  .stats-row .mature b { color: #22c55e; }
+  .stats-bar {
+    height: 8px;
+    border-radius: 4px;
+    background: #0f172a;
+    overflow: hidden;
+    display: flex;
+  }
+  .stats-bar div { height: 100%; }
+  .stats-bar .seg-mature { background: #22c55e; }
+  .stats-bar .seg-learning { background: #f59e0b; }
+  .stats-bar .seg-new { background: #334155; }
   .card {
     background: #1e293b;
     border: 1px solid #334155;
@@ -129,6 +158,20 @@
   <span>전체 <span id="totalCount">-</span>단어</span>
 </div>
 
+<div class="stats-wrap">
+  <div class="stats-row">
+    <span class="new">New <b id="statNew">-</b></span>
+    <span class="learning">Learning <b id="statLearning">-</b></span>
+    <span class="mature">Mature <b id="statMature">-</b></span>
+    <span>Mature 비율 <b id="statMaturePct" style="color:#22c55e">-</b></span>
+  </div>
+  <div class="stats-bar">
+    <div class="seg-mature" id="barMature"></div>
+    <div class="seg-learning" id="barLearning"></div>
+    <div class="seg-new" id="barNew"></div>
+  </div>
+</div>
+
 <div id="cardArea"></div>
 
 <div class="note">
@@ -139,6 +182,7 @@
 <script>
 const STORAGE_KEY = "drill:일본어_기초_어휘";
 const NEW_CARDS_PER_DAY = 20;
+const MATURE_DAYS = 21; // Anki 관례: interval 21일 이상 = 장기기억 안착(mature)
 
 let words = [];
 let state = {};
@@ -290,6 +334,25 @@ function answer(quality) {
   saveState();
   queue.shift();
   renderCard();
+  renderStats();
+}
+
+function renderStats() {
+  let newCount = 0, learningCount = 0, matureCount = 0;
+  for (const w of words) {
+    const s = state[w.id];
+    if (!s) newCount++;
+    else if (s.interval >= MATURE_DAYS) matureCount++;
+    else learningCount++;
+  }
+  const total = words.length || 1;
+  document.getElementById("statNew").textContent = newCount;
+  document.getElementById("statLearning").textContent = learningCount;
+  document.getElementById("statMature").textContent = matureCount;
+  document.getElementById("statMaturePct").textContent = Math.round((matureCount / total) * 100) + "%";
+  document.getElementById("barMature").style.width = (matureCount / total) * 100 + "%";
+  document.getElementById("barLearning").style.width = (learningCount / total) * 100 + "%";
+  document.getElementById("barNew").style.width = (newCount / total) * 100 + "%";
 }
 
 async function init() {
@@ -299,6 +362,7 @@ async function init() {
   document.getElementById("totalCount").textContent = words.length;
   buildQueue();
   renderCard();
+  renderStats();
 }
 
 init();
