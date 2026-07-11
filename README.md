@@ -121,6 +121,7 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [프랑스어 복합과거](https://brain.dongwook.kim/notes/프랑스어_복합과거)
 - [프랑스어 재귀동사 복합과거](https://brain.dongwook.kim/notes/프랑스어_재귀동사_복합과거)
 - [프랑스어 반과거](https://brain.dongwook.kim/notes/프랑스어_반과거)
+- [프랑스어 대과거](https://brain.dongwook.kim/notes/프랑스어_대과거)
 
 **Languages — Arabic**
 - [아랍어 문자](https://brain.dongwook.kim/notes/아랍어_문자)
