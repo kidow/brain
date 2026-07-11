@@ -257,6 +257,13 @@ Quick-reference sheets served live at [brain.dongwook.kim](https://brain.dongwoo
 **Technology**
 - [컴퓨터 부품](https://brain.dongwook.kim/sheets/컴퓨터_부품.html)
 
+## Drills
+
+Spaced-repetition (SM-2) vocabulary drills, served live at [brain.dongwook.kim](https://brain.dongwook.kim). Review progress is stored in your browser's localStorage only — it is not synced across devices.
+
+**Japanese**
+- [일본어 기초 어휘](https://brain.dongwook.kim/drills/일본어_기초_어휘.html)
+
 ## Installing the skills
 
 ```bash
