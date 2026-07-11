@@ -91,6 +91,7 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [스페인어 문자](https://brain.dongwook.kim/notes/스페인어_문자)
 - [스페인어 명사와 성](https://brain.dongwook.kim/notes/스페인어_명사와_성)
 - [스페인어 기초 어휘](https://brain.dongwook.kim/notes/스페인어_기초_어휘)
+- [스페인어 동사 현재형](https://brain.dongwook.kim/notes/스페인어_동사_현재형)
 
 **Languages — German**
 - [독일어 문자](https://brain.dongwook.kim/notes/독일어_문자)
@@ -143,7 +144,7 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [영어 도치](https://brain.dongwook.kim/notes/영어/영어_도치)
 - [영어 강조 구문](https://brain.dongwook.kim/notes/영어/영어_강조_구문)
 - [영어 관계사 심화](https://brain.dongwook.kim/notes/영어/영어_관계사_심화)
-- [영어 동사구 심화](https://brain.dongwook.kim/notes/영어/영어_동사구_심화)
+- [영어 동사구](https://brain.dongwook.kim/notes/영어/영어_동사구)
 - [영어 문장 구조 심화](https://brain.dongwook.kim/notes/영어/영어_문장_구조_심화)
 - [영어 동명사](https://brain.dongwook.kim/notes/영어/영어_동명사)
 - [영어 화법](https://brain.dongwook.kim/notes/영어/영어_화법)
@@ -157,7 +158,7 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [영어 독해](https://brain.dongwook.kim/notes/영어/영어_독해)
 - [영어 청취](https://brain.dongwook.kim/notes/영어/영어_청취)
 - [영어 한정사](https://brain.dongwook.kim/notes/영어/영어_한정사)
-- [영어 수 일치 심화](https://brain.dongwook.kim/notes/영어/영어_수_일치_심화)
+- [영어 수 일치](https://brain.dongwook.kim/notes/영어/영어_수_일치)
 
 **Music**
 - [음악 이론 기초](https://brain.dongwook.kim/notes/음악_이론_기초)
@@ -255,7 +256,7 @@ Quick-reference sheets served live at [brain.dongwook.kim](https://brain.dongwoo
 - [영어 구두점 치트시트](https://brain.dongwook.kim/sheets/영어/영어_구두점_치트시트.html)
 - [영어 도치 치트시트](https://brain.dongwook.kim/sheets/영어/영어_도치_치트시트.html)
 - [영어 동명사 치트시트](https://brain.dongwook.kim/sheets/영어/영어_동명사_치트시트.html)
-- [영어 동사구 심화 치트시트](https://brain.dongwook.kim/sheets/영어/영어_동사구_심화_치트시트.html)
+- [영어 동사구 치트시트](https://brain.dongwook.kim/sheets/영어/영어_동사구_치트시트.html)
 - [영어 명사절 치트시트](https://brain.dongwook.kim/sheets/영어/영어_명사절_치트시트.html)
 - [영어 문장 구조 심화 치트시트](https://brain.dongwook.kim/sheets/영어/영어_문장_구조_심화_치트시트.html)
 - [영어 분사 치트시트](https://brain.dongwook.kim/sheets/영어/영어_분사_치트시트.html)
