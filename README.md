@@ -110,11 +110,13 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [프랑스어 근접과거](https://brain.dongwook.kim/notes/프랑스어_근접과거)
 - [프랑스어 직접목적어 대명사](https://brain.dongwook.kim/notes/프랑스어_직접목적어_대명사)
 - [프랑스어 명령문](https://brain.dongwook.kim/notes/프랑스어_명령문)
+- [프랑스어 명령문 목적어 대명사 위치](https://brain.dongwook.kim/notes/프랑스어_명령문_목적어_대명사_위치)
 
 **Languages — Arabic**
 - [아랍어 문자](https://brain.dongwook.kim/notes/아랍어_문자)
 - [아랍어 기초 어휘](https://brain.dongwook.kim/notes/아랍어_기초_어휘)
 - [아랍어 회화](https://brain.dongwook.kim/notes/아랍어_회화)
+- [아랍어 동사 활용](https://brain.dongwook.kim/notes/아랍어_동사_활용)
 
 **Languages — English**
 - [영어](https://brain.dongwook.kim/notes/영어/영어)
