@@ -110,16 +110,16 @@ brain/
 - [러시아어 명사 격변화 심화](https://brain.dongwook.kim/notes/러시아어/러시아어_명사_격변화_심화)
 
 **언어 — 스페인어**
-- [스페인어 문자](https://brain.dongwook.kim/notes/스페인어_문자)
-- [스페인어 명사와 성](https://brain.dongwook.kim/notes/스페인어_명사와_성)
-- [스페인어 기초 어휘](https://brain.dongwook.kim/notes/스페인어_기초_어휘)
-- [스페인어 동사 현재형](https://brain.dongwook.kim/notes/스페인어_동사_현재형)
-- [스페인어 부정문 의문문](https://brain.dongwook.kim/notes/스페인어_부정문_의문문)
-- [스페인어 목적어 대명사](https://brain.dongwook.kim/notes/스페인어_목적어_대명사)
-- [스페인어 명령문](https://brain.dongwook.kim/notes/스페인어_명령문)
-- [스페인어 재귀동사](https://brain.dongwook.kim/notes/스페인어_재귀동사)
-- [스페인어 과거시제](https://brain.dongwook.kim/notes/스페인어_과거시제)
-- [스페인어 현재완료](https://brain.dongwook.kim/notes/스페인어_현재완료)
+- [스페인어 문자](https://brain.dongwook.kim/notes/스페인어/스페인어_문자)
+- [스페인어 명사와 성](https://brain.dongwook.kim/notes/스페인어/스페인어_명사와_성)
+- [스페인어 기초 어휘](https://brain.dongwook.kim/notes/스페인어/스페인어_기초_어휘)
+- [스페인어 동사 현재형](https://brain.dongwook.kim/notes/스페인어/스페인어_동사_현재형)
+- [스페인어 부정문 의문문](https://brain.dongwook.kim/notes/스페인어/스페인어_부정문_의문문)
+- [스페인어 목적어 대명사](https://brain.dongwook.kim/notes/스페인어/스페인어_목적어_대명사)
+- [스페인어 명령문](https://brain.dongwook.kim/notes/스페인어/스페인어_명령문)
+- [스페인어 재귀동사](https://brain.dongwook.kim/notes/스페인어/스페인어_재귀동사)
+- [스페인어 과거시제](https://brain.dongwook.kim/notes/스페인어/스페인어_과거시제)
+- [스페인어 현재완료](https://brain.dongwook.kim/notes/스페인어/스페인어_현재완료)
 
 **언어 — 독일어**
 - [독일어 문자](https://brain.dongwook.kim/notes/독일어_문자)
