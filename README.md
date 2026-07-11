@@ -79,6 +79,7 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [중국어 연결어](https://brain.dongwook.kim/notes/중국어_연결어)
 - [중국어 정반의문문 심화](https://brain.dongwook.kim/notes/중국어_정반의문문_심화)
 - [중국어 的地得 구별](https://brain.dongwook.kim/notes/중국어_的地得_구별)
+- [중국어 시량보어](https://brain.dongwook.kim/notes/중국어_시량보어)
 
 **Languages — Russian**
 - [러시아어 문자의 특징](https://brain.dongwook.kim/notes/러시아어_문자의_특징)
