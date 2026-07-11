@@ -92,6 +92,13 @@
   .buttons button.good { border-color: #60a5fa; color: #60a5fa; }
   .buttons button.easy { border-color: #22c55e; color: #22c55e; }
   .buttons button:not(:disabled):active { transform: scale(0.97); }
+  .buttons button small { display: block; font-size: 0.68rem; font-weight: 400; margin-top: 0.15rem; opacity: 0.8; }
+  .criteria {
+    margin-top: 0.75rem;
+    font-size: 0.75rem;
+    color: #64748b;
+    line-height: 1.6;
+  }
   .done {
     text-align: center;
     padding: 3rem 1rem;
@@ -224,10 +231,13 @@ function renderCard() {
       <div class="hint" id="hintEl">카드를 클릭해 답 보기</div>
     </div>
     <div class="buttons">
-      <button class="again" id="btnAgain" disabled>Again</button>
-      <button class="hard" id="btnHard" disabled>Hard</button>
-      <button class="good" id="btnGood" disabled>Good</button>
-      <button class="easy" id="btnEasy" disabled>Easy</button>
+      <button class="again" id="btnAgain" disabled title="틀렸거나 전혀 기억 안 남">Again<small>기억 안 남</small></button>
+      <button class="hard" id="btnHard" disabled title="맞았지만 헷갈리거나 오래 걸림">Hard<small>헷갈림</small></button>
+      <button class="good" id="btnGood" disabled title="적당히 기억나서 맞음 (기본값)">Good<small>기억남</small></button>
+      <button class="easy" id="btnEasy" disabled title="보자마자 확신 있게 맞음">Easy<small>바로 맞음</small></button>
+    </div>
+    <div class="criteria">
+      기준은 <b style="color:#94a3b8">정답 여부가 아니라 "얼마나 힘들게 떠올렸나"</b>입니다. 애매하면 Good을 누르세요.
     </div>
   `;
 
