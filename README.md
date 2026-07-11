@@ -94,6 +94,7 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [러시아어 동사 과거형](https://brain.dongwook.kim/notes/러시아어_동사_과거형)
 - [러시아어 부정문](https://brain.dongwook.kim/notes/러시아어_부정문)
 - [러시아어 동사 미래형](https://brain.dongwook.kim/notes/러시아어_동사_미래형)
+- [러시아어 동사상](https://brain.dongwook.kim/notes/러시아어_동사상)
 
 **Languages — Spanish**
 - [스페인어 문자](https://brain.dongwook.kim/notes/스페인어_문자)
@@ -111,6 +112,7 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [독일어 기초 어휘](https://brain.dongwook.kim/notes/독일어_기초_어휘)
 - [독일어 대명사](https://brain.dongwook.kim/notes/독일어_대명사)
 - [독일어 회화](https://brain.dongwook.kim/notes/독일어_회화)
+- [독일어 접속법](https://brain.dongwook.kim/notes/독일어_접속법)
 
 **Languages — French**
 - [프랑스어 문자](https://brain.dongwook.kim/notes/프랑스어/프랑스어_문자)
