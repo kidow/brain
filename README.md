@@ -155,6 +155,7 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [영어 전치사 심화](https://brain.dongwook.kim/notes/영어/영어_전치사_심화)
 - [영어 관사 심화](https://brain.dongwook.kim/notes/영어/영어_관사_심화)
 - [영어 한정사](https://brain.dongwook.kim/notes/영어/영어_한정사)
+- [영어 수 일치 심화](https://brain.dongwook.kim/notes/영어/영어_수_일치_심화)
 
 **Music**
 - [음악 이론 기초](https://brain.dongwook.kim/notes/음악_이론_기초)
