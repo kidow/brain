@@ -145,6 +145,7 @@ brain/
 - [아랍어 조건문](https://brain.dongwook.kim/notes/아랍어/아랍어_조건문)
 - [아랍어 수동태](https://brain.dongwook.kim/notes/아랍어/아랍어_수동태)
 - [아랍어 비교급](https://brain.dongwook.kim/notes/아랍어/아랍어_비교급)
+- [아랍어 시간절](https://brain.dongwook.kim/notes/아랍어/아랍어_시간절)
 
 **언어 — 영어**
 - [영어 전치사](https://brain.dongwook.kim/notes/영어/영어_전치사)
