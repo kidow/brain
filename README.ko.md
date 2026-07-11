@@ -140,6 +140,7 @@ brain/
 - [아랍어 동사 활용](https://brain.dongwook.kim/notes/아랍어_동사_활용)
 - [아랍어 관계대명사](https://brain.dongwook.kim/notes/아랍어_관계대명사)
 - [아랍어 조건문](https://brain.dongwook.kim/notes/아랍어_조건문)
+- [아랍어 수동태](https://brain.dongwook.kim/notes/아랍어_수동태)
 
 **언어 — 영어**
 - [영어 전치사](https://brain.dongwook.kim/notes/영어/영어_전치사)
