@@ -103,6 +103,7 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [러시아어 의문문 심화](https://brain.dongwook.kim/notes/러시아어_의문문_심화)
 - [러시아어 형용사 비교급 최상급](https://brain.dongwook.kim/notes/러시아어_형용사_비교급_최상급)
 - [러시아어 인칭대명사 격변화](https://brain.dongwook.kim/notes/러시아어_인칭대명사_격변화)
+- [러시아어 존댓말](https://brain.dongwook.kim/notes/러시아어_존댓말)
 
 **Languages — Spanish**
 - [스페인어 문자](https://brain.dongwook.kim/notes/스페인어_문자)
@@ -147,6 +148,8 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [프랑스어 단순미래](https://brain.dongwook.kim/notes/프랑스어/프랑스어_단순미래)
 - [프랑스어 조건법](https://brain.dongwook.kim/notes/프랑스어/프랑스어_조건법)
 - [프랑스어 접속법](https://brain.dongwook.kim/notes/프랑스어/프랑스어_접속법)
+- [프랑스어 가족 일상 어휘](https://brain.dongwook.kim/notes/프랑스어/프랑스어_가족_일상_어휘)
+- [프랑스어 관용구](https://brain.dongwook.kim/notes/프랑스어/프랑스어_관용구)
 
 **Languages — Arabic**
 - [아랍어 문자](https://brain.dongwook.kim/notes/아랍어/아랍어_문자)

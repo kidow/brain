@@ -147,6 +147,8 @@ brain/
 - [프랑스어 단순미래](https://brain.dongwook.kim/notes/프랑스어/프랑스어_단순미래)
 - [프랑스어 조건법](https://brain.dongwook.kim/notes/프랑스어/프랑스어_조건법)
 - [프랑스어 접속법](https://brain.dongwook.kim/notes/프랑스어/프랑스어_접속법)
+- [프랑스어 가족 일상 어휘](https://brain.dongwook.kim/notes/프랑스어/프랑스어_가족_일상_어휘)
+- [프랑스어 관용구](https://brain.dongwook.kim/notes/프랑스어/프랑스어_관용구)
 
 **언어 — 아랍어**
 - [아랍어 문자](https://brain.dongwook.kim/notes/아랍어/아랍어_문자)
