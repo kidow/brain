@@ -399,3 +399,7 @@ Level: Blank — 자막 없이 약 10%만 이해. 청취 전략 자체는 미노
 ## 영어_한정사
 
 Level: Glimpsed — each(하나씩 개별 지칭) vs every(모든 것을 통틀어) 기본 구분 정확히 답함. few/a few, little/a little 같은 긍정·부정 뉘앙스 차이 미노출. some/any 구분, all/every/each 세부 용법, 부분표현(most of/none of) 등 전반 미노출.
+
+## 영어_수_일치_심화
+
+Level: Blank — everyone/everybody류가 단수 취급된다는 기본은 앎. "the number of" vs "a number of"의 단복수 차이 전혀 모름. 집합명사, either/neither, 부분표현(most of/none of) 주어-동사 일치 규칙 전반 처음 시작.
