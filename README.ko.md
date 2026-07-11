@@ -93,6 +93,7 @@ brain/
 - [러시아어 명사 복수형](https://brain.dongwook.kim/notes/러시아어_명사_복수형)
 - [러시아어 동사 과거형](https://brain.dongwook.kim/notes/러시아어_동사_과거형)
 - [러시아어 부정문](https://brain.dongwook.kim/notes/러시아어_부정문)
+- [러시아어 동사 미래형](https://brain.dongwook.kim/notes/러시아어_동사_미래형)
 
 **언어 — 스페인어**
 - [스페인어 문자](https://brain.dongwook.kim/notes/스페인어_문자)
