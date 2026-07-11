@@ -155,7 +155,6 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [영어 비즈니스 영어](https://brain.dongwook.kim/notes/영어/영어_비즈니스_영어)
 - [영어 독해](https://brain.dongwook.kim/notes/영어/영어_독해)
 - [영어 청취](https://brain.dongwook.kim/notes/영어/영어_청취)
-- [영어 관사 심화](https://brain.dongwook.kim/notes/영어/영어_관사_심화)
 - [영어 한정사](https://brain.dongwook.kim/notes/영어/영어_한정사)
 - [영어 수 일치 심화](https://brain.dongwook.kim/notes/영어/영어_수_일치_심화)
 
