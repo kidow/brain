@@ -110,6 +110,7 @@ brain/
 **언어 — 아랍어**
 - [아랍어 문자](https://brain.dongwook.kim/notes/아랍어_문자)
 - [아랍어 기초 어휘](https://brain.dongwook.kim/notes/아랍어_기초_어휘)
+- [아랍어 회화](https://brain.dongwook.kim/notes/아랍어_회화)
 
 **언어 — 영어**
 - [영어](https://brain.dongwook.kim/notes/영어/영어)
