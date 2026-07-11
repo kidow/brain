@@ -139,6 +139,7 @@ brain/
 - [독일어 부사](https://brain.dongwook.kim/notes/독일어/독일어_부사)
 - [독일어 명사화](https://brain.dongwook.kim/notes/독일어/독일어_명사화)
 - [독일어 접속사](https://brain.dongwook.kim/notes/독일어/독일어_접속사)
+- [독일어 복합어 심화](https://brain.dongwook.kim/notes/독일어/독일어_복합어_심화)
 
 **언어 — 프랑스어**
 - [프랑스어 문자](https://brain.dongwook.kim/notes/프랑스어/프랑스어_문자)
