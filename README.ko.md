@@ -107,6 +107,7 @@ brain/
 - [러시아어 존댓말](https://brain.dongwook.kim/notes/러시아어_존댓말)
 - [러시아어 시간 표현](https://brain.dongwook.kim/notes/러시아어_시간_표현)
 - [러시아어 서수사](https://brain.dongwook.kim/notes/러시아어_서수사)
+- [러시아어 명사 격변화 심화](https://brain.dongwook.kim/notes/러시아어_명사_격변화_심화)
 
 **언어 — 스페인어**
 - [스페인어 문자](https://brain.dongwook.kim/notes/스페인어_문자)
@@ -118,6 +119,7 @@ brain/
 - [스페인어 명령문](https://brain.dongwook.kim/notes/스페인어_명령문)
 - [스페인어 재귀동사](https://brain.dongwook.kim/notes/스페인어_재귀동사)
 - [스페인어 과거시제](https://brain.dongwook.kim/notes/스페인어_과거시제)
+- [스페인어 현재완료](https://brain.dongwook.kim/notes/스페인어_현재완료)
 
 **언어 — 독일어**
 - [독일어 문자](https://brain.dongwook.kim/notes/독일어_문자)
