@@ -141,6 +141,7 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [독일어 명사화](https://brain.dongwook.kim/notes/독일어/독일어_명사화)
 - [독일어 접속사](https://brain.dongwook.kim/notes/독일어/독일어_접속사)
 - [독일어 복합어 심화](https://brain.dongwook.kim/notes/독일어/독일어_복합어_심화)
+- [독일어 동사 격지배](https://brain.dongwook.kim/notes/독일어/독일어_동사_격지배)
 
 **Languages — French**
 - [프랑스어 문자](https://brain.dongwook.kim/notes/프랑스어/프랑스어_문자)
