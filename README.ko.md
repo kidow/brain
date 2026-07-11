@@ -96,6 +96,7 @@ brain/
 - [프랑스어 부정문 의문문](https://brain.dongwook.kim/notes/프랑스어_부정문_의문문)
 - [프랑스어 도치 의문문](https://brain.dongwook.kim/notes/프랑스어_도치_의문문)
 - [프랑스어 회화](https://brain.dongwook.kim/notes/프랑스어_회화)
+- [프랑스어 faire 동사](https://brain.dongwook.kim/notes/프랑스어_faire_동사)
 
 **언어 — 아랍어**
 - [아랍어 문자](https://brain.dongwook.kim/notes/아랍어_문자)
