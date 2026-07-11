@@ -105,6 +105,7 @@ brain/
 - [러시아어 형용사 비교급 최상급](https://brain.dongwook.kim/notes/러시아어_형용사_비교급_최상급)
 - [러시아어 인칭대명사 격변화](https://brain.dongwook.kim/notes/러시아어_인칭대명사_격변화)
 - [러시아어 존댓말](https://brain.dongwook.kim/notes/러시아어_존댓말)
+- [러시아어 시간 표현](https://brain.dongwook.kim/notes/러시아어_시간_표현)
 
 **언어 — 스페인어**
 - [스페인어 문자](https://brain.dongwook.kim/notes/스페인어_문자)
