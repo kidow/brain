@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#ffffff">
+  <title>일본어 숫자 체계 치트시트</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: #0f172a; color: #e2e8f0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 14px; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 1.5rem 1.25rem; }
+    h1 { font-size: 1.5rem; color: #60a5fa; margin-bottom: 0.25rem; }
+    .subtitle { color: #94a3b8; margin-bottom: 1.5rem; font-size: 0.85rem; }
+    h2 { font-size: 1rem; color: #60a5fa; margin: 1.5rem 0 0.75rem; border-left: 3px solid #60a5fa; padding-left: 0.6rem; }
+    .note { background: #1e293b; border: 1px solid #334155; border-radius: 6px; padding: 0.6rem 0.8rem; margin-bottom: 0.75rem; font-size: 0.85rem; color: #94a3b8; }
+    .note strong { color: #e2e8f0; }
+    table { width: 100%; border-collapse: collapse; margin-bottom: 1rem; font-size: 0.85rem; }
+    th { background: #1e293b; color: #94a3b8; font-weight: 600; text-align: left; padding: 0.5rem 0.6rem; border-bottom: 1px solid #334155; }
+    td { padding: 0.45rem 0.6rem; border-bottom: 1px solid #1e293b; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    .jp { font-size: 1.1rem; color: #60a5fa; font-weight: 700; }
+    .ex { color: #94a3b8; font-size: 0.82rem; margin-top: 0.15rem; }
+    .section { margin-bottom: 1.5rem; }
+    @media (max-width: 600px) { body { padding: 1rem; } }
+    @media print { body { padding: 0.5cm; } }
+  </style>
+</head>
+<body>
+  <h1>일본어 숫자 체계 치트시트</h1>
+  <p class="subtitle">百·千·万 발음 변화 + 4자리 그룹핑</p>
+
+  <div class="section">
+    <h2>百(백) 발음 변화</h2>
+    <table>
+      <tr><th>100</th><th>200</th><th>300</th><th>400</th><th>500</th></tr>
+      <tr><td>ひゃく</td><td>にひゃく</td><td><strong>さんびゃく</strong></td><td>よんひゃく</td><td>ごひゃく</td></tr>
+      <tr><th>600</th><th>700</th><th>800</th><th>900</th><th></th></tr>
+      <tr><td><strong>ろっぴゃく</strong></td><td>ななひゃく</td><td><strong>はっぴゃく</strong></td><td>きゅうひゃく</td><td></td></tr>
+    </table>
+    <div class="note">3・6・8 뒤에서만 바뀜: 3→탁음화(びゃく), 6・8→촉음+반탁음화(っぴゃく). 나머지는 그대로 ひゃく.</div>
+  </div>
+
+  <div class="section">
+    <h2>千(천) 발음 변화 — 예외 2개뿐</h2>
+    <table>
+      <tr><th>1000</th><th>2000</th><th>3000</th><th>4000</th><th>5000</th></tr>
+      <tr><td>せん(いちせん✗)</td><td>にせん</td><td><strong>さんぜん</strong></td><td>よんせん</td><td>ごせん</td></tr>
+      <tr><th>6000</th><th>7000</th><th>8000</th><th>9000</th><th></th></tr>
+      <tr><td>ろくせん(촉음화 없음)</td><td>ななせん</td><td><strong>はっせん</strong></td><td>きゅうせん</td><td></td></tr>
+    </table>
+    <div class="note">예외는 3000(さんぜん, 연탁)과 8000(はっせん, 촉음화)뿐. 百의 6 촉음화가 千에서는 사라짐. 1000은 いちせん이 아니라 그냥 せん.</div>
+  </div>
+
+  <div class="section">
+    <h2>万(만) 이상 — 한국어와 동일한 4자리 그룹핑</h2>
+    <table>
+      <tr><th>자리수</th><th>일본어</th><th>한국어</th></tr>
+      <tr><td>10⁴</td><td>万(まん) — 반드시 一万(いちまん)</td><td>만</td></tr>
+      <tr><td>10⁸</td><td>億(おく) — 一億(いちおく), 万万 아님</td><td>억</td></tr>
+      <tr><td>10¹²</td><td>兆(ちょう)</td><td>조</td></tr>
+    </table>
+    <div class="note">
+      千과 정반대: 万은 반드시 一万으로 읽음(いち 생략 안 함).<br>
+      영어는 1,000(천) 단위로 끊지만(million), 일본어·한국어는 10,000(만) 단위로 끊음 — 한국어 화자에겐 새 규칙이 아니라 그대로 옮기면 됨.
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>分(분) — ふん/ぷん 발음 변화</h2>
+    <table>
+      <tr><th>1分</th><th>2分</th><th>3分</th><th>4分</th><th>5分</th></tr>
+      <tr><td>いっぷん</td><td>にふん</td><td>さんぷん</td><td>よんぷん</td><td>ごふん</td></tr>
+      <tr><th>6分</th><th>7分</th><th>8分</th><th>9分</th><th>10分</th></tr>
+      <tr><td>ろっぷん</td><td>ななふん</td><td>はっぷん</td><td>きゅうふん</td><td>じゅっぷん</td></tr>
+    </table>
+    <div class="note">っ(1·6·8·10, 촉음)나 ん(3·4)으로 끝나는 숫자 → ぷん. 나머지(2·5·7·9) → ふん.</div>
+  </div>
+
+  <div class="section">
+    <h2>時(시) — 예외 두 개</h2>
+    <div class="ex">4時 = よじ (し 아님, 死 회피) / 9時 = くじ (きゅうじ 아님, 발음 편의)</div>
+  </div>
+
+  <div class="section">
+    <h2>日にち(날짜) — 1~10일 불규칙</h2>
+    <div class="ex">1日(ついたち)·2日(ふつか)·3日(みっか)···10日(とおか) — 옛 고유어 숫자 흔적, 통암기</div>
+    <div class="ex">11日부터 규칙적: 숫자+日(にち) — 11日(じゅういちにち)</div>
+  </div>
+</body>
+</html>
