@@ -72,6 +72,7 @@ brain/
 - [중국어 양사 심화](https://brain.dongwook.kim/notes/중국어_양사_심화)
 - [중국어 문장 구조](https://brain.dongwook.kim/notes/중국어_문장_구조)
 - [중국어 결과보어](https://brain.dongwook.kim/notes/중국어_결과보어)
+- [중국어 비교문](https://brain.dongwook.kim/notes/중국어_비교문)
 
 **언어 — 러시아어**
 - [러시아어 문자의 특징](https://brain.dongwook.kim/notes/러시아어_문자의_특징)
