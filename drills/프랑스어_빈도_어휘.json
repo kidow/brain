@@ -1,0 +1,2924 @@
+[
+  {
+    "id": 0,
+    "word": "je",
+    "gender": null,
+    "meaning": "나는"
+  },
+  {
+    "id": 1,
+    "word": "de",
+    "gender": null,
+    "meaning": "~의, ~로부터"
+  },
+  {
+    "id": 2,
+    "word": "est",
+    "gender": null,
+    "meaning": "(être) ~이다"
+  },
+  {
+    "id": 3,
+    "word": "pas",
+    "gender": null,
+    "meaning": "아니다(부정)"
+  },
+  {
+    "id": 4,
+    "word": "le",
+    "gender": null,
+    "meaning": "그(남성 정관사)"
+  },
+  {
+    "id": 5,
+    "word": "vous",
+    "gender": null,
+    "meaning": "당신, 너희"
+  },
+  {
+    "id": 6,
+    "word": "la",
+    "gender": null,
+    "meaning": "그(여성 정관사)"
+  },
+  {
+    "id": 7,
+    "word": "tu",
+    "gender": null,
+    "meaning": "너(반말)"
+  },
+  {
+    "id": 8,
+    "word": "que",
+    "gender": null,
+    "meaning": "~라는 것, 무엇을"
+  },
+  {
+    "id": 9,
+    "word": "un",
+    "gender": null,
+    "meaning": "하나, 어떤(남성)"
+  },
+  {
+    "id": 10,
+    "word": "il",
+    "gender": null,
+    "meaning": "그는"
+  },
+  {
+    "id": 11,
+    "word": "et",
+    "gender": null,
+    "meaning": "그리고"
+  },
+  {
+    "id": 12,
+    "word": "à",
+    "gender": null,
+    "meaning": "~에, ~로"
+  },
+  {
+    "id": 13,
+    "word": "a",
+    "gender": null,
+    "meaning": "(avoir) 가지다"
+  },
+  {
+    "id": 14,
+    "word": "ne",
+    "gender": null,
+    "meaning": "아니다(부정)"
+  },
+  {
+    "id": 15,
+    "word": "les",
+    "gender": null,
+    "meaning": "그들(복수 정관사)"
+  },
+  {
+    "id": 16,
+    "word": "ce",
+    "gender": null,
+    "meaning": "이, 그(지시대명사)"
+  },
+  {
+    "id": 17,
+    "word": "en",
+    "gender": null,
+    "meaning": "~안에, 그것을"
+  },
+  {
+    "id": 18,
+    "word": "on",
+    "gender": null,
+    "meaning": "사람들, 우리"
+  },
+  {
+    "id": 19,
+    "word": "ça",
+    "gender": null,
+    "meaning": "그것(구어체)"
+  },
+  {
+    "id": 20,
+    "word": "une",
+    "gender": null,
+    "meaning": "하나, 어떤(여성)"
+  },
+  {
+    "id": 21,
+    "word": "ai",
+    "gender": null,
+    "meaning": "(avoir) 가지고 있다"
+  },
+  {
+    "id": 22,
+    "word": "pour",
+    "gender": null,
+    "meaning": "~을 위해"
+  },
+  {
+    "id": 23,
+    "word": "des",
+    "gender": null,
+    "meaning": "몇몇(부정관사 복수)"
+  },
+  {
+    "id": 24,
+    "word": "moi",
+    "gender": null,
+    "meaning": "나(강세형)"
+  },
+  {
+    "id": 25,
+    "word": "qui",
+    "gender": null,
+    "meaning": "누구, ~하는 사람"
+  },
+  {
+    "id": 26,
+    "word": "nous",
+    "gender": null,
+    "meaning": "우리"
+  },
+  {
+    "id": 27,
+    "word": "y",
+    "gender": null,
+    "meaning": "거기에, 그것에"
+  },
+  {
+    "id": 28,
+    "word": "mais",
+    "gender": null,
+    "meaning": "그러나"
+  },
+  {
+    "id": 29,
+    "word": "me",
+    "gender": null,
+    "meaning": "나를, 나에게"
+  },
+  {
+    "id": 30,
+    "word": "dans",
+    "gender": null,
+    "meaning": "~안에"
+  },
+  {
+    "id": 31,
+    "word": "du",
+    "gender": null,
+    "meaning": "~의(축약형)"
+  },
+  {
+    "id": 32,
+    "word": "bien",
+    "gender": null,
+    "meaning": "잘, 좋게"
+  },
+  {
+    "id": 33,
+    "word": "elle",
+    "gender": null,
+    "meaning": "그녀는"
+  },
+  {
+    "id": 34,
+    "word": "si",
+    "gender": null,
+    "meaning": "만약, 그렇게"
+  },
+  {
+    "id": 35,
+    "word": "tout",
+    "gender": null,
+    "meaning": "모든, 전부"
+  },
+  {
+    "id": 36,
+    "word": "plus",
+    "gender": null,
+    "meaning": "더, 더 이상"
+  },
+  {
+    "id": 37,
+    "word": "non",
+    "gender": null,
+    "meaning": "아니오"
+  },
+  {
+    "id": 38,
+    "word": "mon",
+    "gender": null,
+    "meaning": "나의(남성)"
+  },
+  {
+    "id": 39,
+    "word": "suis",
+    "gender": null,
+    "meaning": "(être) 나는 ~이다"
+  },
+  {
+    "id": 40,
+    "word": "te",
+    "gender": null,
+    "meaning": "너를, 너에게"
+  },
+  {
+    "id": 41,
+    "word": "au",
+    "gender": null,
+    "meaning": "~에(축약형)"
+  },
+  {
+    "id": 42,
+    "word": "avec",
+    "gender": null,
+    "meaning": "~와 함께"
+  },
+  {
+    "id": 43,
+    "word": "va",
+    "gender": null,
+    "meaning": "(aller) 가다"
+  },
+  {
+    "id": 44,
+    "word": "oui",
+    "gender": null,
+    "meaning": "네"
+  },
+  {
+    "id": 45,
+    "word": "toi",
+    "gender": null,
+    "meaning": "너(강세형)"
+  },
+  {
+    "id": 46,
+    "word": "fait",
+    "gender": null,
+    "meaning": "(faire) 하다"
+  },
+  {
+    "id": 47,
+    "word": "ils",
+    "gender": null,
+    "meaning": "그들은"
+  },
+  {
+    "id": 48,
+    "word": "as",
+    "gender": null,
+    "meaning": "(avoir) 가지고 있다"
+  },
+  {
+    "id": 49,
+    "word": "être",
+    "gender": null,
+    "meaning": "이다, 존재하다"
+  },
+  {
+    "id": 50,
+    "word": "faire",
+    "gender": null,
+    "meaning": "하다, 만들다"
+  },
+  {
+    "id": 51,
+    "word": "se",
+    "gender": null,
+    "meaning": "자기 자신을"
+  },
+  {
+    "id": 52,
+    "word": "comme",
+    "gender": null,
+    "meaning": "~처럼, ~로서"
+  },
+  {
+    "id": 53,
+    "word": "était",
+    "gender": null,
+    "meaning": "(être) ~이었다"
+  },
+  {
+    "id": 54,
+    "word": "sur",
+    "gender": null,
+    "meaning": "~위에"
+  },
+  {
+    "id": 55,
+    "word": "quoi",
+    "gender": null,
+    "meaning": "무엇"
+  },
+  {
+    "id": 56,
+    "word": "ici",
+    "gender": null,
+    "meaning": "여기"
+  },
+  {
+    "id": 57,
+    "word": "sais",
+    "gender": null,
+    "meaning": "(savoir) 알다"
+  },
+  {
+    "id": 58,
+    "word": "lui",
+    "gender": null,
+    "meaning": "그에게, 그녀에게"
+  },
+  {
+    "id": 59,
+    "word": "veux",
+    "gender": null,
+    "meaning": "(vouloir) 원하다"
+  },
+  {
+    "id": 60,
+    "word": "ma",
+    "gender": null,
+    "meaning": "나의(여성)"
+  },
+  {
+    "id": 61,
+    "word": "là",
+    "gender": null,
+    "meaning": "거기, 저기"
+  },
+  {
+    "id": 62,
+    "word": "rien",
+    "gender": null,
+    "meaning": "아무것도"
+  },
+  {
+    "id": 63,
+    "word": "dit",
+    "gender": null,
+    "meaning": "(dire) 말하다"
+  },
+  {
+    "id": 64,
+    "word": "es",
+    "gender": null,
+    "meaning": "(être) 너는 ~이다"
+  },
+  {
+    "id": 65,
+    "word": "où",
+    "gender": null,
+    "meaning": "어디"
+  },
+  {
+    "id": 66,
+    "word": "votre",
+    "gender": null,
+    "meaning": "당신의"
+  },
+  {
+    "id": 67,
+    "word": "pourquoi",
+    "gender": null,
+    "meaning": "왜"
+  },
+  {
+    "id": 68,
+    "word": "sont",
+    "gender": null,
+    "meaning": "(être) ~이다(복수)"
+  },
+  {
+    "id": 69,
+    "word": "cette",
+    "gender": null,
+    "meaning": "이(여성 지시형용사)"
+  },
+  {
+    "id": 70,
+    "word": "quand",
+    "gender": null,
+    "meaning": "언제"
+  },
+  {
+    "id": 71,
+    "word": "par",
+    "gender": null,
+    "meaning": "~에 의해"
+  },
+  {
+    "id": 72,
+    "word": "son",
+    "gender": null,
+    "meaning": "그의, 그녀의(남성)"
+  },
+  {
+    "id": 73,
+    "word": "ton",
+    "gender": null,
+    "meaning": "너의(남성)"
+  },
+  {
+    "id": 74,
+    "word": "peux",
+    "gender": null,
+    "meaning": "(pouvoir) 할 수 있다"
+  },
+  {
+    "id": 75,
+    "word": "vais",
+    "gender": null,
+    "meaning": "(aller) 가다"
+  },
+  {
+    "id": 76,
+    "word": "dire",
+    "gender": null,
+    "meaning": "말하다"
+  },
+  {
+    "id": 77,
+    "word": "alors",
+    "gender": null,
+    "meaning": "그래서, 그러면"
+  },
+  {
+    "id": 78,
+    "word": "comment",
+    "gender": null,
+    "meaning": "어떻게"
+  },
+  {
+    "id": 79,
+    "word": "avez",
+    "gender": null,
+    "meaning": "(avoir) 가지고 있다"
+  },
+  {
+    "id": 80,
+    "word": "bon",
+    "gender": null,
+    "meaning": "좋은"
+  },
+  {
+    "id": 81,
+    "word": "ou",
+    "gender": null,
+    "meaning": "또는"
+  },
+  {
+    "id": 82,
+    "word": "très",
+    "gender": null,
+    "meaning": "매우"
+  },
+  {
+    "id": 83,
+    "word": "merci",
+    "gender": null,
+    "meaning": "감사합니다"
+  },
+  {
+    "id": 84,
+    "word": "ont",
+    "gender": null,
+    "meaning": "(avoir) 가지고 있다(복수)"
+  },
+  {
+    "id": 85,
+    "word": "même",
+    "gender": null,
+    "meaning": "같은, ~조차"
+  },
+  {
+    "id": 86,
+    "word": "jamais",
+    "gender": null,
+    "meaning": "결코 ~않다"
+  },
+  {
+    "id": 87,
+    "word": "aussi",
+    "gender": null,
+    "meaning": "또한"
+  },
+  {
+    "id": 88,
+    "word": "voir",
+    "gender": null,
+    "meaning": "보다"
+  },
+  {
+    "id": 89,
+    "word": "chose",
+    "gender": "f",
+    "meaning": "것, 사물"
+  },
+  {
+    "id": 90,
+    "word": "allez",
+    "gender": null,
+    "meaning": "(aller) 가다"
+  },
+  {
+    "id": 91,
+    "word": "tous",
+    "gender": null,
+    "meaning": "모든(남성 복수)"
+  },
+  {
+    "id": 92,
+    "word": "deux",
+    "gender": null,
+    "meaning": "둘"
+  },
+  {
+    "id": 93,
+    "word": "ces",
+    "gender": null,
+    "meaning": "이(복수 지시형용사)"
+  },
+  {
+    "id": 94,
+    "word": "faut",
+    "gender": null,
+    "meaning": "(falloir) 필요하다"
+  },
+  {
+    "id": 95,
+    "word": "sa",
+    "gender": null,
+    "meaning": "그의, 그녀의(여성)"
+  },
+  {
+    "id": 96,
+    "word": "êtes",
+    "gender": null,
+    "meaning": "(être) 당신은 ~이다"
+  },
+  {
+    "id": 97,
+    "word": "été",
+    "gender": "m",
+    "meaning": "여름 / (être) 였었다"
+  },
+  {
+    "id": 98,
+    "word": "ta",
+    "gender": null,
+    "meaning": "너의(여성)"
+  },
+  {
+    "id": 99,
+    "word": "fais",
+    "gender": null,
+    "meaning": "(faire) 하다"
+  },
+  {
+    "id": 100,
+    "word": "avoir",
+    "gender": null,
+    "meaning": "가지다"
+  },
+  {
+    "id": 101,
+    "word": "peut",
+    "gender": null,
+    "meaning": "(pouvoir) 할 수 있다"
+  },
+  {
+    "id": 102,
+    "word": "autre",
+    "gender": null,
+    "meaning": "다른"
+  },
+  {
+    "id": 103,
+    "word": "encore",
+    "gender": null,
+    "meaning": "또, 아직"
+  },
+  {
+    "id": 104,
+    "word": "maintenant",
+    "gender": null,
+    "meaning": "지금"
+  },
+  {
+    "id": 105,
+    "word": "peu",
+    "gender": null,
+    "meaning": "조금"
+  },
+  {
+    "id": 106,
+    "word": "mes",
+    "gender": null,
+    "meaning": "나의(복수)"
+  },
+  {
+    "id": 107,
+    "word": "vraiment",
+    "gender": null,
+    "meaning": "정말로"
+  },
+  {
+    "id": 108,
+    "word": "temps",
+    "gender": "m",
+    "meaning": "시간, 날씨"
+  },
+  {
+    "id": 109,
+    "word": "notre",
+    "gender": null,
+    "meaning": "우리의"
+  },
+  {
+    "id": 110,
+    "word": "toujours",
+    "gender": null,
+    "meaning": "항상"
+  },
+  {
+    "id": 111,
+    "word": "vie",
+    "gender": "f",
+    "meaning": "삶, 인생"
+  },
+  {
+    "id": 112,
+    "word": "sans",
+    "gender": null,
+    "meaning": "~없이"
+  },
+  {
+    "id": 113,
+    "word": "juste",
+    "gender": null,
+    "meaning": "정확한, 그저"
+  },
+  {
+    "id": 114,
+    "word": "oh",
+    "gender": null,
+    "meaning": "오!(감탄사)"
+  },
+  {
+    "id": 115,
+    "word": "avait",
+    "gender": null,
+    "meaning": "(avoir) 가지고 있었다"
+  },
+  {
+    "id": 116,
+    "word": "accord",
+    "gender": "m",
+    "meaning": "동의, 합의"
+  },
+  {
+    "id": 117,
+    "word": "vu",
+    "gender": null,
+    "meaning": "(voir) 봄"
+  },
+  {
+    "id": 118,
+    "word": "monde",
+    "gender": "m",
+    "meaning": "세계, 사람들"
+  },
+  {
+    "id": 119,
+    "word": "quelque",
+    "gender": null,
+    "meaning": "어떤, 몇몇"
+  },
+  {
+    "id": 120,
+    "word": "fois",
+    "gender": "f",
+    "meaning": "번, 회"
+  },
+  {
+    "id": 121,
+    "word": "aller",
+    "gender": null,
+    "meaning": "가다"
+  },
+  {
+    "id": 122,
+    "word": "trop",
+    "gender": null,
+    "meaning": "너무"
+  },
+  {
+    "id": 123,
+    "word": "viens",
+    "gender": null,
+    "meaning": "(venir) 오다"
+  },
+  {
+    "id": 124,
+    "word": "crois",
+    "gender": null,
+    "meaning": "(croire) 믿다"
+  },
+  {
+    "id": 125,
+    "word": "dieu",
+    "gender": "m",
+    "meaning": "신"
+  },
+  {
+    "id": 126,
+    "word": "dois",
+    "gender": null,
+    "meaning": "(devoir) 해야 한다"
+  },
+  {
+    "id": 127,
+    "word": "homme",
+    "gender": "m",
+    "meaning": "남자, 인간"
+  },
+  {
+    "id": 128,
+    "word": "père",
+    "gender": "m",
+    "meaning": "아버지"
+  },
+  {
+    "id": 129,
+    "word": "sûr",
+    "gender": null,
+    "meaning": "확실한"
+  },
+  {
+    "id": 130,
+    "word": "aux",
+    "gender": null,
+    "meaning": "~에게(복수 축약형)"
+  },
+  {
+    "id": 131,
+    "word": "leur",
+    "gender": null,
+    "meaning": "그들의"
+  },
+  {
+    "id": 132,
+    "word": "avant",
+    "gender": null,
+    "meaning": "~전에"
+  },
+  {
+    "id": 133,
+    "word": "étais",
+    "gender": null,
+    "meaning": "(être) 나는 ~이었다"
+  },
+  {
+    "id": 134,
+    "word": "besoin",
+    "gender": "m",
+    "meaning": "필요"
+  },
+  {
+    "id": 135,
+    "word": "femme",
+    "gender": "f",
+    "meaning": "여자, 아내"
+  },
+  {
+    "id": 136,
+    "word": "aime",
+    "gender": null,
+    "meaning": "(aimer) 좋아하다"
+  },
+  {
+    "id": 137,
+    "word": "personne",
+    "gender": "f",
+    "meaning": "사람 / 아무도 ~않다"
+  },
+  {
+    "id": 138,
+    "word": "avais",
+    "gender": null,
+    "meaning": "(avoir) 가지고 있었다"
+  },
+  {
+    "id": 139,
+    "word": "chez",
+    "gender": null,
+    "meaning": "~의 집에"
+  },
+  {
+    "id": 140,
+    "word": "vrai",
+    "gender": null,
+    "meaning": "진짜의"
+  },
+  {
+    "id": 141,
+    "word": "ans",
+    "gender": "m",
+    "meaning": "나이, 해(년)"
+  },
+  {
+    "id": 142,
+    "word": "mal",
+    "gender": "m",
+    "meaning": "아픔, 나쁘게"
+  },
+  {
+    "id": 143,
+    "word": "ses",
+    "gender": null,
+    "meaning": "그의, 그녀의(복수)"
+  },
+  {
+    "id": 144,
+    "word": "parler",
+    "gender": null,
+    "meaning": "말하다"
+  },
+  {
+    "id": 145,
+    "word": "vos",
+    "gender": null,
+    "meaning": "당신의(복수)"
+  },
+  {
+    "id": 146,
+    "word": "après",
+    "gender": null,
+    "meaning": "~후에"
+  },
+  {
+    "id": 147,
+    "word": "mort",
+    "gender": "f",
+    "meaning": "죽음"
+  },
+  {
+    "id": 148,
+    "word": "veut",
+    "gender": null,
+    "meaning": "(vouloir) 원하다"
+  },
+  {
+    "id": 149,
+    "word": "eu",
+    "gender": null,
+    "meaning": "(avoir) 가졌었다"
+  },
+  {
+    "id": 150,
+    "word": "sera",
+    "gender": null,
+    "meaning": "(être) ~일 것이다"
+  },
+  {
+    "id": 151,
+    "word": "bonne",
+    "gender": null,
+    "meaning": "좋은(여성형)"
+  },
+  {
+    "id": 152,
+    "word": "parce",
+    "gender": null,
+    "meaning": "왜냐하면(parce que)"
+  },
+  {
+    "id": 153,
+    "word": "mieux",
+    "gender": null,
+    "meaning": "더 잘"
+  },
+  {
+    "id": 154,
+    "word": "petit",
+    "gender": null,
+    "meaning": "작은"
+  },
+  {
+    "id": 155,
+    "word": "voilà",
+    "gender": null,
+    "meaning": "여기 있어요, 그거예요"
+  },
+  {
+    "id": 156,
+    "word": "tes",
+    "gender": null,
+    "meaning": "너의(복수)"
+  },
+  {
+    "id": 157,
+    "word": "dis",
+    "gender": null,
+    "meaning": "(dire) 말하다"
+  },
+  {
+    "id": 158,
+    "word": "beaucoup",
+    "gender": null,
+    "meaning": "많이"
+  },
+  {
+    "id": 159,
+    "word": "depuis",
+    "gender": null,
+    "meaning": "~부터"
+  },
+  {
+    "id": 160,
+    "word": "doit",
+    "gender": null,
+    "meaning": "(devoir) 해야 한다"
+  },
+  {
+    "id": 161,
+    "word": "vois",
+    "gender": null,
+    "meaning": "(voir) 보다"
+  },
+  {
+    "id": 162,
+    "word": "mère",
+    "gender": "f",
+    "meaning": "어머니"
+  },
+  {
+    "id": 163,
+    "word": "vas",
+    "gender": null,
+    "meaning": "(aller) 가다"
+  },
+  {
+    "id": 164,
+    "word": "monsieur",
+    "gender": "m",
+    "meaning": "~씨, 신사"
+  },
+  {
+    "id": 165,
+    "word": "quel",
+    "gender": null,
+    "meaning": "어떤(남성)"
+  },
+  {
+    "id": 166,
+    "word": "déjà",
+    "gender": null,
+    "meaning": "이미"
+  },
+  {
+    "id": 167,
+    "word": "fille",
+    "gender": "f",
+    "meaning": "딸, 소녀"
+  },
+  {
+    "id": 168,
+    "word": "gens",
+    "gender": "m",
+    "meaning": "사람들"
+  },
+  {
+    "id": 169,
+    "word": "donc",
+    "gender": null,
+    "meaning": "그러므로"
+  },
+  {
+    "id": 170,
+    "word": "jour",
+    "gender": "m",
+    "meaning": "날, 하루"
+  },
+  {
+    "id": 171,
+    "word": "soir",
+    "gender": "m",
+    "meaning": "저녁"
+  },
+  {
+    "id": 172,
+    "word": "autres",
+    "gender": null,
+    "meaning": "다른(복수)"
+  },
+  {
+    "id": 173,
+    "word": "toute",
+    "gender": null,
+    "meaning": "모든(여성)"
+  },
+  {
+    "id": 174,
+    "word": "bonjour",
+    "gender": "m",
+    "meaning": "안녕하세요"
+  },
+  {
+    "id": 175,
+    "word": "maison",
+    "gender": "f",
+    "meaning": "집"
+  },
+  {
+    "id": 176,
+    "word": "nom",
+    "gender": "m",
+    "meaning": "이름"
+  },
+  {
+    "id": 177,
+    "word": "argent",
+    "gender": "m",
+    "meaning": "돈, 은"
+  },
+  {
+    "id": 178,
+    "word": "nos",
+    "gender": null,
+    "meaning": "우리의(복수)"
+  },
+  {
+    "id": 179,
+    "word": "ouais",
+    "gender": null,
+    "meaning": "응(구어체 oui)"
+  },
+  {
+    "id": 180,
+    "word": "pense",
+    "gender": null,
+    "meaning": "(penser) 생각하다"
+  },
+  {
+    "id": 181,
+    "word": "merde",
+    "gender": "f",
+    "meaning": "젠장(비속어)"
+  },
+  {
+    "id": 182,
+    "word": "nuit",
+    "gender": "f",
+    "meaning": "밤"
+  },
+  {
+    "id": 183,
+    "word": "papa",
+    "gender": "m",
+    "meaning": "아빠"
+  },
+  {
+    "id": 184,
+    "word": "cela",
+    "gender": null,
+    "meaning": "그것"
+  },
+  {
+    "id": 185,
+    "word": "salut",
+    "gender": "m",
+    "meaning": "안녕(인사)"
+  },
+  {
+    "id": 186,
+    "word": "cet",
+    "gender": null,
+    "meaning": "이(남성, 모음 앞)"
+  },
+  {
+    "id": 187,
+    "word": "avons",
+    "gender": null,
+    "meaning": "(avoir) 가지고 있다(우리)"
+  },
+  {
+    "id": 188,
+    "word": "reste",
+    "gender": null,
+    "meaning": "(rester) 남다"
+  },
+  {
+    "id": 189,
+    "word": "désolé",
+    "gender": null,
+    "meaning": "미안한(남성형)"
+  },
+  {
+    "id": 190,
+    "word": "maman",
+    "gender": "f",
+    "meaning": "엄마"
+  },
+  {
+    "id": 191,
+    "word": "peur",
+    "gender": "f",
+    "meaning": "두려움"
+  },
+  {
+    "id": 192,
+    "word": "arrive",
+    "gender": null,
+    "meaning": "(arriver) 도착하다"
+  },
+  {
+    "id": 193,
+    "word": "seul",
+    "gender": null,
+    "meaning": "혼자인"
+  },
+  {
+    "id": 194,
+    "word": "vite",
+    "gender": null,
+    "meaning": "빨리"
+  },
+  {
+    "id": 195,
+    "word": "prendre",
+    "gender": null,
+    "meaning": "잡다, 가지다"
+  },
+  {
+    "id": 196,
+    "word": "regarde",
+    "gender": null,
+    "meaning": "(regarder) 보다"
+  },
+  {
+    "id": 197,
+    "word": "air",
+    "gender": "m",
+    "meaning": "공기, 분위기"
+  },
+  {
+    "id": 198,
+    "word": "soit",
+    "gender": null,
+    "meaning": "(être) ~이든지"
+  },
+  {
+    "id": 199,
+    "word": "trois",
+    "gender": null,
+    "meaning": "셋"
+  },
+  {
+    "id": 200,
+    "word": "quelle",
+    "gender": null,
+    "meaning": "어떤(여성)"
+  },
+  {
+    "id": 201,
+    "word": "passé",
+    "gender": "m",
+    "meaning": "과거"
+  },
+  {
+    "id": 202,
+    "word": "savoir",
+    "gender": null,
+    "meaning": "알다"
+  },
+  {
+    "id": 203,
+    "word": "plaît",
+    "gender": null,
+    "meaning": "(plaire) 마음에 들다(s'il vous plaît)"
+  },
+  {
+    "id": 204,
+    "word": "choses",
+    "gender": "f",
+    "meaning": "것들(복수)"
+  },
+  {
+    "id": 205,
+    "word": "moins",
+    "gender": null,
+    "meaning": "더 적게"
+  },
+  {
+    "id": 206,
+    "word": "fils",
+    "gender": "m",
+    "meaning": "아들"
+  },
+  {
+    "id": 207,
+    "word": "entre",
+    "gender": null,
+    "meaning": "~사이에"
+  },
+  {
+    "id": 208,
+    "word": "bas",
+    "gender": null,
+    "meaning": "낮은"
+  },
+  {
+    "id": 209,
+    "word": "appelle",
+    "gender": null,
+    "meaning": "(appeler) 부르다"
+  },
+  {
+    "id": 210,
+    "word": "passe",
+    "gender": null,
+    "meaning": "(passer) 지나가다"
+  },
+  {
+    "id": 211,
+    "word": "ah",
+    "gender": null,
+    "meaning": "아!(감탄사)"
+  },
+  {
+    "id": 212,
+    "word": "tête",
+    "gender": "f",
+    "meaning": "머리"
+  },
+  {
+    "id": 213,
+    "word": "demain",
+    "gender": null,
+    "meaning": "내일"
+  },
+  {
+    "id": 214,
+    "word": "grand",
+    "gender": null,
+    "meaning": "큰"
+  },
+  {
+    "id": 215,
+    "word": "arrête",
+    "gender": null,
+    "meaning": "(arrêter) 멈추다"
+  },
+  {
+    "id": 216,
+    "word": "faites",
+    "gender": null,
+    "meaning": "(faire) 하다(당신)"
+  },
+  {
+    "id": 217,
+    "word": "voulez",
+    "gender": null,
+    "meaning": "(vouloir) 원하다(당신)"
+  },
+  {
+    "id": 218,
+    "word": "hé",
+    "gender": null,
+    "meaning": "야!(감탄사)"
+  },
+  {
+    "id": 219,
+    "word": "attends",
+    "gender": null,
+    "meaning": "(attendre) 기다리다"
+  },
+  {
+    "id": 220,
+    "word": "hein",
+    "gender": null,
+    "meaning": "그렇지?(구어체)"
+  },
+  {
+    "id": 221,
+    "word": "enfants",
+    "gender": "m",
+    "meaning": "아이들"
+  },
+  {
+    "id": 222,
+    "word": "assez",
+    "gender": null,
+    "meaning": "충분히"
+  },
+  {
+    "id": 223,
+    "word": "raison",
+    "gender": "f",
+    "meaning": "이유, 이성"
+  },
+  {
+    "id": 224,
+    "word": "aurais",
+    "gender": null,
+    "meaning": "(avoir) 가질 것이다(조건법)"
+  },
+  {
+    "id": 225,
+    "word": "voulais",
+    "gender": null,
+    "meaning": "(vouloir) 원했다"
+  },
+  {
+    "id": 226,
+    "word": "elles",
+    "gender": null,
+    "meaning": "그녀들은"
+  },
+  {
+    "id": 227,
+    "word": "parle",
+    "gender": null,
+    "meaning": "(parler) 말하다"
+  },
+  {
+    "id": 228,
+    "word": "ok",
+    "gender": null,
+    "meaning": "오케이"
+  },
+  {
+    "id": 229,
+    "word": "jours",
+    "gender": "m",
+    "meaning": "날들(복수)"
+  },
+  {
+    "id": 230,
+    "word": "dû",
+    "gender": null,
+    "meaning": "(devoir) 해야 했다"
+  },
+  {
+    "id": 231,
+    "word": "moment",
+    "gender": "m",
+    "meaning": "순간"
+  },
+  {
+    "id": 232,
+    "word": "heure",
+    "gender": "f",
+    "meaning": "시각, 시간"
+  },
+  {
+    "id": 233,
+    "word": "puis",
+    "gender": null,
+    "meaning": "그다음에"
+  },
+  {
+    "id": 234,
+    "word": "gars",
+    "gender": "m",
+    "meaning": "녀석"
+  },
+  {
+    "id": 235,
+    "word": "hommes",
+    "gender": "m",
+    "meaning": "남자들"
+  },
+  {
+    "id": 236,
+    "word": "amour",
+    "gender": "m",
+    "meaning": "사랑"
+  },
+  {
+    "id": 237,
+    "word": "tard",
+    "gender": null,
+    "meaning": "늦게"
+  },
+  {
+    "id": 238,
+    "word": "toutes",
+    "gender": null,
+    "meaning": "모든(여성 복수)"
+  },
+  {
+    "id": 239,
+    "word": "sommes",
+    "gender": null,
+    "meaning": "(être) 우리는 ~이다"
+  },
+  {
+    "id": 240,
+    "word": "tuer",
+    "gender": null,
+    "meaning": "죽이다"
+  },
+  {
+    "id": 241,
+    "word": "eh",
+    "gender": null,
+    "meaning": "에!(감탄사)"
+  },
+  {
+    "id": 242,
+    "word": "ami",
+    "gender": "m",
+    "meaning": "친구"
+  },
+  {
+    "id": 243,
+    "word": "connais",
+    "gender": null,
+    "meaning": "(connaître) 알다"
+  },
+  {
+    "id": 244,
+    "word": "petite",
+    "gender": null,
+    "meaning": "작은(여성형)"
+  },
+  {
+    "id": 245,
+    "word": "aider",
+    "gender": null,
+    "meaning": "돕다"
+  },
+  {
+    "id": 246,
+    "word": "chance",
+    "gender": "f",
+    "meaning": "행운, 기회"
+  },
+  {
+    "id": 247,
+    "word": "savez",
+    "gender": null,
+    "meaning": "(savoir) 알다(당신)"
+  },
+  {
+    "id": 248,
+    "word": "partir",
+    "gender": null,
+    "meaning": "떠나다"
+  },
+  {
+    "id": 249,
+    "word": "sait",
+    "gender": null,
+    "meaning": "(savoir) 알다"
+  },
+  {
+    "id": 250,
+    "word": "combien",
+    "gender": null,
+    "meaning": "얼마나"
+  },
+  {
+    "id": 251,
+    "word": "voiture",
+    "gender": "f",
+    "meaning": "자동차"
+  },
+  {
+    "id": 252,
+    "word": "tant",
+    "gender": null,
+    "meaning": "그토록"
+  },
+  {
+    "id": 253,
+    "word": "pris",
+    "gender": null,
+    "meaning": "(prendre) 잡았다"
+  },
+  {
+    "id": 254,
+    "word": "part",
+    "gender": "f",
+    "meaning": "몫, 부분"
+  },
+  {
+    "id": 255,
+    "word": "problème",
+    "gender": "m",
+    "meaning": "문제"
+  },
+  {
+    "id": 256,
+    "word": "prends",
+    "gender": null,
+    "meaning": "(prendre) 잡다"
+  },
+  {
+    "id": 257,
+    "word": "porte",
+    "gender": "f",
+    "meaning": "문"
+  },
+  {
+    "id": 258,
+    "word": "coup",
+    "gender": "m",
+    "meaning": "타격, 한 번"
+  },
+  {
+    "id": 259,
+    "word": "serait",
+    "gender": null,
+    "meaning": "(être) ~일 것이다(조건법)"
+  },
+  {
+    "id": 260,
+    "word": "venir",
+    "gender": null,
+    "meaning": "오다"
+  },
+  {
+    "id": 261,
+    "word": "famille",
+    "gender": "f",
+    "meaning": "가족"
+  },
+  {
+    "id": 262,
+    "word": "travail",
+    "gender": "m",
+    "meaning": "일, 직장"
+  },
+  {
+    "id": 263,
+    "word": "pu",
+    "gender": null,
+    "meaning": "(pouvoir) 할 수 있었다"
+  },
+  {
+    "id": 264,
+    "word": "seule",
+    "gender": null,
+    "meaning": "혼자인(여성형)"
+  },
+  {
+    "id": 265,
+    "word": "sens",
+    "gender": "m",
+    "meaning": "감각, 의미"
+  },
+  {
+    "id": 266,
+    "word": "ni",
+    "gender": null,
+    "meaning": "~도 아니고"
+  },
+  {
+    "id": 267,
+    "word": "allons",
+    "gender": null,
+    "meaning": "(aller) 가다(우리)"
+  },
+  {
+    "id": 268,
+    "word": "revoir",
+    "gender": null,
+    "meaning": "다시 보다(au revoir)"
+  },
+  {
+    "id": 269,
+    "word": "idée",
+    "gender": "f",
+    "meaning": "생각, 아이디어"
+  },
+  {
+    "id": 270,
+    "word": "putain",
+    "gender": "f",
+    "meaning": "빌어먹을(비속어)"
+  },
+  {
+    "id": 271,
+    "word": "passer",
+    "gender": null,
+    "meaning": "지나가다"
+  },
+  {
+    "id": 272,
+    "word": "contre",
+    "gender": null,
+    "meaning": "~에 반대하여"
+  },
+  {
+    "id": 273,
+    "word": "comprends",
+    "gender": null,
+    "meaning": "(comprendre) 이해하다"
+  },
+  {
+    "id": 274,
+    "word": "entendu",
+    "gender": null,
+    "meaning": "(entendre) 들었다"
+  },
+  {
+    "id": 275,
+    "word": "trouvé",
+    "gender": null,
+    "meaning": "(trouver) 찾았다"
+  },
+  {
+    "id": 276,
+    "word": "trouver",
+    "gender": null,
+    "meaning": "찾다"
+  },
+  {
+    "id": 277,
+    "word": "vieux",
+    "gender": null,
+    "meaning": "늙은"
+  },
+  {
+    "id": 278,
+    "word": "vient",
+    "gender": null,
+    "meaning": "(venir) 오다"
+  },
+  {
+    "id": 279,
+    "word": "pendant",
+    "gender": null,
+    "meaning": "~동안"
+  },
+  {
+    "id": 280,
+    "word": "aurait",
+    "gender": null,
+    "meaning": "(avoir) 가질 것이다(조건법)"
+  },
+  {
+    "id": 281,
+    "word": "quelques",
+    "gender": null,
+    "meaning": "몇몇"
+  },
+  {
+    "id": 282,
+    "word": "attention",
+    "gender": "f",
+    "meaning": "주의"
+  },
+  {
+    "id": 283,
+    "word": "demande",
+    "gender": null,
+    "meaning": "(demander) 요청하다"
+  },
+  {
+    "id": 284,
+    "word": "chercher",
+    "gender": null,
+    "meaning": "찾다"
+  },
+  {
+    "id": 285,
+    "word": "sous",
+    "gender": null,
+    "meaning": "~아래에"
+  },
+  {
+    "id": 286,
+    "word": "voici",
+    "gender": null,
+    "meaning": "여기 있어요"
+  },
+  {
+    "id": 287,
+    "word": "pourrait",
+    "gender": null,
+    "meaning": "(pouvoir) 할 수 있을 것이다"
+  },
+  {
+    "id": 288,
+    "word": "sang",
+    "gender": "m",
+    "meaning": "피"
+  },
+  {
+    "id": 289,
+    "word": "pouvez",
+    "gender": null,
+    "meaning": "(pouvoir) 할 수 있다(당신)"
+  },
+  {
+    "id": 290,
+    "word": "sortir",
+    "gender": null,
+    "meaning": "나가다"
+  },
+  {
+    "id": 291,
+    "word": "question",
+    "gender": "f",
+    "meaning": "질문"
+  },
+  {
+    "id": 292,
+    "word": "histoire",
+    "gender": "f",
+    "meaning": "역사, 이야기"
+  },
+  {
+    "id": 293,
+    "word": "amis",
+    "gender": "m",
+    "meaning": "친구들"
+  },
+  {
+    "id": 294,
+    "word": "venez",
+    "gender": null,
+    "meaning": "(venir) 오다(당신)"
+  },
+  {
+    "id": 295,
+    "word": "frère",
+    "gender": "m",
+    "meaning": "형제"
+  },
+  {
+    "id": 296,
+    "word": "rester",
+    "gender": null,
+    "meaning": "머무르다"
+  },
+  {
+    "id": 297,
+    "word": "fini",
+    "gender": null,
+    "meaning": "(finir) 끝났다"
+  },
+  {
+    "id": 298,
+    "word": "ville",
+    "gender": "f",
+    "meaning": "도시"
+  },
+  {
+    "id": 299,
+    "word": "nouveau",
+    "gender": null,
+    "meaning": "새로운"
+  },
+  {
+    "id": 300,
+    "word": "truc",
+    "gender": "m",
+    "meaning": "물건, 것"
+  },
+  {
+    "id": 301,
+    "word": "tiens",
+    "gender": null,
+    "meaning": "(tenir) 잡다, 자!(감탄사)"
+  },
+  {
+    "id": 302,
+    "word": "mois",
+    "gender": "m",
+    "meaning": "달(월)"
+  },
+  {
+    "id": 303,
+    "word": "eux",
+    "gender": null,
+    "meaning": "그들(강세형)"
+  },
+  {
+    "id": 304,
+    "word": "mec",
+    "gender": "m",
+    "meaning": "녀석(구어체)"
+  },
+  {
+    "id": 305,
+    "word": "yeux",
+    "gender": "m",
+    "meaning": "눈들(복수)"
+  },
+  {
+    "id": 306,
+    "word": "laisse",
+    "gender": null,
+    "meaning": "(laisser) 내버려두다"
+  },
+  {
+    "id": 307,
+    "word": "super",
+    "gender": null,
+    "meaning": "대단한"
+  },
+  {
+    "id": 308,
+    "word": "belle",
+    "gender": null,
+    "meaning": "아름다운(여성형)"
+  },
+  {
+    "id": 309,
+    "word": "longtemps",
+    "gender": null,
+    "meaning": "오랫동안"
+  },
+  {
+    "id": 310,
+    "word": "police",
+    "gender": "f",
+    "meaning": "경찰"
+  },
+  {
+    "id": 311,
+    "word": "eau",
+    "gender": "f",
+    "meaning": "물"
+  },
+  {
+    "id": 312,
+    "word": "heures",
+    "gender": "f",
+    "meaning": "시각들(복수)"
+  },
+  {
+    "id": 313,
+    "word": "car",
+    "gender": null,
+    "meaning": "왜냐하면"
+  },
+  {
+    "id": 314,
+    "word": "importe",
+    "gender": null,
+    "meaning": "(importer) n'importe quoi 아무거나"
+  },
+  {
+    "id": 315,
+    "word": "cas",
+    "gender": "m",
+    "meaning": "경우"
+  },
+  {
+    "id": 316,
+    "word": "vont",
+    "gender": null,
+    "meaning": "(aller) 가다(그들)"
+  },
+  {
+    "id": 317,
+    "word": "chaque",
+    "gender": null,
+    "meaning": "각각의"
+  },
+  {
+    "id": 318,
+    "word": "terre",
+    "gender": "f",
+    "meaning": "땅, 지구"
+  },
+  {
+    "id": 319,
+    "word": "place",
+    "gender": "f",
+    "meaning": "자리, 장소"
+  },
+  {
+    "id": 320,
+    "word": "tué",
+    "gender": null,
+    "meaning": "(tuer) 죽였다"
+  },
+  {
+    "id": 321,
+    "word": "type",
+    "gender": "m",
+    "meaning": "타입, 녀석"
+  },
+  {
+    "id": 322,
+    "word": "main",
+    "gender": "f",
+    "meaning": "손"
+  },
+  {
+    "id": 323,
+    "word": "pardon",
+    "gender": "m",
+    "meaning": "용서, 실례합니다"
+  },
+  {
+    "id": 324,
+    "word": "ensemble",
+    "gender": null,
+    "meaning": "함께"
+  },
+  {
+    "id": 325,
+    "word": "seulement",
+    "gender": null,
+    "meaning": "오직"
+  },
+  {
+    "id": 326,
+    "word": "guerre",
+    "gender": "f",
+    "meaning": "전쟁"
+  },
+  {
+    "id": 327,
+    "word": "beau",
+    "gender": null,
+    "meaning": "아름다운"
+  },
+  {
+    "id": 328,
+    "word": "vers",
+    "gender": null,
+    "meaning": "~쪽으로"
+  },
+  {
+    "id": 329,
+    "word": "prie",
+    "gender": null,
+    "meaning": "(prier) 부탁하다(je vous en prie)"
+  },
+  {
+    "id": 330,
+    "word": "devant",
+    "gender": null,
+    "meaning": "~앞에"
+  },
+  {
+    "id": 331,
+    "word": "trouve",
+    "gender": null,
+    "meaning": "(trouver) 찾다"
+  },
+  {
+    "id": 332,
+    "word": "partie",
+    "gender": "f",
+    "meaning": "부분"
+  },
+  {
+    "id": 333,
+    "word": "suite",
+    "gender": "f",
+    "meaning": "연속, 계속"
+  },
+  {
+    "id": 334,
+    "word": "compris",
+    "gender": null,
+    "meaning": "(comprendre) 이해했다"
+  },
+  {
+    "id": 335,
+    "word": "matin",
+    "gender": "m",
+    "meaning": "아침"
+  },
+  {
+    "id": 336,
+    "word": "leurs",
+    "gender": null,
+    "meaning": "그들의(복수)"
+  },
+  {
+    "id": 337,
+    "word": "aucun",
+    "gender": null,
+    "meaning": "아무런 ~도 없다"
+  },
+  {
+    "id": 338,
+    "word": "arrivé",
+    "gender": null,
+    "meaning": "(arriver) 도착했다"
+  },
+  {
+    "id": 339,
+    "word": "dessus",
+    "gender": null,
+    "meaning": "그 위에"
+  },
+  {
+    "id": 340,
+    "word": "chérie",
+    "gender": "f",
+    "meaning": "여보, 자기(여성)"
+  },
+  {
+    "id": 341,
+    "word": "mettre",
+    "gender": null,
+    "meaning": "놓다, 두다"
+  },
+  {
+    "id": 342,
+    "word": "aide",
+    "gender": "f",
+    "meaning": "도움"
+  },
+  {
+    "id": 343,
+    "word": "étaient",
+    "gender": null,
+    "meaning": "(être) ~이었다(복수)"
+  },
+  {
+    "id": 344,
+    "word": "perdu",
+    "gender": null,
+    "meaning": "(perdre) 잃었다"
+  },
+  {
+    "id": 345,
+    "word": "fin",
+    "gender": "f",
+    "meaning": "끝"
+  },
+  {
+    "id": 346,
+    "word": "sois",
+    "gender": null,
+    "meaning": "(être) ~이어라(명령/접속법)"
+  },
+  {
+    "id": 347,
+    "word": "premier",
+    "gender": null,
+    "meaning": "첫 번째의"
+  },
+  {
+    "id": 348,
+    "word": "genre",
+    "gender": "m",
+    "meaning": "종류, 장르"
+  },
+  {
+    "id": 349,
+    "word": "aimerais",
+    "gender": null,
+    "meaning": "(aimer) 좋아할 것이다"
+  },
+  {
+    "id": 350,
+    "word": "droit",
+    "gender": "m",
+    "meaning": "권리, 오른쪽"
+  },
+  {
+    "id": 351,
+    "word": "donne",
+    "gender": null,
+    "meaning": "(donner) 주다"
+  },
+  {
+    "id": 352,
+    "word": "attendez",
+    "gender": null,
+    "meaning": "(attendre) 기다리다(당신)"
+  },
+  {
+    "id": 353,
+    "word": "jeune",
+    "gender": null,
+    "meaning": "젊은"
+  },
+  {
+    "id": 354,
+    "word": "feu",
+    "gender": "m",
+    "meaning": "불"
+  },
+  {
+    "id": 355,
+    "word": "devrais",
+    "gender": null,
+    "meaning": "(devoir) 해야 할 것이다"
+  },
+  {
+    "id": 356,
+    "word": "enfant",
+    "gender": null,
+    "meaning": "아이"
+  },
+  {
+    "id": 357,
+    "word": "chambre",
+    "gender": "f",
+    "meaning": "방"
+  },
+  {
+    "id": 358,
+    "word": "gros",
+    "gender": null,
+    "meaning": "뚱뚱한, 큰"
+  },
+  {
+    "id": 359,
+    "word": "côté",
+    "gender": "m",
+    "meaning": "옆, 쪽"
+  },
+  {
+    "id": 360,
+    "word": "venu",
+    "gender": null,
+    "meaning": "(venir) 왔다"
+  },
+  {
+    "id": 361,
+    "word": "loin",
+    "gender": null,
+    "meaning": "멀리"
+  },
+  {
+    "id": 362,
+    "word": "laisser",
+    "gender": null,
+    "meaning": "내버려두다"
+  },
+  {
+    "id": 363,
+    "word": "donner",
+    "gender": null,
+    "meaning": "주다"
+  },
+  {
+    "id": 364,
+    "word": "jouer",
+    "gender": null,
+    "meaning": "놀다, 연주하다"
+  },
+  {
+    "id": 365,
+    "word": "savais",
+    "gender": null,
+    "meaning": "(savoir) 알고 있었다"
+  },
+  {
+    "id": 366,
+    "word": "compte",
+    "gender": "m",
+    "meaning": "계산, 계좌"
+  },
+  {
+    "id": 367,
+    "word": "parlé",
+    "gender": null,
+    "meaning": "(parler) 말했다"
+  },
+  {
+    "id": 368,
+    "word": "minutes",
+    "gender": "f",
+    "meaning": "분들(복수)"
+  },
+  {
+    "id": 369,
+    "word": "regardez",
+    "gender": null,
+    "meaning": "(regarder) 보다(당신)"
+  },
+  {
+    "id": 370,
+    "word": "train",
+    "gender": "m",
+    "meaning": "기차"
+  },
+  {
+    "id": 371,
+    "word": "première",
+    "gender": null,
+    "meaning": "첫 번째의(여성형)"
+  },
+  {
+    "id": 372,
+    "word": "pouvoir",
+    "gender": "m",
+    "meaning": "할 수 있다 / 권력"
+  },
+  {
+    "id": 373,
+    "word": "aura",
+    "gender": null,
+    "meaning": "(avoir) 가질 것이다"
+  },
+  {
+    "id": 374,
+    "word": "mourir",
+    "gender": null,
+    "meaning": "죽다"
+  },
+  {
+    "id": 375,
+    "word": "dernière",
+    "gender": null,
+    "meaning": "마지막의(여성형)"
+  },
+  {
+    "id": 376,
+    "word": "donné",
+    "gender": null,
+    "meaning": "(donner) 주었다"
+  },
+  {
+    "id": 377,
+    "word": "mari",
+    "gender": "m",
+    "meaning": "남편"
+  },
+  {
+    "id": 378,
+    "word": "écoute",
+    "gender": null,
+    "meaning": "(écouter) 듣다"
+  },
+  {
+    "id": 379,
+    "word": "enfin",
+    "gender": null,
+    "meaning": "마침내"
+  },
+  {
+    "id": 380,
+    "word": "devrait",
+    "gender": null,
+    "meaning": "(devoir) 해야 할 것이다"
+  },
+  {
+    "id": 381,
+    "word": "mis",
+    "gender": null,
+    "meaning": "(mettre) 놓았다"
+  },
+  {
+    "id": 382,
+    "word": "film",
+    "gender": "m",
+    "meaning": "영화"
+  },
+  {
+    "id": 383,
+    "word": "aucune",
+    "gender": null,
+    "meaning": "아무런 ~도 없다(여성형)"
+  },
+  {
+    "id": 384,
+    "word": "fort",
+    "gender": null,
+    "meaning": "강한, 세게"
+  },
+  {
+    "id": 385,
+    "word": "façon",
+    "gender": "f",
+    "meaning": "방식"
+  },
+  {
+    "id": 386,
+    "word": "pays",
+    "gender": "m",
+    "meaning": "나라"
+  },
+  {
+    "id": 387,
+    "word": "prêt",
+    "gender": null,
+    "meaning": "준비된"
+  },
+  {
+    "id": 388,
+    "word": "madame",
+    "gender": "f",
+    "meaning": "부인, ~씨(여성)"
+  },
+  {
+    "id": 389,
+    "word": "femmes",
+    "gender": "f",
+    "meaning": "여자들"
+  },
+  {
+    "id": 390,
+    "word": "affaire",
+    "gender": "f",
+    "meaning": "일, 사업"
+  },
+  {
+    "id": 391,
+    "word": "pourrais",
+    "gender": null,
+    "meaning": "(pouvoir) 할 수 있을 것이다"
+  },
+  {
+    "id": 392,
+    "word": "espère",
+    "gender": null,
+    "meaning": "(espérer) 바라다"
+  },
+  {
+    "id": 393,
+    "word": "parti",
+    "gender": null,
+    "meaning": "(partir) 떠났다"
+  },
+  {
+    "id": 394,
+    "word": "boulot",
+    "gender": "m",
+    "meaning": "일(구어체)"
+  },
+  {
+    "id": 395,
+    "word": "endroit",
+    "gender": "m",
+    "meaning": "장소"
+  },
+  {
+    "id": 396,
+    "word": "fou",
+    "gender": null,
+    "meaning": "미친"
+  },
+  {
+    "id": 397,
+    "word": "corps",
+    "gender": "m",
+    "meaning": "몸"
+  },
+  {
+    "id": 398,
+    "word": "hier",
+    "gender": null,
+    "meaning": "어제"
+  },
+  {
+    "id": 399,
+    "word": "dont",
+    "gender": null,
+    "meaning": "~인데(관계대명사)"
+  },
+  {
+    "id": 400,
+    "word": "désolée",
+    "gender": null,
+    "meaning": "미안한(여성형)"
+  },
+  {
+    "id": 401,
+    "word": "grande",
+    "gender": null,
+    "meaning": "큰(여성형)"
+  },
+  {
+    "id": 402,
+    "word": "point",
+    "gender": "m",
+    "meaning": "점, 지점"
+  },
+  {
+    "id": 403,
+    "word": "cinq",
+    "gender": null,
+    "meaning": "다섯"
+  },
+  {
+    "id": 404,
+    "word": "dehors",
+    "gender": null,
+    "meaning": "밖에"
+  },
+  {
+    "id": 405,
+    "word": "filles",
+    "gender": "f",
+    "meaning": "딸들, 소녀들"
+  },
+  {
+    "id": 406,
+    "word": "cause",
+    "gender": "f",
+    "meaning": "원인"
+  },
+  {
+    "id": 407,
+    "word": "vivre",
+    "gender": null,
+    "meaning": "살다"
+  },
+  {
+    "id": 408,
+    "word": "près",
+    "gender": null,
+    "meaning": "가까이"
+  },
+  {
+    "id": 409,
+    "word": "pensais",
+    "gender": null,
+    "meaning": "(penser) 생각했다"
+  },
+  {
+    "id": 410,
+    "word": "garçon",
+    "gender": "m",
+    "meaning": "소년"
+  },
+  {
+    "id": 411,
+    "word": "chef",
+    "gender": "m",
+    "meaning": "우두머리, 요리사"
+  },
+  {
+    "id": 412,
+    "word": "haut",
+    "gender": null,
+    "meaning": "높은"
+  },
+  {
+    "id": 413,
+    "word": "capitaine",
+    "gender": null,
+    "meaning": "대위, 선장"
+  },
+  {
+    "id": 414,
+    "word": "dirait",
+    "gender": null,
+    "meaning": "(dire) 말할 것이다"
+  },
+  {
+    "id": 415,
+    "word": "bébé",
+    "gender": "m",
+    "meaning": "아기"
+  },
+  {
+    "id": 416,
+    "word": "celui",
+    "gender": null,
+    "meaning": "그것(남성 지시대명사)"
+  },
+  {
+    "id": 417,
+    "word": "demandé",
+    "gender": null,
+    "meaning": "(demander) 요청했다"
+  },
+  {
+    "id": 418,
+    "word": "possible",
+    "gender": null,
+    "meaning": "가능한"
+  },
+  {
+    "id": 419,
+    "word": "mains",
+    "gender": "f",
+    "meaning": "손들(복수)"
+  },
+  {
+    "id": 420,
+    "word": "ainsi",
+    "gender": null,
+    "meaning": "그렇게"
+  },
+  {
+    "id": 421,
+    "word": "quatre",
+    "gender": null,
+    "meaning": "넷"
+  },
+  {
+    "id": 422,
+    "word": "nouvelle",
+    "gender": null,
+    "meaning": "새로운(여성형)"
+  },
+  {
+    "id": 423,
+    "word": "années",
+    "gender": "f",
+    "meaning": "년들(복수)"
+  },
+  {
+    "id": 424,
+    "word": "plein",
+    "gender": null,
+    "meaning": "가득한"
+  },
+  {
+    "id": 425,
+    "word": "semaine",
+    "gender": "f",
+    "meaning": "주(週)"
+  },
+  {
+    "id": 426,
+    "word": "dites",
+    "gender": null,
+    "meaning": "(dire) 말하다(당신)"
+  },
+  {
+    "id": 427,
+    "word": "croire",
+    "gender": null,
+    "meaning": "믿다"
+  },
+  {
+    "id": 428,
+    "word": "marche",
+    "gender": null,
+    "meaning": "(marcher) 걷다"
+  },
+  {
+    "id": 429,
+    "word": "tour",
+    "gender": null,
+    "meaning": "차례, 탑(성에 따라 뜻 다름)"
+  },
+  {
+    "id": 430,
+    "word": "école",
+    "gender": "f",
+    "meaning": "학교"
+  },
+  {
+    "id": 431,
+    "word": "manger",
+    "gender": null,
+    "meaning": "먹다"
+  },
+  {
+    "id": 432,
+    "word": "plutôt",
+    "gender": null,
+    "meaning": "오히려"
+  },
+  {
+    "id": 433,
+    "word": "docteur",
+    "gender": "m",
+    "meaning": "의사"
+  },
+  {
+    "id": 434,
+    "word": "ceux",
+    "gender": null,
+    "meaning": "그것들(남성 복수)"
+  },
+  {
+    "id": 435,
+    "word": "vérité",
+    "gender": "f",
+    "meaning": "진실"
+  },
+  {
+    "id": 436,
+    "word": "vue",
+    "gender": "f",
+    "meaning": "시야, 봄"
+  },
+  {
+    "id": 437,
+    "word": "arrêter",
+    "gender": null,
+    "meaning": "멈추다"
+  },
+  {
+    "id": 438,
+    "word": "essaie",
+    "gender": null,
+    "meaning": "(essayer) 시도하다"
+  },
+  {
+    "id": 439,
+    "word": "envie",
+    "gender": "f",
+    "meaning": "욕구, 하고 싶음"
+  },
+  {
+    "id": 440,
+    "word": "bientôt",
+    "gender": null,
+    "meaning": "곧"
+  },
+  {
+    "id": 441,
+    "word": "instant",
+    "gender": "m",
+    "meaning": "순간"
+  },
+  {
+    "id": 442,
+    "word": "dernier",
+    "gender": null,
+    "meaning": "마지막의"
+  },
+  {
+    "id": 443,
+    "word": "affaires",
+    "gender": "f",
+    "meaning": "일들, 사업들"
+  },
+  {
+    "id": 444,
+    "word": "arriver",
+    "gender": null,
+    "meaning": "도착하다, 일어나다"
+  },
+  {
+    "id": 445,
+    "word": "demander",
+    "gender": null,
+    "meaning": "요청하다"
+  },
+  {
+    "id": 446,
+    "word": "meilleur",
+    "gender": null,
+    "meaning": "더 나은"
+  },
+  {
+    "id": 447,
+    "word": "font",
+    "gender": null,
+    "meaning": "(faire) 하다(그들)"
+  },
+  {
+    "id": 448,
+    "word": "derrière",
+    "gender": null,
+    "meaning": "뒤에"
+  },
+  {
+    "id": 449,
+    "word": "dollars",
+    "gender": "m",
+    "meaning": "달러들"
+  },
+  {
+    "id": 450,
+    "word": "presque",
+    "gender": null,
+    "meaning": "거의"
+  },
+  {
+    "id": 451,
+    "word": "dr",
+    "gender": "m",
+    "meaning": "의사(docteur 축약)"
+  },
+  {
+    "id": 452,
+    "word": "tellement",
+    "gender": null,
+    "meaning": "너무나"
+  },
+  {
+    "id": 453,
+    "word": "tomber",
+    "gender": null,
+    "meaning": "떨어지다"
+  },
+  {
+    "id": 454,
+    "word": "journée",
+    "gender": "f",
+    "meaning": "하루"
+  },
+  {
+    "id": 455,
+    "word": "voulait",
+    "gender": null,
+    "meaning": "(vouloir) 원했다"
+  },
+  {
+    "id": 456,
+    "word": "appeler",
+    "gender": null,
+    "meaning": "부르다"
+  },
+  {
+    "id": 457,
+    "word": "bureau",
+    "gender": "m",
+    "meaning": "사무실, 책상"
+  },
+  {
+    "id": 458,
+    "word": "confiance",
+    "gender": "f",
+    "meaning": "신뢰"
+  },
+  {
+    "id": 459,
+    "word": "garde",
+    "gender": null,
+    "meaning": "(garder) 지키다"
+  },
+  {
+    "id": 460,
+    "word": "attendre",
+    "gender": null,
+    "meaning": "기다리다"
+  },
+  {
+    "id": 461,
+    "word": "numéro",
+    "gender": "m",
+    "meaning": "번호"
+  },
+  {
+    "id": 462,
+    "word": "serai",
+    "gender": null,
+    "meaning": "(être) 나는 ~일 것이다"
+  },
+  {
+    "id": 463,
+    "word": "dur",
+    "gender": null,
+    "meaning": "단단한, 힘든"
+  },
+  {
+    "id": 464,
+    "word": "souviens",
+    "gender": null,
+    "meaning": "(se souvenir) 기억하다"
+  },
+  {
+    "id": 465,
+    "word": "voyez",
+    "gender": null,
+    "meaning": "(voir) 보다(당신)"
+  },
+  {
+    "id": 466,
+    "word": "cours",
+    "gender": "m",
+    "meaning": "수업, 강의"
+  },
+  {
+    "id": 467,
+    "word": "bonsoir",
+    "gender": "m",
+    "meaning": "안녕하세요(저녁)"
+  },
+  {
+    "id": 468,
+    "word": "route",
+    "gender": "f",
+    "meaning": "길, 도로"
+  },
+  {
+    "id": 469,
+    "word": "fera",
+    "gender": null,
+    "meaning": "(faire) 할 것이다"
+  },
+  {
+    "id": 470,
+    "word": "prend",
+    "gender": null,
+    "meaning": "(prendre) 잡다"
+  },
+  {
+    "id": 471,
+    "word": "cul",
+    "gender": "m",
+    "meaning": "엉덩이(비속어)"
+  },
+  {
+    "id": 472,
+    "word": "abord",
+    "gender": "m",
+    "meaning": "우선(d'abord)"
+  },
+  {
+    "id": 473,
+    "word": "important",
+    "gender": null,
+    "meaning": "중요한"
+  },
+  {
+    "id": 474,
+    "word": "peine",
+    "gender": "f",
+    "meaning": "고통, 벌"
+  },
+  {
+    "id": 475,
+    "word": "croyais",
+    "gender": null,
+    "meaning": "(croire) 믿었다"
+  },
+  {
+    "id": 476,
+    "word": "mot",
+    "gender": "m",
+    "meaning": "단어"
+  },
+  {
+    "id": 477,
+    "word": "devez",
+    "gender": null,
+    "meaning": "(devoir) 해야 한다(당신)"
+  },
+  {
+    "id": 478,
+    "word": "suffit",
+    "gender": null,
+    "meaning": "(suffire) 충분하다"
+  },
+  {
+    "id": 479,
+    "word": "minute",
+    "gender": "f",
+    "meaning": "분(시간)"
+  },
+  {
+    "id": 480,
+    "word": "ferme",
+    "gender": null,
+    "meaning": "(fermer) 닫다"
+  },
+  {
+    "id": 481,
+    "word": "ben",
+    "gender": null,
+    "meaning": "음(구어체 감탄사)"
+  },
+  {
+    "id": 482,
+    "word": "plaisir",
+    "gender": "m",
+    "meaning": "기쁨, 즐거움"
+  },
+  {
+    "id": 483,
+    "word": "chien",
+    "gender": "m",
+    "meaning": "개"
+  },
+  {
+    "id": 484,
+    "word": "jeu",
+    "gender": "m",
+    "meaning": "게임, 놀이"
+  },
+  {
+    "id": 485,
+    "word": "seigneur",
+    "gender": "m",
+    "meaning": "군주, 주님"
+  },
+  {
+    "id": 486,
+    "word": "messieurs",
+    "gender": "m",
+    "meaning": "신사분들"
+  }
+]

@@ -287,6 +287,9 @@ brain/
 **영어**
 - [영어 GRE 어휘](https://brain.dongwook.kim/drills/영어_GRE_어휘.html)
 
+**프랑스어**
+- [프랑스어 빈도 어휘](https://brain.dongwook.kim/drills/프랑스어_빈도_어휘.html)
+
 **아랍어**
 - [아랍어 기초 어휘](https://brain.dongwook.kim/drills/아랍어_기초_어휘.html)
 
