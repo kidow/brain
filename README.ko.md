@@ -109,6 +109,7 @@ brain/
 - [러시아어 서수사](https://brain.dongwook.kim/notes/러시아어/러시아어_서수사)
 - [러시아어 명사 격변화 심화](https://brain.dongwook.kim/notes/러시아어/러시아어_명사_격변화_심화)
 - [러시아어 감정·상태 형용사](https://brain.dongwook.kim/notes/러시아어/러시아어_감정_상태_형용사)
+- [러시아어 날씨 표현](https://brain.dongwook.kim/notes/러시아어/러시아어_날씨_표현)
 
 **언어 — 스페인어**
 - [스페인어 문자](https://brain.dongwook.kim/notes/스페인어/스페인어_문자)
