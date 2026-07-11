@@ -135,14 +135,14 @@ brain/
 - [프랑스어 접속법](https://brain.dongwook.kim/notes/프랑스어/프랑스어_접속법)
 
 **언어 — 아랍어**
-- [아랍어 문자](https://brain.dongwook.kim/notes/아랍어_문자)
-- [아랍어 기초 어휘](https://brain.dongwook.kim/notes/아랍어_기초_어휘)
-- [아랍어 회화](https://brain.dongwook.kim/notes/아랍어_회화)
-- [아랍어 동사 활용](https://brain.dongwook.kim/notes/아랍어_동사_활용)
-- [아랍어 관계대명사](https://brain.dongwook.kim/notes/아랍어_관계대명사)
-- [아랍어 조건문](https://brain.dongwook.kim/notes/아랍어_조건문)
-- [아랍어 수동태](https://brain.dongwook.kim/notes/아랍어_수동태)
-- [아랍어 비교급](https://brain.dongwook.kim/notes/아랍어_비교급)
+- [아랍어 문자](https://brain.dongwook.kim/notes/아랍어/아랍어_문자)
+- [아랍어 기초 어휘](https://brain.dongwook.kim/notes/아랍어/아랍어_기초_어휘)
+- [아랍어 회화](https://brain.dongwook.kim/notes/아랍어/아랍어_회화)
+- [아랍어 동사 활용](https://brain.dongwook.kim/notes/아랍어/아랍어_동사_활용)
+- [아랍어 관계대명사](https://brain.dongwook.kim/notes/아랍어/아랍어_관계대명사)
+- [아랍어 조건문](https://brain.dongwook.kim/notes/아랍어/아랍어_조건문)
+- [아랍어 수동태](https://brain.dongwook.kim/notes/아랍어/아랍어_수동태)
+- [아랍어 비교급](https://brain.dongwook.kim/notes/아랍어/아랍어_비교급)
 
 **언어 — 영어**
 - [영어 전치사](https://brain.dongwook.kim/notes/영어/영어_전치사)
