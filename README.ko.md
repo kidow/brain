@@ -80,6 +80,7 @@ brain/
 **언어 — 스페인어**
 - [스페인어 문자](https://brain.dongwook.kim/notes/스페인어_문자)
 - [스페인어 명사와 성](https://brain.dongwook.kim/notes/스페인어_명사와_성)
+- [스페인어 기초 어휘](https://brain.dongwook.kim/notes/스페인어_기초_어휘)
 
 **언어 — 독일어**
 - [독일어 문자](https://brain.dongwook.kim/notes/독일어_문자)

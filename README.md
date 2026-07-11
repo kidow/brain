@@ -80,6 +80,7 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 **Languages — Spanish**
 - [스페인어 문자](https://brain.dongwook.kim/notes/스페인어_문자)
 - [스페인어 명사와 성](https://brain.dongwook.kim/notes/스페인어_명사와_성)
+- [스페인어 기초 어휘](https://brain.dongwook.kim/notes/스페인어_기초_어휘)
 
 **Languages — German**
 - [독일어 문자](https://brain.dongwook.kim/notes/독일어_문자)
