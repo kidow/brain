@@ -138,6 +138,7 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [독일어 수동태](https://brain.dongwook.kim/notes/독일어/독일어_수동태)
 - [독일어 부사](https://brain.dongwook.kim/notes/독일어/독일어_부사)
 - [독일어 명사화](https://brain.dongwook.kim/notes/독일어/독일어_명사화)
+- [독일어 접속사](https://brain.dongwook.kim/notes/독일어/독일어_접속사)
 
 **Languages — French**
 - [프랑스어 문자](https://brain.dongwook.kim/notes/프랑스어/프랑스어_문자)
