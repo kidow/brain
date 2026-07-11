@@ -101,6 +101,7 @@ brain/
 - [러시아어 지시대명사](https://brain.dongwook.kim/notes/러시아어_지시대명사)
 - [러시아어 의문문 심화](https://brain.dongwook.kim/notes/러시아어_의문문_심화)
 - [러시아어 형용사 비교급 최상급](https://brain.dongwook.kim/notes/러시아어_형용사_비교급_최상급)
+- [러시아어 인칭대명사 격변화](https://brain.dongwook.kim/notes/러시아어_인칭대명사_격변화)
 
 **언어 — 스페인어**
 - [스페인어 문자](https://brain.dongwook.kim/notes/스페인어_문자)
