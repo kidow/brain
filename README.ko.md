@@ -116,6 +116,7 @@ brain/
 - [프랑스어 명령문 목적어 대명사 위치](https://brain.dongwook.kim/notes/프랑스어_명령문_목적어_대명사_위치)
 - [프랑스어 재귀동사](https://brain.dongwook.kim/notes/프랑스어_재귀동사)
 - [프랑스어 복합과거](https://brain.dongwook.kim/notes/프랑스어_복합과거)
+- [프랑스어 재귀동사 복합과거](https://brain.dongwook.kim/notes/프랑스어_재귀동사_복합과거)
 
 **언어 — 아랍어**
 - [아랍어 문자](https://brain.dongwook.kim/notes/아랍어_문자)
