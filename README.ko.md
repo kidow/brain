@@ -112,6 +112,7 @@ brain/
 - [프랑스어 직접목적어 대명사](https://brain.dongwook.kim/notes/프랑스어_직접목적어_대명사)
 - [프랑스어 명령문](https://brain.dongwook.kim/notes/프랑스어_명령문)
 - [프랑스어 명령문 목적어 대명사 위치](https://brain.dongwook.kim/notes/프랑스어_명령문_목적어_대명사_위치)
+- [프랑스어 재귀동사](https://brain.dongwook.kim/notes/프랑스어_재귀동사)
 
 **언어 — 아랍어**
 - [아랍어 문자](https://brain.dongwook.kim/notes/아랍어_문자)
