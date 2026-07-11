@@ -1,0 +1,3002 @@
+[
+  {
+    "id": 0,
+    "word": "de",
+    "gender": null,
+    "meaning": "~의, ~로부터"
+  },
+  {
+    "id": 1,
+    "word": "que",
+    "gender": null,
+    "meaning": "~라는 것, 무엇을"
+  },
+  {
+    "id": 2,
+    "word": "no",
+    "gender": null,
+    "meaning": "아니다(부정)"
+  },
+  {
+    "id": 3,
+    "word": "a",
+    "gender": null,
+    "meaning": "~에게, ~로"
+  },
+  {
+    "id": 4,
+    "word": "la",
+    "gender": null,
+    "meaning": "그(여성 정관사)"
+  },
+  {
+    "id": 5,
+    "word": "el",
+    "gender": null,
+    "meaning": "그(남성 정관사)"
+  },
+  {
+    "id": 6,
+    "word": "y",
+    "gender": null,
+    "meaning": "그리고"
+  },
+  {
+    "id": 7,
+    "word": "es",
+    "gender": null,
+    "meaning": "(ser) ~이다"
+  },
+  {
+    "id": 8,
+    "word": "en",
+    "gender": null,
+    "meaning": "~에, ~안에"
+  },
+  {
+    "id": 9,
+    "word": "lo",
+    "gender": null,
+    "meaning": "그것(중성 대명사)"
+  },
+  {
+    "id": 10,
+    "word": "un",
+    "gender": null,
+    "meaning": "하나, 어떤(남성)"
+  },
+  {
+    "id": 11,
+    "word": "por",
+    "gender": null,
+    "meaning": "~때문에, ~을 통해"
+  },
+  {
+    "id": 12,
+    "word": "qué",
+    "gender": null,
+    "meaning": "무엇"
+  },
+  {
+    "id": 13,
+    "word": "me",
+    "gender": null,
+    "meaning": "나를, 나에게"
+  },
+  {
+    "id": 14,
+    "word": "una",
+    "gender": null,
+    "meaning": "하나(여성)"
+  },
+  {
+    "id": 15,
+    "word": "los",
+    "gender": null,
+    "meaning": "그들(남성 복수 정관사)"
+  },
+  {
+    "id": 16,
+    "word": "se",
+    "gender": null,
+    "meaning": "자기 자신을(재귀대명사)"
+  },
+  {
+    "id": 17,
+    "word": "te",
+    "gender": null,
+    "meaning": "너를, 너에게"
+  },
+  {
+    "id": 18,
+    "word": "con",
+    "gender": null,
+    "meaning": "~와 함께"
+  },
+  {
+    "id": 19,
+    "word": "para",
+    "gender": null,
+    "meaning": "~을 위해"
+  },
+  {
+    "id": 20,
+    "word": "está",
+    "gender": null,
+    "meaning": "(estar) 있다"
+  },
+  {
+    "id": 21,
+    "word": "mi",
+    "gender": null,
+    "meaning": "나의"
+  },
+  {
+    "id": 22,
+    "word": "pero",
+    "gender": null,
+    "meaning": "그러나"
+  },
+  {
+    "id": 23,
+    "word": "sí",
+    "gender": null,
+    "meaning": "네, 그렇다"
+  },
+  {
+    "id": 24,
+    "word": "si",
+    "gender": null,
+    "meaning": "만약"
+  },
+  {
+    "id": 25,
+    "word": "bien",
+    "gender": null,
+    "meaning": "잘, 좋게"
+  },
+  {
+    "id": 26,
+    "word": "eso",
+    "gender": null,
+    "meaning": "그것"
+  },
+  {
+    "id": 27,
+    "word": "su",
+    "gender": null,
+    "meaning": "그의, 그녀의, 당신의"
+  },
+  {
+    "id": 28,
+    "word": "las",
+    "gender": null,
+    "meaning": "그들(여성 복수 정관사)"
+  },
+  {
+    "id": 29,
+    "word": "yo",
+    "gender": null,
+    "meaning": "나는"
+  },
+  {
+    "id": 30,
+    "word": "del",
+    "gender": null,
+    "meaning": "de+el 축약(그것의)"
+  },
+  {
+    "id": 31,
+    "word": "como",
+    "gender": null,
+    "meaning": "~처럼, (comer)나는 먹는다"
+  },
+  {
+    "id": 32,
+    "word": "aquí",
+    "gender": null,
+    "meaning": "여기"
+  },
+  {
+    "id": 33,
+    "word": "tu",
+    "gender": null,
+    "meaning": "너의"
+  },
+  {
+    "id": 34,
+    "word": "al",
+    "gender": null,
+    "meaning": "a+el 축약"
+  },
+  {
+    "id": 35,
+    "word": "más",
+    "gender": null,
+    "meaning": "더, 더 많이"
+  },
+  {
+    "id": 36,
+    "word": "le",
+    "gender": null,
+    "meaning": "그에게, 그녀에게"
+  },
+  {
+    "id": 37,
+    "word": "esto",
+    "gender": null,
+    "meaning": "이것"
+  },
+  {
+    "id": 38,
+    "word": "todo",
+    "gender": null,
+    "meaning": "모든 것, 전부"
+  },
+  {
+    "id": 39,
+    "word": "ya",
+    "gender": null,
+    "meaning": "이미, 벌써"
+  },
+  {
+    "id": 40,
+    "word": "estoy",
+    "gender": null,
+    "meaning": "(estar) 나는 있다"
+  },
+  {
+    "id": 41,
+    "word": "ahora",
+    "gender": null,
+    "meaning": "지금"
+  },
+  {
+    "id": 42,
+    "word": "muy",
+    "gender": null,
+    "meaning": "매우"
+  },
+  {
+    "id": 43,
+    "word": "ha",
+    "gender": null,
+    "meaning": "(haber) ~했다(조동사)"
+  },
+  {
+    "id": 44,
+    "word": "esta",
+    "gender": null,
+    "meaning": "이(여성)"
+  },
+  {
+    "id": 45,
+    "word": "así",
+    "gender": null,
+    "meaning": "이렇게"
+  },
+  {
+    "id": 46,
+    "word": "vamos",
+    "gender": null,
+    "meaning": "(ir) 우리는 간다"
+  },
+  {
+    "id": 47,
+    "word": "algo",
+    "gender": null,
+    "meaning": "무언가"
+  },
+  {
+    "id": 48,
+    "word": "hay",
+    "gender": null,
+    "meaning": "~이 있다"
+  },
+  {
+    "id": 49,
+    "word": "bueno",
+    "gender": null,
+    "meaning": "좋은, 자 그럼"
+  },
+  {
+    "id": 50,
+    "word": "tengo",
+    "gender": null,
+    "meaning": "(tener) 나는 가지고 있다"
+  },
+  {
+    "id": 51,
+    "word": "él",
+    "gender": null,
+    "meaning": "그는"
+  },
+  {
+    "id": 52,
+    "word": "cuando",
+    "gender": null,
+    "meaning": "~할 때"
+  },
+  {
+    "id": 53,
+    "word": "estás",
+    "gender": null,
+    "meaning": "(estar) 너는 있다"
+  },
+  {
+    "id": 54,
+    "word": "sé",
+    "gender": null,
+    "meaning": "(saber)나는 안다/(ser)~해라"
+  },
+  {
+    "id": 55,
+    "word": "tú",
+    "gender": null,
+    "meaning": "너"
+  },
+  {
+    "id": 56,
+    "word": "nos",
+    "gender": null,
+    "meaning": "우리를, 우리에게"
+  },
+  {
+    "id": 57,
+    "word": "nada",
+    "gender": null,
+    "meaning": "아무것도(없음)"
+  },
+  {
+    "id": 58,
+    "word": "cómo",
+    "gender": null,
+    "meaning": "어떻게"
+  },
+  {
+    "id": 59,
+    "word": "este",
+    "gender": null,
+    "meaning": "이(남성)"
+  },
+  {
+    "id": 60,
+    "word": "o",
+    "gender": null,
+    "meaning": "또는"
+  },
+  {
+    "id": 61,
+    "word": "he",
+    "gender": null,
+    "meaning": "(haber) 나는 ~했다"
+  },
+  {
+    "id": 62,
+    "word": "ser",
+    "gender": null,
+    "meaning": "~이다(원형)"
+  },
+  {
+    "id": 63,
+    "word": "tiene",
+    "gender": null,
+    "meaning": "(tener) 그는 가지고 있다"
+  },
+  {
+    "id": 64,
+    "word": "puedo",
+    "gender": null,
+    "meaning": "(poder) 나는 할 수 있다"
+  },
+  {
+    "id": 65,
+    "word": "ella",
+    "gender": null,
+    "meaning": "그녀는"
+  },
+  {
+    "id": 66,
+    "word": "quiero",
+    "gender": null,
+    "meaning": "(querer) 나는 원한다"
+  },
+  {
+    "id": 67,
+    "word": "hacer",
+    "gender": null,
+    "meaning": "하다"
+  },
+  {
+    "id": 68,
+    "word": "fue",
+    "gender": null,
+    "meaning": "(ser/ir) ~이었다, 갔다"
+  },
+  {
+    "id": 69,
+    "word": "gracias",
+    "gender": null,
+    "meaning": "고마워요"
+  },
+  {
+    "id": 70,
+    "word": "vez",
+    "gender": null,
+    "meaning": "번, 회"
+  },
+  {
+    "id": 71,
+    "word": "era",
+    "gender": null,
+    "meaning": "(ser) ~이었다"
+  },
+  {
+    "id": 72,
+    "word": "soy",
+    "gender": null,
+    "meaning": "(ser) 나는 ~이다"
+  },
+  {
+    "id": 73,
+    "word": "sólo",
+    "gender": null,
+    "meaning": "오직"
+  },
+  {
+    "id": 74,
+    "word": "todos",
+    "gender": null,
+    "meaning": "모두(남성 복수)"
+  },
+  {
+    "id": 75,
+    "word": "porque",
+    "gender": null,
+    "meaning": "왜냐하면"
+  },
+  {
+    "id": 76,
+    "word": "son",
+    "gender": null,
+    "meaning": "(ser) 그들은 ~이다"
+  },
+  {
+    "id": 77,
+    "word": "tienes",
+    "gender": null,
+    "meaning": "(tener) 너는 가지고 있다"
+  },
+  {
+    "id": 78,
+    "word": "creo",
+    "gender": null,
+    "meaning": "(creer) 나는 생각한다"
+  },
+  {
+    "id": 79,
+    "word": "voy",
+    "gender": null,
+    "meaning": "(ir) 나는 간다"
+  },
+  {
+    "id": 80,
+    "word": "sabes",
+    "gender": null,
+    "meaning": "(saber) 너는 안다"
+  },
+  {
+    "id": 81,
+    "word": "estaba",
+    "gender": null,
+    "meaning": "(estar) ~있었다"
+  },
+  {
+    "id": 82,
+    "word": "puede",
+    "gender": null,
+    "meaning": "(poder) ~할 수 있다"
+  },
+  {
+    "id": 83,
+    "word": "eres",
+    "gender": null,
+    "meaning": "(ser) 너는 ~이다"
+  },
+  {
+    "id": 84,
+    "word": "ese",
+    "gender": null,
+    "meaning": "그(남성)"
+  },
+  {
+    "id": 85,
+    "word": "usted",
+    "gender": null,
+    "meaning": "당신(존칭)"
+  },
+  {
+    "id": 86,
+    "word": "entonces",
+    "gender": null,
+    "meaning": "그렇다면"
+  },
+  {
+    "id": 87,
+    "word": "hola",
+    "gender": null,
+    "meaning": "안녕"
+  },
+  {
+    "id": 88,
+    "word": "solo",
+    "gender": null,
+    "meaning": "혼자, 오직"
+  },
+  {
+    "id": 89,
+    "word": "verdad",
+    "gender": null,
+    "meaning": "진실, 맞지?"
+  },
+  {
+    "id": 90,
+    "word": "casa",
+    "gender": "f",
+    "meaning": "집"
+  },
+  {
+    "id": 91,
+    "word": "tan",
+    "gender": null,
+    "meaning": "그렇게(정도)"
+  },
+  {
+    "id": 92,
+    "word": "quién",
+    "gender": null,
+    "meaning": "누구"
+  },
+  {
+    "id": 93,
+    "word": "sus",
+    "gender": null,
+    "meaning": "그들의(복수)"
+  },
+  {
+    "id": 94,
+    "word": "tiempo",
+    "gender": "m",
+    "meaning": "시간"
+  },
+  {
+    "id": 95,
+    "word": "dos",
+    "gender": null,
+    "meaning": "둘"
+  },
+  {
+    "id": 96,
+    "word": "esa",
+    "gender": null,
+    "meaning": "그(여성)"
+  },
+  {
+    "id": 97,
+    "word": "nunca",
+    "gender": null,
+    "meaning": "결코 ~않다"
+  },
+  {
+    "id": 98,
+    "word": "dónde",
+    "gender": null,
+    "meaning": "어디"
+  },
+  {
+    "id": 99,
+    "word": "va",
+    "gender": null,
+    "meaning": "(ir) 그는 간다"
+  },
+  {
+    "id": 100,
+    "word": "oh",
+    "gender": null,
+    "meaning": "오(감탄사)"
+  },
+  {
+    "id": 101,
+    "word": "favor",
+    "gender": null,
+    "meaning": "부탁"
+  },
+  {
+    "id": 102,
+    "word": "mucho",
+    "gender": null,
+    "meaning": "많이, 많은"
+  },
+  {
+    "id": 103,
+    "word": "mí",
+    "gender": null,
+    "meaning": "나(전치사 뒤)"
+  },
+  {
+    "id": 104,
+    "word": "quieres",
+    "gender": null,
+    "meaning": "(querer) 너는 원한다"
+  },
+  {
+    "id": 105,
+    "word": "siento",
+    "gender": null,
+    "meaning": "(sentir) 나는 느낀다, 미안하다"
+  },
+  {
+    "id": 106,
+    "word": "señor",
+    "gender": null,
+    "meaning": "~씨, 선생님"
+  },
+  {
+    "id": 107,
+    "word": "mejor",
+    "gender": null,
+    "meaning": "더 나은"
+  },
+  {
+    "id": 108,
+    "word": "hace",
+    "gender": null,
+    "meaning": "(hacer) 그는 한다, 날씨가 ~하다"
+  },
+  {
+    "id": 109,
+    "word": "has",
+    "gender": null,
+    "meaning": "(haber) 너는 ~했다"
+  },
+  {
+    "id": 110,
+    "word": "decir",
+    "gender": null,
+    "meaning": "말하다"
+  },
+  {
+    "id": 111,
+    "word": "también",
+    "gender": null,
+    "meaning": "또한"
+  },
+  {
+    "id": 112,
+    "word": "sobre",
+    "gender": null,
+    "meaning": "~에 대해, 위에"
+  },
+  {
+    "id": 113,
+    "word": "dios",
+    "gender": null,
+    "meaning": "신"
+  },
+  {
+    "id": 114,
+    "word": "sin",
+    "gender": null,
+    "meaning": "~없이"
+  },
+  {
+    "id": 115,
+    "word": "tenemos",
+    "gender": null,
+    "meaning": "(tener) 우리는 가지고 있다"
+  },
+  {
+    "id": 116,
+    "word": "están",
+    "gender": null,
+    "meaning": "(estar) 그들은 있다"
+  },
+  {
+    "id": 117,
+    "word": "ti",
+    "gender": null,
+    "meaning": "너(전치사 뒤)"
+  },
+  {
+    "id": 118,
+    "word": "puedes",
+    "gender": null,
+    "meaning": "(poder) 너는 할 수 있다"
+  },
+  {
+    "id": 119,
+    "word": "ver",
+    "gender": null,
+    "meaning": "보다"
+  },
+  {
+    "id": 120,
+    "word": "hombre",
+    "gender": "m",
+    "meaning": "남자"
+  },
+  {
+    "id": 121,
+    "word": "vida",
+    "gender": "f",
+    "meaning": "인생, 삶"
+  },
+  {
+    "id": 122,
+    "word": "alguien",
+    "gender": null,
+    "meaning": "누군가"
+  },
+  {
+    "id": 123,
+    "word": "cosas",
+    "gender": "f",
+    "meaning": "것들"
+  },
+  {
+    "id": 124,
+    "word": "siempre",
+    "gender": null,
+    "meaning": "항상"
+  },
+  {
+    "id": 125,
+    "word": "hasta",
+    "gender": null,
+    "meaning": "~까지"
+  },
+  {
+    "id": 126,
+    "word": "ahí",
+    "gender": null,
+    "meaning": "거기"
+  },
+  {
+    "id": 127,
+    "word": "ir",
+    "gender": null,
+    "meaning": "가다"
+  },
+  {
+    "id": 128,
+    "word": "años",
+    "gender": "m",
+    "meaning": "년, 나이"
+  },
+  {
+    "id": 129,
+    "word": "antes",
+    "gender": null,
+    "meaning": "~전에"
+  },
+  {
+    "id": 130,
+    "word": "estar",
+    "gender": null,
+    "meaning": "있다(원형)"
+  },
+  {
+    "id": 131,
+    "word": "ni",
+    "gender": null,
+    "meaning": "~도 아니고"
+  },
+  {
+    "id": 132,
+    "word": "poco",
+    "gender": null,
+    "meaning": "조금"
+  },
+  {
+    "id": 133,
+    "word": "día",
+    "gender": "m",
+    "meaning": "하루, 날"
+  },
+  {
+    "id": 134,
+    "word": "uno",
+    "gender": null,
+    "meaning": "하나"
+  },
+  {
+    "id": 135,
+    "word": "noche",
+    "gender": "f",
+    "meaning": "밤"
+  },
+  {
+    "id": 136,
+    "word": "hecho",
+    "gender": null,
+    "meaning": "한 것, 사실"
+  },
+  {
+    "id": 137,
+    "word": "mis",
+    "gender": null,
+    "meaning": "나의(복수)"
+  },
+  {
+    "id": 138,
+    "word": "estamos",
+    "gender": null,
+    "meaning": "(estar) 우리는 있다"
+  },
+  {
+    "id": 139,
+    "word": "otra",
+    "gender": null,
+    "meaning": "다른(여성)"
+  },
+  {
+    "id": 140,
+    "word": "acuerdo",
+    "gender": null,
+    "meaning": "동의, 합의"
+  },
+  {
+    "id": 141,
+    "word": "trabajo",
+    "gender": "m",
+    "meaning": "일, 직장"
+  },
+  {
+    "id": 142,
+    "word": "nosotros",
+    "gender": null,
+    "meaning": "우리는"
+  },
+  {
+    "id": 143,
+    "word": "parece",
+    "gender": null,
+    "meaning": "(parecer) ~처럼 보인다"
+  },
+  {
+    "id": 144,
+    "word": "gente",
+    "gender": "f",
+    "meaning": "사람들"
+  },
+  {
+    "id": 145,
+    "word": "sea",
+    "gender": null,
+    "meaning": "(ser 접속법) ~이든"
+  },
+  {
+    "id": 146,
+    "word": "padre",
+    "gender": "m",
+    "meaning": "아버지"
+  },
+  {
+    "id": 147,
+    "word": "mira",
+    "gender": null,
+    "meaning": "(mirar) 봐라"
+  },
+  {
+    "id": 148,
+    "word": "mismo",
+    "gender": null,
+    "meaning": "같은"
+  },
+  {
+    "id": 149,
+    "word": "dijo",
+    "gender": null,
+    "meaning": "(decir) 그는 말했다"
+  },
+  {
+    "id": 150,
+    "word": "nadie",
+    "gender": null,
+    "meaning": "아무도"
+  },
+  {
+    "id": 151,
+    "word": "quiere",
+    "gender": null,
+    "meaning": "(querer) 그는 원한다"
+  },
+  {
+    "id": 152,
+    "word": "podría",
+    "gender": null,
+    "meaning": "~할 수 있을 텐데"
+  },
+  {
+    "id": 153,
+    "word": "hablar",
+    "gender": null,
+    "meaning": "말하다"
+  },
+  {
+    "id": 154,
+    "word": "vas",
+    "gender": null,
+    "meaning": "(ir) 너는 간다"
+  },
+  {
+    "id": 155,
+    "word": "ellos",
+    "gender": null,
+    "meaning": "그들은"
+  },
+  {
+    "id": 156,
+    "word": "sr.",
+    "gender": null,
+    "meaning": "~씨(Mr.)"
+  },
+  {
+    "id": 157,
+    "word": "tal",
+    "gender": null,
+    "meaning": "그런"
+  },
+  {
+    "id": 158,
+    "word": "pasa",
+    "gender": null,
+    "meaning": "(pasar) 일어나다, 지나가다"
+  },
+  {
+    "id": 159,
+    "word": "fuera",
+    "gender": null,
+    "meaning": "밖에"
+  },
+  {
+    "id": 160,
+    "word": "después",
+    "gender": null,
+    "meaning": "후에"
+  },
+  {
+    "id": 161,
+    "word": "han",
+    "gender": null,
+    "meaning": "(haber) 그들은 ~했다"
+  },
+  {
+    "id": 162,
+    "word": "desde",
+    "gender": null,
+    "meaning": "~부터"
+  },
+  {
+    "id": 163,
+    "word": "dinero",
+    "gender": "m",
+    "meaning": "돈"
+  },
+  {
+    "id": 164,
+    "word": "mundo",
+    "gender": "m",
+    "meaning": "세계"
+  },
+  {
+    "id": 165,
+    "word": "claro",
+    "gender": null,
+    "meaning": "물론, 명확한"
+  },
+  {
+    "id": 166,
+    "word": "momento",
+    "gender": "m",
+    "meaning": "순간"
+  },
+  {
+    "id": 167,
+    "word": "les",
+    "gender": null,
+    "meaning": "그들에게"
+  },
+  {
+    "id": 168,
+    "word": "tener",
+    "gender": null,
+    "meaning": "가지다(원형)"
+  },
+  {
+    "id": 169,
+    "word": "estado",
+    "gender": null,
+    "meaning": "상태"
+  },
+  {
+    "id": 170,
+    "word": "otro",
+    "gender": null,
+    "meaning": "다른(남성)"
+  },
+  {
+    "id": 171,
+    "word": "había",
+    "gender": null,
+    "meaning": "~이 있었다"
+  },
+  {
+    "id": 172,
+    "word": "mañana",
+    "gender": null,
+    "meaning": "내일, 아침"
+  },
+  {
+    "id": 173,
+    "word": "tenía",
+    "gender": null,
+    "meaning": "~을 가지고 있었다"
+  },
+  {
+    "id": 174,
+    "word": "madre",
+    "gender": "f",
+    "meaning": "어머니"
+  },
+  {
+    "id": 175,
+    "word": "vale",
+    "gender": null,
+    "meaning": "알겠어, 좋아"
+  },
+  {
+    "id": 176,
+    "word": "lugar",
+    "gender": "m",
+    "meaning": "장소"
+  },
+  {
+    "id": 177,
+    "word": "haciendo",
+    "gender": null,
+    "meaning": "(hacer 현재분사) 하는 중"
+  },
+  {
+    "id": 178,
+    "word": "donde",
+    "gender": null,
+    "meaning": "~하는 곳(관계부사)"
+  },
+  {
+    "id": 179,
+    "word": "seguro",
+    "gender": null,
+    "meaning": "확실한"
+  },
+  {
+    "id": 180,
+    "word": "sabe",
+    "gender": null,
+    "meaning": "(saber) 그는 안다"
+  },
+  {
+    "id": 181,
+    "word": "podemos",
+    "gender": null,
+    "meaning": "(poder) 우리는 할 수 있다"
+  },
+  {
+    "id": 182,
+    "word": "tus",
+    "gender": null,
+    "meaning": "너의(복수)"
+  },
+  {
+    "id": 183,
+    "word": "espera",
+    "gender": null,
+    "meaning": "(esperar) 기다려라"
+  },
+  {
+    "id": 184,
+    "word": "nuevo",
+    "gender": null,
+    "meaning": "새로운"
+  },
+  {
+    "id": 185,
+    "word": "sido",
+    "gender": null,
+    "meaning": "(ser 과거분사) ~였던"
+  },
+  {
+    "id": 186,
+    "word": "cosa",
+    "gender": "f",
+    "meaning": "것"
+  },
+  {
+    "id": 187,
+    "word": "hijo",
+    "gender": "m",
+    "meaning": "아들"
+  },
+  {
+    "id": 188,
+    "word": "allí",
+    "gender": null,
+    "meaning": "저기"
+  },
+  {
+    "id": 189,
+    "word": "menos",
+    "gender": null,
+    "meaning": "더 적게"
+  },
+  {
+    "id": 190,
+    "word": "tipo",
+    "gender": "m",
+    "meaning": "종류, 녀석"
+  },
+  {
+    "id": 191,
+    "word": "amigo",
+    "gender": "m",
+    "meaning": "친구"
+  },
+  {
+    "id": 192,
+    "word": "gran",
+    "gender": null,
+    "meaning": "큰(grande 축약)"
+  },
+  {
+    "id": 193,
+    "word": "nuestro",
+    "gender": null,
+    "meaning": "우리의"
+  },
+  {
+    "id": 194,
+    "word": "mujer",
+    "gender": "f",
+    "meaning": "여자"
+  },
+  {
+    "id": 195,
+    "word": "mamá",
+    "gender": "f",
+    "meaning": "엄마"
+  },
+  {
+    "id": 196,
+    "word": "luego",
+    "gender": null,
+    "meaning": "나중에"
+  },
+  {
+    "id": 197,
+    "word": "papá",
+    "gender": "m",
+    "meaning": "아빠"
+  },
+  {
+    "id": 198,
+    "word": "días",
+    "gender": "m",
+    "meaning": "날들"
+  },
+  {
+    "id": 199,
+    "word": "dice",
+    "gender": null,
+    "meaning": "(decir) 그는 말한다"
+  },
+  {
+    "id": 200,
+    "word": "hoy",
+    "gender": null,
+    "meaning": "오늘"
+  },
+  {
+    "id": 201,
+    "word": "tres",
+    "gender": null,
+    "meaning": "셋"
+  },
+  {
+    "id": 202,
+    "word": "buena",
+    "gender": null,
+    "meaning": "좋은(여성)"
+  },
+  {
+    "id": 203,
+    "word": "necesito",
+    "gender": null,
+    "meaning": "(necesitar) 나는 필요하다"
+  },
+  {
+    "id": 204,
+    "word": "dije",
+    "gender": null,
+    "meaning": "(decir) 나는 말했다"
+  },
+  {
+    "id": 205,
+    "word": "oye",
+    "gender": null,
+    "meaning": "(oír 명령형) 들어봐"
+  },
+  {
+    "id": 206,
+    "word": "gusta",
+    "gender": null,
+    "meaning": "(gustar) 마음에 든다"
+  },
+  {
+    "id": 207,
+    "word": "quería",
+    "gender": null,
+    "meaning": "(querer) ~원했다"
+  },
+  {
+    "id": 208,
+    "word": "será",
+    "gender": null,
+    "meaning": "(ser) ~일 것이다"
+  },
+  {
+    "id": 209,
+    "word": "haber",
+    "gender": null,
+    "meaning": "가지다(조동사 원형)"
+  },
+  {
+    "id": 210,
+    "word": "parte",
+    "gender": "f",
+    "meaning": "부분"
+  },
+  {
+    "id": 211,
+    "word": "todas",
+    "gender": null,
+    "meaning": "모든(여성 복수)"
+  },
+  {
+    "id": 212,
+    "word": "crees",
+    "gender": null,
+    "meaning": "(creer) 너는 생각한다"
+  },
+  {
+    "id": 213,
+    "word": "buen",
+    "gender": null,
+    "meaning": "좋은(남성, 명사 앞 축약)"
+  },
+  {
+    "id": 214,
+    "word": "conmigo",
+    "gender": null,
+    "meaning": "나와 함께"
+  },
+  {
+    "id": 215,
+    "word": "nombre",
+    "gender": "m",
+    "meaning": "이름"
+  },
+  {
+    "id": 216,
+    "word": "mierda",
+    "gender": null,
+    "meaning": "젠장(비속어)"
+  },
+  {
+    "id": 217,
+    "word": "nuestra",
+    "gender": null,
+    "meaning": "우리의(여성)"
+  },
+  {
+    "id": 218,
+    "word": "mal",
+    "gender": null,
+    "meaning": "나쁘게"
+  },
+  {
+    "id": 219,
+    "word": "debe",
+    "gender": null,
+    "meaning": "(deber) ~해야 한다"
+  },
+  {
+    "id": 220,
+    "word": "realmente",
+    "gender": null,
+    "meaning": "정말로"
+  },
+  {
+    "id": 221,
+    "word": "estas",
+    "gender": null,
+    "meaning": "이(여성 복수)"
+  },
+  {
+    "id": 222,
+    "word": "aún",
+    "gender": null,
+    "meaning": "아직"
+  },
+  {
+    "id": 223,
+    "word": "mío",
+    "gender": null,
+    "meaning": "나의 것"
+  },
+  {
+    "id": 224,
+    "word": "toda",
+    "gender": null,
+    "meaning": "모든(여성)"
+  },
+  {
+    "id": 225,
+    "word": "hacerlo",
+    "gender": null,
+    "meaning": "그것을 하다"
+  },
+  {
+    "id": 226,
+    "word": "cada",
+    "gender": null,
+    "meaning": "각각의"
+  },
+  {
+    "id": 227,
+    "word": "visto",
+    "gender": null,
+    "meaning": "(ver 과거분사) 본"
+  },
+  {
+    "id": 228,
+    "word": "importa",
+    "gender": null,
+    "meaning": "(importar) 중요하다"
+  },
+  {
+    "id": 229,
+    "word": "contigo",
+    "gender": null,
+    "meaning": "너와 함께"
+  },
+  {
+    "id": 230,
+    "word": "tienen",
+    "gender": null,
+    "meaning": "(tener) 그들은 가지고 있다"
+  },
+  {
+    "id": 231,
+    "word": "hemos",
+    "gender": null,
+    "meaning": "(haber) 우리는 ~했다"
+  },
+  {
+    "id": 232,
+    "word": "razón",
+    "gender": "f",
+    "meaning": "이유, 옳음(tener razón=옳다)"
+  },
+  {
+    "id": 233,
+    "word": "alguna",
+    "gender": null,
+    "meaning": "어떤(여성)"
+  },
+  {
+    "id": 234,
+    "word": "tanto",
+    "gender": null,
+    "meaning": "그렇게 많이"
+  },
+  {
+    "id": 235,
+    "word": "saber",
+    "gender": null,
+    "meaning": "알다(원형)"
+  },
+  {
+    "id": 236,
+    "word": "hizo",
+    "gender": null,
+    "meaning": "(hacer) 그는 했다"
+  },
+  {
+    "id": 237,
+    "word": "veces",
+    "gender": null,
+    "meaning": "번들(vez의 복수)"
+  },
+  {
+    "id": 238,
+    "word": "serio",
+    "gender": null,
+    "meaning": "진지한"
+  },
+  {
+    "id": 239,
+    "word": "ven",
+    "gender": null,
+    "meaning": "(venir 명령형) 와라"
+  },
+  {
+    "id": 240,
+    "word": "idea",
+    "gender": "f",
+    "meaning": "생각"
+  },
+  {
+    "id": 241,
+    "word": "eh",
+    "gender": null,
+    "meaning": "어(감탄사)"
+  },
+  {
+    "id": 242,
+    "word": "tarde",
+    "gender": "f",
+    "meaning": "늦게, 오후"
+  },
+  {
+    "id": 243,
+    "word": "problema",
+    "gender": "m",
+    "meaning": "문제"
+  },
+  {
+    "id": 244,
+    "word": "hora",
+    "gender": "f",
+    "meaning": "시간(시각)"
+  },
+  {
+    "id": 245,
+    "word": "cierto",
+    "gender": null,
+    "meaning": "확실한"
+  },
+  {
+    "id": 246,
+    "word": "dicho",
+    "gender": null,
+    "meaning": "(decir 과거분사) 말해진"
+  },
+  {
+    "id": 247,
+    "word": "quien",
+    "gender": null,
+    "meaning": "~하는 사람(관계대명사)"
+  },
+  {
+    "id": 248,
+    "word": "demasiado",
+    "gender": null,
+    "meaning": "너무"
+  },
+  {
+    "id": 249,
+    "word": "amor",
+    "gender": "m",
+    "meaning": "사랑"
+  },
+  {
+    "id": 250,
+    "word": "entre",
+    "gender": null,
+    "meaning": "~사이에"
+  },
+  {
+    "id": 251,
+    "word": "ve",
+    "gender": null,
+    "meaning": "(ver/ir 명령형) 봐라, 가라"
+  },
+  {
+    "id": 252,
+    "word": "pasado",
+    "gender": "m",
+    "meaning": "과거"
+  },
+  {
+    "id": 253,
+    "word": "familia",
+    "gender": "f",
+    "meaning": "가족"
+  },
+  {
+    "id": 254,
+    "word": "estos",
+    "gender": null,
+    "meaning": "이(남성 복수)"
+  },
+  {
+    "id": 255,
+    "word": "policía",
+    "gender": "f",
+    "meaning": "경찰"
+  },
+  {
+    "id": 256,
+    "word": "debería",
+    "gender": null,
+    "meaning": "~해야 할 텐데"
+  },
+  {
+    "id": 257,
+    "word": "ustedes",
+    "gender": null,
+    "meaning": "당신들"
+  },
+  {
+    "id": 258,
+    "word": "chica",
+    "gender": "f",
+    "meaning": "소녀"
+  },
+  {
+    "id": 259,
+    "word": "esos",
+    "gender": null,
+    "meaning": "그(남성 복수)"
+  },
+  {
+    "id": 260,
+    "word": "chicos",
+    "gender": "m",
+    "meaning": "애들, 얘들아"
+  },
+  {
+    "id": 261,
+    "word": "cuenta",
+    "gender": null,
+    "meaning": "계산, 깨달음(darse cuenta=깨닫다)"
+  },
+  {
+    "id": 262,
+    "word": "haces",
+    "gender": null,
+    "meaning": "(hacer) 너는 한다"
+  },
+  {
+    "id": 263,
+    "word": "todavía",
+    "gender": null,
+    "meaning": "아직도"
+  },
+  {
+    "id": 264,
+    "word": "salir",
+    "gender": null,
+    "meaning": "나가다"
+  },
+  {
+    "id": 265,
+    "word": "algún",
+    "gender": null,
+    "meaning": "어떤(남성 축약)"
+  },
+  {
+    "id": 266,
+    "word": "vaya",
+    "gender": null,
+    "meaning": "(ir 접속법) 가라, 이런"
+  },
+  {
+    "id": 267,
+    "word": "unos",
+    "gender": null,
+    "meaning": "몇몇의(남성)"
+  },
+  {
+    "id": 268,
+    "word": "veo",
+    "gender": null,
+    "meaning": "(ver) 나는 본다"
+  },
+  {
+    "id": 269,
+    "word": "amigos",
+    "gender": "m",
+    "meaning": "친구들"
+  },
+  {
+    "id": 270,
+    "word": "hermano",
+    "gender": "m",
+    "meaning": "형제"
+  },
+  {
+    "id": 271,
+    "word": "pensé",
+    "gender": null,
+    "meaning": "(pensar) 나는 생각했다"
+  },
+  {
+    "id": 272,
+    "word": "sabía",
+    "gender": null,
+    "meaning": "(saber) ~알고 있었다"
+  },
+  {
+    "id": 273,
+    "word": "cabeza",
+    "gender": "f",
+    "meaning": "머리"
+  },
+  {
+    "id": 274,
+    "word": "ah",
+    "gender": null,
+    "meaning": "아(감탄사)"
+  },
+  {
+    "id": 275,
+    "word": "cariño",
+    "gender": "m",
+    "meaning": "자기야, 애정"
+  },
+  {
+    "id": 276,
+    "word": "digo",
+    "gender": null,
+    "meaning": "(decir) 나는 말한다"
+  },
+  {
+    "id": 277,
+    "word": "van",
+    "gender": null,
+    "meaning": "(ir) 그들은 간다"
+  },
+  {
+    "id": 278,
+    "word": "hombres",
+    "gender": "m",
+    "meaning": "남자들"
+  },
+  {
+    "id": 279,
+    "word": "buenas",
+    "gender": null,
+    "meaning": "좋은(여성 복수)"
+  },
+  {
+    "id": 280,
+    "word": "somos",
+    "gender": null,
+    "meaning": "(ser) 우리는 ~이다"
+  },
+  {
+    "id": 281,
+    "word": "cualquier",
+    "gender": null,
+    "meaning": "어떤 ~이든"
+  },
+  {
+    "id": 282,
+    "word": "forma",
+    "gender": null,
+    "meaning": "형태, 방식"
+  },
+  {
+    "id": 283,
+    "word": "mientras",
+    "gender": null,
+    "meaning": "~하는 동안"
+  },
+  {
+    "id": 284,
+    "word": "lado",
+    "gender": null,
+    "meaning": "옆, 쪽"
+  },
+  {
+    "id": 285,
+    "word": "debo",
+    "gender": null,
+    "meaning": "(deber) 나는 ~해야 한다"
+  },
+  {
+    "id": 286,
+    "word": "sería",
+    "gender": null,
+    "meaning": "(ser) ~일 것이다"
+  },
+  {
+    "id": 287,
+    "word": "caso",
+    "gender": "m",
+    "meaning": "경우"
+  },
+  {
+    "id": 288,
+    "word": "pueden",
+    "gender": null,
+    "meaning": "(poder) 그들은 할 수 있다"
+  },
+  {
+    "id": 289,
+    "word": "pasó",
+    "gender": null,
+    "meaning": "(pasar) 일어났다"
+  },
+  {
+    "id": 290,
+    "word": "primera",
+    "gender": null,
+    "meaning": "첫 번째(여성)"
+  },
+  {
+    "id": 291,
+    "word": "genial",
+    "gender": null,
+    "meaning": "멋진"
+  },
+  {
+    "id": 292,
+    "word": "chico",
+    "gender": "m",
+    "meaning": "소년"
+  },
+  {
+    "id": 293,
+    "word": "supuesto",
+    "gender": null,
+    "meaning": "(por supuesto=물론)"
+  },
+  {
+    "id": 294,
+    "word": "hice",
+    "gender": null,
+    "meaning": "(hacer) 나는 했다"
+  },
+  {
+    "id": 295,
+    "word": "pues",
+    "gender": null,
+    "meaning": "그런데, 자"
+  },
+  {
+    "id": 296,
+    "word": "adiós",
+    "gender": null,
+    "meaning": "안녕(작별)"
+  },
+  {
+    "id": 297,
+    "word": "muchas",
+    "gender": null,
+    "meaning": "많은(여성 복수)"
+  },
+  {
+    "id": 298,
+    "word": "personas",
+    "gender": "f",
+    "meaning": "사람들"
+  },
+  {
+    "id": 299,
+    "word": "señora",
+    "gender": "f",
+    "meaning": "부인"
+  },
+  {
+    "id": 300,
+    "word": "volver",
+    "gender": null,
+    "meaning": "돌아가다"
+  },
+  {
+    "id": 301,
+    "word": "esas",
+    "gender": null,
+    "meaning": "그(여성 복수)"
+  },
+  {
+    "id": 302,
+    "word": "quizá",
+    "gender": null,
+    "meaning": "아마도"
+  },
+  {
+    "id": 303,
+    "word": "contra",
+    "gender": null,
+    "meaning": "~에 반대하여"
+  },
+  {
+    "id": 304,
+    "word": "camino",
+    "gender": "m",
+    "meaning": "길"
+  },
+  {
+    "id": 305,
+    "word": "durante",
+    "gender": null,
+    "meaning": "~동안"
+  },
+  {
+    "id": 306,
+    "word": "hablando",
+    "gender": null,
+    "meaning": "(hablar 현재분사) 말하는 중"
+  },
+  {
+    "id": 307,
+    "word": "manera",
+    "gender": "f",
+    "meaning": "방식"
+  },
+  {
+    "id": 308,
+    "word": "muerto",
+    "gender": null,
+    "meaning": "죽은"
+  },
+  {
+    "id": 309,
+    "word": "persona",
+    "gender": "f",
+    "meaning": "사람"
+  },
+  {
+    "id": 310,
+    "word": "rápido",
+    "gender": null,
+    "meaning": "빠른, 빨리"
+  },
+  {
+    "id": 311,
+    "word": "cuál",
+    "gender": null,
+    "meaning": "어느 것"
+  },
+  {
+    "id": 312,
+    "word": "ayuda",
+    "gender": "f",
+    "meaning": "도움"
+  },
+  {
+    "id": 313,
+    "word": "historia",
+    "gender": "f",
+    "meaning": "이야기, 역사"
+  },
+  {
+    "id": 314,
+    "word": "iba",
+    "gender": null,
+    "meaning": "(ir) ~가고 있었다"
+  },
+  {
+    "id": 315,
+    "word": "supongo",
+    "gender": null,
+    "meaning": "(suponer) 나는 추측한다"
+  },
+  {
+    "id": 316,
+    "word": "nueva",
+    "gender": null,
+    "meaning": "새로운(여성)"
+  },
+  {
+    "id": 317,
+    "word": "entiendo",
+    "gender": null,
+    "meaning": "(entender) 나는 이해한다"
+  },
+  {
+    "id": 318,
+    "word": "dentro",
+    "gender": null,
+    "meaning": "안에"
+  },
+  {
+    "id": 319,
+    "word": "casi",
+    "gender": null,
+    "meaning": "거의"
+  },
+  {
+    "id": 320,
+    "word": "puerta",
+    "gender": null,
+    "meaning": "문"
+  },
+  {
+    "id": 321,
+    "word": "ves",
+    "gender": null,
+    "meaning": "(ver) 너는 본다"
+  },
+  {
+    "id": 322,
+    "word": "pasar",
+    "gender": null,
+    "meaning": "지나가다, 일어나다"
+  },
+  {
+    "id": 323,
+    "word": "primero",
+    "gender": null,
+    "meaning": "첫 번째"
+  },
+  {
+    "id": 324,
+    "word": "significa",
+    "gender": null,
+    "meaning": "(significar) 의미하다"
+  },
+  {
+    "id": 325,
+    "word": "semana",
+    "gender": "f",
+    "meaning": "주(週)"
+  },
+  {
+    "id": 326,
+    "word": "hacia",
+    "gender": null,
+    "meaning": "~쪽으로"
+  },
+  {
+    "id": 327,
+    "word": "quizás",
+    "gender": null,
+    "meaning": "아마도"
+  },
+  {
+    "id": 328,
+    "word": "espero",
+    "gender": null,
+    "meaning": "(esperar) 나는 기다린다, 바란다"
+  },
+  {
+    "id": 329,
+    "word": "juntos",
+    "gender": null,
+    "meaning": "함께"
+  },
+  {
+    "id": 330,
+    "word": "año",
+    "gender": "m",
+    "meaning": "년"
+  },
+  {
+    "id": 331,
+    "word": "niños",
+    "gender": "m",
+    "meaning": "아이들"
+  },
+  {
+    "id": 332,
+    "word": "pronto",
+    "gender": null,
+    "meaning": "곧"
+  },
+  {
+    "id": 333,
+    "word": "tío",
+    "gender": "m",
+    "meaning": "삼촌, 녀석"
+  },
+  {
+    "id": 334,
+    "word": "suerte",
+    "gender": "f",
+    "meaning": "운"
+  },
+  {
+    "id": 335,
+    "word": "ciudad",
+    "gender": "f",
+    "meaning": "도시"
+  },
+  {
+    "id": 336,
+    "word": "siquiera",
+    "gender": null,
+    "meaning": "~조차"
+  },
+  {
+    "id": 337,
+    "word": "feliz",
+    "gender": null,
+    "meaning": "행복한"
+  },
+  {
+    "id": 338,
+    "word": "venir",
+    "gender": null,
+    "meaning": "오다"
+  },
+  {
+    "id": 339,
+    "word": "hija",
+    "gender": "f",
+    "meaning": "딸"
+  },
+  {
+    "id": 340,
+    "word": "gustaría",
+    "gender": null,
+    "meaning": "(gustar) ~하고 싶다"
+  },
+  {
+    "id": 341,
+    "word": "minutos",
+    "gender": "m",
+    "meaning": "분(시간)"
+  },
+  {
+    "id": 342,
+    "word": "cuánto",
+    "gender": null,
+    "meaning": "얼마나"
+  },
+  {
+    "id": 343,
+    "word": "os",
+    "gender": null,
+    "meaning": "너희를(2인칭 복수 목적격)"
+  },
+  {
+    "id": 344,
+    "word": "hey",
+    "gender": null,
+    "meaning": "이봐"
+  },
+  {
+    "id": 345,
+    "word": "muerte",
+    "gender": "f",
+    "meaning": "죽음"
+  },
+  {
+    "id": 346,
+    "word": "dejar",
+    "gender": null,
+    "meaning": "놔두다, 그만두다"
+  },
+  {
+    "id": 347,
+    "word": "realidad",
+    "gender": "f",
+    "meaning": "현실"
+  },
+  {
+    "id": 348,
+    "word": "deja",
+    "gender": null,
+    "meaning": "(dejar 명령형) 놔둬"
+  },
+  {
+    "id": 349,
+    "word": "problemas",
+    "gender": "m",
+    "meaning": "문제들"
+  },
+  {
+    "id": 350,
+    "word": "vi",
+    "gender": null,
+    "meaning": "(ver) 나는 봤다"
+  },
+  {
+    "id": 351,
+    "word": "da",
+    "gender": null,
+    "meaning": "(dar) 준다"
+  },
+  {
+    "id": 352,
+    "word": "importante",
+    "gender": null,
+    "meaning": "중요한"
+  },
+  {
+    "id": 353,
+    "word": "dijiste",
+    "gender": null,
+    "meaning": "(decir) 너는 말했다"
+  },
+  {
+    "id": 354,
+    "word": "corazón",
+    "gender": "m",
+    "meaning": "심장, 마음"
+  },
+  {
+    "id": 355,
+    "word": "miedo",
+    "gender": "m",
+    "meaning": "두려움"
+  },
+  {
+    "id": 356,
+    "word": "jefe",
+    "gender": "m",
+    "meaning": "상사, 두목"
+  },
+  {
+    "id": 357,
+    "word": "agua",
+    "gender": "f",
+    "meaning": "물"
+  },
+  {
+    "id": 358,
+    "word": "haré",
+    "gender": null,
+    "meaning": "(hacer) 나는 할 것이다"
+  },
+  {
+    "id": 359,
+    "word": "justo",
+    "gender": null,
+    "meaning": "정확히, 공정한"
+  },
+  {
+    "id": 360,
+    "word": "horas",
+    "gender": "f",
+    "meaning": "시간들"
+  },
+  {
+    "id": 361,
+    "word": "poder",
+    "gender": "m",
+    "meaning": "할 수 있다(원형), 힘"
+  },
+  {
+    "id": 362,
+    "word": "buenos",
+    "gender": null,
+    "meaning": "좋은(남성 복수)"
+  },
+  {
+    "id": 363,
+    "word": "esposa",
+    "gender": "f",
+    "meaning": "아내"
+  },
+  {
+    "id": 364,
+    "word": "manos",
+    "gender": "f",
+    "meaning": "손들"
+  },
+  {
+    "id": 365,
+    "word": "debes",
+    "gender": null,
+    "meaning": "(deber) 너는 ~해야 한다"
+  },
+  {
+    "id": 366,
+    "word": "viene",
+    "gender": null,
+    "meaning": "(venir) 온다"
+  },
+  {
+    "id": 367,
+    "word": "venga",
+    "gender": null,
+    "meaning": "(venir 접속법) 와라"
+  },
+  {
+    "id": 368,
+    "word": "nuestros",
+    "gender": null,
+    "meaning": "우리의(복수)"
+  },
+  {
+    "id": 369,
+    "word": "ojos",
+    "gender": "m",
+    "meaning": "눈들"
+  },
+  {
+    "id": 370,
+    "word": "adelante",
+    "gender": null,
+    "meaning": "앞으로"
+  },
+  {
+    "id": 371,
+    "word": "encontrar",
+    "gender": null,
+    "meaning": "찾다"
+  },
+  {
+    "id": 372,
+    "word": "mano",
+    "gender": "f",
+    "meaning": "손"
+  },
+  {
+    "id": 373,
+    "word": "cinco",
+    "gender": null,
+    "meaning": "다섯"
+  },
+  {
+    "id": 374,
+    "word": "niño",
+    "gender": "m",
+    "meaning": "아이, 소년"
+  },
+  {
+    "id": 375,
+    "word": "ninguna",
+    "gender": null,
+    "meaning": "어떤 ~도 아닌(여성)"
+  },
+  {
+    "id": 376,
+    "word": "otros",
+    "gender": null,
+    "meaning": "다른(복수)"
+  },
+  {
+    "id": 377,
+    "word": "cara",
+    "gender": "f",
+    "meaning": "얼굴"
+  },
+  {
+    "id": 378,
+    "word": "cuidado",
+    "gender": "m",
+    "meaning": "조심"
+  },
+  {
+    "id": 379,
+    "word": "bajo",
+    "gender": null,
+    "meaning": "아래"
+  },
+  {
+    "id": 380,
+    "word": "cerca",
+    "gender": null,
+    "meaning": "가까이"
+  },
+  {
+    "id": 381,
+    "word": "viejo",
+    "gender": null,
+    "meaning": "늙은"
+  },
+  {
+    "id": 382,
+    "word": "déjame",
+    "gender": null,
+    "meaning": "나를 놔둬(dejar+me)"
+  },
+  {
+    "id": 383,
+    "word": "noches",
+    "gender": "f",
+    "meaning": "밤들"
+  },
+  {
+    "id": 384,
+    "word": "bastante",
+    "gender": null,
+    "meaning": "꽤, 충분히"
+  },
+  {
+    "id": 385,
+    "word": "fin",
+    "gender": "m",
+    "meaning": "끝"
+  },
+  {
+    "id": 386,
+    "word": "tomar",
+    "gender": null,
+    "meaning": "잡다, 마시다"
+  },
+  {
+    "id": 387,
+    "word": "único",
+    "gender": null,
+    "meaning": "유일한"
+  },
+  {
+    "id": 388,
+    "word": "misma",
+    "gender": null,
+    "meaning": "같은(여성)"
+  },
+  {
+    "id": 389,
+    "word": "escucha",
+    "gender": null,
+    "meaning": "(escuchar 명령형) 들어라"
+  },
+  {
+    "id": 390,
+    "word": "ningún",
+    "gender": null,
+    "meaning": "어떤 ~도(남성 축약)"
+  },
+  {
+    "id": 391,
+    "word": "suficiente",
+    "gender": null,
+    "meaning": "충분한"
+  },
+  {
+    "id": 392,
+    "word": "punto",
+    "gender": "m",
+    "meaning": "점, 지점"
+  },
+  {
+    "id": 393,
+    "word": "cuándo",
+    "gender": null,
+    "meaning": "언제"
+  },
+  {
+    "id": 394,
+    "word": "sigue",
+    "gender": null,
+    "meaning": "(seguir) 계속하다, 따라가라"
+  },
+  {
+    "id": 395,
+    "word": "haya",
+    "gender": null,
+    "meaning": "(haber 접속법) ~했을"
+  },
+  {
+    "id": 396,
+    "word": "equipo",
+    "gender": "m",
+    "meaning": "팀, 장비"
+  },
+  {
+    "id": 397,
+    "word": "grande",
+    "gender": null,
+    "meaning": "큰"
+  },
+  {
+    "id": 398,
+    "word": "necesita",
+    "gender": null,
+    "meaning": "(necesitar) 필요하다"
+  },
+  {
+    "id": 399,
+    "word": "llegar",
+    "gender": null,
+    "meaning": "도착하다"
+  },
+  {
+    "id": 400,
+    "word": "incluso",
+    "gender": null,
+    "meaning": "~조차도"
+  },
+  {
+    "id": 401,
+    "word": "algunos",
+    "gender": null,
+    "meaning": "몇몇(남성)"
+  },
+  {
+    "id": 402,
+    "word": "doctor",
+    "gender": "m",
+    "meaning": "의사"
+  },
+  {
+    "id": 403,
+    "word": "difícil",
+    "gender": null,
+    "meaning": "어려운"
+  },
+  {
+    "id": 404,
+    "word": "aunque",
+    "gender": null,
+    "meaning": "비록 ~이지만"
+  },
+  {
+    "id": 405,
+    "word": "hubiera",
+    "gender": null,
+    "meaning": "(haber 접속법 과거) ~했었다면"
+  },
+  {
+    "id": 406,
+    "word": "primer",
+    "gender": null,
+    "meaning": "첫(명사 앞 축약)"
+  },
+  {
+    "id": 407,
+    "word": "coche",
+    "gender": "m",
+    "meaning": "자동차"
+  },
+  {
+    "id": 408,
+    "word": "hago",
+    "gender": null,
+    "meaning": "(hacer) 나는 한다"
+  },
+  {
+    "id": 409,
+    "word": "clase",
+    "gender": "f",
+    "meaning": "수업, 종류"
+  },
+  {
+    "id": 410,
+    "word": "cuatro",
+    "gender": null,
+    "meaning": "넷"
+  },
+  {
+    "id": 411,
+    "word": "mas",
+    "gender": null,
+    "meaning": "그러나(고어체)"
+  },
+  {
+    "id": 412,
+    "word": "dices",
+    "gender": null,
+    "meaning": "(decir) 너는 말한다"
+  },
+  {
+    "id": 413,
+    "word": "pequeño",
+    "gender": null,
+    "meaning": "작은"
+  },
+  {
+    "id": 414,
+    "word": "llama",
+    "gender": null,
+    "meaning": "(llamar) 부른다"
+  },
+  {
+    "id": 415,
+    "word": "toma",
+    "gender": null,
+    "meaning": "(tomar 명령형) 받아"
+  },
+  {
+    "id": 416,
+    "word": "hiciste",
+    "gender": null,
+    "meaning": "(hacer) 너는 했다"
+  },
+  {
+    "id": 417,
+    "word": "allá",
+    "gender": null,
+    "meaning": "저쪽"
+  },
+  {
+    "id": 418,
+    "word": "última",
+    "gender": null,
+    "meaning": "마지막(여성)"
+  },
+  {
+    "id": 419,
+    "word": "arriba",
+    "gender": null,
+    "meaning": "위로"
+  },
+  {
+    "id": 420,
+    "word": "tierra",
+    "gender": "f",
+    "meaning": "땅, 지구"
+  },
+  {
+    "id": 421,
+    "word": "guerra",
+    "gender": "f",
+    "meaning": "전쟁"
+  },
+  {
+    "id": 422,
+    "word": "pensar",
+    "gender": null,
+    "meaning": "생각하다"
+  },
+  {
+    "id": 423,
+    "word": "pueda",
+    "gender": null,
+    "meaning": "(poder 접속법) ~할 수 있을"
+  },
+  {
+    "id": 424,
+    "word": "igual",
+    "gender": null,
+    "meaning": "똑같은"
+  },
+  {
+    "id": 425,
+    "word": "loco",
+    "gender": null,
+    "meaning": "미친"
+  },
+  {
+    "id": 426,
+    "word": "sangre",
+    "gender": "f",
+    "meaning": "피"
+  },
+  {
+    "id": 427,
+    "word": "mujeres",
+    "gender": "f",
+    "meaning": "여자들"
+  },
+  {
+    "id": 428,
+    "word": "vuelta",
+    "gender": "f",
+    "meaning": "회전, 귀환"
+  },
+  {
+    "id": 429,
+    "word": "fui",
+    "gender": null,
+    "meaning": "(ser/ir) 나는 ~이었다, 갔다"
+  },
+  {
+    "id": 430,
+    "word": "trabajar",
+    "gender": null,
+    "meaning": "일하다"
+  },
+  {
+    "id": 431,
+    "word": "tenido",
+    "gender": null,
+    "meaning": "(tener 과거분사) 가진"
+  },
+  {
+    "id": 432,
+    "word": "juego",
+    "gender": "m",
+    "meaning": "게임"
+  },
+  {
+    "id": 433,
+    "word": "deberías",
+    "gender": null,
+    "meaning": "(deber) 너는 ~해야 할 텐데"
+  },
+  {
+    "id": 434,
+    "word": "cuerpo",
+    "gender": "m",
+    "meaning": "몸"
+  },
+  {
+    "id": 435,
+    "word": "e",
+    "gender": null,
+    "meaning": "그리고(y의 변형)"
+  },
+  {
+    "id": 436,
+    "word": "algunas",
+    "gender": null,
+    "meaning": "몇몇(여성)"
+  },
+  {
+    "id": 437,
+    "word": "entrar",
+    "gender": null,
+    "meaning": "들어가다"
+  },
+  {
+    "id": 438,
+    "word": "cree",
+    "gender": null,
+    "meaning": "(creer) 믿는다"
+  },
+  {
+    "id": 439,
+    "word": "podía",
+    "gender": null,
+    "meaning": "(poder) ~할 수 있었다"
+  },
+  {
+    "id": 440,
+    "word": "debemos",
+    "gender": null,
+    "meaning": "(deber) 우리는 ~해야 한다"
+  },
+  {
+    "id": 441,
+    "word": "oportunidad",
+    "gender": "f",
+    "meaning": "기회"
+  },
+  {
+    "id": 442,
+    "word": "teléfono",
+    "gender": "m",
+    "meaning": "전화"
+  },
+  {
+    "id": 443,
+    "word": "necesitamos",
+    "gender": null,
+    "meaning": "(necesitar) 우리는 필요하다"
+  },
+  {
+    "id": 444,
+    "word": "final",
+    "gender": "m",
+    "meaning": "마지막"
+  },
+  {
+    "id": 445,
+    "word": "listo",
+    "gender": null,
+    "meaning": "준비된"
+  },
+  {
+    "id": 446,
+    "word": "fiesta",
+    "gender": "f",
+    "meaning": "파티"
+  },
+  {
+    "id": 447,
+    "word": "muchos",
+    "gender": null,
+    "meaning": "많은(남성 복수)"
+  },
+  {
+    "id": 448,
+    "word": "estabas",
+    "gender": null,
+    "meaning": "(estar) 너는 있었다"
+  },
+  {
+    "id": 449,
+    "word": "quieren",
+    "gender": null,
+    "meaning": "(querer) 그들은 원한다"
+  },
+  {
+    "id": 450,
+    "word": "vete",
+    "gender": null,
+    "meaning": "(irse 명령형) 꺼져"
+  },
+  {
+    "id": 451,
+    "word": "auto",
+    "gender": "m",
+    "meaning": "자동차"
+  },
+  {
+    "id": 452,
+    "word": "dar",
+    "gender": null,
+    "meaning": "주다"
+  },
+  {
+    "id": 453,
+    "word": "vivir",
+    "gender": null,
+    "meaning": "살다"
+  },
+  {
+    "id": 454,
+    "word": "posible",
+    "gender": null,
+    "meaning": "가능한"
+  },
+  {
+    "id": 455,
+    "word": "ok",
+    "gender": null,
+    "meaning": "오케이"
+  },
+  {
+    "id": 456,
+    "word": "hermana",
+    "gender": "f",
+    "meaning": "자매"
+  },
+  {
+    "id": 457,
+    "word": "número",
+    "gender": "m",
+    "meaning": "번호"
+  },
+  {
+    "id": 458,
+    "word": "meses",
+    "gender": "m",
+    "meaning": "달들(개월)"
+  },
+  {
+    "id": 459,
+    "word": "exactamente",
+    "gender": null,
+    "meaning": "정확히"
+  },
+  {
+    "id": 460,
+    "word": "culpa",
+    "gender": "f",
+    "meaning": "잘못, 책임"
+  },
+  {
+    "id": 461,
+    "word": "abajo",
+    "gender": null,
+    "meaning": "아래로"
+  },
+  {
+    "id": 462,
+    "word": "escuela",
+    "gender": "f",
+    "meaning": "학교"
+  },
+  {
+    "id": 463,
+    "word": "ido",
+    "gender": null,
+    "meaning": "(ir 과거분사) 간"
+  },
+  {
+    "id": 464,
+    "word": "fuerte",
+    "gender": null,
+    "meaning": "강한"
+  },
+  {
+    "id": 465,
+    "word": "diciendo",
+    "gender": null,
+    "meaning": "(decir 현재분사) 말하는 중"
+  },
+  {
+    "id": 466,
+    "word": "habla",
+    "gender": "f",
+    "meaning": "(hablar) 말한다"
+  },
+  {
+    "id": 467,
+    "word": "esté",
+    "gender": null,
+    "meaning": "(estar 접속법) 있을"
+  },
+  {
+    "id": 468,
+    "word": "ello",
+    "gender": null,
+    "meaning": "그것(중성)"
+  },
+  {
+    "id": 469,
+    "word": "pregunta",
+    "gender": "f",
+    "meaning": "질문"
+  },
+  {
+    "id": 470,
+    "word": "chicas",
+    "gender": "f",
+    "meaning": "소녀들"
+  },
+  {
+    "id": 471,
+    "word": "eran",
+    "gender": null,
+    "meaning": "(ser) 그들은 ~였다"
+  },
+  {
+    "id": 472,
+    "word": "unas",
+    "gender": null,
+    "meaning": "몇몇(여성)"
+  },
+  {
+    "id": 473,
+    "word": "pasando",
+    "gender": null,
+    "meaning": "(pasar 현재분사) 지나가는 중"
+  },
+  {
+    "id": 474,
+    "word": "atrás",
+    "gender": null,
+    "meaning": "뒤로"
+  },
+  {
+    "id": 475,
+    "word": "malo",
+    "gender": null,
+    "meaning": "나쁜"
+  },
+  {
+    "id": 476,
+    "word": "capitán",
+    "gender": "m",
+    "meaning": "대장, 선장"
+  },
+  {
+    "id": 477,
+    "word": "sra.",
+    "gender": null,
+    "meaning": "부인(Mrs.)"
+  },
+  {
+    "id": 478,
+    "word": "bebé",
+    "gender": "m",
+    "meaning": "아기"
+  },
+  {
+    "id": 479,
+    "word": "segundo",
+    "gender": "m",
+    "meaning": "두 번째, 초(시간)"
+  },
+  {
+    "id": 480,
+    "word": "sabemos",
+    "gender": null,
+    "meaning": "(saber) 우리는 안다"
+  },
+  {
+    "id": 481,
+    "word": "mayor",
+    "gender": null,
+    "meaning": "더 나이 많은, 더 큰"
+  },
+  {
+    "id": 482,
+    "word": "comida",
+    "gender": "f",
+    "meaning": "음식"
+  },
+  {
+    "id": 483,
+    "word": "morir",
+    "gender": null,
+    "meaning": "죽다"
+  },
+  {
+    "id": 484,
+    "word": "conozco",
+    "gender": null,
+    "meaning": "(conocer) 나는 안다(사람·장소)"
+  },
+  {
+    "id": 485,
+    "word": "dame",
+    "gender": null,
+    "meaning": "(dar 명령형) 나에게 줘"
+  },
+  {
+    "id": 486,
+    "word": "fácil",
+    "gender": null,
+    "meaning": "쉬운"
+  },
+  {
+    "id": 487,
+    "word": "comer",
+    "gender": null,
+    "meaning": "먹다"
+  },
+  {
+    "id": 488,
+    "word": "vino",
+    "gender": null,
+    "meaning": "와인, (venir)그는 왔다"
+  },
+  {
+    "id": 489,
+    "word": "lista",
+    "gender": "f",
+    "meaning": "목록, 준비된(여성)"
+  },
+  {
+    "id": 490,
+    "word": "haga",
+    "gender": null,
+    "meaning": "(hacer 접속법) 하기를"
+  },
+  {
+    "id": 491,
+    "word": "necesitas",
+    "gender": null,
+    "meaning": "(necesitar) 너는 필요하다"
+  },
+  {
+    "id": 492,
+    "word": "hijos",
+    "gender": "m",
+    "meaning": "자식들"
+  },
+  {
+    "id": 493,
+    "word": "probablemente",
+    "gender": null,
+    "meaning": "아마도"
+  },
+  {
+    "id": 494,
+    "word": "padres",
+    "gender": "m",
+    "meaning": "부모님"
+  },
+  {
+    "id": 495,
+    "word": "habitación",
+    "gender": "f",
+    "meaning": "방"
+  },
+  {
+    "id": 496,
+    "word": "creer",
+    "gender": null,
+    "meaning": "믿다"
+  },
+  {
+    "id": 497,
+    "word": "pensando",
+    "gender": null,
+    "meaning": "(pensar 현재분사) 생각하는 중"
+  },
+  {
+    "id": 498,
+    "word": "fueron",
+    "gender": null,
+    "meaning": "(ser/ir) 그들은 ~였다, 갔다"
+  },
+  {
+    "id": 499,
+    "word": "dime",
+    "gender": null,
+    "meaning": "(decir 명령형) 나에게 말해줘"
+  }
+]

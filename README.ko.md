@@ -303,6 +303,9 @@ brain/
 **러시아어**
 - [러시아어 기초 어휘](https://brain.dongwook.kim/drills/러시아어_기초_어휘.html)
 
+**스페인어**
+- [스페인어 기초 어휘](https://brain.dongwook.kim/drills/스페인어_기초_어휘.html)
+
 ## 스킬 설치
 
 ```bash

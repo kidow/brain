@@ -303,6 +303,9 @@ Spaced-repetition (SM-2) vocabulary drills, served live at [brain.dongwook.kim](
 **Russian**
 - [러시아어 기초 어휘](https://brain.dongwook.kim/drills/러시아어_기초_어휘.html)
 
+**Spanish**
+- [스페인어 기초 어휘](https://brain.dongwook.kim/drills/스페인어_기초_어휘.html)
+
 ## Installing the skills
 
 ```bash
