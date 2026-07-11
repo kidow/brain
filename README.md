@@ -76,6 +76,7 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [중국어 존재문](https://brain.dongwook.kim/notes/중국어_존재문)
 - [중국어 연동문](https://brain.dongwook.kim/notes/중국어_연동문)
 - [중국어 의문사 의문문](https://brain.dongwook.kim/notes/중국어_의문사_의문문)
+- [중국어 연결어](https://brain.dongwook.kim/notes/중국어_연결어)
 
 **Languages — Russian**
 - [러시아어 문자의 특징](https://brain.dongwook.kim/notes/러시아어_문자의_특징)
@@ -281,6 +282,12 @@ Spaced-repetition (SM-2) vocabulary drills, served live at [brain.dongwook.kim](
 
 **English**
 - [영어 GRE 어휘](https://brain.dongwook.kim/drills/영어_GRE_어휘.html)
+
+**Arabic**
+- [아랍어 기초 어휘](https://brain.dongwook.kim/drills/아랍어_기초_어휘.html)
+
+**Russian**
+- [러시아어 기초 어휘](https://brain.dongwook.kim/drills/러시아어_기초_어휘.html)
 
 ## Installing the skills
 

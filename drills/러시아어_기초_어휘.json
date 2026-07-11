@@ -1,0 +1,4977 @@
+[
+  {
+    "id": 0,
+    "expression": "и",
+    "meaning": "그리고 그래도"
+  },
+  {
+    "id": 1,
+    "expression": "в",
+    "meaning": "에, 에"
+  },
+  {
+    "id": 2,
+    "expression": "не",
+    "meaning": "~ 아니다"
+  },
+  {
+    "id": 3,
+    "expression": "он",
+    "meaning": "그"
+  },
+  {
+    "id": 4,
+    "expression": "на",
+    "meaning": "에, 그것, 에, 에"
+  },
+  {
+    "id": 5,
+    "expression": "я",
+    "meaning": "나"
+  },
+  {
+    "id": 6,
+    "expression": "что",
+    "meaning": "뭐, 그게, 왜?"
+  },
+  {
+    "id": 7,
+    "expression": "тот",
+    "meaning": "저것"
+  },
+  {
+    "id": 8,
+    "expression": "быть",
+    "meaning": "장차 ~ 가 되는"
+  },
+  {
+    "id": 9,
+    "expression": "с",
+    "meaning": "와, 그리고, 로부터, 의"
+  },
+  {
+    "id": 10,
+    "expression": "а",
+    "meaning": "동안, 그리고, 하지만"
+  },
+  {
+    "id": 11,
+    "expression": "весь",
+    "meaning": "전부, 모든 것"
+  },
+  {
+    "id": 12,
+    "expression": "это",
+    "meaning": "그거, 이거, 그거"
+  },
+  {
+    "id": 13,
+    "expression": "как",
+    "meaning": "어떻게, 무엇을, 어떻게, 어떻게"
+  },
+  {
+    "id": 14,
+    "expression": "она",
+    "meaning": "그녀"
+  },
+  {
+    "id": 15,
+    "expression": "по",
+    "meaning": "계속해서, 에 의해"
+  },
+  {
+    "id": 16,
+    "expression": "но",
+    "meaning": "하지만"
+  },
+  {
+    "id": 17,
+    "expression": "они",
+    "meaning": "그들"
+  },
+  {
+    "id": 18,
+    "expression": "к",
+    "meaning": "~을 위해, ~에 의해"
+  },
+  {
+    "id": 19,
+    "expression": "у",
+    "meaning": "~에 의해, ~와 함께"
+  },
+  {
+    "id": 20,
+    "expression": "ты",
+    "meaning": "너, 너"
+  },
+  {
+    "id": 21,
+    "expression": "из",
+    "meaning": "에서, ~에서"
+  },
+  {
+    "id": 22,
+    "expression": "мы",
+    "meaning": "우리"
+  },
+  {
+    "id": 23,
+    "expression": "за",
+    "meaning": "뒤에, 위에, ~에, 이후에"
+  },
+  {
+    "id": 24,
+    "expression": "вы",
+    "meaning": "너"
+  },
+  {
+    "id": 25,
+    "expression": "так",
+    "meaning": "그럼, 그럼, 그럼"
+  },
+  {
+    "id": 26,
+    "expression": "же",
+    "meaning": "그리고, 하지만 마찬가지야"
+  },
+  {
+    "id": 27,
+    "expression": "от",
+    "meaning": "~로부터, ~를 위해"
+  },
+  {
+    "id": 28,
+    "expression": "сказать",
+    "meaning": "말하다, 말하다"
+  },
+  {
+    "id": 29,
+    "expression": "этот",
+    "meaning": "이것"
+  },
+  {
+    "id": 30,
+    "expression": "который",
+    "meaning": "어느, 누구, 그거"
+  },
+  {
+    "id": 31,
+    "expression": "мочь",
+    "meaning": "할 수 있다"
+  },
+  {
+    "id": 32,
+    "expression": "человек",
+    "meaning": "남자, 사람"
+  },
+  {
+    "id": 33,
+    "expression": "о",
+    "meaning": "~의, 약, 반대"
+  },
+  {
+    "id": 34,
+    "expression": "один",
+    "meaning": "하나, 일부, 혼자"
+  },
+  {
+    "id": 35,
+    "expression": "ещё",
+    "meaning": "아직, 아직"
+  },
+  {
+    "id": 36,
+    "expression": "бы",
+    "meaning": "~일 것이다"
+  },
+  {
+    "id": 37,
+    "expression": "такой",
+    "meaning": "그런, 그래서, 일부"
+  },
+  {
+    "id": 38,
+    "expression": "только",
+    "meaning": "단지, 단지, 하지만"
+  },
+  {
+    "id": 39,
+    "expression": "себя",
+    "meaning": "나 자신, 그 자신, 그 자신"
+  },
+  {
+    "id": 40,
+    "expression": "своё",
+    "meaning": "자신의, 나의, 우리의"
+  },
+  {
+    "id": 41,
+    "expression": "какой",
+    "meaning": "뭐, 어느, 어떻게"
+  },
+  {
+    "id": 42,
+    "expression": "когда",
+    "meaning": "언제, 동안, 같이"
+  },
+  {
+    "id": 43,
+    "expression": "уже",
+    "meaning": "이미, 지금쯤"
+  },
+  {
+    "id": 44,
+    "expression": "для",
+    "meaning": "~을 위해"
+  },
+  {
+    "id": 45,
+    "expression": "вот",
+    "meaning": "여기, 저기, 이게, 그게"
+  },
+  {
+    "id": 46,
+    "expression": "кто",
+    "meaning": "누구, 그거, 좀"
+  },
+  {
+    "id": 47,
+    "expression": "да",
+    "meaning": "응, 하지만"
+  },
+  {
+    "id": 48,
+    "expression": "говорить",
+    "meaning": "말하다, 말하다, 말하다"
+  },
+  {
+    "id": 49,
+    "expression": "год",
+    "meaning": "년도"
+  },
+  {
+    "id": 50,
+    "expression": "знать",
+    "meaning": "알다, 알아차리다"
+  },
+  {
+    "id": 51,
+    "expression": "мой",
+    "meaning": "내, 내"
+  },
+  {
+    "id": 52,
+    "expression": "до",
+    "meaning": "~까지, 대략, ~까지"
+  },
+  {
+    "id": 53,
+    "expression": "или",
+    "meaning": "또는"
+  },
+  {
+    "id": 54,
+    "expression": "если",
+    "meaning": "만약에"
+  },
+  {
+    "id": 55,
+    "expression": "время",
+    "meaning": "시간, 계절"
+  },
+  {
+    "id": 56,
+    "expression": "рука",
+    "meaning": "손, 팔"
+  },
+  {
+    "id": 57,
+    "expression": "нет",
+    "meaning": "아니, 그렇지는 않지만"
+  },
+  {
+    "id": 58,
+    "expression": "самый",
+    "meaning": "대부분, 아주, 똑같다"
+  },
+  {
+    "id": 59,
+    "expression": "ни",
+    "meaning": "아니, 아니, 아니, 아니…"
+  },
+  {
+    "id": 60,
+    "expression": "стать",
+    "meaning": "되다, 시작하다, 오다"
+  },
+  {
+    "id": 61,
+    "expression": "большой",
+    "meaning": "크다, 크다, 중요하다"
+  },
+  {
+    "id": 62,
+    "expression": "даже",
+    "meaning": "심지어"
+  },
+  {
+    "id": 63,
+    "expression": "другой",
+    "meaning": "다른, 다른, 다른"
+  },
+  {
+    "id": 64,
+    "expression": "наш",
+    "meaning": "우리의, 우리의"
+  },
+  {
+    "id": 65,
+    "expression": "свой",
+    "meaning": "나의, 우리의, 당신의"
+  },
+  {
+    "id": 66,
+    "expression": "ну",
+    "meaning": "자, 알았어, 자, 어서"
+  },
+  {
+    "id": 67,
+    "expression": "под",
+    "meaning": "아래, 아래, 쪽으로, 에"
+  },
+  {
+    "id": 68,
+    "expression": "где",
+    "meaning": "어디"
+  },
+  {
+    "id": 69,
+    "expression": "дело",
+    "meaning": "사업, 불륜, 문제"
+  },
+  {
+    "id": 70,
+    "expression": "есть",
+    "meaning": "먹을 것, 될 것"
+  },
+  {
+    "id": 71,
+    "expression": "сам",
+    "meaning": "나 자신, 너 자신"
+  },
+  {
+    "id": 72,
+    "expression": "раз",
+    "meaning": "시간, 한 번, 이후"
+  },
+  {
+    "id": 73,
+    "expression": "чтобы",
+    "meaning": "그, 그러기 위해서는"
+  },
+  {
+    "id": 74,
+    "expression": "два",
+    "meaning": "둘"
+  },
+  {
+    "id": 75,
+    "expression": "там",
+    "meaning": "그럼 거기"
+  },
+  {
+    "id": 76,
+    "expression": "чем",
+    "meaning": "보다; 대신에"
+  },
+  {
+    "id": 77,
+    "expression": "глаз",
+    "meaning": "눈; 시력"
+  },
+  {
+    "id": 78,
+    "expression": "жизнь",
+    "meaning": "삶"
+  },
+  {
+    "id": 79,
+    "expression": "первый",
+    "meaning": "첫째, 앞, 이전"
+  },
+  {
+    "id": 80,
+    "expression": "день",
+    "meaning": "낮"
+  },
+  {
+    "id": 81,
+    "expression": "тут",
+    "meaning": "여기, 지금, 그럼"
+  },
+  {
+    "id": 82,
+    "expression": "во",
+    "meaning": "에, 에; 정말, 정확히는"
+  },
+  {
+    "id": 83,
+    "expression": "ничто",
+    "meaning": "아무것도 아님"
+  },
+  {
+    "id": 84,
+    "expression": "потом",
+    "meaning": "그 다음에, 그럼"
+  },
+  {
+    "id": 85,
+    "expression": "очень",
+    "meaning": "매우"
+  },
+  {
+    "id": 86,
+    "expression": "со",
+    "meaning": "~와 함께"
+  },
+  {
+    "id": 87,
+    "expression": "хотеть",
+    "meaning": "원하다, 좋아하다"
+  },
+  {
+    "id": 88,
+    "expression": "ли",
+    "meaning": "만약에, 만약에"
+  },
+  {
+    "id": 89,
+    "expression": "при",
+    "meaning": "~에 의해, ~에 의해, ~에 부착됨; 마스터러시안, 닷컴"
+  },
+  {
+    "id": 90,
+    "expression": "голова",
+    "meaning": "머리, 마음, 두뇌"
+  },
+  {
+    "id": 91,
+    "expression": "надо",
+    "meaning": "이상, 이상, 해야"
+  },
+  {
+    "id": 92,
+    "expression": "без",
+    "meaning": "없이"
+  },
+  {
+    "id": 93,
+    "expression": "видеть",
+    "meaning": "보려고"
+  },
+  {
+    "id": 94,
+    "expression": "идти",
+    "meaning": "가다, 오다"
+  },
+  {
+    "id": 95,
+    "expression": "теперь",
+    "meaning": "지금, 요즘"
+  },
+  {
+    "id": 96,
+    "expression": "тоже",
+    "meaning": "또한, 또한, 너무"
+  },
+  {
+    "id": 97,
+    "expression": "стоять",
+    "meaning": "일어서다, 일어서다, 일어서다"
+  },
+  {
+    "id": 98,
+    "expression": "друг",
+    "meaning": "친구"
+  },
+  {
+    "id": 99,
+    "expression": "дом",
+    "meaning": "집, 집"
+  },
+  {
+    "id": 100,
+    "expression": "сейчас",
+    "meaning": "지금, 현재, 곧"
+  },
+  {
+    "id": 101,
+    "expression": "можно",
+    "meaning": "하나는 할 수 있다"
+  },
+  {
+    "id": 102,
+    "expression": "после",
+    "meaning": "이후, 이후"
+  },
+  {
+    "id": 103,
+    "expression": "слово",
+    "meaning": "단어"
+  },
+  {
+    "id": 104,
+    "expression": "здесь",
+    "meaning": "여기"
+  },
+  {
+    "id": 105,
+    "expression": "думать",
+    "meaning": "생각하다; 믿다"
+  },
+  {
+    "id": 106,
+    "expression": "место",
+    "meaning": "장소; 좌석"
+  },
+  {
+    "id": 107,
+    "expression": "спросить",
+    "meaning": "묻다"
+  },
+  {
+    "id": 108,
+    "expression": "через",
+    "meaning": "통해, 가로질러"
+  },
+  {
+    "id": 109,
+    "expression": "лицо",
+    "meaning": "얼굴; 사람"
+  },
+  {
+    "id": 110,
+    "expression": "тогда",
+    "meaning": "그 다음에"
+  },
+  {
+    "id": 111,
+    "expression": "ведь",
+    "meaning": "알잖아, 알잖아"
+  },
+  {
+    "id": 112,
+    "expression": "хороший",
+    "meaning": "좋아, 좋아 (#152 참조)"
+  },
+  {
+    "id": 113,
+    "expression": "каждый",
+    "meaning": "각각, 각각"
+  },
+  {
+    "id": 114,
+    "expression": "новый",
+    "meaning": "새로운; 현대의"
+  },
+  {
+    "id": 115,
+    "expression": "жить",
+    "meaning": "살기 위해"
+  },
+  {
+    "id": 116,
+    "expression": "должный",
+    "meaning": "만기가 된, 적절한"
+  },
+  {
+    "id": 117,
+    "expression": "смотреть",
+    "meaning": "보다, 지켜보다"
+  },
+  {
+    "id": 118,
+    "expression": "почему",
+    "meaning": "왜"
+  },
+  {
+    "id": 119,
+    "expression": "потому",
+    "meaning": "그렇기 때문에"
+  },
+  {
+    "id": 120,
+    "expression": "сторона",
+    "meaning": "편, 파티"
+  },
+  {
+    "id": 121,
+    "expression": "просто",
+    "meaning": "간단히"
+  },
+  {
+    "id": 122,
+    "expression": "нога",
+    "meaning": "발, 다리"
+  },
+  {
+    "id": 123,
+    "expression": "сидеть",
+    "meaning": "앉다"
+  },
+  {
+    "id": 124,
+    "expression": "понять",
+    "meaning": "이해하다; 깨닫다"
+  },
+  {
+    "id": 125,
+    "expression": "иметь",
+    "meaning": "가지다, 소유하다"
+  },
+  {
+    "id": 126,
+    "expression": "конечный",
+    "meaning": "마지막, 마지막"
+  },
+  {
+    "id": 127,
+    "expression": "делать",
+    "meaning": "~을 하다, 만들다"
+  },
+  {
+    "id": 128,
+    "expression": "вдруг",
+    "meaning": "갑자기"
+  },
+  {
+    "id": 129,
+    "expression": "над",
+    "meaning": "위에, 위에"
+  },
+  {
+    "id": 130,
+    "expression": "взять",
+    "meaning": "가져가다"
+  },
+  {
+    "id": 131,
+    "expression": "никто",
+    "meaning": "아무도"
+  },
+  {
+    "id": 132,
+    "expression": "сделать",
+    "meaning": "할 것, 만들다, 끝내다"
+  },
+  {
+    "id": 133,
+    "expression": "дверь",
+    "meaning": "문"
+  },
+  {
+    "id": 134,
+    "expression": "перед",
+    "meaning": "전에, 앞에"
+  },
+  {
+    "id": 135,
+    "expression": "нужный",
+    "meaning": "필요한"
+  },
+  {
+    "id": 136,
+    "expression": "понимать",
+    "meaning": "이해하다"
+  },
+  {
+    "id": 137,
+    "expression": "казаться",
+    "meaning": "나타나다, 나타나다; 마스터러시안, 닷컴"
+  },
+  {
+    "id": 138,
+    "expression": "работа",
+    "meaning": "일, 일"
+  },
+  {
+    "id": 139,
+    "expression": "три",
+    "meaning": "삼"
+  },
+  {
+    "id": 140,
+    "expression": "ваш",
+    "meaning": "당신 것"
+  },
+  {
+    "id": 141,
+    "expression": "уж",
+    "meaning": "정말, 벌써"
+  },
+  {
+    "id": 142,
+    "expression": "земля",
+    "meaning": "땅, 땅, 흙"
+  },
+  {
+    "id": 143,
+    "expression": "конец",
+    "meaning": "끝, 거리"
+  },
+  {
+    "id": 144,
+    "expression": "несколько",
+    "meaning": "여러개, 일부"
+  },
+  {
+    "id": 145,
+    "expression": "час",
+    "meaning": "시간, 시간"
+  },
+  {
+    "id": 146,
+    "expression": "голос",
+    "meaning": "목소리"
+  },
+  {
+    "id": 147,
+    "expression": "город",
+    "meaning": "마을, 도시"
+  },
+  {
+    "id": 148,
+    "expression": "последний",
+    "meaning": "마지막, 최신, 새로운"
+  },
+  {
+    "id": 149,
+    "expression": "пока",
+    "meaning": "현재를 위해"
+  },
+  {
+    "id": 150,
+    "expression": "хорошо",
+    "meaning": "음(#114 참조)"
+  },
+  {
+    "id": 151,
+    "expression": "давать",
+    "meaning": "주다; 허락하다, 허락하다"
+  },
+  {
+    "id": 152,
+    "expression": "вода",
+    "meaning": "물"
+  },
+  {
+    "id": 153,
+    "expression": "более",
+    "meaning": "더"
+  },
+  {
+    "id": 154,
+    "expression": "хотя",
+    "meaning": "하지만"
+  },
+  {
+    "id": 155,
+    "expression": "всегда",
+    "meaning": "언제나"
+  },
+  {
+    "id": 156,
+    "expression": "второй",
+    "meaning": "두번째"
+  },
+  {
+    "id": 157,
+    "expression": "куда",
+    "meaning": "어디서, 무엇을 위해, 많이"
+  },
+  {
+    "id": 158,
+    "expression": "пойти",
+    "meaning": "가다"
+  },
+  {
+    "id": 159,
+    "expression": "стол",
+    "meaning": "테이블, 책상; 판자"
+  },
+  {
+    "id": 160,
+    "expression": "ребёнок",
+    "meaning": "아이, 아이, 유아"
+  },
+  {
+    "id": 161,
+    "expression": "увидеть",
+    "meaning": "보려고"
+  },
+  {
+    "id": 162,
+    "expression": "сила",
+    "meaning": "힘, 힘"
+  },
+  {
+    "id": 163,
+    "expression": "отец",
+    "meaning": "아버지 (918번 참조)"
+  },
+  {
+    "id": 164,
+    "expression": "женщина",
+    "meaning": "여성"
+  },
+  {
+    "id": 165,
+    "expression": "машина",
+    "meaning": "자동차, 기계, 엔진"
+  },
+  {
+    "id": 166,
+    "expression": "случай",
+    "meaning": "사건, 행사, 사건"
+  },
+  {
+    "id": 167,
+    "expression": "ночь",
+    "meaning": "밤"
+  },
+  {
+    "id": 168,
+    "expression": "сразу",
+    "meaning": "즉시, 즉시, 그냥"
+  },
+  {
+    "id": 169,
+    "expression": "мир",
+    "meaning": "세계, 평화"
+  },
+  {
+    "id": 170,
+    "expression": "совсем",
+    "meaning": "아주, 완전히, 완전히"
+  },
+  {
+    "id": 171,
+    "expression": "остаться",
+    "meaning": "남다, 머물다 (#297 참조)"
+  },
+  {
+    "id": 172,
+    "expression": "об",
+    "meaning": "약, ~의 (#34 참조)"
+  },
+  {
+    "id": 173,
+    "expression": "вид",
+    "meaning": "외모, 모습, 보기"
+  },
+  {
+    "id": 174,
+    "expression": "выйти",
+    "meaning": "나가다, 나오다, 나타나다"
+  },
+  {
+    "id": 175,
+    "expression": "дать",
+    "meaning": "주다; 마스터러시안, 닷컴"
+  },
+  {
+    "id": 176,
+    "expression": "работать",
+    "meaning": "일하다"
+  },
+  {
+    "id": 177,
+    "expression": "любить",
+    "meaning": "사랑하다"
+  },
+  {
+    "id": 178,
+    "expression": "старый",
+    "meaning": "오래된"
+  },
+  {
+    "id": 179,
+    "expression": "почти",
+    "meaning": "거의"
+  },
+  {
+    "id": 180,
+    "expression": "ряд",
+    "meaning": "행, 선"
+  },
+  {
+    "id": 181,
+    "expression": "оказаться",
+    "meaning": "자신을 발견하다, 밝혀지다"
+  },
+  {
+    "id": 182,
+    "expression": "начало",
+    "meaning": "시작, 기원, 출처"
+  },
+  {
+    "id": 183,
+    "expression": "твой",
+    "meaning": "너의, 너의 것 (비공식)"
+  },
+  {
+    "id": 184,
+    "expression": "вопрос",
+    "meaning": "질문, 문제, 문제"
+  },
+  {
+    "id": 185,
+    "expression": "много",
+    "meaning": "많이, 많이 (#799 참조)"
+  },
+  {
+    "id": 186,
+    "expression": "война",
+    "meaning": "전쟁"
+  },
+  {
+    "id": 187,
+    "expression": "снова",
+    "meaning": "다시"
+  },
+  {
+    "id": 188,
+    "expression": "ответить",
+    "meaning": "대답하다, 대답하다 (#404 참조)"
+  },
+  {
+    "id": 189,
+    "expression": "между",
+    "meaning": "사이에, 사이에"
+  },
+  {
+    "id": 190,
+    "expression": "подумать",
+    "meaning": "생각하다"
+  },
+  {
+    "id": 191,
+    "expression": "опять",
+    "meaning": "다시"
+  },
+  {
+    "id": 192,
+    "expression": "белый",
+    "meaning": "하얀색"
+  },
+  {
+    "id": 193,
+    "expression": "деньги",
+    "meaning": "돈"
+  },
+  {
+    "id": 194,
+    "expression": "значить",
+    "meaning": "의미하다, 의미하다"
+  },
+  {
+    "id": 195,
+    "expression": "про",
+    "meaning": "약, ~에 대한"
+  },
+  {
+    "id": 196,
+    "expression": "лишь",
+    "meaning": "다만, 일단"
+  },
+  {
+    "id": 197,
+    "expression": "минута",
+    "meaning": "분, 순간"
+  },
+  {
+    "id": 198,
+    "expression": "жена",
+    "meaning": "부인"
+  },
+  {
+    "id": 199,
+    "expression": "посмотреть",
+    "meaning": "살펴보다, 관찰하다, 검사하다"
+  },
+  {
+    "id": 200,
+    "expression": "правда",
+    "meaning": "진실"
+  },
+  {
+    "id": 201,
+    "expression": "главный",
+    "meaning": "메인, 수석"
+  },
+  {
+    "id": 202,
+    "expression": "страна",
+    "meaning": "국가"
+  },
+  {
+    "id": 203,
+    "expression": "свет",
+    "meaning": "빛;세계"
+  },
+  {
+    "id": 204,
+    "expression": "ждать",
+    "meaning": "기다리다"
+  },
+  {
+    "id": 205,
+    "expression": "мать",
+    "meaning": "어머니"
+  },
+  {
+    "id": 206,
+    "expression": "будто",
+    "meaning": "마치, 마치, 마치"
+  },
+  {
+    "id": 207,
+    "expression": "никогда",
+    "meaning": "절대"
+  },
+  {
+    "id": 208,
+    "expression": "товарищ",
+    "meaning": "동지, 친구"
+  },
+  {
+    "id": 209,
+    "expression": "дорога",
+    "meaning": "길, 길, 여행"
+  },
+  {
+    "id": 210,
+    "expression": "однако",
+    "meaning": "그러나 그래도"
+  },
+  {
+    "id": 211,
+    "expression": "лежать",
+    "meaning": "거짓말하다, 위치하다"
+  },
+  {
+    "id": 212,
+    "expression": "именно",
+    "meaning": "즉, 그냥"
+  },
+  {
+    "id": 213,
+    "expression": "окно",
+    "meaning": "창문, 창틀"
+  },
+  {
+    "id": 214,
+    "expression": "никакой",
+    "meaning": "아니, 아무것도"
+  },
+  {
+    "id": 215,
+    "expression": "найти",
+    "meaning": "찾다, 발견하다, 고려하다"
+  },
+  {
+    "id": 216,
+    "expression": "писать",
+    "meaning": "쓰다"
+  },
+  {
+    "id": 217,
+    "expression": "комната",
+    "meaning": "방"
+  },
+  {
+    "id": 218,
+    "expression": "Москва",
+    "meaning": "모스크바"
+  },
+  {
+    "id": 219,
+    "expression": "часть",
+    "meaning": "부분, 공유, 부서"
+  },
+  {
+    "id": 220,
+    "expression": "вообще",
+    "meaning": "일반적으로, 전체적으로, 전체적으로"
+  },
+  {
+    "id": 221,
+    "expression": "книга",
+    "meaning": "책"
+  },
+  {
+    "id": 222,
+    "expression": "маленький",
+    "meaning": "작은, 작은"
+  },
+  {
+    "id": 223,
+    "expression": "улица",
+    "meaning": "거리; 마스터러시안, 닷컴"
+  },
+  {
+    "id": 224,
+    "expression": "решить",
+    "meaning": "결정하다, 해결하다"
+  },
+  {
+    "id": 225,
+    "expression": "далекий",
+    "meaning": "먼, 먼"
+  },
+  {
+    "id": 226,
+    "expression": "душа",
+    "meaning": "영혼, 정신"
+  },
+  {
+    "id": 227,
+    "expression": "чуть",
+    "meaning": "거의, 약간"
+  },
+  {
+    "id": 228,
+    "expression": "вернуться",
+    "meaning": "돌아오다"
+  },
+  {
+    "id": 229,
+    "expression": "утро",
+    "meaning": "아침"
+  },
+  {
+    "id": 230,
+    "expression": "некоторый",
+    "meaning": "일부"
+  },
+  {
+    "id": 231,
+    "expression": "считать",
+    "meaning": "계산하다, 고려하다"
+  },
+  {
+    "id": 232,
+    "expression": "сколько",
+    "meaning": "얼마나, 얼마나 많이"
+  },
+  {
+    "id": 233,
+    "expression": "помнить",
+    "meaning": "기억하다"
+  },
+  {
+    "id": 234,
+    "expression": "вечер",
+    "meaning": "저녁"
+  },
+  {
+    "id": 235,
+    "expression": "пол",
+    "meaning": "바닥; 섹스"
+  },
+  {
+    "id": 236,
+    "expression": "таки",
+    "meaning": "결국"
+  },
+  {
+    "id": 237,
+    "expression": "получить",
+    "meaning": "받다, 얻다, 획득하다"
+  },
+  {
+    "id": 238,
+    "expression": "народ",
+    "meaning": "사람, 국가"
+  },
+  {
+    "id": 239,
+    "expression": "плечо",
+    "meaning": "어깨, 팔뚝"
+  },
+  {
+    "id": 240,
+    "expression": "хоть",
+    "meaning": "그래도 네가 원한다면"
+  },
+  {
+    "id": 241,
+    "expression": "сегодня",
+    "meaning": "오늘"
+  },
+  {
+    "id": 242,
+    "expression": "бог",
+    "meaning": "하나님"
+  },
+  {
+    "id": 243,
+    "expression": "вместе",
+    "meaning": "함께"
+  },
+  {
+    "id": 244,
+    "expression": "взгляд",
+    "meaning": "봐, 한눈에; 보다"
+  },
+  {
+    "id": 245,
+    "expression": "ходить",
+    "meaning": "가다, 걷다"
+  },
+  {
+    "id": 246,
+    "expression": "зачем",
+    "meaning": "무엇 때문에, 왜?"
+  },
+  {
+    "id": 247,
+    "expression": "советский",
+    "meaning": "옛 소련"
+  },
+  {
+    "id": 248,
+    "expression": "русский",
+    "meaning": "러시아인"
+  },
+  {
+    "id": 249,
+    "expression": "бывать",
+    "meaning": "있다, 방문하다, 일어나다"
+  },
+  {
+    "id": 250,
+    "expression": "полный",
+    "meaning": "완전한, 완전한"
+  },
+  {
+    "id": 251,
+    "expression": "прийти",
+    "meaning": "오다, 도착하다 (#464 참조)"
+  },
+  {
+    "id": 252,
+    "expression": "палец",
+    "meaning": "손가락, 발가락"
+  },
+  {
+    "id": 253,
+    "expression": "Россия",
+    "meaning": "러시아 제국"
+  },
+  {
+    "id": 254,
+    "expression": "любой",
+    "meaning": "어떤, 모든"
+  },
+  {
+    "id": 255,
+    "expression": "история",
+    "meaning": "역사, 이야기, 사건"
+  },
+  {
+    "id": 256,
+    "expression": "наконец",
+    "meaning": "드디어, 드디어"
+  },
+  {
+    "id": 257,
+    "expression": "мысль",
+    "meaning": "생각, 아이디어"
+  },
+  {
+    "id": 258,
+    "expression": "узнать",
+    "meaning": "알고, 배우고, 인식하다"
+  },
+  {
+    "id": 259,
+    "expression": "назад",
+    "meaning": "뒤로, 뒤로"
+  },
+  {
+    "id": 260,
+    "expression": "общий",
+    "meaning": "일반, 공통"
+  },
+  {
+    "id": 261,
+    "expression": "заметить",
+    "meaning": "알아차리다, 관찰하다"
+  },
+  {
+    "id": 262,
+    "expression": "словно",
+    "meaning": "마치, 마치"
+  },
+  {
+    "id": 263,
+    "expression": "прошлый",
+    "meaning": "과거"
+  },
+  {
+    "id": 264,
+    "expression": "уйти",
+    "meaning": "떠나다, 떠나다"
+  },
+  {
+    "id": 265,
+    "expression": "известный",
+    "meaning": "잘 알려진, 유명한"
+  },
+  {
+    "id": 266,
+    "expression": "давно",
+    "meaning": "옛날"
+  },
+  {
+    "id": 267,
+    "expression": "слышать",
+    "meaning": "듣다"
+  },
+  {
+    "id": 268,
+    "expression": "слушать",
+    "meaning": "듣다, 듣다"
+  },
+  {
+    "id": 269,
+    "expression": "бояться",
+    "meaning": "두려워하다, 두려워하다"
+  },
+  {
+    "id": 270,
+    "expression": "сын",
+    "meaning": "아들"
+  },
+  {
+    "id": 271,
+    "expression": "нельзя",
+    "meaning": "불가능하다, 할 수 없다"
+  },
+  {
+    "id": 272,
+    "expression": "прямо",
+    "meaning": "똑바로, 솔직히"
+  },
+  {
+    "id": 273,
+    "expression": "долго",
+    "meaning": "오랫동안"
+  },
+  {
+    "id": 274,
+    "expression": "быстро",
+    "meaning": "빨리, 빨리"
+  },
+  {
+    "id": 275,
+    "expression": "лес",
+    "meaning": "숲"
+  },
+  {
+    "id": 276,
+    "expression": "похожий",
+    "meaning": "비슷한, 비슷한"
+  },
+  {
+    "id": 277,
+    "expression": "пора",
+    "meaning": "시간; 모공(#1000 참조)"
+  },
+  {
+    "id": 278,
+    "expression": "пять",
+    "meaning": "다섯"
+  },
+  {
+    "id": 279,
+    "expression": "глядеть",
+    "meaning": "보다, 응시하다"
+  },
+  {
+    "id": 280,
+    "expression": "оно",
+    "meaning": "그것"
+  },
+  {
+    "id": 281,
+    "expression": "сесть",
+    "meaning": "앉다"
+  },
+  {
+    "id": 282,
+    "expression": "имя",
+    "meaning": "이름"
+  },
+  {
+    "id": 283,
+    "expression": "ж",
+    "meaning": "그리고, 그러나(#27 참조)"
+  },
+  {
+    "id": 284,
+    "expression": "разговор",
+    "meaning": "이야기, 대화"
+  },
+  {
+    "id": 285,
+    "expression": "тело",
+    "meaning": "몸"
+  },
+  {
+    "id": 286,
+    "expression": "молодой",
+    "meaning": "젊은 (#679 참조); 신랑(명사)"
+  },
+  {
+    "id": 287,
+    "expression": "стена",
+    "meaning": "벽"
+  },
+  {
+    "id": 288,
+    "expression": "красный",
+    "meaning": "빨간색"
+  },
+  {
+    "id": 289,
+    "expression": "читать",
+    "meaning": "읽기"
+  },
+  {
+    "id": 290,
+    "expression": "право",
+    "meaning": "오른쪽"
+  },
+  {
+    "id": 291,
+    "expression": "старик",
+    "meaning": "노인"
+  },
+  {
+    "id": 292,
+    "expression": "ранний",
+    "meaning": "일찍"
+  },
+  {
+    "id": 293,
+    "expression": "хотеться",
+    "meaning": "원하다, 좋아하다"
+  },
+  {
+    "id": 294,
+    "expression": "мама",
+    "meaning": "엄마, 엄마"
+  },
+  {
+    "id": 295,
+    "expression": "оставаться",
+    "meaning": "머물다, 머무르다(173번 참조)"
+  },
+  {
+    "id": 296,
+    "expression": "высокий",
+    "meaning": "키가 크다, 높다"
+  },
+  {
+    "id": 297,
+    "expression": "путь",
+    "meaning": "길, 길, 길"
+  },
+  {
+    "id": 298,
+    "expression": "поэтому",
+    "meaning": "그러므로"
+  },
+  {
+    "id": 299,
+    "expression": "совершенно",
+    "meaning": "절대적으로, 꽤"
+  },
+  {
+    "id": 300,
+    "expression": "кроме",
+    "meaning": "제외하고, 게다가"
+  },
+  {
+    "id": 301,
+    "expression": "тысяча",
+    "meaning": "천"
+  },
+  {
+    "id": 302,
+    "expression": "месяц",
+    "meaning": "월"
+  },
+  {
+    "id": 303,
+    "expression": "брать",
+    "meaning": "취하다; 고용하다"
+  },
+  {
+    "id": 304,
+    "expression": "написать",
+    "meaning": "쓰다"
+  },
+  {
+    "id": 305,
+    "expression": "целый",
+    "meaning": "온전한, 온전한, 온전한"
+  },
+  {
+    "id": 306,
+    "expression": "огромный",
+    "meaning": "거대하다, 거대하다"
+  },
+  {
+    "id": 307,
+    "expression": "начинать",
+    "meaning": "시작하려면(#413 참조)"
+  },
+  {
+    "id": 308,
+    "expression": "спина",
+    "meaning": "뒤쪽에"
+  },
+  {
+    "id": 309,
+    "expression": "настоящий",
+    "meaning": "현재;진짜, 사실"
+  },
+  {
+    "id": 310,
+    "expression": "пусть",
+    "meaning": "그래도 하자"
+  },
+  {
+    "id": 311,
+    "expression": "язык",
+    "meaning": "혀, 언어"
+  },
+  {
+    "id": 312,
+    "expression": "точно",
+    "meaning": "정확히"
+  },
+  {
+    "id": 313,
+    "expression": "среди",
+    "meaning": "~ 중에"
+  },
+  {
+    "id": 314,
+    "expression": "чувствовать",
+    "meaning": "느끼다"
+  },
+  {
+    "id": 315,
+    "expression": "сердце",
+    "meaning": "마음"
+  },
+  {
+    "id": 316,
+    "expression": "вести",
+    "meaning": "이끌다"
+  },
+  {
+    "id": 317,
+    "expression": "иногда",
+    "meaning": "때때로"
+  },
+  {
+    "id": 318,
+    "expression": "мальчик",
+    "meaning": "소년"
+  },
+  {
+    "id": 319,
+    "expression": "успеть",
+    "meaning": "시간을 맞추다, 성공하다"
+  },
+  {
+    "id": 320,
+    "expression": "небо",
+    "meaning": "하늘"
+  },
+  {
+    "id": 321,
+    "expression": "живой",
+    "meaning": "살아있다, 살아있다, 활발하다"
+  },
+  {
+    "id": 322,
+    "expression": "смерть",
+    "meaning": "죽음"
+  },
+  {
+    "id": 323,
+    "expression": "продолжать",
+    "meaning": "계속하다"
+  },
+  {
+    "id": 324,
+    "expression": "девушка",
+    "meaning": "아가씨, 아가씨 (#524 참조)"
+  },
+  {
+    "id": 325,
+    "expression": "образ",
+    "meaning": "모양, 형태, 이미지"
+  },
+  {
+    "id": 326,
+    "expression": "ко",
+    "meaning": "에, 쪽으로, 에 의해 (#19 참조)"
+  },
+  {
+    "id": 327,
+    "expression": "забыть",
+    "meaning": "잊다"
+  },
+  {
+    "id": 328,
+    "expression": "вокруг",
+    "meaning": "약"
+  },
+  {
+    "id": 329,
+    "expression": "письмо",
+    "meaning": "편지"
+  },
+  {
+    "id": 330,
+    "expression": "власть",
+    "meaning": "힘"
+  },
+  {
+    "id": 331,
+    "expression": "чёрный",
+    "meaning": "검정색(#456 참조)"
+  },
+  {
+    "id": 332,
+    "expression": "пройти",
+    "meaning": "지나가다, 지나가다, 끝나다 (#543 참조)"
+  },
+  {
+    "id": 333,
+    "expression": "появиться",
+    "meaning": "나타나다, 나타나다 (#699 참조)"
+  },
+  {
+    "id": 334,
+    "expression": "воздух",
+    "meaning": "공기"
+  },
+  {
+    "id": 335,
+    "expression": "разный",
+    "meaning": "다른"
+  },
+  {
+    "id": 336,
+    "expression": "выходить",
+    "meaning": "나가다; 간호사 (176번 참조)"
+  },
+  {
+    "id": 337,
+    "expression": "просить",
+    "meaning": "묻다"
+  },
+  {
+    "id": 338,
+    "expression": "брат",
+    "meaning": "형제"
+  },
+  {
+    "id": 339,
+    "expression": "собственный",
+    "meaning": "자신의; 마스터러시안, 닷컴"
+  },
+  {
+    "id": 340,
+    "expression": "отношение",
+    "meaning": "관계, 태도"
+  },
+  {
+    "id": 341,
+    "expression": "затем",
+    "meaning": "그럼, 그 후에는"
+  },
+  {
+    "id": 342,
+    "expression": "пытаться",
+    "meaning": "시도하다"
+  },
+  {
+    "id": 343,
+    "expression": "показать",
+    "meaning": "보여주다, 전시하다"
+  },
+  {
+    "id": 344,
+    "expression": "вспомнить",
+    "meaning": "기억하다, 회상하다"
+  },
+  {
+    "id": 345,
+    "expression": "система",
+    "meaning": "체계"
+  },
+  {
+    "id": 346,
+    "expression": "четыре",
+    "meaning": "네"
+  },
+  {
+    "id": 347,
+    "expression": "квартира",
+    "meaning": "아파트, 아파트"
+  },
+  {
+    "id": 348,
+    "expression": "держать",
+    "meaning": "보유하다, 유지하다"
+  },
+  {
+    "id": 349,
+    "expression": "также",
+    "meaning": "또한, 또한, 너무"
+  },
+  {
+    "id": 350,
+    "expression": "любовь",
+    "meaning": "사랑"
+  },
+  {
+    "id": 351,
+    "expression": "солдат",
+    "meaning": "군인"
+  },
+  {
+    "id": 352,
+    "expression": "откуда",
+    "meaning": "어디서…"
+  },
+  {
+    "id": 353,
+    "expression": "чтоб",
+    "meaning": "그, 그 순서대로, (#74 참조)"
+  },
+  {
+    "id": 354,
+    "expression": "называть",
+    "meaning": "전화하다, 이름을 짓다, (#597 참조)"
+  },
+  {
+    "id": 355,
+    "expression": "третий",
+    "meaning": "제삼"
+  },
+  {
+    "id": 356,
+    "expression": "хозяин",
+    "meaning": "주인, 보스, 호스트"
+  },
+  {
+    "id": 357,
+    "expression": "вроде",
+    "meaning": "같은, 다르지 않은"
+  },
+  {
+    "id": 358,
+    "expression": "уходить",
+    "meaning": "떠나다, 떠나다"
+  },
+  {
+    "id": 359,
+    "expression": "подойти",
+    "meaning": "다가가다, 올라오다(#798 참조)"
+  },
+  {
+    "id": 360,
+    "expression": "поднять",
+    "meaning": "들어올리다, 올리다"
+  },
+  {
+    "id": 361,
+    "expression": "особенно",
+    "meaning": "특히, 특히"
+  },
+  {
+    "id": 362,
+    "expression": "спрашивать",
+    "meaning": "묻다, 문의하다"
+  },
+  {
+    "id": 363,
+    "expression": "начальник",
+    "meaning": "과장, 우두머리, 상급자"
+  },
+  {
+    "id": 364,
+    "expression": "оба",
+    "meaning": "둘 다"
+  },
+  {
+    "id": 365,
+    "expression": "бросить",
+    "meaning": "던지기"
+  },
+  {
+    "id": 366,
+    "expression": "школа",
+    "meaning": "학교"
+  },
+  {
+    "id": 367,
+    "expression": "парень",
+    "meaning": "소년, 동료, 남자"
+  },
+  {
+    "id": 368,
+    "expression": "кровь",
+    "meaning": "피"
+  },
+  {
+    "id": 369,
+    "expression": "двадцать",
+    "meaning": "이십"
+  },
+  {
+    "id": 370,
+    "expression": "солнце",
+    "meaning": "해"
+  },
+  {
+    "id": 371,
+    "expression": "неделя",
+    "meaning": "주"
+  },
+  {
+    "id": 372,
+    "expression": "послать",
+    "meaning": "보내다, 파견하다"
+  },
+  {
+    "id": 373,
+    "expression": "находиться",
+    "meaning": "찾다, 나타나다"
+  },
+  {
+    "id": 374,
+    "expression": "ребята",
+    "meaning": "얘들아, 아이들"
+  },
+  {
+    "id": 375,
+    "expression": "поставить",
+    "meaning": "놓다, 놓다, 놓다"
+  },
+  {
+    "id": 376,
+    "expression": "встать",
+    "meaning": "일어나다, 일어나다, 일어서다"
+  },
+  {
+    "id": 377,
+    "expression": "например",
+    "meaning": "예를 들어, 예를 들어"
+  },
+  {
+    "id": 378,
+    "expression": "шаг",
+    "meaning": "단계"
+  },
+  {
+    "id": 379,
+    "expression": "мужчина",
+    "meaning": "남자, 남자"
+  },
+  {
+    "id": 380,
+    "expression": "равно",
+    "meaning": "마찬가지로, 같은 방식으로"
+  },
+  {
+    "id": 381,
+    "expression": "нос",
+    "meaning": "코"
+  },
+  {
+    "id": 382,
+    "expression": "мало",
+    "meaning": "조금, 거의, (#630 참조)"
+  },
+  {
+    "id": 383,
+    "expression": "внимание",
+    "meaning": "주목"
+  },
+  {
+    "id": 384,
+    "expression": "капитан",
+    "meaning": "선장, 주인"
+  },
+  {
+    "id": 385,
+    "expression": "ухо",
+    "meaning": "귀"
+  },
+  {
+    "id": 386,
+    "expression": "туда",
+    "meaning": "거기"
+  },
+  {
+    "id": 387,
+    "expression": "сюда",
+    "meaning": "여기"
+  },
+  {
+    "id": 388,
+    "expression": "играть",
+    "meaning": "놀다"
+  },
+  {
+    "id": 389,
+    "expression": "следовать",
+    "meaning": "따라가다, 다음으로 와"
+  },
+  {
+    "id": 390,
+    "expression": "рассказать",
+    "meaning": "말하다, 해설하다(#403 참조)"
+  },
+  {
+    "id": 391,
+    "expression": "великий",
+    "meaning": "엄청난"
+  },
+  {
+    "id": 392,
+    "expression": "действительно",
+    "meaning": "정말, 정말로"
+  },
+  {
+    "id": 393,
+    "expression": "слишком",
+    "meaning": "너무, 너무 많이"
+  },
+  {
+    "id": 394,
+    "expression": "тяжёлый",
+    "meaning": "무거운"
+  },
+  {
+    "id": 395,
+    "expression": "спать",
+    "meaning": "잠을 자다"
+  },
+  {
+    "id": 396,
+    "expression": "оставить",
+    "meaning": "떠나다, 버리다"
+  },
+  {
+    "id": 397,
+    "expression": "войти",
+    "meaning": "들어가다, 들어오다"
+  },
+  {
+    "id": 398,
+    "expression": "длинный",
+    "meaning": "긴"
+  },
+  {
+    "id": 399,
+    "expression": "чувство",
+    "meaning": "감정"
+  },
+  {
+    "id": 400,
+    "expression": "молчать",
+    "meaning": "침묵을 지키다"
+  },
+  {
+    "id": 401,
+    "expression": "рассказывать",
+    "meaning": "말하다, 해설하다, (#392 참조)"
+  },
+  {
+    "id": 402,
+    "expression": "отвечать",
+    "meaning": "대답하다, 대답하다, (#190 참조)"
+  },
+  {
+    "id": 403,
+    "expression": "становиться",
+    "meaning": "서다; 되다"
+  },
+  {
+    "id": 404,
+    "expression": "остановиться",
+    "meaning": "멈추다"
+  },
+  {
+    "id": 405,
+    "expression": "берег",
+    "meaning": "은행, 해안, 해안"
+  },
+  {
+    "id": 406,
+    "expression": "семья",
+    "meaning": "가족"
+  },
+  {
+    "id": 407,
+    "expression": "искать",
+    "meaning": "검색하다"
+  },
+  {
+    "id": 408,
+    "expression": "генерал",
+    "meaning": "일반적인"
+  },
+  {
+    "id": 409,
+    "expression": "момент",
+    "meaning": "순간, 순간"
+  },
+  {
+    "id": 410,
+    "expression": "десять",
+    "meaning": "열"
+  },
+  {
+    "id": 411,
+    "expression": "начать",
+    "meaning": "시작하려면(#309 참조)"
+  },
+  {
+    "id": 412,
+    "expression": "следующий",
+    "meaning": "다음, 다음"
+  },
+  {
+    "id": 413,
+    "expression": "личный",
+    "meaning": "개인의"
+  },
+  {
+    "id": 414,
+    "expression": "труд",
+    "meaning": "노동, 일"
+  },
+  {
+    "id": 415,
+    "expression": "верить",
+    "meaning": "믿다; 마스터러시안, 닷컴"
+  },
+  {
+    "id": 416,
+    "expression": "группа",
+    "meaning": "그룹"
+  },
+  {
+    "id": 417,
+    "expression": "немного",
+    "meaning": "조금"
+  },
+  {
+    "id": 418,
+    "expression": "впрочем",
+    "meaning": "그러나 그래도"
+  },
+  {
+    "id": 419,
+    "expression": "видно",
+    "meaning": "분명히, 분명히"
+  },
+  {
+    "id": 420,
+    "expression": "являться",
+    "meaning": "나타나다"
+  },
+  {
+    "id": 421,
+    "expression": "муж",
+    "meaning": "남편"
+  },
+  {
+    "id": 422,
+    "expression": "разве",
+    "meaning": "정말? 아마도"
+  },
+  {
+    "id": 423,
+    "expression": "движение",
+    "meaning": "움직임"
+  },
+  {
+    "id": 424,
+    "expression": "порядок",
+    "meaning": "주문하다"
+  },
+  {
+    "id": 425,
+    "expression": "ответ",
+    "meaning": "대답하다, 대답하다"
+  },
+  {
+    "id": 426,
+    "expression": "тихо",
+    "meaning": "조용히, 부드럽게, 천천히"
+  },
+  {
+    "id": 427,
+    "expression": "знакомый",
+    "meaning": "익숙한, 아는"
+  },
+  {
+    "id": 428,
+    "expression": "газета",
+    "meaning": "신문"
+  },
+  {
+    "id": 429,
+    "expression": "помощь",
+    "meaning": "돕다"
+  },
+  {
+    "id": 430,
+    "expression": "сильный",
+    "meaning": "강한, 강력한"
+  },
+  {
+    "id": 431,
+    "expression": "скорый",
+    "meaning": "빨리, 빨리"
+  },
+  {
+    "id": 432,
+    "expression": "собака",
+    "meaning": "개"
+  },
+  {
+    "id": 433,
+    "expression": "дерево",
+    "meaning": "나무"
+  },
+  {
+    "id": 434,
+    "expression": "снег",
+    "meaning": "눈"
+  },
+  {
+    "id": 435,
+    "expression": "сон",
+    "meaning": "꿈"
+  },
+  {
+    "id": 436,
+    "expression": "смысл",
+    "meaning": "의미, 의미, 목적"
+  },
+  {
+    "id": 437,
+    "expression": "смочь",
+    "meaning": "할 수 있다"
+  },
+  {
+    "id": 438,
+    "expression": "против",
+    "meaning": "반대하다, 반대하다, 반대하다"
+  },
+  {
+    "id": 439,
+    "expression": "бежать",
+    "meaning": "달리다, 서둘러"
+  },
+  {
+    "id": 440,
+    "expression": "двор",
+    "meaning": "마당, 법원"
+  },
+  {
+    "id": 441,
+    "expression": "форма",
+    "meaning": "형태, 형태, 유니폼"
+  },
+  {
+    "id": 442,
+    "expression": "простой",
+    "meaning": "간단하다, 쉽다, 평범하다"
+  },
+  {
+    "id": 443,
+    "expression": "приехать",
+    "meaning": "도착하다, 오다"
+  },
+  {
+    "id": 444,
+    "expression": "иной",
+    "meaning": "다른, 다른"
+  },
+  {
+    "id": 445,
+    "expression": "кричать",
+    "meaning": "울다, 소리치다(#656 참조)"
+  },
+  {
+    "id": 446,
+    "expression": "возможность",
+    "meaning": "가능성, 기회, 기회"
+  },
+  {
+    "id": 447,
+    "expression": "общество",
+    "meaning": "사회"
+  },
+  {
+    "id": 448,
+    "expression": "зеленый",
+    "meaning": "녹색"
+  },
+  {
+    "id": 449,
+    "expression": "грудь",
+    "meaning": "가슴, 가슴"
+  },
+  {
+    "id": 450,
+    "expression": "угол",
+    "meaning": "코너, 각도"
+  },
+  {
+    "id": 451,
+    "expression": "открыть",
+    "meaning": "열다"
+  },
+  {
+    "id": 452,
+    "expression": "происходить",
+    "meaning": "일어나다, 발생하다, 일어나다"
+  },
+  {
+    "id": 453,
+    "expression": "ладно",
+    "meaning": "조화롭게, 뭐, 알았어"
+  },
+  {
+    "id": 454,
+    "expression": "черный",
+    "meaning": "검정색(\"그녀는 검정색을 입는다\"에서와 같이)(#333 참조)"
+  },
+  {
+    "id": 455,
+    "expression": "век",
+    "meaning": "세기, 나이"
+  },
+  {
+    "id": 456,
+    "expression": "карман",
+    "meaning": "포켓"
+  },
+  {
+    "id": 457,
+    "expression": "ехать",
+    "meaning": "가다, 타다, 운전하다, 여행하다"
+  },
+  {
+    "id": 458,
+    "expression": "немец",
+    "meaning": "독일 사람"
+  },
+  {
+    "id": 459,
+    "expression": "наверное",
+    "meaning": "아마도, 아마도 그럴 것이다(#972 참조)"
+  },
+  {
+    "id": 460,
+    "expression": "губа",
+    "meaning": "말뿐인"
+  },
+  {
+    "id": 461,
+    "expression": "дядя",
+    "meaning": "삼촌"
+  },
+  {
+    "id": 462,
+    "expression": "приходить",
+    "meaning": "오다, 도착하다(253번 참조)"
+  },
+  {
+    "id": 463,
+    "expression": "часто",
+    "meaning": "자주"
+  },
+  {
+    "id": 464,
+    "expression": "домой",
+    "meaning": "집(예: \"그녀가 집에 왔습니다\")"
+  },
+  {
+    "id": 465,
+    "expression": "огонь",
+    "meaning": "불"
+  },
+  {
+    "id": 466,
+    "expression": "писатель",
+    "meaning": "작가"
+  },
+  {
+    "id": 467,
+    "expression": "армия",
+    "meaning": "군대"
+  },
+  {
+    "id": 468,
+    "expression": "состояние",
+    "meaning": "상태, 조건; 행운"
+  },
+  {
+    "id": 469,
+    "expression": "зуб",
+    "meaning": "이빨"
+  },
+  {
+    "id": 470,
+    "expression": "очередь",
+    "meaning": "줄, 줄, 회전"
+  },
+  {
+    "id": 471,
+    "expression": "кой",
+    "meaning": "which (구식, 문학적); 주로 집합 표현식에서 발견됩니다: ни в ко́ем слу́чае, ни ко́им о́бразом, в кои ве́ки, на кой чёрт?"
+  },
+  {
+    "id": 472,
+    "expression": "подняться",
+    "meaning": "오르다, 올라가다"
+  },
+  {
+    "id": 473,
+    "expression": "камень",
+    "meaning": "결석"
+  },
+  {
+    "id": 474,
+    "expression": "гость",
+    "meaning": "손님"
+  },
+  {
+    "id": 475,
+    "expression": "показаться",
+    "meaning": "나타나다, 눈에 들어오다"
+  },
+  {
+    "id": 476,
+    "expression": "ветер",
+    "meaning": "바람"
+  },
+  {
+    "id": 477,
+    "expression": "собираться",
+    "meaning": "함께 모이다, 모이다; 의도하다(#981 참조)"
+  },
+  {
+    "id": 478,
+    "expression": "попасть",
+    "meaning": "치다; 자신을 발견하다"
+  },
+  {
+    "id": 479,
+    "expression": "принять",
+    "meaning": "받아들이다, 인정하다, 받아들이다(#643 참조)"
+  },
+  {
+    "id": 480,
+    "expression": "сначала",
+    "meaning": "처음에, 처음부터"
+  },
+  {
+    "id": 481,
+    "expression": "либо",
+    "meaning": "또는"
+  },
+  {
+    "id": 482,
+    "expression": "поехать",
+    "meaning": "출발하다, 출발하다"
+  },
+  {
+    "id": 483,
+    "expression": "услышать",
+    "meaning": "듣다"
+  },
+  {
+    "id": 484,
+    "expression": "уметь",
+    "meaning": "할 수 있다, 알다, 할 수 있다"
+  },
+  {
+    "id": 485,
+    "expression": "случиться",
+    "meaning": "일어나다"
+  },
+  {
+    "id": 486,
+    "expression": "странный",
+    "meaning": "이상한"
+  },
+  {
+    "id": 487,
+    "expression": "единственный",
+    "meaning": "유일한, 유일한"
+  },
+  {
+    "id": 488,
+    "expression": "рота",
+    "meaning": "회사(군)"
+  },
+  {
+    "id": 489,
+    "expression": "закон",
+    "meaning": "법, 행위, 동상"
+  },
+  {
+    "id": 490,
+    "expression": "короткий",
+    "meaning": "짧은"
+  },
+  {
+    "id": 491,
+    "expression": "море",
+    "meaning": "바다"
+  },
+  {
+    "id": 492,
+    "expression": "добрый",
+    "meaning": "친절한"
+  },
+  {
+    "id": 493,
+    "expression": "темный",
+    "meaning": "어두운"
+  },
+  {
+    "id": 494,
+    "expression": "гора",
+    "meaning": "산, 언덕"
+  },
+  {
+    "id": 495,
+    "expression": "врач",
+    "meaning": "의사, 의사"
+  },
+  {
+    "id": 496,
+    "expression": "край",
+    "meaning": "테두리, 가장자리; 땅, 나라"
+  },
+  {
+    "id": 497,
+    "expression": "стараться",
+    "meaning": "노력하다, 노력하다"
+  },
+  {
+    "id": 498,
+    "expression": "лучший",
+    "meaning": "더 나은, 가장 좋은"
+  },
+  {
+    "id": 499,
+    "expression": "река",
+    "meaning": "강"
+  },
+  {
+    "id": 500,
+    "expression": "военный",
+    "meaning": "군대"
+  },
+  {
+    "id": 501,
+    "expression": "мера",
+    "meaning": "측정하다, 단계"
+  },
+  {
+    "id": 502,
+    "expression": "страшный",
+    "meaning": "끔찍한, 무서운"
+  },
+  {
+    "id": 503,
+    "expression": "вполне",
+    "meaning": "꽤, 완전히"
+  },
+  {
+    "id": 504,
+    "expression": "звать",
+    "meaning": "전화하다"
+  },
+  {
+    "id": 505,
+    "expression": "произойти",
+    "meaning": "일어나다, 발생하다, 일어나다"
+  },
+  {
+    "id": 506,
+    "expression": "вперед",
+    "meaning": "앞으로"
+  },
+  {
+    "id": 507,
+    "expression": "медленно",
+    "meaning": "느리게"
+  },
+  {
+    "id": 508,
+    "expression": "возле",
+    "meaning": "옆에, 근처에, 가까이에"
+  },
+  {
+    "id": 509,
+    "expression": "никак",
+    "meaning": "지금으로서는 절대로"
+  },
+  {
+    "id": 510,
+    "expression": "заниматься",
+    "meaning": "점유되다, 참여하다"
+  },
+  {
+    "id": 511,
+    "expression": "действие",
+    "meaning": "액션, 효과"
+  },
+  {
+    "id": 512,
+    "expression": "довольно",
+    "meaning": "충분한; 꽤"
+  },
+  {
+    "id": 513,
+    "expression": "вещь",
+    "meaning": "물건"
+  },
+  {
+    "id": 514,
+    "expression": "необходимый",
+    "meaning": "필요한"
+  },
+  {
+    "id": 515,
+    "expression": "ход",
+    "meaning": "이동하다"
+  },
+  {
+    "id": 516,
+    "expression": "боль",
+    "meaning": "통증"
+  },
+  {
+    "id": 517,
+    "expression": "судьба",
+    "meaning": "운명, 행운, 숙명"
+  },
+  {
+    "id": 518,
+    "expression": "причина",
+    "meaning": "원인, 이유, 동기"
+  },
+  {
+    "id": 519,
+    "expression": "положить",
+    "meaning": "눕히다, 놓다, 놓다"
+  },
+  {
+    "id": 520,
+    "expression": "едва",
+    "meaning": "거의, 겨우, 간신히"
+  },
+  {
+    "id": 521,
+    "expression": "черта",
+    "meaning": "선, 경계; 특성"
+  },
+  {
+    "id": 522,
+    "expression": "девочка",
+    "meaning": "소녀, 어린 소녀(#326 참조)"
+  },
+  {
+    "id": 523,
+    "expression": "лёгкий",
+    "meaning": "가볍다, 쉽다"
+  },
+  {
+    "id": 524,
+    "expression": "волос",
+    "meaning": "머리카락"
+  },
+  {
+    "id": 525,
+    "expression": "купить",
+    "meaning": "구매하다, 구매하다"
+  },
+  {
+    "id": 526,
+    "expression": "номер",
+    "meaning": "번호, 크기, 방, 문제"
+  },
+  {
+    "id": 527,
+    "expression": "основной",
+    "meaning": "기본"
+  },
+  {
+    "id": 528,
+    "expression": "широкий",
+    "meaning": "넓은"
+  },
+  {
+    "id": 529,
+    "expression": "умереть",
+    "meaning": "죽다"
+  },
+  {
+    "id": 530,
+    "expression": "далеко",
+    "meaning": "멀리, 멀리 떨어져"
+  },
+  {
+    "id": 531,
+    "expression": "плохо",
+    "meaning": "심하게"
+  },
+  {
+    "id": 532,
+    "expression": "глава",
+    "meaning": "머리, 수석"
+  },
+  {
+    "id": 533,
+    "expression": "красивый",
+    "meaning": "아름다운; 마스터러시안, 닷컴"
+  },
+  {
+    "id": 534,
+    "expression": "серый",
+    "meaning": "회색; 따분한"
+  },
+  {
+    "id": 535,
+    "expression": "пить",
+    "meaning": "마시다"
+  },
+  {
+    "id": 536,
+    "expression": "командир",
+    "meaning": "사령관, 지휘관"
+  },
+  {
+    "id": 537,
+    "expression": "обычно",
+    "meaning": "대개"
+  },
+  {
+    "id": 538,
+    "expression": "партия",
+    "meaning": "파티"
+  },
+  {
+    "id": 539,
+    "expression": "проблема",
+    "meaning": "문제, 문제"
+  },
+  {
+    "id": 540,
+    "expression": "страх",
+    "meaning": "두려움"
+  },
+  {
+    "id": 541,
+    "expression": "проходить",
+    "meaning": "합격하다, 가다;공부하다(#334 참조)"
+  },
+  {
+    "id": 542,
+    "expression": "ясно",
+    "meaning": "분명하다, 분명하다"
+  },
+  {
+    "id": 543,
+    "expression": "снять",
+    "meaning": "빼앗다, 벗다;사진을 찍다"
+  },
+  {
+    "id": 544,
+    "expression": "бумага",
+    "meaning": "종이"
+  },
+  {
+    "id": 545,
+    "expression": "герой",
+    "meaning": "영웅"
+  },
+  {
+    "id": 546,
+    "expression": "пара",
+    "meaning": "쌍, 커플"
+  },
+  {
+    "id": 547,
+    "expression": "государство",
+    "meaning": "상태"
+  },
+  {
+    "id": 548,
+    "expression": "деревня",
+    "meaning": "마을, 나라"
+  },
+  {
+    "id": 549,
+    "expression": "речь",
+    "meaning": "연설"
+  },
+  {
+    "id": 550,
+    "expression": "начаться",
+    "meaning": "시작하다"
+  },
+  {
+    "id": 551,
+    "expression": "средство",
+    "meaning": "수단, 구제책"
+  },
+  {
+    "id": 552,
+    "expression": "положение",
+    "meaning": "위치, 자세, 상태, 상태"
+  },
+  {
+    "id": 553,
+    "expression": "связь",
+    "meaning": "넥타이, 채권; 연결, 관계"
+  },
+  {
+    "id": 554,
+    "expression": "скоро",
+    "meaning": "빨리, 빨리, 곧"
+  },
+  {
+    "id": 555,
+    "expression": "небольшой",
+    "meaning": "작다, 크지 않다"
+  },
+  {
+    "id": 556,
+    "expression": "представлять",
+    "meaning": "발표하다, 소개하다, 상상하다(#586 참조)"
+  },
+  {
+    "id": 557,
+    "expression": "завтра",
+    "meaning": "내일"
+  },
+  {
+    "id": 558,
+    "expression": "объяснить",
+    "meaning": "설명하다"
+  },
+  {
+    "id": 559,
+    "expression": "пустой",
+    "meaning": "비어 있고 비어 있습니다. 게으른"
+  },
+  {
+    "id": 560,
+    "expression": "произнести",
+    "meaning": "발음하다, 말하다, 말하다"
+  },
+  {
+    "id": 561,
+    "expression": "человеческий",
+    "meaning": "인간"
+  },
+  {
+    "id": 562,
+    "expression": "нравиться",
+    "meaning": "기쁘게 생각하다, 좋아하다"
+  },
+  {
+    "id": 563,
+    "expression": "однажды",
+    "meaning": "한 번, 어느 날"
+  },
+  {
+    "id": 564,
+    "expression": "мимо",
+    "meaning": "과거, ~에 의해"
+  },
+  {
+    "id": 565,
+    "expression": "иначе",
+    "meaning": "그렇지 않으면 다르게"
+  },
+  {
+    "id": 566,
+    "expression": "существовать",
+    "meaning": "존재하다, 존재하다"
+  },
+  {
+    "id": 567,
+    "expression": "класс",
+    "meaning": "수업"
+  },
+  {
+    "id": 568,
+    "expression": "удаться",
+    "meaning": "잘 지내다, 성공하다, 경영하다"
+  },
+  {
+    "id": 569,
+    "expression": "толстый",
+    "meaning": "두꺼운, 무거운, 뚱뚱한"
+  },
+  {
+    "id": 570,
+    "expression": "цель",
+    "meaning": "목표, 목표, 대상"
+  },
+  {
+    "id": 571,
+    "expression": "сквозь",
+    "meaning": "~을 통해"
+  },
+  {
+    "id": 572,
+    "expression": "прийтись",
+    "meaning": "적합하다, 떨어지다; ~해야 한다"
+  },
+  {
+    "id": 573,
+    "expression": "чистый",
+    "meaning": "깨끗하다, 순수하다"
+  },
+  {
+    "id": 574,
+    "expression": "прежний",
+    "meaning": "이전의"
+  },
+  {
+    "id": 575,
+    "expression": "профессор",
+    "meaning": "교수"
+  },
+  {
+    "id": 576,
+    "expression": "господин",
+    "meaning": "신사 씨."
+  },
+  {
+    "id": 577,
+    "expression": "счастье",
+    "meaning": "행복, 행운"
+  },
+  {
+    "id": 578,
+    "expression": "худой",
+    "meaning": "얇고 마른; masterrussian.com"
+  },
+  {
+    "id": 579,
+    "expression": "дух",
+    "meaning": "영혼"
+  },
+  {
+    "id": 580,
+    "expression": "план",
+    "meaning": "계획"
+  },
+  {
+    "id": 581,
+    "expression": "чужой",
+    "meaning": "누군가의;이상한, 외국의"
+  },
+  {
+    "id": 582,
+    "expression": "зал",
+    "meaning": "홀"
+  },
+  {
+    "id": 583,
+    "expression": "представить",
+    "meaning": "미리 설정하다, 제작하다, 소개하다(#558 참조)"
+  },
+  {
+    "id": 584,
+    "expression": "особый",
+    "meaning": "특별한"
+  },
+  {
+    "id": 585,
+    "expression": "директор",
+    "meaning": "이사, 매니저"
+  },
+  {
+    "id": 586,
+    "expression": "бывший",
+    "meaning": "전, 전-"
+  },
+  {
+    "id": 587,
+    "expression": "память",
+    "meaning": "메모리"
+  },
+  {
+    "id": 588,
+    "expression": "близкий",
+    "meaning": "가깝다, 비슷하다; 친밀한"
+  },
+  {
+    "id": 589,
+    "expression": "сей",
+    "meaning": "이것"
+  },
+  {
+    "id": 590,
+    "expression": "результат",
+    "meaning": "결과, 결과"
+  },
+  {
+    "id": 591,
+    "expression": "больной",
+    "meaning": "아픈"
+  },
+  {
+    "id": 592,
+    "expression": "данный",
+    "meaning": "주어진, 현재"
+  },
+  {
+    "id": 593,
+    "expression": "кстати",
+    "meaning": "요점까지, 동시에"
+  },
+  {
+    "id": 594,
+    "expression": "назвать",
+    "meaning": "부르다, 이름을 짓다(356번 참조)"
+  },
+  {
+    "id": 595,
+    "expression": "след",
+    "meaning": "트랙, 발자국"
+  },
+  {
+    "id": 596,
+    "expression": "улыбаться",
+    "meaning": "웃다(#605 참조)"
+  },
+  {
+    "id": 597,
+    "expression": "бутылка",
+    "meaning": "병"
+  },
+  {
+    "id": 598,
+    "expression": "трудно",
+    "meaning": "어렵게"
+  },
+  {
+    "id": 599,
+    "expression": "условие",
+    "meaning": "조건, 기간"
+  },
+  {
+    "id": 600,
+    "expression": "прежде",
+    "meaning": "~ 전에"
+  },
+  {
+    "id": 601,
+    "expression": "ум",
+    "meaning": "마음, 두뇌, 지성"
+  },
+  {
+    "id": 602,
+    "expression": "улыбнуться",
+    "meaning": "웃다(#599 참조)"
+  },
+  {
+    "id": 603,
+    "expression": "процесс",
+    "meaning": "프로세스"
+  },
+  {
+    "id": 604,
+    "expression": "картина",
+    "meaning": "그림, 그림"
+  },
+  {
+    "id": 605,
+    "expression": "вместо",
+    "meaning": "대신에"
+  },
+  {
+    "id": 606,
+    "expression": "старший",
+    "meaning": "선배, 선배"
+  },
+  {
+    "id": 607,
+    "expression": "легко",
+    "meaning": "쉽게, 가볍게"
+  },
+  {
+    "id": 608,
+    "expression": "центр",
+    "meaning": "센터"
+  },
+  {
+    "id": 609,
+    "expression": "подобный",
+    "meaning": "비슷한, 같은"
+  },
+  {
+    "id": 610,
+    "expression": "возможно",
+    "meaning": "최대한… 가능한 한(\"가능한 한 빨리\"로)"
+  },
+  {
+    "id": 611,
+    "expression": "около",
+    "meaning": "옆에, 근처에"
+  },
+  {
+    "id": 612,
+    "expression": "смеяться",
+    "meaning": "웃다"
+  },
+  {
+    "id": 613,
+    "expression": "сто",
+    "meaning": "백"
+  },
+  {
+    "id": 614,
+    "expression": "будущее",
+    "meaning": "미래"
+  },
+  {
+    "id": 615,
+    "expression": "хватать",
+    "meaning": "잡아채다, 붙잡다; 충분하다(#636 참조)"
+  },
+  {
+    "id": 616,
+    "expression": "число",
+    "meaning": "숫자"
+  },
+  {
+    "id": 617,
+    "expression": "всякое",
+    "meaning": "어떤, 모든"
+  },
+  {
+    "id": 618,
+    "expression": "рубль",
+    "meaning": "루블"
+  },
+  {
+    "id": 619,
+    "expression": "почувствовать",
+    "meaning": "느끼다"
+  },
+  {
+    "id": 620,
+    "expression": "принести",
+    "meaning": "가져오다; 마스터러시안"
+  },
+  {
+    "id": 621,
+    "expression": "вера",
+    "meaning": "믿음, 믿음"
+  },
+  {
+    "id": 622,
+    "expression": "вовсе",
+    "meaning": "조용한; 별말씀을요"
+  },
+  {
+    "id": 623,
+    "expression": "удар",
+    "meaning": "타격, 뇌졸중"
+  },
+  {
+    "id": 624,
+    "expression": "телефон",
+    "meaning": "전화"
+  },
+  {
+    "id": 625,
+    "expression": "колено",
+    "meaning": "무릎"
+  },
+  {
+    "id": 626,
+    "expression": "согласиться",
+    "meaning": "동의하다, 동의하다"
+  },
+  {
+    "id": 627,
+    "expression": "коридор",
+    "meaning": "복도, 통로"
+  },
+  {
+    "id": 628,
+    "expression": "мужик",
+    "meaning": "무지크, 남자"
+  },
+  {
+    "id": 629,
+    "expression": "правый",
+    "meaning": "오른쪽"
+  },
+  {
+    "id": 630,
+    "expression": "автор",
+    "meaning": "작가"
+  },
+  {
+    "id": 631,
+    "expression": "холодный",
+    "meaning": "춥다, 시원하다"
+  },
+  {
+    "id": 632,
+    "expression": "хватить",
+    "meaning": "빼앗다, 붙잡다, 충분하다(#618 참조)"
+  },
+  {
+    "id": 633,
+    "expression": "многие",
+    "meaning": "많은"
+  },
+  {
+    "id": 634,
+    "expression": "встреча",
+    "meaning": "회의, 리셉션"
+  },
+  {
+    "id": 635,
+    "expression": "кабинет",
+    "meaning": "공부, 방, 사무실 스위트"
+  },
+  {
+    "id": 636,
+    "expression": "документ",
+    "meaning": "문서"
+  },
+  {
+    "id": 637,
+    "expression": "самолет",
+    "meaning": "항공기, 비행기"
+  },
+  {
+    "id": 638,
+    "expression": "вниз",
+    "meaning": "아래로, 아래로"
+  },
+  {
+    "id": 639,
+    "expression": "принимать",
+    "meaning": "받아들이다, 인정하다, 받아들이다 (#481 참조)"
+  },
+  {
+    "id": 640,
+    "expression": "игра",
+    "meaning": "게임, 놀이"
+  },
+  {
+    "id": 641,
+    "expression": "рассказ",
+    "meaning": "이야기"
+  },
+  {
+    "id": 642,
+    "expression": "хлеб",
+    "meaning": "빵"
+  },
+  {
+    "id": 643,
+    "expression": "развитие",
+    "meaning": "개발"
+  },
+  {
+    "id": 644,
+    "expression": "убить",
+    "meaning": "죽이다"
+  },
+  {
+    "id": 645,
+    "expression": "родной",
+    "meaning": "자신의, 원주민, 친애하는"
+  },
+  {
+    "id": 646,
+    "expression": "открытый",
+    "meaning": "열려 있는"
+  },
+  {
+    "id": 647,
+    "expression": "менее",
+    "meaning": "더 적은"
+  },
+  {
+    "id": 648,
+    "expression": "предложить",
+    "meaning": "제안하다, 제안하다, 제안하다"
+  },
+  {
+    "id": 649,
+    "expression": "желтый",
+    "meaning": "노란색"
+  },
+  {
+    "id": 650,
+    "expression": "приходиться",
+    "meaning": "적합하다, 떨어지다; ~해야 한다"
+  },
+  {
+    "id": 651,
+    "expression": "выпить",
+    "meaning": "마시다"
+  },
+  {
+    "id": 652,
+    "expression": "крикнуть",
+    "meaning": "울다, 소리치다(#447 참조)"
+  },
+  {
+    "id": 653,
+    "expression": "трубка",
+    "meaning": "튜브, 롤, 파이프"
+  },
+  {
+    "id": 654,
+    "expression": "враг",
+    "meaning": "적"
+  },
+  {
+    "id": 655,
+    "expression": "показывать",
+    "meaning": "보여주다, 전시하다"
+  },
+  {
+    "id": 656,
+    "expression": "двое",
+    "meaning": "둘"
+  },
+  {
+    "id": 657,
+    "expression": "доктор",
+    "meaning": "의사"
+  },
+  {
+    "id": 658,
+    "expression": "ладонь",
+    "meaning": "손바닥 안에 감추다"
+  },
+  {
+    "id": 659,
+    "expression": "вызвать",
+    "meaning": "전화하다, 보내다(821번 참조)"
+  },
+  {
+    "id": 660,
+    "expression": "спокойно",
+    "meaning": "조용히"
+  },
+  {
+    "id": 661,
+    "expression": "попросить",
+    "meaning": "묻다"
+  },
+  {
+    "id": 662,
+    "expression": "наука",
+    "meaning": "과학"
+  },
+  {
+    "id": 663,
+    "expression": "лейтенант",
+    "meaning": "대장 보좌"
+  },
+  {
+    "id": 664,
+    "expression": "служба",
+    "meaning": "봉사, 일"
+  },
+  {
+    "id": 665,
+    "expression": "оказываться",
+    "meaning": "밝혀지다, 자신을 발견하다(#183 참조)"
+  },
+  {
+    "id": 666,
+    "expression": "привести",
+    "meaning": "가져오다"
+  },
+  {
+    "id": 667,
+    "expression": "сорок",
+    "meaning": "사십"
+  },
+  {
+    "id": 668,
+    "expression": "счет",
+    "meaning": "청구서, 계정"
+  },
+  {
+    "id": 669,
+    "expression": "возвращаться",
+    "meaning": "돌아오다"
+  },
+  {
+    "id": 670,
+    "expression": "золотой",
+    "meaning": "황금의"
+  },
+  {
+    "id": 671,
+    "expression": "местный",
+    "meaning": "현지의"
+  },
+  {
+    "id": 672,
+    "expression": "кухня",
+    "meaning": "주방"
+  },
+  {
+    "id": 673,
+    "expression": "крупный",
+    "meaning": "큰, 큰, 눈에 띄는"
+  },
+  {
+    "id": 674,
+    "expression": "решение",
+    "meaning": "결정, 결론"
+  },
+  {
+    "id": 675,
+    "expression": "молодая",
+    "meaning": "신부(288번 참조); 젊다 (형용사로)"
+  },
+  {
+    "id": 676,
+    "expression": "тридцать",
+    "meaning": "삼십"
+  },
+  {
+    "id": 677,
+    "expression": "роман",
+    "meaning": "소설, 로맨스"
+  },
+  {
+    "id": 678,
+    "expression": "требовать",
+    "meaning": "요구하다"
+  },
+  {
+    "id": 679,
+    "expression": "компания",
+    "meaning": "회사"
+  },
+  {
+    "id": 680,
+    "expression": "частый",
+    "meaning": "잦은"
+  },
+  {
+    "id": 681,
+    "expression": "российский",
+    "meaning": "러시아인"
+  },
+  {
+    "id": 682,
+    "expression": "рабочий",
+    "meaning": "일하고 있는"
+  },
+  {
+    "id": 683,
+    "expression": "потерять",
+    "meaning": "잃다"
+  },
+  {
+    "id": 684,
+    "expression": "течение",
+    "meaning": "현재의"
+  },
+  {
+    "id": 685,
+    "expression": "синий",
+    "meaning": "진한 파란색"
+  },
+  {
+    "id": 686,
+    "expression": "столько",
+    "meaning": "너무 많아, 너무 많아"
+  },
+  {
+    "id": 687,
+    "expression": "теплый",
+    "meaning": "따뜻한"
+  },
+  {
+    "id": 688,
+    "expression": "метр",
+    "meaning": "미터, 미터"
+  },
+  {
+    "id": 689,
+    "expression": "достать",
+    "meaning": "도달하다; 얻다, 획득하다"
+  },
+  {
+    "id": 690,
+    "expression": "железный",
+    "meaning": "철, 철"
+  },
+  {
+    "id": 691,
+    "expression": "институт",
+    "meaning": "학회"
+  },
+  {
+    "id": 692,
+    "expression": "сообщить",
+    "meaning": "보고하다, 알리다"
+  },
+  {
+    "id": 693,
+    "expression": "интерес",
+    "meaning": "관심"
+  },
+  {
+    "id": 694,
+    "expression": "обычный",
+    "meaning": "보통, 보통"
+  },
+  {
+    "id": 695,
+    "expression": "появляться",
+    "meaning": "나타나다, 나타나다(335번 참조)"
+  },
+  {
+    "id": 696,
+    "expression": "упасть",
+    "meaning": "떨어지다"
+  },
+  {
+    "id": 697,
+    "expression": "остальной",
+    "meaning": "남은, 나머지"
+  },
+  {
+    "id": 698,
+    "expression": "половина",
+    "meaning": "반"
+  },
+  {
+    "id": 699,
+    "expression": "московский",
+    "meaning": "모스크바"
+  },
+  {
+    "id": 700,
+    "expression": "шесть",
+    "meaning": "육"
+  },
+  {
+    "id": 701,
+    "expression": "получиться",
+    "meaning": "오다, 도착하다, 나오다"
+  },
+  {
+    "id": 702,
+    "expression": "качество",
+    "meaning": "품질"
+  },
+  {
+    "id": 703,
+    "expression": "бой",
+    "meaning": "전투, 싸우다, 전투하다"
+  },
+  {
+    "id": 704,
+    "expression": "шея",
+    "meaning": "목"
+  },
+  {
+    "id": 705,
+    "expression": "вон",
+    "meaning": "밖으로"
+  },
+  {
+    "id": 706,
+    "expression": "идея",
+    "meaning": "아이디어"
+  },
+  {
+    "id": 707,
+    "expression": "видимо",
+    "meaning": "겉보기에, 겉으로는"
+  },
+  {
+    "id": 708,
+    "expression": "достаточно",
+    "meaning": "충분히, 충분히"
+  },
+  {
+    "id": 709,
+    "expression": "провести",
+    "meaning": "동행하다, 출발하다; 지휘하다; 지출(#973 참조)"
+  },
+  {
+    "id": 710,
+    "expression": "важный",
+    "meaning": "중요한"
+  },
+  {
+    "id": 711,
+    "expression": "трава",
+    "meaning": "잔디"
+  },
+  {
+    "id": 712,
+    "expression": "дед",
+    "meaning": "할아버지, 노인"
+  },
+  {
+    "id": 713,
+    "expression": "сознание",
+    "meaning": "의식"
+  },
+  {
+    "id": 714,
+    "expression": "родитель",
+    "meaning": "조상; 마스터러시안, 도트, com"
+  },
+  {
+    "id": 715,
+    "expression": "простить",
+    "meaning": "용서하다"
+  },
+  {
+    "id": 716,
+    "expression": "бить",
+    "meaning": "때리다, 때리다"
+  },
+  {
+    "id": 717,
+    "expression": "чай",
+    "meaning": "차"
+  },
+  {
+    "id": 718,
+    "expression": "поздний",
+    "meaning": "늦은"
+  },
+  {
+    "id": 719,
+    "expression": "кивнуть",
+    "meaning": "고개를 끄덕이다"
+  },
+  {
+    "id": 720,
+    "expression": "род",
+    "meaning": "가족, 씨족, 세대"
+  },
+  {
+    "id": 721,
+    "expression": "исчезнуть",
+    "meaning": "사라지다"
+  },
+  {
+    "id": 722,
+    "expression": "тонкий",
+    "meaning": "얇은"
+  },
+  {
+    "id": 723,
+    "expression": "немецкий",
+    "meaning": "독일 사람"
+  },
+  {
+    "id": 724,
+    "expression": "звук",
+    "meaning": "소리"
+  },
+  {
+    "id": 725,
+    "expression": "отдать",
+    "meaning": "돌려보내다, 돌려주다"
+  },
+  {
+    "id": 726,
+    "expression": "магазин",
+    "meaning": "상점, 가게"
+  },
+  {
+    "id": 727,
+    "expression": "президент",
+    "meaning": "대통령; 감독"
+  },
+  {
+    "id": 728,
+    "expression": "поэт",
+    "meaning": "시인"
+  },
+  {
+    "id": 729,
+    "expression": "спасибо",
+    "meaning": "감사합니다, 감사합니다"
+  },
+  {
+    "id": 730,
+    "expression": "болезнь",
+    "meaning": "질병, 병, 질병"
+  },
+  {
+    "id": 731,
+    "expression": "событие",
+    "meaning": "이벤트"
+  },
+  {
+    "id": 732,
+    "expression": "помочь",
+    "meaning": "도와주려고 (#857 참조)"
+  },
+  {
+    "id": 733,
+    "expression": "кожа",
+    "meaning": "피부"
+  },
+  {
+    "id": 734,
+    "expression": "лист",
+    "meaning": "잎, 시트"
+  },
+  {
+    "id": 735,
+    "expression": "слать",
+    "meaning": "보내다"
+  },
+  {
+    "id": 736,
+    "expression": "вспоминать",
+    "meaning": "기억하다, 회상하다"
+  },
+  {
+    "id": 737,
+    "expression": "прекрасный",
+    "meaning": "아름다운, 괜찮아"
+  },
+  {
+    "id": 738,
+    "expression": "слеза",
+    "meaning": "눈물"
+  },
+  {
+    "id": 739,
+    "expression": "надежда",
+    "meaning": "희망"
+  },
+  {
+    "id": 740,
+    "expression": "молча",
+    "meaning": "조용히, 아무 말도 없이"
+  },
+  {
+    "id": 741,
+    "expression": "сильно",
+    "meaning": "강하게"
+  },
+  {
+    "id": 742,
+    "expression": "верный",
+    "meaning": "옳은; 충실한; 믿을 수 있는"
+  },
+  {
+    "id": 743,
+    "expression": "литература",
+    "meaning": "문학"
+  },
+  {
+    "id": 744,
+    "expression": "оружие",
+    "meaning": "무기"
+  },
+  {
+    "id": 745,
+    "expression": "готовый",
+    "meaning": "준비가 된"
+  },
+  {
+    "id": 746,
+    "expression": "запах",
+    "meaning": "냄새, 냄새, 향기"
+  },
+  {
+    "id": 747,
+    "expression": "неожиданно",
+    "meaning": "갑자기, 갑자기"
+  },
+  {
+    "id": 748,
+    "expression": "вчера",
+    "meaning": "어제"
+  },
+  {
+    "id": 749,
+    "expression": "вздохнуть",
+    "meaning": "숨을 쉬다, 한숨을 쉬다"
+  },
+  {
+    "id": 750,
+    "expression": "роль",
+    "meaning": "역할"
+  },
+  {
+    "id": 751,
+    "expression": "рост",
+    "meaning": "성장, 증가; 키"
+  },
+  {
+    "id": 752,
+    "expression": "природа",
+    "meaning": "자연"
+  },
+  {
+    "id": 753,
+    "expression": "политический",
+    "meaning": "정치적인"
+  },
+  {
+    "id": 754,
+    "expression": "точка",
+    "meaning": "점, 점"
+  },
+  {
+    "id": 755,
+    "expression": "звезда",
+    "meaning": "별"
+  },
+  {
+    "id": 756,
+    "expression": "петь",
+    "meaning": "노래하다"
+  },
+  {
+    "id": 757,
+    "expression": "садиться",
+    "meaning": "앉다"
+  },
+  {
+    "id": 758,
+    "expression": "фамилия",
+    "meaning": "성"
+  },
+  {
+    "id": 759,
+    "expression": "характер",
+    "meaning": "성격, 성향, 성격"
+  },
+  {
+    "id": 760,
+    "expression": "пожалуйста",
+    "meaning": "제발"
+  },
+  {
+    "id": 761,
+    "expression": "выше",
+    "meaning": "더 높은"
+  },
+  {
+    "id": 762,
+    "expression": "офицер",
+    "meaning": "장교"
+  },
+  {
+    "id": 763,
+    "expression": "толпа",
+    "meaning": "군중"
+  },
+  {
+    "id": 764,
+    "expression": "перестать",
+    "meaning": "멈추다, 멈추다"
+  },
+  {
+    "id": 765,
+    "expression": "придтись",
+    "meaning": "적합하다, 떨어지다; ~해야 한다"
+  },
+  {
+    "id": 766,
+    "expression": "уровень",
+    "meaning": "수준"
+  },
+  {
+    "id": 767,
+    "expression": "неизвестный",
+    "meaning": "알려지지 않은"
+  },
+  {
+    "id": 768,
+    "expression": "кресло",
+    "meaning": "안락의자"
+  },
+  {
+    "id": 769,
+    "expression": "баба",
+    "meaning": "여자, 아내, 노부인, (911번 참조)"
+  },
+  {
+    "id": 770,
+    "expression": "секунда",
+    "meaning": "잠시"
+  },
+  {
+    "id": 771,
+    "expression": "пожаловать",
+    "meaning": "부여하다, 수여하다"
+  },
+  {
+    "id": 772,
+    "expression": "банк",
+    "meaning": "은행"
+  },
+  {
+    "id": 773,
+    "expression": "опыт",
+    "meaning": "경험"
+  },
+  {
+    "id": 774,
+    "expression": "тихий",
+    "meaning": "조용한, 낮은, 향기로운"
+  },
+  {
+    "id": 775,
+    "expression": "поскольку",
+    "meaning": "지금까지, 이후로"
+  },
+  {
+    "id": 776,
+    "expression": "сапог",
+    "meaning": "(높은) 부팅"
+  },
+  {
+    "id": 777,
+    "expression": "правило",
+    "meaning": "규칙"
+  },
+  {
+    "id": 778,
+    "expression": "стекло",
+    "meaning": "유리"
+  },
+  {
+    "id": 779,
+    "expression": "получать",
+    "meaning": "받다, 얻다 (#239 참조)"
+  },
+  {
+    "id": 780,
+    "expression": "внутренний",
+    "meaning": "내부, 내부"
+  },
+  {
+    "id": 781,
+    "expression": "дочь",
+    "meaning": "딸"
+  },
+  {
+    "id": 782,
+    "expression": "называться",
+    "meaning": "자신에게 전화하다"
+  },
+  {
+    "id": 783,
+    "expression": "надеяться",
+    "meaning": "희망하다"
+  },
+  {
+    "id": 784,
+    "expression": "член",
+    "meaning": "회원, 사지"
+  },
+  {
+    "id": 785,
+    "expression": "протянуть",
+    "meaning": "늘리다, 늘리다"
+  },
+  {
+    "id": 786,
+    "expression": "государственный",
+    "meaning": "상태"
+  },
+  {
+    "id": 787,
+    "expression": "десяток",
+    "meaning": "열, 수십"
+  },
+  {
+    "id": 788,
+    "expression": "глубокий",
+    "meaning": "깊은"
+  },
+  {
+    "id": 789,
+    "expression": "цветок",
+    "meaning": "꽃"
+  },
+  {
+    "id": 790,
+    "expression": "ах",
+    "meaning": "아!, 아!"
+  },
+  {
+    "id": 791,
+    "expression": "желание",
+    "meaning": "소망"
+  },
+  {
+    "id": 792,
+    "expression": "дождь",
+    "meaning": "비"
+  },
+  {
+    "id": 793,
+    "expression": "впереди",
+    "meaning": "전에, 앞에"
+  },
+  {
+    "id": 794,
+    "expression": "подходить",
+    "meaning": "올라오다, 접근하다;맞추다(#361 참조)"
+  },
+  {
+    "id": 795,
+    "expression": "лоб",
+    "meaning": "이마"
+  },
+  {
+    "id": 796,
+    "expression": "улыбка",
+    "meaning": "웃다"
+  },
+  {
+    "id": 797,
+    "expression": "борьба",
+    "meaning": "싸우다, 분투하다"
+  },
+  {
+    "id": 798,
+    "expression": "ворот",
+    "meaning": "칼라"
+  },
+  {
+    "id": 799,
+    "expression": "ящик",
+    "meaning": "상자, 케이스"
+  },
+  {
+    "id": 800,
+    "expression": "этаж",
+    "meaning": "바닥, 층"
+  },
+  {
+    "id": 801,
+    "expression": "служить",
+    "meaning": "봉사하다"
+  },
+  {
+    "id": 802,
+    "expression": "вновь",
+    "meaning": "다시, 다시 한 번"
+  },
+  {
+    "id": 803,
+    "expression": "голубой",
+    "meaning": "파란색, 하늘색"
+  },
+  {
+    "id": 804,
+    "expression": "нечего",
+    "meaning": "아무것도 없어, 필요 없어"
+  },
+  {
+    "id": 805,
+    "expression": "революция",
+    "meaning": "혁명"
+  },
+  {
+    "id": 806,
+    "expression": "впервые",
+    "meaning": "처음으로"
+  },
+  {
+    "id": 807,
+    "expression": "сосед",
+    "meaning": "이웃"
+  },
+  {
+    "id": 808,
+    "expression": "сестра",
+    "meaning": "자매"
+  },
+  {
+    "id": 809,
+    "expression": "долгий",
+    "meaning": "긴"
+  },
+  {
+    "id": 810,
+    "expression": "чей",
+    "meaning": "누구의"
+  },
+  {
+    "id": 811,
+    "expression": "поверить",
+    "meaning": "믿다"
+  },
+  {
+    "id": 812,
+    "expression": "ситуация",
+    "meaning": "상황"
+  },
+  {
+    "id": 813,
+    "expression": "взглянуть",
+    "meaning": "보다, 슬쩍 보다"
+  },
+  {
+    "id": 814,
+    "expression": "слабый",
+    "meaning": "약한"
+  },
+  {
+    "id": 815,
+    "expression": "количество",
+    "meaning": "수량"
+  },
+  {
+    "id": 816,
+    "expression": "вызывать (See #663)",
+    "meaning": "전화하다, 보내다"
+  },
+  {
+    "id": 817,
+    "expression": "уверенный",
+    "meaning": "자신감이 있다, 물론이다"
+  },
+  {
+    "id": 818,
+    "expression": "выход",
+    "meaning": "출구"
+  },
+  {
+    "id": 819,
+    "expression": "совет",
+    "meaning": "조언; 마스터러시안, 닷컴"
+  },
+  {
+    "id": 820,
+    "expression": "дурак",
+    "meaning": "바보, 바보"
+  },
+  {
+    "id": 821,
+    "expression": "любимый",
+    "meaning": "친애하는, 사랑받는"
+  },
+  {
+    "id": 822,
+    "expression": "союз",
+    "meaning": "연합, 동맹; 접속사"
+  },
+  {
+    "id": 823,
+    "expression": "лето",
+    "meaning": "여름"
+  },
+  {
+    "id": 824,
+    "expression": "ожидать",
+    "meaning": "기대하다"
+  },
+  {
+    "id": 825,
+    "expression": "пришлый",
+    "meaning": "외계인, 이상한"
+  },
+  {
+    "id": 826,
+    "expression": "висеть",
+    "meaning": "매달다"
+  },
+  {
+    "id": 827,
+    "expression": "граница",
+    "meaning": "국경"
+  },
+  {
+    "id": 828,
+    "expression": "цвет",
+    "meaning": "색깔, 색깔"
+  },
+  {
+    "id": 829,
+    "expression": "серьезный",
+    "meaning": "심각한"
+  },
+  {
+    "id": 830,
+    "expression": "создать",
+    "meaning": "창조하다, 확립하다"
+  },
+  {
+    "id": 831,
+    "expression": "интересно",
+    "meaning": "재미있게"
+  },
+  {
+    "id": 832,
+    "expression": "свобода",
+    "meaning": "자유"
+  },
+  {
+    "id": 833,
+    "expression": "зато",
+    "meaning": "하지만, 하지만 그러면"
+  },
+  {
+    "id": 834,
+    "expression": "стул",
+    "meaning": "의자"
+  },
+  {
+    "id": 835,
+    "expression": "уехать",
+    "meaning": "떠나다, 출발하다"
+  },
+  {
+    "id": 836,
+    "expression": "поезд",
+    "meaning": "기차"
+  },
+  {
+    "id": 837,
+    "expression": "музыка",
+    "meaning": "음악"
+  },
+  {
+    "id": 838,
+    "expression": "быстрый",
+    "meaning": "빨리, 빨리"
+  },
+  {
+    "id": 839,
+    "expression": "тень",
+    "meaning": "그림자"
+  },
+  {
+    "id": 840,
+    "expression": "лошадь",
+    "meaning": "말"
+  },
+  {
+    "id": 841,
+    "expression": "поле",
+    "meaning": "필드"
+  },
+  {
+    "id": 842,
+    "expression": "выглядеть",
+    "meaning": "보다"
+  },
+  {
+    "id": 843,
+    "expression": "учиться",
+    "meaning": "공부하다, 배우다"
+  },
+  {
+    "id": 844,
+    "expression": "левый",
+    "meaning": "왼쪽"
+  },
+  {
+    "id": 845,
+    "expression": "разговаривать",
+    "meaning": "말하다, 말하다"
+  },
+  {
+    "id": 846,
+    "expression": "детский",
+    "meaning": "어린이의, 어린이의"
+  },
+  {
+    "id": 847,
+    "expression": "тип",
+    "meaning": "유형, 모델"
+  },
+  {
+    "id": 848,
+    "expression": "суд",
+    "meaning": "법원, 법정"
+  },
+  {
+    "id": 849,
+    "expression": "связанный",
+    "meaning": "관련된, 연결된, 묶인"
+  },
+  {
+    "id": 850,
+    "expression": "горячий",
+    "meaning": "더운"
+  },
+  {
+    "id": 851,
+    "expression": "площадь",
+    "meaning": "광장, 지역"
+  },
+  {
+    "id": 852,
+    "expression": "помогать",
+    "meaning": "도와주다, 도와주다(#736 참조)"
+  },
+  {
+    "id": 853,
+    "expression": "счастливый",
+    "meaning": "행복하다"
+  },
+  {
+    "id": 854,
+    "expression": "повернуться",
+    "meaning": "회전하다"
+  },
+  {
+    "id": 855,
+    "expression": "позволить",
+    "meaning": "허락하다, 허락하다"
+  },
+  {
+    "id": 856,
+    "expression": "встретить",
+    "meaning": "만나다"
+  },
+  {
+    "id": 857,
+    "expression": "радость",
+    "meaning": "기쁨, 기쁨"
+  },
+  {
+    "id": 858,
+    "expression": "острый",
+    "meaning": "날카로운; 매운"
+  },
+  {
+    "id": 859,
+    "expression": "возраст",
+    "meaning": "나이"
+  },
+  {
+    "id": 860,
+    "expression": "орган",
+    "meaning": "기관, 신체"
+  },
+  {
+    "id": 861,
+    "expression": "карта",
+    "meaning": "지도"
+  },
+  {
+    "id": 862,
+    "expression": "входить",
+    "meaning": "들어가다, 들어오다"
+  },
+  {
+    "id": 863,
+    "expression": "обнаружить",
+    "meaning": "발견하다, 알아내다"
+  },
+  {
+    "id": 864,
+    "expression": "король",
+    "meaning": "왕"
+  },
+  {
+    "id": 865,
+    "expression": "слава",
+    "meaning": "영광, 명성"
+  },
+  {
+    "id": 866,
+    "expression": "полковник",
+    "meaning": "대령"
+  },
+  {
+    "id": 867,
+    "expression": "мелкий",
+    "meaning": "얕은, 작은"
+  },
+  {
+    "id": 868,
+    "expression": "бок",
+    "meaning": "측면, 옆구리"
+  },
+  {
+    "id": 869,
+    "expression": "цена",
+    "meaning": "가격"
+  },
+  {
+    "id": 870,
+    "expression": "информация",
+    "meaning": "정보"
+  },
+  {
+    "id": 871,
+    "expression": "мозг",
+    "meaning": "뇌"
+  },
+  {
+    "id": 872,
+    "expression": "удовольствие",
+    "meaning": "기쁨"
+  },
+  {
+    "id": 873,
+    "expression": "воля",
+    "meaning": "~ 할 것이다"
+  },
+  {
+    "id": 874,
+    "expression": "область",
+    "meaning": "주, 지방; 필드"
+  },
+  {
+    "id": 875,
+    "expression": "крыша",
+    "meaning": "지붕"
+  },
+  {
+    "id": 876,
+    "expression": "нести",
+    "meaning": "운반하다"
+  },
+  {
+    "id": 877,
+    "expression": "обратно",
+    "meaning": "뒤로, 뒤로"
+  },
+  {
+    "id": 878,
+    "expression": "современный",
+    "meaning": "현대적인, 현대적인, 최신의"
+  },
+  {
+    "id": 879,
+    "expression": "дама",
+    "meaning": "숙녀, 파트너, 여왕"
+  },
+  {
+    "id": 880,
+    "expression": "семь",
+    "meaning": "일곱"
+  },
+  {
+    "id": 881,
+    "expression": "веселый",
+    "meaning": "명랑하다, 즐겁다"
+  },
+  {
+    "id": 882,
+    "expression": "прислать",
+    "meaning": "보내다"
+  },
+  {
+    "id": 883,
+    "expression": "сад",
+    "meaning": "정원, 마당"
+  },
+  {
+    "id": 884,
+    "expression": "правительство",
+    "meaning": "정부"
+  },
+  {
+    "id": 885,
+    "expression": "милый",
+    "meaning": "좋아, 사랑스러워, 자기야"
+  },
+  {
+    "id": 886,
+    "expression": "относиться",
+    "meaning": "대하다, 배려하다, 관련시키다"
+  },
+  {
+    "id": 887,
+    "expression": "возникать",
+    "meaning": "일어나다, 나타나다(#951 참조)"
+  },
+  {
+    "id": 888,
+    "expression": "мол",
+    "meaning": "그가 말한다, 그들이 말한다, 등등."
+  },
+  {
+    "id": 889,
+    "expression": "повторить",
+    "meaning": "반복하다"
+  },
+  {
+    "id": 890,
+    "expression": "название",
+    "meaning": "이름, 직함"
+  },
+  {
+    "id": 891,
+    "expression": "средний",
+    "meaning": "평균, 중간"
+  },
+  {
+    "id": 892,
+    "expression": "пример",
+    "meaning": "예"
+  },
+  {
+    "id": 893,
+    "expression": "невозможно",
+    "meaning": "불가능한"
+  },
+  {
+    "id": 894,
+    "expression": "зеркало",
+    "meaning": "거울"
+  },
+  {
+    "id": 895,
+    "expression": "погибнуть",
+    "meaning": "멸망하다, 죽임을 당하다"
+  },
+  {
+    "id": 896,
+    "expression": "американский",
+    "meaning": "미국 사람"
+  },
+  {
+    "id": 897,
+    "expression": "дым",
+    "meaning": "연기"
+  },
+  {
+    "id": 898,
+    "expression": "гореть",
+    "meaning": "태우다"
+  },
+  {
+    "id": 899,
+    "expression": "плакать",
+    "meaning": "울다"
+  },
+  {
+    "id": 900,
+    "expression": "весьма",
+    "meaning": "매우, 매우, 크게"
+  },
+  {
+    "id": 901,
+    "expression": "факт",
+    "meaning": "사실"
+  },
+  {
+    "id": 902,
+    "expression": "двигаться",
+    "meaning": "움직이다"
+  },
+  {
+    "id": 903,
+    "expression": "рыба",
+    "meaning": "물고기"
+  },
+  {
+    "id": 904,
+    "expression": "добавить",
+    "meaning": "추가하다"
+  },
+  {
+    "id": 905,
+    "expression": "удивиться",
+    "meaning": "궁금해하다, 놀라다"
+  },
+  {
+    "id": 906,
+    "expression": "бабушка",
+    "meaning": "할머니(#773 참조)"
+  },
+  {
+    "id": 907,
+    "expression": "вино",
+    "meaning": "와인"
+  },
+  {
+    "id": 908,
+    "expression": "ибо",
+    "meaning": "~을 위한"
+  },
+  {
+    "id": 909,
+    "expression": "учитель",
+    "meaning": "선생님, 강사"
+  },
+  {
+    "id": 910,
+    "expression": "действовать",
+    "meaning": "행동하다"
+  },
+  {
+    "id": 911,
+    "expression": "осторожно",
+    "meaning": "조심스럽게, 조심스럽게"
+  },
+  {
+    "id": 912,
+    "expression": "круг",
+    "meaning": "원; 마스터러시안, 닷컴"
+  },
+  {
+    "id": 913,
+    "expression": "папа",
+    "meaning": "아빠, 아빠(#165 참조)"
+  },
+  {
+    "id": 914,
+    "expression": "правильно",
+    "meaning": "제대로, 제대로"
+  },
+  {
+    "id": 915,
+    "expression": "недавно",
+    "meaning": "최근에, 요즘"
+  },
+  {
+    "id": 916,
+    "expression": "держаться",
+    "meaning": "버티다, 행동하다"
+  },
+  {
+    "id": 917,
+    "expression": "причем",
+    "meaning": "게다가, 그리고 또 뭐야?"
+  },
+  {
+    "id": 918,
+    "expression": "лететь",
+    "meaning": "날다"
+  },
+  {
+    "id": 919,
+    "expression": "носить",
+    "meaning": "입다"
+  },
+  {
+    "id": 920,
+    "expression": "повод",
+    "meaning": "행사, 이유; 굴레"
+  },
+  {
+    "id": 921,
+    "expression": "лагерь",
+    "meaning": "캠프"
+  },
+  {
+    "id": 922,
+    "expression": "птица",
+    "meaning": "새"
+  },
+  {
+    "id": 923,
+    "expression": "корабль",
+    "meaning": "배"
+  },
+  {
+    "id": 924,
+    "expression": "мнение",
+    "meaning": "의견"
+  },
+  {
+    "id": 925,
+    "expression": "ночной",
+    "meaning": "밤"
+  },
+  {
+    "id": 926,
+    "expression": "здоровый",
+    "meaning": "건강한"
+  },
+  {
+    "id": 927,
+    "expression": "зима",
+    "meaning": "겨울"
+  },
+  {
+    "id": 928,
+    "expression": "сухой",
+    "meaning": "마른"
+  },
+  {
+    "id": 929,
+    "expression": "километр",
+    "meaning": "킬로미터, 킬로미터"
+  },
+  {
+    "id": 930,
+    "expression": "кровать",
+    "meaning": "침대"
+  },
+  {
+    "id": 931,
+    "expression": "привыкнуть",
+    "meaning": "익숙해지다, 익숙해지다"
+  },
+  {
+    "id": 932,
+    "expression": "прочее",
+    "meaning": "등등, 기타"
+  },
+  {
+    "id": 933,
+    "expression": "свободный",
+    "meaning": "무료"
+  },
+  {
+    "id": 934,
+    "expression": "лестница",
+    "meaning": "계단"
+  },
+  {
+    "id": 935,
+    "expression": "неужели",
+    "meaning": "정말로, 확실히"
+  },
+  {
+    "id": 936,
+    "expression": "обязательно",
+    "meaning": "어김없이, 꼭"
+  },
+  {
+    "id": 937,
+    "expression": "вверх",
+    "meaning": "위로, 위쪽으로"
+  },
+  {
+    "id": 938,
+    "expression": "детство",
+    "meaning": "어린 시절"
+  },
+  {
+    "id": 939,
+    "expression": "остров",
+    "meaning": "섬"
+  },
+  {
+    "id": 940,
+    "expression": "статья",
+    "meaning": "기사"
+  },
+  {
+    "id": 941,
+    "expression": "позвонить",
+    "meaning": "전화하다, 전화하다"
+  },
+  {
+    "id": 942,
+    "expression": "столь",
+    "meaning": "그래서"
+  },
+  {
+    "id": 943,
+    "expression": "мешать",
+    "meaning": "방해하다, 방지하다; 혼합"
+  },
+  {
+    "id": 944,
+    "expression": "водка",
+    "meaning": "보드카"
+  },
+  {
+    "id": 945,
+    "expression": "темнота",
+    "meaning": "어둠"
+  },
+  {
+    "id": 946,
+    "expression": "возникнуть",
+    "meaning": "일어나다, 솟아오르다(#892 참조)"
+  },
+  {
+    "id": 947,
+    "expression": "способный",
+    "meaning": "(~의) 능력이 있는"
+  },
+  {
+    "id": 948,
+    "expression": "станция",
+    "meaning": "역"
+  },
+  {
+    "id": 949,
+    "expression": "желать",
+    "meaning": "소원하다"
+  },
+  {
+    "id": 950,
+    "expression": "попробовать",
+    "meaning": "시도하다, 테스트하다"
+  },
+  {
+    "id": 951,
+    "expression": "получаться",
+    "meaning": "나오다"
+  },
+  {
+    "id": 952,
+    "expression": "гражданин",
+    "meaning": "시민"
+  },
+  {
+    "id": 953,
+    "expression": "странно",
+    "meaning": "이상하게도"
+  },
+  {
+    "id": 954,
+    "expression": "вскоре",
+    "meaning": "곧, 곧"
+  },
+  {
+    "id": 955,
+    "expression": "интересный",
+    "meaning": "흥미로운"
+  },
+  {
+    "id": 956,
+    "expression": "команда",
+    "meaning": "팀; 명령"
+  },
+  {
+    "id": 957,
+    "expression": "заболевание",
+    "meaning": "질병, 질병"
+  },
+  {
+    "id": 958,
+    "expression": "живот",
+    "meaning": "배, 배"
+  },
+  {
+    "id": 959,
+    "expression": "ставить",
+    "meaning": "놓다, 놓다, 놓다"
+  },
+  {
+    "id": 960,
+    "expression": "ради",
+    "meaning": "~을 위해"
+  },
+  {
+    "id": 961,
+    "expression": "тишина",
+    "meaning": "침묵, 고요함"
+  },
+  {
+    "id": 962,
+    "expression": "понятно",
+    "meaning": "분명히, 명백히"
+  },
+  {
+    "id": 963,
+    "expression": "фронт",
+    "meaning": "앞쪽"
+  },
+  {
+    "id": 964,
+    "expression": "щека",
+    "meaning": "볼"
+  },
+  {
+    "id": 965,
+    "expression": "страшно",
+    "meaning": "끔찍하게, 끔찍하게"
+  },
+  {
+    "id": 966,
+    "expression": "район",
+    "meaning": "지역, 지역"
+  },
+  {
+    "id": 967,
+    "expression": "наверно",
+    "meaning": "아마도(#461 참조)"
+  },
+  {
+    "id": 968,
+    "expression": "проводить",
+    "meaning": "이끌다, 호위하다; 동행(#713 참조)"
+  },
+  {
+    "id": 969,
+    "expression": "выражение",
+    "meaning": "표현"
+  },
+  {
+    "id": 970,
+    "expression": "слегка",
+    "meaning": "약간"
+  },
+  {
+    "id": 971,
+    "expression": "мешок",
+    "meaning": "가방, 자루"
+  },
+  {
+    "id": 972,
+    "expression": "обещать",
+    "meaning": "약속하다"
+  },
+  {
+    "id": 973,
+    "expression": "дорогой",
+    "meaning": "가는 길에"
+  },
+  {
+    "id": 974,
+    "expression": "судить",
+    "meaning": "판단하다, 시도하다"
+  },
+  {
+    "id": 975,
+    "expression": "большинство",
+    "meaning": "다수"
+  },
+  {
+    "id": 976,
+    "expression": "собраться",
+    "meaning": "모으다, 수집하다(#479 참조)"
+  },
+  {
+    "id": 977,
+    "expression": "управление",
+    "meaning": "작동, 제어"
+  },
+  {
+    "id": 978,
+    "expression": "колоть",
+    "meaning": "찌르다"
+  },
+  {
+    "id": 979,
+    "expression": "мокрый",
+    "meaning": "젖은"
+  },
+  {
+    "id": 980,
+    "expression": "приказ",
+    "meaning": "주문하다"
+  },
+  {
+    "id": 981,
+    "expression": "прямой",
+    "meaning": "똑바로"
+  },
+  {
+    "id": 982,
+    "expression": "закричать",
+    "meaning": "소리치다, 소리치다"
+  },
+  {
+    "id": 983,
+    "expression": "кончиться",
+    "meaning": "끝내다"
+  },
+  {
+    "id": 984,
+    "expression": "куст",
+    "meaning": "부시"
+  },
+  {
+    "id": 985,
+    "expression": "стрелять",
+    "meaning": "쏘다"
+  },
+  {
+    "id": 986,
+    "expression": "художник",
+    "meaning": "화가, 예술가"
+  },
+  {
+    "id": 987,
+    "expression": "знак",
+    "meaning": "징후"
+  },
+  {
+    "id": 988,
+    "expression": "завод",
+    "meaning": "공장"
+  },
+  {
+    "id": 989,
+    "expression": "кулак",
+    "meaning": "주먹"
+  },
+  {
+    "id": 990,
+    "expression": "использовать",
+    "meaning": "사용하다, 활용하다, 활용하다"
+  },
+  {
+    "id": 991,
+    "expression": "стакан",
+    "meaning": "유리"
+  },
+  {
+    "id": 992,
+    "expression": "пахнуть",
+    "meaning": "냄새를 맡다"
+  },
+  {
+    "id": 993,
+    "expression": "отсюда",
+    "meaning": "여기에서"
+  },
+  {
+    "id": 994,
+    "expression": "рот",
+    "meaning": "입"
+  }
+]
