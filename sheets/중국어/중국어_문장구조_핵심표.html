@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#ffffff">
+  <title>중국어 문장구조 핵심표</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #0f172a;
+      color: #e2e8f0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 15px;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+    }
+    h1 { font-size: 1.5rem; font-weight: 700; color: #60a5fa; margin-bottom: 0.25rem; }
+    .subtitle { color: #94a3b8; font-size: 0.875rem; margin-bottom: 1.75rem; }
+    h2 { font-size: 0.8rem; font-weight: 600; color: #94a3b8; text-transform: uppercase;
+         letter-spacing: 0.05em; margin: 1.75rem 0 0.75rem; }
+    table { width: 100%; border-collapse: collapse; margin-bottom: 1rem; }
+    th {
+      background: #1e293b;
+      color: #94a3b8;
+      font-size: 0.72rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      padding: 0.5rem 0.6rem;
+      text-align: left;
+      border-bottom: 1px solid #334155;
+    }
+    td {
+      padding: 0.55rem 0.6rem;
+      border-bottom: 1px solid #1e293b;
+      vertical-align: top;
+      font-size: 0.85rem;
+    }
+    tr:last-child td { border-bottom: none; }
+    code {
+      background: #1e293b;
+      color: #60a5fa;
+      font-family: 'Courier New', monospace;
+      font-size: 0.85rem;
+      padding: 0.1rem 0.4rem;
+      border-radius: 3px;
+    }
+    .card {
+      background: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 8px;
+      padding: 1rem 1.25rem;
+      margin-bottom: 0.9rem;
+    }
+    .card h3 { font-size: 0.95rem; color: #60a5fa; margin-bottom: 0.5rem; }
+    .card .structure {
+      font-family: 'Courier New', monospace;
+      font-size: 0.85rem;
+      color: #a78bfa;
+      background: #0f172a;
+      padding: 0.5rem 0.75rem;
+      border-radius: 6px;
+      margin-bottom: 0.6rem;
+      display: inline-block;
+    }
+    .card .example { font-size: 0.85rem; color: #cbd5e1; margin: 0.3rem 0; }
+    .card .example .py { color: #94a3b8; }
+    .card .note { font-size: 0.8rem; color: #94a3b8; margin-top: 0.5rem; line-height: 1.6; }
+    @media (max-width: 600px) { body { padding: 1rem; } }
+    @media print { body { padding: 0.5cm; } }
+  </style>
+</head>
+<body>
+
+  <h1>중국어 문장구조 핵심표</h1>
+  <p class="subtitle">어순·부정문·상 표지(了着过)·강조구문·把被자문 — 문장 뼈대 한눈에</p>
+
+  <h2>기본 어순</h2>
+  <div class="card">
+    <div class="structure">주어 + 동사 + 목적어 (SVO)</div>
+    <div class="example">我吃苹果。 <span class="py">Wǒ chī píngguǒ.</span> 나는 사과를 먹는다.</div>
+    <div class="note">조사 없이 어순 자체가 문법 — 순서 바뀌면 의미도 바뀌거나 비문이 됨.</div>
+  </div>
+
+  <h2>부정문</h2>
+  <table>
+    <thead><tr><th style="width:20%">부정사</th><th style="width:30%">쓰임</th><th>예</th></tr></thead>
+    <tbody>
+      <tr><td><code>不</code></td><td>현재/미래, 습관, 의지, 상태</td><td>我不去。(안 간다)</td></tr>
+      <tr><td><code>没(有)</code></td><td>과거 경험, 완료 여부, 有 부정</td><td>我没去。(안 갔다)</td></tr>
+    </tbody>
+  </table>
+  <p class="subtitle">了가 있는 문장을 부정하면 了는 사라지고 没(有)만 남음: 我吃了 → 我没吃</p>
+
+  <h2>상(aspect) 표지 3종</h2>
+  <table>
+    <thead><tr><th style="width:15%">표지</th><th style="width:25%">의미</th><th>예</th></tr></thead>
+    <tbody>
+      <tr><td><code>了</code></td><td>완료 또는 상태 변화</td><td>我吃了。(먹었다) / 天冷了。(추워졌다)</td></tr>
+      <tr><td><code>着</code></td><td>동작·상태의 지속</td><td>他坐着。(앉아 있다)</td></tr>
+      <tr><td><code>过</code></td><td>경험(~해본 적 있다)</td><td>我去过北京。(가본 적 있다)</td></tr>
+    </tbody>
+  </table>
+  <p class="subtitle">了=완료 시점 강조 / 着=완료 후 상태 지속 / 过=경험 유무. 셋 다 "과거"가 아닌 상 범주.</p>
+
+  <h2>是…的 강조구문</h2>
+  <div class="card">
+    <div class="structure">是 + [강조할 정보] + 동사구 + 的</div>
+    <div class="example">我是去年去北京的。 <span class="py">작년에 베이징에 갔다(작년 강조).</span></div>
+    <div class="note">이미 일어난 일의 시간·장소·방법·주체를 짚어줄 때만 씀. 미래엔 못 씀.</div>
+  </div>
+
+  <h2>把자문 vs 被자문</h2>
+  <table>
+    <thead><tr><th style="width:15%">구문</th><th style="width:25%">구조</th><th>예</th></tr></thead>
+    <tbody>
+      <tr><td><code>把</code></td><td>주어 + 把 + 목적어 + 동사 + 기타성분</td><td>我把苹果吃了。(사과를 처리함, 능동 관점)</td></tr>
+      <tr><td><code>被</code></td><td>목적어 + 被 + [행위자] + 동사 + 기타성분</td><td>苹果被我吃了。(사과가 당함, 피행위자 관점)</td></tr>
+    </tbody>
+  </table>
+  <p class="subtitle">把/被 둘 다 동사만 덜렁 못 씀 — 반드시 뒤에 결과 성분(了/보어 등)이 필요.</p>
+
+  <h2>정반의문문 3계열</h2>
+  <table>
+    <thead><tr><th style="width:30%">문장 종류</th><th>형태</th></tr></thead>
+    <tbody>
+      <tr><td>일반 동사/형용사</td><td><code>V不V</code> / <code>A不A</code> — 去不去？高不高？</td></tr>
+      <tr><td>조동사</td><td><code>조동사不조동사</code> — 会不会？能不能？</td></tr>
+      <tr><td>了 있는 완료문</td><td><code>V了没(有)</code> — 吃了没有？</td></tr>
+    </tbody>
+  </table>
+
+</body>
+</html>

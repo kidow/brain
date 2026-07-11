@@ -255,6 +255,9 @@ brain/
 - [중국어 문자 치트시트](https://brain.dongwook.kim/sheets/중국어/중국어_문자_치트시트.html)
 - [중국어 보어 총정리](https://brain.dongwook.kim/sheets/중국어/중국어_보어_총정리.html)
 - [중국어 상관접속사 총정리](https://brain.dongwook.kim/sheets/중국어/중국어_상관접속사_총정리.html)
+- [중국어 문장구조 핵심표](https://brain.dongwook.kim/sheets/중국어/중국어_문장구조_핵심표.html)
+- [중국어 양사 빠른참조표](https://brain.dongwook.kim/sheets/중국어/중국어_양사_빠른참조표.html)
+- [중국어 회화 표현모음](https://brain.dongwook.kim/sheets/중국어/중국어_회화_표현모음.html)
 
 **독일어**
 - [독일어 치트시트](https://brain.dongwook.kim/sheets/독일어/독일어_치트시트.html)
