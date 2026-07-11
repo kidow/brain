@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#0f172a">
+<title>영어 프레젠테이션 치트시트</title>
+<style>
+  :root {
+    --bg: #0f172a; --fg: #e2e8f0; --muted: #94a3b8; --border: #334155; --surface: #1e293b;
+    --accent: #60a5fa; --accent-light: #1e3a5f; --red: #f87171; --green: #4ade80; --orange: #fb923c;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg); color: var(--fg); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 14px; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 1.5rem 1.25rem;
+  }
+  h1 { font-size: 1.4rem; font-weight: 700; color: var(--accent); margin-bottom: 0.25rem; }
+  .subtitle { color: var(--muted); font-size: 0.85rem; margin-bottom: 1.5rem; }
+  h2 {
+    font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em;
+    color: var(--muted); margin: 1.5rem 0 0.6rem; padding-bottom: 0.3rem; border-bottom: 1px solid var(--border);
+  }
+  table { width: 100%; border-collapse: collapse; font-size: 0.84rem; }
+  th { background: var(--surface); padding: 0.4rem 0.6rem; text-align: left; font-weight: 600; border: 1px solid var(--border); color: var(--fg); }
+  td { padding: 0.4rem 0.6rem; border: 1px solid var(--border); vertical-align: top; }
+  td code, th code { font-family: 'Courier New', monospace; font-weight: 700; color: var(--accent); font-size: 0.85rem; }
+  .rule-box {
+    background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--accent);
+    border-radius: 0 6px 6px 0; padding: 0.5rem 0.75rem; font-size: 0.84rem;
+  }
+  .wrong { color: var(--red); text-decoration: line-through; }
+  .right { color: var(--green); }
+  @media (max-width: 600px) { body { padding: 1rem; } }
+  @media print { body { padding: 0.5cm; } }
+</style>
+</head>
+<body>
+
+<h1>영어 프레젠테이션 치트시트</h1>
+<p class="subtitle">Presentation English — Q&A / 슬라이드 언어 / 데이터 설명 / 클로징</p>
+
+<h2>Q&A 대응</h2>
+<table>
+  <tr><td>시간 벌기</td><td>That's a great question. / Good point — let me think about that.</td></tr>
+  <tr><td>모를 때</td><td>I'd have to check on that and get back to you.</td></tr>
+  <tr><td>되묻기</td><td>Just to clarify, are you asking about X or Y?</td></tr>
+  <tr><td>공격적 질문</td><td>I see where you're coming from. Here's how we thought about it...</td></tr>
+</table>
+
+<h2>슬라이드 언어</h2>
+<table>
+  <tr><td><span class="wrong">We are increasing our market share.</span></td><td><span class="right">Increasing Market Share</span></td></tr>
+  <tr><td><span class="wrong">Improve efficiency / Cutting costs / We will expand</span></td><td><span class="right">Improve efficiency / Cut costs / Expand market</span> (병렬)</td></tr>
+</table>
+<div class="rule-box">완전한 문장 대신 키워드·구(phrase). 설명은 입으로 채움.</div>
+<table>
+  <tr><td><code>YoY</code></td><td>Year over Year, 전년 대비</td></tr>
+  <tr><td><code>QoQ</code></td><td>Quarter over Quarter, 전분기 대비</td></tr>
+  <tr><td><code>TBD</code></td><td>To Be Determined, 미정</td></tr>
+  <tr><td><code>KPI</code></td><td>Key Performance Indicator, 핵심 성과 지표</td></tr>
+</table>
+
+<h2>데이터·그래프 설명</h2>
+<table>
+  <tr><td>증가(약→강)</td><td>rise/increase → grow → surge/soar/spike</td></tr>
+  <tr><td>감소(약→강)</td><td>fall/decrease → decline → drop/plunge/plummet</td></tr>
+  <tr><td>속도 부사</td><td>steadily / gradually / sharply / dramatically / slightly</td></tr>
+  <tr><td>정체</td><td>remain flat / stay stable / plateau / fluctuate</td></tr>
+</table>
+<div class="rule-box">패턴: [동사(방향)] + [부사(속도)] + from A to B / since 시점 — Revenue rose from $2M to $3M over the past year.</div>
+
+<h2>클로징</h2>
+<table>
+  <tr><td>요약</td><td>To sum up, ... / In conclusion, ...</td></tr>
+  <tr><td>핵심 재강조</td><td>If you remember one thing, remember this: X.</td></tr>
+  <tr><td>행동 촉구</td><td>Let's schedule a follow-up to discuss next steps.</td></tr>
+  <tr><td>감사</td><td>Thank you for your time. / I appreciate your attention.</td></tr>
+</table>
+<p class="subtitle">전체 흐름: 오프닝 → 본문(슬라이드+데이터) → Q&A → 클로징(요약+CTA+감사)</p>
+
+</body>
+</html>

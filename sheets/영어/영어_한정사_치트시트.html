@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#0f172a">
+<title>영어 한정사 치트시트</title>
+<style>
+  :root {
+    --bg: #0f172a; --fg: #e2e8f0; --muted: #94a3b8; --border: #334155; --surface: #1e293b;
+    --accent: #60a5fa; --accent-light: #1e3a5f; --red: #f87171; --green: #4ade80; --orange: #fb923c;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg); color: var(--fg); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 14px; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 1.5rem 1.25rem;
+  }
+  h1 { font-size: 1.4rem; font-weight: 700; color: var(--accent); margin-bottom: 0.25rem; }
+  .subtitle { color: var(--muted); font-size: 0.85rem; margin-bottom: 1.5rem; }
+  h2 {
+    font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em;
+    color: var(--muted); margin: 1.5rem 0 0.6rem; padding-bottom: 0.3rem; border-bottom: 1px solid var(--border);
+  }
+  table { width: 100%; border-collapse: collapse; font-size: 0.84rem; }
+  th { background: var(--surface); padding: 0.4rem 0.6rem; text-align: left; font-weight: 600; border: 1px solid var(--border); color: var(--fg); }
+  td { padding: 0.4rem 0.6rem; border: 1px solid var(--border); vertical-align: top; }
+  td code, th code { font-family: 'Courier New', monospace; font-weight: 700; color: var(--accent); font-size: 0.85rem; }
+  .rule-box {
+    background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--accent);
+    border-radius: 0 6px 6px 0; padding: 0.5rem 0.75rem; font-size: 0.84rem;
+  }
+  .wrong { color: var(--red); text-decoration: line-through; }
+  .right { color: var(--green); }
+  @media (max-width: 600px) { body { padding: 1rem; } }
+  @media print { body { padding: 0.5cm; } }
+</style>
+</head>
+<body>
+
+<h1>영어 한정사 치트시트</h1>
+<p class="subtitle">Determiners — each/every, few/a few, some/any</p>
+
+<h2>each vs every</h2>
+<table>
+  <tr><th>each</th><th>every</th></tr>
+  <tr><td>하나씩 개별 인식</td><td>예외 없이 전체 규칙</td></tr>
+  <tr><td>2개 이상도 자연스러움</td><td>3개 이상일 때 자연스러움</td></tr>
+  <tr><td>Each of us has a role. ✅</td><td>Every one of us has a role. ✅ (every of us ❌)</td></tr>
+</table>
+<div class="rule-box">이미지: each = 손가락으로 하나씩 짚기 / every = 도장 찍듯 전체 적용</div>
+
+<h2>few/a few, little/a little</h2>
+<table>
+  <tr><th>표현</th><th>뜻</th><th>대상</th></tr>
+  <tr><td><code>few</code></td><td>거의 없다 (부정적)</td><td>가산</td></tr>
+  <tr><td><code>a few</code></td><td>몇 개 있다 (긍정적)</td><td>가산</td></tr>
+  <tr><td><code>little</code></td><td>거의 없다 (부정적)</td><td>불가산</td></tr>
+  <tr><td><code>a little</code></td><td>조금 있다 (긍정적)</td><td>불가산</td></tr>
+</table>
+<div class="rule-box">숫자가 아니라 화자의 태도가 관사를 결정 — a few people came(다행) vs few people came(실망)</div>
+
+<h2>some vs any</h2>
+<table>
+  <tr><td>긍정문 기본</td><td><code>some</code></td></tr>
+  <tr><td>부정문·순수 질문</td><td><code>any</code></td></tr>
+  <tr><td>권유·제안(답 예상하는 의문문)</td><td><code>some</code> — Would you like some coffee?</td></tr>
+</table>
+<div class="rule-box">진짜 기준은 긍정/부정이 아니라 확신 여부 — some = 있다고 확신·기대 / any = 모르거나 전무 강조</div>
+
+</body>
+</html>

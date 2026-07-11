@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#0f172a">
+<title>영어 수 일치 치트시트</title>
+<style>
+  :root {
+    --bg: #0f172a; --fg: #e2e8f0; --muted: #94a3b8; --border: #334155; --surface: #1e293b;
+    --accent: #60a5fa; --accent-light: #1e3a5f; --red: #f87171; --green: #4ade80; --orange: #fb923c;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg); color: var(--fg); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 14px; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 1.5rem 1.25rem;
+  }
+  h1 { font-size: 1.4rem; font-weight: 700; color: var(--accent); margin-bottom: 0.25rem; }
+  .subtitle { color: var(--muted); font-size: 0.85rem; margin-bottom: 1.5rem; }
+  h2 {
+    font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em;
+    color: var(--muted); margin: 1.5rem 0 0.6rem; padding-bottom: 0.3rem; border-bottom: 1px solid var(--border);
+  }
+  table { width: 100%; border-collapse: collapse; font-size: 0.84rem; }
+  th { background: var(--surface); padding: 0.4rem 0.6rem; text-align: left; font-weight: 600; border: 1px solid var(--border); color: var(--fg); }
+  td { padding: 0.4rem 0.6rem; border: 1px solid var(--border); vertical-align: top; }
+  td code, th code { font-family: 'Courier New', monospace; font-weight: 700; color: var(--accent); font-size: 0.85rem; }
+  .rule-box {
+    background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--accent);
+    border-radius: 0 6px 6px 0; padding: 0.5rem 0.75rem; font-size: 0.84rem;
+  }
+  .wrong { color: var(--red); text-decoration: line-through; }
+  .right { color: var(--green); }
+  @media (max-width: 600px) { body { padding: 1rem; } }
+  @media print { body { padding: 0.5cm; } }
+</style>
+</head>
+<body>
+
+<h1>영어 수 일치 치트시트</h1>
+<p class="subtitle">Subject-Verb Agreement — the number of, 집합명사, either/neither, 부분표현</p>
+
+<h2>the number of vs a number of</h2>
+<table>
+  <tr><td><code>the number of</code> + 복수명사</td><td>단수 — The number of students is increasing.</td></tr>
+  <tr><td><code>a number of</code> + 복수명사</td><td>복수 — A number of students are absent.</td></tr>
+</table>
+<div class="rule-box">the number of = "그 숫자"가 진짜 주어(단수) / a number of = "many"처럼 작동, 뒤 명사가 주어(복수)</div>
+
+<h2>집합명사 (team, family, staff...)</h2>
+<table>
+  <tr><td>하나의 단위로 행동</td><td>단수 — The team is playing well.</td></tr>
+  <tr><td>구성원 개별 행동</td><td>복수 — The team are arguing among themselves.</td></tr>
+</table>
+<div class="rule-box">미국식 = 거의 항상 단수 / 영국식 = 맥락 따라 복수도 자연스러움(England are playing)</div>
+
+<h2>either/neither/both</h2>
+<table>
+  <tr><th>형태</th><th>수 일치</th></tr>
+  <tr><td>neither / either 단독</td><td>단수</td></tr>
+  <tr><td>either A or B / neither A nor B</td><td>B(가까운 쪽)에 맞춤 — 근접 일치</td></tr>
+  <tr><td>both A and B</td><td>항상 복수</td></tr>
+  <tr><td>neither of / either of + 복수</td><td>격식 단수 / 구어 복수</td></tr>
+</table>
+
+<h2>부분표현 (most/all/none of)</h2>
+<table>
+  <tr><td>of 뒤 불가산/단수</td><td>단수 — Most of the cake is gone.</td></tr>
+  <tr><td>of 뒤 가산 복수</td><td>복수 — Most of the students are here.</td></tr>
+</table>
+<div class="rule-box">of 뒤 명사가 결정권을 가짐 — the number of(항상 단수, 관용 고정)와 대조적으로 유동적. none of는 격식 단수 원칙, 구어에선 복수도 흔함.</div>
+
+</body>
+</html>

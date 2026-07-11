@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#0f172a">
+<title>영어 청취 치트시트</title>
+<style>
+  :root {
+    --bg: #0f172a; --fg: #e2e8f0; --muted: #94a3b8; --border: #334155; --surface: #1e293b;
+    --accent: #60a5fa; --accent-light: #1e3a5f; --red: #f87171; --green: #4ade80; --orange: #fb923c;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg); color: var(--fg); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 14px; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 1.5rem 1.25rem;
+  }
+  h1 { font-size: 1.4rem; font-weight: 700; color: var(--accent); margin-bottom: 0.25rem; }
+  .subtitle { color: var(--muted); font-size: 0.85rem; margin-bottom: 1.5rem; }
+  h2 {
+    font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em;
+    color: var(--muted); margin: 1.5rem 0 0.6rem; padding-bottom: 0.3rem; border-bottom: 1px solid var(--border);
+  }
+  table { width: 100%; border-collapse: collapse; font-size: 0.84rem; }
+  th { background: var(--surface); padding: 0.4rem 0.6rem; text-align: left; font-weight: 600; border: 1px solid var(--border); color: var(--fg); }
+  td { padding: 0.4rem 0.6rem; border: 1px solid var(--border); vertical-align: top; }
+  td code, th code { font-family: 'Courier New', monospace; font-weight: 700; color: var(--accent); font-size: 0.85rem; }
+  .rule-box {
+    background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--accent);
+    border-radius: 0 6px 6px 0; padding: 0.5rem 0.75rem; font-size: 0.84rem;
+  }
+  @media (max-width: 600px) { body { padding: 1rem; } }
+  @media print { body { padding: 0.5cm; } }
+</style>
+</head>
+<body>
+
+<h1>영어 청취 치트시트</h1>
+<p class="subtitle">Listening Strategy — 두 층위 / 연음 / 예측 / 청킹 / 억양</p>
+
+<h2>청취의 두 층위</h2>
+<table>
+  <tr><td>층위 1 — 음성 인식</td><td>소리를 단어로 분해. 연음·축약·flap T가 여기 직결</td></tr>
+  <tr><td>층위 2 — 실시간 처리</td><td>인식한 소리의 의미를 즉시 처리. 원어민 150~160wpm vs 번역 이해 60~80wpm</td></tr>
+</table>
+<div class="rule-box">두 층위 모두 훈련해야 함 — 하나만 훈련하면 다른 쪽에서 막힘</div>
+
+<h2>연음(Linking) 규칙</h2>
+<table>
+  <tr><td>자음+모음</td><td>an apple → a-na-pple</td></tr>
+  <tr><td>같은 자음</td><td>bad day → ba-day</td></tr>
+  <tr><td>T 변형</td><td>want to → wanna / got to → gotta</td></tr>
+  <tr><td>기능어 소실</td><td>What do you want? → Whaddaya want?</td></tr>
+</table>
+
+<h2>예측 청취(Predictive Listening)</h2>
+<div class="rule-box">문법·주제로 다음 단어의 종류를 미리 좁혀서 들음 — "I'm going to the..." → 다음은 장소(명사)</div>
+<p class="subtitle">실전: 재생 전 제목·썸네일로 주제 예측 → 예상 어휘 미리 떠올리기</p>
+
+<h2>청킹(Chunking) 청취</h2>
+<div class="rule-box">단어 단위(7번 처리) 대신 의미 덩어리(4번 처리)로 듣기 — 원어민 발화 리듬 자체가 청크 단위</div>
+<p class="subtitle">훈련: 문장을 청크 단위로 끊어서 Shadowing</p>
+
+<h2>억양(Accent) 차이</h2>
+<table>
+  <tr><td>영국식</td><td>R 발음 약함 — car = "카-"</td></tr>
+  <tr><td>호주식</td><td>모음이 확 바뀜 — today = "터다이"</td></tr>
+  <tr><td>인도식</td><td>강세 패턴, T/D 발음이 다름</td></tr>
+</table>
+<div class="rule-box">전략은 동일 적용, "이 억양은 이 소리를 이렇게 낸다"는 매핑만 추가</div>
+
+<h2>학습 루틴</h2>
+<table>
+  <tr><td>1단계</td><td>이해도 70%+ 콘텐츠로 시작</td></tr>
+  <tr><td>2단계</td><td>자막 켜고 1회 시청</td></tr>
+  <tr><td>3단계</td><td>자막 끄고 재시청</td></tr>
+  <tr><td>4단계</td><td>안 들린 구간만 반복 + 스크립트 확인</td></tr>
+</table>
+<p class="subtitle">Active Listening: 받아쓰기(Dictation) + 쉐도잉(Shadowing). 콘텐츠 순서: 자막 유튜브 → 스크립트 팟캐스트 → 영화·드라마.</p>
+<div class="rule-box">진행 신호: 이해도보다 "몰라도 불안하지 않은" 상태가 먼저 옴</div>
+
+</body>
+</html>
