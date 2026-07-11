@@ -141,6 +141,7 @@ brain/
 - [영어 쓰기](https://brain.dongwook.kim/notes/영어/영어_쓰기)
 - [영어 비즈니스 영어](https://brain.dongwook.kim/notes/영어/영어_비즈니스_영어)
 - [영어 독해](https://brain.dongwook.kim/notes/영어/영어_독해)
+- [영어 청취](https://brain.dongwook.kim/notes/영어/영어_청취)
 
 **음악**
 - [음악 이론 기초](https://brain.dongwook.kim/notes/음악_이론_기초)
