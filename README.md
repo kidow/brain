@@ -141,6 +141,7 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [아랍어 관계대명사](https://brain.dongwook.kim/notes/아랍어_관계대명사)
 - [아랍어 조건문](https://brain.dongwook.kim/notes/아랍어_조건문)
 - [아랍어 수동태](https://brain.dongwook.kim/notes/아랍어_수동태)
+- [아랍어 비교급](https://brain.dongwook.kim/notes/아랍어_비교급)
 
 **Languages — English**
 - [영어 전치사](https://brain.dongwook.kim/notes/영어/영어_전치사)
