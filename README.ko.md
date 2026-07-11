@@ -72,6 +72,7 @@ brain/
 
 **언어 — 러시아어**
 - [러시아어 문자의 특징](https://brain.dongwook.kim/notes/러시아어_문자의_특징)
+- [러시아어 기초 어휘](https://brain.dongwook.kim/notes/러시아어_기초_어휘)
 
 **언어 — 스페인어**
 - [스페인어 문자](https://brain.dongwook.kim/notes/스페인어_문자)
