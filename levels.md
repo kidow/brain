@@ -1,3 +1,7 @@
+## 일본어_쇼핑_의류_어휘
+
+Level: Blank — 옷 관련 어휘·시착 표현(試着 등) 뜻 미노출. 로마자 발음(shichaku)은 정확히 읽음. 완전 처음 시작.
+
 ## 중국어_정반의문문_심화
 
 Level: Blank — 완전 처음 시작.
@@ -314,7 +318,7 @@ Level: Blank — 분사구문 자체 미노출. "Being tired, I went home."과 "
 
 ## 영어_접속사
 
-Level: Glimpsed — 등위접속사 but 정확히 사용. although 종속절 어순(Although S V, S V) 설명 가능. 목적 접속사 so that 즉시 선택. 약점: while(시간/대조 이중 용법)과 whereas(대조 전용·격식) 구분 미인지. 상관접속사(both A and B / either A or B), 결과·조건·양보 접속사 세부 분류 미노출.
+Level: Glimpsed — 등위접속사 but 정확히 사용. although 종속절 어순(Although S V, S V) 설명 가능. 목적 접속사 so that 즉시 선택. while의 시간·양보 이중 용법 인지. 약점: whereas(대조 전용·격식) 구분 미인지. 상관접속사(both A and B / either A or B), 결과·조건·양보 접속사 세부 분류, as의 다중 용법(시간·이유·비례), 부사절 의미 유형(목적·방식·비례) 세분화 미노출.
 
 ## 영어_관계부사
 
