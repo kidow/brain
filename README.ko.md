@@ -123,6 +123,7 @@ brain/
 - [독일어 회화](https://brain.dongwook.kim/notes/독일어_회화)
 - [독일어 접속법](https://brain.dongwook.kim/notes/독일어_접속법)
 - [독일어 전치사 심화](https://brain.dongwook.kim/notes/독일어_전치사_심화)
+- [독일어 관계문 심화](https://brain.dongwook.kim/notes/독일어_관계문_심화)
 
 **언어 — 프랑스어**
 - [프랑스어 문자](https://brain.dongwook.kim/notes/프랑스어/프랑스어_문자)
