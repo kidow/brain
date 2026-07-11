@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#ffffff">
+  <title>프랑스어 명령문 치트시트</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #0f172a;
+      color: #e2e8f0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 14px;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+    }
+    h1 { font-size: 1.5rem; color: #60a5fa; margin-bottom: 0.25rem; }
+    .subtitle { color: #94a3b8; margin-bottom: 1.5rem; font-size: 0.85rem; }
+    h2 { font-size: 1rem; color: #60a5fa; margin: 1.5rem 0 0.75rem; border-left: 3px solid #60a5fa; padding-left: 0.6rem; }
+    .note { background: #1e293b; border: 1px solid #334155; border-radius: 6px; padding: 0.6rem 0.8rem; margin-bottom: 0.75rem; font-size: 0.85rem; color: #94a3b8; }
+    .note strong { color: #e2e8f0; }
+    table { width: 100%; border-collapse: collapse; margin-bottom: 1rem; font-size: 0.85rem; }
+    th { background: #1e293b; color: #94a3b8; font-weight: 600; text-align: left; padding: 0.5rem 0.6rem; border-bottom: 1px solid #334155; }
+    td { padding: 0.45rem 0.6rem; border-bottom: 1px solid #1e293b; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    .section { margin-bottom: 1.5rem; }
+    code { background: #1e293b; padding: 0.1rem 0.3rem; border-radius: 3px; font-size: 0.85em; color: #60a5fa; }
+    @media (max-width: 600px) { body { padding: 1rem; } }
+    @media print { body { padding: 0.5cm; } }
+  </style>
+</head>
+<body>
+  <h1>프랑스어 명령문 치트시트</h1>
+  <p class="subtitle">주어 생략 · être/avoir 불규칙 · 부정 · 대명사 위치 반전</p>
+
+  <div class="section">
+    <h2>기본 형태</h2>
+    <table>
+      <tr><th>동사</th><th>tu</th><th>vous</th><th>nous(~하자)</th></tr>
+      <tr><td>parler</td><td>Parle!</td><td>Parlez!</td><td>Parlons!</td></tr>
+      <tr><td>finir</td><td>Finis!</td><td>Finissez!</td><td>Finissons!</td></tr>
+      <tr><td>attendre</td><td>Attends!</td><td>Attendez!</td><td>Attendons!</td></tr>
+    </table>
+    <div class="note">
+      현재형에서 주어만 뗀 형태. <strong>단, -er 동사 tu형은 끝 -s 탈락</strong>: tu parles → Parle!<br>
+      -ir/-re 동사는 s 유지: tu finis → Finis!
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>être / avoir 불규칙 명령형</h2>
+    <table>
+      <tr><th></th><th>tu</th><th>vous</th><th>nous</th></tr>
+      <tr><td>être</td><td>Sois!</td><td>Soyez!</td><td>Soyons!</td></tr>
+      <tr><td>avoir</td><td>Aie!</td><td>Ayez!</td><td>Ayons!</td></tr>
+    </table>
+    <div class="note">
+      접속법 어간에서 파생(sois/soit/soyons = 접속법과 동일 형태).<br>
+      예: Sois sage! / Ayez confiance!
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>부정 명령문</h2>
+    <table>
+      <tr><th>긍정</th><th>부정</th></tr>
+      <tr><td>Parle!</td><td>Ne parle pas!</td></tr>
+      <tr><td>Sois sage!</td><td>Ne sois pas méchant!</td></tr>
+      <tr><td>Aie peur.</td><td>N'aie pas peur!</td></tr>
+    </table>
+    <div class="note">구조: Ne + 동사(명령형) + pas — 평서문 부정과 동일한 틀 재사용.</div>
+  </div>
+
+  <div class="section">
+    <h2>긍정 명령문 + 목적어 대명사 (위치 반전)</h2>
+    <table>
+      <tr><th>평서문(대명사 앞)</th><th>긍정 명령문(대명사 뒤+하이픈)</th></tr>
+      <tr><td>Tu le fais.</td><td>Fais-<b>le</b>!</td></tr>
+      <tr><td>Tu la regardes.</td><td>Regarde-<b>la</b>!</td></tr>
+      <tr><td>Tu lui parles.</td><td>Parle-<b>lui</b>!</td></tr>
+    </table>
+    <div class="note">
+      <strong>긍정 명령문만</strong> 반전. 부정 명령문은 원래 순서(ne+대명사+동사+pas) 유지.<br>
+      결합 순서(직접+간접 동시): <code>Je le lui donne.</code> → <code>Donne-le-lui!</code>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>me/te → moi/toi (긍정 명령문 전용)</h2>
+    <table>
+      <tr><th>원래</th><th>명령문 뒤(강세형)</th></tr>
+      <tr><td>me</td><td><b>moi</b></td></tr>
+      <tr><td>te</td><td><b>toi</b></td></tr>
+      <tr><td>nous / vous</td><td>안 바뀜</td></tr>
+      <tr><td>le/la/les, lui/leur</td><td>안 바뀜</td></tr>
+    </table>
+    <table>
+      <tr><th>흐름</th><th>예</th></tr>
+      <tr><td>평서문</td><td>Tu te lèves.</td></tr>
+      <tr><td>긍정 명령문 (te→toi, 뒤)</td><td>Lève-toi!</td></tr>
+      <tr><td>부정 명령문 (toi→te, 앞)</td><td>Ne te lève pas!</td></tr>
+    </table>
+  </div>
+</body>
+</html>

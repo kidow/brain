@@ -274,6 +274,11 @@ Quick-reference sheets served live at [brain.dongwook.kim](https://brain.dongwoo
 - [프랑스어 명사 치트시트](https://brain.dongwook.kim/sheets/프랑스어/프랑스어_명사_치트시트.html)
 - [프랑스어 문자 치트시트](https://brain.dongwook.kim/sheets/프랑스어/프랑스어_문자_치트시트.html)
 - [프랑스어 동사 현재형 치트시트](https://brain.dongwook.kim/sheets/프랑스어/프랑스어_동사_현재형_치트시트.html)
+- [프랑스어 시제 마스터 치트시트](https://brain.dongwook.kim/sheets/프랑스어/프랑스어_시제_마스터_치트시트.html)
+- [프랑스어 부정문 의문문 치트시트](https://brain.dongwook.kim/sheets/프랑스어/프랑스어_부정문_의문문_치트시트.html)
+- [프랑스어 명령문 치트시트](https://brain.dongwook.kim/sheets/프랑스어/프랑스어_명령문_치트시트.html)
+- [프랑스어 대명사 치트시트](https://brain.dongwook.kim/sheets/프랑스어/프랑스어_대명사_치트시트.html)
+- [프랑스어 faire 동사 치트시트](https://brain.dongwook.kim/sheets/프랑스어/프랑스어_faire_동사_치트시트.html)
 
 **Spanish**
 - [스페인어 알파벳 이름](https://brain.dongwook.kim/sheets/스페인어/스페인어_알파벳_이름.html)
