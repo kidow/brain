@@ -295,6 +295,12 @@ brain/
 - [독일어 치트시트](https://brain.dongwook.kim/sheets/독일어/독일어_치트시트.html)
 - [독일어 명사 치트시트](https://brain.dongwook.kim/sheets/독일어/독일어_명사_치트시트.html)
 - [독일어 문자 치트시트](https://brain.dongwook.kim/sheets/독일어/독일어_문자_치트시트.html)
+- [독일어 동사 치트시트](https://brain.dongwook.kim/sheets/독일어/독일어_동사_치트시트.html)
+- [독일어 형용사 치트시트](https://brain.dongwook.kim/sheets/독일어/독일어_형용사_치트시트.html)
+- [독일어 대명사 치트시트](https://brain.dongwook.kim/sheets/독일어/독일어_대명사_치트시트.html)
+- [독일어 접속법 치트시트](https://brain.dongwook.kim/sheets/독일어/독일어_접속법_치트시트.html)
+- [독일어 전치사 치트시트](https://brain.dongwook.kim/sheets/독일어/독일어_전치사_치트시트.html)
+- [독일어 명사화 치트시트](https://brain.dongwook.kim/sheets/독일어/독일어_명사화_치트시트.html)
 
 **프랑스어**
 - [프랑스어 명사 치트시트](https://brain.dongwook.kim/sheets/프랑스어/프랑스어_명사_치트시트.html)
