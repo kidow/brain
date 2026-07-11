@@ -131,6 +131,7 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [스페인어 회화](https://brain.dongwook.kim/notes/스페인어/스페인어_회화)
 - [스페인어 부사절 접속사](https://brain.dongwook.kim/notes/스페인어/스페인어_부사절_접속사)
 - [스페인어 접속법 과거](https://brain.dongwook.kim/notes/스페인어/스페인어_접속법_과거)
+- [스페인어 관용구](https://brain.dongwook.kim/notes/스페인어/스페인어_관용구)
 
 **Languages — German**
 - [독일어 문자](https://brain.dongwook.kim/notes/독일어/독일어_문자)
