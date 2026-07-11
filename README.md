@@ -82,6 +82,7 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [중국어 시량보어](https://brain.dongwook.kim/notes/중국어/중국어_시량보어)
 - [중국어 연쇄·병렬 표현](https://brain.dongwook.kim/notes/중국어/중국어_연쇄_병렬_표현)
 - [중국어 회화](https://brain.dongwook.kim/notes/중국어/중국어_회화)
+- [중국어 동시진행·순서 표현](https://brain.dongwook.kim/notes/중국어/중국어_동시진행_순서_표현)
 
 **Languages — Russian**
 - [러시아어 문자의 특징](https://brain.dongwook.kim/notes/러시아어_문자의_특징)
@@ -104,6 +105,7 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [스페인어 동사 현재형](https://brain.dongwook.kim/notes/스페인어_동사_현재형)
 - [스페인어 부정문 의문문](https://brain.dongwook.kim/notes/스페인어_부정문_의문문)
 - [스페인어 목적어 대명사](https://brain.dongwook.kim/notes/스페인어_목적어_대명사)
+- [스페인어 명령문](https://brain.dongwook.kim/notes/스페인어_명령문)
 
 **Languages — German**
 - [독일어 문자](https://brain.dongwook.kim/notes/독일어_문자)

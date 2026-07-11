@@ -82,6 +82,7 @@ brain/
 - [중국어 시량보어](https://brain.dongwook.kim/notes/중국어/중국어_시량보어)
 - [중국어 연쇄·병렬 표현](https://brain.dongwook.kim/notes/중국어/중국어_연쇄_병렬_표현)
 - [중국어 회화](https://brain.dongwook.kim/notes/중국어/중국어_회화)
+- [중국어 동시진행·순서 표현](https://brain.dongwook.kim/notes/중국어/중국어_동시진행_순서_표현)
 
 **언어 — 러시아어**
 - [러시아어 문자의 특징](https://brain.dongwook.kim/notes/러시아어_문자의_특징)
