@@ -70,6 +70,7 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [중국어 발음](https://brain.dongwook.kim/notes/중국어_발음)
 - [중국어 기초 어휘](https://brain.dongwook.kim/notes/중국어_기초_어휘)
 - [중국어 양사 심화](https://brain.dongwook.kim/notes/중국어_양사_심화)
+- [중국어 문장 구조](https://brain.dongwook.kim/notes/중국어_문장_구조)
 
 **Languages — Russian**
 - [러시아어 문자의 특징](https://brain.dongwook.kim/notes/러시아어_문자의_특징)
