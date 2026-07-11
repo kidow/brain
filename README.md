@@ -134,6 +134,7 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [아랍어 회화](https://brain.dongwook.kim/notes/아랍어_회화)
 - [아랍어 동사 활용](https://brain.dongwook.kim/notes/아랍어_동사_활용)
 - [아랍어 관계대명사](https://brain.dongwook.kim/notes/아랍어_관계대명사)
+- [아랍어 조건문](https://brain.dongwook.kim/notes/아랍어_조건문)
 
 **Languages — English**
 - [영어 전치사](https://brain.dongwook.kim/notes/영어/영어_전치사)
