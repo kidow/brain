@@ -134,6 +134,7 @@ brain/
 - [독일어 관계문 심화](https://brain.dongwook.kim/notes/독일어_관계문_심화)
 - [독일어 수동태 심화](https://brain.dongwook.kim/notes/독일어_수동태_심화)
 - [독일어 부사 심화](https://brain.dongwook.kim/notes/독일어_부사_심화)
+- [독일어 명사화 심화](https://brain.dongwook.kim/notes/독일어_명사화_심화)
 
 **언어 — 프랑스어**
 - [프랑스어 문자](https://brain.dongwook.kim/notes/프랑스어/프랑스어_문자)
