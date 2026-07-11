@@ -97,6 +97,7 @@ brain/
 - [러시아어 동사 미래형](https://brain.dongwook.kim/notes/러시아어_동사_미래형)
 - [러시아어 동사상](https://brain.dongwook.kim/notes/러시아어_동사상)
 - [러시아어 이동동사](https://brain.dongwook.kim/notes/러시아어_이동동사)
+- [러시아어 소유대명사 격변화](https://brain.dongwook.kim/notes/러시아어_소유대명사_격변화)
 
 **언어 — 스페인어**
 - [스페인어 문자](https://brain.dongwook.kim/notes/스페인어_문자)
