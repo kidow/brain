@@ -158,7 +158,7 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [독일어 형용사 전치사 지배](https://brain.dongwook.kim/notes/독일어/독일어_형용사_전치사_지배)
 - [독일어 명사 전치사 지배](https://brain.dongwook.kim/notes/독일어/독일어_명사_전치사_지배)
 - [독일어 존댓말과 격식체](https://brain.dongwook.kim/notes/독일어/독일어_존댓말과_격식체)
-- [독일어 숫자와 시간 심화](https://brain.dongwook.kim/notes/독일어/독일어_숫자와_시간_심화)
+- [독일어 숫자와 시간](https://brain.dongwook.kim/notes/독일어/독일어_숫자와_시간)
 - [독일어 요일 시간대 표현](https://brain.dongwook.kim/notes/독일어/독일어_요일_시간대_표현)
 - [독일어 시제](https://brain.dongwook.kim/notes/독일어/독일어_시제)
 
