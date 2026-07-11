@@ -55,6 +55,22 @@
   .reading { font-size: 1.1rem; color: #60a5fa; min-height: 1.4em; }
   .meaning { font-size: 1rem; color: #e2e8f0; min-height: 1.4em; }
   .hint { color: #94a3b8; font-size: 0.8rem; margin-top: 0.5rem; }
+  .play-btn {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 1px solid #334155;
+    background: #0f172a;
+    color: #60a5fa;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.25rem;
+  }
+  .play-btn:active { transform: scale(0.95); }
+  .play-btn.playing { opacity: 0.6; }
   .buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -204,6 +220,7 @@ function renderCard() {
       <div class="expr">${current.expression}</div>
       <div class="reading" id="readingEl"></div>
       <div class="meaning" id="meaningEl"></div>
+      <button class="play-btn" id="playBtn" style="display:none" aria-label="발음 듣기">🔊</button>
       <div class="hint" id="hintEl">카드를 클릭해 답 보기</div>
     </div>
     <div class="buttons">
@@ -219,6 +236,10 @@ function renderCard() {
   document.getElementById("btnHard").addEventListener("click", () => answer(3));
   document.getElementById("btnGood").addEventListener("click", () => answer(4));
   document.getElementById("btnEasy").addEventListener("click", () => answer(5));
+  document.getElementById("playBtn").addEventListener("click", (e) => {
+    e.stopPropagation();
+    playAudio(current.expression);
+  });
 }
 
 function reveal() {
@@ -227,9 +248,30 @@ function reveal() {
   document.getElementById("readingEl").textContent = current.reading;
   document.getElementById("meaningEl").textContent = current.meaning;
   document.getElementById("hintEl").textContent = "";
+  document.getElementById("playBtn").style.display = "flex";
   for (const id of ["btnAgain", "btnHard", "btnGood", "btnEasy"]) {
     document.getElementById(id).disabled = false;
   }
+  playAudio(current.expression);
+}
+
+function playAudio(text) {
+  const btn = document.getElementById("playBtn");
+  btn.classList.add("playing");
+  const url = "https://translate.google.com/translate_tts?ie=UTF-8&q=" + encodeURIComponent(text) + "&tl=ja&client=tw-ob&ttsspeed=0.85";
+  const audio = new Audio(url);
+  audio.addEventListener("ended", () => btn.classList.remove("playing"));
+  audio.play().catch(() => {
+    // CORS/network block — fall back to browser TTS
+    try {
+      const utter = new SpeechSynthesisUtterance(text);
+      utter.lang = "ja-JP";
+      utter.onend = () => btn.classList.remove("playing");
+      speechSynthesis.speak(utter);
+    } catch {
+      btn.classList.remove("playing");
+    }
+  });
 }
 
 function answer(quality) {
