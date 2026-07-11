@@ -93,6 +93,9 @@ brain/
 - [프랑스어 명사 성](https://brain.dongwook.kim/notes/프랑스어_명사_성)
 - [프랑스어 동사 현재형](https://brain.dongwook.kim/notes/프랑스어_동사_현재형)
 - [프랑스어 기초 어휘](https://brain.dongwook.kim/notes/프랑스어_기초_어휘)
+- [프랑스어 부정문 의문문](https://brain.dongwook.kim/notes/프랑스어_부정문_의문문)
+- [프랑스어 도치 의문문](https://brain.dongwook.kim/notes/프랑스어_도치_의문문)
+- [프랑스어 회화](https://brain.dongwook.kim/notes/프랑스어_회화)
 
 **언어 — 아랍어**
 - [아랍어 문자](https://brain.dongwook.kim/notes/아랍어_문자)
