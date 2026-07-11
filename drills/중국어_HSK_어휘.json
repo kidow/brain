@@ -1,0 +1,3572 @@
+[
+  {
+    "id": 0,
+    "expression": "爱",
+    "pinyin": "ài",
+    "meaning": "사랑하다, 좋아하다"
+  },
+  {
+    "id": 1,
+    "expression": "八",
+    "pinyin": "bā",
+    "meaning": "여덟, 8"
+  },
+  {
+    "id": 2,
+    "expression": "爸爸",
+    "pinyin": "bàba",
+    "meaning": "아빠"
+  },
+  {
+    "id": 3,
+    "expression": "杯子",
+    "pinyin": "bēizi",
+    "meaning": "컵"
+  },
+  {
+    "id": 4,
+    "expression": "北京",
+    "pinyin": "Běijīng",
+    "meaning": "베이징"
+  },
+  {
+    "id": 5,
+    "expression": "本",
+    "pinyin": "běn",
+    "meaning": "권(책 세는 단위)"
+  },
+  {
+    "id": 6,
+    "expression": "不",
+    "pinyin": "bù",
+    "meaning": "아니다, ~않다"
+  },
+  {
+    "id": 7,
+    "expression": "不客气",
+    "pinyin": "bú kèqi",
+    "meaning": "천만에요"
+  },
+  {
+    "id": 8,
+    "expression": "菜",
+    "pinyin": "cài",
+    "meaning": "요리, 채소"
+  },
+  {
+    "id": 9,
+    "expression": "茶",
+    "pinyin": "chá",
+    "meaning": "차(음료)"
+  },
+  {
+    "id": 10,
+    "expression": "吃",
+    "pinyin": "chī",
+    "meaning": "먹다"
+  },
+  {
+    "id": 11,
+    "expression": "出租车",
+    "pinyin": "chūzūchē",
+    "meaning": "택시"
+  },
+  {
+    "id": 12,
+    "expression": "打电话",
+    "pinyin": "dǎ diànhuà",
+    "meaning": "전화를 걸다"
+  },
+  {
+    "id": 13,
+    "expression": "大",
+    "pinyin": "dà",
+    "meaning": "크다"
+  },
+  {
+    "id": 14,
+    "expression": "的",
+    "pinyin": "de",
+    "meaning": "~의(소유격 조사)"
+  },
+  {
+    "id": 15,
+    "expression": "点",
+    "pinyin": "diǎn",
+    "meaning": "시(시각), 점"
+  },
+  {
+    "id": 16,
+    "expression": "电脑",
+    "pinyin": "diànnǎo",
+    "meaning": "컴퓨터"
+  },
+  {
+    "id": 17,
+    "expression": "电视",
+    "pinyin": "diànshì",
+    "meaning": "텔레비전"
+  },
+  {
+    "id": 18,
+    "expression": "电影",
+    "pinyin": "diànyǐng",
+    "meaning": "영화"
+  },
+  {
+    "id": 19,
+    "expression": "东西",
+    "pinyin": "dōngxi",
+    "meaning": "물건, 것"
+  },
+  {
+    "id": 20,
+    "expression": "都",
+    "pinyin": "dōu",
+    "meaning": "모두, 다"
+  },
+  {
+    "id": 21,
+    "expression": "读",
+    "pinyin": "dú",
+    "meaning": "읽다"
+  },
+  {
+    "id": 22,
+    "expression": "对不起",
+    "pinyin": "duìbuqǐ",
+    "meaning": "죄송합니다"
+  },
+  {
+    "id": 23,
+    "expression": "多",
+    "pinyin": "duō",
+    "meaning": "많다"
+  },
+  {
+    "id": 24,
+    "expression": "多少",
+    "pinyin": "duōshao",
+    "meaning": "얼마나, 몇"
+  },
+  {
+    "id": 25,
+    "expression": "儿子",
+    "pinyin": "érzi",
+    "meaning": "아들"
+  },
+  {
+    "id": 26,
+    "expression": "二",
+    "pinyin": "èr",
+    "meaning": "둘, 2"
+  },
+  {
+    "id": 27,
+    "expression": "饭馆",
+    "pinyin": "fànguǎn",
+    "meaning": "식당"
+  },
+  {
+    "id": 28,
+    "expression": "飞机",
+    "pinyin": "fēijī",
+    "meaning": "비행기"
+  },
+  {
+    "id": 29,
+    "expression": "分钟",
+    "pinyin": "fēnzhōng",
+    "meaning": "분(시간)"
+  },
+  {
+    "id": 30,
+    "expression": "高兴",
+    "pinyin": "gāoxìng",
+    "meaning": "기쁘다"
+  },
+  {
+    "id": 31,
+    "expression": "个",
+    "pinyin": "gè",
+    "meaning": "개(범용 양사)"
+  },
+  {
+    "id": 32,
+    "expression": "工作",
+    "pinyin": "gōngzuò",
+    "meaning": "일하다, 일"
+  },
+  {
+    "id": 33,
+    "expression": "狗",
+    "pinyin": "gǒu",
+    "meaning": "개(동물)"
+  },
+  {
+    "id": 34,
+    "expression": "汉语",
+    "pinyin": "Hànyǔ",
+    "meaning": "중국어"
+  },
+  {
+    "id": 35,
+    "expression": "好",
+    "pinyin": "hǎo",
+    "meaning": "좋다"
+  },
+  {
+    "id": 36,
+    "expression": "喝",
+    "pinyin": "hē",
+    "meaning": "마시다"
+  },
+  {
+    "id": 37,
+    "expression": "和",
+    "pinyin": "hé",
+    "meaning": "~와, 그리고"
+  },
+  {
+    "id": 38,
+    "expression": "很",
+    "pinyin": "hěn",
+    "meaning": "매우"
+  },
+  {
+    "id": 39,
+    "expression": "后面",
+    "pinyin": "hòumian",
+    "meaning": "뒤쪽"
+  },
+  {
+    "id": 40,
+    "expression": "回",
+    "pinyin": "huí",
+    "meaning": "돌아가다"
+  },
+  {
+    "id": 41,
+    "expression": "会",
+    "pinyin": "huì",
+    "meaning": "~할 줄 알다, 할 수 있다"
+  },
+  {
+    "id": 42,
+    "expression": "火车站",
+    "pinyin": "huǒchēzhàn",
+    "meaning": "기차역"
+  },
+  {
+    "id": 43,
+    "expression": "几",
+    "pinyin": "jǐ",
+    "meaning": "몇"
+  },
+  {
+    "id": 44,
+    "expression": "家",
+    "pinyin": "jiā",
+    "meaning": "집, 가족"
+  },
+  {
+    "id": 45,
+    "expression": "叫",
+    "pinyin": "jiào",
+    "meaning": "~라고 부르다, 부르다"
+  },
+  {
+    "id": 46,
+    "expression": "今天",
+    "pinyin": "jīntiān",
+    "meaning": "오늘"
+  },
+  {
+    "id": 47,
+    "expression": "九",
+    "pinyin": "jiǔ",
+    "meaning": "아홉, 9"
+  },
+  {
+    "id": 48,
+    "expression": "开",
+    "pinyin": "kāi",
+    "meaning": "열다, (차를) 운전하다"
+  },
+  {
+    "id": 49,
+    "expression": "看",
+    "pinyin": "kàn",
+    "meaning": "보다"
+  },
+  {
+    "id": 50,
+    "expression": "看见",
+    "pinyin": "kànjiàn",
+    "meaning": "보이다"
+  },
+  {
+    "id": 51,
+    "expression": "块",
+    "pinyin": "kuài",
+    "meaning": "위안(화폐 단위), 덩어리"
+  },
+  {
+    "id": 52,
+    "expression": "来",
+    "pinyin": "lái",
+    "meaning": "오다"
+  },
+  {
+    "id": 53,
+    "expression": "老师",
+    "pinyin": "lǎoshī",
+    "meaning": "선생님"
+  },
+  {
+    "id": 54,
+    "expression": "了",
+    "pinyin": "le",
+    "meaning": "~했다(완료 표지)"
+  },
+  {
+    "id": 55,
+    "expression": "冷",
+    "pinyin": "lěng",
+    "meaning": "춥다"
+  },
+  {
+    "id": 56,
+    "expression": "里",
+    "pinyin": "lǐ",
+    "meaning": "안, 속"
+  },
+  {
+    "id": 57,
+    "expression": "零",
+    "pinyin": "líng",
+    "meaning": "영, 0"
+  },
+  {
+    "id": 58,
+    "expression": "六",
+    "pinyin": "liù",
+    "meaning": "여섯, 6"
+  },
+  {
+    "id": 59,
+    "expression": "妈妈",
+    "pinyin": "māma",
+    "meaning": "엄마"
+  },
+  {
+    "id": 60,
+    "expression": "吗",
+    "pinyin": "ma",
+    "meaning": "~까?(의문 조사)"
+  },
+  {
+    "id": 61,
+    "expression": "买",
+    "pinyin": "mǎi",
+    "meaning": "사다"
+  },
+  {
+    "id": 62,
+    "expression": "猫",
+    "pinyin": "māo",
+    "meaning": "고양이"
+  },
+  {
+    "id": 63,
+    "expression": "没",
+    "pinyin": "méi",
+    "meaning": "~없다, ~않았다"
+  },
+  {
+    "id": 64,
+    "expression": "没关系",
+    "pinyin": "méi guānxi",
+    "meaning": "괜찮아요"
+  },
+  {
+    "id": 65,
+    "expression": "米饭",
+    "pinyin": "mǐfàn",
+    "meaning": "쌀밥"
+  },
+  {
+    "id": 66,
+    "expression": "名字",
+    "pinyin": "míngzi",
+    "meaning": "이름"
+  },
+  {
+    "id": 67,
+    "expression": "明天",
+    "pinyin": "míngtiān",
+    "meaning": "내일"
+  },
+  {
+    "id": 68,
+    "expression": "哪",
+    "pinyin": "nǎ",
+    "meaning": "어느"
+  },
+  {
+    "id": 69,
+    "expression": "那",
+    "pinyin": "nà",
+    "meaning": "그, 저"
+  },
+  {
+    "id": 70,
+    "expression": "呢",
+    "pinyin": "ne",
+    "meaning": "~는요?(되묻는 어기조사)"
+  },
+  {
+    "id": 71,
+    "expression": "能",
+    "pinyin": "néng",
+    "meaning": "~할 수 있다"
+  },
+  {
+    "id": 72,
+    "expression": "你",
+    "pinyin": "nǐ",
+    "meaning": "너"
+  },
+  {
+    "id": 73,
+    "expression": "年",
+    "pinyin": "nián",
+    "meaning": "년, 해"
+  },
+  {
+    "id": 74,
+    "expression": "女儿",
+    "pinyin": "nǚ'ér",
+    "meaning": "딸"
+  },
+  {
+    "id": 75,
+    "expression": "朋友",
+    "pinyin": "péngyou",
+    "meaning": "친구"
+  },
+  {
+    "id": 76,
+    "expression": "漂亮",
+    "pinyin": "piàoliang",
+    "meaning": "예쁘다"
+  },
+  {
+    "id": 77,
+    "expression": "苹果",
+    "pinyin": "píngguǒ",
+    "meaning": "사과"
+  },
+  {
+    "id": 78,
+    "expression": "七",
+    "pinyin": "qī",
+    "meaning": "일곱, 7"
+  },
+  {
+    "id": 79,
+    "expression": "前面",
+    "pinyin": "qiánmian",
+    "meaning": "앞쪽"
+  },
+  {
+    "id": 80,
+    "expression": "钱",
+    "pinyin": "qián",
+    "meaning": "돈"
+  },
+  {
+    "id": 81,
+    "expression": "请",
+    "pinyin": "qǐng",
+    "meaning": "청하다, ~해 주세요"
+  },
+  {
+    "id": 82,
+    "expression": "去",
+    "pinyin": "qù",
+    "meaning": "가다"
+  },
+  {
+    "id": 83,
+    "expression": "热",
+    "pinyin": "rè",
+    "meaning": "덥다"
+  },
+  {
+    "id": 84,
+    "expression": "人",
+    "pinyin": "rén",
+    "meaning": "사람"
+  },
+  {
+    "id": 85,
+    "expression": "认识",
+    "pinyin": "rènshi",
+    "meaning": "알다(사람을)"
+  },
+  {
+    "id": 86,
+    "expression": "日",
+    "pinyin": "rì",
+    "meaning": "일(날짜), 해"
+  },
+  {
+    "id": 87,
+    "expression": "三",
+    "pinyin": "sān",
+    "meaning": "셋, 3"
+  },
+  {
+    "id": 88,
+    "expression": "商店",
+    "pinyin": "shāngdiàn",
+    "meaning": "상점"
+  },
+  {
+    "id": 89,
+    "expression": "上",
+    "pinyin": "shàng",
+    "meaning": "위, 오르다"
+  },
+  {
+    "id": 90,
+    "expression": "上午",
+    "pinyin": "shàngwǔ",
+    "meaning": "오전"
+  },
+  {
+    "id": 91,
+    "expression": "少",
+    "pinyin": "shǎo",
+    "meaning": "적다"
+  },
+  {
+    "id": 92,
+    "expression": "什么",
+    "pinyin": "shénme",
+    "meaning": "무엇"
+  },
+  {
+    "id": 93,
+    "expression": "十",
+    "pinyin": "shí",
+    "meaning": "열, 10"
+  },
+  {
+    "id": 94,
+    "expression": "时候",
+    "pinyin": "shíhou",
+    "meaning": "때, 시간"
+  },
+  {
+    "id": 95,
+    "expression": "是",
+    "pinyin": "shì",
+    "meaning": "~이다"
+  },
+  {
+    "id": 96,
+    "expression": "书",
+    "pinyin": "shū",
+    "meaning": "책"
+  },
+  {
+    "id": 97,
+    "expression": "谁",
+    "pinyin": "shéi",
+    "meaning": "누구"
+  },
+  {
+    "id": 98,
+    "expression": "水",
+    "pinyin": "shuǐ",
+    "meaning": "물"
+  },
+  {
+    "id": 99,
+    "expression": "水果",
+    "pinyin": "shuǐguǒ",
+    "meaning": "과일"
+  },
+  {
+    "id": 100,
+    "expression": "睡觉",
+    "pinyin": "shuìjiào",
+    "meaning": "잠자다"
+  },
+  {
+    "id": 101,
+    "expression": "说话",
+    "pinyin": "shuōhuà",
+    "meaning": "말하다"
+  },
+  {
+    "id": 102,
+    "expression": "四",
+    "pinyin": "sì",
+    "meaning": "넷, 4"
+  },
+  {
+    "id": 103,
+    "expression": "岁",
+    "pinyin": "suì",
+    "meaning": "살, 세(나이)"
+  },
+  {
+    "id": 104,
+    "expression": "他",
+    "pinyin": "tā",
+    "meaning": "그(남자)"
+  },
+  {
+    "id": 105,
+    "expression": "她",
+    "pinyin": "tā",
+    "meaning": "그녀"
+  },
+  {
+    "id": 106,
+    "expression": "太",
+    "pinyin": "tài",
+    "meaning": "너무, 매우"
+  },
+  {
+    "id": 107,
+    "expression": "天气",
+    "pinyin": "tiānqì",
+    "meaning": "날씨"
+  },
+  {
+    "id": 108,
+    "expression": "听",
+    "pinyin": "tīng",
+    "meaning": "듣다"
+  },
+  {
+    "id": 109,
+    "expression": "同学",
+    "pinyin": "tóngxué",
+    "meaning": "학우, 동창"
+  },
+  {
+    "id": 110,
+    "expression": "喂",
+    "pinyin": "wéi",
+    "meaning": "여보세요"
+  },
+  {
+    "id": 111,
+    "expression": "我",
+    "pinyin": "wǒ",
+    "meaning": "나"
+  },
+  {
+    "id": 112,
+    "expression": "我们",
+    "pinyin": "wǒmen",
+    "meaning": "우리"
+  },
+  {
+    "id": 113,
+    "expression": "五",
+    "pinyin": "wǔ",
+    "meaning": "다섯, 5"
+  },
+  {
+    "id": 114,
+    "expression": "喜欢",
+    "pinyin": "xǐhuan",
+    "meaning": "좋아하다"
+  },
+  {
+    "id": 115,
+    "expression": "下",
+    "pinyin": "xià",
+    "meaning": "아래, 내리다"
+  },
+  {
+    "id": 116,
+    "expression": "下午",
+    "pinyin": "xiàwǔ",
+    "meaning": "오후"
+  },
+  {
+    "id": 117,
+    "expression": "下雨",
+    "pinyin": "xiàyǔ",
+    "meaning": "비가 오다"
+  },
+  {
+    "id": 118,
+    "expression": "先生",
+    "pinyin": "xiānsheng",
+    "meaning": "선생님, ~씨(남성 존칭)"
+  },
+  {
+    "id": 119,
+    "expression": "现在",
+    "pinyin": "xiànzài",
+    "meaning": "지금"
+  },
+  {
+    "id": 120,
+    "expression": "想",
+    "pinyin": "xiǎng",
+    "meaning": "생각하다, ~하고 싶다"
+  },
+  {
+    "id": 121,
+    "expression": "小",
+    "pinyin": "xiǎo",
+    "meaning": "작다"
+  },
+  {
+    "id": 122,
+    "expression": "小姐",
+    "pinyin": "xiǎojie",
+    "meaning": "아가씨, ~양"
+  },
+  {
+    "id": 123,
+    "expression": "些",
+    "pinyin": "xiē",
+    "meaning": "약간, 몇몇"
+  },
+  {
+    "id": 124,
+    "expression": "写",
+    "pinyin": "xiě",
+    "meaning": "쓰다"
+  },
+  {
+    "id": 125,
+    "expression": "谢谢",
+    "pinyin": "xièxie",
+    "meaning": "감사합니다"
+  },
+  {
+    "id": 126,
+    "expression": "星期",
+    "pinyin": "xīngqī",
+    "meaning": "요일, 주"
+  },
+  {
+    "id": 127,
+    "expression": "学生",
+    "pinyin": "xuésheng",
+    "meaning": "학생"
+  },
+  {
+    "id": 128,
+    "expression": "学习",
+    "pinyin": "xuéxí",
+    "meaning": "공부하다"
+  },
+  {
+    "id": 129,
+    "expression": "学校",
+    "pinyin": "xuéxiào",
+    "meaning": "학교"
+  },
+  {
+    "id": 130,
+    "expression": "一",
+    "pinyin": "yī",
+    "meaning": "하나, 1"
+  },
+  {
+    "id": 131,
+    "expression": "衣服",
+    "pinyin": "yīfu",
+    "meaning": "옷"
+  },
+  {
+    "id": 132,
+    "expression": "医生",
+    "pinyin": "yīshēng",
+    "meaning": "의사"
+  },
+  {
+    "id": 133,
+    "expression": "医院",
+    "pinyin": "yīyuàn",
+    "meaning": "병원"
+  },
+  {
+    "id": 134,
+    "expression": "椅子",
+    "pinyin": "yǐzi",
+    "meaning": "의자"
+  },
+  {
+    "id": 135,
+    "expression": "有",
+    "pinyin": "yǒu",
+    "meaning": "있다, 가지다"
+  },
+  {
+    "id": 136,
+    "expression": "月",
+    "pinyin": "yuè",
+    "meaning": "달, 월"
+  },
+  {
+    "id": 137,
+    "expression": "再见",
+    "pinyin": "zàijiàn",
+    "meaning": "안녕히 가세요"
+  },
+  {
+    "id": 138,
+    "expression": "在",
+    "pinyin": "zài",
+    "meaning": "~에 있다, ~에서"
+  },
+  {
+    "id": 139,
+    "expression": "怎么",
+    "pinyin": "zěnme",
+    "meaning": "어떻게, 왜"
+  },
+  {
+    "id": 140,
+    "expression": "怎么样",
+    "pinyin": "zěnmeyàng",
+    "meaning": "어때요?"
+  },
+  {
+    "id": 141,
+    "expression": "这",
+    "pinyin": "zhè",
+    "meaning": "이"
+  },
+  {
+    "id": 142,
+    "expression": "中国",
+    "pinyin": "Zhōngguó",
+    "meaning": "중국"
+  },
+  {
+    "id": 143,
+    "expression": "中午",
+    "pinyin": "zhōngwǔ",
+    "meaning": "정오"
+  },
+  {
+    "id": 144,
+    "expression": "住",
+    "pinyin": "zhù",
+    "meaning": "살다, 거주하다"
+  },
+  {
+    "id": 145,
+    "expression": "桌子",
+    "pinyin": "zhuōzi",
+    "meaning": "책상, 탁자"
+  },
+  {
+    "id": 146,
+    "expression": "字",
+    "pinyin": "zì",
+    "meaning": "글자"
+  },
+  {
+    "id": 147,
+    "expression": "昨天",
+    "pinyin": "zuótiān",
+    "meaning": "어제"
+  },
+  {
+    "id": 148,
+    "expression": "坐",
+    "pinyin": "zuò",
+    "meaning": "앉다"
+  },
+  {
+    "id": 149,
+    "expression": "做",
+    "pinyin": "zuò",
+    "meaning": "하다, 만들다"
+  },
+  {
+    "id": 150,
+    "expression": "吧",
+    "pinyin": "ba",
+    "meaning": "~하자, ~이지?(권유·추측 어기조사)"
+  },
+  {
+    "id": 151,
+    "expression": "白",
+    "pinyin": "bái",
+    "meaning": "희다"
+  },
+  {
+    "id": 152,
+    "expression": "百",
+    "pinyin": "bǎi",
+    "meaning": "백, 100"
+  },
+  {
+    "id": 153,
+    "expression": "帮助",
+    "pinyin": "bāngzhù",
+    "meaning": "돕다"
+  },
+  {
+    "id": 154,
+    "expression": "报纸",
+    "pinyin": "bàozhǐ",
+    "meaning": "신문"
+  },
+  {
+    "id": 155,
+    "expression": "比",
+    "pinyin": "bǐ",
+    "meaning": "~보다(비교)"
+  },
+  {
+    "id": 156,
+    "expression": "便宜",
+    "pinyin": "piányi",
+    "meaning": "싸다"
+  },
+  {
+    "id": 157,
+    "expression": "别",
+    "pinyin": "bié",
+    "meaning": "~하지 마라"
+  },
+  {
+    "id": 158,
+    "expression": "唱歌",
+    "pinyin": "chànggē",
+    "meaning": "노래 부르다"
+  },
+  {
+    "id": 159,
+    "expression": "出",
+    "pinyin": "chū",
+    "meaning": "나가다"
+  },
+  {
+    "id": 160,
+    "expression": "穿",
+    "pinyin": "chuān",
+    "meaning": "입다"
+  },
+  {
+    "id": 161,
+    "expression": "船",
+    "pinyin": "chuán",
+    "meaning": "배(선박)"
+  },
+  {
+    "id": 162,
+    "expression": "次",
+    "pinyin": "cì",
+    "meaning": "번, 회(횟수)"
+  },
+  {
+    "id": 163,
+    "expression": "从",
+    "pinyin": "cóng",
+    "meaning": "~부터"
+  },
+  {
+    "id": 164,
+    "expression": "错",
+    "pinyin": "cuò",
+    "meaning": "틀리다"
+  },
+  {
+    "id": 165,
+    "expression": "打篮球",
+    "pinyin": "dǎ lánqiú",
+    "meaning": "농구를 하다"
+  },
+  {
+    "id": 166,
+    "expression": "大家",
+    "pinyin": "dàjiā",
+    "meaning": "모두, 여러분"
+  },
+  {
+    "id": 167,
+    "expression": "但是",
+    "pinyin": "dànshì",
+    "meaning": "그러나"
+  },
+  {
+    "id": 168,
+    "expression": "到",
+    "pinyin": "dào",
+    "meaning": "도착하다, ~까지"
+  },
+  {
+    "id": 169,
+    "expression": "得",
+    "pinyin": "dé",
+    "meaning": "얻다"
+  },
+  {
+    "id": 170,
+    "expression": "弟弟",
+    "pinyin": "dìdi",
+    "meaning": "남동생"
+  },
+  {
+    "id": 171,
+    "expression": "第一",
+    "pinyin": "dì-yī",
+    "meaning": "첫째, 최초"
+  },
+  {
+    "id": 172,
+    "expression": "懂",
+    "pinyin": "dǒng",
+    "meaning": "이해하다"
+  },
+  {
+    "id": 173,
+    "expression": "房间",
+    "pinyin": "fángjiān",
+    "meaning": "방"
+  },
+  {
+    "id": 174,
+    "expression": "非常",
+    "pinyin": "fēicháng",
+    "meaning": "매우"
+  },
+  {
+    "id": 175,
+    "expression": "服务员",
+    "pinyin": "fúwùyuán",
+    "meaning": "종업원"
+  },
+  {
+    "id": 176,
+    "expression": "高",
+    "pinyin": "gāo",
+    "meaning": "높다, 키가 크다"
+  },
+  {
+    "id": 177,
+    "expression": "告诉",
+    "pinyin": "gàosu",
+    "meaning": "알려주다"
+  },
+  {
+    "id": 178,
+    "expression": "哥哥",
+    "pinyin": "gēge",
+    "meaning": "형, 오빠"
+  },
+  {
+    "id": 179,
+    "expression": "给",
+    "pinyin": "gěi",
+    "meaning": "주다, ~에게"
+  },
+  {
+    "id": 180,
+    "expression": "公共汽车",
+    "pinyin": "gōnggòngqìchē",
+    "meaning": "버스"
+  },
+  {
+    "id": 181,
+    "expression": "公斤",
+    "pinyin": "gōngjīn",
+    "meaning": "킬로그램(kg)"
+  },
+  {
+    "id": 182,
+    "expression": "公司",
+    "pinyin": "gōngsī",
+    "meaning": "회사"
+  },
+  {
+    "id": 183,
+    "expression": "贵",
+    "pinyin": "guì",
+    "meaning": "비싸다"
+  },
+  {
+    "id": 184,
+    "expression": "还",
+    "pinyin": "hái",
+    "meaning": "아직, 또한"
+  },
+  {
+    "id": 185,
+    "expression": "孩子",
+    "pinyin": "háizi",
+    "meaning": "아이"
+  },
+  {
+    "id": 186,
+    "expression": "好吃",
+    "pinyin": "hǎochī",
+    "meaning": "맛있다"
+  },
+  {
+    "id": 187,
+    "expression": "号",
+    "pinyin": "hào",
+    "meaning": "일(날짜), 번호"
+  },
+  {
+    "id": 188,
+    "expression": "黑",
+    "pinyin": "hēi",
+    "meaning": "검다"
+  },
+  {
+    "id": 189,
+    "expression": "红",
+    "pinyin": "hóng",
+    "meaning": "빨갛다"
+  },
+  {
+    "id": 190,
+    "expression": "欢迎",
+    "pinyin": "huānyíng",
+    "meaning": "환영하다"
+  },
+  {
+    "id": 191,
+    "expression": "回答",
+    "pinyin": "huídá",
+    "meaning": "대답하다"
+  },
+  {
+    "id": 192,
+    "expression": "机场",
+    "pinyin": "jīchǎng",
+    "meaning": "공항"
+  },
+  {
+    "id": 193,
+    "expression": "鸡蛋",
+    "pinyin": "jīdàn",
+    "meaning": "계란"
+  },
+  {
+    "id": 194,
+    "expression": "件",
+    "pinyin": "jiàn",
+    "meaning": "벌, 건(옷·일 세는 단위)"
+  },
+  {
+    "id": 195,
+    "expression": "教室",
+    "pinyin": "jiàoshì",
+    "meaning": "교실"
+  },
+  {
+    "id": 196,
+    "expression": "介绍",
+    "pinyin": "jièshào",
+    "meaning": "소개하다"
+  },
+  {
+    "id": 197,
+    "expression": "姐姐",
+    "pinyin": "jiějie",
+    "meaning": "누나, 언니"
+  },
+  {
+    "id": 198,
+    "expression": "近",
+    "pinyin": "jìn",
+    "meaning": "가깝다"
+  },
+  {
+    "id": 199,
+    "expression": "进",
+    "pinyin": "jìn",
+    "meaning": "들어가다"
+  },
+  {
+    "id": 200,
+    "expression": "就",
+    "pinyin": "jiù",
+    "meaning": "바로, 곧"
+  },
+  {
+    "id": 201,
+    "expression": "觉得",
+    "pinyin": "juéde",
+    "meaning": "~라고 느끼다, 생각하다"
+  },
+  {
+    "id": 202,
+    "expression": "咖啡",
+    "pinyin": "kāfēi",
+    "meaning": "커피"
+  },
+  {
+    "id": 203,
+    "expression": "开始",
+    "pinyin": "kāishǐ",
+    "meaning": "시작하다"
+  },
+  {
+    "id": 204,
+    "expression": "考试",
+    "pinyin": "kǎoshì",
+    "meaning": "시험(치다)"
+  },
+  {
+    "id": 205,
+    "expression": "可能",
+    "pinyin": "kěnéng",
+    "meaning": "아마도, ~할 수도 있다"
+  },
+  {
+    "id": 206,
+    "expression": "可以",
+    "pinyin": "kěyǐ",
+    "meaning": "~해도 된다"
+  },
+  {
+    "id": 207,
+    "expression": "课",
+    "pinyin": "kè",
+    "meaning": "수업, 과목"
+  },
+  {
+    "id": 208,
+    "expression": "快",
+    "pinyin": "kuài",
+    "meaning": "빠르다"
+  },
+  {
+    "id": 209,
+    "expression": "快乐",
+    "pinyin": "kuàilè",
+    "meaning": "즐겁다"
+  },
+  {
+    "id": 210,
+    "expression": "累",
+    "pinyin": "lèi",
+    "meaning": "피곤하다"
+  },
+  {
+    "id": 211,
+    "expression": "离",
+    "pinyin": "lí",
+    "meaning": "~로부터(거리)"
+  },
+  {
+    "id": 212,
+    "expression": "两",
+    "pinyin": "liǎng",
+    "meaning": "둘(양사 앞)"
+  },
+  {
+    "id": 213,
+    "expression": "路",
+    "pinyin": "lù",
+    "meaning": "길"
+  },
+  {
+    "id": 214,
+    "expression": "旅游",
+    "pinyin": "lǚyóu",
+    "meaning": "여행하다"
+  },
+  {
+    "id": 215,
+    "expression": "卖",
+    "pinyin": "mài",
+    "meaning": "팔다"
+  },
+  {
+    "id": 216,
+    "expression": "慢",
+    "pinyin": "màn",
+    "meaning": "느리다"
+  },
+  {
+    "id": 217,
+    "expression": "忙",
+    "pinyin": "máng",
+    "meaning": "바쁘다"
+  },
+  {
+    "id": 218,
+    "expression": "每",
+    "pinyin": "měi",
+    "meaning": "매, ~마다"
+  },
+  {
+    "id": 219,
+    "expression": "妹妹",
+    "pinyin": "mèimei",
+    "meaning": "여동생"
+  },
+  {
+    "id": 220,
+    "expression": "门",
+    "pinyin": "mén",
+    "meaning": "문"
+  },
+  {
+    "id": 221,
+    "expression": "男人",
+    "pinyin": "nánrén",
+    "meaning": "남자"
+  },
+  {
+    "id": 222,
+    "expression": "您",
+    "pinyin": "nín",
+    "meaning": "당신(존칭)"
+  },
+  {
+    "id": 223,
+    "expression": "牛奶",
+    "pinyin": "niúnǎi",
+    "meaning": "우유"
+  },
+  {
+    "id": 224,
+    "expression": "女人",
+    "pinyin": "nǚrén",
+    "meaning": "여자"
+  },
+  {
+    "id": 225,
+    "expression": "旁边",
+    "pinyin": "pángbiān",
+    "meaning": "옆"
+  },
+  {
+    "id": 226,
+    "expression": "跑步",
+    "pinyin": "pǎobù",
+    "meaning": "달리다"
+  },
+  {
+    "id": 227,
+    "expression": "票",
+    "pinyin": "piào",
+    "meaning": "표, 티켓"
+  },
+  {
+    "id": 228,
+    "expression": "妻子",
+    "pinyin": "qīzi",
+    "meaning": "아내"
+  },
+  {
+    "id": 229,
+    "expression": "起床",
+    "pinyin": "qǐchuáng",
+    "meaning": "일어나다(기상)"
+  },
+  {
+    "id": 230,
+    "expression": "千",
+    "pinyin": "qiān",
+    "meaning": "천, 1000"
+  },
+  {
+    "id": 231,
+    "expression": "晴",
+    "pinyin": "qíng",
+    "meaning": "맑다(날씨)"
+  },
+  {
+    "id": 232,
+    "expression": "去年",
+    "pinyin": "qùnián",
+    "meaning": "작년"
+  },
+  {
+    "id": 233,
+    "expression": "让",
+    "pinyin": "ràng",
+    "meaning": "~하게 하다, 시키다"
+  },
+  {
+    "id": 234,
+    "expression": "上班",
+    "pinyin": "shàngbān",
+    "meaning": "출근하다"
+  },
+  {
+    "id": 235,
+    "expression": "身体",
+    "pinyin": "shēntǐ",
+    "meaning": "몸, 신체"
+  },
+  {
+    "id": 236,
+    "expression": "生病",
+    "pinyin": "shēngbìng",
+    "meaning": "병나다"
+  },
+  {
+    "id": 237,
+    "expression": "生日",
+    "pinyin": "shēngrì",
+    "meaning": "생일"
+  },
+  {
+    "id": 238,
+    "expression": "时间",
+    "pinyin": "shíjiān",
+    "meaning": "시간"
+  },
+  {
+    "id": 239,
+    "expression": "事情",
+    "pinyin": "shìqing",
+    "meaning": "일, 사건"
+  },
+  {
+    "id": 240,
+    "expression": "手表",
+    "pinyin": "shǒubiǎo",
+    "meaning": "손목시계"
+  },
+  {
+    "id": 241,
+    "expression": "手机",
+    "pinyin": "shǒujī",
+    "meaning": "휴대폰"
+  },
+  {
+    "id": 242,
+    "expression": "送",
+    "pinyin": "sòng",
+    "meaning": "보내다, 선물하다"
+  },
+  {
+    "id": 243,
+    "expression": "所以",
+    "pinyin": "suǒyǐ",
+    "meaning": "그래서"
+  },
+  {
+    "id": 244,
+    "expression": "它",
+    "pinyin": "tā",
+    "meaning": "그것(사물)"
+  },
+  {
+    "id": 245,
+    "expression": "踢",
+    "pinyin": "tī",
+    "meaning": "차다(발로)"
+  },
+  {
+    "id": 246,
+    "expression": "题",
+    "pinyin": "tí",
+    "meaning": "문제"
+  },
+  {
+    "id": 247,
+    "expression": "跳舞",
+    "pinyin": "tiàowǔ",
+    "meaning": "춤추다"
+  },
+  {
+    "id": 248,
+    "expression": "外",
+    "pinyin": "wài",
+    "meaning": "밖"
+  },
+  {
+    "id": 249,
+    "expression": "完",
+    "pinyin": "wán",
+    "meaning": "끝나다, 마치다"
+  },
+  {
+    "id": 250,
+    "expression": "玩",
+    "pinyin": "wán",
+    "meaning": "놀다"
+  },
+  {
+    "id": 251,
+    "expression": "晚上",
+    "pinyin": "wǎnshang",
+    "meaning": "저녁"
+  },
+  {
+    "id": 252,
+    "expression": "为",
+    "pinyin": "wèi",
+    "meaning": "~을 위해"
+  },
+  {
+    "id": 253,
+    "expression": "问",
+    "pinyin": "wèn",
+    "meaning": "묻다"
+  },
+  {
+    "id": 254,
+    "expression": "问题",
+    "pinyin": "wèntí",
+    "meaning": "문제, 질문"
+  },
+  {
+    "id": 255,
+    "expression": "希望",
+    "pinyin": "xīwàng",
+    "meaning": "바라다, 희망"
+  },
+  {
+    "id": 256,
+    "expression": "洗",
+    "pinyin": "xǐ",
+    "meaning": "씻다"
+  },
+  {
+    "id": 257,
+    "expression": "西瓜",
+    "pinyin": "xīguā",
+    "meaning": "수박"
+  },
+  {
+    "id": 258,
+    "expression": "向",
+    "pinyin": "xiàng",
+    "meaning": "~을 향해"
+  },
+  {
+    "id": 259,
+    "expression": "小时",
+    "pinyin": "xiǎoshí",
+    "meaning": "시간(단위)"
+  },
+  {
+    "id": 260,
+    "expression": "笑",
+    "pinyin": "xiào",
+    "meaning": "웃다"
+  },
+  {
+    "id": 261,
+    "expression": "新",
+    "pinyin": "xīn",
+    "meaning": "새롭다"
+  },
+  {
+    "id": 262,
+    "expression": "姓",
+    "pinyin": "xìng",
+    "meaning": "성씨"
+  },
+  {
+    "id": 263,
+    "expression": "休息",
+    "pinyin": "xiūxi",
+    "meaning": "쉬다"
+  },
+  {
+    "id": 264,
+    "expression": "雪",
+    "pinyin": "xuě",
+    "meaning": "눈(날씨)"
+  },
+  {
+    "id": 265,
+    "expression": "颜色",
+    "pinyin": "yánsè",
+    "meaning": "색깔"
+  },
+  {
+    "id": 266,
+    "expression": "眼睛",
+    "pinyin": "yǎnjing",
+    "meaning": "눈(신체)"
+  },
+  {
+    "id": 267,
+    "expression": "羊肉",
+    "pinyin": "yángròu",
+    "meaning": "양고기"
+  },
+  {
+    "id": 268,
+    "expression": "药",
+    "pinyin": "yào",
+    "meaning": "약"
+  },
+  {
+    "id": 269,
+    "expression": "要",
+    "pinyin": "yào",
+    "meaning": "원하다, ~해야 한다"
+  },
+  {
+    "id": 270,
+    "expression": "也",
+    "pinyin": "yě",
+    "meaning": "~도"
+  },
+  {
+    "id": 271,
+    "expression": "一起",
+    "pinyin": "yìqǐ",
+    "meaning": "함께"
+  },
+  {
+    "id": 272,
+    "expression": "已经",
+    "pinyin": "yǐjīng",
+    "meaning": "이미"
+  },
+  {
+    "id": 273,
+    "expression": "意思",
+    "pinyin": "yìsi",
+    "meaning": "의미, 뜻"
+  },
+  {
+    "id": 274,
+    "expression": "因为",
+    "pinyin": "yīnwèi",
+    "meaning": "왜냐하면"
+  },
+  {
+    "id": 275,
+    "expression": "阴",
+    "pinyin": "yīn",
+    "meaning": "흐리다(날씨)"
+  },
+  {
+    "id": 276,
+    "expression": "游泳",
+    "pinyin": "yóuyǒng",
+    "meaning": "수영하다"
+  },
+  {
+    "id": 277,
+    "expression": "右边",
+    "pinyin": "yòubian",
+    "meaning": "오른쪽"
+  },
+  {
+    "id": 278,
+    "expression": "鱼",
+    "pinyin": "yú",
+    "meaning": "물고기, 생선"
+  },
+  {
+    "id": 279,
+    "expression": "元",
+    "pinyin": "yuán",
+    "meaning": "위안(화폐 단위)"
+  },
+  {
+    "id": 280,
+    "expression": "远",
+    "pinyin": "yuǎn",
+    "meaning": "멀다"
+  },
+  {
+    "id": 281,
+    "expression": "运动",
+    "pinyin": "yùndòng",
+    "meaning": "운동(하다)"
+  },
+  {
+    "id": 282,
+    "expression": "再",
+    "pinyin": "zài",
+    "meaning": "다시, 또"
+  },
+  {
+    "id": 283,
+    "expression": "早上",
+    "pinyin": "zǎoshang",
+    "meaning": "아침"
+  },
+  {
+    "id": 284,
+    "expression": "张",
+    "pinyin": "zhāng",
+    "meaning": "장(종이 세는 단위)"
+  },
+  {
+    "id": 285,
+    "expression": "长",
+    "pinyin": "cháng",
+    "meaning": "길다"
+  },
+  {
+    "id": 286,
+    "expression": "丈夫",
+    "pinyin": "zhàngfu",
+    "meaning": "남편"
+  },
+  {
+    "id": 287,
+    "expression": "找",
+    "pinyin": "zhǎo",
+    "meaning": "찾다"
+  },
+  {
+    "id": 288,
+    "expression": "着",
+    "pinyin": "zhe",
+    "meaning": "~하고 있다(지속 표지)"
+  },
+  {
+    "id": 289,
+    "expression": "真",
+    "pinyin": "zhēn",
+    "meaning": "진짜, 정말"
+  },
+  {
+    "id": 290,
+    "expression": "正在",
+    "pinyin": "zhèngzài",
+    "meaning": "지금 ~하고 있다"
+  },
+  {
+    "id": 291,
+    "expression": "知道",
+    "pinyin": "zhīdào",
+    "meaning": "알다"
+  },
+  {
+    "id": 292,
+    "expression": "准备",
+    "pinyin": "zhǔnbèi",
+    "meaning": "준비하다"
+  },
+  {
+    "id": 293,
+    "expression": "自行车",
+    "pinyin": "zìxíngchē",
+    "meaning": "자전거"
+  },
+  {
+    "id": 294,
+    "expression": "走",
+    "pinyin": "zǒu",
+    "meaning": "걷다, 가다"
+  },
+  {
+    "id": 295,
+    "expression": "最",
+    "pinyin": "zuì",
+    "meaning": "가장, 제일"
+  },
+  {
+    "id": 296,
+    "expression": "左边",
+    "pinyin": "zuǒbian",
+    "meaning": "왼쪽"
+  },
+  {
+    "id": 297,
+    "expression": "阿姨",
+    "pinyin": "āyí",
+    "meaning": "이모, 아주머니"
+  },
+  {
+    "id": 298,
+    "expression": "啊",
+    "pinyin": "a",
+    "meaning": "아!(감탄사)"
+  },
+  {
+    "id": 299,
+    "expression": "矮",
+    "pinyin": "ǎi",
+    "meaning": "키가 작다, 낮다"
+  },
+  {
+    "id": 300,
+    "expression": "爱好",
+    "pinyin": "àihào",
+    "meaning": "취미"
+  },
+  {
+    "id": 301,
+    "expression": "安静",
+    "pinyin": "ānjìng",
+    "meaning": "조용하다"
+  },
+  {
+    "id": 302,
+    "expression": "把",
+    "pinyin": "bǎ",
+    "meaning": "~을(把자문 전치사), 개(자루 세는 단위)"
+  },
+  {
+    "id": 303,
+    "expression": "班",
+    "pinyin": "bān",
+    "meaning": "반, 학급"
+  },
+  {
+    "id": 304,
+    "expression": "搬",
+    "pinyin": "bān",
+    "meaning": "옮기다, 이사하다"
+  },
+  {
+    "id": 305,
+    "expression": "办法",
+    "pinyin": "bànfǎ",
+    "meaning": "방법"
+  },
+  {
+    "id": 306,
+    "expression": "办公室",
+    "pinyin": "bàngōngshì",
+    "meaning": "사무실"
+  },
+  {
+    "id": 307,
+    "expression": "半",
+    "pinyin": "bàn",
+    "meaning": "절반"
+  },
+  {
+    "id": 308,
+    "expression": "帮忙",
+    "pinyin": "bāngmáng",
+    "meaning": "돕다, 도움"
+  },
+  {
+    "id": 309,
+    "expression": "包",
+    "pinyin": "bāo",
+    "meaning": "가방, 싸다"
+  },
+  {
+    "id": 310,
+    "expression": "饱",
+    "pinyin": "bǎo",
+    "meaning": "배부르다"
+  },
+  {
+    "id": 311,
+    "expression": "北方",
+    "pinyin": "běifāng",
+    "meaning": "북방, 북쪽"
+  },
+  {
+    "id": 312,
+    "expression": "被",
+    "pinyin": "bèi",
+    "meaning": "~에게 당하다(被자문 전치사)"
+  },
+  {
+    "id": 313,
+    "expression": "鼻子",
+    "pinyin": "bízi",
+    "meaning": "코"
+  },
+  {
+    "id": 314,
+    "expression": "比较",
+    "pinyin": "bǐjiào",
+    "meaning": "비교적, 비교하다"
+  },
+  {
+    "id": 315,
+    "expression": "比赛",
+    "pinyin": "bǐsài",
+    "meaning": "시합, 경기"
+  },
+  {
+    "id": 316,
+    "expression": "必须",
+    "pinyin": "bìxū",
+    "meaning": "반드시 ~해야 한다"
+  },
+  {
+    "id": 317,
+    "expression": "变化",
+    "pinyin": "biànhuà",
+    "meaning": "변화(하다)"
+  },
+  {
+    "id": 318,
+    "expression": "表示",
+    "pinyin": "biǎoshì",
+    "meaning": "나타내다, 표시하다"
+  },
+  {
+    "id": 319,
+    "expression": "表演",
+    "pinyin": "biǎoyǎn",
+    "meaning": "공연(하다)"
+  },
+  {
+    "id": 320,
+    "expression": "别人",
+    "pinyin": "biéren",
+    "meaning": "다른 사람"
+  },
+  {
+    "id": 321,
+    "expression": "宾馆",
+    "pinyin": "bīnguǎn",
+    "meaning": "호텔"
+  },
+  {
+    "id": 322,
+    "expression": "冰箱",
+    "pinyin": "bīngxiāng",
+    "meaning": "냉장고"
+  },
+  {
+    "id": 323,
+    "expression": "才",
+    "pinyin": "cái",
+    "meaning": "비로소, ~에서야"
+  },
+  {
+    "id": 324,
+    "expression": "菜单",
+    "pinyin": "càidān",
+    "meaning": "메뉴"
+  },
+  {
+    "id": 325,
+    "expression": "参加",
+    "pinyin": "cānjiā",
+    "meaning": "참가하다"
+  },
+  {
+    "id": 326,
+    "expression": "草",
+    "pinyin": "cǎo",
+    "meaning": "풀"
+  },
+  {
+    "id": 327,
+    "expression": "层",
+    "pinyin": "céng",
+    "meaning": "층"
+  },
+  {
+    "id": 328,
+    "expression": "差",
+    "pinyin": "chà",
+    "meaning": "부족하다, 나쁘다"
+  },
+  {
+    "id": 329,
+    "expression": "超市",
+    "pinyin": "chāoshì",
+    "meaning": "슈퍼마켓"
+  },
+  {
+    "id": 330,
+    "expression": "衬衫",
+    "pinyin": "chènshān",
+    "meaning": "셔츠"
+  },
+  {
+    "id": 331,
+    "expression": "成绩",
+    "pinyin": "chéngjì",
+    "meaning": "성적"
+  },
+  {
+    "id": 332,
+    "expression": "城市",
+    "pinyin": "chéngshì",
+    "meaning": "도시"
+  },
+  {
+    "id": 333,
+    "expression": "迟到",
+    "pinyin": "chídào",
+    "meaning": "지각하다"
+  },
+  {
+    "id": 334,
+    "expression": "出现",
+    "pinyin": "chūxiàn",
+    "meaning": "나타나다, 출현하다"
+  },
+  {
+    "id": 335,
+    "expression": "除了",
+    "pinyin": "chúle",
+    "meaning": "~을 제외하고"
+  },
+  {
+    "id": 336,
+    "expression": "厨房",
+    "pinyin": "chúfáng",
+    "meaning": "주방"
+  },
+  {
+    "id": 337,
+    "expression": "春",
+    "pinyin": "chūn",
+    "meaning": "봄"
+  },
+  {
+    "id": 338,
+    "expression": "词语",
+    "pinyin": "cíyǔ",
+    "meaning": "단어, 어휘"
+  },
+  {
+    "id": 339,
+    "expression": "聪明",
+    "pinyin": "cōngming",
+    "meaning": "똑똑하다"
+  },
+  {
+    "id": 340,
+    "expression": "打扫",
+    "pinyin": "dǎsǎo",
+    "meaning": "청소하다"
+  },
+  {
+    "id": 341,
+    "expression": "打算",
+    "pinyin": "dǎsuàn",
+    "meaning": "~할 계획이다, 계획"
+  },
+  {
+    "id": 342,
+    "expression": "带",
+    "pinyin": "dài",
+    "meaning": "지니다, 데리고 가다"
+  },
+  {
+    "id": 343,
+    "expression": "担心",
+    "pinyin": "dānxīn",
+    "meaning": "걱정하다"
+  },
+  {
+    "id": 344,
+    "expression": "蛋糕",
+    "pinyin": "dàngāo",
+    "meaning": "케이크"
+  },
+  {
+    "id": 345,
+    "expression": "当然",
+    "pinyin": "dāngrán",
+    "meaning": "당연히"
+  },
+  {
+    "id": 346,
+    "expression": "地",
+    "pinyin": "de",
+    "meaning": "~하게(부사어 조사)"
+  },
+  {
+    "id": 347,
+    "expression": "地方",
+    "pinyin": "dìfang",
+    "meaning": "장소, 곳"
+  },
+  {
+    "id": 348,
+    "expression": "地铁",
+    "pinyin": "dìtiě",
+    "meaning": "지하철"
+  },
+  {
+    "id": 349,
+    "expression": "地图",
+    "pinyin": "dìtú",
+    "meaning": "지도"
+  },
+  {
+    "id": 350,
+    "expression": "灯",
+    "pinyin": "dēng",
+    "meaning": "등, 램프"
+  },
+  {
+    "id": 351,
+    "expression": "低",
+    "pinyin": "dī",
+    "meaning": "낮다"
+  },
+  {
+    "id": 352,
+    "expression": "电梯",
+    "pinyin": "diàntī",
+    "meaning": "엘리베이터"
+  },
+  {
+    "id": 353,
+    "expression": "电子",
+    "pinyin": "diànzǐ",
+    "meaning": "전자"
+  },
+  {
+    "id": 354,
+    "expression": "东",
+    "pinyin": "dōng",
+    "meaning": "동쪽"
+  },
+  {
+    "id": 355,
+    "expression": "冬",
+    "pinyin": "dōng",
+    "meaning": "겨울"
+  },
+  {
+    "id": 356,
+    "expression": "动物",
+    "pinyin": "dòngwù",
+    "meaning": "동물"
+  },
+  {
+    "id": 357,
+    "expression": "短",
+    "pinyin": "duǎn",
+    "meaning": "짧다"
+  },
+  {
+    "id": 358,
+    "expression": "段",
+    "pinyin": "duàn",
+    "meaning": "단락, 구간"
+  },
+  {
+    "id": 359,
+    "expression": "锻炼",
+    "pinyin": "duànliàn",
+    "meaning": "단련하다, 운동하다"
+  },
+  {
+    "id": 360,
+    "expression": "多么",
+    "pinyin": "duōme",
+    "meaning": "얼마나(감탄)"
+  },
+  {
+    "id": 361,
+    "expression": "饿",
+    "pinyin": "è",
+    "meaning": "배고프다"
+  },
+  {
+    "id": 362,
+    "expression": "而且",
+    "pinyin": "érqiě",
+    "meaning": "게다가"
+  },
+  {
+    "id": 363,
+    "expression": "耳朵",
+    "pinyin": "ěrduo",
+    "meaning": "귀"
+  },
+  {
+    "id": 364,
+    "expression": "发烧",
+    "pinyin": "fāshāo",
+    "meaning": "열이 나다"
+  },
+  {
+    "id": 365,
+    "expression": "发现",
+    "pinyin": "fāxiàn",
+    "meaning": "발견하다"
+  },
+  {
+    "id": 366,
+    "expression": "方便",
+    "pinyin": "fāngbiàn",
+    "meaning": "편리하다"
+  },
+  {
+    "id": 367,
+    "expression": "放",
+    "pinyin": "fàng",
+    "meaning": "놓다, 두다"
+  },
+  {
+    "id": 368,
+    "expression": "放心",
+    "pinyin": "fàngxīn",
+    "meaning": "안심하다"
+  },
+  {
+    "id": 369,
+    "expression": "分",
+    "pinyin": "fēn",
+    "meaning": "나누다, 분(시간·점수)"
+  },
+  {
+    "id": 370,
+    "expression": "附近",
+    "pinyin": "fùjìn",
+    "meaning": "부근, 근처"
+  },
+  {
+    "id": 371,
+    "expression": "复习",
+    "pinyin": "fùxí",
+    "meaning": "복습하다"
+  },
+  {
+    "id": 372,
+    "expression": "敢",
+    "pinyin": "gǎn",
+    "meaning": "감히 ~하다"
+  },
+  {
+    "id": 373,
+    "expression": "感冒",
+    "pinyin": "gǎnmào",
+    "meaning": "감기(걸리다)"
+  },
+  {
+    "id": 374,
+    "expression": "干净",
+    "pinyin": "gānjìng",
+    "meaning": "깨끗하다"
+  },
+  {
+    "id": 375,
+    "expression": "刚才",
+    "pinyin": "gāngcái",
+    "meaning": "방금"
+  },
+  {
+    "id": 376,
+    "expression": "根据",
+    "pinyin": "gēnjù",
+    "meaning": "~에 근거하여"
+  },
+  {
+    "id": 377,
+    "expression": "跟",
+    "pinyin": "gēn",
+    "meaning": "~와(함께), 따라가다"
+  },
+  {
+    "id": 378,
+    "expression": "更",
+    "pinyin": "gèng",
+    "meaning": "더욱"
+  },
+  {
+    "id": 379,
+    "expression": "公园",
+    "pinyin": "gōngyuán",
+    "meaning": "공원"
+  },
+  {
+    "id": 380,
+    "expression": "故事",
+    "pinyin": "gùshi",
+    "meaning": "이야기"
+  },
+  {
+    "id": 381,
+    "expression": "刮",
+    "pinyin": "guā",
+    "meaning": "불다(바람)"
+  },
+  {
+    "id": 382,
+    "expression": "关",
+    "pinyin": "guān",
+    "meaning": "닫다"
+  },
+  {
+    "id": 383,
+    "expression": "关系",
+    "pinyin": "guānxi",
+    "meaning": "관계"
+  },
+  {
+    "id": 384,
+    "expression": "关心",
+    "pinyin": "guānxīn",
+    "meaning": "관심을 갖다"
+  },
+  {
+    "id": 385,
+    "expression": "关于",
+    "pinyin": "guānyú",
+    "meaning": "~에 관하여"
+  },
+  {
+    "id": 386,
+    "expression": "国家",
+    "pinyin": "guójiā",
+    "meaning": "국가"
+  },
+  {
+    "id": 387,
+    "expression": "果汁",
+    "pinyin": "guǒzhī",
+    "meaning": "과일주스"
+  },
+  {
+    "id": 388,
+    "expression": "过去",
+    "pinyin": "guòqù",
+    "meaning": "과거"
+  },
+  {
+    "id": 389,
+    "expression": "还是",
+    "pinyin": "háishi",
+    "meaning": "여전히, 아니면"
+  },
+  {
+    "id": 390,
+    "expression": "害怕",
+    "pinyin": "hàipà",
+    "meaning": "무서워하다"
+  },
+  {
+    "id": 391,
+    "expression": "河",
+    "pinyin": "hé",
+    "meaning": "강"
+  },
+  {
+    "id": 392,
+    "expression": "黑板",
+    "pinyin": "hēibǎn",
+    "meaning": "칠판"
+  },
+  {
+    "id": 393,
+    "expression": "护照",
+    "pinyin": "hùzhào",
+    "meaning": "여권"
+  },
+  {
+    "id": 394,
+    "expression": "花",
+    "pinyin": "huā",
+    "meaning": "꽃, (돈을) 쓰다"
+  },
+  {
+    "id": 395,
+    "expression": "花园",
+    "pinyin": "huāyuán",
+    "meaning": "화원, 정원"
+  },
+  {
+    "id": 396,
+    "expression": "画",
+    "pinyin": "huà",
+    "meaning": "그리다, 그림"
+  },
+  {
+    "id": 397,
+    "expression": "坏",
+    "pinyin": "huài",
+    "meaning": "나쁘다, 고장나다"
+  },
+  {
+    "id": 398,
+    "expression": "环境",
+    "pinyin": "huánjìng",
+    "meaning": "환경"
+  },
+  {
+    "id": 399,
+    "expression": "换",
+    "pinyin": "huàn",
+    "meaning": "바꾸다"
+  },
+  {
+    "id": 400,
+    "expression": "黄",
+    "pinyin": "huáng",
+    "meaning": "노랗다"
+  },
+  {
+    "id": 401,
+    "expression": "会议",
+    "pinyin": "huìyì",
+    "meaning": "회의"
+  },
+  {
+    "id": 402,
+    "expression": "或者",
+    "pinyin": "huòzhě",
+    "meaning": "혹은"
+  },
+  {
+    "id": 403,
+    "expression": "机会",
+    "pinyin": "jīhuì",
+    "meaning": "기회"
+  },
+  {
+    "id": 404,
+    "expression": "极",
+    "pinyin": "jí",
+    "meaning": "극히, 매우"
+  },
+  {
+    "id": 405,
+    "expression": "几乎",
+    "pinyin": "jīhū",
+    "meaning": "거의"
+  },
+  {
+    "id": 406,
+    "expression": "记得",
+    "pinyin": "jìde",
+    "meaning": "기억하다"
+  },
+  {
+    "id": 407,
+    "expression": "季节",
+    "pinyin": "jìjié",
+    "meaning": "계절"
+  },
+  {
+    "id": 408,
+    "expression": "检查",
+    "pinyin": "jiǎnchá",
+    "meaning": "검사하다"
+  },
+  {
+    "id": 409,
+    "expression": "简单",
+    "pinyin": "jiǎndān",
+    "meaning": "간단하다"
+  },
+  {
+    "id": 410,
+    "expression": "见面",
+    "pinyin": "jiànmiàn",
+    "meaning": "만나다"
+  },
+  {
+    "id": 411,
+    "expression": "健康",
+    "pinyin": "jiànkāng",
+    "meaning": "건강(하다)"
+  },
+  {
+    "id": 412,
+    "expression": "讲",
+    "pinyin": "jiǎng",
+    "meaning": "말하다, 강의하다"
+  },
+  {
+    "id": 413,
+    "expression": "角",
+    "pinyin": "jiǎo",
+    "meaning": "모서리, 자오(화폐 단위)"
+  },
+  {
+    "id": 414,
+    "expression": "脚",
+    "pinyin": "jiǎo",
+    "meaning": "발"
+  },
+  {
+    "id": 415,
+    "expression": "教",
+    "pinyin": "jiāo",
+    "meaning": "가르치다"
+  },
+  {
+    "id": 416,
+    "expression": "接",
+    "pinyin": "jiē",
+    "meaning": "받다, 마중하다"
+  },
+  {
+    "id": 417,
+    "expression": "街道",
+    "pinyin": "jiēdào",
+    "meaning": "거리"
+  },
+  {
+    "id": 418,
+    "expression": "节目",
+    "pinyin": "jiémù",
+    "meaning": "프로그램"
+  },
+  {
+    "id": 419,
+    "expression": "节日",
+    "pinyin": "jiérì",
+    "meaning": "명절, 기념일"
+  },
+  {
+    "id": 420,
+    "expression": "结婚",
+    "pinyin": "jiéhūn",
+    "meaning": "결혼하다"
+  },
+  {
+    "id": 421,
+    "expression": "结束",
+    "pinyin": "jiéshù",
+    "meaning": "끝나다"
+  },
+  {
+    "id": 422,
+    "expression": "解决",
+    "pinyin": "jiějué",
+    "meaning": "해결하다"
+  },
+  {
+    "id": 423,
+    "expression": "借",
+    "pinyin": "jiè",
+    "meaning": "빌리다"
+  },
+  {
+    "id": 424,
+    "expression": "经常",
+    "pinyin": "jīngcháng",
+    "meaning": "자주, 늘"
+  },
+  {
+    "id": 425,
+    "expression": "经过",
+    "pinyin": "jīngguò",
+    "meaning": "지나다, 거치다"
+  },
+  {
+    "id": 426,
+    "expression": "经理",
+    "pinyin": "jīnglǐ",
+    "meaning": "매니저, 사장"
+  },
+  {
+    "id": 427,
+    "expression": "久",
+    "pinyin": "jiǔ",
+    "meaning": "오래다"
+  },
+  {
+    "id": 428,
+    "expression": "旧",
+    "pinyin": "jiù",
+    "meaning": "낡다, 오래되다"
+  },
+  {
+    "id": 429,
+    "expression": "举行",
+    "pinyin": "jǔxíng",
+    "meaning": "거행하다, 열다"
+  },
+  {
+    "id": 430,
+    "expression": "句子",
+    "pinyin": "jùzi",
+    "meaning": "문장"
+  },
+  {
+    "id": 431,
+    "expression": "决定",
+    "pinyin": "juédìng",
+    "meaning": "결정하다"
+  },
+  {
+    "id": 432,
+    "expression": "可爱",
+    "pinyin": "kě'ài",
+    "meaning": "귀엽다"
+  },
+  {
+    "id": 433,
+    "expression": "渴",
+    "pinyin": "kě",
+    "meaning": "목마르다"
+  },
+  {
+    "id": 434,
+    "expression": "刻",
+    "pinyin": "kè",
+    "meaning": "15분(시간 단위)"
+  },
+  {
+    "id": 435,
+    "expression": "客人",
+    "pinyin": "kèrén",
+    "meaning": "손님"
+  },
+  {
+    "id": 436,
+    "expression": "空调",
+    "pinyin": "kōngtiáo",
+    "meaning": "에어컨"
+  },
+  {
+    "id": 437,
+    "expression": "口",
+    "pinyin": "kǒu",
+    "meaning": "입, 구(식구 세는 단위)"
+  },
+  {
+    "id": 438,
+    "expression": "哭",
+    "pinyin": "kū",
+    "meaning": "울다"
+  },
+  {
+    "id": 439,
+    "expression": "裤子",
+    "pinyin": "kùzi",
+    "meaning": "바지"
+  },
+  {
+    "id": 440,
+    "expression": "筷子",
+    "pinyin": "kuàizi",
+    "meaning": "젓가락"
+  },
+  {
+    "id": 441,
+    "expression": "蓝",
+    "pinyin": "lán",
+    "meaning": "파랗다"
+  },
+  {
+    "id": 442,
+    "expression": "老",
+    "pinyin": "lǎo",
+    "meaning": "늙다, 오래된"
+  },
+  {
+    "id": 443,
+    "expression": "了解",
+    "pinyin": "liǎojiě",
+    "meaning": "이해하다, 알아보다"
+  },
+  {
+    "id": 444,
+    "expression": "离开",
+    "pinyin": "líkāi",
+    "meaning": "떠나다"
+  },
+  {
+    "id": 445,
+    "expression": "礼物",
+    "pinyin": "lǐwù",
+    "meaning": "선물"
+  },
+  {
+    "id": 446,
+    "expression": "历史",
+    "pinyin": "lìshǐ",
+    "meaning": "역사"
+  },
+  {
+    "id": 447,
+    "expression": "脸",
+    "pinyin": "liǎn",
+    "meaning": "얼굴"
+  },
+  {
+    "id": 448,
+    "expression": "练习",
+    "pinyin": "liànxí",
+    "meaning": "연습(하다)"
+  },
+  {
+    "id": 449,
+    "expression": "辆",
+    "pinyin": "liàng",
+    "meaning": "대(차량 세는 단위)"
+  },
+  {
+    "id": 450,
+    "expression": "邻居",
+    "pinyin": "línjū",
+    "meaning": "이웃"
+  },
+  {
+    "id": 451,
+    "expression": "楼",
+    "pinyin": "lóu",
+    "meaning": "건물, 층"
+  },
+  {
+    "id": 452,
+    "expression": "绿",
+    "pinyin": "lǜ",
+    "meaning": "초록색"
+  },
+  {
+    "id": 453,
+    "expression": "马",
+    "pinyin": "mǎ",
+    "meaning": "말(동물)"
+  },
+  {
+    "id": 454,
+    "expression": "马上",
+    "pinyin": "mǎshàng",
+    "meaning": "곧, 즉시"
+  },
+  {
+    "id": 455,
+    "expression": "满意",
+    "pinyin": "mǎnyì",
+    "meaning": "만족하다"
+  },
+  {
+    "id": 456,
+    "expression": "帽子",
+    "pinyin": "màozi",
+    "meaning": "모자"
+  },
+  {
+    "id": 457,
+    "expression": "米",
+    "pinyin": "mǐ",
+    "meaning": "쌀, 미터"
+  },
+  {
+    "id": 458,
+    "expression": "面包",
+    "pinyin": "miànbāo",
+    "meaning": "빵"
+  },
+  {
+    "id": 459,
+    "expression": "面条",
+    "pinyin": "miàntiáo",
+    "meaning": "국수"
+  },
+  {
+    "id": 460,
+    "expression": "明白",
+    "pinyin": "míngbai",
+    "meaning": "이해하다, 명백하다"
+  },
+  {
+    "id": 461,
+    "expression": "拿",
+    "pinyin": "ná",
+    "meaning": "쥐다, 가지다"
+  },
+  {
+    "id": 462,
+    "expression": "奶奶",
+    "pinyin": "nǎinai",
+    "meaning": "할머니"
+  },
+  {
+    "id": 463,
+    "expression": "南",
+    "pinyin": "nán",
+    "meaning": "남쪽"
+  },
+  {
+    "id": 464,
+    "expression": "难",
+    "pinyin": "nán",
+    "meaning": "어렵다"
+  },
+  {
+    "id": 465,
+    "expression": "难过",
+    "pinyin": "nánguò",
+    "meaning": "슬프다, 괴롭다"
+  },
+  {
+    "id": 466,
+    "expression": "年级",
+    "pinyin": "niánjí",
+    "meaning": "학년"
+  },
+  {
+    "id": 467,
+    "expression": "年轻",
+    "pinyin": "niánqīng",
+    "meaning": "젊다"
+  },
+  {
+    "id": 468,
+    "expression": "鸟",
+    "pinyin": "niǎo",
+    "meaning": "새"
+  },
+  {
+    "id": 469,
+    "expression": "努力",
+    "pinyin": "nǔlì",
+    "meaning": "노력하다"
+  },
+  {
+    "id": 470,
+    "expression": "爬山",
+    "pinyin": "páshān",
+    "meaning": "등산하다"
+  },
+  {
+    "id": 471,
+    "expression": "盘子",
+    "pinyin": "pánzi",
+    "meaning": "쟁반, 접시"
+  },
+  {
+    "id": 472,
+    "expression": "胖",
+    "pinyin": "pàng",
+    "meaning": "뚱뚱하다"
+  },
+  {
+    "id": 473,
+    "expression": "啤酒",
+    "pinyin": "píjiǔ",
+    "meaning": "맥주"
+  },
+  {
+    "id": 474,
+    "expression": "葡萄",
+    "pinyin": "pútao",
+    "meaning": "포도"
+  },
+  {
+    "id": 475,
+    "expression": "普通话",
+    "pinyin": "pǔtōnghuà",
+    "meaning": "표준 중국어"
+  },
+  {
+    "id": 476,
+    "expression": "其实",
+    "pinyin": "qíshí",
+    "meaning": "사실은"
+  },
+  {
+    "id": 477,
+    "expression": "其他",
+    "pinyin": "qítā",
+    "meaning": "기타, 그 밖의"
+  },
+  {
+    "id": 478,
+    "expression": "奇怪",
+    "pinyin": "qíguài",
+    "meaning": "이상하다"
+  },
+  {
+    "id": 479,
+    "expression": "骑",
+    "pinyin": "qí",
+    "meaning": "(말·자전거를) 타다"
+  },
+  {
+    "id": 480,
+    "expression": "铅笔",
+    "pinyin": "qiānbǐ",
+    "meaning": "연필"
+  },
+  {
+    "id": 481,
+    "expression": "清楚",
+    "pinyin": "qīngchu",
+    "meaning": "분명하다"
+  },
+  {
+    "id": 482,
+    "expression": "秋",
+    "pinyin": "qiū",
+    "meaning": "가을"
+  },
+  {
+    "id": 483,
+    "expression": "裙子",
+    "pinyin": "qúnzi",
+    "meaning": "치마"
+  },
+  {
+    "id": 484,
+    "expression": "然后",
+    "pinyin": "ránhòu",
+    "meaning": "그 다음에"
+  },
+  {
+    "id": 485,
+    "expression": "热情",
+    "pinyin": "rèqíng",
+    "meaning": "친절하다, 열정적"
+  },
+  {
+    "id": 486,
+    "expression": "认为",
+    "pinyin": "rènwéi",
+    "meaning": "~라고 생각하다"
+  },
+  {
+    "id": 487,
+    "expression": "认真",
+    "pinyin": "rènzhēn",
+    "meaning": "진지하다, 성실하다"
+  },
+  {
+    "id": 488,
+    "expression": "容易",
+    "pinyin": "róngyì",
+    "meaning": "쉽다"
+  },
+  {
+    "id": 489,
+    "expression": "如果",
+    "pinyin": "rúguǒ",
+    "meaning": "만약"
+  },
+  {
+    "id": 490,
+    "expression": "伞",
+    "pinyin": "sǎn",
+    "meaning": "우산"
+  },
+  {
+    "id": 491,
+    "expression": "上网",
+    "pinyin": "shàngwǎng",
+    "meaning": "인터넷을 하다"
+  },
+  {
+    "id": 492,
+    "expression": "生气",
+    "pinyin": "shēngqì",
+    "meaning": "화나다"
+  },
+  {
+    "id": 493,
+    "expression": "声音",
+    "pinyin": "shēngyīn",
+    "meaning": "소리, 목소리"
+  },
+  {
+    "id": 494,
+    "expression": "使",
+    "pinyin": "shǐ",
+    "meaning": "~하게 시키다"
+  },
+  {
+    "id": 495,
+    "expression": "世界",
+    "pinyin": "shìjiè",
+    "meaning": "세계"
+  },
+  {
+    "id": 496,
+    "expression": "瘦",
+    "pinyin": "shòu",
+    "meaning": "마르다"
+  },
+  {
+    "id": 497,
+    "expression": "叔叔",
+    "pinyin": "shūshu",
+    "meaning": "삼촌"
+  },
+  {
+    "id": 498,
+    "expression": "舒服",
+    "pinyin": "shūfu",
+    "meaning": "편안하다"
+  },
+  {
+    "id": 499,
+    "expression": "树",
+    "pinyin": "shù",
+    "meaning": "나무"
+  },
+  {
+    "id": 500,
+    "expression": "数学",
+    "pinyin": "shùxué",
+    "meaning": "수학"
+  },
+  {
+    "id": 501,
+    "expression": "刷",
+    "pinyin": "shuā",
+    "meaning": "닦다, 솔질하다"
+  },
+  {
+    "id": 502,
+    "expression": "双",
+    "pinyin": "shuāng",
+    "meaning": "쌍, 켤레"
+  },
+  {
+    "id": 503,
+    "expression": "水平",
+    "pinyin": "shuǐpíng",
+    "meaning": "수준"
+  },
+  {
+    "id": 504,
+    "expression": "司机",
+    "pinyin": "sījī",
+    "meaning": "운전기사"
+  },
+  {
+    "id": 505,
+    "expression": "虽然",
+    "pinyin": "suīrán",
+    "meaning": "비록 ~이지만"
+  },
+  {
+    "id": 506,
+    "expression": "太阳",
+    "pinyin": "tàiyang",
+    "meaning": "태양"
+  },
+  {
+    "id": 507,
+    "expression": "糖",
+    "pinyin": "táng",
+    "meaning": "설탕, 사탕"
+  },
+  {
+    "id": 508,
+    "expression": "特别",
+    "pinyin": "tèbié",
+    "meaning": "특별하다, 특히"
+  },
+  {
+    "id": 509,
+    "expression": "疼",
+    "pinyin": "téng",
+    "meaning": "아프다"
+  },
+  {
+    "id": 510,
+    "expression": "提高",
+    "pinyin": "tígāo",
+    "meaning": "향상시키다"
+  },
+  {
+    "id": 511,
+    "expression": "体育",
+    "pinyin": "tǐyù",
+    "meaning": "체육"
+  },
+  {
+    "id": 512,
+    "expression": "甜",
+    "pinyin": "tián",
+    "meaning": "달다"
+  },
+  {
+    "id": 513,
+    "expression": "条",
+    "pinyin": "tiáo",
+    "meaning": "가늘고 긴 것을 세는 단위"
+  },
+  {
+    "id": 514,
+    "expression": "同事",
+    "pinyin": "tóngshì",
+    "meaning": "동료"
+  },
+  {
+    "id": 515,
+    "expression": "同意",
+    "pinyin": "tóngyì",
+    "meaning": "동의하다"
+  },
+  {
+    "id": 516,
+    "expression": "头发",
+    "pinyin": "tóufa",
+    "meaning": "머리카락"
+  },
+  {
+    "id": 517,
+    "expression": "突然",
+    "pinyin": "tūrán",
+    "meaning": "갑자기"
+  },
+  {
+    "id": 518,
+    "expression": "图书馆",
+    "pinyin": "túshūguǎn",
+    "meaning": "도서관"
+  },
+  {
+    "id": 519,
+    "expression": "腿",
+    "pinyin": "tuǐ",
+    "meaning": "다리"
+  },
+  {
+    "id": 520,
+    "expression": "完成",
+    "pinyin": "wánchéng",
+    "meaning": "완성하다"
+  },
+  {
+    "id": 521,
+    "expression": "碗",
+    "pinyin": "wǎn",
+    "meaning": "그릇"
+  },
+  {
+    "id": 522,
+    "expression": "万",
+    "pinyin": "wàn",
+    "meaning": "만, 10000"
+  },
+  {
+    "id": 523,
+    "expression": "忘记",
+    "pinyin": "wàngjì",
+    "meaning": "잊다"
+  },
+  {
+    "id": 524,
+    "expression": "为了",
+    "pinyin": "wèile",
+    "meaning": "~을 위하여"
+  },
+  {
+    "id": 525,
+    "expression": "为什么",
+    "pinyin": "wèishénme",
+    "meaning": "왜"
+  },
+  {
+    "id": 526,
+    "expression": "位",
+    "pinyin": "wèi",
+    "meaning": "분(사람 존칭 세는 단위)"
+  },
+  {
+    "id": 527,
+    "expression": "文化",
+    "pinyin": "wénhuà",
+    "meaning": "문화"
+  },
+  {
+    "id": 528,
+    "expression": "习惯",
+    "pinyin": "xíguàn",
+    "meaning": "습관, 익숙해지다"
+  },
+  {
+    "id": 529,
+    "expression": "洗手间",
+    "pinyin": "xǐshǒujiān",
+    "meaning": "화장실"
+  },
+  {
+    "id": 530,
+    "expression": "洗澡",
+    "pinyin": "xǐzǎo",
+    "meaning": "목욕하다"
+  },
+  {
+    "id": 531,
+    "expression": "西",
+    "pinyin": "xī",
+    "meaning": "서쪽"
+  },
+  {
+    "id": 532,
+    "expression": "夏",
+    "pinyin": "xià",
+    "meaning": "여름"
+  },
+  {
+    "id": 533,
+    "expression": "先",
+    "pinyin": "xiān",
+    "meaning": "먼저"
+  },
+  {
+    "id": 534,
+    "expression": "相同",
+    "pinyin": "xiāngtóng",
+    "meaning": "똑같다"
+  },
+  {
+    "id": 535,
+    "expression": "相信",
+    "pinyin": "xiāngxìn",
+    "meaning": "믿다"
+  },
+  {
+    "id": 536,
+    "expression": "香蕉",
+    "pinyin": "xiāngjiāo",
+    "meaning": "바나나"
+  },
+  {
+    "id": 537,
+    "expression": "像",
+    "pinyin": "xiàng",
+    "meaning": "닮다, ~처럼"
+  },
+  {
+    "id": 538,
+    "expression": "小心",
+    "pinyin": "xiǎoxīn",
+    "meaning": "조심하다"
+  },
+  {
+    "id": 539,
+    "expression": "校长",
+    "pinyin": "xiàozhǎng",
+    "meaning": "교장"
+  },
+  {
+    "id": 540,
+    "expression": "鞋",
+    "pinyin": "xié",
+    "meaning": "신발"
+  },
+  {
+    "id": 541,
+    "expression": "新闻",
+    "pinyin": "xīnwén",
+    "meaning": "뉴스"
+  },
+  {
+    "id": 542,
+    "expression": "新鲜",
+    "pinyin": "xīnxiān",
+    "meaning": "신선하다"
+  },
+  {
+    "id": 543,
+    "expression": "信",
+    "pinyin": "xìn",
+    "meaning": "편지"
+  },
+  {
+    "id": 544,
+    "expression": "行李箱",
+    "pinyin": "xínglixiāng",
+    "meaning": "여행 가방"
+  },
+  {
+    "id": 545,
+    "expression": "兴趣",
+    "pinyin": "xìngqù",
+    "meaning": "흥미, 관심"
+  },
+  {
+    "id": 546,
+    "expression": "熊猫",
+    "pinyin": "xióngmāo",
+    "meaning": "판다"
+  },
+  {
+    "id": 547,
+    "expression": "需要",
+    "pinyin": "xūyào",
+    "meaning": "필요하다"
+  },
+  {
+    "id": 548,
+    "expression": "选择",
+    "pinyin": "xuǎnzé",
+    "meaning": "선택(하다)"
+  },
+  {
+    "id": 549,
+    "expression": "眼镜",
+    "pinyin": "yǎnjìng",
+    "meaning": "안경"
+  },
+  {
+    "id": 550,
+    "expression": "要求",
+    "pinyin": "yāoqiú",
+    "meaning": "요구(하다)"
+  },
+  {
+    "id": 551,
+    "expression": "爷爷",
+    "pinyin": "yéye",
+    "meaning": "할아버지"
+  },
+  {
+    "id": 552,
+    "expression": "一般",
+    "pinyin": "yìbān",
+    "meaning": "일반적이다, 보통"
+  },
+  {
+    "id": 553,
+    "expression": "一边",
+    "pinyin": "yìbiān",
+    "meaning": "한편으로"
+  },
+  {
+    "id": 554,
+    "expression": "一定",
+    "pinyin": "yídìng",
+    "meaning": "반드시"
+  },
+  {
+    "id": 555,
+    "expression": "一共",
+    "pinyin": "yígòng",
+    "meaning": "모두, 합계"
+  },
+  {
+    "id": 556,
+    "expression": "一会儿",
+    "pinyin": "yíhuìr",
+    "meaning": "잠깐, 잠시"
+  },
+  {
+    "id": 557,
+    "expression": "一样",
+    "pinyin": "yíyàng",
+    "meaning": "같다"
+  },
+  {
+    "id": 558,
+    "expression": "一直",
+    "pinyin": "yìzhí",
+    "meaning": "줄곧, 곧장"
+  },
+  {
+    "id": 559,
+    "expression": "以后",
+    "pinyin": "yǐhòu",
+    "meaning": "이후"
+  },
+  {
+    "id": 560,
+    "expression": "以前",
+    "pinyin": "yǐqián",
+    "meaning": "이전"
+  },
+  {
+    "id": 561,
+    "expression": "以为",
+    "pinyin": "yǐwéi",
+    "meaning": "~라고 여기다(잘못 생각함)"
+  },
+  {
+    "id": 562,
+    "expression": "音乐",
+    "pinyin": "yīnyuè",
+    "meaning": "음악"
+  },
+  {
+    "id": 563,
+    "expression": "银行",
+    "pinyin": "yínháng",
+    "meaning": "은행"
+  },
+  {
+    "id": 564,
+    "expression": "应该",
+    "pinyin": "yīnggāi",
+    "meaning": "마땅히 ~해야 한다"
+  },
+  {
+    "id": 565,
+    "expression": "影响",
+    "pinyin": "yǐngxiǎng",
+    "meaning": "영향(을 주다)"
+  },
+  {
+    "id": 566,
+    "expression": "用",
+    "pinyin": "yòng",
+    "meaning": "사용하다"
+  },
+  {
+    "id": 567,
+    "expression": "游戏",
+    "pinyin": "yóuxì",
+    "meaning": "게임"
+  },
+  {
+    "id": 568,
+    "expression": "有名",
+    "pinyin": "yǒumíng",
+    "meaning": "유명하다"
+  },
+  {
+    "id": 569,
+    "expression": "又",
+    "pinyin": "yòu",
+    "meaning": "또"
+  },
+  {
+    "id": 570,
+    "expression": "遇到",
+    "pinyin": "yùdào",
+    "meaning": "마주치다, 만나다"
+  },
+  {
+    "id": 571,
+    "expression": "愿意",
+    "pinyin": "yuànyì",
+    "meaning": "원하다, 바라다"
+  },
+  {
+    "id": 572,
+    "expression": "月亮",
+    "pinyin": "yuèliang",
+    "meaning": "달"
+  },
+  {
+    "id": 573,
+    "expression": "越",
+    "pinyin": "yuè",
+    "meaning": "~할수록(越…越…)"
+  },
+  {
+    "id": 574,
+    "expression": "云",
+    "pinyin": "yún",
+    "meaning": "구름"
+  },
+  {
+    "id": 575,
+    "expression": "站",
+    "pinyin": "zhàn",
+    "meaning": "역, 서다"
+  },
+  {
+    "id": 576,
+    "expression": "照顾",
+    "pinyin": "zhàogù",
+    "meaning": "돌보다"
+  },
+  {
+    "id": 577,
+    "expression": "照片",
+    "pinyin": "zhàopiàn",
+    "meaning": "사진"
+  },
+  {
+    "id": 578,
+    "expression": "照相机",
+    "pinyin": "zhàoxiàngjī",
+    "meaning": "카메라"
+  },
+  {
+    "id": 579,
+    "expression": "着急",
+    "pinyin": "zháojí",
+    "meaning": "조급하다, 초조하다"
+  },
+  {
+    "id": 580,
+    "expression": "只",
+    "pinyin": "zhǐ",
+    "meaning": "오직, ~만"
+  },
+  {
+    "id": 581,
+    "expression": "中间",
+    "pinyin": "zhōngjiān",
+    "meaning": "중간"
+  },
+  {
+    "id": 582,
+    "expression": "终于",
+    "pinyin": "zhōngyú",
+    "meaning": "마침내"
+  },
+  {
+    "id": 583,
+    "expression": "种",
+    "pinyin": "zhǒng",
+    "meaning": "종류, 씨앗"
+  },
+  {
+    "id": 584,
+    "expression": "重要",
+    "pinyin": "zhòngyào",
+    "meaning": "중요하다"
+  },
+  {
+    "id": 585,
+    "expression": "周末",
+    "pinyin": "zhōumò",
+    "meaning": "주말"
+  },
+  {
+    "id": 586,
+    "expression": "主要",
+    "pinyin": "zhǔyào",
+    "meaning": "주요하다"
+  },
+  {
+    "id": 587,
+    "expression": "注意",
+    "pinyin": "zhùyì",
+    "meaning": "주의하다"
+  },
+  {
+    "id": 588,
+    "expression": "祝",
+    "pinyin": "zhù",
+    "meaning": "축원하다, 빌다"
+  },
+  {
+    "id": 589,
+    "expression": "字典",
+    "pinyin": "zìdiǎn",
+    "meaning": "자전, 사전"
+  },
+  {
+    "id": 590,
+    "expression": "自己",
+    "pinyin": "zìjǐ",
+    "meaning": "자기 자신"
+  },
+  {
+    "id": 591,
+    "expression": "总是",
+    "pinyin": "zǒngshì",
+    "meaning": "항상"
+  },
+  {
+    "id": 592,
+    "expression": "最近",
+    "pinyin": "zuìjìn",
+    "meaning": "최근"
+  },
+  {
+    "id": 593,
+    "expression": "作业",
+    "pinyin": "zuòyè",
+    "meaning": "숙제"
+  },
+  {
+    "id": 594,
+    "expression": "作用",
+    "pinyin": "zuòyòng",
+    "meaning": "작용, 역할"
+  }
+]

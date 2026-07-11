@@ -293,6 +293,9 @@ brain/
 **일본어**
 - [일본어 기초 어휘](https://brain.dongwook.kim/drills/일본어_기초_어휘.html)
 
+**중국어**
+- [중국어 HSK 어휘](https://brain.dongwook.kim/drills/중국어_HSK_어휘.html)
+
 **영어**
 - [영어 GRE 어휘](https://brain.dongwook.kim/drills/영어_GRE_어휘.html)
 
