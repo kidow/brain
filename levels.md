@@ -491,3 +491,7 @@ Level: Blank — 예상 밖 질문에 대한 즉흥 대응 표현 전무("um..."
 ## 영어_이력서·자소서_작성
 
 Level: Glimpsed — "managed a team of 5"가 "responsible for managing"보다 구체적이라 좋다는 직관 정확. STAR 기법(Situation-Task-Action-Result) 등 체계적 서술 기법은 전혀 미노출. 완전 처음 시작.
+
+## 영어_인터넷_밈·은어
+
+Level: Blank — TL;DR(too long, didn't read) 하나만 앎. SMH 등 나머지 플랫폼 약어·밈 유래 표현·"극단적 온라인" 문화 용어 전반 미노출. `영어_슬랭·관용어`(lol/tbh/ngl/no cap/slay 등)·`영어_회화`(That's so relatable/I'm dead 등)에서 이미 다룬 것과 안 겹치는 새 영역 처음 시작.
