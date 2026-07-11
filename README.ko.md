@@ -155,6 +155,7 @@ brain/
 - [아랍어 시간절](https://brain.dongwook.kim/notes/아랍어/아랍어_시간절)
 - [아랍어 방언 입문](https://brain.dongwook.kim/notes/아랍어/아랍어_방언_입문)
 - [아랍어 등위접속사](https://brain.dongwook.kim/notes/아랍어/아랍어_등위접속사)
+- [아랍어 호격 감탄문](https://brain.dongwook.kim/notes/아랍어/아랍어_호격_감탄문)
 
 **언어 — 영어**
 - [영어 전치사](https://brain.dongwook.kim/notes/영어/영어_전치사)
