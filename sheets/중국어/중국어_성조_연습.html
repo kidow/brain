@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#ffffff">
+  <title>중국어 성조 연습</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #0f172a;
+      color: #e2e8f0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 15px;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+    }
+    h1 { font-size: 1.5rem; font-weight: 700; color: #60a5fa; margin-bottom: 0.25rem; }
+    .subtitle { color: #94a3b8; font-size: 0.875rem; margin-bottom: 1.75rem; }
+    h2 { font-size: 0.8rem; font-weight: 600; color: #94a3b8; text-transform: uppercase;
+         letter-spacing: 0.05em; margin: 1.75rem 0 0.75rem; }
+
+    .sentence-card {
+      background: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 10px;
+      padding: 1.5rem;
+      text-align: center;
+      margin-bottom: 1.25rem;
+    }
+    .hanzi { font-size: 1.8rem; font-weight: 700; color: #60a5fa; margin-bottom: 0.5rem; line-height: 1.5; }
+    .pinyin { font-size: 1.1rem; color: #94a3b8; margin-bottom: 0.5rem; }
+    .meaning { font-size: 0.9rem; color: #cbd5e1; }
+
+    button {
+      background: #60a5fa;
+      color: #0f172a;
+      border: none;
+      border-radius: 8px;
+      padding: 0.6rem 1.1rem;
+      font-size: 0.9rem;
+      font-weight: 700;
+      cursor: pointer;
+      margin: 0.25rem;
+      font-family: inherit;
+    }
+    button:hover { background: #3b82f6; }
+    button.secondary {
+      background: #1e293b;
+      color: #e2e8f0;
+      border: 1px solid #334155;
+    }
+    button.secondary:hover { background: #263349; }
+
+    .btn-row { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.4rem; margin: 0.75rem 0; }
+
+    .tone-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0.6rem;
+      margin: 1rem 0;
+    }
+    .tone-card {
+      background: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 8px;
+      padding: 0.75rem 0.5rem;
+      text-align: center;
+    }
+    .tone-card.t1 { border-color: #1d4ed8; }
+    .tone-card.t2 { border-color: #15803d; }
+    .tone-card.t3 { border-color: #7e22ce; }
+    .tone-card.t4 { border-color: #b91c1c; }
+    .tone-mark { font-size: 1.6rem; font-weight: 700; margin-bottom: 0.2rem; }
+    .t1 .tone-mark { color: #60a5fa; }
+    .t2 .tone-mark { color: #4ade80; }
+    .t3 .tone-mark { color: #a78bfa; }
+    .t4 .tone-mark { color: #f87171; }
+    .tone-name { font-size: 0.7rem; color: #94a3b8; margin-bottom: 0.5rem; }
+    .tone-card button { width: 100%; padding: 0.4rem; font-size: 0.8rem; }
+
+    .note {
+      background: #1e293b;
+      border-left: 3px solid #60a5fa;
+      padding: 0.75rem 1rem;
+      border-radius: 0 6px 6px 0;
+      margin: 1rem 0;
+      font-size: 0.85rem;
+      color: #94a3b8;
+    }
+
+    @media (max-width: 600px) {
+      body { padding: 1rem; }
+      .hanzi { font-size: 1.4rem; }
+      .tone-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media print { body { padding: 0.5cm; } }
+  </style>
+</head>
+<body>
+
+  <h1>중국어 성조 연습</h1>
+  <p class="subtitle">妈骑马慢骂 — 1~4성이 한 문장 안에 자연스럽게 들어있는 정석 예문</p>
+
+  <div class="sentence-card">
+    <div class="hanzi">妈妈骑马，马慢，妈妈骂马。</div>
+    <div class="pinyin">Māma qí mǎ, mǎ màn, māma mà mǎ.</div>
+    <div class="meaning">엄마가 말을 타는데, 말이 느려서, 엄마가 말을 꾸짖는다.</div>
+    <div class="btn-row">
+      <button onclick="play('妈妈骑马，马慢，妈妈骂马。')">전체 문장 재생</button>
+    </div>
+  </div>
+
+  <h2>글자별 성조 대조</h2>
+  <div class="tone-grid">
+    <div class="tone-card t1">
+      <div class="tone-mark">妈</div>
+      <div class="tone-name">mā · 1성 · 엄마</div>
+      <button onclick="play('妈')">재생</button>
+    </div>
+    <div class="tone-card t2">
+      <div class="tone-mark">骑</div>
+      <div class="tone-name">qí · 2성 · 타다</div>
+      <button onclick="play('骑')">재생</button>
+    </div>
+    <div class="tone-card t3">
+      <div class="tone-mark">马</div>
+      <div class="tone-name">mǎ · 3성 · 말</div>
+      <button onclick="play('马')">재생</button>
+    </div>
+    <div class="tone-card t4">
+      <div class="tone-mark">骂</div>
+      <div class="tone-name">mà · 4성 · 꾸짖다</div>
+      <button onclick="play('骂')">재생</button>
+    </div>
+  </div>
+
+  <h2>최소 대립 — 같은 음절 ma, 성조만 다름</h2>
+  <div class="tone-grid">
+    <div class="tone-card t1">
+      <div class="tone-mark">妈</div>
+      <div class="tone-name">mā · 엄마</div>
+      <button onclick="play('妈')">재생</button>
+    </div>
+    <div class="tone-card t2">
+      <div class="tone-mark">麻</div>
+      <div class="tone-name">má · 삼</div>
+      <button onclick="play('麻')">재생</button>
+    </div>
+    <div class="tone-card t3">
+      <div class="tone-mark">马</div>
+      <div class="tone-name">mǎ · 말</div>
+      <button onclick="play('马')">재생</button>
+    </div>
+    <div class="tone-card t4">
+      <div class="tone-mark">骂</div>
+      <div class="tone-name">mà · 꾸짖다</div>
+      <button onclick="play('骂')">재생</button>
+    </div>
+  </div>
+  <div class="btn-row">
+    <button class="secondary" onclick="play('妈麻马骂')">妈麻马骂 연속 재생</button>
+  </div>
+
+  <div class="note">발음: Google TTS(중국어) 사용. 재생 실패 시 브라우저 내장 음성으로 자동 대체.</div>
+
+  <audio id="player" style="display:none"></audio>
+
+  <script>
+    let fallbackFired = false;
+    function tryGoogle(text) {
+      const url = `https://translate.google.com/translate_tts?ie=UTF-8&q=${encodeURIComponent(text)}&tl=zh-CN&client=tw-ob&ttsspeed=0.7`;
+      const player = document.getElementById('player');
+      player.src = url;
+      player.onerror = () => { if (!fallbackFired) { fallbackFired = true; fallbackSpeak(text); } };
+      player.play().catch(() => { if (!fallbackFired) { fallbackFired = true; fallbackSpeak(text); } });
+    }
+    function fallbackSpeak(text) {
+      const u = new SpeechSynthesisUtterance(text);
+      u.lang = 'zh-CN';
+      speechSynthesis.speak(u);
+    }
+    function play(text) {
+      fallbackFired = false;
+      tryGoogle(text);
+    }
+  </script>
+</body>
+</html>

@@ -184,6 +184,7 @@ Quick-reference sheets served live at [brain.dongwook.kim](https://brain.dongwoo
 - [병음 표](https://brain.dongwook.kim/sheets/중국어/병음_표.html)
 - [중국어 성모표](https://brain.dongwook.kim/sheets/중국어/중국어_성모표.html)
 - [중국어 성조규칙](https://brain.dongwook.kim/sheets/중국어/중국어_성조규칙.html)
+- [중국어 성조 연습](https://brain.dongwook.kim/sheets/중국어/중국어_성조_연습.html)
 - [중국어 문자 치트시트](https://brain.dongwook.kim/sheets/중국어/중국어_문자_치트시트.html)
 
 **German**
