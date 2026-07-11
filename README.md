@@ -115,6 +115,7 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [스페인어 목적어 대명사](https://brain.dongwook.kim/notes/스페인어_목적어_대명사)
 - [스페인어 명령문](https://brain.dongwook.kim/notes/스페인어_명령문)
 - [스페인어 재귀동사](https://brain.dongwook.kim/notes/스페인어_재귀동사)
+- [스페인어 과거시제](https://brain.dongwook.kim/notes/스페인어_과거시제)
 
 **Languages — German**
 - [독일어 문자](https://brain.dongwook.kim/notes/독일어_문자)
