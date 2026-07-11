@@ -98,6 +98,7 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [러시아어 동사상](https://brain.dongwook.kim/notes/러시아어_동사상)
 - [러시아어 이동동사](https://brain.dongwook.kim/notes/러시아어_이동동사)
 - [러시아어 소유대명사 격변화](https://brain.dongwook.kim/notes/러시아어_소유대명사_격변화)
+- [러시아어 지시대명사](https://brain.dongwook.kim/notes/러시아어_지시대명사)
 
 **Languages — Spanish**
 - [스페인어 문자](https://brain.dongwook.kim/notes/스페인어_문자)
@@ -151,6 +152,7 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [아랍어 비교급](https://brain.dongwook.kim/notes/아랍어/아랍어_비교급)
 - [아랍어 시간절](https://brain.dongwook.kim/notes/아랍어/아랍어_시간절)
 - [아랍어 방언 입문](https://brain.dongwook.kim/notes/아랍어/아랍어_방언_입문)
+- [아랍어 등위접속사](https://brain.dongwook.kim/notes/아랍어/아랍어_등위접속사)
 
 **Languages — English**
 - [영어 전치사](https://brain.dongwook.kim/notes/영어/영어_전치사)
