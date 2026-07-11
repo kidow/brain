@@ -100,6 +100,7 @@ brain/
 - [스페인어 기초 어휘](https://brain.dongwook.kim/notes/스페인어_기초_어휘)
 - [스페인어 동사 현재형](https://brain.dongwook.kim/notes/스페인어_동사_현재형)
 - [스페인어 부정문 의문문](https://brain.dongwook.kim/notes/스페인어_부정문_의문문)
+- [스페인어 목적어 대명사](https://brain.dongwook.kim/notes/스페인어_목적어_대명사)
 
 **언어 — 독일어**
 - [독일어 문자](https://brain.dongwook.kim/notes/독일어_문자)
