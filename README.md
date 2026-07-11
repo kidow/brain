@@ -108,6 +108,7 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [러시아어 시간 표현](https://brain.dongwook.kim/notes/러시아어/러시아어_시간_표현)
 - [러시아어 서수사](https://brain.dongwook.kim/notes/러시아어/러시아어_서수사)
 - [러시아어 명사 격변화 심화](https://brain.dongwook.kim/notes/러시아어/러시아어_명사_격변화_심화)
+- [러시아어 감정·상태 형용사](https://brain.dongwook.kim/notes/러시아어/러시아어_감정_상태_형용사)
 
 **Languages — Spanish**
 - [스페인어 문자](https://brain.dongwook.kim/notes/스페인어/스페인어_문자)
