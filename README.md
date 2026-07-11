@@ -114,6 +114,7 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [러시아어 숫자](https://brain.dongwook.kim/notes/러시아어/러시아어_숫자)
 - [러시아어 재귀동사](https://brain.dongwook.kim/notes/러시아어/러시아어_재귀동사)
 - [러시아어 접속사 종속절](https://brain.dongwook.kim/notes/러시아어/러시아어_접속사_종속절)
+- [러시아어 동사 지배](https://brain.dongwook.kim/notes/러시아어/러시아어_동사_지배)
 
 **Languages — Spanish**
 - [스페인어 문자](https://brain.dongwook.kim/notes/스페인어/스페인어_문자)
