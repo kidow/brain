@@ -101,6 +101,7 @@ brain/
 - [프랑스어 회화](https://brain.dongwook.kim/notes/프랑스어_회화)
 - [프랑스어 faire 동사](https://brain.dongwook.kim/notes/프랑스어_faire_동사)
 - [프랑스어 근접과거](https://brain.dongwook.kim/notes/프랑스어_근접과거)
+- [프랑스어 직접목적어 대명사](https://brain.dongwook.kim/notes/프랑스어_직접목적어_대명사)
 
 **언어 — 아랍어**
 - [아랍어 문자](https://brain.dongwook.kim/notes/아랍어_문자)
