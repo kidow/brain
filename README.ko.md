@@ -112,6 +112,7 @@ brain/
 - [러시아어 날씨 표현](https://brain.dongwook.kim/notes/러시아어/러시아어_날씨_표현)
 - [러시아어 회화](https://brain.dongwook.kim/notes/러시아어/러시아어_회화)
 - [러시아어 숫자](https://brain.dongwook.kim/notes/러시아어/러시아어_숫자)
+- [러시아어 재귀동사](https://brain.dongwook.kim/notes/러시아어/러시아어_재귀동사)
 
 **언어 — 스페인어**
 - [스페인어 문자](https://brain.dongwook.kim/notes/스페인어/스페인어_문자)
