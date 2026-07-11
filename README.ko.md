@@ -77,6 +77,7 @@ brain/
 - [중국어 연동문](https://brain.dongwook.kim/notes/중국어_연동문)
 - [중국어 의문사 의문문](https://brain.dongwook.kim/notes/중국어_의문사_의문문)
 - [중국어 연결어](https://brain.dongwook.kim/notes/중국어_연결어)
+- [중국어 정반의문문 심화](https://brain.dongwook.kim/notes/중국어_정반의문문_심화)
 
 **언어 — 러시아어**
 - [러시아어 문자의 특징](https://brain.dongwook.kim/notes/러시아어_문자의_특징)
@@ -142,7 +143,6 @@ brain/
 - [영어 도치](https://brain.dongwook.kim/notes/영어/영어_도치)
 - [영어 강조 구문](https://brain.dongwook.kim/notes/영어/영어_강조_구문)
 - [영어 관계사 심화](https://brain.dongwook.kim/notes/영어/영어_관계사_심화)
-- [영어 부사절 심화](https://brain.dongwook.kim/notes/영어/영어_부사절_심화)
 - [영어 동사구 심화](https://brain.dongwook.kim/notes/영어/영어_동사구_심화)
 - [영어 문장 구조 심화](https://brain.dongwook.kim/notes/영어/영어_문장_구조_심화)
 - [영어 동명사](https://brain.dongwook.kim/notes/영어/영어_동명사)
@@ -258,7 +258,6 @@ brain/
 - [영어 동사구 심화 치트시트](https://brain.dongwook.kim/sheets/영어/영어_동사구_심화_치트시트.html)
 - [영어 명사절 치트시트](https://brain.dongwook.kim/sheets/영어/영어_명사절_치트시트.html)
 - [영어 문장 구조 심화 치트시트](https://brain.dongwook.kim/sheets/영어/영어_문장_구조_심화_치트시트.html)
-- [영어 부사절 심화 치트시트](https://brain.dongwook.kim/sheets/영어/영어_부사절_심화_치트시트.html)
 - [영어 분사 치트시트](https://brain.dongwook.kim/sheets/영어/영어_분사_치트시트.html)
 - [영어 회화 치트시트](https://brain.dongwook.kim/sheets/영어/영어_회화_치트시트.html)
 - [영어 화법 치트시트](https://brain.dongwook.kim/sheets/영어/영어_화법_치트시트.html)
