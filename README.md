@@ -92,6 +92,7 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [독일어 명사](https://brain.dongwook.kim/notes/독일어_명사)
 - [독일어 동사](https://brain.dongwook.kim/notes/독일어_동사)
 - [독일어 형용사](https://brain.dongwook.kim/notes/독일어_형용사)
+- [독일어 기초 어휘](https://brain.dongwook.kim/notes/독일어_기초_어휘)
 
 **Languages — French**
 - [프랑스어 문자](https://brain.dongwook.kim/notes/프랑스어_문자)
