@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#ffffff">
+  <title>아랍어 기초 어휘 치트시트</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #0f172a;
+      color: #e2e8f0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 14px;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+    }
+    h1 { font-size: 1.5rem; color: #60a5fa; margin-bottom: 0.25rem; }
+    .subtitle { color: #94a3b8; margin-bottom: 1.5rem; font-size: 0.85rem; }
+    h2 { font-size: 1rem; color: #60a5fa; margin: 1.5rem 0 0.75rem; border-left: 3px solid #60a5fa; padding-left: 0.6rem; }
+    .note { background: #1e293b; border: 1px solid #334155; border-radius: 6px; padding: 0.6rem 0.8rem; margin-bottom: 0.75rem; font-size: 0.85rem; color: #94a3b8; }
+    .note strong { color: #e2e8f0; }
+    table { width: 100%; border-collapse: collapse; margin-bottom: 1rem; font-size: 0.85rem; }
+    th { background: #1e293b; color: #94a3b8; font-weight: 600; text-align: left; padding: 0.5rem 0.6rem; border-bottom: 1px solid #334155; }
+    td { padding: 0.45rem 0.6rem; border-bottom: 1px solid #1e293b; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    .ar { font-size: 1.15rem; direction: rtl; color: #60a5fa; font-family: 'Amiri', 'Traditional Arabic', serif; }
+    .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-bottom: 0.75rem; }
+    .grid3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0.6rem; margin-bottom: 0.75rem; }
+    .card { background: #1e293b; border: 1px solid #334155; border-radius: 6px; padding: 0.75rem; }
+    .card-title { font-size: 0.75rem; color: #94a3b8; margin-bottom: 0.4rem; text-transform: uppercase; letter-spacing: 0.05em; }
+    .card-value { font-size: 0.95rem; color: #e2e8f0; }
+    .section { margin-bottom: 1.5rem; }
+    .toc { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 1.5rem; }
+    .toc a { font-size: 0.75rem; color: #94a3b8; background: #1e293b; border: 1px solid #334155; border-radius: 999px; padding: 0.25rem 0.7rem; text-decoration: none; }
+    .toc a:hover { color: #60a5fa; border-color: #60a5fa; }
+    @media (max-width: 600px) {
+      body { padding: 1rem 1rem; }
+      .grid2, .grid3 { grid-template-columns: 1fr; }
+    }
+    @media print { body { padding: 0.5cm; } }
+  </style>
+</head>
+<body>
+  <h1>아랍어 기초 어휘 치트시트</h1>
+  <p class="subtitle">인사·숫자·일상 어휘·회화 관용구 빠른 참조 (MSA 기준)</p>
+
+  <div class="toc">
+    <a href="#greet">인사·대답</a>
+    <a href="#numbers">숫자</a>
+    <a href="#question">의문사</a>
+    <a href="#daily">일상 어휘</a>
+    <a href="#phrases">회화 관용구</a>
+    <a href="#patterns">패턴 요약</a>
+  </div>
+
+  <div class="section" id="greet">
+    <h2>인사·대답</h2>
+    <table>
+      <tr><th>아랍어</th><th>발음</th><th>의미</th></tr>
+      <tr><td><span class="ar">السلام عليكم</span></td><td>as-salāmu 'alaykum</td><td>안녕하세요(종교적, 응답: وعليكم السلام)</td></tr>
+      <tr><td><span class="ar">مرحباً</span></td><td>marḥaban</td><td>안녕(세속적, 캐주얼)</td></tr>
+      <tr><td><span class="ar">نعم / لا</span></td><td>na'am / lā</td><td>네 / 아니오</td></tr>
+      <tr><td><span class="ar">شكراً / عفواً</span></td><td>shukran / 'afwan</td><td>감사합니다 / 천만에요</td></tr>
+      <tr><td><span class="ar">آسف / آسفة</span></td><td>āsif(남) / āsifa(여)</td><td>미안합니다</td></tr>
+      <tr><td><span class="ar">مع السلامة</span></td><td>ma' as-salāma</td><td>안녕히 가세요</td></tr>
+      <tr><td><span class="ar">إلى اللقاء</span></td><td>ilā al-liqā'</td><td>또 만나요</td></tr>
+    </table>
+  </div>
+
+  <div class="section" id="numbers">
+    <h2>숫자</h2>
+    <table>
+      <tr><th>값</th><th>아랍어</th><th>발음</th></tr>
+      <tr><td>1</td><td><span class="ar">واحد</span></td><td>wāḥid</td></tr>
+      <tr><td>2</td><td><span class="ar">اثنان</span></td><td>ithnān</td></tr>
+      <tr><td>3</td><td><span class="ar">ثلاثة</span></td><td>thalātha</td></tr>
+      <tr><td>4</td><td><span class="ar">أربعة</span></td><td>arba'a</td></tr>
+      <tr><td>5</td><td><span class="ar">خمسة</span></td><td>khamsa</td></tr>
+      <tr><td>10</td><td><span class="ar">عشرة</span></td><td>'ashara</td></tr>
+      <tr><td>11</td><td><span class="ar">أحد عشر</span></td><td>aḥada 'ashar</td></tr>
+      <tr><td>20</td><td><span class="ar">عشرون</span></td><td>'ishrūn</td></tr>
+      <tr><td>100</td><td><span class="ar">مئة</span></td><td>mi'a</td></tr>
+    </table>
+    <div class="note">3~10은 <strong>ة</strong>로 끝남(역성 규칙, 남성 명사용) · 1·2는 예외 · 20~90은 <strong>-ūn</strong> 어미(건전 복수와 동형) · 21+는 <span class="ar">وَ</span>로 연결(<span class="ar">واحد وعشرون</span>)</div>
+  </div>
+
+  <div class="section" id="question">
+    <h2>의문사</h2>
+    <table>
+      <tr><th>아랍어</th><th>발음</th><th>의미</th></tr>
+      <tr><td><span class="ar">ما / ماذا</span></td><td>mā / mādhā</td><td>무엇 (ما=명사문, ماذا=동사문)</td></tr>
+      <tr><td><span class="ar">من</span></td><td>man</td><td>누구</td></tr>
+      <tr><td><span class="ar">أين</span></td><td>ayna</td><td>어디</td></tr>
+      <tr><td><span class="ar">متى</span></td><td>matā</td><td>언제</td></tr>
+      <tr><td><span class="ar">كيف</span></td><td>kayfa</td><td>어떻게 (كيف حالك؟=어떻게 지내요?)</td></tr>
+      <tr><td><span class="ar">لماذا</span></td><td>limādhā</td><td>왜</td></tr>
+      <tr><td><span class="ar">كم</span></td><td>kam</td><td>얼마/몇 (뒤 명사 단수 목적격)</td></tr>
+    </table>
+  </div>
+
+  <div class="section" id="daily">
+    <h2>일상 어휘</h2>
+    <div class="grid2">
+      <div class="card">
+        <div class="card-title">가족</div>
+        <div class="card-value"><span class="ar">أب</span> 아버지 · <span class="ar">أم</span> 어머니<br><span class="ar">أخ / أخت</span> 형제 / 자매<br><span class="ar">ابن / بنت</span> 아들 / 딸</div>
+      </div>
+      <div class="card">
+        <div class="card-title">색깔 (남성/여성)</div>
+        <div class="card-value"><span class="ar">أحمر / حمراء</span> 빨강<br><span class="ar">أزرق / زرقاء</span> 파랑<br><span class="ar">أسود / سوداء</span> 검정</div>
+      </div>
+      <div class="card">
+        <div class="card-title">요일</div>
+        <div class="card-value"><span class="ar">الأحد</span> 일 · <span class="ar">الإثنين</span> 월 · <span class="ar">الثلاثاء</span> 화<br><span class="ar">الجمعة</span> 금(예배일) · <span class="ar">السبت</span> 토(안식일)</div>
+      </div>
+      <div class="card">
+        <div class="card-title">시간</div>
+        <div class="card-value"><span class="ar">الآن</span> 지금 · <span class="ar">اليوم</span> 오늘<br><span class="ar">غداً</span> 내일 · <span class="ar">أمس</span> 어제</div>
+      </div>
+      <div class="card">
+        <div class="card-title">음식·음료</div>
+        <div class="card-value"><span class="ar">خبز</span> 빵 · <span class="ar">ماء</span> 물<br><span class="ar">قهوة</span> 커피 · <span class="ar">شاي</span> 차</div>
+      </div>
+      <div class="card">
+        <div class="card-title">장소</div>
+        <div class="card-value"><span class="ar">بيت</span> 집 · <span class="ar">مدرسة</span> 학교<br><span class="ar">مكتب</span> 사무실 · <span class="ar">مطعم</span> 식당</div>
+      </div>
+      <div class="card">
+        <div class="card-title">교통</div>
+        <div class="card-value"><span class="ar">سيارة</span> 자동차 · <span class="ar">قطار</span> 기차<br><span class="ar">طائرة</span> 비행기 · <span class="ar">مطار</span> 공항</div>
+      </div>
+      <div class="card">
+        <div class="card-title">직업 (남성/여성)</div>
+        <div class="card-value"><span class="ar">طبيب / طبيبة</span> 의사<br><span class="ar">معلم / معلمة</span> 교사<br><span class="ar">مهندس / مهندسة</span> 엔지니어</div>
+      </div>
+      <div class="card">
+        <div class="card-title">신체 (쌍수)</div>
+        <div class="card-value"><span class="ar">عين → عينان</span> 눈 → 두 눈<br><span class="ar">يد → يدان</span> 손 → 두 손<br><span class="ar">رأس / قلب</span> 머리/심장(쌍수 없음)</div>
+      </div>
+      <div class="card">
+        <div class="card-title">동물</div>
+        <div class="card-value"><span class="ar">قطة</span> 고양이 · <span class="ar">كلب</span> 개<br><span class="ar">جمل</span> 낙타 · <span class="ar">أسد</span> 사자</div>
+      </div>
+      <div class="card">
+        <div class="card-title">감정·상태</div>
+        <div class="card-value"><span class="ar">بخير</span> 좋음 · <span class="ar">تعبان</span> 피곤<br><span class="ar">سعيد</span> 행복 · <span class="ar">جائع</span> 배고픔</div>
+      </div>
+      <div class="card">
+        <div class="card-title">날씨</div>
+        <div class="card-value"><span class="ar">الطقس</span> 날씨 · <span class="ar">حار</span> 더움<br><span class="ar">بارد</span> 추움 · <span class="ar">ممطر</span> 비 옴</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="phrases">
+    <h2>회화 관용구</h2>
+    <table>
+      <tr><th>아랍어</th><th>발음</th><th>의미</th></tr>
+      <tr><td><span class="ar">من فضلك</span></td><td>min faḍlik</td><td>부탁드립니다(정중)</td></tr>
+      <tr><td><span class="ar">ممكن...؟</span></td><td>mumkin...?</td><td>~해도 될까요?(캐주얼)</td></tr>
+      <tr><td><span class="ar">أريد</span></td><td>urīdu</td><td>저는 원해요</td></tr>
+      <tr><td><span class="ar">بكم هذا؟</span></td><td>bikam hādhā?</td><td>이거 얼마예요?</td></tr>
+      <tr><td><span class="ar">غالٍ / رخيص</span></td><td>ghālin / rakhīṣ</td><td>비싸요 / 싸요</td></tr>
+      <tr><td><span class="ar">يمين / يسار</span></td><td>yamīn / yasār</td><td>오른쪽 / 왼쪽</td></tr>
+      <tr><td><span class="ar">فوق / تحت</span></td><td>fawq / taḥt</td><td>위 / 아래</td></tr>
+      <tr><td><span class="ar">كم الساعة؟</span></td><td>kam as-sā'a?</td><td>몇 시예요?</td></tr>
+    </table>
+  </div>
+
+  <div class="section" id="patterns">
+    <h2>패턴 요약 — 단어 예측에 쓰는 4가지 틀</h2>
+    <div class="grid2">
+      <div class="card">
+        <div class="card-title"><span class="ar">مَفْعَل</span> 장소/도구 틀</div>
+        <div class="card-value">م- 로 시작 = 장소일 가능성<br><span class="ar">درس</span>→<span class="ar">مدرسة</span>(학교), <span class="ar">كتب</span>→<span class="ar">مكتب</span>(사무실)</div>
+      </div>
+      <div class="card">
+        <div class="card-title"><span class="ar">أَفْعَل / فَعْلاء</span> 색깔 틀</div>
+        <div class="card-value">색깔·신체 결함 전용, 일반 형용사(ة)와 다른 계보</div>
+      </div>
+      <div class="card">
+        <div class="card-title">역성(polarity) 규칙</div>
+        <div class="card-value">숫자 3~10은 명사 성과 <strong>반대</strong> 성으로(남성 명사→숫자 ة 붙음)</div>
+      </div>
+      <div class="card">
+        <div class="card-title">쌍수(مثنى)</div>
+        <div class="card-value">신체 쌍(눈·손·귀·다리)에 자연스럽게 사용, 어미 -āni</div>
+      </div>
+    </div>
+    <div class="note">한정성 일치: 아랍어는 <strong>SI/일반 형용사</strong>가 명사 성·수·한정성(ال 유무)까지 전부 일치시킴 — 색깔·직업 명사도 동일 규칙.</div>
+  </div>
+</body>
+</html>

@@ -240,6 +240,8 @@ brain/
 
 **아랍어**
 - [아랍어 문자 치트시트](https://brain.dongwook.kim/sheets/아랍어/아랍어_문자_치트시트.html)
+- [아랍어 기초 어휘 치트시트](https://brain.dongwook.kim/sheets/아랍어/아랍어_기초_어휘_치트시트.html)
+- [아랍어 동사 활용 치트시트](https://brain.dongwook.kim/sheets/아랍어/아랍어_동사_활용_치트시트.html)
 
 **일본어**
 - [히라가나 치트시트](https://brain.dongwook.kim/sheets/일본어/히라가나_치트시트.html)

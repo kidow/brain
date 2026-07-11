@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#ffffff">
+  <title>아랍어 동사 활용 치트시트</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #0f172a;
+      color: #e2e8f0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 14px;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+    }
+    h1 { font-size: 1.5rem; color: #60a5fa; margin-bottom: 0.25rem; }
+    .subtitle { color: #94a3b8; margin-bottom: 1.5rem; font-size: 0.85rem; }
+    h2 { font-size: 1rem; color: #60a5fa; margin: 1.5rem 0 0.75rem; border-left: 3px solid #60a5fa; padding-left: 0.6rem; }
+    .note { background: #1e293b; border: 1px solid #334155; border-radius: 6px; padding: 0.6rem 0.8rem; margin-bottom: 0.75rem; font-size: 0.85rem; color: #94a3b8; }
+    .note strong { color: #e2e8f0; }
+    table { width: 100%; border-collapse: collapse; margin-bottom: 1rem; font-size: 0.85rem; }
+    th { background: #1e293b; color: #94a3b8; font-weight: 600; text-align: left; padding: 0.5rem 0.6rem; border-bottom: 1px solid #334155; }
+    td { padding: 0.45rem 0.6rem; border-bottom: 1px solid #1e293b; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    .ar { font-size: 1.2rem; direction: rtl; color: #60a5fa; font-family: 'Amiri', 'Traditional Arabic', serif; }
+    .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-bottom: 0.75rem; }
+    .card { background: #1e293b; border: 1px solid #334155; border-radius: 6px; padding: 0.75rem; }
+    .card-title { font-size: 0.75rem; color: #94a3b8; margin-bottom: 0.4rem; text-transform: uppercase; letter-spacing: 0.05em; }
+    .card-value { font-size: 1rem; color: #e2e8f0; }
+    .formula { background: #1e293b; border: 1px solid #334155; border-radius: 6px; padding: 0.6rem 0.8rem; font-family: monospace; font-size: 0.85rem; color: #60a5fa; margin-bottom: 0.75rem; }
+    .section { margin-bottom: 1.5rem; }
+    .tag { display: inline-block; background: #1e293b; border: 1px solid #334155; border-radius: 4px; padding: 0.1rem 0.4rem; font-size: 0.75rem; color: #94a3b8; margin: 0.1rem; }
+    .tag.green { border-color: #22c55e; color: #4ade80; }
+    .tag.amber { border-color: #f59e0b; color: #fbbf24; }
+    @media (max-width: 600px) {
+      body { padding: 1rem 1rem; }
+      .grid2 { grid-template-columns: 1fr; }
+    }
+    @media print { body { padding: 0.5cm; } }
+  </style>
+</head>
+<body>
+  <h1>아랍어 동사 활용 치트시트</h1>
+  <p class="subtitle">현재-미래형 인칭·무드·명령형·약동사·분사·파생형 1~10 (كتب 어근 기준)</p>
+
+  <div class="section">
+    <h2>현재-미래형(مضارع) 전체 인칭표</h2>
+    <table>
+      <tr><th>주어</th><th>형태</th><th>발음</th></tr>
+      <tr><td>나</td><td><span class="ar">أَكْتُبُ</span></td><td>aktubu</td></tr>
+      <tr><td>우리</td><td><span class="ar">نَكْتُبُ</span></td><td>naktubu</td></tr>
+      <tr><td>너(남)</td><td><span class="ar">تَكْتُبُ</span></td><td>taktubu</td></tr>
+      <tr><td>너(여)</td><td><span class="ar">تَكْتُبِينَ</span></td><td>taktubīna</td></tr>
+      <tr><td>그</td><td><span class="ar">يَكْتُبُ</span></td><td>yaktubu</td></tr>
+      <tr><td>그녀</td><td><span class="ar">تَكْتُبُ</span></td><td>taktubu</td></tr>
+      <tr><td>그들(남)</td><td><span class="ar">يَكْتُبُونَ</span></td><td>yaktubūna</td></tr>
+      <tr><td>그들(여)</td><td><span class="ar">يَكْتُبْنَ</span></td><td>yaktubna</td></tr>
+    </table>
+    <div class="note">접두사가 인칭 결정: <strong>أ</strong>(나)·<strong>ن</strong>(우리)·<strong>ت</strong>(너/그녀)·<strong>ي</strong>(그/그들). "너(남)"=" 그녀" 형태 동일 — 문맥 구분.</div>
+  </div>
+
+  <div class="section">
+    <h2>세 무드: 직설법·접속법·단축법</h2>
+    <table>
+      <tr><th>무드</th><th>어미</th><th>트리거</th></tr>
+      <tr><td>직설법(مرفوع)</td><td>-u</td><td>평서문 기본</td></tr>
+      <tr><td>접속법(منصوب)</td><td>-a</td><td>أَنْ · لَنْ 등</td></tr>
+      <tr><td>단축법(مجزوم)</td><td>없음(수쿤)</td><td>لَمْ · 금지 لا 등</td></tr>
+    </table>
+    <div class="note">예: <span class="ar">أَنْ أَكْتُبَ</span>(접속법) · <span class="ar">لَمْ أَكْتُبْ</span>(단축법, 어미 소실)</div>
+  </div>
+
+  <div class="section">
+    <h2>명령형 전체 인칭표</h2>
+    <table>
+      <tr><th>대상</th><th>단축법(재료)</th><th>명령형</th></tr>
+      <tr><td>너(남)</td><td><span class="ar">تَكْتُبْ</span></td><td><span class="ar">اُكْتُبْ</span></td></tr>
+      <tr><td>너(여)</td><td><span class="ar">تَكْتُبِي</span></td><td><span class="ar">اُكْتُبِي</span></td></tr>
+      <tr><td>너희(남)</td><td><span class="ar">تَكْتُبُوا</span></td><td><span class="ar">اُكْتُبُوا</span></td></tr>
+      <tr><td>너희(여)</td><td><span class="ar">تَكْتُبْنَ</span></td><td><span class="ar">اُكْتُبْنَ</span></td></tr>
+    </table>
+    <div class="formula">명령형 = 단축법에서 تَ 제거 + 자음군 방지용 함자(اُ) 부착</div>
+  </div>
+
+  <div class="section">
+    <h2>약동사(الفعل المعتل) 3종</h2>
+    <table>
+      <tr><th>종류</th><th>약자음 위치</th><th>예</th><th>현재형 변화</th></tr>
+      <tr><td>مثال</td><td>1번째</td><td><span class="ar">وجد</span> 찾다</td><td><span class="ar">يَجِدُ</span> (و 탈락)</td></tr>
+      <tr><td>أجوف</td><td>2번째</td><td><span class="ar">قال</span> 말하다</td><td>-</td></tr>
+      <tr><td>ناقص</td><td>3번째</td><td><span class="ar">رأى</span> 보다</td><td><span class="ar">يَرَى</span> (يَ 축약)</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>능동분사·수동분사</h2>
+    <div class="grid2">
+      <div class="card">
+        <div class="card-title">능동분사 فَاعِل — ~하는 사람/것</div>
+        <div class="card-value"><span class="ar">كَاتِب</span> 작가 · <span class="ar">عَامِل</span> 노동자</div>
+      </div>
+      <div class="card">
+        <div class="card-title">수동분사 مَفْعُول — ~된 것</div>
+        <div class="card-value"><span class="ar">مَكْتُوب</span> 편지 · <span class="ar">مَفْتُوح</span> 열린</div>
+      </div>
+    </div>
+    <div class="note">형용사처럼 성·수 일치, 시제 없음(현재 상태만 표현)</div>
+  </div>
+
+  <div class="section">
+    <h2>파생형 동사 1~10형 (9형 제외)</h2>
+    <table>
+      <tr><th>형</th><th>틀</th><th>대표 예</th><th>핵심 의미</th></tr>
+      <tr><td>1</td><td><span class="ar">فَعَلَ</span></td><td><span class="ar">كَتَبَ</span></td><td>순수 동작</td></tr>
+      <tr><td>2</td><td><span class="ar">فَعَّلَ</span></td><td><span class="ar">عَلَّمَ</span></td><td>사역(체계적)</td></tr>
+      <tr><td>3</td><td><span class="ar">فَاعَلَ</span></td><td><span class="ar">سَافَرَ</span></td><td>상호(시작)</td></tr>
+      <tr><td>4</td><td><span class="ar">أَفْعَلَ</span></td><td><span class="ar">أَخْرَجَ</span></td><td>사역(순수, 함자)</td></tr>
+      <tr><td>5</td><td><span class="ar">تَفَعَّلَ</span></td><td><span class="ar">تَعَلَّمَ</span></td><td>2형 재귀</td></tr>
+      <tr><td>6</td><td><span class="ar">تَفَاعَلَ</span></td><td><span class="ar">تَعَاوَنَ</span></td><td>3형 재귀·상호</td></tr>
+      <tr><td>7</td><td><span class="ar">اِنْفَعَلَ</span></td><td><span class="ar">اِنْفَتَحَ</span></td><td>무의도 수동</td></tr>
+      <tr><td>8</td><td><span class="ar">اِفْتَعَلَ</span></td><td><span class="ar">اِجْتَمَعَ</span></td><td>자발적 재귀</td></tr>
+      <tr><td>10</td><td><span class="ar">اِسْتَفْعَلَ</span></td><td><span class="ar">اِسْتَعْمَلَ</span></td><td>요청·간주</td></tr>
+    </table>
+    <div class="note">
+      <strong>패턴 논리</strong> — 2·3·4형: 밖으로 작용(사역·상호) &nbsp;|&nbsp; 5·6·7·8형: 안으로/저절로 돌아옴(재귀·수동) &nbsp;|&nbsp; 10형: 별개(요청)<br>
+      <span class="tag amber">짝 규칙</span> 2↔5, 3↔6 (홀수형+تَ 접두 = 다음 짝수형)<br>
+      <span class="tag green">9형</span> <span class="ar">اِفْعَلَّ</span> 색깔·신체 결함 전용, 실전 저빈도라 제외
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>같은 어근, 다른 형 — 뉘앙스 비교</h2>
+    <table>
+      <tr><th>어근</th><th>2형</th><th>4형/기타</th><th>차이</th></tr>
+      <tr><td>علم (알다)</td><td><span class="ar">عَلَّمَ</span> 가르쳤다</td><td><span class="ar">أَعْلَمَ</span> 알렸다</td><td>체계적 교육 vs 정보 전달</td></tr>
+      <tr><td>كتب / كلم</td><td><span class="ar">كَاتَبَ</span>(3형) 편지 교환</td><td><span class="ar">تَكَاتَبَ</span>(6형) 계속 교환</td><td>시작 vs 지속·완성</td></tr>
+      <tr><td>شغل (일)</td><td>-</td><td><span class="ar">اِشْتَغَلَ</span>(8형) 일했다</td><td>방언 بيشتغل의 정체</td></tr>
+    </table>
+  </div>
+</body>
+</html>
