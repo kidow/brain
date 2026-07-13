@@ -108,6 +108,7 @@ brain/
 - [중국어 의문사 의문문](https://brain.dongwook.kim/notes/중국어/중국어_의문사_의문문)
 - [중국어 연결어](https://brain.dongwook.kim/notes/중국어/중국어_연결어)
 - [중국어 정반의문문](https://brain.dongwook.kim/notes/중국어/중국어_정반의문문)
+- [중국어 특징](https://brain.dongwook.kim/notes/중국어/중국어_특징)
 - [중국어 的地得 구별](https://brain.dongwook.kim/notes/중국어/중국어_的地得_구별)
 - [중국어 시량보어](https://brain.dongwook.kim/notes/중국어/중국어_시량보어)
 - [중국어 연쇄·병렬 표현](https://brain.dongwook.kim/notes/중국어/중국어_연쇄_병렬_표현)
