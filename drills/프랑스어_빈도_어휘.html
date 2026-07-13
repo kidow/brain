@@ -92,6 +92,7 @@
   }
   .gender-tag.m { background: #1d4ed8; color: #bfdbfe; }
   .gender-tag.f { background: #9d174d; color: #fce7f3; }
+  .reading { font-size: 1.1rem; color: #60a5fa; min-height: 1.4em; }
   .meaning { font-size: 1.1rem; color: #e2e8f0; min-height: 1.4em; }
   .hint { color: #94a3b8; font-size: 0.8rem; margin-top: 0.5rem; }
   .play-btn {
@@ -201,6 +202,104 @@ let queue = [];
 let current = null;
 let revealed = false;
 
+// 프랑스어 발음 근사 표기(영어 알파벳 기반, 정확한 IPA 아님 — 학습 보조용)
+// 규칙만으로 못 잡는 고빈도 불규칙 단어(대부분 초단음 기능어)는 예외표로 처리
+const FR_EXCEPTIONS = {
+  "est":"eh","es":"eh","et":"eh","ai":"eh","aie":"eh","que":"kuh","qui":"kee",
+  "les":"leh","des":"deh","ces":"seh","mes":"meh","ses":"seh","tes":"teh",
+  "sont":"sohn","ils":"eel","elle":"ell","elles":"ell","plus":"plü","tous":"too","tout":"too",
+  "fils":"fees","monsieur":"muh-syuh","messieurs":"meh-syuh",
+  "femme":"fahm","femmes":"fahm","aussi":"oh-see","hier":"yair",
+  "eu":"ü","eux":"uh","œufs":"uh","œuf":"uhf",
+  "six":"sees","dix":"dees","huit":"weet","vingt":"van",
+  "oui":"wee","cette":"set","une":"ün","bonne":"bun","jeune":"zhun",
+  "eh":"eh","cinq":"sank",
+};
+
+function frenchPhonetic(word) {
+  if (!word) return "";
+  const lower = word.toLowerCase();
+  if (FR_EXCEPTIONS[lower]) return FR_EXCEPTIONS[lower];
+
+  let s = lower;
+
+  // 1. ch/ph/th (h를 소비하는 자음군) 먼저 처리 — 이후 무음 h 제거와 충돌 방지
+  s = s.replace(/ch/g, "sh");
+  s = s.replace(/ph/g, "f");
+  s = s.replace(/th/g, "t");
+
+  // 2. 남은 무음 h 제거
+  s = s.replace(/h/g, "");
+
+  // 3. c/g 연음화(뒤에 e/i/y 올 때) — 어말 e 축소보다 먼저 처리해야 문맥이 살아있음
+  s = s.replace(/c(?=[eiy])/g, "s");
+  s = s.replace(/g(?=[eiy])/g, "zh");
+  s = s.replace(/j/g, "zh");
+  s = s.replace(/ç/g, "s");
+
+  // 4. 동사 원형 등 어미 -er/-ez → "ay" — 어말 자음/e 축소 규칙보다 먼저 처리
+  const isVerbEnding = /(er|ez)$/.test(s);
+  s = s.replace(/(er|ez)$/g, "ay");
+
+  // 5. 어말 묵음 자음(c,f,l,r,q 제외) 제거
+  s = s.replace(/[bdgpstxz]$/g, "");
+
+  // 어말 e(악센트 없는) 여부·슈와 필요 여부를 미리 "확인만" 해둔다(문자열은 아직 안 건드림).
+  // e를 여기서 실제로 떼어버리면, 예를 들어 "aime"의 m 뒤에 있던 e가 사라져서
+  // 비음화 판정 시 "다음 글자가 모음이라 비음화 안 됨"이라는 정보를 잃어버리는 버그가 생긴다.
+  // 그래서 어말 e는 아래 비음/모음 치환이 모두 끝난 뒤, 문자 그대로 남아있는 채로 마지막에 처리한다.
+  let endsInPlainE = false;
+  let trailingSchwaCandidate = false;
+  if (!isVerbEnding && /e$/.test(s)) {
+    endsInPlainE = true;
+    const stem = s.slice(0, -1);
+    trailingSchwaCandidate = !/[aeiouyàâéèêëîïôùûü]/.test(stem);
+  }
+
+  // 6. 비모음(nasal vowel) — 자음/어말 앞의 모음+n/m. 단, 같은 비음이 겹치면(mm/nn) 비음화 안 됨
+  const NOT_VOWEL = "[^aeiouyàâéèêëîïôùûümn]";
+  s = s.replace(new RegExp(`(ain|ein|aim)(?=${NOT_VOWEL}|$)`, "g"), "an");
+  s = s.replace(new RegExp(`(oin)(?=${NOT_VOWEL}|$)`, "g"), "wan");
+  s = s.replace(new RegExp(`(ien)(?=${NOT_VOWEL}|$)`, "g"), "yan");
+  s = s.replace(new RegExp(`(an|am|en|em)(?=${NOT_VOWEL}|$)`, "g"), "ahn");
+  s = s.replace(new RegExp(`(in|im|yn|ym)(?=${NOT_VOWEL}|$)`, "g"), "an");
+  s = s.replace(new RegExp(`(on|om)(?=${NOT_VOWEL}|$)`, "g"), "ohn");
+  s = s.replace(new RegExp(`(un|um)(?=${NOT_VOWEL}|$)`, "g"), "uhn");
+
+  // 7. 모음 조합("uh"류 합성 표기는 U+E000 자리표시자로 넣어 뒤의 홀로-u 치환과 충돌 방지)
+  const SCHWA = "";
+  s = s.replace(/eau/g, "oh");
+  s = s.replace(/au/g, "oh");
+  s = s.replace(/ou/g, "oo");
+  s = s.replace(/oi/g, "wa");
+  s = s.replace(/eu/g, SCHWA);
+  s = s.replace(/ai|ei/g, "eh");
+  s = s.replace(/[éè ê]/g, "eh");
+  s = s.replace(/à|â/g, "ah");
+  s = s.replace(/ô/g, "oh");
+  s = s.replace(/î|ï/g, "ee");
+  s = s.replace(/ù|û/g, "ü");
+
+  // 8. 나머지 자음 규칙
+  s = s.replace(/ill/g, "ee-y");
+  s = s.replace(/gn/g, "ny");
+  s = s.replace(/qu/g, "k");
+
+  // 9. 홀로 남은 u(프랑스어 ü 발음)·i(항상 "ee") — 자리표시자(SCHWA)는 일반 문자가 아니라 영향 없음
+  s = s.replace(/u/g, "ü");
+  s = s.replace(/i/g, "ee");
+
+  // 10. 어말 e 최종 반영 — 여태 문자 그대로 남아있던 마지막 e를 이제 떼어내고,
+  // 슈와가 필요하면 자리표시자를 붙인 뒤 "uh"로 확정한다.
+  if (endsInPlainE) {
+    s = s.replace(/e$/, "");
+    if (trailingSchwaCandidate) s += SCHWA;
+  }
+  s = s.replace(new RegExp(SCHWA, "g"), "uh");
+
+  return s || lower;
+}
+
 function loadState() {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
@@ -284,6 +383,7 @@ function renderCard() {
   area.innerHTML = `
     <div class="card" id="cardEl">
       <div class="expr">${current.word}${genderTag}</div>
+      <div class="reading" id="readingEl"></div>
       <div class="meaning" id="meaningEl"></div>
       <button class="play-btn" id="playBtn" style="display:none" aria-label="발음 듣기">🔊</button>
       <div class="hint" id="hintEl">카드를 클릭해 답 보기</div>
@@ -313,6 +413,7 @@ function renderCard() {
 function reveal() {
   if (revealed) return;
   revealed = true;
+  document.getElementById("readingEl").textContent = frenchPhonetic(current.word);
   document.getElementById("meaningEl").textContent = current.meaning;
   document.getElementById("hintEl").textContent = "";
   document.getElementById("playBtn").style.display = "flex";
