@@ -191,6 +191,7 @@ brain/
 - [독일어 숫자와 시간](https://brain.dongwook.kim/notes/독일어/독일어_숫자와_시간)
 - [독일어 요일 시간대 표현](https://brain.dongwook.kim/notes/독일어/독일어_요일_시간대_표현)
 - [독일어 시제](https://brain.dongwook.kim/notes/독일어/독일어_시제)
+- [독일어 특징](https://brain.dongwook.kim/notes/독일어/독일어_특징)
 
 **언어 — 프랑스어**
 - [프랑스어 문자](https://brain.dongwook.kim/notes/프랑스어/프랑스어_문자)
