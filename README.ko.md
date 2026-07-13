@@ -205,7 +205,6 @@ brain/
 - [프랑스어 명령문](https://brain.dongwook.kim/notes/프랑스어/프랑스어_명령문)
 - [프랑스어 재귀동사](https://brain.dongwook.kim/notes/프랑스어/프랑스어_재귀동사)
 - [프랑스어 복합과거](https://brain.dongwook.kim/notes/프랑스어/프랑스어_복합과거)
-- [프랑스어 반과거](https://brain.dongwook.kim/notes/프랑스어/프랑스어_반과거)
 - [프랑스어 대과거](https://brain.dongwook.kim/notes/프랑스어/프랑스어_대과거)
 - [프랑스어 단순미래](https://brain.dongwook.kim/notes/프랑스어/프랑스어_단순미래)
 - [프랑스어 조건법](https://brain.dongwook.kim/notes/프랑스어/프랑스어_조건법)
