@@ -93,6 +93,7 @@ brain/
 - [일본어 수수 표현](https://brain.dongwook.kim/notes/일본어/일본어_수수_표현)
 - [일본어 숫자 체계](https://brain.dongwook.kim/notes/일본어/일본어_숫자_체계)
 - [일본어 존댓말](https://brain.dongwook.kim/notes/일본어/일본어_존댓말)
+- [일본어 특징](https://brain.dongwook.kim/notes/일본어/일본어_특징)
 
 **언어 — 중국어**
 - [중국어 문자](https://brain.dongwook.kim/notes/중국어/중국어_문자)
