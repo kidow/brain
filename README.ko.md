@@ -279,6 +279,7 @@ brain/
 - [영어 프레젠테이션](https://brain.dongwook.kim/notes/영어/영어_프레젠테이션)
 - [영어 이력서·자소서 작성](https://brain.dongwook.kim/notes/영어/영어_이력서·자소서_작성)
 - [영어 인터넷 밈·은어](https://brain.dongwook.kim/notes/영어/영어_인터넷_밈·은어)
+- [영어 특징](https://brain.dongwook.kim/notes/영어/영어_특징)
 
 **음악**
 - [음악 이론 기초](https://brain.dongwook.kim/notes/음악_이론_기초)
