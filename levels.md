@@ -286,10 +286,6 @@ Level: Blank — 완전 처음 시작.
 
 Level: Blank — 완전 처음 시작.
 
-## 프랑스어_재귀동사_복합과거
-
-Level: Blank — 완전 처음 시작.
-
 ## 프랑스어_접속법
 
 Level: Blank — 완전 처음 시작.
