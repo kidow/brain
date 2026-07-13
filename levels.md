@@ -270,10 +270,6 @@ Level: Blank — 완전 처음 시작.
 
 Level: Blank — 완전 처음 시작.
 
-## 프랑스어_명령문_목적어_대명사_위치
-
-Level: Blank — 완전 처음 시작.
-
 ## 프랑스어_반과거
 
 Level: Blank — 완전 처음 시작.
