@@ -58,10 +58,6 @@ Level: Blank — 완전 처음 시작.
 
 Level: Blank — 완전 처음 시작.
 
-## 독일어_시제
-
-Level: Blank — 완전 처음 시작.
-
 ## 독일어_요일_시간대_표현
 
 Level: Blank — 완전 처음 시작.
