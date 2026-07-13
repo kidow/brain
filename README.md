@@ -192,6 +192,7 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [독일어 요일 시간대 표현](https://brain.dongwook.kim/notes/독일어/독일어_요일_시간대_표현)
 - [독일어 시제](https://brain.dongwook.kim/notes/독일어/독일어_시제)
 - [독일어 특징](https://brain.dongwook.kim/notes/독일어/독일어_특징)
+- [독일어 조어법](https://brain.dongwook.kim/notes/독일어/독일어_조어법)
 
 **Languages — French**
 - [프랑스어 문자](https://brain.dongwook.kim/notes/프랑스어/프랑스어_문자)
