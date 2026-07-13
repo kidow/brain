@@ -42,7 +42,7 @@ Level: Blank — 완전 처음 시작.
 
 Level: Blank — 완전 처음 시작.
 
-## 독일어_복합어_심화
+## 독일어_복합어
 
 Level: Blank — 완전 처음 시작.
 
