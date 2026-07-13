@@ -157,7 +157,6 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [스페인어 명령문](https://brain.dongwook.kim/notes/스페인어/스페인어_명령문)
 - [스페인어 재귀동사](https://brain.dongwook.kim/notes/스페인어/스페인어_재귀동사)
 - [스페인어 과거시제](https://brain.dongwook.kim/notes/스페인어/스페인어_과거시제)
-- [스페인어 현재완료](https://brain.dongwook.kim/notes/스페인어/스페인어_현재완료)
 - [스페인어 미래시제](https://brain.dongwook.kim/notes/스페인어/스페인어_미래시제)
 - [스페인어 비교급 최상급](https://brain.dongwook.kim/notes/스페인어/스페인어_비교급_최상급)
 - [스페인어 접속법](https://brain.dongwook.kim/notes/스페인어/스페인어_접속법)
