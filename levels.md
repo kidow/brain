@@ -282,10 +282,6 @@ Level: Blank — 완전 처음 시작.
 
 Level: Blank — 완전 처음 시작.
 
-## 프랑스어_조건법
-
-Level: Blank — 완전 처음 시작.
-
 ## 프랑스어_직접목적어_대명사
 
 Level: Blank — 완전 처음 시작.
