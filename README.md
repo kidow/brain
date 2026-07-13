@@ -171,6 +171,7 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [스페인어 슬랭 관용어](https://brain.dongwook.kim/notes/스페인어/스페인어_슬랭_관용어)
 - [스페인어 완료 시제 심화](https://brain.dongwook.kim/notes/스페인어/스페인어_완료_시제_심화)
 - [스페인어 화법](https://brain.dongwook.kim/notes/스페인어/스페인어_화법)
+- [스페인어 전치사 por para](https://brain.dongwook.kim/notes/스페인어/스페인어_전치사_por_para)
 - [스페인어 특징](https://brain.dongwook.kim/notes/스페인어/스페인어_특징)
 
 **Languages — German**
