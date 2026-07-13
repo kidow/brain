@@ -240,6 +240,7 @@ brain/
 - [아랍어 등위접속사](https://brain.dongwook.kim/notes/아랍어/아랍어_등위접속사)
 - [아랍어 호격 감탄문](https://brain.dongwook.kim/notes/아랍어/아랍어_호격_감탄문)
 - [아랍어 특징](https://brain.dongwook.kim/notes/아랍어/아랍어_특징)
+- [아랍어 관용구](https://brain.dongwook.kim/notes/아랍어/아랍어_관용구)
 
 **언어 — 영어**
 - [영어 전치사](https://brain.dongwook.kim/notes/영어/영어_전치사)
