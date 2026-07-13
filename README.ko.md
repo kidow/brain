@@ -189,7 +189,6 @@ brain/
 - [독일어 관계문](https://brain.dongwook.kim/notes/독일어/독일어_관계문)
 - [독일어 수동태](https://brain.dongwook.kim/notes/독일어/독일어_수동태)
 - [독일어 부사](https://brain.dongwook.kim/notes/독일어/독일어_부사)
-- [독일어 명사화](https://brain.dongwook.kim/notes/독일어/독일어_명사화)
 - [독일어 접속사](https://brain.dongwook.kim/notes/독일어/독일어_접속사)
 - [독일어 복합어](https://brain.dongwook.kim/notes/독일어/독일어_복합어)
 - [독일어 동사 격지배](https://brain.dongwook.kim/notes/독일어/독일어_동사_격지배)
