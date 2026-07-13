@@ -146,6 +146,7 @@ brain/
 - [러시아어 접속사 종속절](https://brain.dongwook.kim/notes/러시아어/러시아어_접속사_종속절)
 - [러시아어 동사 지배](https://brain.dongwook.kim/notes/러시아어/러시아어_동사_지배)
 - [러시아어 특징](https://brain.dongwook.kim/notes/러시아어/러시아어_특징)
+- [러시아어 관용구](https://brain.dongwook.kim/notes/러시아어/러시아어_관용구)
 
 **언어 — 스페인어**
 - [스페인어 문자](https://brain.dongwook.kim/notes/스페인어/스페인어_문자)
