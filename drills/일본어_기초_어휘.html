@@ -192,6 +192,87 @@ let queue = [];
 let current = null;
 let revealed = false;
 
+// 히라가나/가타카나 → 로마자(헵번식) 변환표
+const KANA_ROMAJI = {
+  "あ":"a","い":"i","う":"u","え":"e","お":"o",
+  "か":"ka","き":"ki","く":"ku","け":"ke","こ":"ko",
+  "さ":"sa","し":"shi","す":"su","せ":"se","そ":"so",
+  "た":"ta","ち":"chi","つ":"tsu","て":"te","と":"to",
+  "な":"na","に":"ni","ぬ":"nu","ね":"ne","の":"no",
+  "は":"ha","ひ":"hi","ふ":"fu","へ":"he","ほ":"ho",
+  "ま":"ma","み":"mi","む":"mu","め":"me","も":"mo",
+  "や":"ya","ゆ":"yu","よ":"yo",
+  "ら":"ra","り":"ri","る":"ru","れ":"re","ろ":"ro",
+  "わ":"wa","を":"o","ん":"n",
+  "が":"ga","ぎ":"gi","ぐ":"gu","げ":"ge","ご":"go",
+  "ざ":"za","じ":"ji","ず":"zu","ぜ":"ze","ぞ":"zo",
+  "だ":"da","ぢ":"ji","づ":"zu","で":"de","ど":"do",
+  "ば":"ba","び":"bi","ぶ":"bu","べ":"be","ぼ":"bo",
+  "ぱ":"pa","ぴ":"pi","ぷ":"pu","ぺ":"pe","ぽ":"po",
+  "ゔ":"vu",
+  "きゃ":"kya","きゅ":"kyu","きょ":"kyo",
+  "しゃ":"sha","しゅ":"shu","しょ":"sho",
+  "ちゃ":"cha","ちゅ":"chu","ちょ":"cho",
+  "にゃ":"nya","にゅ":"nyu","にょ":"nyo",
+  "ひゃ":"hya","ひゅ":"hyu","ひょ":"hyo",
+  "みゃ":"mya","みゅ":"myu","みょ":"myo",
+  "りゃ":"rya","りゅ":"ryu","りょ":"ryo",
+  "ぎゃ":"gya","ぎゅ":"gyu","ぎょ":"gyo",
+  "じゃ":"ja","じゅ":"ju","じょ":"jo",
+  "びゃ":"bya","びゅ":"byu","びょ":"byo",
+  "ぴゃ":"pya","ぴゅ":"pyu","ぴょ":"pyo",
+  "ふぁ":"fa","ふぃ":"fi","ふぇ":"fe","ふぉ":"fo",
+  "うぃ":"wi","うぇ":"we","うぉ":"wo",
+  "ゔぁ":"va","ゔぃ":"vi","ゔぇ":"ve","ゔぉ":"vo",
+  "てぃ":"ti","でぃ":"di","とぅ":"tou","どぅ":"dou",
+  "つぁ":"tsa","つぃ":"tsi","つぇ":"tse","つぉ":"tso",
+  "しぇ":"she","じぇ":"je","ちぇ":"che",
+};
+// 가타카나는 히라가나와 발음 규칙이 같으므로, 대응하는 히라가나 테이블도 채워 재사용
+for (const [k, v] of Object.entries({...KANA_ROMAJI})) {
+  const code = k.codePointAt(0);
+  if (code >= 0x3041 && code <= 0x3096) { // 히라가나 범위
+    const kata = String.fromCodePoint(...[...k].map(c => c.codePointAt(0) + 0x60));
+    KANA_ROMAJI[kata] = v;
+  }
+}
+
+function kanaToRomaji(kana) {
+  if (!kana) return "";
+  let result = "";
+  const chars = [...kana];
+  for (let i = 0; i < chars.length; i++) {
+    const c = chars[i];
+    // 장음 부호(ー) — 직전 모음 반복
+    if (c === "ー") {
+      const last = result.slice(-1);
+      result += last;
+      continue;
+    }
+    // 촉음(っ/ッ) — 다음 자음 중복
+    if (c === "っ" || c === "ッ") {
+      const next2 = chars[i + 1] + (chars[i + 2] || "");
+      const nextRomaji = KANA_ROMAJI[chars[i + 1] + chars[i + 2]] || KANA_ROMAJI[chars[i + 1]] || "";
+      if (nextRomaji) result += nextRomaji[0];
+      continue;
+    }
+    // 요음(きゃ 등) — 2글자 combo 먼저 시도
+    const combo = c + (chars[i + 1] || "");
+    if (KANA_ROMAJI[combo]) {
+      result += KANA_ROMAJI[combo];
+      i++;
+      continue;
+    }
+    if (KANA_ROMAJI[c]) {
+      result += KANA_ROMAJI[c];
+      continue;
+    }
+    // 매핑 안 되는 문자(한자·기호 등)는 그대로 통과
+    result += c;
+  }
+  return result;
+}
+
 function loadState() {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
@@ -306,8 +387,8 @@ function renderCard() {
 function reveal() {
   if (revealed) return;
   revealed = true;
-  // reading is already shown as furigana on the card front, so this stays empty
-  document.getElementById("readingEl").textContent = "";
+  // reading is already shown as furigana on the card front; show romaji(영어 발음) here instead
+  document.getElementById("readingEl").textContent = kanaToRomaji(current.reading);
   document.getElementById("meaningEl").textContent = current.meaning;
   document.getElementById("hintEl").textContent = "";
   document.getElementById("playBtn").style.display = "flex";
