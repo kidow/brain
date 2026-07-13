@@ -138,7 +138,6 @@ brain/
 - [러시아어 인칭대명사 격변화](https://brain.dongwook.kim/notes/러시아어/러시아어_인칭대명사_격변화)
 - [러시아어 존댓말](https://brain.dongwook.kim/notes/러시아어/러시아어_존댓말)
 - [러시아어 시간 표현](https://brain.dongwook.kim/notes/러시아어/러시아어_시간_표현)
-- [러시아어 명사 격변화](https://brain.dongwook.kim/notes/러시아어/러시아어_명사_격변화)
 - [러시아어 감정·상태 형용사](https://brain.dongwook.kim/notes/러시아어/러시아어_감정_상태_형용사)
 - [러시아어 날씨 표현](https://brain.dongwook.kim/notes/러시아어/러시아어_날씨_표현)
 - [러시아어 회화](https://brain.dongwook.kim/notes/러시아어/러시아어_회화)
