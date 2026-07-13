@@ -146,10 +146,6 @@ Level: Blank — 완전 처음 시작.
 
 Level: Blank — 완전 처음 시작.
 
-## 스페인어_접속법_과거
-
-Level: Blank — 완전 처음 시작.
-
 ## 스페인어_진행형
 
 Level: Blank — 완전 처음 시작.
