@@ -780,9 +780,6 @@ Level: Blank — 도치 개념 자체 미노출. Never have I seen 같은 부정
 
 Level: Glimpsed — that절이 명사 역할을 한다는 개념 인지. wh-절의 명사절 용법(부사절과 구분) 가능. 주어절·보어절·동격절 세부 유형, whether vs if 차이, 명사절 내 어순 규칙 미노출.
 
-## 영어_분사구문
-
-Level: Blank — 분사구문 자체 미노출. "Being tired, I went home."과 "Because I was tired, I went home."의 관계 설명 불가. 현재분사·과거분사 구분, 부사절 압축 원리, 독립 분사구문 전혀 미노출.
 
 ## 영어_접속사
 

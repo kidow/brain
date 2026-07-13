@@ -248,7 +248,6 @@ brain/
 - [영어 관계대명사](https://brain.dongwook.kim/notes/영어/영어_관계대명사)
 - [영어 관계부사](https://brain.dongwook.kim/notes/영어/영어_관계부사)
 - [영어 접속사](https://brain.dongwook.kim/notes/영어/영어_접속사)
-- [영어 분사구문](https://brain.dongwook.kim/notes/영어/영어_분사구문)
 - [영어 시제 심화](https://brain.dongwook.kim/notes/영어/영어_시제_심화)
 - [영어 5형식](https://brain.dongwook.kim/notes/영어/영어_5형식)
 - [영어 to부정사](https://brain.dongwook.kim/notes/영어/영어_to부정사)
