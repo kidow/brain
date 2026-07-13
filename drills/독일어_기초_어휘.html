@@ -93,6 +93,7 @@
   .gender-tag.m { background: #1d4ed8; color: #bfdbfe; }
   .gender-tag.f { background: #9d174d; color: #fce7f3; }
   .gender-tag.n { background: #15803d; color: #bbf7d0; }
+  .reading { font-size: 1.1rem; color: #60a5fa; min-height: 1.4em; }
   .meaning { font-size: 1.1rem; color: #e2e8f0; min-height: 1.4em; }
   .hint { color: #94a3b8; font-size: 0.8rem; margin-top: 0.5rem; }
   .play-btn {
@@ -202,6 +203,70 @@ let queue = [];
 let current = null;
 let revealed = false;
 
+// 독일어 발음 근사 표기(영어 알파벳 기반, 정확한 IPA 아님 — 학습 보조용)
+// 단음절 -er 단어(der/er/wer 등)는 강세가 있어 슈와로 안 줄어듦 — 규칙만으론 못 잡아 예외 처리
+const DE_EXCEPTIONS = {
+  "ich":"ikh","nicht":"nikht","mich":"mikh","dich":"dikh","sich":"zikh",
+  "auch":"owkh","noch":"nokh","doch":"dokh","euch":"oykh",
+  "der":"dair","er":"air","wer":"vair","sehr":"zair","mehr":"mair","her":"hair",
+  "wir":"veer","ihr":"eer","vier":"feer","hier":"heer",
+  "schwer":"shvair","woher":"vohair",
+};
+
+function germanPhonetic(word) {
+  if (!word) return "";
+  const lower = word.toLowerCase();
+  if (DE_EXCEPTIONS[lower]) return DE_EXCEPTIONS[lower];
+
+  let s = lower;
+
+  // 1. 자음군(다른 규칙보다 먼저 처리해 충돌 방지)
+  s = s.replace(/tsch/g, "ch");   // tsch → 영어 ch(check)처럼
+  s = s.replace(/sch/g, "sh");
+  s = s.replace(/ck/g, "k");
+  s = s.replace(/tz/g, "ts");
+  s = s.replace(/dt/g, "t");
+  s = s.replace(/qu/g, "kv");
+  s = s.replace(/ph/g, "f");
+  s = s.replace(/th/g, "t");
+
+  // 2. 어두 sp/st → "shp"/"sht" (아직 원래 s가 살아있을 때 처리)
+  s = s.replace(/^sp/g, "shp");
+  s = s.replace(/^st/g, "sht");
+
+  // 3. 자음 하나짜리 변환 — 모음조합(2단계)보다 먼저 처리해야 함.
+  // 안 그러면 예를 들어 au→"ow"에서 만든 합성 w가 뒤의 w→v 규칙에 다시 걸리는 충돌이 생김.
+  s = s.replace(/ß/g, "s");
+  s = s.replace(/v/g, "f");
+  s = s.replace(/w/g, "v");
+  s = s.replace(/j/g, "y");
+  s = s.replace(/z/g, "ts");
+
+  // 4. 모음 조합
+  s = s.replace(/ih/g, "ee");   // ihr/ihm처럼 h가 장모음 표시만 하는 경우
+  s = s.replace(/ie/g, "ee");
+  s = s.replace(/ei/g, "ai");
+  s = s.replace(/eu|äu/g, "oy");
+  s = s.replace(/au/g, "ow");
+
+  // 5. ch — 뒤에 s가 오면 "ks"(x), 그 외엔 목·구개 마찰음을 "kh"로 근사
+  s = s.replace(/chs/g, "ks");
+  s = s.replace(/ch/g, "kh");
+
+  // 6. 어말 -ig → "ikh" (예: richtig, wichtig)
+  s = s.replace(/ig$/g, "ikh");
+
+  // 7. 특수 모음
+  s = s.replace(/ä/g, "eh");
+  s = s.replace(/ö/g, "ur");
+  s = s.replace(/ü/g, "ew");
+
+  // 8. 어말 무강세 -er → 슈와(uh). 단음절 예외 단어는 위 DE_EXCEPTIONS에서 이미 처리 후 반환됨
+  s = s.replace(/er$/g, "uh");
+
+  return s || lower;
+}
+
 function loadState() {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
@@ -286,6 +351,7 @@ function renderCard() {
   area.innerHTML = `
     <div class="card" id="cardEl">
       <div class="expr">${current.word}${genderTag}</div>
+      <div class="reading" id="readingEl"></div>
       <div class="meaning" id="meaningEl"></div>
       <button class="play-btn" id="playBtn" style="display:none" aria-label="발음 듣기">🔊</button>
       <div class="hint" id="hintEl">카드를 클릭해 답 보기</div>
@@ -315,6 +381,7 @@ function renderCard() {
 function reveal() {
   if (revealed) return;
   revealed = true;
+  document.getElementById("readingEl").textContent = germanPhonetic(current.word);
   document.getElementById("meaningEl").textContent = current.meaning;
   document.getElementById("hintEl").textContent = "";
   document.getElementById("playBtn").style.display = "flex";
