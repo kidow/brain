@@ -262,10 +262,6 @@ Level: Blank — 완전 처음 시작.
 
 Level: Blank — 완전 처음 시작.
 
-## 프랑스어_도치_의문문
-
-Level: Blank — 완전 처음 시작.
-
 ## 프랑스어_명령문
 
 Level: Blank — 완전 처음 시작.
