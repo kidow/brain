@@ -56,7 +56,6 @@ brain/
 - [히라가나](https://brain.dongwook.kim/notes/일본어/히라가나)
 - [가타카나](https://brain.dongwook.kim/notes/일본어/가타카나)
 - [일본어 문자의 특징](https://brain.dongwook.kim/notes/일본어/일본어_문자의_특징)
-- [일본어 기본 한자](https://brain.dongwook.kim/notes/일본어/일본어_기본_한자)
 - [일본어 동사](https://brain.dongwook.kim/notes/일본어/일본어_동사)
 - [일본어 조사](https://brain.dongwook.kim/notes/일본어/일본어_조사)
 - [일본어 부사](https://brain.dongwook.kim/notes/일본어/일본어_부사)
