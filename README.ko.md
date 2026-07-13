@@ -128,7 +128,6 @@ brain/
 - [러시아어 명사 복수형](https://brain.dongwook.kim/notes/러시아어/러시아어_명사_복수형)
 - [러시아어 동사 과거형](https://brain.dongwook.kim/notes/러시아어/러시아어_동사_과거형)
 - [러시아어 부정문](https://brain.dongwook.kim/notes/러시아어/러시아어_부정문)
-- [러시아어 동사 미래형](https://brain.dongwook.kim/notes/러시아어/러시아어_동사_미래형)
 - [러시아어 동사상](https://brain.dongwook.kim/notes/러시아어/러시아어_동사상)
 - [러시아어 이동동사](https://brain.dongwook.kim/notes/러시아어/러시아어_이동동사)
 - [러시아어 소유대명사 격변화](https://brain.dongwook.kim/notes/러시아어/러시아어_소유대명사_격변화)
