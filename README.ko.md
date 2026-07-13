@@ -68,7 +68,6 @@ brain/
 - [일본어 의지형](https://brain.dongwook.kim/notes/일본어/일본어_의지형)
 - [일본어 희망형](https://brain.dongwook.kim/notes/일본어/일본어_희망형)
 - [일본어 から ので 심화](https://brain.dongwook.kim/notes/일본어/일본어_から_ので_심화)
-- [일본어 の 명사화](https://brain.dongwook.kim/notes/일본어/일본어_の_명사화)
 - [일본어 가족 호칭](https://brain.dongwook.kim/notes/일본어/일본어_가족_호칭)
 - [일본어 감정 형용사](https://brain.dongwook.kim/notes/일본어/일본어_감정_형용사)
 - [일본어 계절 날씨 어휘](https://brain.dongwook.kim/notes/일본어/일본어_계절_날씨_어휘)
