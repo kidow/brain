@@ -271,7 +271,6 @@ brain/
 - [영어 비즈니스 영어](https://brain.dongwook.kim/notes/영어/영어_비즈니스_영어)
 - [영어 독해](https://brain.dongwook.kim/notes/영어/영어_독해)
 - [영어 청취](https://brain.dongwook.kim/notes/영어/영어_청취)
-- [영어 한정사](https://brain.dongwook.kim/notes/영어/영어_한정사)
 - [영어 수 일치](https://brain.dongwook.kim/notes/영어/영어_수_일치)
 - [영어 뉴스·시사 어휘](https://brain.dongwook.kim/notes/영어/영어_뉴스·시사_어휘)
 - [영어 프레젠테이션](https://brain.dongwook.kim/notes/영어/영어_프레젠테이션)

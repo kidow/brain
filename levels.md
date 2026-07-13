@@ -815,7 +815,7 @@ Level: Glimpsed — 4형식(SVOO) 구조와 간접/직접목적어 개념 인지
 
 ## 영어_가산_불가산_명사
 
-Level: Glimpsed — 대표 불가산 명사(information, money, furniture, advice) 인식. 가산·불가산 기본 구분 작동. 약점: few/little 구분 미적용(money에 few 선택). 미노출: much/many 구분, 가산·불가산 겸용 명사(experience/experiences, hair/hairs 등), 불가산 명사 수량화 표현(a piece of advice, a bit of information).
+Level: Glimpsed — 대표 불가산 명사(information, money, furniture, advice) 인식. 가산·불가산 기본 구분 작동. each(하나씩 개별 지칭) vs every(모든 것을 통틀어) 기본 구분 정확히 답함. 약점: few/little 구분 미적용(money에 few 선택), few/a few·little/a little 긍정·부정 뉘앙스 차이 미노출. 미노출: much/many 구분, 가산·불가산 겸용 명사(experience/experiences, hair/hairs 등), 불가산 명사 수량화 표현(a piece of advice, a bit of information), some/any 구분, all/every/each 세부 용법, 부분표현(most of/none of).
 
 ## 영어_부사
 
@@ -876,10 +876,6 @@ Level: Blank — "안녕하세요" 인사말조차 모름. 기초 생활 어휘 
 ## 영어_청취
 
 Level: Blank — 자막 없이 약 10%만 이해. 청취 전략 자체는 미노출이나 문제 원인은 정확히 자가진단(연음으로 개별 단어가 뭉개짐 + 해석 처리 속도가 발화 속도를 못 따라감 — subvocalization/직독직해 개념과 연결됨). 연음·청킹·예측 청취 등 체계적 전략 전반 처음 시작.
-
-## 영어_한정사
-
-Level: Glimpsed — each(하나씩 개별 지칭) vs every(모든 것을 통틀어) 기본 구분 정확히 답함. few/a few, little/a little 같은 긍정·부정 뉘앙스 차이 미노출. some/any 구분, all/every/each 세부 용법, 부분표현(most of/none of) 등 전반 미노출.
 
 ## 영어_수_일치
 
