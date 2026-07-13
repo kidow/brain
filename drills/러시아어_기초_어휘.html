@@ -81,6 +81,7 @@
     user-select: none;
   }
   .expr { font-size: 2.4rem; font-weight: 600; line-height: 1.8; }
+  .reading { font-size: 1.1rem; color: #60a5fa; min-height: 1.4em; }
   .meaning { font-size: 1rem; color: #e2e8f0; min-height: 1.4em; }
   .hint { color: #94a3b8; font-size: 0.8rem; margin-top: 0.5rem; }
   .play-btn {
@@ -189,6 +190,36 @@ let queue = [];
 let current = null;
 let revealed = false;
 
+// 키릴 문자 → 로마자 변환표(학술/BGN 계열 간소화, 영어 발음 안내용)
+const CYRILLIC_LATIN = {
+  "а":"a","б":"b","в":"v","г":"g","д":"d","е":"ye","ё":"yo","ж":"zh",
+  "з":"z","и":"i","й":"y","к":"k","л":"l","м":"m","н":"n","о":"o",
+  "п":"p","р":"r","с":"s","т":"t","у":"u","ф":"f","х":"kh","ц":"ts",
+  "ч":"ch","ш":"sh","щ":"shch","ъ":"","ы":"y","ь":"","э":"e","ю":"yu","я":"ya",
+};
+
+function cyrillicToLatin(text) {
+  if (!text) return "";
+  let result = "";
+  const chars = [...text];
+  for (let i = 0; i < chars.length; i++) {
+    const c = chars[i];
+    const lower = c.toLowerCase();
+    const isUpper = c !== lower;
+    let mapped = CYRILLIC_LATIN[lower];
+    if (mapped === undefined) {
+      result += c; // 매핑 안 되는 문자(라틴 문자·기호 등)는 그대로
+      continue;
+    }
+    // 어두 е/ё/ю/я는 y- 계열 그대로, 자음 뒤에서는 이미 위 표기가 학습자용으로 충분히 통용됨
+    if (isUpper && mapped) {
+      mapped = mapped.charAt(0).toUpperCase() + mapped.slice(1);
+    }
+    result += mapped;
+  }
+  return result;
+}
+
 function loadState() {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
@@ -268,6 +299,7 @@ function renderCard() {
   area.innerHTML = `
     <div class="card" id="cardEl">
       <div class="expr">${current.expression}</div>
+      <div class="reading" id="readingEl"></div>
       <div class="meaning" id="meaningEl"></div>
       <button class="play-btn" id="playBtn" style="display:none" aria-label="발음 듣기">🔊</button>
       <div class="hint" id="hintEl">카드를 클릭해 답 보기</div>
@@ -297,6 +329,7 @@ function renderCard() {
 function reveal() {
   if (revealed) return;
   revealed = true;
+  document.getElementById("readingEl").textContent = cyrillicToLatin(current.expression);
   document.getElementById("meaningEl").textContent = current.meaning;
   document.getElementById("hintEl").textContent = "";
   document.getElementById("playBtn").style.display = "flex";
