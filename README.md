@@ -73,7 +73,6 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [일본어 계절 날씨 어휘](https://brain.dongwook.kim/notes/일본어/일본어_계절_날씨_어휘)
 - [일본어 관계절](https://brain.dongwook.kim/notes/일본어/일본어_관계절)
 - [일본어 목적 표현](https://brain.dongwook.kim/notes/일본어/일본어_목적_표현)
-- [일본어 사역수동형](https://brain.dongwook.kim/notes/일본어/일본어_사역수동형)
 - [일본어 사역형](https://brain.dongwook.kim/notes/일본어/일본어_사역형)
 - [일본어 쇼핑 의류 어휘](https://brain.dongwook.kim/notes/일본어/일본어_쇼핑_의류_어휘)
 - [일본어 수동태](https://brain.dongwook.kim/notes/일본어/일본어_수동태)
