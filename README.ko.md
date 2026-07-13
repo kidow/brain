@@ -111,7 +111,6 @@ brain/
 - [중국어 的地得 구별](https://brain.dongwook.kim/notes/중국어/중국어_的地得_구별)
 - [중국어 연쇄·병렬 표현](https://brain.dongwook.kim/notes/중국어/중국어_연쇄_병렬_표현)
 - [중국어 회화](https://brain.dongwook.kim/notes/중국어/중국어_회화)
-- [중국어 동시진행·순서 표현](https://brain.dongwook.kim/notes/중국어/중국어_동시진행_순서_표현)
 - [중국어 관용어](https://brain.dongwook.kim/notes/중국어/중국어_관용어)
 
 **언어 — 러시아어**
