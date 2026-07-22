@@ -1,3 +1,7 @@
+## 영어_학습_팁
+
+Level: Glimpsed — 흘려듣기 vs 집중 듣기, 몰아서 암기 vs 분산 암기(spaced repetition) 모두 경험적으로 옳은 결론(분산 암기·흘려듣기 병행이 낫다)에 도달함. 근데 "왜" 그런지는 개인 경험("각인된다", "100개는 너무 많다") 수준이지, 망각곡선(forgetting curve)·인출연습(retrieval practice)·comprehensible input(i+1) 같은 메커니즘 용어·이론은 미노출. 결론은 맞는데 근거 프레임 없음.
+
 ## 프랑스어_비교급_최상급
 
 Level: Blank — 완전 처음 시작.
