@@ -230,6 +230,7 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 
 **Languages — English**
 - [영어 특징](https://brain.dongwook.kim/notes/영어/영어_특징)
+- [영어 학습 팁](https://brain.dongwook.kim/notes/영어/영어_학습_팁)
 - [영어 발음](https://brain.dongwook.kim/notes/영어/영어_발음)
 - [영어 문장 구조](https://brain.dongwook.kim/notes/영어/영어_문장_구조)
 - [영어 5형식](https://brain.dongwook.kim/notes/영어/영어_5형식)

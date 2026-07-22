@@ -340,6 +340,8 @@
   items:
     - title: "영어 특징"
       path: "notes/영어/영어_특징"
+    - title: "영어 학습 팁"
+      path: "notes/영어/영어_학습_팁"
     - title: "영어 발음"
       path: "notes/영어/영어_발음"
     - title: "영어 문장 구조"
