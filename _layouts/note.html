@@ -1,0 +1,63 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  {% include head-custom.html %}
+  <style>
+    .notes-pagination {
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      margin-top: 3rem;
+      padding-top: 1rem;
+      border-top: 1px solid #eaecef;
+      font-size: 0.95rem;
+    }
+    .notes-pagination .next { text-align: right; margin-left: auto; }
+  </style>
+</head>
+<body>
+  <div class="container-lg px-3 my-5 markdown-body">
+    <h1><a href="{{ '/' | relative_url }}">brain</a></h1>
+
+    {{ content }}
+
+    {% assign current_path = page.path | remove: '.md' %}
+    {% assign prev_item = nil %}
+    {% assign next_item = nil %}
+    {% for group in site.data.notes_order %}
+      {% assign items = group.items %}
+      {% for item in items %}
+        {% if item.path == current_path %}
+          {% assign idx = forloop.index0 %}
+          {% if idx > 0 %}
+            {% assign prev_idx = idx | minus: 1 %}
+            {% assign prev_item = items[prev_idx] %}
+          {% endif %}
+          {% assign next_idx = idx | plus: 1 %}
+          {% if next_idx < items.size %}
+            {% assign next_item = items[next_idx] %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+
+    {% if prev_item or next_item %}
+    <nav class="notes-pagination">
+      <span class="prev">
+        {% if prev_item %}<a href="{{ '/' | append: prev_item.path | relative_url }}">← {{ prev_item.title }}</a>{% endif %}
+      </span>
+      <span class="next">
+        {% if next_item %}<a href="{{ '/' | append: next_item.path | relative_url }}">{{ next_item.title }} →</a>{% endif %}
+      </span>
+    </nav>
+    {% endif %}
+  </div>
+</body>
+</html>
