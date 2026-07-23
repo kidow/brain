@@ -6,7 +6,7 @@
   button.setAttribute('aria-label', '현재 페이지 링크 복사');
 
   const style = document.createElement('style');
-  style.textContent = '.brain-copy-link{position:fixed;z-index:1000;top:3.75rem;right:1rem;padding:.5rem .7rem;border:1px solid #60a5fa;border-radius:999px;background:#0f172a;color:#e2e8f0;font:600 14px/1 system-ui,sans-serif;cursor:pointer;box-shadow:0 2px 8px #0004}.brain-copy-link:hover,.brain-copy-link:focus{background:#1e293b;outline:2px solid #60a5fa;outline-offset:2px}';
+  style.textContent = '.brain-page-actions{display:flex;justify-content:flex-end;padding:1rem 1rem 0}.brain-copy-link{padding:.5rem .7rem;border:1px solid #60a5fa;border-radius:999px;background:#0f172a;color:#e2e8f0;font:600 14px/1 system-ui,sans-serif;cursor:pointer}.brain-copy-link:hover,.brain-copy-link:focus{background:#1e293b;outline:2px solid #60a5fa;outline-offset:2px}';
   document.head.append(style);
 
   const copy = async () => {
@@ -29,5 +29,8 @@
   };
 
   button.addEventListener('click', copy);
-  document.body.append(button);
+  const actions = document.createElement('div');
+  actions.className = 'brain-page-actions';
+  actions.append(button);
+  document.body.prepend(actions);
 })();
