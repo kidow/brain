@@ -170,6 +170,7 @@ brain/
 
 **언어 — 독일어**
 - [독일어 특징](https://brain.dongwook.kim/notes/독일어/독일어_특징)
+- [독일어 학습 전략](https://brain.dongwook.kim/notes/독일어/독일어_학습_전략)
 - [독일어 문자](https://brain.dongwook.kim/notes/독일어/독일어_문자)
 - [독일어 기초 어휘](https://brain.dongwook.kim/notes/독일어/독일어_기초_어휘)
 - [독일어 숫자와 시간](https://brain.dongwook.kim/notes/독일어/독일어_숫자와_시간)
