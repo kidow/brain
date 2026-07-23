@@ -1,6 +1,6 @@
 # brain
 
-[English](README.md) · 한국어
+[English](README.md) · 한국어 · [검색](search/)
 
 배운 것을 쌓아 두는 개인 지식 베이스(knowledge base)입니다. 노트를 직접 손으로 채우는 저장소가 아니라, 학습용 에이전트 스킬 세 개가 자동으로 채우고 갱신하는 살아 있는 저장소입니다.
 

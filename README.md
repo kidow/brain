@@ -1,6 +1,6 @@
 # brain
 
-English · [한국어](README.ko.md)
+English · [한국어](README.ko.md) · [Search](search/)
 
 A personal knowledge base of everything I learn. Not a repo I fill by hand — three learning agent skills populate and keep it up to date automatically. It's a living store.
 
