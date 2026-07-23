@@ -52,7 +52,9 @@ Current level per topic — [brain.dongwook.kim/levels](https://brain.dongwook.k
 
 All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.kim).
 
-**Languages — Japanese**
+<details>
+<summary><strong>Languages — Japanese</strong> (39)</summary>
+
 - [일본어 특징](https://brain.dongwook.kim/notes/일본어/일본어_특징)
 - [히라가나](https://brain.dongwook.kim/notes/일본어/히라가나)
 - [가타카나](https://brain.dongwook.kim/notes/일본어/가타카나)
@@ -93,7 +95,11 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [일본어 관용구](https://brain.dongwook.kim/notes/일본어/일본어_관용구)
 - [일본어 오노마토페](https://brain.dongwook.kim/notes/일본어/일본어_오노마토페)
 
-**Languages — Chinese**
+</details>
+
+<details>
+<summary><strong>Languages — Chinese</strong> (18)</summary>
+
 - [중국어 특징](https://brain.dongwook.kim/notes/중국어/중국어_특징)
 - [중국어 발음](https://brain.dongwook.kim/notes/중국어/중국어_발음)
 - [중국어 문자](https://brain.dongwook.kim/notes/중국어/중국어_문자)
@@ -113,7 +119,11 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [중국어 회화](https://brain.dongwook.kim/notes/중국어/중국어_회화)
 - [중국어 관용어](https://brain.dongwook.kim/notes/중국어/중국어_관용어)
 
-**Languages — Russian**
+</details>
+
+<details>
+<summary><strong>Languages — Russian</strong> (27)</summary>
+
 - [러시아어 특징](https://brain.dongwook.kim/notes/러시아어/러시아어_특징)
 - [러시아어 문자의 특징](https://brain.dongwook.kim/notes/러시아어/러시아어_문자의_특징)
 - [러시아어 기초 어휘](https://brain.dongwook.kim/notes/러시아어/러시아어_기초_어휘)
@@ -142,7 +152,11 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [러시아어 회화](https://brain.dongwook.kim/notes/러시아어/러시아어_회화)
 - [러시아어 관용구](https://brain.dongwook.kim/notes/러시아어/러시아어_관용구)
 
-**Languages — Spanish**
+</details>
+
+<details>
+<summary><strong>Languages — Spanish</strong> (22)</summary>
+
 - [스페인어 특징](https://brain.dongwook.kim/notes/스페인어/스페인어_특징)
 - [스페인어 문자](https://brain.dongwook.kim/notes/스페인어/스페인어_문자)
 - [스페인어 기초 어휘](https://brain.dongwook.kim/notes/스페인어/스페인어_기초_어휘)
@@ -166,7 +180,11 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [스페인어 관용구](https://brain.dongwook.kim/notes/스페인어/스페인어_관용구)
 - [스페인어 슬랭 관용어](https://brain.dongwook.kim/notes/스페인어/스페인어_슬랭_관용어)
 
-**Languages — German**
+</details>
+
+<details>
+<summary><strong>Languages — German</strong> (23)</summary>
+
 - [독일어 특징](https://brain.dongwook.kim/notes/독일어/독일어_특징)
 - [독일어 문자](https://brain.dongwook.kim/notes/독일어/독일어_문자)
 - [독일어 기초 어휘](https://brain.dongwook.kim/notes/독일어/독일어_기초_어휘)
@@ -191,7 +209,11 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [독일어 회화](https://brain.dongwook.kim/notes/독일어/독일어_회화)
 - [독일어 관용구](https://brain.dongwook.kim/notes/독일어/독일어_관용구)
 
-**Languages — French**
+</details>
+
+<details>
+<summary><strong>Languages — French</strong> (19)</summary>
+
 - [프랑스어 특징](https://brain.dongwook.kim/notes/프랑스어/프랑스어_특징)
 - [프랑스어 문자](https://brain.dongwook.kim/notes/프랑스어/프랑스어_문자)
 - [프랑스어 기초 어휘](https://brain.dongwook.kim/notes/프랑스어/프랑스어_기초_어휘)
@@ -212,7 +234,11 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [프랑스어 회화](https://brain.dongwook.kim/notes/프랑스어/프랑스어_회화)
 - [프랑스어 관용구](https://brain.dongwook.kim/notes/프랑스어/프랑스어_관용구)
 
-**Languages — Arabic**
+</details>
+
+<details>
+<summary><strong>Languages — Arabic</strong> (14)</summary>
+
 - [아랍어 특징](https://brain.dongwook.kim/notes/아랍어/아랍어_특징)
 - [아랍어 문자](https://brain.dongwook.kim/notes/아랍어/아랍어_문자)
 - [아랍어 기초 어휘](https://brain.dongwook.kim/notes/아랍어/아랍어_기초_어휘)
@@ -228,7 +254,11 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [아랍어 회화](https://brain.dongwook.kim/notes/아랍어/아랍어_회화)
 - [아랍어 관용구](https://brain.dongwook.kim/notes/아랍어/아랍어_관용구)
 
-**Languages — English**
+</details>
+
+<details>
+<summary><strong>Languages — English</strong> (38)</summary>
+
 - [영어 특징](https://brain.dongwook.kim/notes/영어/영어_특징)
 - [영어 학습 팁](https://brain.dongwook.kim/notes/영어/영어_학습_팁)
 - [영어 발음](https://brain.dongwook.kim/notes/영어/영어_발음)
@@ -268,14 +298,26 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [영어 프레젠테이션](https://brain.dongwook.kim/notes/영어/영어_프레젠테이션)
 - [영어 이력서·자소서 작성](https://brain.dongwook.kim/notes/영어/영어_이력서·자소서_작성)
 
-**Music**
+</details>
+
+<details>
+<summary><strong>Music</strong> (2)</summary>
+
 - [음악 이론 기초](https://brain.dongwook.kim/notes/음악_이론_기초)
 - [AI 음악 프롬프팅](https://brain.dongwook.kim/notes/AI_음악_프롬프팅)
 
-**Art**
+</details>
+
+<details>
+<summary><strong>Art</strong> (1)</summary>
+
 - [미술 작품 교양](https://brain.dongwook.kim/notes/미술_작품_교양)
 
-**Economics / Finance**
+</details>
+
+<details>
+<summary><strong>Economics / Finance</strong> (6)</summary>
+
 - [회계학](https://brain.dongwook.kim/notes/회계학)
 - [세금 용어](https://brain.dongwook.kim/notes/세금_용어)
 - [경제학](https://brain.dongwook.kim/notes/경제학)
@@ -283,26 +325,46 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [주식 용어](https://brain.dongwook.kim/notes/주식_용어)
 - [부동산 기초](https://brain.dongwook.kim/notes/부동산_기초)
 
-**Daily Life**
+</details>
+
+<details>
+<summary><strong>Daily Life</strong> (2)</summary>
+
 - [근로기준법](https://brain.dongwook.kim/notes/근로기준법)
 - [자동차 상식](https://brain.dongwook.kim/notes/자동차_상식)
 
-**Science**
+</details>
+
+<details>
+<summary><strong>Science</strong> (1)</summary>
+
 - [화학](https://brain.dongwook.kim/notes/화학)
 
-**Technology**
+</details>
+
+<details>
+<summary><strong>Technology</strong> (1)</summary>
+
 - [컴퓨터 부품](https://brain.dongwook.kim/notes/컴퓨터_부품)
+
+</details>
 
 ## Cheat Sheets
 
 Quick-reference sheets served live at [brain.dongwook.kim](https://brain.dongwook.kim).
 
-**Arabic**
+<details>
+<summary><strong>Arabic</strong> (3)</summary>
+
 - [아랍어 문자 치트시트](https://brain.dongwook.kim/sheets/아랍어/아랍어_문자_치트시트.html)
 - [아랍어 기초 어휘 치트시트](https://brain.dongwook.kim/sheets/아랍어/아랍어_기초_어휘_치트시트.html)
 - [아랍어 동사 활용 치트시트](https://brain.dongwook.kim/sheets/아랍어/아랍어_동사_활용_치트시트.html)
 
-**Japanese**
+</details>
+
+<details>
+<summary><strong>Japanese</strong> (15)</summary>
+
 - [히라가나 치트시트](https://brain.dongwook.kim/sheets/일본어/히라가나_치트시트.html)
 - [가타카나 치트시트](https://brain.dongwook.kim/sheets/일본어/가타카나_치트시트.html)
 - [일본어 문자의 특징 치트시트](https://brain.dongwook.kim/sheets/일본어/일본어_문자의_특징_치트시트.html)
@@ -319,7 +381,11 @@ Quick-reference sheets served live at [brain.dongwook.kim](https://brain.dongwoo
 - [일본어 비교 표현 치트시트](https://brain.dongwook.kim/sheets/일본어/일본어_비교_표현_치트시트.html)
 - [일본어 존댓말 치트시트](https://brain.dongwook.kim/sheets/일본어/일본어_존댓말_치트시트.html)
 
-**Russian**
+</details>
+
+<details>
+<summary><strong>Russian</strong> (9)</summary>
+
 - [러시아어 치트시트](https://brain.dongwook.kim/sheets/러시아어/러시아어_치트시트.html)
 - [러시아어 알파벳 이름](https://brain.dongwook.kim/sheets/러시아어/러시아어_알파벳_이름.html)
 - [러시아어 모음 약화](https://brain.dongwook.kim/sheets/러시아어/러시아어_모음_약화.html)
@@ -330,7 +396,11 @@ Quick-reference sheets served live at [brain.dongwook.kim](https://brain.dongwoo
 - [러시아어 격변화 치트시트](https://brain.dongwook.kim/sheets/러시아어/러시아어_격변화_치트시트.html)
 - [러시아어 동사 현재형 치트시트](https://brain.dongwook.kim/sheets/러시아어/러시아어_동사_현재형_치트시트.html)
 
-**Chinese**
+</details>
+
+<details>
+<summary><strong>Chinese</strong> (10)</summary>
+
 - [병음 표](https://brain.dongwook.kim/sheets/중국어/병음_표.html)
 - [중국어 성모표](https://brain.dongwook.kim/sheets/중국어/중국어_성모표.html)
 - [중국어 성조규칙](https://brain.dongwook.kim/sheets/중국어/중국어_성조규칙.html)
@@ -342,7 +412,11 @@ Quick-reference sheets served live at [brain.dongwook.kim](https://brain.dongwoo
 - [중국어 상관접속사 총정리](https://brain.dongwook.kim/sheets/중국어/중국어_상관접속사_총정리.html)
 - [중국어 회화 표현모음](https://brain.dongwook.kim/sheets/중국어/중국어_회화_표현모음.html)
 
-**German**
+</details>
+
+<details>
+<summary><strong>German</strong> (9)</summary>
+
 - [독일어 치트시트](https://brain.dongwook.kim/sheets/독일어/독일어_치트시트.html)
 - [독일어 문자 치트시트](https://brain.dongwook.kim/sheets/독일어/독일어_문자_치트시트.html)
 - [독일어 명사 치트시트](https://brain.dongwook.kim/sheets/독일어/독일어_명사_치트시트.html)
@@ -353,7 +427,11 @@ Quick-reference sheets served live at [brain.dongwook.kim](https://brain.dongwoo
 - [독일어 접속법 치트시트](https://brain.dongwook.kim/sheets/독일어/독일어_접속법_치트시트.html)
 - [독일어 명사화 치트시트](https://brain.dongwook.kim/sheets/독일어/독일어_명사화_치트시트.html)
 
-**French**
+</details>
+
+<details>
+<summary><strong>French</strong> (8)</summary>
+
 - [프랑스어 문자 치트시트](https://brain.dongwook.kim/sheets/프랑스어/프랑스어_문자_치트시트.html)
 - [프랑스어 명사 치트시트](https://brain.dongwook.kim/sheets/프랑스어/프랑스어_명사_치트시트.html)
 - [프랑스어 동사 현재형 치트시트](https://brain.dongwook.kim/sheets/프랑스어/프랑스어_동사_현재형_치트시트.html)
@@ -363,14 +441,22 @@ Quick-reference sheets served live at [brain.dongwook.kim](https://brain.dongwoo
 - [프랑스어 faire 동사 치트시트](https://brain.dongwook.kim/sheets/프랑스어/프랑스어_faire_동사_치트시트.html)
 - [프랑스어 시제 마스터 치트시트](https://brain.dongwook.kim/sheets/프랑스어/프랑스어_시제_마스터_치트시트.html)
 
-**Spanish**
+</details>
+
+<details>
+<summary><strong>Spanish</strong> (5)</summary>
+
 - [스페인어 알파벳 이름](https://brain.dongwook.kim/sheets/스페인어/스페인어_알파벳_이름.html)
 - [스페인어 발음 규칙](https://brain.dongwook.kim/sheets/스페인어/스페인어_발음_규칙.html)
 - [스페인어 악센트 강세](https://brain.dongwook.kim/sheets/스페인어/스페인어_악센트_강세.html)
 - [스페인어 특수부호 키보드](https://brain.dongwook.kim/sheets/스페인어/스페인어_특수부호_키보드.html)
 - [스페인어 명사와 성 치트시트](https://brain.dongwook.kim/sheets/스페인어/스페인어_명사와_성_치트시트.html)
 
-**English**
+</details>
+
+<details>
+<summary><strong>English</strong> (39)</summary>
+
 - [영어 발음 치트시트](https://brain.dongwook.kim/sheets/영어/영어_발음_치트시트.html)
 - [영어 문장 구조 심화 치트시트](https://brain.dongwook.kim/sheets/영어/영어_문장_구조_심화_치트시트.html)
 - [영어 5형식 치트시트](https://brain.dongwook.kim/sheets/영어/영어_5형식_치트시트.html)
@@ -411,10 +497,18 @@ Quick-reference sheets served live at [brain.dongwook.kim](https://brain.dongwoo
 - [영어 프레젠테이션 치트시트](https://brain.dongwook.kim/sheets/영어/영어_프레젠테이션_치트시트.html)
 - [영어 이력서·자소서 작성 치트시트](https://brain.dongwook.kim/sheets/영어/영어_이력서·자소서_작성_치트시트.html)
 
-**Music**
+</details>
+
+<details>
+<summary><strong>Music</strong> (1)</summary>
+
 - [음악 이론 기초 치트시트](https://brain.dongwook.kim/sheets/음악_이론_기초_치트시트.html)
 
-**Economics / Finance**
+</details>
+
+<details>
+<summary><strong>Economics / Finance</strong> (6)</summary>
+
 - [세금 용어 치트시트](https://brain.dongwook.kim/sheets/세금_용어_치트시트.html)
 - [경제학 치트시트](https://brain.dongwook.kim/sheets/경제학_치트시트.html)
 - [회계학 치트시트](https://brain.dongwook.kim/sheets/회계학_치트시트.html)
@@ -422,39 +516,81 @@ Quick-reference sheets served live at [brain.dongwook.kim](https://brain.dongwoo
 - [주식 용어 치트시트](https://brain.dongwook.kim/sheets/주식_용어_치트시트.html)
 - [부동산 기초 치트시트](https://brain.dongwook.kim/sheets/부동산_기초_치트시트.html)
 
-**Daily Life**
+</details>
+
+<details>
+<summary><strong>Daily Life</strong> (1)</summary>
+
 - [근로기준법 치트시트](https://brain.dongwook.kim/sheets/근로기준법_치트시트.html)
 
-**Technology**
+</details>
+
+<details>
+<summary><strong>Technology</strong> (1)</summary>
+
 - [컴퓨터 부품](https://brain.dongwook.kim/sheets/컴퓨터_부품.html)
+
+</details>
 
 ## Drills
 
 Spaced-repetition (SM-2) vocabulary drills, served live at [brain.dongwook.kim](https://brain.dongwook.kim). Review progress is stored in your browser's localStorage only — it is not synced across devices.
 
-**Japanese**
+<details>
+<summary><strong>Japanese</strong> (1)</summary>
+
 - [일본어 기초 어휘](https://brain.dongwook.kim/drills/일본어_기초_어휘.html)
 
-**Chinese**
+</details>
+
+<details>
+<summary><strong>Chinese</strong> (1)</summary>
+
 - [중국어 HSK 어휘](https://brain.dongwook.kim/drills/중국어_HSK_어휘.html)
 
-**English**
+</details>
+
+<details>
+<summary><strong>English</strong> (1)</summary>
+
 - [영어 GRE 어휘](https://brain.dongwook.kim/drills/영어_GRE_어휘.html)
 
-**French**
+</details>
+
+<details>
+<summary><strong>French</strong> (1)</summary>
+
 - [프랑스어 빈도 어휘](https://brain.dongwook.kim/drills/프랑스어_빈도_어휘.html)
 
-**Arabic**
+</details>
+
+<details>
+<summary><strong>Arabic</strong> (1)</summary>
+
 - [아랍어 기초 어휘](https://brain.dongwook.kim/drills/아랍어_기초_어휘.html)
 
-**Russian**
+</details>
+
+<details>
+<summary><strong>Russian</strong> (1)</summary>
+
 - [러시아어 기초 어휘](https://brain.dongwook.kim/drills/러시아어_기초_어휘.html)
 
-**Spanish**
+</details>
+
+<details>
+<summary><strong>Spanish</strong> (1)</summary>
+
 - [스페인어 기초 어휘](https://brain.dongwook.kim/drills/스페인어_기초_어휘.html)
 
-**German**
+</details>
+
+<details>
+<summary><strong>German</strong> (1)</summary>
+
 - [독일어 기초 어휘](https://brain.dongwook.kim/drills/독일어_기초_어휘.html)
+
+</details>
 
 ## Installing the skills
 
