@@ -1,6 +1,6 @@
 # brain
 
-[English](README.md) · 한국어
+[English](README.md) · 한국어 · [검색](search/)
 
 배운 것을 쌓아 두는 개인 지식 베이스(knowledge base)입니다. 노트를 직접 손으로 채우는 저장소가 아니라, 학습용 에이전트 스킬 세 개가 자동으로 채우고 갱신하는 살아 있는 저장소입니다.
 
@@ -56,6 +56,7 @@ brain/
 <summary><strong>언어 — 일본어</strong> (39)</summary>
 
 - [일본어 특징](https://brain.dongwook.kim/notes/일본어/일본어_특징)
+- [일본어 학습 전략](https://brain.dongwook.kim/notes/일본어/일본어_학습_전략)
 - [히라가나](https://brain.dongwook.kim/notes/일본어/히라가나)
 - [가타카나](https://brain.dongwook.kim/notes/일본어/가타카나)
 - [일본어 문자의 특징](https://brain.dongwook.kim/notes/일본어/일본어_문자의_특징)
@@ -102,6 +103,7 @@ brain/
 
 - [중국어 특징](https://brain.dongwook.kim/notes/중국어/중국어_특징)
 - [중국어 발음](https://brain.dongwook.kim/notes/중국어/중국어_발음)
+- [중국어 학습 전략](https://brain.dongwook.kim/notes/중국어/중국어_학습_전략)
 - [중국어 문자](https://brain.dongwook.kim/notes/중국어/중국어_문자)
 - [중국어 기초 어휘](https://brain.dongwook.kim/notes/중국어/중국어_기초_어휘)
 - [중국어 시간 날짜 표현](https://brain.dongwook.kim/notes/중국어/중국어_시간_날짜_표현)
@@ -125,6 +127,7 @@ brain/
 <summary><strong>언어 — 러시아어</strong> (27)</summary>
 
 - [러시아어 특징](https://brain.dongwook.kim/notes/러시아어/러시아어_특징)
+- [러시아어 학습 전략](https://brain.dongwook.kim/notes/러시아어/러시아어_학습_전략)
 - [러시아어 문자의 특징](https://brain.dongwook.kim/notes/러시아어/러시아어_문자의_특징)
 - [러시아어 기초 어휘](https://brain.dongwook.kim/notes/러시아어/러시아어_기초_어휘)
 - [러시아어 숫자](https://brain.dongwook.kim/notes/러시아어/러시아어_숫자)
@@ -158,6 +161,7 @@ brain/
 <summary><strong>언어 — 스페인어</strong> (22)</summary>
 
 - [스페인어 특징](https://brain.dongwook.kim/notes/스페인어/스페인어_특징)
+- [스페인어 학습 전략](https://brain.dongwook.kim/notes/스페인어/스페인어_학습_전략)
 - [스페인어 문자](https://brain.dongwook.kim/notes/스페인어/스페인어_문자)
 - [스페인어 기초 어휘](https://brain.dongwook.kim/notes/스페인어/스페인어_기초_어휘)
 - [스페인어 명사와 성](https://brain.dongwook.kim/notes/스페인어/스페인어_명사와_성)
@@ -186,6 +190,7 @@ brain/
 <summary><strong>언어 — 독일어</strong> (23)</summary>
 
 - [독일어 특징](https://brain.dongwook.kim/notes/독일어/독일어_특징)
+- [독일어 학습 전략](https://brain.dongwook.kim/notes/독일어/독일어_학습_전략)
 - [독일어 문자](https://brain.dongwook.kim/notes/독일어/독일어_문자)
 - [독일어 기초 어휘](https://brain.dongwook.kim/notes/독일어/독일어_기초_어휘)
 - [독일어 숫자와 시간](https://brain.dongwook.kim/notes/독일어/독일어_숫자와_시간)
@@ -215,6 +220,7 @@ brain/
 <summary><strong>언어 — 프랑스어</strong> (19)</summary>
 
 - [프랑스어 특징](https://brain.dongwook.kim/notes/프랑스어/프랑스어_특징)
+- [프랑스어 학습 전략](https://brain.dongwook.kim/notes/프랑스어/프랑스어_학습_전략)
 - [프랑스어 문자](https://brain.dongwook.kim/notes/프랑스어/프랑스어_문자)
 - [프랑스어 기초 어휘](https://brain.dongwook.kim/notes/프랑스어/프랑스어_기초_어휘)
 - [프랑스어 가족 일상 어휘](https://brain.dongwook.kim/notes/프랑스어/프랑스어_가족_일상_어휘)
@@ -240,6 +246,7 @@ brain/
 <summary><strong>언어 — 아랍어</strong> (14)</summary>
 
 - [아랍어 특징](https://brain.dongwook.kim/notes/아랍어/아랍어_특징)
+- [아랍어 학습 전략](https://brain.dongwook.kim/notes/아랍어/아랍어_학습_전략)
 - [아랍어 문자](https://brain.dongwook.kim/notes/아랍어/아랍어_문자)
 - [아랍어 기초 어휘](https://brain.dongwook.kim/notes/아랍어/아랍어_기초_어휘)
 - [아랍어 동사 활용](https://brain.dongwook.kim/notes/아랍어/아랍어_동사_활용)
@@ -262,6 +269,7 @@ brain/
 - [영어 특징](https://brain.dongwook.kim/notes/영어/영어_특징)
 - [영어 학습 팁](https://brain.dongwook.kim/notes/영어/영어_학습_팁)
 - [영어 발음](https://brain.dongwook.kim/notes/영어/영어_발음)
+- [영어 문법 학습 전략](https://brain.dongwook.kim/notes/영어/영어_문법_학습_전략)
 - [영어 문장 구조](https://brain.dongwook.kim/notes/영어/영어_문장_구조)
 - [영어 5형식](https://brain.dongwook.kim/notes/영어/영어_5형식)
 - [영어 가산/불가산 명사](https://brain.dongwook.kim/notes/영어/영어_가산_불가산_명사)

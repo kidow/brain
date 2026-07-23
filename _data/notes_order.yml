@@ -2,6 +2,8 @@
   items:
     - title: "일본어 특징"
       path: "notes/일본어/일본어_특징"
+    - title: "일본어 학습 전략"
+      path: "notes/일본어/일본어_학습_전략"
     - title: "히라가나"
       path: "notes/일본어/히라가나"
     - title: "가타카나"
@@ -84,6 +86,8 @@
       path: "notes/중국어/중국어_특징"
     - title: "중국어 발음"
       path: "notes/중국어/중국어_발음"
+    - title: "중국어 학습 전략"
+      path: "notes/중국어/중국어_학습_전략"
     - title: "중국어 문자"
       path: "notes/중국어/중국어_문자"
     - title: "중국어 기초 어휘"
@@ -120,6 +124,8 @@
   items:
     - title: "러시아어 특징"
       path: "notes/러시아어/러시아어_특징"
+    - title: "러시아어 학습 전략"
+      path: "notes/러시아어/러시아어_학습_전략"
     - title: "러시아어 문자의 특징"
       path: "notes/러시아어/러시아어_문자의_특징"
     - title: "러시아어 기초 어휘"
@@ -176,6 +182,8 @@
   items:
     - title: "스페인어 특징"
       path: "notes/스페인어/스페인어_특징"
+    - title: "스페인어 학습 전략"
+      path: "notes/스페인어/스페인어_학습_전략"
     - title: "스페인어 문자"
       path: "notes/스페인어/스페인어_문자"
     - title: "스페인어 기초 어휘"
@@ -222,6 +230,8 @@
   items:
     - title: "독일어 특징"
       path: "notes/독일어/독일어_특징"
+    - title: "독일어 학습 전략"
+      path: "notes/독일어/독일어_학습_전략"
     - title: "독일어 문자"
       path: "notes/독일어/독일어_문자"
     - title: "독일어 기초 어휘"
@@ -270,6 +280,8 @@
   items:
     - title: "프랑스어 특징"
       path: "notes/프랑스어/프랑스어_특징"
+    - title: "프랑스어 학습 전략"
+      path: "notes/프랑스어/프랑스어_학습_전략"
     - title: "프랑스어 문자"
       path: "notes/프랑스어/프랑스어_문자"
     - title: "프랑스어 기초 어휘"
@@ -310,6 +322,8 @@
   items:
     - title: "아랍어 특징"
       path: "notes/아랍어/아랍어_특징"
+    - title: "아랍어 학습 전략"
+      path: "notes/아랍어/아랍어_학습_전략"
     - title: "아랍어 문자"
       path: "notes/아랍어/아랍어_문자"
     - title: "아랍어 기초 어휘"
@@ -344,6 +358,8 @@
       path: "notes/영어/영어_학습_팁"
     - title: "영어 발음"
       path: "notes/영어/영어_발음"
+    - title: "영어 문법 학습 전략"
+      path: "notes/영어/영어_문법_학습_전략"
     - title: "영어 문장 구조"
       path: "notes/영어/영어_문장_구조"
     - title: "영어 5형식"
