@@ -231,6 +231,7 @@ brain/
 **언어 — 영어**
 - [영어 특징](https://brain.dongwook.kim/notes/영어/영어_특징)
 - [영어 발음](https://brain.dongwook.kim/notes/영어/영어_발음)
+- [영어 문법 학습 전략](https://brain.dongwook.kim/notes/영어/영어_문법_학습_전략)
 - [영어 문장 구조](https://brain.dongwook.kim/notes/영어/영어_문장_구조)
 - [영어 5형식](https://brain.dongwook.kim/notes/영어/영어_5형식)
 - [영어 가산/불가산 명사](https://brain.dongwook.kim/notes/영어/영어_가산_불가산_명사)
