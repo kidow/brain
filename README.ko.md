@@ -117,6 +117,7 @@ brain/
 
 **언어 — 러시아어**
 - [러시아어 특징](https://brain.dongwook.kim/notes/러시아어/러시아어_특징)
+- [러시아어 학습 전략](https://brain.dongwook.kim/notes/러시아어/러시아어_학습_전략)
 - [러시아어 문자의 특징](https://brain.dongwook.kim/notes/러시아어/러시아어_문자의_특징)
 - [러시아어 기초 어휘](https://brain.dongwook.kim/notes/러시아어/러시아어_기초_어휘)
 - [러시아어 숫자](https://brain.dongwook.kim/notes/러시아어/러시아어_숫자)
