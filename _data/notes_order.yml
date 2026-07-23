@@ -2,6 +2,8 @@
   items:
     - title: "일본어 특징"
       path: "notes/일본어/일본어_특징"
+    - title: "일본어 학습 전략"
+      path: "notes/일본어/일본어_학습_전략"
     - title: "히라가나"
       path: "notes/일본어/히라가나"
     - title: "가타카나"

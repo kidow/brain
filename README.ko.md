@@ -54,6 +54,7 @@ brain/
 
 **언어 — 일본어**
 - [일본어 특징](https://brain.dongwook.kim/notes/일본어/일본어_특징)
+- [일본어 학습 전략](https://brain.dongwook.kim/notes/일본어/일본어_학습_전략)
 - [히라가나](https://brain.dongwook.kim/notes/일본어/히라가나)
 - [가타카나](https://brain.dongwook.kim/notes/일본어/가타카나)
 - [일본어 문자의 특징](https://brain.dongwook.kim/notes/일본어/일본어_문자의_특징)
