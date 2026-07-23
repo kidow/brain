@@ -322,6 +322,8 @@
   items:
     - title: "아랍어 특징"
       path: "notes/아랍어/아랍어_특징"
+    - title: "아랍어 학습 전략"
+      path: "notes/아랍어/아랍어_학습_전략"
     - title: "아랍어 문자"
       path: "notes/아랍어/아랍어_문자"
     - title: "아랍어 기초 어휘"

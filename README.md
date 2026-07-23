@@ -220,6 +220,7 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 
 **Languages — Arabic**
 - [아랍어 특징](https://brain.dongwook.kim/notes/아랍어/아랍어_특징)
+- [아랍어 학습 전략](https://brain.dongwook.kim/notes/아랍어/아랍어_학습_전략)
 - [아랍어 문자](https://brain.dongwook.kim/notes/아랍어/아랍어_문자)
 - [아랍어 기초 어휘](https://brain.dongwook.kim/notes/아랍어/아랍어_기초_어휘)
 - [아랍어 동사 활용](https://brain.dongwook.kim/notes/아랍어/아랍어_동사_활용)
