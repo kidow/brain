@@ -97,6 +97,7 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 **Languages — Chinese**
 - [중국어 특징](https://brain.dongwook.kim/notes/중국어/중국어_특징)
 - [중국어 발음](https://brain.dongwook.kim/notes/중국어/중국어_발음)
+- [중국어 학습 전략](https://brain.dongwook.kim/notes/중국어/중국어_학습_전략)
 - [중국어 문자](https://brain.dongwook.kim/notes/중국어/중국어_문자)
 - [중국어 기초 어휘](https://brain.dongwook.kim/notes/중국어/중국어_기초_어휘)
 - [중국어 시간 날짜 표현](https://brain.dongwook.kim/notes/중국어/중국어_시간_날짜_표현)
