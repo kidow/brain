@@ -147,6 +147,7 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 
 **Languages — Spanish**
 - [스페인어 특징](https://brain.dongwook.kim/notes/스페인어/스페인어_특징)
+- [스페인어 학습 전략](https://brain.dongwook.kim/notes/스페인어/스페인어_학습_전략)
 - [스페인어 문자](https://brain.dongwook.kim/notes/스페인어/스페인어_문자)
 - [스페인어 기초 어휘](https://brain.dongwook.kim/notes/스페인어/스페인어_기초_어휘)
 - [스페인어 명사와 성](https://brain.dongwook.kim/notes/스페인어/스페인어_명사와_성)

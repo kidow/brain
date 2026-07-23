@@ -182,6 +182,8 @@
   items:
     - title: "스페인어 특징"
       path: "notes/스페인어/스페인어_특징"
+    - title: "스페인어 학습 전략"
+      path: "notes/스페인어/스페인어_학습_전략"
     - title: "스페인어 문자"
       path: "notes/스페인어/스페인어_문자"
     - title: "스페인어 기초 어휘"
