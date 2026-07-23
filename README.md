@@ -545,10 +545,14 @@ Quick-reference sheets served live at [brain.dongwook.kim](https://brain.dongwoo
 Spaced-repetition (SM-2) vocabulary drills, served live at [brain.dongwook.kim](https://brain.dongwook.kim). Review progress is stored in your browser's localStorage only — it is not synced across devices.
 
 <details markdown="1">
-<summary><strong>Japanese</strong> (3)</summary>
+<summary><strong>Japanese</strong> (7)</summary>
 
 - [히라가나](https://brain.dongwook.kim/drills/일본어_히라가나.html)
+- [히라가나 탁음·반탁음](https://brain.dongwook.kim/drills/일본어_히라가나_탁음.html)
+- [히라가나 요음](https://brain.dongwook.kim/drills/일본어_히라가나_요음.html)
 - [가타카나](https://brain.dongwook.kim/drills/일본어_가타카나.html)
+- [가타카나 탁음·반탁음](https://brain.dongwook.kim/drills/일본어_가타카나_탁음.html)
+- [가타카나 요음](https://brain.dongwook.kim/drills/일본어_가타카나_요음.html)
 - [일본어 기초 어휘](https://brain.dongwook.kim/drills/일본어_기초_어휘.html)
 
 </details>

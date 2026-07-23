@@ -545,10 +545,14 @@ brain/
 간격 반복(SM-2) 방식 어휘 복습 도구입니다. [brain.dongwook.kim](https://brain.dongwook.kim)에서 바로 열 수 있습니다. 복습 진행 상태는 브라우저 localStorage에만 저장되며, 기기 간 동기화는 되지 않습니다.
 
 <details markdown="1">
-<summary><strong>일본어</strong> (3)</summary>
+<summary><strong>일본어</strong> (7)</summary>
 
 - [히라가나](https://brain.dongwook.kim/drills/일본어_히라가나.html)
+- [히라가나 탁음·반탁음](https://brain.dongwook.kim/drills/일본어_히라가나_탁음.html)
+- [히라가나 요음](https://brain.dongwook.kim/drills/일본어_히라가나_요음.html)
 - [가타카나](https://brain.dongwook.kim/drills/일본어_가타카나.html)
+- [가타카나 탁음·반탁음](https://brain.dongwook.kim/drills/일본어_가타카나_탁음.html)
+- [가타카나 요음](https://brain.dongwook.kim/drills/일본어_가타카나_요음.html)
 - [일본어 기초 어휘](https://brain.dongwook.kim/drills/일본어_기초_어휘.html)
 
 </details>
