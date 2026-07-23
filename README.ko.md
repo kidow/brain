@@ -52,7 +52,7 @@ brain/
 
 [brain.dongwook.kim](https://brain.dongwook.kim)에서 바로 열 수 있는 학습 노트입니다.
 
-<details>
+<details markdown="1">
 <summary><strong>언어 — 일본어</strong> (39)</summary>
 
 - [일본어 특징](https://brain.dongwook.kim/notes/일본어/일본어_특징)
@@ -98,7 +98,7 @@ brain/
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>언어 — 중국어</strong> (18)</summary>
 
 - [중국어 특징](https://brain.dongwook.kim/notes/중국어/중국어_특징)
@@ -123,7 +123,7 @@ brain/
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>언어 — 러시아어</strong> (27)</summary>
 
 - [러시아어 특징](https://brain.dongwook.kim/notes/러시아어/러시아어_특징)
@@ -157,7 +157,7 @@ brain/
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>언어 — 스페인어</strong> (22)</summary>
 
 - [스페인어 특징](https://brain.dongwook.kim/notes/스페인어/스페인어_특징)
@@ -186,7 +186,7 @@ brain/
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>언어 — 독일어</strong> (23)</summary>
 
 - [독일어 특징](https://brain.dongwook.kim/notes/독일어/독일어_특징)
@@ -216,7 +216,7 @@ brain/
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>언어 — 프랑스어</strong> (19)</summary>
 
 - [프랑스어 특징](https://brain.dongwook.kim/notes/프랑스어/프랑스어_특징)
@@ -242,7 +242,7 @@ brain/
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>언어 — 아랍어</strong> (14)</summary>
 
 - [아랍어 특징](https://brain.dongwook.kim/notes/아랍어/아랍어_특징)
@@ -263,7 +263,7 @@ brain/
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>언어 — 영어</strong> (38)</summary>
 
 - [영어 특징](https://brain.dongwook.kim/notes/영어/영어_특징)
@@ -308,7 +308,7 @@ brain/
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>음악</strong> (2)</summary>
 
 - [음악 이론 기초](https://brain.dongwook.kim/notes/음악_이론_기초)
@@ -316,14 +316,14 @@ brain/
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>예술</strong> (1)</summary>
 
 - [미술 작품 교양](https://brain.dongwook.kim/notes/미술_작품_교양)
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>경제/금융</strong> (6)</summary>
 
 - [회계학](https://brain.dongwook.kim/notes/회계학)
@@ -335,7 +335,7 @@ brain/
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>실생활</strong> (2)</summary>
 
 - [근로기준법](https://brain.dongwook.kim/notes/근로기준법)
@@ -343,14 +343,14 @@ brain/
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>과학</strong> (1)</summary>
 
 - [화학](https://brain.dongwook.kim/notes/화학)
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>기술</strong> (1)</summary>
 
 - [컴퓨터 부품](https://brain.dongwook.kim/notes/컴퓨터_부품)
@@ -361,7 +361,7 @@ brain/
 
 [brain.dongwook.kim](https://brain.dongwook.kim)에서 바로 열 수 있는 빠른 참조 시트입니다.
 
-<details>
+<details markdown="1">
 <summary><strong>아랍어</strong> (3)</summary>
 
 - [아랍어 문자 치트시트](https://brain.dongwook.kim/sheets/아랍어/아랍어_문자_치트시트.html)
@@ -370,7 +370,7 @@ brain/
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>일본어</strong> (15)</summary>
 
 - [히라가나 치트시트](https://brain.dongwook.kim/sheets/일본어/히라가나_치트시트.html)
@@ -391,7 +391,7 @@ brain/
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>러시아어</strong> (9)</summary>
 
 - [러시아어 치트시트](https://brain.dongwook.kim/sheets/러시아어/러시아어_치트시트.html)
@@ -406,7 +406,7 @@ brain/
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>중국어</strong> (10)</summary>
 
 - [병음 표](https://brain.dongwook.kim/sheets/중국어/병음_표.html)
@@ -422,7 +422,7 @@ brain/
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>독일어</strong> (9)</summary>
 
 - [독일어 치트시트](https://brain.dongwook.kim/sheets/독일어/독일어_치트시트.html)
@@ -437,7 +437,7 @@ brain/
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>프랑스어</strong> (8)</summary>
 
 - [프랑스어 문자 치트시트](https://brain.dongwook.kim/sheets/프랑스어/프랑스어_문자_치트시트.html)
@@ -451,7 +451,7 @@ brain/
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>스페인어</strong> (5)</summary>
 
 - [스페인어 알파벳 이름](https://brain.dongwook.kim/sheets/스페인어/스페인어_알파벳_이름.html)
@@ -462,7 +462,7 @@ brain/
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>영어</strong> (39)</summary>
 
 - [영어 발음 치트시트](https://brain.dongwook.kim/sheets/영어/영어_발음_치트시트.html)
@@ -507,14 +507,14 @@ brain/
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>음악</strong> (1)</summary>
 
 - [음악 이론 기초 치트시트](https://brain.dongwook.kim/sheets/음악_이론_기초_치트시트.html)
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>경제/금융</strong> (6)</summary>
 
 - [세금 용어 치트시트](https://brain.dongwook.kim/sheets/세금_용어_치트시트.html)
@@ -526,14 +526,14 @@ brain/
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>실생활</strong> (1)</summary>
 
 - [근로기준법 치트시트](https://brain.dongwook.kim/sheets/근로기준법_치트시트.html)
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>기술</strong> (1)</summary>
 
 - [컴퓨터 부품](https://brain.dongwook.kim/sheets/컴퓨터_부품.html)
@@ -544,7 +544,7 @@ brain/
 
 간격 반복(SM-2) 방식 어휘 복습 도구입니다. [brain.dongwook.kim](https://brain.dongwook.kim)에서 바로 열 수 있습니다. 복습 진행 상태는 브라우저 localStorage에만 저장되며, 기기 간 동기화는 되지 않습니다.
 
-<details>
+<details markdown="1">
 <summary><strong>일본어</strong> (3)</summary>
 
 - [히라가나](https://brain.dongwook.kim/drills/일본어_히라가나.html)
@@ -553,49 +553,50 @@ brain/
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>중국어</strong> (1)</summary>
 
 - [중국어 HSK 어휘](https://brain.dongwook.kim/drills/중국어_HSK_어휘.html)
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>영어</strong> (1)</summary>
 
 - [영어 GRE 어휘](https://brain.dongwook.kim/drills/영어_GRE_어휘.html)
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>프랑스어</strong> (1)</summary>
 
 - [프랑스어 빈도 어휘](https://brain.dongwook.kim/drills/프랑스어_빈도_어휘.html)
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>아랍어</strong> (1)</summary>
 
 - [아랍어 기초 어휘](https://brain.dongwook.kim/drills/아랍어_기초_어휘.html)
 
 </details>
 
-<details>
-<summary><strong>러시아어</strong> (1)</summary>
+<details markdown="1">
+<summary><strong>러시아어</strong> (2)</summary>
 
+- [러시아어 알파벳](https://brain.dongwook.kim/drills/러시아어_알파벳.html)
 - [러시아어 기초 어휘](https://brain.dongwook.kim/drills/러시아어_기초_어휘.html)
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>스페인어</strong> (1)</summary>
 
 - [스페인어 기초 어휘](https://brain.dongwook.kim/drills/스페인어_기초_어휘.html)
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>독일어</strong> (1)</summary>
 
 - [독일어 기초 어휘](https://brain.dongwook.kim/drills/독일어_기초_어휘.html)
