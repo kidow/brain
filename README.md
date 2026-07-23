@@ -198,6 +198,7 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 
 **Languages — French**
 - [프랑스어 특징](https://brain.dongwook.kim/notes/프랑스어/프랑스어_특징)
+- [프랑스어 학습 전략](https://brain.dongwook.kim/notes/프랑스어/프랑스어_학습_전략)
 - [프랑스어 문자](https://brain.dongwook.kim/notes/프랑스어/프랑스어_문자)
 - [프랑스어 기초 어휘](https://brain.dongwook.kim/notes/프랑스어/프랑스어_기초_어휘)
 - [프랑스어 가족 일상 어휘](https://brain.dongwook.kim/notes/프랑스어/프랑스어_가족_일상_어휘)
