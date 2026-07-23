@@ -40,7 +40,10 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.json">
 <meta name="theme-color" content="#ffffff">
+<script src="/assets/js/visit-tracker.js" defer></script>
 ```
+
+`</head>` 직전에 `<script src="/assets/js/visit-tracker.js" defer></script>`를 삽입한다(최근 방문 페이지·스크롤 위치 추적용, 홈에서 이어보기 기능). 위 예시처럼 head 태그 블록 끝에 넣어도 되고, 별도 위치도 무방하다 — 핵심은 모든 sheets/drills 파일에 빠짐없이 포함하는 것이다.
 
 ### sheets/ 색상 규칙
 
