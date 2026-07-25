@@ -53,7 +53,7 @@ Current level per topic — [brain.dongwook.kim/levels](https://brain.dongwook.k
 All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.kim).
 
 <details markdown="1">
-<summary><strong>Languages — Japanese</strong> (41)</summary>
+<summary><strong>Languages — Japanese</strong> (42)</summary>
 
 - [일본어 특징](https://brain.dongwook.kim/notes/일본어/일본어_특징)
 - [일본어 학습 전략](https://brain.dongwook.kim/notes/일본어/일본어_학습_전략)
@@ -70,6 +70,7 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [일본어 접속사](https://brain.dongwook.kim/notes/일본어/일본어_접속사)
 - [일본어 지시대명사](https://brain.dongwook.kim/notes/일본어/일본어_지시대명사)
 - [일본어 조수사](https://brain.dongwook.kim/notes/일본어/일본어_조수사)
+- [일본어 의문사](https://brain.dongwook.kim/notes/일본어/일본어_의문사)
 - [일본어 て형](https://brain.dongwook.kim/notes/일본어/일본어_て형)
 - [일본어 자동사 타동사](https://brain.dongwook.kim/notes/일본어/일본어_자동사_타동사)
 - [일본어 가능형](https://brain.dongwook.kim/notes/일본어/일본어_가능형)
