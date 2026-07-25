@@ -53,7 +53,7 @@ brain/
 [brain.dongwook.kim](https://brain.dongwook.kim)에서 바로 열 수 있는 학습 노트입니다.
 
 <details markdown="1">
-<summary><strong>언어 — 일본어</strong> (42)</summary>
+<summary><strong>언어 — 일본어</strong> (43)</summary>
 
 - [일본어 특징](https://brain.dongwook.kim/notes/일본어/일본어_특징)
 - [일본어 학습 전략](https://brain.dongwook.kim/notes/일본어/일본어_학습_전략)
@@ -78,6 +78,7 @@ brain/
 - [일본어 희망형](https://brain.dongwook.kim/notes/일본어/일본어_희망형)
 - [일본어 수동태](https://brain.dongwook.kim/notes/일본어/일본어_수동태)
 - [일본어 사역형](https://brain.dongwook.kim/notes/일본어/일본어_사역형)
+- [일본어 명령형·금지형](https://brain.dongwook.kim/notes/일본어/일본어_명령형_금지형)
 - [일본어 수수 표현](https://brain.dongwook.kim/notes/일본어/일본어_수수_표현)
 - [일본어 존재 표현](https://brain.dongwook.kim/notes/일본어/일본어_존재_표현)
 - [일본어 조건 표현](https://brain.dongwook.kim/notes/일본어/일본어_조건_표현)

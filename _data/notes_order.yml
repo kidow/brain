@@ -46,6 +46,8 @@
       path: "notes/일본어/일본어_수동태"
     - title: "일본어 사역형"
       path: "notes/일본어/일본어_사역형"
+    - title: "일본어 명령형·금지형"
+      path: "notes/일본어/일본어_명령형_금지형"
     - title: "일본어 수수 표현"
       path: "notes/일본어/일본어_수수_표현"
     - title: "일본어 존재 표현"
