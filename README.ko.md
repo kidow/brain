@@ -197,7 +197,7 @@ brain/
 </details>
 
 <details markdown="1">
-<summary><strong>언어 — 독일어</strong> (23)</summary>
+<summary><strong>언어 — 독일어</strong> (24)</summary>
 
 - [독일어 특징](https://brain.dongwook.kim/notes/독일어/독일어_특징)
 - [독일어 학습 전략](https://brain.dongwook.kim/notes/독일어/독일어_학습_전략)
@@ -206,6 +206,7 @@ brain/
 - [독일어 숫자와 시간](https://brain.dongwook.kim/notes/독일어/독일어_숫자와_시간)
 - [독일어 요일 시간대 표현](https://brain.dongwook.kim/notes/독일어/독일어_요일_시간대_표현)
 - [독일어 명사](https://brain.dongwook.kim/notes/독일어/독일어_명사)
+- [독일어 의문관사](https://brain.dongwook.kim/notes/독일어/독일어_의문관사)
 - [독일어 대명사](https://brain.dongwook.kim/notes/독일어/독일어_대명사)
 - [독일어 동사](https://brain.dongwook.kim/notes/독일어/독일어_동사)
 - [독일어 형용사](https://brain.dongwook.kim/notes/독일어/독일어_형용사)
