@@ -173,7 +173,7 @@ brain/
 - [스페인어 명사와 성](https://brain.dongwook.kim/notes/스페인어/스페인어_명사와_성)
 - [스페인어 동사 현재형](https://brain.dongwook.kim/notes/스페인어/스페인어_동사_현재형)
 - [스페인어 목적어 대명사](https://brain.dongwook.kim/notes/스페인어/스페인어_목적어_대명사)
-- [스페인어 전치사 por para](https://brain.dongwook.kim/notes/스페인어/스페인어_전치사_por_para)
+- [스페인어 전치사](https://brain.dongwook.kim/notes/스페인어/스페인어_전치사)
 - [스페인어 부정문 의문문](https://brain.dongwook.kim/notes/스페인어/스페인어_부정문_의문문)
 - [스페인어 명령문](https://brain.dongwook.kim/notes/스페인어/스페인어_명령문)
 - [스페인어 진행형](https://brain.dongwook.kim/notes/스페인어/스페인어_진행형)

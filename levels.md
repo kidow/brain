@@ -18,7 +18,7 @@ Level: Blank — 완전 처음 시작.
 
 Level: Blank — 완전 처음 시작.
 
-## 스페인어_전치사_por_para
+## 스페인어_전치사
 
 Level: Blank — 완전 처음 시작.
 
