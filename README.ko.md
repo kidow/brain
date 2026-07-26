@@ -229,7 +229,7 @@ brain/
 </details>
 
 <details markdown="1">
-<summary><strong>언어 — 프랑스어</strong> (19)</summary>
+<summary><strong>언어 — 프랑스어</strong> (20)</summary>
 
 - [프랑스어 특징](https://brain.dongwook.kim/notes/프랑스어/프랑스어_특징)
 - [프랑스어 학습 전략](https://brain.dongwook.kim/notes/프랑스어/프랑스어_학습_전략)
@@ -243,6 +243,7 @@ brain/
 - [프랑스어 명령문](https://brain.dongwook.kim/notes/프랑스어/프랑스어_명령문)
 - [프랑스어 재귀동사](https://brain.dongwook.kim/notes/프랑스어/프랑스어_재귀동사)
 - [프랑스어 faire 동사](https://brain.dongwook.kim/notes/프랑스어/프랑스어_faire_동사)
+- [프랑스어 il y a](https://brain.dongwook.kim/notes/프랑스어/프랑스어_il_y_a)
 - [프랑스어 근접과거](https://brain.dongwook.kim/notes/프랑스어/프랑스어_근접과거)
 - [프랑스어 복합과거](https://brain.dongwook.kim/notes/프랑스어/프랑스어_복합과거)
 - [프랑스어 대과거](https://brain.dongwook.kim/notes/프랑스어/프랑스어_대과거)
