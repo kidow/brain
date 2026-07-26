@@ -53,7 +53,7 @@ brain/
 [brain.dongwook.kim](https://brain.dongwook.kim)에서 바로 열 수 있는 학습 노트입니다.
 
 <details markdown="1">
-<summary><strong>언어 — 일본어</strong> (43)</summary>
+<summary><strong>언어 — 일본어</strong> (44)</summary>
 
 - [일본어 특징](https://brain.dongwook.kim/notes/일본어/일본어_특징)
 - [일본어 학습 전략](https://brain.dongwook.kim/notes/일본어/일본어_학습_전략)
@@ -86,6 +86,7 @@ brain/
 - [일본어 から ので 심화](https://brain.dongwook.kim/notes/일본어/일본어_から_ので_심화)
 - [일본어 목적 표현](https://brain.dongwook.kim/notes/일본어/일본어_목적_표현)
 - [일본어 인용 표현](https://brain.dongwook.kim/notes/일본어/일본어_인용_표현)
+- [일본어 명사화 표현](https://brain.dongwook.kim/notes/일본어/일본어_명사화_표현)
 - [일본어 비교 표현](https://brain.dongwook.kim/notes/일본어/일본어_비교_표현)
 - [일본어 관계절](https://brain.dongwook.kim/notes/일본어/일본어_관계절)
 - [일본어 부사절](https://brain.dongwook.kim/notes/일본어/일본어_부사절)
