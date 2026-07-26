@@ -164,7 +164,7 @@ brain/
 </details>
 
 <details markdown="1">
-<summary><strong>언어 — 스페인어</strong> (22)</summary>
+<summary><strong>언어 — 스페인어</strong> (23)</summary>
 
 - [스페인어 특징](https://brain.dongwook.kim/notes/스페인어/스페인어_특징)
 - [스페인어 학습 전략](https://brain.dongwook.kim/notes/스페인어/스페인어_학습_전략)
@@ -184,6 +184,7 @@ brain/
 - [스페인어 접속법](https://brain.dongwook.kim/notes/스페인어/스페인어_접속법)
 - [스페인어 비교급 최상급](https://brain.dongwook.kim/notes/스페인어/스페인어_비교급_최상급)
 - [스페인어 관계대명사](https://brain.dongwook.kim/notes/스페인어/스페인어_관계대명사)
+- [스페인어 등위접속사](https://brain.dongwook.kim/notes/스페인어/스페인어_등위접속사)
 - [스페인어 부사절 접속사](https://brain.dongwook.kim/notes/스페인어/스페인어_부사절_접속사)
 - [스페인어 화법](https://brain.dongwook.kim/notes/스페인어/스페인어_화법)
 - [스페인어 회화](https://brain.dongwook.kim/notes/스페인어/스페인어_회화)
