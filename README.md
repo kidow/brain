@@ -164,13 +164,14 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 </details>
 
 <details markdown="1">
-<summary><strong>Languages — Spanish</strong> (25)</summary>
+<summary><strong>Languages — Spanish</strong> (26)</summary>
 
 - [스페인어 특징](https://brain.dongwook.kim/notes/스페인어/스페인어_특징)
 - [스페인어 학습 전략](https://brain.dongwook.kim/notes/스페인어/스페인어_학습_전략)
 - [스페인어 문자](https://brain.dongwook.kim/notes/스페인어/스페인어_문자)
 - [스페인어 기초 어휘](https://brain.dongwook.kim/notes/스페인어/스페인어_기초_어휘)
 - [스페인어 명사와 성](https://brain.dongwook.kim/notes/스페인어/스페인어_명사와_성)
+- [스페인어 지시대명사 중성형](https://brain.dongwook.kim/notes/스페인어/스페인어_지시대명사_중성형)
 - [스페인어 소유대명사](https://brain.dongwook.kim/notes/스페인어/스페인어_소유대명사)
 - [스페인어 동사 현재형](https://brain.dongwook.kim/notes/스페인어/스페인어_동사_현재형)
 - [스페인어 조동사](https://brain.dongwook.kim/notes/스페인어/스페인어_조동사)
