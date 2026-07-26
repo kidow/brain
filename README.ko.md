@@ -130,7 +130,7 @@ brain/
 </details>
 
 <details markdown="1">
-<summary><strong>언어 — 러시아어</strong> (27)</summary>
+<summary><strong>언어 — 러시아어</strong> (28)</summary>
 
 - [러시아어 특징](https://brain.dongwook.kim/notes/러시아어/러시아어_특징)
 - [러시아어 학습 전략](https://brain.dongwook.kim/notes/러시아어/러시아어_학습_전략)
@@ -150,6 +150,7 @@ brain/
 - [러시아어 의문문 심화](https://brain.dongwook.kim/notes/러시아어/러시아어_의문문_심화)
 - [러시아어 동사 과거형](https://brain.dongwook.kim/notes/러시아어/러시아어_동사_과거형)
 - [러시아어 동사상](https://brain.dongwook.kim/notes/러시아어/러시아어_동사상)
+- [러시아어 명령문](https://brain.dongwook.kim/notes/러시아어/러시아어_명령문)
 - [러시아어 이동동사](https://brain.dongwook.kim/notes/러시아어/러시아어_이동동사)
 - [러시아어 재귀동사](https://brain.dongwook.kim/notes/러시아어/러시아어_재귀동사)
 - [러시아어 동사 지배](https://brain.dongwook.kim/notes/러시아어/러시아어_동사_지배)
