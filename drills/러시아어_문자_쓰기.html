@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#ffffff">
+  <title>러시아어 문자 쓰기</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #0f172a; color: #e2e8f0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 14px; line-height: 1.6;
+      max-width: 800px; margin: 0 auto; padding: 1.5rem 1.25rem;
+    }
+    h1 { font-size: 1.5rem; color: #60a5fa; margin-bottom: 0.25rem; }
+    .subtitle { color: #94a3b8; margin-bottom: 1.25rem; font-size: 0.85rem; }
+
+    .sets { display: flex; gap: 0.4rem; overflow-x: auto; padding-bottom: 0.5rem; margin-bottom: 1rem; }
+    .sets button {
+      flex: none; font: inherit; font-size: 0.8rem; white-space: nowrap;
+      padding: 0.4rem 0.75rem; border-radius: 999px;
+      border: 1px solid #334155; background: #1e293b; color: #94a3b8; cursor: pointer;
+    }
+    .sets button[aria-pressed="true"] { border-color: #60a5fa; color: #60a5fa; }
+
+    .progress { display: flex; align-items: center; gap: 0.6rem; margin-bottom: 1rem; font-size: 0.78rem; color: #94a3b8; }
+    .bar { flex: 1; height: 4px; border-radius: 2px; background: #1e293b; overflow: hidden; }
+    .bar i { display: block; height: 100%; background: #60a5fa; width: 0; transition: width .25s; }
+
+    /* 프롬프트 — 인쇄체·필기체를 나란히 보여 준다 */
+    .prompt { display: flex; align-items: center; justify-content: center; gap: 0.9rem; margin-bottom: 0.75rem; min-height: 62px; }
+    .glyphbox { text-align: center; flex: none; min-width: 54px; }
+    .glyphbox .g { font-size: 2rem; line-height: 1.15; color: #334155; }
+    .glyphbox .g.cursive { font-family: 'Marck Script', cursive; font-size: 2.3rem; }
+    .glyphbox .g.target { color: #e2e8f0; }
+    .glyphbox .cap { font-size: 0.65rem; color: #94a3b8; }
+    .prompt .info { max-width: 250px; }
+    .prompt .info .name { font-size: 1.05rem; font-weight: 700; color: #e2e8f0; }
+    .prompt .info .romaji { font-size: 0.85rem; color: #60a5fa; }
+    .prompt .info .step { font-size: 0.78rem; color: #94a3b8; }
+
+    .padwrap { display: flex; justify-content: center; margin-bottom: 0.75rem; }
+    canvas {
+      width: 100%; max-width: 320px; aspect-ratio: 1;
+      border: 1px solid #334155; border-radius: 8px; background: #0f172a;
+      touch-action: none; cursor: crosshair; display: block;
+    }
+    canvas.shake { animation: shake .3s; }
+    @keyframes shake {
+      0%,100% { transform: translateX(0); }
+      25% { transform: translateX(-5px); }
+      75% { transform: translateX(5px); }
+    }
+
+    .score { text-align: center; font-size: 0.78rem; color: #94a3b8; min-height: 1.5em; margin-bottom: 0.5rem; }
+    .score b { color: #e2e8f0; font-weight: 700; }
+    .score.pass b, .score.pass { color: #60a5fa; }
+
+    .toolbar { display: flex; gap: 0.4rem; justify-content: center; margin-bottom: 1rem; flex-wrap: wrap; }
+    .toolbar button {
+      font: inherit; font-size: 0.78rem; padding: 0.4rem 0.8rem; border-radius: 6px;
+      border: 1px solid #334155; background: #1e293b; color: #94a3b8; cursor: pointer;
+    }
+    .toolbar button:hover { border-color: #60a5fa; color: #60a5fa; }
+    .toolbar button.primary { border-color: #60a5fa; color: #60a5fa; }
+
+    .note {
+      background: #1e293b; border: 1px solid #334155; border-radius: 6px;
+      padding: 0.6rem 0.8rem; font-size: 0.8rem; color: #94a3b8; margin-bottom: 1rem;
+    }
+    .note strong { color: #e2e8f0; }
+    .warn { border-color: #60a5fa; }
+
+    .done-panel { text-align: center; padding: 1.5rem 1rem; background: #1e293b; border: 1px solid #334155; border-radius: 10px; margin-bottom: 1rem; }
+    .done-panel h2 { color: #60a5fa; font-size: 1.15rem; margin-bottom: 0.4rem; }
+    .done-panel p { color: #94a3b8; font-size: 0.85rem; margin-bottom: 0.9rem; }
+    .done-panel button {
+      font: inherit; font-size: 0.82rem; padding: 0.45rem 0.9rem; margin: 0 0.2rem;
+      border-radius: 6px; border: 1px solid #60a5fa; background: transparent; color: #60a5fa; cursor: pointer;
+    }
+
+    footer { border-top: 1px solid #1e293b; padding-top: 0.9rem; font-size: 0.72rem; color: #94a3b8; line-height: 1.7; }
+    footer a { color: #60a5fa; }
+
+    .hidden { display: none !important; }
+    @media (max-width: 600px) { body { padding: 1rem; } }
+    @media print { body { padding: 0.5cm; } }
+  </style>
+</head>
+<body>
+  <h1>러시아어 문자 쓰기</h1>
+  <p class="subtitle">키릴 문자를 직접 따라 써 보는 연습. 획 순서가 아니라 완성된 글자 모양의 일치도를 채점한다.</p>
+
+  <div class="sets" id="sets"></div>
+
+  <div class="progress">
+    <span id="count">0 / 0</span>
+    <span class="bar"><i id="barfill"></i></span>
+    <span id="mastery"></span>
+  </div>
+
+  <div class="note warn hidden" id="fontwarn">
+    <strong>필기체 글꼴을 불러오지 못했다.</strong> 네트워크가 막혀 Marck Script가 로드되지 않아
+    필기체 세트가 인쇄체 모양으로 표시된다. 연결을 확인하고 새로고침할 것.
+  </div>
+
+  <div id="drill">
+    <div class="prompt">
+      <div class="glyphbox">
+        <div class="g" id="g-print">—</div>
+        <div class="cap">인쇄체</div>
+      </div>
+      <div class="glyphbox">
+        <div class="g cursive" id="g-cursive">—</div>
+        <div class="cap">필기체</div>
+      </div>
+      <div class="info">
+        <div class="name" id="name">—</div>
+        <div class="romaji" id="romaji"></div>
+        <div class="step" id="step">준비 중</div>
+      </div>
+    </div>
+
+    <div class="padwrap"><canvas id="pad"></canvas></div>
+
+    <div class="score" id="score"></div>
+
+    <div class="toolbar">
+      <button id="btn-check" class="primary">채점</button>
+      <button id="btn-undo">되돌리기</button>
+      <button id="btn-clear">지우기</button>
+      <button id="btn-hint">힌트</button>
+      <button id="btn-skip">건너뛰기</button>
+    </div>
+  </div>
+
+  <div class="done-panel hidden" id="done">
+    <h2>완주</h2>
+    <p id="done-msg"></p>
+    <button id="btn-again">틀린 글자만 다시</button>
+    <button id="btn-restart">세트 처음부터</button>
+  </div>
+
+  <div class="note">
+    <strong>가이드는 자동으로 옅어진다.</strong> 처음엔 글자가 진하게 깔리고, 맞힐수록 흐려지다가
+    끝내 사라진다. 기울기 안내선만 남으면 기억으로 써야 한다.
+    통과 기준은 <b>덮음 75% 이상 · 삐짐 20% 이하</b> — 가운데 선만 따라 그으면 되고,
+    획을 몇 번에 나눠 긋든 상관없다.
+  </div>
+
+  <footer>
+    필기체 글자 모양 — <a href="https://fonts.google.com/specimen/Marck+Script" target="_blank" rel="noopener">Marck Script</a>
+    (© Denis Masharov, <a href="https://openfontlicense.org/" target="_blank" rel="noopener">SIL Open Font License 1.1</a>).
+    알파벳 문자·이름·로마자 표기 — <a href="https://en.wikipedia.org/wiki/Russian_alphabet" target="_blank" rel="noopener">Russian alphabet</a>
+    (<a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>).<br>
+    <strong>획순 데이터가 아니다.</strong> 키릴 문자에는 KanjiVG 같은 공개 획순 데이터셋이 없어,
+    이 드릴은 획의 순서·방향을 채점하지 않고 글자 모양의 일치도만 본다.<br>
+    진행 상태는 이 브라우저(localStorage)에만 저장된다.
+  </footer>
+
+<script>
+(() => {
+  'use strict';
+
+  // ── 판정 파라미터 (실측 튜닝 지점) ─────────────────────────────
+  const S          = 256;   // 채점용 오프스크린 해상도
+  const FIT        = 0.68;  // 글자가 차지할 상자 비율
+  const PEN        = 15;    // 사용자 획 두께 (S 좌표계) — 삐짐 판정용
+  // 가이드 글자는 획이 두껍다(반두께 p90 ≈ 12px). 중심선만 따라 그으면 면적을
+  // 다 덮을 수 없으므로, 덮음 판정에서는 잉크를 이만큼 부풀려 골격끼리 비교한다.
+  const COVER_PEN  = 34;
+  const TOL        = 6;     // 글자 바깥으로 허용할 여유 반경 (S 좌표계)
+  const PASS_COV   = 0.75;  // 글자를 이만큼은 덮어야 통과
+  const PASS_SPILL = 0.20;  // 이보다 많이 삐져나가면 실패
+  // 빈 채점 방지용 최소 잉크량. 상자 대비 절대값으로 잡으면 е·о 같은 작은
+  // 글자가 정상 필기인데도 걸리므로, 글자 자체 넓이에 비례시킨다.
+  const MIN_INK    = 0.12;  // 글자 본체 픽셀 수 대비
+  const STORE_KEY  = 'ru-write-v1';
+
+  const CURSIVE = "'Marck Script', cursive";
+  const PRINT   = "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', sans-serif";
+
+  // 숙련도 → 가이드 레벨 (0=진하게, 1=흐리게, 2=숨김)
+  const guideLevel = ok => (ok < 2 ? 0 : ok < 5 ? 1 : 2);
+  const GUIDE_ALPHA = [0.45, 0.18, 0];
+
+  // ── 상태 ──────────────────────────────────────────────────────
+  let DATA = null;
+  let setIdx = 0;
+  let queue = [];          // 이번 세션에 풀 글자들
+  let qPos = 0;
+  let strokes = [];        // 사용자 획들 (정규화 좌표 0~1)
+  let live = null;         // 그리는 중인 획
+  let charDirty = false;   // 이번 글자에서 한 번이라도 틀렸는가
+  let rescue = 0;          // 연속 실패 시 가이드 구제 단계
+  let failStreak = 0;
+  let hintUntil = 0;
+  let advancing = false;
+  let advanceTimer = 0;
+  let missedThisSession = [];
+  let penLocked = false;
+  let maskCore = null, maskTol = null, coreTotal = 0;
+
+  const store = JSON.parse(localStorage.getItem(STORE_KEY) || '{}');
+  const save = () => localStorage.setItem(STORE_KEY, JSON.stringify(store));
+  const BLANK = { ok: 0, miss: 0 };
+  const peek = (setId, k) => (store[setId] && store[setId][k]) || BLANK;
+  const rec = (setId, k) => {
+    store[setId] = store[setId] || {};
+    store[setId][k] = store[setId][k] || { ok: 0, miss: 0 };
+    return store[setId][k];
+  };
+
+  // ── DOM / 오프스크린 ──────────────────────────────────────────
+  const $ = id => document.getElementById(id);
+  const pad = $('pad');
+  const ctx = pad.getContext('2d');
+  const mk = () => { const c = document.createElement('canvas'); c.width = c.height = S; return c; };
+  const maskCv = mk(), tolCv = mk(), inkCv = mk();
+  const maskX = maskCv.getContext('2d', { willReadFrequently: true });
+  const tolX  = tolCv.getContext('2d',  { willReadFrequently: true });
+  const inkX  = inkCv.getContext('2d',  { willReadFrequently: true });
+
+  // ── 글자 배치: 상자 한가운데에 FIT 비율로 맞춘다 ───────────────
+  function layout(c2d, ch, family, box) {
+    const base = 100;
+    c2d.font = `${base}px ${family}`;
+    let m = c2d.measureText(ch);
+    let w = m.actualBoundingBoxLeft + m.actualBoundingBoxRight;
+    let h = m.actualBoundingBoxAscent + m.actualBoundingBoxDescent;
+    if (!(w > 0) || !(h > 0)) { w = m.width || base * 0.6; h = base; }
+    const px = base * (box * FIT) / Math.max(w, h);
+    c2d.font = `${px}px ${family}`;
+    m = c2d.measureText(ch);
+    const l = m.actualBoundingBoxLeft, r = m.actualBoundingBoxRight;
+    const a = m.actualBoundingBoxAscent, d = m.actualBoundingBoxDescent;
+    return {
+      font: c2d.font,
+      x: box / 2 - (r - l) / 2,
+      y: box / 2 + (a - d) / 2,
+    };
+  }
+
+  // ── 마스크: 글자 본체(core)와 여유 포함(tol) ───────────────────
+  function buildMask(ch, family) {
+    for (const [c2d, dilate] of [[maskX, 0], [tolX, TOL]]) {
+      c2d.setTransform(1, 0, 0, 1, 0, 0);
+      c2d.clearRect(0, 0, S, S);
+      const L = layout(c2d, ch, family, S);
+      c2d.font = L.font;
+      c2d.textAlign = 'left';
+      c2d.textBaseline = 'alphabetic';
+      c2d.fillStyle = '#fff';
+      c2d.fillText(ch, L.x, L.y);
+      if (dilate > 0) {           // 외곽선을 굵게 덧그려 허용 범위를 넓힌다
+        c2d.strokeStyle = '#fff';
+        c2d.lineWidth = dilate * 2;
+        c2d.lineJoin = 'round';
+        c2d.lineCap = 'round';
+        c2d.strokeText(ch, L.x, L.y);
+      }
+    }
+    const a1 = maskX.getImageData(0, 0, S, S).data;
+    const a2 = tolX.getImageData(0, 0, S, S).data;
+    maskCore = new Uint8Array(S * S);
+    maskTol  = new Uint8Array(S * S);
+    coreTotal = 0;
+    for (let i = 0, p = 3; i < S * S; i++, p += 4) {
+      if (a1[p] > 80) { maskCore[i] = 1; coreTotal++; }
+      if (a2[p] > 80) maskTol[i] = 1;
+    }
+  }
+
+  // ── 사용자 잉크를 채점용 캔버스에 굽는다 ───────────────────────
+  function bakeInk(width) {
+    inkX.setTransform(1, 0, 0, 1, 0, 0);
+    inkX.clearRect(0, 0, S, S);
+    inkX.strokeStyle = '#fff';
+    inkX.lineWidth = width;
+    inkX.lineCap = 'round';
+    inkX.lineJoin = 'round';
+    for (const st of strokes) drawPath(inkX, st, S);
+    const a = inkX.getImageData(0, 0, S, S).data;
+    const ink = new Uint8Array(S * S);
+    let total = 0;
+    for (let i = 0, p = 3; i < S * S; i++, p += 4) if (a[p] > 80) { ink[i] = 1; total++; }
+    return { ink, total };
+  }
+
+  function drawPath(c2d, pts, scale) {
+    if (!pts.length) return;
+    c2d.beginPath();
+    c2d.moveTo(pts[0].x * scale, pts[0].y * scale);
+    if (pts.length === 1) c2d.lineTo(pts[0].x * scale + 0.01, pts[0].y * scale);
+    else for (let i = 1; i < pts.length; i++) c2d.lineTo(pts[i].x * scale, pts[i].y * scale);
+    c2d.stroke();
+  }
+
+  // ── 렌더 ──────────────────────────────────────────────────────
+  function fitCanvas() {
+    const r = pad.getBoundingClientRect();
+    const dpr = window.devicePixelRatio || 1;
+    pad.width = Math.round(r.width * dpr);
+    pad.height = Math.round(r.height * dpr);
+    draw();
+  }
+
+  function effectiveLevel() {
+    if (Date.now() < hintUntil) return 0;
+    const cur = queue[qPos];
+    if (!cur) return 0;
+    const base = guideLevel(peek(DATA.sets[setIdx].id, cur.k).ok);
+    return Math.max(0, base - rescue);
+  }
+
+  function draw() {
+    const size = pad.width;
+    if (!size) return;
+    ctx.setTransform(1, 0, 0, 1, 0, 0);
+    ctx.clearRect(0, 0, size, size);
+
+    // 가로 안내선 + 필기 기울기 안내선 (러시아 прописи 방식)
+    ctx.strokeStyle = '#1e293b';
+    ctx.lineWidth = Math.max(1, size / 320);
+    ctx.beginPath();
+    [0.25, 0.5, 0.75].forEach(t => { ctx.moveTo(0, size * t); ctx.lineTo(size, size * t); });
+    ctx.stroke();
+    const slant = Math.tan((90 - 75) * Math.PI / 180);   // 75° 기울기
+    ctx.beginPath();
+    for (let i = -2; i <= 6; i++) {
+      const x = size * i / 4;
+      ctx.moveTo(x, size); ctx.lineTo(x + size * slant, 0);
+    }
+    ctx.stroke();
+
+    const cur = queue[qPos];
+    if (!cur) return;
+
+    // 가이드 글자
+    const alpha = GUIDE_ALPHA[effectiveLevel()];
+    if (alpha > 0) {
+      const L = layout(ctx, cur.k, cur.family, size);
+      ctx.font = L.font;
+      ctx.textAlign = 'left';
+      ctx.textBaseline = 'alphabetic';
+      ctx.fillStyle = `rgba(148,163,184,${alpha})`;
+      ctx.fillText(cur.k, L.x, L.y);
+    }
+
+    // 사용자 잉크
+    ctx.strokeStyle = '#60a5fa';
+    ctx.lineWidth = PEN / S * size;
+    ctx.lineCap = 'round';
+    ctx.lineJoin = 'round';
+    for (const st of strokes) drawPath(ctx, st, size);
+    if (live) { ctx.strokeStyle = '#93c5fd'; drawPath(ctx, live, size); }
+  }
+
+  // ── 입력 ──────────────────────────────────────────────────────
+  const toNorm = e => {
+    const r = pad.getBoundingClientRect();
+    return { x: (e.clientX - r.left) / r.width, y: (e.clientY - r.top) / r.height };
+  };
+
+  pad.addEventListener('pointerdown', e => {
+    if (!queue[qPos] || advancing) return;
+    if (e.pointerType === 'pen') penLocked = true;
+    else if (penLocked) return;          // 펜 감지 후엔 손바닥·손가락 무시
+    pad.setPointerCapture(e.pointerId);
+    live = [toNorm(e)];
+    draw();
+  });
+  pad.addEventListener('pointermove', e => {
+    if (!live) return;
+    if (penLocked && e.pointerType !== 'pen') return;
+    live.push(toNorm(e));
+    draw();
+  });
+  const endStroke = () => {
+    if (!live) return;
+    if (live.length) strokes.push(live);
+    live = null;
+    draw();
+  };
+  pad.addEventListener('pointerup', endStroke);
+  pad.addEventListener('pointercancel', endStroke);
+  pad.addEventListener('pointerleave', endStroke);
+
+  // ── 채점 ──────────────────────────────────────────────────────
+  function check() {
+    if (advancing || !queue[qPos]) return;
+    if (!strokes.length) { setScore('먼저 글자를 써 볼 것.', false); return; }
+
+    const thin = bakeInk(PEN);          // 삐짐 판정 — 실제로 그은 굵기 그대로
+    if (thin.total < coreTotal * MIN_INK) { setScore('획이 너무 짧다.', false); return; }
+    const fat = bakeInk(COVER_PEN);     // 덮음 판정 — 가이드 획 두께만큼 부풀려서
+
+    let coreHit = 0, inkOut = 0;
+    for (let i = 0; i < S * S; i++) {
+      if (maskCore[i] && fat.ink[i]) coreHit++;
+      if (thin.ink[i] && !maskTol[i]) inkOut++;
+    }
+    const cov = coreTotal ? coreHit / coreTotal : 0;
+    const spill = thin.total ? inkOut / thin.total : 1;
+    const ok = cov >= PASS_COV && spill <= PASS_SPILL;
+
+    setScore(`덮음 <b>${Math.round(cov * 100)}%</b> · 삐짐 <b>${Math.round(spill * 100)}%</b>`, ok);
+
+    if (!ok) {
+      charDirty = true;
+      failStreak++;
+      if (failStreak >= 2 && rescue < 2) { rescue++; failStreak = 0; }
+      pad.classList.add('shake');
+      setTimeout(() => pad.classList.remove('shake'), 300);
+      draw();
+      return;
+    }
+    finishChar();
+  }
+
+  function setScore(html, pass) {
+    const el = $('score');
+    el.innerHTML = html;
+    el.classList.toggle('pass', !!pass);
+  }
+
+  function finishChar() {
+    if (advancing) return;
+    advancing = true;
+    const cur = queue[qPos];
+    const st = rec(DATA.sets[setIdx].id, cur.k);
+    if (charDirty) { st.miss++; st.ok = Math.max(0, st.ok - 1); missedThisSession.push(cur); }
+    else st.ok++;
+    save();
+    draw();
+    advanceTimer = setTimeout(() => { advancing = false; qPos++; loadChar(); }, 480);
+  }
+
+  // ── 진행 ──────────────────────────────────────────────────────
+  function loadChar() {
+    strokes = []; live = null;
+    charDirty = false; rescue = 0; failStreak = 0; hintUntil = 0;
+    setScore('', false);
+
+    if (qPos >= queue.length) { showDone(); return; }
+    const cur = queue[qPos];
+    buildMask(cur.k, cur.family);
+    renderPrompt();
+    renderProgress();
+    draw();
+  }
+
+  function renderPrompt() {
+    const cur = queue[qPos];
+    const isCursive = cur.font === 'cursive';
+    $('g-print').textContent = cur.k;
+    $('g-cursive').textContent = cur.k;
+    $('g-print').classList.toggle('target', !isCursive);
+    $('g-cursive').classList.toggle('target', isCursive);
+    $('name').textContent = cur.n;
+    $('romaji').textContent = cur.r === '—' ? '' : `[${cur.r}]`;
+    $('step').textContent = `${isCursive ? '필기체' : '인쇄체'}로 쓰기`;
+  }
+
+  function renderProgress() {
+    const set = DATA.sets[setIdx];
+    $('count').textContent = `${Math.min(qPos + 1, queue.length)} / ${queue.length}`;
+    $('barfill').style.width = (qPos / queue.length * 100) + '%';
+    const n = queue.filter(c => peek(set.id, c.k).ok >= 5).length;
+    $('mastery').textContent = `익힘 ${n}자`;
+  }
+
+  function showDone() {
+    $('drill').classList.add('hidden');
+    $('done').classList.remove('hidden');
+    const n = missedThisSession.length;
+    $('done-msg').textContent = n
+      ? `${queue.length}자 중 ${n}자에서 모양이 어긋났다.`
+      : `${queue.length}자 전부 한 번에 통과.`;
+    $('btn-again').classList.toggle('hidden', !n);
+    $('barfill').style.width = '100%';
+  }
+
+  function startSession(chars) {
+    clearTimeout(advanceTimer);
+    advancing = false;
+    queue = chars;
+    qPos = 0;
+    missedThisSession = [];
+    $('done').classList.add('hidden');
+    $('drill').classList.remove('hidden');
+    loadChar();
+  }
+
+  // 세트 정의 → 실제 글자 목록 (약한 글자 우선)
+  function buildSet(set) {
+    const family = set.font === 'cursive' ? CURSIVE : PRINT;
+    return DATA.letters
+      .map(L => ({
+        k: set.case === 'upper' ? L.k.toUpperCase() : L.k,
+        r: L.r, n: L.n, font: set.font, family,
+      }))
+      .map((c, i) => ({ c, i, ok: peek(set.id, c.k).ok }))
+      .sort((a, b) => a.ok - b.ok || a.i - b.i)
+      .map(x => x.c);
+  }
+
+  function selectSet(i) {
+    setIdx = i;
+    const bar = $('sets');
+    [...bar.children].forEach((b, j) => b.setAttribute('aria-pressed', String(j === i)));
+    // 칩 줄만 가로로 움직인다 — scrollIntoView를 쓰면 페이지 전체가 세로로 튄다
+    const chip = bar.children[i];
+    bar.scrollLeft = chip.offsetLeft - (bar.clientWidth - chip.offsetWidth) / 2;
+    startSession(buildSet(DATA.sets[i]));
+  }
+
+  // ── 버튼 ──────────────────────────────────────────────────────
+  $('btn-check').addEventListener('click', check);
+  $('btn-undo').addEventListener('click', () => { strokes.pop(); setScore('', false); draw(); });
+  $('btn-clear').addEventListener('click', () => { strokes = []; live = null; setScore('', false); draw(); });
+  $('btn-hint').addEventListener('click', () => { hintUntil = Date.now() + 2500; draw(); setTimeout(draw, 2600); });
+  $('btn-skip').addEventListener('click', () => { charDirty = true; finishChar(); });
+  $('btn-again').addEventListener('click', () => startSession(missedThisSession.slice()));
+  $('btn-restart').addEventListener('click', () => selectSet(setIdx));
+  window.addEventListener('resize', fitCanvas);
+
+  // ── 시작 ──────────────────────────────────────────────────────
+  const fontReady = (document.fonts
+    ? document.fonts.load('64px "Marck Script"', 'абвг').catch(() => null)
+    : Promise.resolve(null));
+
+  Promise.all([fetch('러시아어_문자_쓰기.json').then(r => r.json()), fontReady])
+    .then(([json]) => {
+      DATA = json;
+      if (document.fonts && !document.fonts.check('64px "Marck Script"')) {
+        $('fontwarn').classList.remove('hidden');
+      }
+      $('sets').innerHTML = DATA.sets
+        .map(s => `<button type="button" aria-pressed="false">${s.label}</button>`).join('');
+      [...$('sets').children].forEach((b, i) => b.addEventListener('click', () => selectSet(i)));
+      fitCanvas();
+      selectSet(0);
+    })
+    .catch(err => {
+      $('step').textContent = '데이터를 불러오지 못했습니다.';
+      console.error(err);
+    });
+})();
+</script>
+<script src="/assets/js/visit-tracker.js" defer></script>
+</body>
+</html>

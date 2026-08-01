@@ -606,9 +606,10 @@ Practice drills — spaced-repetition (SM-2) vocabulary review and stroke-order 
 </details>
 
 <details markdown="1">
-<summary><strong>Russian</strong> (2)</summary>
+<summary><strong>Russian</strong> (3)</summary>
 
 - [러시아어 알파벳](https://brain.dongwook.kim/drills/러시아어_알파벳.html)
+- [러시아어 문자 쓰기](https://brain.dongwook.kim/drills/러시아어_문자_쓰기.html)
 - [러시아어 기초 어휘](https://brain.dongwook.kim/drills/러시아어_기초_어휘.html)
 
 </details>
