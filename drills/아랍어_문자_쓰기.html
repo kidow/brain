@@ -85,7 +85,7 @@
 </head>
 <body>
   <h1>아랍어 문자 쓰기</h1>
-  <p class="subtitle">28글자를 위치별 4형태로 직접 따라 쓰는 연습. 모양이 얼마나 맞는지와 오른쪽에서 시작했는지를 채점한다.</p>
+  <p class="subtitle">28글자를 위치별 4형태로 직접 따라 쓰는 연습. 모양이 얼마나 맞는지를 채점하고, 이어 쓰는 형태는 오른쪽 연결점에서 시작했는지도 본다.</p>
 
   <div class="sets" id="sets"></div>
   <div class="sethint" id="sethint"></div>
@@ -125,9 +125,11 @@
   </div>
 
   <div class="note">
-    <strong>가이드는 익힐수록 옅어진다.</strong> 처음엔 글자가 통째로 깔리고, 맞힐수록 윤곽선만 → 시작점만 남는다.
-    두 번 연속 틀리면 한 단계 되돌아온다.<br>
-    아랍어는 <strong>오른쪽에서 왼쪽으로</strong> 쓴다. 첫 획을 글자의 오른쪽에서 시작해야 통과한다.
+    <strong>가이드는 익힐수록 옅어진다.</strong> 처음엔 글자가 통째로 깔리고, 맞힐수록 윤곽선만 → 아무것도 없이 기준선만 남는다.
+    두 번 연속 틀리면 한 단계 되돌아온다. 막히면 <strong>힌트</strong>로 잠깐 되불러올 수 있다.<br>
+    <strong>어중형·어말형</strong>은 앞 글자의 연결선이 오른쪽에서 들어오므로, 오른쪽 연결점(●)에서 시작해야 통과한다.
+    <strong>독립형·어두형</strong>은 첫 획 방향이 글자마다 달라서(예: <span class="ar">ا</span> 는 위에서 아래로 내려 긋는 한 획)
+    방향을 요구하지 않고 모양만 본다.<br>
     점(نقطة)은 몸통을 다 쓴 뒤에 찍는 것이 관례이므로, 획을 몇 번에 나눠 그어도 된다.<br>
     비연결 6글자 <span class="ar">ا د ذ ر ز و</span> 는 어두·어중형이 없어 세트에서 빠진다.
   </div>
@@ -137,7 +139,10 @@
     (Copyright © 2010–2023 Khaled Hosny and Sebastian Kosch,
     <a href="https://openfontlicense.org/" target="_blank" rel="noopener">SIL Open Font License 1.1</a>).
     위치별 형태는 Unicode Arabic Presentation Forms-B 코드포인트로 조회했다.<br>
-    획순(어느 획을 먼저 긋는지)은 공개 데이터가 없어 채점하지 않는다. 모양·시작 방향만 본다.<br>
+    획순(어느 획을 먼저, 어느 방향으로 긋는지)은 검증된 공개 데이터가 없어 채점하지 않는다.
+    글자마다 첫 획 방향이 달라서(<span class="ar">ا</span> 는 위→아래, 가로로 흐르는 글자는 오른쪽→왼쪽)
+    글자 모양만으로는 복원되지 않기 때문이다. 이 드릴이 채점하는 것은 모양과,
+    연결 구조상 확정되는 어중·어말형의 오른쪽 진입뿐이다.<br>
     진행 상태는 이 브라우저(localStorage)에만 저장된다.
   </footer>
 
@@ -151,6 +156,12 @@
   //   마구 칠하기 최대 precision 0.414, 엉뚱한 직선 최대 coverage 0.244
   const COVER_MIN = 0.55;  // 글자 영역 중 덮은 비율
   const PREC_MIN  = 0.58;  // 그은 획 중 글자(+붓 굵기 여유) 안에 든 비율
+
+  // 오른쪽에서 이어받는 형태 — 앞 글자의 연결선이 오른쪽에서 들어오므로
+  // 붓이 오른쪽에서 진입하는 것이 구조적으로 확정된다.
+  // 독립형·어두형의 첫 획 방향은 글자마다 다르고(alif는 위→아래) 검증된 공개
+  // 데이터가 없어 방향을 요구하지 않는다.
+  const RIGHT_ENTRY_SETS = ['medi', 'fina'];
   const RTL_AT    = 0.45;  // 첫 점이 글자 폭의 오른쪽 이 지점보다 오른쪽이어야
   const BRUSH_VB  = 26;    // 붓 굵기 (VB 좌표계)
   const VB        = 300;   // 내부 좌표계
@@ -253,6 +264,9 @@
     draw();
   }
 
+  const needsRightEntry = () =>
+    !!DATA && RIGHT_ENTRY_SETS.includes(DATA.sets[setIdx].id);
+
   function effectiveLevel() {
     if (Date.now() < hintUntil) return 0;
     if (!cur) return 0;
@@ -288,21 +302,24 @@
       ctx.stroke(cur.path);
     }
 
-    // 시작점 배지 — 글자의 오른쪽 끝에서 왼쪽으로 출발하라는 단서
-    const a = cur.anchor;
-    ctx.fillStyle = '#60a5fa';
-    ctx.beginPath();
-    ctx.arc(a.x, a.y, 7, 0, Math.PI * 2);
-    ctx.fill();
-    ctx.strokeStyle = '#60a5fa';
-    ctx.lineWidth = 2;
-    ctx.beginPath();
-    ctx.moveTo(a.x - 10, a.y);
-    ctx.lineTo(a.x - 26, a.y);
-    ctx.moveTo(a.x - 20, a.y - 5);
-    ctx.lineTo(a.x - 26, a.y);
-    ctx.lineTo(a.x - 20, a.y + 5);
-    ctx.stroke();
+    // 연결 진입점 — 어중·어말형만. 앞 글자의 연결선이 오른쪽에서 들어온다.
+    if (needsRightEntry()) {
+      const a = cur.anchor;
+      ctx.fillStyle = '#60a5fa';
+      ctx.beginPath();
+      ctx.arc(a.x, a.y, 7, 0, Math.PI * 2);
+      ctx.fill();
+      // 오른쪽 바깥에서 글자 쪽(왼쪽)으로 들어오는 화살표
+      ctx.strokeStyle = '#60a5fa';
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      ctx.moveTo(a.x + 30, a.y);
+      ctx.lineTo(a.x + 12, a.y);
+      ctx.moveTo(a.x + 18, a.y - 5);
+      ctx.lineTo(a.x + 12, a.y);
+      ctx.lineTo(a.x + 18, a.y + 5);
+      ctx.stroke();
+    }
 
     // 사용자 획
     ctx.strokeStyle = '#60a5fa';
@@ -389,10 +406,10 @@
     const { coverage, precision, ink } = measure();
     const [bx0, , bx1] = cur.bbox;
     const first = strokes[0][0];
-    const rtlOK = first.x >= bx0 + (bx1 - bx0) * RTL_AT;
+    const entryOK = !needsRightEntry() || first.x >= bx0 + (bx1 - bx0) * RTL_AT;
 
     const pct = Math.round(coverage * 100);
-    if (!rtlOK) return fail(`오른쪽에서 시작하세요. (모양 ${pct}%)`);
+    if (!entryOK) return fail(`오른쪽 연결점에서 시작하세요. (모양 ${pct}%)`);
     if (coverage < COVER_MIN) return fail(`덜 채워졌습니다 — 모양 ${pct}%`);
     if (precision < PREC_MIN) return fail(`선이 글자 밖으로 많이 벗어났습니다. (모양 ${pct}%)`);
 
