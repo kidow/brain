@@ -599,8 +599,9 @@ brain/
 </details>
 
 <details markdown="1">
-<summary><strong>아랍어</strong> (1)</summary>
+<summary><strong>아랍어</strong> (2)</summary>
 
+- [아랍어 문자 쓰기](https://brain.dongwook.kim/drills/아랍어_문자_쓰기.html)
 - [아랍어 기초 어휘](https://brain.dongwook.kim/drills/아랍어_기초_어휘.html)
 
 </details>
