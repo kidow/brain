@@ -571,7 +571,7 @@ Practice drills — spaced-repetition (SM-2) vocabulary review and stroke-order 
 - [가타카나](https://brain.dongwook.kim/drills/일본어_가타카나.html)
 - [가타카나 탁음·반탁음](https://brain.dongwook.kim/drills/일본어_가타카나_탁음.html)
 - [가타카나 요음](https://brain.dongwook.kim/drills/일본어_가타카나_요음.html)
-- [일본어 가나 쓰기](https://brain.dongwook.kim/drills/일본어_가나_쓰기.html)
+- [일본어 문자 쓰기](https://brain.dongwook.kim/drills/일본어_문자_쓰기.html)
 - [일본어 기초 어휘](https://brain.dongwook.kim/drills/일본어_기초_어휘.html)
 
 </details>

@@ -9,7 +9,7 @@
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#ffffff">
-  <title>일본어 가나 쓰기</title>
+  <title>일본어 문자 쓰기</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
@@ -42,7 +42,10 @@
     }
     .prompt .mini { width: 46px; height: 46px; flex: none; }
     .prompt .mini path { fill: none; stroke: #334155; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
-    .prompt .info .romaji { font-size: 1.3rem; font-weight: 700; color: #e2e8f0; letter-spacing: .02em; }
+    .prompt .info { max-width: 260px; }
+    .prompt .info .romaji { font-size: 1.15rem; font-weight: 700; color: #e2e8f0; letter-spacing: .02em; line-height: 1.35; }
+    .prompt .info .reading { font-size: 0.85rem; color: #60a5fa; }
+    .prompt .info .reading:empty { display: none; }
     .prompt .info .step { font-size: 0.78rem; color: #94a3b8; }
 
     /* 캔버스 */
@@ -90,8 +93,8 @@
   </style>
 </head>
 <body>
-  <h1>일본어 가나 쓰기</h1>
-  <p class="subtitle">획순대로 직접 써 보는 연습. 획 하나하나를 시작점·방향까지 채점한다.</p>
+  <h1>일본어 문자 쓰기</h1>
+  <p class="subtitle">가나·한자를 획순대로 직접 써 보는 연습. 획 하나하나를 시작점·방향까지 채점한다.</p>
 
   <div class="sets" id="sets"></div>
 
@@ -106,6 +109,7 @@
       <svg class="mini" id="mini" viewBox="0 0 109 109" aria-hidden="true"></svg>
       <div class="info">
         <div class="romaji" id="romaji">—</div>
+        <div class="reading" id="reading"></div>
         <div class="step" id="step">준비 중</div>
       </div>
     </div>
@@ -132,9 +136,11 @@
   </div>
 
   <footer>
-    획순 데이터 출처 — <a href="https://github.com/KanjiVG/kanjivg" target="_blank" rel="noopener">KanjiVG</a>
+    획순 데이터 — <a href="https://github.com/KanjiVG/kanjivg" target="_blank" rel="noopener">KanjiVG</a>
     (Copyright © 2009–2011 Ulrich Apel, <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener">CC BY-SA 3.0</a>).
-    이 페이지가 쓰는 획 데이터는 KanjiVG의 파생물이며 동일 조건으로 배포된다.<br>
+    한자 뜻·읽기 — <a href="http://www.edrdg.org/wiki/index.php/KANJIDIC_Project" target="_blank" rel="noopener">KANJIDIC2</a>
+    (© <a href="http://www.edrdg.org/" target="_blank" rel="noopener">EDRDG</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>).
+    두 데이터의 파생물은 각각 동일 조건으로 배포된다.<br>
     진행 상태는 이 브라우저(localStorage)에만 저장된다.
   </footer>
 
@@ -403,6 +409,7 @@
     const cur = queue[qPos];
     $('mini').innerHTML = cur.s.map(d => `<path d="${d}"/>`).join('');
     $('romaji').textContent = cur.r;
+    $('reading').textContent = cur.r2 || '';   // 한자는 훈독·음독을 함께 보여준다
     $('step').textContent = `${strokeIdx + 1}획째 / 총 ${cur.s.length}획`;
   }
 
@@ -447,6 +454,8 @@
   function selectSet(i) {
     setIdx = i;
     [...$('sets').children].forEach((b, j) => b.setAttribute('aria-pressed', String(j === i)));
+    // 세트가 많아 가로 스크롤되므로 선택한 칩을 시야로 끌어온다
+    $('sets').children[i].scrollIntoView({ block: 'nearest', inline: 'center' });
     startSession(ordered(DATA.sets[i]));
   }
 
@@ -463,7 +472,7 @@
   window.addEventListener('resize', fitCanvas);
 
   // ── 시작 ──────────────────────────────────────────────────────
-  fetch('일본어_가나_쓰기.json')
+  fetch('일본어_문자_쓰기.json')
     .then(r => r.json())
     .then(json => {
       DATA = json;
