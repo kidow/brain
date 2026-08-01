@@ -149,10 +149,13 @@
   'use strict';
 
   // ── 판정 파라미터 (실측 튜닝 지점) ─────────────────────────────
-  const TOL_RATIO   = 0.45;  // 허용 반경 = 획 길이 × 이 값
-  const TOL_MIN     = 10;    // 허용 반경 하한 (109 좌표계)
-  const TOL_MAX     = 24;    // 허용 반경 상한
-  const LEN_MIN     = 0.35;  // 사용자 획 길이 ≥ 참조 길이 × 이 값
+  // 시작·끝점만 보던 방식은 て처럼 꼬리가 긴 획에서 마지막 장식까지
+  // 완주할 것을 요구해 지나치게 빡빡했다. 궤적 전체를 등간격으로
+  // 다시 뽑아 평균 어긋남으로 판정한다.
+  const SAMPLES     = 32;    // 획을 몇 등분해 비교할지
+  const DEV_RATIO   = 0.30;  // 허용 평균 어긋남 = 획 길이 × 이 값
+  const DEV_MIN     = 8;     // 허용 하한 (109 좌표계) — 짧고 조밀한 한자 획용
+  const DEV_MAX     = 18;    // 허용 상한 — 긴 획이 무한정 느슨해지지 않게
   const RESCUE_AT   = 2;     // 같은 획 n회 연속 실패 시 가이드 구제
   const VB          = 109;   // KanjiVG viewBox
   const STORE_KEY   = 'kana-write-v1';
@@ -213,10 +216,15 @@
     const t1 = Math.min(Math.max(len * 0.25, 20), len);
     const c0 = p.getPointAtLength(t0);
     const c1 = p.getPointAtLength(t1);
+    // 판정용: 획을 길이 기준 등간격으로 다시 뽑아둔다
+    const pts = Array.from({ length: SAMPLES + 1 }, (_, i) => {
+      const q = p.getPointAtLength(len * i / SAMPLES);
+      return { x: q.x, y: q.y };
+    });
     geomSvg.removeChild(p);
-    const tol = Math.min(TOL_MAX, Math.max(TOL_MIN, len * TOL_RATIO));
+    const tol = Math.min(DEV_MAX, Math.max(DEV_MIN, len * DEV_RATIO));
     return {
-      d, len, tol,
+      d, len, tol, pts,
       start: { x: a.x, y: a.y },
       end: { x: b.x, y: b.y },
       cue: t1 > t0 ? { a: { x: c0.x, y: c0.y }, b: { x: c1.x, y: c1.y } } : null,
@@ -225,7 +233,32 @@
   }
 
   const dist = (a, b) => Math.hypot(a.x - b.x, a.y - b.y);
-  const polyLen = pts => pts.reduce((s, p, i) => i ? s + dist(pts[i - 1], p) : 0, 0);
+
+  /** 불규칙하게 찍힌 포인터 좌표를 길이 기준 등간격 n+1개로 다시 뽑는다. */
+  function resample(pts, n) {
+    const seg = [];
+    let total = 0;
+    for (let i = 1; i < pts.length; i++) {
+      const d = dist(pts[i - 1], pts[i]);
+      seg.push(d);
+      total += d;
+    }
+    if (total === 0) return Array.from({ length: n + 1 }, () => ({ ...pts[0] }));
+
+    const out = [];
+    let i = 1, acc = 0;
+    for (let k = 0; k <= n; k++) {
+      const target = total * k / n;
+      while (i < pts.length && acc + seg[i - 1] < target) { acc += seg[i - 1]; i++; }
+      if (i >= pts.length) { out.push({ ...pts[pts.length - 1] }); continue; }
+      const t = seg[i - 1] ? (target - acc) / seg[i - 1] : 0;
+      out.push({
+        x: pts[i - 1].x + (pts[i].x - pts[i - 1].x) * t,
+        y: pts[i - 1].y + (pts[i].y - pts[i - 1].y) * t,
+      });
+    }
+    return out;
+  }
 
   // ── 렌더 ──────────────────────────────────────────────────────
   function fitCanvas() {
@@ -362,9 +395,19 @@
   // ── 채점 ──────────────────────────────────────────────────────
   function judge(pts) {
     const ref = refs[strokeIdx];
-    const ok = dist(pts[0], ref.start) <= ref.tol
-            && dist(pts[pts.length - 1], ref.end) <= ref.tol
-            && polyLen(pts) >= ref.len * LEN_MIN;
+    const user = resample(pts, SAMPLES);
+
+    let sum = 0;
+    for (let i = 0; i <= SAMPLES; i++) sum += dist(user[i], ref.pts[i]);
+    const deviation = sum / (SAMPLES + 1);
+
+    // 방향 가드: 평균 어긋남만 보면 짧은 직선 획을 거꾸로 그어도
+    // 오차가 길이의 절반뿐이라 통과해버린다. 필순 방향은 별도로 못 박는다.
+    const head = user[0], tail = user[SAMPLES];
+    const forward = dist(head, ref.start) < dist(head, ref.end)
+                 && dist(tail, ref.end) < dist(tail, ref.start);
+
+    const ok = deviation <= ref.tol && forward;
 
     if (!ok) {
       charDirty = true;
