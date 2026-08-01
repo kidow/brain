@@ -128,8 +128,9 @@
     <strong>가이드는 익힐수록 옅어진다.</strong> 처음엔 글자가 통째로 깔리고, 맞힐수록 윤곽선만 → 아무것도 없이 기준선만 남는다.
     두 번 연속 틀리면 한 단계 되돌아온다. 막히면 <strong>힌트</strong>로 잠깐 되불러올 수 있다.<br>
     <strong>어중형·어말형</strong>은 앞 글자의 연결선이 오른쪽에서 들어오므로, 오른쪽 연결점(●)에서 시작해야 통과한다.
-    <strong>독립형·어두형</strong>은 첫 획 방향이 글자마다 달라서(예: <span class="ar">ا</span> 는 위에서 아래로 내려 긋는 한 획)
-    방향을 요구하지 않고 모양만 본다.<br>
+    <strong>독립형·어두형</strong>은 첫 획 방향이 글자마다 다르다. 교재가 시작점을 분명히 밝힌 글자
+    (<span class="ar">ا</span>·<span class="ar">ح</span>)만 <span style="color:#22c55e">초록 점</span>으로 시작 위치를 보여 주고,
+    근거를 못 찾은 글자는 표시하지 않는다 — 추측해서 잘못 가르치지 않기 위함이다.<br>
     점(نقطة)은 몸통을 다 쓴 뒤에 찍는 것이 관례이므로, 획을 몇 번에 나눠 그어도 된다.
     <strong>손을 떼고 잠깐 기다리면 저절로 채점해 넘어간다</strong> — 아직 모자랄 땐 아무 말 없이 기다리므로
     이어서 점을 찍으면 된다. 왜 통과가 안 되는지 알고 싶을 때만 <strong>채점</strong>을 누른다.<br>
@@ -142,9 +143,13 @@
     <a href="https://openfontlicense.org/" target="_blank" rel="noopener">SIL Open Font License 1.1</a>).
     위치별 형태는 Unicode Arabic Presentation Forms-B 코드포인트로 조회했다.<br>
     획순(어느 획을 먼저, 어느 방향으로 긋는지)은 검증된 공개 데이터가 없어 채점하지 않는다.
-    글자마다 첫 획 방향이 달라서(<span class="ar">ا</span> 는 위→아래, 가로로 흐르는 글자는 오른쪽→왼쪽)
-    글자 모양만으로는 복원되지 않기 때문이다. 이 드릴이 채점하는 것은 모양과,
-    연결 구조상 확정되는 어중·어말형의 오른쪽 진입뿐이다.<br>
+    글자마다 첫 획 방향이 달라서(<span class="ar">ا</span> 는 위→아래) 글자 모양만으로는 복원되지 않는다.
+    학습 자료를 뒤져 시작점을 명시한 글자만 초록 점으로 표시했고, 근거는 아래와 같다 —
+    <a href="https://arabiclearningcentre.com/blog/letter-alif-in-arabic/" target="_blank" rel="noopener">alif</a>
+    ("pen slightly above the writing line … straight downward line"),
+    <a href="https://arabiclearningcentre.com/blog/letter-haa-in-arabic/" target="_blank" rel="noopener">ḥāʾ</a>
+    ("a rounded curve starting from the top right").
+    나머지 글자는 근거를 찾지 못해 비워 두었다. 채점하는 것은 모양·점·어중어말형의 오른쪽 진입뿐이다.<br>
     진행 상태는 이 브라우저(localStorage)에만 저장된다.
   </footer>
 
@@ -270,7 +275,7 @@
       g.fill(path); g.stroke(path);
     });
 
-    // 시작점 배지 위치 — 글자의 실제 오른쪽 끝(허공이 아니라 획 위)에 붙인다
+    // 연결 진입점 — 글자의 실제 오른쪽 끝(허공이 아니라 획 위)에 붙인다
     let rx = -1, ry = 0;
     for (let x = MASK - 1; x >= 0 && rx < 0; x--) {
       const ys = [];
@@ -281,9 +286,23 @@
       ? { x: bx1, y: (by0 + by1) / 2 }
       : { x: rx / MASK * VB, y: ry / MASK * VB };
 
+    // 첫 획 시작점 — 출처가 명시한 글자만. 기호를 글자 모양 위 좌표로 푼다.
+    let writeCue = null;
+    if (ch.w) {
+      const at = (pred) => {
+        for (const i of pred()) if (fill.arr[i]) return { x: (i % MASK) / MASK * VB, y: ((i / MASK) | 0) / MASK * VB };
+        return null;
+      };
+      const rows = f => { const o = []; for (let y = 0; y < MASK; y++) for (let x = 0; x < MASK; x++) o.push(f(x, y)); return o; };
+      const pt = ch.w.start === 'top'
+        ? at(() => rows((x, y) => y * MASK + x))                       // 최상단, 좌→우 첫 픽셀
+        : at(() => rows((x, y) => y * MASK + (MASK - 1 - x)));          // 최상단 중 가장 오른쪽 = topRight
+      if (pt) writeCue = { ...pt, dir: ch.w.dir };
+    }
+
     return {
       ch, path, mask: fill.arr, area: fill.n, near: dil.arr,
-      comp, compArea, bbox: [bx0, by0, bx1, by1], anchor,
+      comp, compArea, bbox: [bx0, by0, bx1, by1], anchor, writeCue,
     };
   }
 
@@ -332,6 +351,24 @@
       ctx.strokeStyle = '#2c3e57';
       ctx.lineWidth = 2;
       ctx.stroke(cur.path);
+    }
+
+    // 첫 획 시작점 — 출처가 있는 글자만. 아래로 긋는 글자는 아래 방향 화살표.
+    if (cur.writeCue) {
+      const w = cur.writeCue;
+      ctx.fillStyle = '#22c55e';
+      ctx.beginPath();
+      ctx.arc(w.x, w.y, 7, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.strokeStyle = '#22c55e';
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      ctx.moveTo(w.x, w.y + 11);
+      ctx.lineTo(w.x, w.y + 30);
+      ctx.moveTo(w.x - 5, w.y + 24);
+      ctx.lineTo(w.x, w.y + 30);
+      ctx.lineTo(w.x + 5, w.y + 24);
+      ctx.stroke();
     }
 
     // 연결 진입점 — 어중·어말형만. 앞 글자의 연결선이 오른쪽에서 들어온다.
