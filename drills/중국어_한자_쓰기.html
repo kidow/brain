@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#ffffff">
+  <title>중국어 한자 쓰기</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #0f172a; color: #e2e8f0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 14px; line-height: 1.6;
+      max-width: 800px; margin: 0 auto; padding: 1.5rem 1.25rem;
+    }
+    h1 { font-size: 1.5rem; color: #60a5fa; margin-bottom: 0.25rem; }
+    .subtitle { color: #94a3b8; margin-bottom: 1.25rem; font-size: 0.85rem; }
+
+    /* 세트 선택 */
+    .sets { display: flex; gap: 0.4rem; overflow-x: auto; padding-bottom: 0.5rem; margin-bottom: 1rem; }
+    .sets button {
+      flex: none; font: inherit; font-size: 0.8rem; white-space: nowrap;
+      padding: 0.4rem 0.75rem; border-radius: 999px;
+      border: 1px solid #334155; background: #1e293b; color: #94a3b8; cursor: pointer;
+    }
+    .sets button[aria-pressed="true"] { border-color: #60a5fa; color: #60a5fa; }
+
+    /* 진행 */
+    .progress { display: flex; align-items: center; gap: 0.6rem; margin-bottom: 1rem; font-size: 0.78rem; color: #94a3b8; }
+    .bar { flex: 1; height: 4px; border-radius: 2px; background: #1e293b; overflow: hidden; }
+    .bar i { display: block; height: 100%; background: #60a5fa; width: 0; transition: width .25s; }
+
+    /* 프롬프트 */
+    .prompt {
+      display: flex; align-items: center; justify-content: center; gap: 0.75rem;
+      margin-bottom: 0.75rem; min-height: 56px;
+    }
+    .prompt .mini { width: 46px; height: 46px; flex: none; }
+    /* stroke-width는 viewBox 크기에 맞춰 JS가 넣는다 (CSS로 고정하면 덮어써진다) */
+    .prompt .mini path { fill: none; stroke: #334155; stroke-linecap: round; stroke-linejoin: round; }
+    .prompt .info { max-width: 260px; }
+    .prompt .info .gloss { font-size: 1.15rem; font-weight: 700; color: #e2e8f0; letter-spacing: .02em; line-height: 1.35; }
+    .prompt .info .reading { font-size: 0.85rem; color: #60a5fa; }
+    .prompt .info .reading:empty { display: none; }
+    .prompt .info .step { font-size: 0.78rem; color: #94a3b8; }
+
+    /* 캔버스 */
+    .padwrap { display: flex; justify-content: center; margin-bottom: 0.75rem; }
+    canvas {
+      width: 100%; max-width: 320px; aspect-ratio: 1;
+      border: 1px solid #334155; border-radius: 8px; background: #0f172a;
+      touch-action: none; cursor: crosshair; display: block;
+    }
+    canvas.shake { animation: shake .3s; }
+    @keyframes shake {
+      0%,100% { transform: translateX(0); }
+      25% { transform: translateX(-5px); }
+      75% { transform: translateX(5px); }
+    }
+
+    .toolbar { display: flex; gap: 0.4rem; justify-content: center; margin-bottom: 1rem; flex-wrap: wrap; }
+    .toolbar button {
+      font: inherit; font-size: 0.78rem; padding: 0.4rem 0.8rem; border-radius: 6px;
+      border: 1px solid #334155; background: #1e293b; color: #94a3b8; cursor: pointer;
+    }
+    .toolbar button:hover { border-color: #60a5fa; color: #60a5fa; }
+
+    .note {
+      background: #1e293b; border: 1px solid #334155; border-radius: 6px;
+      padding: 0.6rem 0.8rem; font-size: 0.8rem; color: #94a3b8; margin-bottom: 1rem;
+    }
+    .note strong { color: #e2e8f0; }
+
+    /* 완주 */
+    .done-panel { text-align: center; padding: 1.5rem 1rem; background: #1e293b; border: 1px solid #334155; border-radius: 10px; margin-bottom: 1rem; }
+    .done-panel h2 { color: #60a5fa; font-size: 1.15rem; margin-bottom: 0.4rem; }
+    .done-panel p { color: #94a3b8; font-size: 0.85rem; margin-bottom: 0.9rem; }
+    .done-panel button {
+      font: inherit; font-size: 0.82rem; padding: 0.45rem 0.9rem; margin: 0 0.2rem;
+      border-radius: 6px; border: 1px solid #60a5fa; background: transparent; color: #60a5fa; cursor: pointer;
+    }
+
+    footer { border-top: 1px solid #1e293b; padding-top: 0.9rem; font-size: 0.72rem; color: #94a3b8; line-height: 1.7; }
+    footer a { color: #60a5fa; }
+
+    .hidden { display: none !important; }
+    @media (max-width: 600px) { body { padding: 1rem; } }
+    @media print { body { padding: 0.5cm; } }
+  </style>
+</head>
+<body>
+  <h1>중국어 한자 쓰기</h1>
+  <p class="subtitle">노트·치트시트·HSK 어휘에 나온 간체자 771자를 획순대로 직접 써 보는 연습. 획 하나하나를 시작점·방향까지 채점한다.</p>
+
+  <div class="sets" id="sets"></div>
+
+  <div class="progress">
+    <span id="count">0 / 0</span>
+    <span class="bar"><i id="barfill"></i></span>
+    <span id="mastery"></span>
+  </div>
+
+  <div id="drill">
+    <div class="prompt">
+      <svg class="mini" id="mini" viewBox="0 0 1024 1024" aria-hidden="true"></svg>
+      <div class="info">
+        <div class="gloss" id="gloss">—</div>
+        <div class="reading" id="reading"></div>
+        <div class="step" id="step">준비 중</div>
+      </div>
+    </div>
+
+    <div class="padwrap"><canvas id="pad"></canvas></div>
+
+    <div class="toolbar">
+      <button id="btn-hint">힌트</button>
+      <button id="btn-reset">이 글자 다시</button>
+      <button id="btn-skip">건너뛰기</button>
+    </div>
+  </div>
+
+  <div class="done-panel hidden" id="done">
+    <h2>완주</h2>
+    <p id="done-msg"></p>
+    <button id="btn-again">틀린 글자만 다시</button>
+    <button id="btn-restart">세트 처음부터</button>
+  </div>
+
+  <div class="note">
+    <strong>가이드는 자동으로 옅어진다.</strong> 처음엔 글자 전체가 회색으로 깔리고,
+    맞힐수록 현재 획만 → 시작점·방향만 남는다. 같은 획을 두 번 연속 틀리면 가이드가 한 단계 되돌아온다.
+  </div>
+
+  <footer>
+    획순 데이터 — <a href="https://github.com/skishore/makemeahanzi" target="_blank" rel="noopener">Make Me a Hanzi</a>
+    (Arphic PL KaitiM GB / PL UKai 글꼴 파생, Copyright © 1999 Arphic Technology Co., Ltd.,
+    <a href="/licenses/ARPHICPL.TXT" target="_blank" rel="noopener">Arphic Public License</a>).
+    뜻·병음 — 같은 프로젝트의 dictionary.txt
+    (<a href="http://unicode.org/charts/unihan.html" target="_blank" rel="noopener">Unihan</a>·CJKlib 파생,
+    <a href="/licenses/LGPL-3.0.txt" target="_blank" rel="noopener">LGPL v3+</a>).
+    이 저장소는 원본에서 해당 한자만 추려 획 중심선(medians)을 폴리라인으로 바꾸고 Y축을 반전시켰다
+    (수정 내역은 JSON의 <code>_modifications</code> 참고). 파생물은 각각 동일 조건으로 배포된다.<br>
+    진행 상태는 이 브라우저(localStorage)에만 저장된다.
+  </footer>
+
+<script>
+(() => {
+  'use strict';
+
+  // ── 판정 파라미터 (109 좌표계 기준으로 튜닝된 값) ───────────────
+  const REF_VB      = 109;   // 이 값들이 튜닝된 원래 좌표계 (KanjiVG)
+  const TOL_RATIO   = 0.45;  // 허용 반경 = 획 길이 × 이 값
+  const TOL_MIN0    = 10;    // 허용 반경 하한
+  const TOL_MAX0    = 24;    // 허용 반경 상한
+  const LEN_MIN     = 0.35;  // 사용자 획 길이 ≥ 참조 길이 × 이 값 (비율이라 스케일 무관)
+  const RESCUE_AT   = 2;     // 같은 획 n회 연속 실패 시 가이드 구제
+  const STORE_KEY   = 'hanzi-write-v1';
+
+  // ── 좌표계 (JSON의 viewBox에서 읽어 배율만 맞춘다) ──────────────
+  // makemeahanzi는 1024 좌표계라 109 기준으로 튜닝된 길이값을 그대로 쓰면 안 된다.
+  let VB = 1024, K = VB / REF_VB;
+  let TOL_MIN, TOL_MAX, INK_W, BADGE_R, BADGE_F, CUE_T0, CUE_T1, ARROW;
+  function applyScale(vb) {
+    VB = vb; K = VB / REF_VB;
+    TOL_MIN = TOL_MIN0 * K;  TOL_MAX = TOL_MAX0 * K;
+    INK_W   = 4.5 * K;       BADGE_R = 6 * K;   BADGE_F = 8 * K;
+    CUE_T0  = 7 * K;         CUE_T1  = 20 * K;  ARROW   = 5 * K;
+    geomSvg.setAttribute('viewBox', `0 0 ${VB} ${VB}`);
+    const mini = $('mini');
+    mini.setAttribute('viewBox', `0 0 ${VB} ${VB}`);
+    mini.setAttribute('stroke-width', String(5 * K));
+  }
+
+  // 숙련도 → 가이드 레벨 (0=전체 유령, 1=현재 획만, 2=시작점만)
+  const guideLevel = ok => (ok < 2 ? 0 : ok < 5 ? 1 : 2);
+
+  // ── 상태 ──────────────────────────────────────────────────────
+  let DATA = null;
+  let setIdx = 0;
+  let queue = [];        // 이번 세션에 풀 글자들
+  let qPos = 0;
+  let strokeIdx = 0;     // 현재 글자에서 그을 획 번호
+  let refs = [];         // 현재 글자 획들의 기하 정보
+  let inkDone = [];      // 이번 글자에서 이미 통과한 사용자 획들
+  let inkLive = null;    // 그리는 중인 획
+  let failStreak = 0;    // 같은 획 연속 실패
+  let charDirty = false; // 이번 글자에서 한 번이라도 틀렸는가
+  let rescue = 0;        // 임시 가이드 구제 단계
+  let hintUntil = 0;     // 힌트 만료 시각
+  let advancing = false; // 다음 글자로 넘어가는 중 (중복 진행 방지)
+  let advanceTimer = 0;  // 진행 예약 타이머 (세션 전환 시 끊는다)
+  let missedThisSession = [];
+  let penLocked = false; // pen 감지되면 touch 무시
+
+  const store = JSON.parse(localStorage.getItem(STORE_KEY) || '{}');
+  const save = () => localStorage.setItem(STORE_KEY, JSON.stringify(store));
+  const BLANK = { ok: 0, miss: 0 };
+  // 읽기 전용 — 저장소에 엔트리를 만들지 않는다 (정렬·집계용)
+  const peek = (setId, k) => (store[setId] && store[setId][k]) || BLANK;
+  // 쓰기용 — 실제로 기록할 때만 엔트리를 만든다
+  const rec = (setId, k) => {
+    store[setId] = store[setId] || {};
+    store[setId][k] = store[setId][k] || { ok: 0, miss: 0 };
+    return store[setId][k];
+  };
+
+  // ── DOM ───────────────────────────────────────────────────────
+  const $ = id => document.getElementById(id);
+  const pad = $('pad');
+  const ctx = pad.getContext('2d');
+  const geomSvg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+  geomSvg.style.cssText = 'position:absolute;width:0;height:0;overflow:hidden';
+  document.body.appendChild(geomSvg);
+  applyScale(VB);
+
+  // ── 기하: SVG path에서 시작점·끝점·길이 뽑기 ───────────────────
+  function measure(d) {
+    const p = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+    p.setAttribute('d', d);
+    geomSvg.appendChild(p);
+    const len = p.getTotalLength();
+    const a = p.getPointAtLength(0);
+    const b = p.getPointAtLength(len);
+    // 방향 화살표용 두 점 — 시작점 배지 바깥에서 출발해야 가려지지 않는다
+    const t0 = Math.min(CUE_T0, len * 0.9);
+    const t1 = Math.min(Math.max(len * 0.4, CUE_T1), len);
+    const c0 = p.getPointAtLength(t0);
+    const c1 = p.getPointAtLength(t1);
+    geomSvg.removeChild(p);
+    const tol = Math.min(TOL_MAX, Math.max(TOL_MIN, len * TOL_RATIO));
+    return {
+      d, len, tol,
+      start: { x: a.x, y: a.y },
+      end: { x: b.x, y: b.y },
+      cue: t1 > t0 ? { a: { x: c0.x, y: c0.y }, b: { x: c1.x, y: c1.y } } : null,
+      path: new Path2D(d),
+    };
+  }
+
+  const dist = (a, b) => Math.hypot(a.x - b.x, a.y - b.y);
+  const polyLen = pts => pts.reduce((s, p, i) => i ? s + dist(pts[i - 1], p) : 0, 0);
+
+  // ── 렌더 ──────────────────────────────────────────────────────
+  function fitCanvas() {
+    const r = pad.getBoundingClientRect();
+    const dpr = window.devicePixelRatio || 1;
+    pad.width = Math.round(r.width * dpr);
+    pad.height = Math.round(r.height * dpr);
+    draw();
+  }
+
+  function effectiveLevel() {
+    if (Date.now() < hintUntil) return 0;
+    const cur = queue[qPos];
+    if (!cur) return 0;
+    const base = guideLevel(peek(DATA.sets[setIdx].id, cur.k).ok);
+    return Math.max(0, base - rescue);
+  }
+
+  function draw() {
+    const size = pad.width;
+    const s = size / VB;
+    ctx.setTransform(1, 0, 0, 1, 0, 0);
+    ctx.clearRect(0, 0, size, size);
+
+    // 田 격자
+    ctx.strokeStyle = '#334155';
+    ctx.lineWidth = Math.max(1, size / 300);
+    ctx.setLineDash([size / 40, size / 40]);
+    ctx.beginPath();
+    ctx.moveTo(size / 2, 0); ctx.lineTo(size / 2, size);
+    ctx.moveTo(0, size / 2); ctx.lineTo(size, size / 2);
+    ctx.stroke();
+    ctx.setLineDash([]);
+
+    if (!refs.length) return;
+    ctx.setTransform(s, 0, 0, s, 0, 0);
+    ctx.lineCap = 'round';
+    ctx.lineJoin = 'round';
+
+    const lvl = effectiveLevel();
+
+    // 유령 획
+    ctx.strokeStyle = '#334155';
+    ctx.lineWidth = INK_W;
+    if (lvl === 0) {
+      refs.forEach((r, i) => { if (i >= strokeIdx) ctx.stroke(r.path); });
+    } else if (lvl === 1 && refs[strokeIdx]) {
+      ctx.stroke(refs[strokeIdx].path);
+    }
+
+    // 이미 통과한 사용자 획
+    ctx.strokeStyle = '#60a5fa';
+    ctx.lineWidth = INK_W;
+    inkDone.forEach(pts => strokePts(pts));
+
+    // 현재 획 단서 (시작점 + 방향)
+    const cur = refs[strokeIdx];
+    if (cur) {
+      ctx.fillStyle = '#60a5fa';
+      ctx.beginPath();
+      ctx.arc(cur.start.x, cur.start.y, BADGE_R, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.fillStyle = '#0f172a';
+      ctx.font = `bold ${BADGE_F}px -apple-system, sans-serif`;
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      ctx.fillText(String(strokeIdx + 1), cur.start.x, cur.start.y);
+
+      // 획 모양을 감춘 단계에서는 방향 화살표가 유일한 단서다 — 배지 위에 그린다
+      if (lvl === 2 && cur.cue) {
+        const { a, b } = cur.cue;
+        const ang = Math.atan2(b.y - a.y, b.x - a.x);
+        ctx.strokeStyle = '#60a5fa';
+        ctx.lineWidth = 2 * K;
+        ctx.beginPath();
+        ctx.moveTo(a.x, a.y);
+        ctx.lineTo(b.x, b.y);
+        ctx.moveTo(b.x - ARROW * Math.cos(ang - 0.5), b.y - ARROW * Math.sin(ang - 0.5));
+        ctx.lineTo(b.x, b.y);
+        ctx.lineTo(b.x - ARROW * Math.cos(ang + 0.5), b.y - ARROW * Math.sin(ang + 0.5));
+        ctx.stroke();
+      }
+    }
+
+    // 그리는 중
+    if (inkLive && inkLive.length > 1) {
+      ctx.strokeStyle = '#93c5fd';
+      ctx.lineWidth = INK_W;
+      strokePts(inkLive);
+    }
+  }
+
+  function strokePts(pts) {
+    ctx.beginPath();
+    ctx.moveTo(pts[0].x, pts[0].y);
+    for (let i = 1; i < pts.length; i++) ctx.lineTo(pts[i].x, pts[i].y);
+    ctx.stroke();
+  }
+
+  // ── 입력 ──────────────────────────────────────────────────────
+  const toVB = e => {
+    const r = pad.getBoundingClientRect();
+    return { x: (e.clientX - r.left) / r.width * VB, y: (e.clientY - r.top) / r.height * VB };
+  };
+
+  pad.addEventListener('pointerdown', e => {
+    if (!refs.length || qPos >= queue.length) return;
+    if (e.pointerType === 'pen') penLocked = true;
+    else if (penLocked) return;            // 펜 감지 후엔 손바닥·손가락 무시
+    pad.setPointerCapture(e.pointerId);
+    inkLive = [toVB(e)];
+    draw();
+  });
+
+  pad.addEventListener('pointermove', e => {
+    if (!inkLive) return;
+    if (penLocked && e.pointerType !== 'pen') return;
+    inkLive.push(toVB(e));
+    draw();
+  });
+
+  const endStroke = () => {
+    if (!inkLive) return;
+    const pts = inkLive;
+    inkLive = null;
+    if (pts.length < 2) { draw(); return; }
+    judge(pts);
+  };
+  pad.addEventListener('pointerup', endStroke);
+  pad.addEventListener('pointercancel', endStroke);
+  pad.addEventListener('pointerleave', endStroke);
+
+  // ── 채점 ──────────────────────────────────────────────────────
+  function judge(pts) {
+    const ref = refs[strokeIdx];
+    const ok = dist(pts[0], ref.start) <= ref.tol
+            && dist(pts[pts.length - 1], ref.end) <= ref.tol
+            && polyLen(pts) >= ref.len * LEN_MIN;
+
+    if (!ok) {
+      charDirty = true;
+      failStreak++;
+      if (failStreak >= RESCUE_AT && rescue < 2) { rescue++; failStreak = 0; }
+      pad.classList.add('shake');
+      setTimeout(() => pad.classList.remove('shake'), 300);
+      draw();
+      return;
+    }
+
+    inkDone.push(pts);
+    strokeIdx++;
+    failStreak = 0;
+    if (strokeIdx >= refs.length) finishChar();
+    else { renderPrompt(); draw(); }
+  }
+
+  function finishChar() {
+    if (advancing) return;   // 연타·중복 호출로 글자를 건너뛰지 않도록 잠근다
+    advancing = true;
+    const cur = queue[qPos];
+    const st = rec(DATA.sets[setIdx].id, cur.k);
+    if (charDirty) { st.miss++; st.ok = Math.max(0, st.ok - 1); missedThisSession.push(cur); }
+    else st.ok++;
+    save();
+    draw();
+    advanceTimer = setTimeout(() => { advancing = false; qPos++; loadChar(); }, 420);
+  }
+
+  // ── 진행 ──────────────────────────────────────────────────────
+  function loadChar() {
+    strokeIdx = 0; inkDone = []; inkLive = null;
+    failStreak = 0; charDirty = false; rescue = 0; hintUntil = 0;
+
+    if (qPos >= queue.length) { showDone(); return; }
+    refs = queue[qPos].s.map(measure);
+    renderPrompt();
+    renderProgress();
+    draw();
+  }
+
+  function renderPrompt() {
+    const cur = queue[qPos];
+    $('mini').innerHTML = cur.s.map(d => `<path d="${d}"/>`).join('');
+    $('gloss').textContent = cur.r;
+    $('reading').textContent = cur.r2 || '';   // 병음
+    $('step').textContent = `${strokeIdx + 1}획째 / 총 ${cur.s.length}획`;
+  }
+
+  function renderProgress() {
+    const set = DATA.sets[setIdx];
+    $('count').textContent = `${Math.min(qPos + 1, queue.length)} / ${queue.length}`;
+    $('barfill').style.width = (qPos / queue.length * 100) + '%';
+    const rows = set.chars.map(c => peek(set.id, c.k));
+    $('mastery').textContent = `익힘 ${rows.filter(r => r.ok >= 5).length}자`;
+  }
+
+  function showDone() {
+    $('drill').classList.add('hidden');
+    $('done').classList.remove('hidden');
+    const n = missedThisSession.length;
+    $('done-msg').textContent = n
+      ? `${queue.length}자 중 ${n}자에서 획을 틀렸다.`
+      : `${queue.length}자 전부 한 번에 통과.`;
+    $('btn-again').classList.toggle('hidden', !n);
+    $('barfill').style.width = '100%';
+  }
+
+  function startSession(chars) {
+    clearTimeout(advanceTimer);
+    advancing = false;
+    queue = chars;
+    qPos = 0;
+    missedThisSession = [];
+    $('done').classList.add('hidden');
+    $('drill').classList.remove('hidden');
+    loadChar();
+  }
+
+  // 약한 글자 우선 (성공 횟수 오름차순, 동률이면 원래 순서)
+  function ordered(set) {
+    return set.chars
+      .map((c, i) => ({ c, i, ok: peek(set.id, c.k).ok }))
+      .sort((a, b) => a.ok - b.ok || a.i - b.i)
+      .map(x => x.c);
+  }
+
+  function selectSet(i) {
+    setIdx = i;
+    [...$('sets').children].forEach((b, j) => b.setAttribute('aria-pressed', String(j === i)));
+    // 세트가 많아 가로 스크롤되므로 선택한 칩을 시야로 끌어온다
+    $('sets').children[i].scrollIntoView({ block: 'nearest', inline: 'center' });
+    startSession(ordered(DATA.sets[i]));
+  }
+
+  // ── 버튼 ──────────────────────────────────────────────────────
+  $('btn-hint').addEventListener('click', () => { hintUntil = Date.now() + 2500; draw(); setTimeout(draw, 2600); });
+  $('btn-reset').addEventListener('click', () => {
+    strokeIdx = 0; inkDone = []; inkLive = null; failStreak = 0; rescue = 0;
+    renderPrompt(); draw();
+  });
+  $('btn-skip').addEventListener('click', () => { charDirty = true; finishChar(); });
+  $('btn-again').addEventListener('click', () => startSession(missedThisSession.slice()));
+  $('btn-restart').addEventListener('click', () => selectSet(setIdx));
+
+  window.addEventListener('resize', fitCanvas);
+
+  // ── 시작 ──────────────────────────────────────────────────────
+  fetch('중국어_한자_쓰기.json')
+    .then(r => r.json())
+    .then(json => {
+      DATA = json;
+      const vb = Number((DATA.viewBox || '').split(/\s+/)[2]);
+      if (vb > 0) applyScale(vb);
+      $('sets').innerHTML = DATA.sets
+        .map(s => `<button type="button" aria-pressed="false">${s.label}</button>`).join('');
+      [...$('sets').children].forEach((b, i) => b.addEventListener('click', () => selectSet(i)));
+      fitCanvas();
+      selectSet(0);
+    })
+    .catch(err => {
+      $('step').textContent = '데이터를 불러오지 못했습니다.';
+      console.error(err);
+    });
+})();
+</script>
+<script src="/assets/js/visit-tracker.js" defer></script>
+</body>
+</html>

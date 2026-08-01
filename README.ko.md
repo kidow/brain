@@ -577,8 +577,9 @@ brain/
 </details>
 
 <details markdown="1">
-<summary><strong>중국어</strong> (1)</summary>
+<summary><strong>중국어</strong> (2)</summary>
 
+- [중국어 한자 쓰기](https://brain.dongwook.kim/drills/중국어_한자_쓰기.html)
 - [중국어 HSK 어휘](https://brain.dongwook.kim/drills/중국어_HSK_어휘.html)
 
 </details>
