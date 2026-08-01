@@ -462,13 +462,19 @@
     loadChar();
   }
 
-  // 약한 글자 우선 (성공 횟수 오름차순, 동률이면 원래 순서)
+  // 약한 글자 우선 (성공 횟수 오름차순).
+  // 동률은 매 세션 새로 섞는다 — 순서가 고정되면 글자가 아니라 순서를 외우게 된다.
   function ordered(set) {
     return set.chars
-      .map((c, i) => ({ c, i, ok: peek(set.id, c.k).ok }))
-      .sort((a, b) => a.ok - b.ok || a.i - b.i)
+      .map(c => ({ c, ok: peek(set.id, c.k).ok, r: Math.random() }))
+      .sort((a, b) => a.ok - b.ok || a.r - b.r)
       .map(x => x.c);
   }
+
+  const shuffled = arr => arr
+    .map(c => ({ c, r: Math.random() }))
+    .sort((a, b) => a.r - b.r)
+    .map(x => x.c);
 
   function selectSet(i) {
     setIdx = i;
@@ -485,7 +491,7 @@
     renderPrompt(); draw();
   });
   $('btn-skip').addEventListener('click', () => { charDirty = true; finishChar(); });
-  $('btn-again').addEventListener('click', () => startSession(missedThisSession.slice()));
+  $('btn-again').addEventListener('click', () => startSession(shuffled(missedThisSession)));
   $('btn-restart').addEventListener('click', () => selectSet(setIdx));
 
   window.addEventListener('resize', fitCanvas);
