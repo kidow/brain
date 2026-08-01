@@ -140,6 +140,7 @@
       <button id="btn-clear">지우기</button>
       <button id="btn-hint">힌트</button>
       <button id="btn-skip">건너뛰기</button>
+      <button id="btn-next" class="primary hidden">다음 →</button>
     </div>
   </div>
 
@@ -204,8 +205,7 @@
   let rescue = 0;          // 연속 실패 시 가이드 구제 단계
   let failStreak = 0;
   let hintUntil = 0;
-  let advancing = false;
-  let advanceTimer = 0;
+  let advancing = false;   // 이 글자를 다 썼는가 (다음 버튼 대기 상태)
   let missedThisSession = [];
   let penLocked = false;
   let maskCore = null, maskTol = null, coreTotal = 0;
@@ -433,6 +433,8 @@
     el.classList.toggle('pass', !!pass);
   }
 
+  // 한 글자를 통과하면 점수만 기록하고 멈춘다. 넘어가는 건 사용자가 정한다 —
+  // 자동으로 넘기면 완성된 글자와 채점 결과를 볼 틈이 없다.
   function finishChar() {
     if (advancing) return;
     advancing = true;
@@ -442,14 +444,22 @@
     else st.ok++;
     save();
     draw();
-    advanceTimer = setTimeout(() => { advancing = false; qPos++; loadChar(); }, 480);
+    $('btn-next').classList.remove('hidden');
+  }
+
+  function advance() {
+    if (!advancing) return;
+    qPos++;
+    loadChar();
   }
 
   // ── 진행 ──────────────────────────────────────────────────────
   function loadChar() {
     strokes = []; live = null;
     charDirty = false; rescue = 0; failStreak = 0; hintUntil = 0;
+    advancing = false;
     setScore('', false);
+    $('btn-next').classList.add('hidden');
 
     if (qPos >= queue.length) { showDone(); return; }
     const cur = queue[qPos];
@@ -491,7 +501,6 @@
   }
 
   function startSession(chars) {
-    clearTimeout(advanceTimer);
     advancing = false;
     queue = chars;
     qPos = 0;
@@ -526,10 +535,13 @@
 
   // ── 버튼 ──────────────────────────────────────────────────────
   $('btn-check').addEventListener('click', check);
-  $('btn-undo').addEventListener('click', () => { strokes.pop(); setScore('', false); draw(); });
-  $('btn-clear').addEventListener('click', () => { strokes = []; live = null; setScore('', false); draw(); });
+  // 채점이 끝난 글자는 되돌리지 않는다 (점수 중복 방지)
+  $('btn-undo').addEventListener('click', () => { if (advancing) return; strokes.pop(); setScore('', false); draw(); });
+  $('btn-clear').addEventListener('click', () => { if (advancing) return; strokes = []; live = null; setScore('', false); draw(); });
   $('btn-hint').addEventListener('click', () => { hintUntil = Date.now() + 2500; draw(); setTimeout(draw, 2600); });
-  $('btn-skip').addEventListener('click', () => { charDirty = true; finishChar(); });
+  // 건너뛰기는 "이 글자 그만"이라는 뜻이므로 확인 없이 바로 넘어간다
+  $('btn-skip').addEventListener('click', () => { charDirty = true; finishChar(); advance(); });
+  $('btn-next').addEventListener('click', advance);
   $('btn-again').addEventListener('click', () => startSession(missedThisSession.slice()));
   $('btn-restart').addEventListener('click', () => selectSet(setIdx));
   window.addEventListener('resize', fitCanvas);

@@ -114,6 +114,7 @@
       <button id="btn-hint">힌트</button>
       <button id="btn-clear">다시 그리기</button>
       <button id="btn-skip">포기하고 넘기기</button>
+      <button id="btn-next" class="primary hidden">다음 →</button>
     </div>
   </div>
 
@@ -191,7 +192,7 @@
   let strokes = [];        // 완료된 획들 (VB 좌표 배열의 배열)
   let live = null;
   let failStreak = 0, charDirty = false, rescue = 0, hintUntil = 0;
-  let advancing = false, advanceTimer = 0, autoTimer = 0;
+  let advancing = false, autoTimer = 0;   // advancing = 통과 후 다음 버튼 대기 상태
   let missed = [];
   let penLocked = false;
 
@@ -528,15 +529,24 @@
     draw();
   }
 
+  // 통과하면 점수만 기록하고 멈춘다. 넘어가는 건 사용자가 정한다 —
+  // 자동으로 넘기면 완성된 글자와 채점 결과를 볼 틈이 없다.
   function pass(pct) {
     if (advancing) return;
     advancing = true;
+    clearTimeout(autoTimer);
     setVerdict(`통과 — 모양 ${pct}%`, 'ok');
     const st = rec(DATA.sets[setIdx].id, cur.ch.k);
     if (charDirty) { st.miss++; st.ok = Math.max(0, st.ok - 1); missed.push(cur.ch); }
     else st.ok++;
     save();
-    advanceTimer = setTimeout(() => { advancing = false; qPos++; loadChar(); }, 620);
+    $('btn-next').classList.remove('hidden');
+  }
+
+  function advance() {
+    if (!advancing) return;
+    qPos++;
+    loadChar();
   }
 
   const setVerdict = (msg, cls) => { const v = $('verdict'); v.textContent = msg; v.className = 'verdict ' + cls; };
@@ -546,7 +556,9 @@
     clearTimeout(autoTimer);
     strokes = []; live = null;
     failStreak = 0; charDirty = false; rescue = 0; hintUntil = 0;
-    setVerdict('다 그리면 저절로 넘어갑니다', '');
+    advancing = false;
+    setVerdict('다 그리면 저절로 채점됩니다', '');
+    $('btn-next').classList.add('hidden');
     if (qPos >= queue.length) { showDone(); return; }
     cur = prepare(queue[qPos]);
     renderPrompt();
@@ -583,7 +595,6 @@
   }
 
   function startSession(chars) {
-    clearTimeout(advanceTimer);
     clearTimeout(autoTimer);
     advancing = false;
     queue = chars; qPos = 0; missed = [];
@@ -611,7 +622,7 @@
   $('btn-clear').addEventListener('click', () => {
     clearTimeout(autoTimer);
     strokes = []; live = null;
-    setVerdict('다 그리면 저절로 넘어갑니다', '');
+    setVerdict('다 그리면 저절로 채점됩니다', '');
     draw();
   });
   $('btn-skip').addEventListener('click', () => {
@@ -623,6 +634,7 @@
     save();
     qPos++; loadChar();
   });
+  $('btn-next').addEventListener('click', advance);
   $('btn-again').addEventListener('click', () => startSession(missed.slice()));
   $('btn-restart').addEventListener('click', () => selectSet(setIdx));
   window.addEventListener('resize', fitCanvas);
