@@ -47,6 +47,8 @@
     .prompt .info .gloss { font-size: 1.15rem; font-weight: 700; color: #e2e8f0; letter-spacing: .02em; line-height: 1.35; }
     .prompt .info .reading { font-size: 0.85rem; color: #60a5fa; }
     .prompt .info .reading:empty { display: none; }
+    .prompt .info .en { font-size: 0.75rem; color: #64748b; line-height: 1.4; }
+    .prompt .info .en:empty { display: none; }
     .prompt .info .step { font-size: 0.78rem; color: #94a3b8; }
 
     /* 캔버스 */
@@ -111,6 +113,7 @@
       <div class="info">
         <div class="gloss" id="gloss">—</div>
         <div class="reading" id="reading"></div>
+        <div class="en" id="en"></div>
         <div class="step" id="step">준비 중</div>
       </div>
     </div>
@@ -140,9 +143,14 @@
     획순 데이터 — <a href="https://github.com/skishore/makemeahanzi" target="_blank" rel="noopener">Make Me a Hanzi</a>
     (Arphic PL KaitiM GB / PL UKai 글꼴 파생, Copyright © 1999 Arphic Technology Co., Ltd.,
     <a href="/licenses/ARPHICPL.TXT" target="_blank" rel="noopener">Arphic Public License</a>).
-    뜻·병음 — 같은 프로젝트의 dictionary.txt
+    영문 뜻·병음 — 같은 프로젝트의 dictionary.txt
     (<a href="http://unicode.org/charts/unihan.html" target="_blank" rel="noopener">Unihan</a>·CJKlib 파생,
     <a href="/licenses/LGPL-3.0.txt" target="_blank" rel="noopener">LGPL v3+</a>).
+    한글 훈음 — <a href="https://ko.wiktionary.org" target="_blank" rel="noopener">위키낱말사전</a>·<a href="https://en.wiktionary.org" target="_blank" rel="noopener">en.wiktionary</a>
+    (<a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>),
+    음만 아는 글자와 간체→번체 매핑은
+    <a href="https://unicode.org/charts/unihan.html" target="_blank" rel="noopener">Unihan</a>
+    (© Unicode, Inc., <a href="https://www.unicode.org/license.txt" target="_blank" rel="noopener">Unicode License v3</a>).
     이 저장소는 원본에서 해당 한자만 추려 획 중심선(medians)을 폴리라인으로 바꾸고 Y축을 반전시켰다
     (수정 내역은 JSON의 <code>_modifications</code> 참고). 파생물은 각각 동일 조건으로 배포된다.<br>
     진행 상태는 이 브라우저(localStorage)에만 저장된다.
@@ -429,8 +437,9 @@
   function renderPrompt() {
     const cur = queue[qPos];
     $('mini').innerHTML = cur.s.map(d => `<path d="${d}"/>`).join('');
-    $('gloss').textContent = cur.r;
+    $('gloss').textContent = cur.r;            // 한글 훈음 (없으면 영문 뜻)
     $('reading').textContent = cur.r2 || '';   // 병음
+    $('en').textContent = cur.r3 || '';        // 영문 뜻 (훈음이 있을 때만 채워진다)
     $('step').textContent = `${strokeIdx + 1}획째 / 총 ${cur.s.length}획`;
   }
 
