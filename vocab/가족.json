@@ -1,0 +1,234 @@
+{
+  "category": "가족",
+  "languages": ["en", "ja", "zh", "fr", "de", "es", "ru", "ar"],
+  "sources": {
+    "concepts": "Ogden's Basic English 850(1930)의 친족 항목 + Swadesh 207 전용 husband·wife·child — Ogden의 person·man·woman·friend는 친족이 아니라 제외했다",
+    "words": "English Wiktionary (친족 뜻풀이 번역표)",
+    "kor": "국립국어원 외래어 표기법 규정을 적용한 값 — 개별 단어의 등재 표기가 아님",
+    "zh": "간체자 표기 (저장소 drills/중국어_HSK_어휘 표기와 일치)"
+  },
+  "concepts": [
+    {
+      "id": "family", "ko": "가족", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "family", "kor": "패밀리" },
+        "ja": { "word": "家族", "rom": "かぞく · kazoku", "kor": "가조쿠" },
+        "zh": { "word": "家庭", "rom": "jiātíng", "kor": "자팅",
+                "alt": [{ "word": "家", "rom": "jiā", "kor": "자" }] },
+        "fr": { "word": "famille", "kor": "파미유", "label": "여성형" },
+        "de": { "word": "Familie", "kor": "파밀리에", "label": "여성형" },
+        "es": { "word": "familia", "kor": "파밀리아", "label": "여성형" },
+        "ru": { "word": "семья́", "rom": "sem'yá", "kor": "세미야", "label": "여성형" },
+        "ar": { "word": "عَائِلَة", "rom": "ʿāʾila", "label": "여성형",
+                "alt": [{ "word": "أُسْرَة", "rom": "ʾusra", "label": "여성형" }] }
+      }
+    },
+    {
+      "id": "father", "ko": "아버지", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "father", "kor": "파더" },
+        "ja": { "word": "父", "rom": "ちち · chichi", "kor": "지치",
+                "alt": [{ "word": "お父さん", "rom": "おとうさん · otōsan", "kor": "오토산", "label": "높임말" }] },
+        "zh": { "word": "父亲", "rom": "fùqīn", "kor": "푸친",
+                "alt": [{ "word": "父", "rom": "fù", "kor": "푸", "label": "문어" }] },
+        "fr": { "word": "père", "kor": "페르", "label": "남성형",
+                "alt": [{ "word": "papa", "kor": "파파", "label": "구어" }] },
+        "de": { "word": "Vater", "kor": "파터", "label": "남성형" },
+        "es": { "word": "padre", "kor": "파드레", "label": "남성형" },
+        "ru": { "word": "оте́ц", "rom": "otéts", "kor": "오테츠", "label": "남성형",
+                "alt": [{ "word": "па́па", "rom": "pápa", "kor": "파파", "label": "구어" }] },
+        "ar": { "word": "أَب", "rom": "ʾab", "label": "남성형",
+                "alt": [{ "word": "وَالِد", "rom": "wālid", "label": "남성형" }] }
+      }
+    },
+    {
+      "id": "mother", "ko": "어머니", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "mother", "kor": "마더" },
+        "ja": { "word": "母", "rom": "はは · haha", "kor": "하하",
+                "alt": [{ "word": "お母さん", "rom": "おかあさん · okāsan", "kor": "오카산", "label": "높임말" }] },
+        "zh": { "word": "母亲", "rom": "mǔqīn", "kor": "무친",
+                "alt": [{ "word": "母", "rom": "mǔ", "kor": "무", "label": "문어" }] },
+        "fr": { "word": "mère", "kor": "메르", "label": "여성형",
+                "alt": [{ "word": "maman", "kor": "마망", "label": "구어" }] },
+        "de": { "word": "Mutter", "kor": "무터", "label": "여성형" },
+        "es": { "word": "madre", "kor": "마드레", "label": "여성형" },
+        "ru": { "word": "мать", "rom": "mat'", "kor": "마티", "label": "여성형",
+                "alt": [{ "word": "ма́ма", "rom": "máma", "kor": "마마", "label": "구어" }] },
+        "ar": { "word": "أُمّ", "rom": "ʾumm", "label": "여성형",
+                "alt": [{ "word": "وَالِدَة", "rom": "wālida", "label": "여성형" }] }
+      }
+    },
+    {
+      "id": "husband", "ko": "남편", "lists": ["swadesh"],
+      "words": {
+        "en": { "word": "husband", "kor": "허즈번드" },
+        "ja": { "word": "夫", "rom": "おっと · otto", "kor": "옷토",
+                "alt": [{ "word": "旦那", "rom": "だんな · danna", "kor": "단나", "label": "구어" }] },
+        "zh": { "word": "丈夫", "rom": "zhàngfu", "kor": "장푸" },
+        "fr": { "word": "mari", "kor": "마리", "label": "남성형",
+                "alt": [{ "word": "époux", "kor": "에푸", "label": "남성형 · 격식" }] },
+        "de": { "word": "Ehemann", "kor": "에에만", "label": "남성형",
+                "alt": [{ "word": "Mann", "kor": "만", "label": "남성형" }] },
+        "es": { "word": "marido", "kor": "마리도", "label": "남성형",
+                "alt": [{ "word": "esposo", "kor": "에스포소", "label": "남성형" }] },
+        "ru": { "word": "муж", "rom": "muzh", "kor": "무시", "label": "남성형",
+                "alt": [{ "word": "супру́г", "rom": "suprúg", "kor": "수프루크", "label": "남성형 · 격식" }] },
+        "ar": { "word": "زَوْج", "rom": "zawj", "label": "남성형" }
+      },
+      "notes": ["아랍어는 남편과 아내가 같은 어근의 남성형·여성형이다 — زَوْج(zawj) / زَوْجَة(zawja). 러시아어 супру́г/супру́га, 스페인어 esposo/esposa도 같은 방식이다."]
+    },
+    {
+      "id": "wife", "ko": "아내", "lists": ["swadesh"],
+      "words": {
+        "en": { "word": "wife", "kor": "와이프" },
+        "ja": { "word": "妻", "rom": "つま · tsuma", "kor": "쓰마",
+                "alt": [{ "word": "家内", "rom": "かない · kanai", "kor": "가나이", "label": "겸양" }] },
+        "zh": { "word": "妻子", "rom": "qīzi", "kor": "치쯔",
+                "alt": [{ "word": "老婆", "rom": "lǎopo", "kor": "라오포", "label": "구어" }] },
+        "fr": { "word": "femme", "kor": "팜", "label": "여성형",
+                "alt": [{ "word": "épouse", "kor": "에푸즈", "label": "여성형 · 격식" }] },
+        "de": { "word": "Ehefrau", "kor": "에에프라우", "label": "여성형",
+                "alt": [{ "word": "Frau", "kor": "프라우", "label": "여성형" }] },
+        "es": { "word": "esposa", "kor": "에스포사", "label": "여성형",
+                "alt": [{ "word": "mujer", "kor": "무헤르", "label": "여성형" }] },
+        "ru": { "word": "жена́", "rom": "zhená", "kor": "제나", "label": "여성형",
+                "alt": [{ "word": "супру́га", "rom": "suprúga", "kor": "수프루가", "label": "여성형 · 격식" }] },
+        "ar": { "word": "زَوْجَة", "rom": "zawja", "label": "여성형" }
+      },
+      "notes": ["프랑스어 femme와 독일어 Frau, 스페인어 mujer는 '여자'와 '아내'를 겸한다 — 위키낱말사전 wife 번역표에 그대로 올라 있다."]
+    },
+    {
+      "id": "son", "ko": "아들", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "son", "kor": "선" },
+        "ja": { "word": "息子", "rom": "むすこ · musuko", "kor": "무스코" },
+        "zh": { "word": "儿子", "rom": "érzi", "kor": "얼쯔" },
+        "fr": { "word": "fils", "kor": "피스", "label": "남성형" },
+        "de": { "word": "Sohn", "kor": "존", "label": "남성형" },
+        "es": { "word": "hijo", "kor": "이호", "label": "남성형" },
+        "ru": { "word": "сын", "rom": "syn", "kor": "신", "label": "남성형" },
+        "ar": { "word": "اِبْن", "rom": "ibn", "label": "남성형" }
+      }
+    },
+    {
+      "id": "daughter", "ko": "딸", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "daughter", "kor": "도터" },
+        "ja": { "word": "娘", "rom": "むすめ · musume", "kor": "무스메" },
+        "zh": { "word": "女儿", "rom": "nǚ'ér", "kor": "뉘얼" },
+        "fr": { "word": "fille", "kor": "피유", "label": "여성형" },
+        "de": { "word": "Tochter", "kor": "토흐터", "label": "여성형" },
+        "es": { "word": "hija", "kor": "이하", "label": "여성형" },
+        "ru": { "word": "дочь", "rom": "doch'", "kor": "도치", "label": "여성형" },
+        "ar": { "word": "اِبْنَة", "rom": "ibna", "label": "여성형",
+                "alt": [{ "word": "بِنْت", "rom": "bint", "label": "여성형" }] }
+      },
+      "notes": ["프랑스어 fille는 '딸'과 '여자아이'를 겸한다 — daughter와 girl 양쪽 번역표에 올라 있다."]
+    },
+    {
+      "id": "brother", "ko": "형제", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "brother", "kor": "브러더" },
+        "ja": { "word": "兄", "rom": "あに · ani", "kor": "아니", "label": "손위",
+                "alt": [{ "word": "弟", "rom": "おとうと · otōto", "kor": "오토토", "label": "손아래" },
+                        { "word": "兄弟", "rom": "きょうだい · kyōdai", "kor": "교다이", "label": "형제 통칭" }] },
+        "zh": { "word": "哥哥", "rom": "gēge", "kor": "거거", "label": "손위",
+                "alt": [{ "word": "弟弟", "rom": "dìdi", "kor": "디디", "label": "손아래" },
+                        { "word": "兄弟", "rom": "xiōngdì", "kor": "슝디", "label": "형제 통칭" }] },
+        "fr": { "word": "frère", "kor": "프레르", "label": "남성형" },
+        "de": { "word": "Bruder", "kor": "브루더", "label": "남성형" },
+        "es": { "word": "hermano", "kor": "에르마노", "label": "남성형" },
+        "ru": { "word": "брат", "rom": "brat", "kor": "브라트", "label": "남성형" },
+        "ar": { "word": "أَخ", "rom": "ʾakh", "label": "남성형",
+                "alt": [{ "word": "شَقِيق", "rom": "shaqīq", "label": "남성형" }] }
+      },
+      "notes": ["중국어와 일본어는 손위·손아래를 다른 단어로 쓴다 — 哥哥(elder brother)/弟弟(younger brother), 兄(あに)/弟(おとうと). 위키낱말사전도 elder·younger로 구분해 두었다. 한국어의 형/남동생과 같은 방식이고, 유럽 언어 여섯은 한 단어로 뭉뚱그린다."]
+    },
+    {
+      "id": "sister", "ko": "자매", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "sister", "kor": "시스터" },
+        "ja": { "word": "姉", "rom": "あね · ane", "kor": "아네", "label": "손위",
+                "alt": [{ "word": "妹", "rom": "いもうと · imōto", "kor": "이모토", "label": "손아래" },
+                        { "word": "姉妹", "rom": "しまい · shimai", "kor": "시마이", "label": "자매 통칭" }] },
+        "zh": { "word": "姐姐", "rom": "jiějie", "kor": "제제", "label": "손위",
+                "alt": [{ "word": "妹妹", "rom": "mèimei", "kor": "메이메이", "label": "손아래" },
+                        { "word": "姐妹", "rom": "jiěmèi", "kor": "제메이", "label": "자매 통칭" }] },
+        "fr": { "word": "sœur", "kor": "쇠르", "label": "여성형" },
+        "de": { "word": "Schwester", "kor": "슈베스터", "label": "여성형" },
+        "es": { "word": "hermana", "kor": "에르마나", "label": "여성형" },
+        "ru": { "word": "сестра́", "rom": "sestrá", "kor": "세스트라", "label": "여성형" },
+        "ar": { "word": "أُخْت", "rom": "ʾukht", "label": "여성형",
+                "alt": [{ "word": "شَقِيقَة", "rom": "shaqīqa", "label": "여성형" }] }
+      }
+    },
+    {
+      "id": "child", "ko": "아이", "lists": ["swadesh"],
+      "words": {
+        "en": { "word": "child", "kor": "차일드" },
+        "ja": { "word": "子供", "rom": "こども · kodomo", "kor": "고도모",
+                "alt": [{ "word": "子", "rom": "こ · ko", "kor": "고" }] },
+        "zh": { "word": "小孩", "rom": "xiǎohái", "kor": "샤오하이",
+                "alt": [{ "word": "小孩子", "rom": "xiǎoháizi", "kor": "샤오하이쯔" }] },
+        "fr": { "word": "enfant", "kor": "앙팡", "label": "남성형" },
+        "de": { "word": "Kind", "kor": "킨트", "label": "중성형" },
+        "es": { "word": "niño", "kor": "니뇨", "label": "남성형",
+                "alt": [{ "word": "hijo", "kor": "이호", "label": "남성형 · 자녀" }] },
+        "ru": { "word": "ребёнок", "rom": "rebyónok", "kor": "레뵤노크", "label": "남성형",
+                "alt": [{ "word": "дитя́", "rom": "dityá", "kor": "디탸", "label": "중성형 · 문어" }] },
+        "ar": { "word": "طِفْل", "rom": "ṭifl", "label": "남성형",
+                "alt": [{ "word": "وَلَد", "rom": "walad", "label": "남성형" }] }
+      }
+    },
+    {
+      "id": "baby", "ko": "아기", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "baby", "kor": "베이비" },
+        "ja": { "word": "赤ちゃん", "rom": "あかちゃん · akachan", "kor": "아카찬",
+                "alt": [{ "word": "赤ん坊", "rom": "あかんぼう · akanbō", "kor": "아칸보" }] },
+        "zh": { "word": "婴儿", "rom": "yīng'ér", "kor": "잉얼" },
+        "fr": { "word": "bébé", "kor": "베베", "label": "남성형" },
+        "de": { "word": "Baby", "kor": "베이비", "label": "중성형",
+                "alt": [{ "word": "Säugling", "kor": "조이클링", "label": "남성형" }] },
+        "es": { "word": "bebé", "kor": "베베", "label": "남성형" },
+        "ru": { "word": "младе́нец", "rom": "mladénets", "kor": "믈라데네츠", "label": "남성형",
+                "alt": [{ "word": "малы́ш", "rom": "malýsh", "kor": "말리시", "label": "남성형 · 구어" }] },
+        "ar": { "word": "رَضِيع", "rom": "raḍīʿ", "label": "남성형" }
+      }
+    },
+    {
+      "id": "boy", "ko": "남자아이", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "boy", "kor": "보이" },
+        "ja": { "word": "男の子", "rom": "おとこのこ · otoko no ko", "kor": "오토코노코",
+                "alt": [{ "word": "少年", "rom": "しょうねん · shōnen", "kor": "쇼넨", "label": "문어" }] },
+        "zh": { "word": "男孩", "rom": "nánhái", "kor": "난하이" },
+        "fr": { "word": "garçon", "kor": "가르송", "label": "남성형" },
+        "de": { "word": "Junge", "kor": "융에", "label": "남성형",
+                "alt": [{ "word": "Bub", "kor": "부프", "label": "남성형 · 지역어" }] },
+        "es": { "word": "niño", "kor": "니뇨", "label": "남성형" },
+        "ru": { "word": "ма́льчик", "rom": "mál'chik", "kor": "말치크", "label": "남성형" },
+        "ar": { "word": "غُلَام", "rom": "ghulām", "label": "남성형",
+                "alt": [{ "word": "فَتًى", "rom": "fatan", "label": "남성형" }] }
+      }
+    },
+    {
+      "id": "girl", "ko": "여자아이", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "girl", "kor": "걸" },
+        "ja": { "word": "女の子", "rom": "おんなのこ · onna no ko", "kor": "온나노코",
+                "alt": [{ "word": "少女", "rom": "しょうじょ · shōjo", "kor": "쇼조", "label": "문어" }] },
+        "zh": { "word": "女孩", "rom": "nǚhái", "kor": "뉘하이" },
+        "fr": { "word": "fille", "kor": "피유", "label": "여성형" },
+        "de": { "word": "Mädchen", "kor": "메트헨", "label": "중성형" },
+        "es": { "word": "niña", "kor": "니냐", "label": "여성형" },
+        "ru": { "word": "де́вочка", "rom": "dévochka", "kor": "데보치카", "label": "여성형",
+                "alt": [{ "word": "де́вушка", "rom": "dévushka", "kor": "데부시카", "label": "여성형 · 처녀" }] },
+        "ar": { "word": "بِنْت", "rom": "bint", "label": "여성형",
+                "alt": [{ "word": "فَتَاة", "rom": "fatāt", "label": "여성형" }] }
+      },
+      "notes": ["독일어 Mädchen은 뜻은 여자아이지만 문법성은 중성이다 — 축소형 접미사 -chen이 붙은 명사는 모두 중성이 된다."]
+    }
+  ]
+}

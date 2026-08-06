@@ -4,7 +4,8 @@
     { name: '숫자', url: '/vocab/숫자.html' },
     { name: '색깔', url: '/vocab/색깔.html' },
     { name: '동물', url: '/vocab/동물.html' },
-    { name: '신체', url: '/vocab/신체.html' }
+    { name: '신체', url: '/vocab/신체.html' },
+    { name: '가족', url: '/vocab/가족.html' }
   ];
 
   const LANG_LABEL = {
