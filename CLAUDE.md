@@ -78,7 +78,7 @@
 - 섹션: `README.md` → `## Vocabulary`, `README.ko.md` → `## 단어장`
 - URL 패턴: `https://brain.dongwook.kim/vocab/파일명.html` (확장자 유지)
 - 카테고리 하나는 `카테고리.html`(껍데기) + `카테고리.json`(데이터) 쌍으로 구성한다.
-- 렌더러는 `assets/js/vocab.js` **한 벌을 공유한다**. 카테고리마다 인라인 `<script>`를 복제하지 않는다(`drills/`와 다른 점).
+- 렌더러는 `assets/js/vocab.js`, 스타일은 `assets/css/vocab.css` **각 한 벌을 공유한다**. 카테고리마다 인라인 `<script>`·`<style>`을 복제하지 않는다(`drills/`와 다른 점). 카테고리 HTML은 head 태그 + `<div id="vocab" data-src="...">` + 스크립트 두 줄이 전부다.
 - 새 카테고리를 추가하면 `assets/js/vocab.js`의 `CATEGORIES` 배열에도 한 줄 넣는다. 이 배열이 상단 카테고리 네비게이션의 원본이며, **미완성 카테고리는 넣지 않는다**(비활성 표시가 아니라 아예 숨김).
 - 대상 언어와 표시 순서는 전 카테고리 고정: **영 · 일 · 중 · 프 · 독 · 스 · 러 · 아** (`en ja zh fr de es ru ar`).
 - 카테고리 나열 순서는 배움의 흐름 순으로 정렬한다(`notes/`·`sheets/` 규칙과 동일).

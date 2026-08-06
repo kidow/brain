@@ -1,0 +1,249 @@
+{
+  "category": "숫자",
+  "languages": ["en", "ja", "zh", "fr", "de", "es", "ru", "ar"],
+  "sources": {
+    "concepts": "기수 0~10 및 100·1000 — 이 중 1~5는 Swadesh 207에 포함된 코어",
+    "words": "English Wiktionary (기수 뜻풀이 번역표)",
+    "kor": "국립국어원 외래어 표기법 규정을 적용한 값 — 개별 단어의 등재 표기가 아님",
+    "zh": "간체자 표기 (저장소 drills/중국어_HSK_어휘 표기와 일치)"
+  },
+  "concepts": [
+    {
+      "id": "zero",
+      "ko": "0 · 영",
+      "lists": [],
+      "words": {
+        "en": { "word": "zero", "kor": "제로" },
+        "ja": { "word": "零", "rom": "れい · rei", "kor": "레이",
+                "alt": [{ "word": "ゼロ", "rom": "zero", "kor": "제로", "label": "외래어" }] },
+        "zh": { "word": "零", "rom": "líng", "kor": "링",
+                "alt": [{ "word": "〇", "label": "숫자 기호" }] },
+        "fr": { "word": "zéro", "kor": "제로" },
+        "de": { "word": "null", "kor": "눌",
+                "alt": [{ "word": "Null", "kor": "눌", "label": "명사 · 여성" }] },
+        "es": { "word": "cero", "kor": "세로" },
+        "ru": { "word": "ноль", "rom": "nol'", "kor": "놀", "label": "남성형",
+                "alt": [{ "word": "нуль", "rom": "nul'", "kor": "눌", "label": "이형" }] },
+        "ar": { "word": "صِفْر", "rom": "ṣifr", "label": "남성형",
+                "alt": [{ "word": "٠", "label": "아랍 숫자" }] }
+      },
+      "notes": ["아랍어권은 ٠١٢٣… 자형을 쓴다 — 유럽에서 쓰는 0~9와 모양이 다르다. 이 단어장에서는 각 숫자의 아랍 자형을 alt로 함께 적었다."]
+    },
+    {
+      "id": "one",
+      "ko": "1 · 하나",
+      "lists": ["swadesh"],
+      "words": {
+        "en": { "word": "one", "kor": "원" },
+        "ja": { "word": "一", "rom": "いち · ichi", "kor": "이치", "label": "음독",
+                "alt": [{ "word": "一つ", "rom": "ひとつ · hitotsu", "kor": "히토쓰", "label": "훈독" }] },
+        "zh": { "word": "一", "rom": "yī", "kor": "이" },
+        "fr": { "word": "un", "kor": "앵" },
+        "de": { "word": "eins", "kor": "아인스",
+                "alt": [{ "word": "ein", "kor": "아인", "label": "이형" }] },
+        "es": { "word": "uno", "kor": "우노" },
+        "ru": { "word": "оди́н", "rom": "odín", "kor": "오딘", "label": "남성형",
+                "alt": [{ "word": "одна́", "rom": "odná", "kor": "오드나", "label": "여성형" },
+                        { "word": "одно́", "rom": "odnó", "kor": "오드노", "label": "중성형" }] },
+        "ar": { "word": "وَاحِد", "rom": "wāḥid", "label": "남성형",
+                "alt": [{ "word": "وَاحِدَة", "rom": "wāḥida", "label": "여성형" },
+                        { "word": "١", "label": "아랍 숫자" }] }
+      },
+      "notes": ["일본어는 한자음 수사(음독)와 고유어 수사(훈독)를 함께 쓴다 — 一(いち)과 一つ(ひとつ).",
+                "러시아어와 아랍어의 1은 성에 따라 형태가 바뀐다."]
+    },
+    {
+      "id": "two",
+      "ko": "2 · 둘",
+      "lists": ["swadesh"],
+      "words": {
+        "en": { "word": "two", "kor": "투" },
+        "ja": { "word": "二", "rom": "に · ni", "kor": "니", "label": "음독",
+                "alt": [{ "word": "二つ", "rom": "ふたつ · futatsu", "kor": "후타쓰", "label": "훈독" }] },
+        "zh": { "word": "二", "rom": "èr", "kor": "얼",
+                "alt": [{ "word": "两", "rom": "liǎng", "kor": "량", "label": "이형" }] },
+        "fr": { "word": "deux", "kor": "되" },
+        "de": { "word": "zwei", "kor": "츠바이" },
+        "es": { "word": "dos", "kor": "도스" },
+        "ru": { "word": "два", "rom": "dva", "kor": "드바", "label": "남성·중성형",
+                "alt": [{ "word": "две", "rom": "dve", "kor": "드베", "label": "여성형" }] },
+        "ar": { "word": "اِثْنَانِ", "rom": "ithnāni",
+                "alt": [{ "word": "اِثْنَتَانِ", "rom": "ithnatāni", "label": "이형" },
+                        { "word": "٢", "label": "아랍 숫자" }] }
+      }
+    },
+    {
+      "id": "three",
+      "ko": "3 · 셋",
+      "lists": ["swadesh"],
+      "words": {
+        "en": { "word": "three", "kor": "스리" },
+        "ja": { "word": "三", "rom": "さん · san", "kor": "산", "label": "음독",
+                "alt": [{ "word": "三つ", "rom": "みっつ · mittsu", "kor": "밋쓰", "label": "훈독" }] },
+        "zh": { "word": "三", "rom": "sān", "kor": "싼" },
+        "fr": { "word": "trois", "kor": "트루아" },
+        "de": { "word": "drei", "kor": "드라이" },
+        "es": { "word": "tres", "kor": "트레스" },
+        "ru": { "word": "три", "rom": "tri", "kor": "트리" },
+        "ar": { "word": "ثَلَاثَة", "rom": "thalātha",
+                "alt": [{ "word": "ثَلَاث", "rom": "thalāth", "label": "이형" },
+                        { "word": "٣", "label": "아랍 숫자" }] }
+      }
+    },
+    {
+      "id": "four",
+      "ko": "4 · 넷",
+      "lists": ["swadesh"],
+      "words": {
+        "en": { "word": "four", "kor": "포" },
+        "ja": { "word": "四", "rom": "よん · yon / し · shi", "kor": "욘", "label": "음독 둘",
+                "alt": [{ "word": "四つ", "rom": "よっつ · yottsu", "kor": "욧쓰", "label": "훈독" }] },
+        "zh": { "word": "四", "rom": "sì", "kor": "쓰" },
+        "fr": { "word": "quatre", "kor": "카트르" },
+        "de": { "word": "vier", "kor": "피어" },
+        "es": { "word": "cuatro", "kor": "쿠아트로" },
+        "ru": { "word": "четы́ре", "rom": "chetýre", "kor": "체티레" },
+        "ar": { "word": "أَرْبَعَة", "rom": "arbaʿa",
+                "alt": [{ "word": "أَرْبَع", "rom": "arbaʿ", "label": "이형" },
+                        { "word": "٤", "label": "아랍 숫자" }] }
+      },
+      "notes": ["일본어 4·7·9는 읽는 법이 둘이다 — 四(よん·し), 七(なな·しち), 九(きゅう·く)."]
+    },
+    {
+      "id": "five",
+      "ko": "5 · 다섯",
+      "lists": ["swadesh"],
+      "words": {
+        "en": { "word": "five", "kor": "파이브" },
+        "ja": { "word": "五", "rom": "ご · go", "kor": "고", "label": "음독",
+                "alt": [{ "word": "五つ", "rom": "いつつ · itsutsu", "kor": "이쓰쓰", "label": "훈독" }] },
+        "zh": { "word": "五", "rom": "wǔ", "kor": "우" },
+        "fr": { "word": "cinq", "kor": "생크" },
+        "de": { "word": "fünf", "kor": "퓐프" },
+        "es": { "word": "cinco", "kor": "신코" },
+        "ru": { "word": "пять", "rom": "pyat'", "kor": "퍄티" },
+        "ar": { "word": "خَمْسَة", "rom": "khamsa",
+                "alt": [{ "word": "٥", "label": "아랍 숫자" }] }
+      }
+    },
+    {
+      "id": "six",
+      "ko": "6 · 여섯",
+      "lists": [],
+      "words": {
+        "en": { "word": "six", "kor": "식스" },
+        "ja": { "word": "六", "rom": "ろく · roku", "kor": "로쿠", "label": "음독",
+                "alt": [{ "word": "六つ", "rom": "むっつ · muttsu", "kor": "뭇쓰", "label": "훈독" }] },
+        "zh": { "word": "六", "rom": "liù", "kor": "류" },
+        "fr": { "word": "six", "kor": "시스" },
+        "de": { "word": "sechs", "kor": "젝스" },
+        "es": { "word": "seis", "kor": "세이스" },
+        "ru": { "word": "шесть", "rom": "shest'", "kor": "셰스티" },
+        "ar": { "word": "سِتَّة", "rom": "sitta",
+                "alt": [{ "word": "٦", "label": "아랍 숫자" }] }
+      }
+    },
+    {
+      "id": "seven",
+      "ko": "7 · 일곱",
+      "lists": [],
+      "words": {
+        "en": { "word": "seven", "kor": "세븐" },
+        "ja": { "word": "七", "rom": "しち · shichi / なな · nana", "kor": "시치", "label": "음독 둘",
+                "alt": [{ "word": "七つ", "rom": "ななつ · nanatsu", "kor": "나나쓰", "label": "훈독" }] },
+        "zh": { "word": "七", "rom": "qī", "kor": "치" },
+        "fr": { "word": "sept", "kor": "세트" },
+        "de": { "word": "sieben", "kor": "지벤" },
+        "es": { "word": "siete", "kor": "시에테" },
+        "ru": { "word": "семь", "rom": "sem'", "kor": "셈" },
+        "ar": { "word": "سَبْعَة", "rom": "sabʿa",
+                "alt": [{ "word": "٧", "label": "아랍 숫자" }] }
+      }
+    },
+    {
+      "id": "eight",
+      "ko": "8 · 여덟",
+      "lists": [],
+      "words": {
+        "en": { "word": "eight", "kor": "에이트" },
+        "ja": { "word": "八", "rom": "はち · hachi", "kor": "하치", "label": "음독",
+                "alt": [{ "word": "八つ", "rom": "やっつ · yattsu", "kor": "얏쓰", "label": "훈독" }] },
+        "zh": { "word": "八", "rom": "bā", "kor": "바" },
+        "fr": { "word": "huit", "kor": "위트" },
+        "de": { "word": "acht", "kor": "아흐트" },
+        "es": { "word": "ocho", "kor": "오초" },
+        "ru": { "word": "во́семь", "rom": "vósem'", "kor": "보셈" },
+        "ar": { "word": "ثَمَانِيَة", "rom": "thamāniya",
+                "alt": [{ "word": "٨", "label": "아랍 숫자" }] }
+      }
+    },
+    {
+      "id": "nine",
+      "ko": "9 · 아홉",
+      "lists": [],
+      "words": {
+        "en": { "word": "nine", "kor": "나인" },
+        "ja": { "word": "九", "rom": "きゅう · kyū / く · ku", "kor": "규", "label": "음독 둘",
+                "alt": [{ "word": "九つ", "rom": "ここのつ · kokonotsu", "kor": "고코노쓰", "label": "훈독" }] },
+        "zh": { "word": "九", "rom": "jiǔ", "kor": "주" },
+        "fr": { "word": "neuf", "kor": "뇌프" },
+        "de": { "word": "neun", "kor": "노인" },
+        "es": { "word": "nueve", "kor": "누에베" },
+        "ru": { "word": "де́вять", "rom": "dévyat'", "kor": "데뱌티" },
+        "ar": { "word": "تِسْعَة", "rom": "tisʿa",
+                "alt": [{ "word": "٩", "label": "아랍 숫자" }] }
+      }
+    },
+    {
+      "id": "ten",
+      "ko": "10 · 열",
+      "lists": [],
+      "words": {
+        "en": { "word": "ten", "kor": "텐" },
+        "ja": { "word": "十", "rom": "じゅう · jū", "kor": "주", "label": "음독",
+                "alt": [{ "word": "十", "rom": "とお · tō", "kor": "도", "label": "훈독" }] },
+        "zh": { "word": "十", "rom": "shí", "kor": "스" },
+        "fr": { "word": "dix", "kor": "디스" },
+        "de": { "word": "zehn", "kor": "첸" },
+        "es": { "word": "diez", "kor": "디에스" },
+        "ru": { "word": "де́сять", "rom": "désyat'", "kor": "데샤티" },
+        "ar": { "word": "عَشَرَة", "rom": "ʿashara",
+                "alt": [{ "word": "١٠", "label": "아랍 숫자" }] }
+      }
+    },
+    {
+      "id": "hundred",
+      "ko": "100 · 백",
+      "lists": [],
+      "words": {
+        "en": { "word": "hundred", "kor": "헌드레드" },
+        "ja": { "word": "百", "rom": "ひゃく · hyaku", "kor": "햐쿠" },
+        "zh": { "word": "百", "rom": "bǎi", "kor": "바이" },
+        "fr": { "word": "cent", "kor": "상" },
+        "de": { "word": "hundert", "kor": "훈데르트",
+                "alt": [{ "word": "einhundert", "kor": "아인훈데르트", "label": "이형" }] },
+        "es": { "word": "cien", "kor": "시엔",
+                "alt": [{ "word": "ciento", "kor": "시엔토", "label": "이형" }] },
+        "ru": { "word": "сто", "rom": "sto", "kor": "스토" },
+        "ar": { "word": "مِئَة", "rom": "miʔa", "label": "여성형",
+                "alt": [{ "word": "١٠٠", "label": "아랍 숫자" }] }
+      }
+    },
+    {
+      "id": "thousand",
+      "ko": "1000 · 천",
+      "lists": [],
+      "words": {
+        "en": { "word": "thousand", "kor": "사우전드" },
+        "ja": { "word": "千", "rom": "せん · sen", "kor": "센" },
+        "zh": { "word": "千", "rom": "qiān", "kor": "첸" },
+        "fr": { "word": "mille", "kor": "밀" },
+        "de": { "word": "tausend", "kor": "타우젠트", "label": "중성형" },
+        "es": { "word": "mil", "kor": "밀" },
+        "ru": { "word": "ты́сяча", "rom": "týsyacha", "kor": "티샤차", "label": "여성형" },
+        "ar": { "word": "أَلْف", "rom": "alf",
+                "alt": [{ "word": "١٠٠٠", "label": "아랍 숫자" }] }
+      }
+    }
+  ]
+}

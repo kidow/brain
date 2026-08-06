@@ -1,6 +1,7 @@
 (() => {
   // 카테고리를 추가하면 여기에 한 줄 넣는다. 미완성 카테고리는 넣지 않는다.
   const CATEGORIES = [
+    { name: '숫자', url: '/vocab/숫자.html' },
     { name: '색깔', url: '/vocab/색깔.html' }
   ];
 
@@ -68,15 +69,14 @@
     return box;
   };
 
-  const swatch = (concept) => {
-    const dot = el('i', 'swatch');
-    if (concept.swatch) dot.style.background = concept.swatch;
-    return dot;
-  };
-
+  // swatch는 색깔 카테고리 전용 선택 필드. 없는 카테고리에 빈 네모를 그리지 않는다.
   const titleOf = (concept) => {
     const t = el('span', 'concept-title');
-    t.appendChild(swatch(concept));
+    if (concept.swatch) {
+      const dot = el('i', 'swatch');
+      dot.style.background = concept.swatch;
+      t.appendChild(dot);
+    }
     t.appendChild(el('span', null, concept.ko));
     return t;
   };

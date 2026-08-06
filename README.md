@@ -636,6 +636,7 @@ Practice drills — spaced-repetition (SM-2) vocabulary review and stroke-order 
 
 One concept shown in eight languages at once — English, Japanese, Chinese, French, German, Spanish, Russian, Arabic. Cut by category rather than by language, so you can see where the languages fail to line up. Concept lists come from standard sources (Swadesh, Berlin & Kay); words come from Wiktionary.
 
+- [숫자](https://brain.dongwook.kim/vocab/숫자.html)
 - [색깔](https://brain.dongwook.kim/vocab/색깔.html)
 
 ## Installing the skills

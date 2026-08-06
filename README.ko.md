@@ -636,6 +636,7 @@ brain/
 
 한 개념을 8개 언어로 한 화면에서 봅니다 — 영어·일본어·중국어·프랑스어·독일어·스페인어·러시아어·아랍어. 언어별이 아니라 카테고리별로 잘라서, 언어끼리 안 맞아떨어지는 지점이 드러나게 했습니다. 개념 목록은 표준 목록(Swadesh, Berlin & Kay)에서, 단어는 위키낱말사전에서 가져옵니다.
 
+- [숫자](https://brain.dongwook.kim/vocab/숫자.html)
 - [색깔](https://brain.dongwook.kim/vocab/색깔.html)
 
 ## 스킬 설치
