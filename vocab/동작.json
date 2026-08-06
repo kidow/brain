@@ -1,0 +1,665 @@
+{
+  "category": "동작",
+  "languages": ["en", "ja", "zh", "fr", "de", "es", "ru", "ar"],
+  "sources": {
+    "concepts": "Swadesh 207의 동사 56개 + Ogden's Basic English 850의 동사 중 Swadesh에 없는 7개(get·go·keep·make·put·send·take). Ogden의 조동사·기능어(be·do·have·may·will·let·seem)는 어휘가 아니라 문법이라 제외했다",
+    "words": "English Wiktionary (동사 뜻풀이 번역표)",
+    "citation": "각 언어의 사전형으로 실었다 — 일본어 사전형, 중국어 동사, 프랑스어·독일어·스페인어·러시아어 부정사, 아랍어 3인칭 남성 단수 완료형",
+    "kor": "국립국어원 외래어 표기법 규정을 적용한 값 — 개별 단어의 등재 표기가 아님",
+    "zh": "간체자 표기 (저장소 drills/중국어_HSK_어휘 표기와 일치)"
+  },
+  "concepts": [
+    { "id": "eat", "ko": "먹다", "lists": ["swadesh"], "words": {
+      "en": { "word": "eat", "kor": "잇" },
+      "ja": { "word": "食べる", "rom": "たべる · taberu", "kor": "다베루" },
+      "zh": { "word": "吃", "rom": "chī", "kor": "츠" },
+      "fr": { "word": "manger", "kor": "망제" },
+      "de": { "word": "essen", "kor": "에센" },
+      "es": { "word": "comer", "kor": "코메르" },
+      "ru": { "word": "есть", "rom": "yest'", "kor": "예스티" },
+      "ar": { "word": "أَكَلَ", "rom": "ʾakala" } } },
+
+    { "id": "drink", "ko": "마시다", "lists": ["swadesh"], "words": {
+      "en": { "word": "drink", "kor": "드링크" },
+      "ja": { "word": "飲む", "rom": "のむ · nomu", "kor": "노무" },
+      "zh": { "word": "喝", "rom": "hē", "kor": "허" },
+      "fr": { "word": "boire", "kor": "부아르" },
+      "de": { "word": "trinken", "kor": "트링켄" },
+      "es": { "word": "beber", "kor": "베베르" },
+      "ru": { "word": "пить", "rom": "pit'", "kor": "피티" },
+      "ar": { "word": "شَرِبَ", "rom": "shariba" } } },
+
+    { "id": "bite", "ko": "물다", "lists": ["swadesh"], "words": {
+      "en": { "word": "bite", "kor": "바이트" },
+      "ja": { "word": "噛む", "rom": "かむ · kamu", "kor": "가무" },
+      "zh": { "word": "咬", "rom": "yǎo", "kor": "야오" },
+      "fr": { "word": "mordre", "kor": "모르드르" },
+      "de": { "word": "beißen", "kor": "바이센" },
+      "es": { "word": "morder", "kor": "모르데르" },
+      "ru": { "word": "куса́ть", "rom": "kusát'", "kor": "쿠사티" },
+      "ar": { "word": "عَضَّ", "rom": "ʿaḍḍa" } } },
+
+    { "id": "suck", "ko": "빨다", "lists": ["swadesh"], "words": {
+      "en": { "word": "suck", "kor": "석" },
+      "ja": { "word": "吸う", "rom": "すう · suu", "kor": "스우" },
+      "zh": { "word": "吸吮", "rom": "xīshǔn", "kor": "시순" },
+      "fr": { "word": "sucer", "kor": "쉬세" },
+      "de": { "word": "saugen", "kor": "자우겐" },
+      "es": { "word": "chupar", "kor": "추파르" },
+      "ru": { "word": "соса́ть", "rom": "sosát'", "kor": "소사티" },
+      "ar": { "word": "مَصَّ", "rom": "maṣṣa" } } },
+
+    { "id": "spit", "ko": "침 뱉다", "lists": ["swadesh"], "words": {
+      "en": { "word": "spit", "kor": "스핏" },
+      "ja": { "word": "つばを吐く", "rom": "つばをはく · tsuba o haku", "kor": "쓰바오하쿠" },
+      "zh": { "word": "吐痰", "rom": "tǔtán", "kor": "투탄" },
+      "fr": { "word": "cracher", "kor": "크라셰" },
+      "de": { "word": "spucken", "kor": "슈푸켄" },
+      "es": { "word": "escupir", "kor": "에스쿠피르" },
+      "ru": { "word": "плева́ть", "rom": "plevát'", "kor": "플레바티" },
+      "ar": { "word": "بَصَقَ", "rom": "baṣaqa" } } },
+
+    { "id": "vomit", "ko": "토하다", "lists": ["swadesh"], "words": {
+      "en": { "word": "vomit", "kor": "보밋" },
+      "ja": { "word": "吐く", "rom": "はく · haku", "kor": "하쿠" },
+      "zh": { "word": "呕吐", "rom": "ǒutù", "kor": "어우투" },
+      "fr": { "word": "vomir", "kor": "보미르" },
+      "de": { "word": "sich übergeben", "kor": "지히 위버게벤" },
+      "es": { "word": "vomitar", "kor": "보미타르" },
+      "ru": { "word": "блева́ть", "rom": "blevát'", "kor": "블레바티" },
+      "ar": { "word": "تَقَيَّأَ", "rom": "taqayyaʾa" } } },
+
+    { "id": "blow", "ko": "불다", "lists": ["swadesh"], "words": {
+      "en": { "word": "blow", "kor": "블로" },
+      "ja": { "word": "吹く", "rom": "ふく · fuku", "kor": "후쿠" },
+      "zh": { "word": "吹", "rom": "chuī", "kor": "추이" },
+      "fr": { "word": "souffler", "kor": "수플레" },
+      "de": { "word": "blasen", "kor": "블라젠" },
+      "es": { "word": "soplar", "kor": "소플라르" },
+      "ru": { "word": "дуть", "rom": "dut'", "kor": "두티" },
+      "ar": { "word": "نَفَخَ", "rom": "nafakha" } } },
+
+    { "id": "breathe", "ko": "숨쉬다", "lists": ["swadesh"], "words": {
+      "en": { "word": "breathe", "kor": "브리드" },
+      "ja": { "word": "呼吸する", "rom": "こきゅうする · kokyū suru", "kor": "고큐스루" },
+      "zh": { "word": "呼吸", "rom": "hūxī", "kor": "후시" },
+      "fr": { "word": "respirer", "kor": "레스피레" },
+      "de": { "word": "atmen", "kor": "아트멘" },
+      "es": { "word": "respirar", "kor": "레스피라르" },
+      "ru": { "word": "дыша́ть", "rom": "dyshát'", "kor": "디샤티" },
+      "ar": { "word": "تَنَفَّسَ", "rom": "tanaffasa" } } },
+
+    { "id": "sleep", "ko": "자다", "lists": ["swadesh"], "words": {
+      "en": { "word": "sleep", "kor": "슬립" },
+      "ja": { "word": "寝る", "rom": "ねる · neru", "kor": "네루" },
+      "zh": { "word": "睡觉", "rom": "shuìjiào", "kor": "수이자오" },
+      "fr": { "word": "dormir", "kor": "도르미르" },
+      "de": { "word": "schlafen", "kor": "슐라펜" },
+      "es": { "word": "dormir", "kor": "도르미르" },
+      "ru": { "word": "спать", "rom": "spat'", "kor": "스파티" },
+      "ar": { "word": "نَامَ", "rom": "nāma" } } },
+
+    { "id": "live", "ko": "살다", "lists": ["swadesh"], "words": {
+      "en": { "word": "live", "kor": "리브" },
+      "ja": { "word": "生きる", "rom": "いきる · ikiru", "kor": "이키루",
+              "alt": [{ "word": "住む", "rom": "すむ · sumu", "kor": "스무", "label": "거주하다" }] },
+      "zh": { "word": "生", "rom": "shēng", "kor": "성",
+              "alt": [{ "word": "住", "rom": "zhù", "kor": "주", "label": "거주하다" }] },
+      "fr": { "word": "vivre", "kor": "비브르",
+              "alt": [{ "word": "habiter", "kor": "아비테", "label": "거주하다" }] },
+      "de": { "word": "leben", "kor": "레벤",
+              "alt": [{ "word": "wohnen", "kor": "보넨", "label": "거주하다" }] },
+      "es": { "word": "vivir", "kor": "비비르" },
+      "ru": { "word": "жить", "rom": "zhit'", "kor": "지티", "label": "살다·거주하다 겸용" },
+      "ar": { "word": "حَيِيَ", "rom": "ḥayiya",
+              "alt": [{ "word": "سَكَنَ", "rom": "sakana", "label": "거주하다" }] } },
+      "notes": ["러시아어 жить와 스페인어 vivir는 '살아 있다'와 '거주하다'를 겸한다. 일본어·중국어·프랑스어·독일어는 두 뜻을 다른 동사로 나눈다."] },
+
+    { "id": "die", "ko": "죽다", "lists": ["swadesh"], "words": {
+      "en": { "word": "die", "kor": "다이" },
+      "ja": { "word": "死ぬ", "rom": "しぬ · shinu", "kor": "시누" },
+      "zh": { "word": "死", "rom": "sǐ", "kor": "쓰" },
+      "fr": { "word": "mourir", "kor": "무리르" },
+      "de": { "word": "sterben", "kor": "슈테르벤" },
+      "es": { "word": "morir", "kor": "모리르" },
+      "ru": { "word": "умира́ть", "rom": "umirát'", "kor": "우미라티" },
+      "ar": { "word": "مَاتَ", "rom": "māta" } } },
+
+    { "id": "kill", "ko": "죽이다", "lists": ["swadesh"], "words": {
+      "en": { "word": "kill", "kor": "킬" },
+      "ja": { "word": "殺す", "rom": "ころす · korosu", "kor": "고로스" },
+      "zh": { "word": "杀", "rom": "shā", "kor": "사" },
+      "fr": { "word": "tuer", "kor": "튀에" },
+      "de": { "word": "töten", "kor": "퇴텐" },
+      "es": { "word": "matar", "kor": "마타르" },
+      "ru": { "word": "убива́ть", "rom": "ubivát'", "kor": "우비바티" },
+      "ar": { "word": "قَتَلَ", "rom": "qatala" } } },
+
+    { "id": "see", "ko": "보다", "lists": ["swadesh", "ogden"], "words": {
+      "en": { "word": "see", "kor": "시" },
+      "ja": { "word": "見る", "rom": "みる · miru", "kor": "미루" },
+      "zh": { "word": "见", "rom": "jiàn", "kor": "젠" },
+      "fr": { "word": "voir", "kor": "부아르" },
+      "de": { "word": "sehen", "kor": "제엔" },
+      "es": { "word": "ver", "kor": "베르" },
+      "ru": { "word": "ви́деть", "rom": "vídet'", "kor": "비데티" },
+      "ar": { "word": "رَأَى", "rom": "raʾā" } } },
+
+    { "id": "hear", "ko": "듣다", "lists": ["swadesh"], "words": {
+      "en": { "word": "hear", "kor": "히어" },
+      "ja": { "word": "聞く", "rom": "きく · kiku", "kor": "기쿠" },
+      "zh": { "word": "听", "rom": "tīng", "kor": "팅" },
+      "fr": { "word": "entendre", "kor": "앙탕드르" },
+      "de": { "word": "hören", "kor": "회렌" },
+      "es": { "word": "oír", "kor": "오이르" },
+      "ru": { "word": "слы́шать", "rom": "slýshat'", "kor": "슬리샤티" },
+      "ar": { "word": "سَمِعَ", "rom": "samiʿa" } } },
+
+    { "id": "smell", "ko": "냄새 맡다", "lists": ["swadesh"], "words": {
+      "en": { "word": "smell", "kor": "스멜" },
+      "ja": { "word": "嗅ぐ", "rom": "かぐ · kagu", "kor": "가구" },
+      "zh": { "word": "闻", "rom": "wén", "kor": "원" },
+      "fr": { "word": "sentir", "kor": "상티르" },
+      "de": { "word": "riechen", "kor": "리헨" },
+      "es": { "word": "oler", "kor": "올레르" },
+      "ru": { "word": "чу́вствовать за́пах", "rom": "chúvstvovat' zápakh", "kor": "추브스트보바티 자파흐" },
+      "ar": { "word": "شَمَّ", "rom": "shamma" } } },
+
+    { "id": "know", "ko": "알다", "lists": ["swadesh"], "words": {
+      "en": { "word": "know", "kor": "노" },
+      "ja": { "word": "知る", "rom": "しる · shiru", "kor": "시루" },
+      "zh": { "word": "知道", "rom": "zhīdao", "kor": "즈다오",
+              "alt": [{ "word": "认识", "rom": "rènshi", "kor": "런스", "label": "면식이 있다" }] },
+      "fr": { "word": "savoir", "kor": "사부아르",
+              "alt": [{ "word": "connaître", "kor": "코네트르", "label": "면식이 있다" }] },
+      "de": { "word": "wissen", "kor": "비센",
+              "alt": [{ "word": "kennen", "kor": "케넨", "label": "면식이 있다" }] },
+      "es": { "word": "saber", "kor": "사베르",
+              "alt": [{ "word": "conocer", "kor": "코노세르", "label": "면식이 있다" }] },
+      "ru": { "word": "знать", "rom": "znat'", "kor": "즈나티" },
+      "ar": { "word": "عَلِمَ", "rom": "ʿalima",
+              "alt": [{ "word": "عَرَفَ", "rom": "ʿarafa", "label": "면식이 있다" }] } },
+      "notes": ["'사실을 안다'와 '사람·장소를 안다'를 다른 동사로 나누는 언어가 많다 — 프랑스어 savoir/connaître, 독일어 wissen/kennen, 스페인어 saber/conocer, 아랍어 عَلِمَ/عَرَفَ. 영어·한국어·러시아어·일본어는 한 동사로 덮는다."] },
+
+    { "id": "think", "ko": "생각하다", "lists": ["swadesh"], "words": {
+      "en": { "word": "think", "kor": "싱크" },
+      "ja": { "word": "考える", "rom": "かんがえる · kangaeru", "kor": "간가에루" },
+      "zh": { "word": "想", "rom": "xiǎng", "kor": "샹" },
+      "fr": { "word": "penser", "kor": "팡세" },
+      "de": { "word": "denken", "kor": "뎅켄" },
+      "es": { "word": "pensar", "kor": "펜사르" },
+      "ru": { "word": "ду́мать", "rom": "dúmat'", "kor": "두마티" },
+      "ar": { "word": "فَكَّرَ", "rom": "fakkara" } } },
+
+    { "id": "fear", "ko": "두려워하다", "lists": ["swadesh"], "words": {
+      "en": { "word": "fear", "kor": "피어" },
+      "ja": { "word": "恐れる", "rom": "おそれる · osoreru", "kor": "오소레루" },
+      "zh": { "word": "害怕", "rom": "hàipà", "kor": "하이파" },
+      "fr": { "word": "craindre", "kor": "크랭드르" },
+      "de": { "word": "fürchten", "kor": "퓌르히텐" },
+      "es": { "word": "temer", "kor": "테메르" },
+      "ru": { "word": "боя́ться", "rom": "boyát'sya", "kor": "보야치샤" },
+      "ar": { "word": "خَافَ", "rom": "khāfa" } } },
+
+    { "id": "say", "ko": "말하다", "lists": ["swadesh", "ogden"], "words": {
+      "en": { "word": "say", "kor": "세이" },
+      "ja": { "word": "言う", "rom": "いう · iu", "kor": "이우" },
+      "zh": { "word": "说", "rom": "shuō", "kor": "숴" },
+      "fr": { "word": "dire", "kor": "디르" },
+      "de": { "word": "sagen", "kor": "자겐" },
+      "es": { "word": "decir", "kor": "데시르" },
+      "ru": { "word": "говори́ть", "rom": "govorít'", "kor": "고보리티" },
+      "ar": { "word": "قَالَ", "rom": "qāla" } } },
+
+    { "id": "sing", "ko": "노래하다", "lists": ["swadesh"], "words": {
+      "en": { "word": "sing", "kor": "싱" },
+      "ja": { "word": "歌う", "rom": "うたう · utau", "kor": "우타우" },
+      "zh": { "word": "唱歌", "rom": "chànggē", "kor": "창거" },
+      "fr": { "word": "chanter", "kor": "샹테" },
+      "de": { "word": "singen", "kor": "징엔" },
+      "es": { "word": "cantar", "kor": "칸타르" },
+      "ru": { "word": "петь", "rom": "pet'", "kor": "페티" },
+      "ar": { "word": "غَنَّى", "rom": "ghannā" } } },
+
+    { "id": "laugh", "ko": "웃다", "lists": ["swadesh"], "words": {
+      "en": { "word": "laugh", "kor": "래프" },
+      "ja": { "word": "笑う", "rom": "わらう · warau", "kor": "와라우" },
+      "zh": { "word": "笑", "rom": "xiào", "kor": "샤오" },
+      "fr": { "word": "rire", "kor": "리르" },
+      "de": { "word": "lachen", "kor": "라헨" },
+      "es": { "word": "reír", "kor": "레이르" },
+      "ru": { "word": "смея́ться", "rom": "smeyát'sya", "kor": "스메야치샤" },
+      "ar": { "word": "ضَحِكَ", "rom": "ḍaḥika" } } },
+
+    { "id": "count", "ko": "세다", "lists": ["swadesh"], "words": {
+      "en": { "word": "count", "kor": "카운트" },
+      "ja": { "word": "数える", "rom": "かぞえる · kazoeru", "kor": "가조에루" },
+      "zh": { "word": "数", "rom": "shǔ", "kor": "수" },
+      "fr": { "word": "compter", "kor": "콩테" },
+      "de": { "word": "zählen", "kor": "첼렌" },
+      "es": { "word": "contar", "kor": "콘타르" },
+      "ru": { "word": "счита́ть", "rom": "schitát'", "kor": "시치타티" },
+      "ar": { "word": "عَدَّ", "rom": "ʿadda" } } },
+
+    { "id": "play", "ko": "놀다", "lists": ["swadesh"], "words": {
+      "en": { "word": "play", "kor": "플레이" },
+      "ja": { "word": "遊ぶ", "rom": "あそぶ · asobu", "kor": "아소부" },
+      "zh": { "word": "玩", "rom": "wán", "kor": "완" },
+      "fr": { "word": "jouer", "kor": "주에" },
+      "de": { "word": "spielen", "kor": "슈필렌" },
+      "es": { "word": "jugar", "kor": "후가르" },
+      "ru": { "word": "игра́ть", "rom": "igrát'", "kor": "이그라티" },
+      "ar": { "word": "لَعِبَ", "rom": "laʿiba" } } },
+
+    { "id": "go", "ko": "가다", "lists": ["ogden"], "words": {
+      "en": { "word": "go", "kor": "고" },
+      "ja": { "word": "行く", "rom": "いく · iku", "kor": "이쿠" },
+      "zh": { "word": "去", "rom": "qù", "kor": "취" },
+      "fr": { "word": "aller", "kor": "알레" },
+      "de": { "word": "gehen", "kor": "게엔", "label": "가다·걷다 겸용" },
+      "es": { "word": "ir", "kor": "이르" },
+      "ru": { "word": "ходи́ть", "rom": "khodít'", "kor": "호디티", "label": "가다·걷다 겸용" },
+      "ar": { "word": "ذَهَبَ", "rom": "dhahaba" } },
+      "notes": ["독일어 gehen과 러시아어 ходи́ть는 '가다'와 '걷다'를 겸한다 — go와 walk 양쪽 번역표에 같은 동사가 올라 있다."] },
+
+    { "id": "come", "ko": "오다", "lists": ["swadesh", "ogden"], "words": {
+      "en": { "word": "come", "kor": "컴" },
+      "ja": { "word": "来る", "rom": "くる · kuru", "kor": "구루" },
+      "zh": { "word": "来", "rom": "lái", "kor": "라이" },
+      "fr": { "word": "venir", "kor": "브니르" },
+      "de": { "word": "kommen", "kor": "코멘" },
+      "es": { "word": "venir", "kor": "베니르" },
+      "ru": { "word": "приходи́ть", "rom": "prikhodít'", "kor": "프리호디티" },
+      "ar": { "word": "جَاءَ", "rom": "jāʾa" } } },
+
+    { "id": "walk", "ko": "걷다", "lists": ["swadesh"], "words": {
+      "en": { "word": "walk", "kor": "워크" },
+      "ja": { "word": "歩く", "rom": "あるく · aruku", "kor": "아루쿠" },
+      "zh": { "word": "走", "rom": "zǒu", "kor": "저우" },
+      "fr": { "word": "marcher", "kor": "마르셰" },
+      "de": { "word": "gehen", "kor": "게엔", "label": "가다·걷다 겸용" },
+      "es": { "word": "caminar", "kor": "카미나르" },
+      "ru": { "word": "ходи́ть", "rom": "khodít'", "kor": "호디티", "label": "가다·걷다 겸용" },
+      "ar": { "word": "مَشَى", "rom": "mashā" } } },
+
+    { "id": "swim", "ko": "헤엄치다", "lists": ["swadesh"], "words": {
+      "en": { "word": "swim", "kor": "스윔" },
+      "ja": { "word": "泳ぐ", "rom": "およぐ · oyogu", "kor": "오요구" },
+      "zh": { "word": "游泳", "rom": "yóuyǒng", "kor": "유융" },
+      "fr": { "word": "nager", "kor": "나제" },
+      "de": { "word": "schwimmen", "kor": "슈빔멘" },
+      "es": { "word": "nadar", "kor": "나다르" },
+      "ru": { "word": "пла́вать", "rom": "plávat'", "kor": "플라바티", "label": "헤엄치다·뜨다 겸용" },
+      "ar": { "word": "سَبَحَ", "rom": "sabaḥa" } },
+      "notes": ["러시아어 пла́вать는 '헤엄치다'와 '물에 뜨다'를 겸한다 — swim과 float 양쪽 번역표에 올라 있다."] },
+
+    { "id": "fly", "ko": "날다", "lists": ["swadesh"], "words": {
+      "en": { "word": "fly", "kor": "플라이" },
+      "ja": { "word": "飛ぶ", "rom": "とぶ · tobu", "kor": "도부" },
+      "zh": { "word": "飞", "rom": "fēi", "kor": "페이" },
+      "fr": { "word": "voler", "kor": "볼레" },
+      "de": { "word": "fliegen", "kor": "플리겐" },
+      "es": { "word": "volar", "kor": "볼라르" },
+      "ru": { "word": "лета́ть", "rom": "letát'", "kor": "레타티" },
+      "ar": { "word": "طَارَ", "rom": "ṭāra" } } },
+
+    { "id": "fall", "ko": "떨어지다", "lists": ["swadesh"], "words": {
+      "en": { "word": "fall", "kor": "폴" },
+      "ja": { "word": "落ちる", "rom": "おちる · ochiru", "kor": "오치루" },
+      "zh": { "word": "落", "rom": "luò", "kor": "뤄" },
+      "fr": { "word": "tomber", "kor": "통베" },
+      "de": { "word": "fallen", "kor": "팔렌" },
+      "es": { "word": "caer", "kor": "카에르" },
+      "ru": { "word": "па́дать", "rom": "pádat'", "kor": "파다티" },
+      "ar": { "word": "وَقَعَ", "rom": "waqaʿa" } } },
+
+    { "id": "turn", "ko": "돌다", "lists": ["swadesh"], "words": {
+      "en": { "word": "turn", "kor": "턴" },
+      "ja": { "word": "回る", "rom": "まわる · mawaru", "kor": "마와루" },
+      "zh": { "word": "转动", "rom": "zhuǎndòng", "kor": "좐둥" },
+      "fr": { "word": "tourner", "kor": "투르네" },
+      "de": { "word": "drehen", "kor": "드레엔" },
+      "es": { "word": "girar", "kor": "히라르" },
+      "ru": { "word": "враща́ться", "rom": "vrashchát'sya", "kor": "브라시차치샤" },
+      "ar": { "word": "دَارَ", "rom": "dāra" } } },
+
+    { "id": "float", "ko": "뜨다", "lists": ["swadesh"], "words": {
+      "en": { "word": "float", "kor": "플로트" },
+      "ja": { "word": "浮かぶ", "rom": "うかぶ · ukabu", "kor": "우카부" },
+      "zh": { "word": "浮", "rom": "fú", "kor": "푸" },
+      "fr": { "word": "flotter", "kor": "플로테" },
+      "de": { "word": "treiben", "kor": "트라이벤" },
+      "es": { "word": "flotar", "kor": "플로타르" },
+      "ru": { "word": "пла́вать", "rom": "plávat'", "kor": "플라바티", "label": "헤엄치다·뜨다 겸용" },
+      "ar": { "word": "طَفَا", "rom": "ṭafā" } } },
+
+    { "id": "flow", "ko": "흐르다", "lists": ["swadesh"], "words": {
+      "en": { "word": "flow", "kor": "플로" },
+      "ja": { "word": "流れる", "rom": "ながれる · nagareru", "kor": "나가레루" },
+      "zh": { "word": "流", "rom": "liú", "kor": "류" },
+      "fr": { "word": "couler", "kor": "쿨레" },
+      "de": { "word": "fließen", "kor": "플리센" },
+      "es": { "word": "fluir", "kor": "플루이르" },
+      "ru": { "word": "течь", "rom": "tech'", "kor": "테치" },
+      "ar": { "word": "تَدَفَّقَ", "rom": "tadaffaqa" } } },
+
+    { "id": "sit", "ko": "앉다", "lists": ["swadesh"], "words": {
+      "en": { "word": "sit", "kor": "싯" },
+      "ja": { "word": "座る", "rom": "すわる · suwaru", "kor": "스와루" },
+      "zh": { "word": "坐", "rom": "zuò", "kor": "쭤" },
+      "fr": { "word": "être assis", "kor": "에트르 아시" },
+      "de": { "word": "sitzen", "kor": "지첸" },
+      "es": { "word": "sentarse", "kor": "센타르세" },
+      "ru": { "word": "сиде́ть", "rom": "sidét'", "kor": "시데티" },
+      "ar": { "word": "جَلَسَ", "rom": "jalasa" } } },
+
+    { "id": "stand", "ko": "서다", "lists": ["swadesh"], "words": {
+      "en": { "word": "stand", "kor": "스탠드" },
+      "ja": { "word": "立つ", "rom": "たつ · tatsu", "kor": "다쓰" },
+      "zh": { "word": "站", "rom": "zhàn", "kor": "잔" },
+      "fr": { "word": "être debout", "kor": "에트르 드부" },
+      "de": { "word": "stehen", "kor": "슈테엔" },
+      "es": { "word": "estar de pie", "kor": "에스타르 데 피에" },
+      "ru": { "word": "стоя́ть", "rom": "stoyát'", "kor": "스토야티" },
+      "ar": { "word": "وَقَفَ", "rom": "waqafa" } } },
+
+    { "id": "lie", "ko": "눕다", "lists": ["swadesh"], "words": {
+      "en": { "word": "lie", "kor": "라이" },
+      "ja": { "word": "臥す", "rom": "ふす · fusu", "kor": "후스" },
+      "zh": { "word": "躺", "rom": "tǎng", "kor": "탕" },
+      "fr": { "word": "être étendu", "kor": "에트르 에탕뒤" },
+      "de": { "word": "liegen", "kor": "리겐" },
+      "es": { "word": "estar acostado", "kor": "에스타르 아코스타도" },
+      "ru": { "word": "лежа́ть", "rom": "lezhát'", "kor": "레자티" },
+      "ar": { "word": "ضَجَعَ", "rom": "ḍajaʿa" } } },
+
+    { "id": "give", "ko": "주다", "lists": ["swadesh", "ogden"], "words": {
+      "en": { "word": "give", "kor": "기브" },
+      "ja": { "word": "与える", "rom": "あたえる · ataeru", "kor": "아타에루" },
+      "zh": { "word": "给", "rom": "gěi", "kor": "게이" },
+      "fr": { "word": "donner", "kor": "도네" },
+      "de": { "word": "geben", "kor": "게벤" },
+      "es": { "word": "dar", "kor": "다르" },
+      "ru": { "word": "дава́ть", "rom": "davát'", "kor": "다바티" },
+      "ar": { "word": "أَعْطَى", "rom": "ʾaʿṭā" } } },
+
+    { "id": "take", "ko": "잡다 · 가지다", "lists": ["ogden"], "words": {
+      "en": { "word": "take", "kor": "테이크" },
+      "ja": { "word": "取る", "rom": "とる · toru", "kor": "도루" },
+      "zh": { "word": "拿", "rom": "ná", "kor": "나", "label": "잡다·들다 겸용" },
+      "fr": { "word": "prendre", "kor": "프랑드르" },
+      "de": { "word": "nehmen", "kor": "네멘" },
+      "es": { "word": "tomar", "kor": "토마르" },
+      "ru": { "word": "брать", "rom": "brat'", "kor": "브라티" },
+      "ar": { "word": "أَخَذَ", "rom": "ʾakhadha" } },
+      "notes": ["중국어 拿는 '잡다'와 '들고 있다'를 겸한다 — take와 hold 양쪽 번역표에 올라 있다."] },
+
+    { "id": "get", "ko": "얻다", "lists": ["ogden"], "words": {
+      "en": { "word": "get", "kor": "겟" },
+      "ja": { "word": "得る", "rom": "える · eru", "kor": "에루" },
+      "zh": { "word": "获得", "rom": "huòdé", "kor": "훠더" },
+      "fr": { "word": "obtenir", "kor": "옵트니르" },
+      "de": { "word": "besorgen", "kor": "베조르겐" },
+      "es": { "word": "conseguir", "kor": "콘세기르" },
+      "ru": { "word": "достава́ть", "rom": "dostavát'", "kor": "도스타바티" },
+      "ar": { "word": "اِسْتَلَمَ", "rom": "istalama" } } },
+
+    { "id": "hold", "ko": "들다", "lists": ["swadesh"], "words": {
+      "en": { "word": "hold", "kor": "홀드" },
+      "ja": { "word": "持つ", "rom": "もつ · motsu", "kor": "모쓰" },
+      "zh": { "word": "拿", "rom": "ná", "kor": "나", "label": "잡다·들다 겸용" },
+      "fr": { "word": "tenir", "kor": "트니르" },
+      "de": { "word": "halten", "kor": "할텐" },
+      "es": { "word": "aguantar", "kor": "아관타르" },
+      "ru": { "word": "держа́ть", "rom": "derzhát'", "kor": "데르자티" },
+      "ar": { "word": "مَسَكَ", "rom": "masaka" } } },
+
+    { "id": "keep", "ko": "간직하다", "lists": ["ogden"], "words": {
+      "en": { "word": "keep", "kor": "킵" },
+      "ja": { "word": "保持する", "rom": "ほじする · hoji suru", "kor": "호지스루" },
+      "zh": { "word": "保持", "rom": "bǎochí", "kor": "바오츠" },
+      "fr": { "word": "garder", "kor": "가르데" },
+      "de": { "word": "behalten", "kor": "베할텐" },
+      "es": { "word": "guardar", "kor": "과르다르" },
+      "ru": { "word": "храни́ть", "rom": "khranít'", "kor": "흐라니티" },
+      "ar": { "word": "اِحْتَفَظَ", "rom": "iḥtafaẓa" } } },
+
+    { "id": "put", "ko": "놓다", "lists": ["ogden"], "words": {
+      "en": { "word": "put", "kor": "풋" },
+      "ja": { "word": "置く", "rom": "おく · oku", "kor": "오쿠" },
+      "zh": { "word": "放", "rom": "fàng", "kor": "팡" },
+      "fr": { "word": "placer", "kor": "플라세" },
+      "de": { "word": "setzen", "kor": "제첸" },
+      "es": { "word": "poner", "kor": "포네르" },
+      "ru": { "word": "класть", "rom": "klast'", "kor": "클라스티" },
+      "ar": { "word": "وَضَعَ", "rom": "waḍaʿa" } } },
+
+    { "id": "send", "ko": "보내다", "lists": ["ogden"], "words": {
+      "en": { "word": "send", "kor": "센드" },
+      "ja": { "word": "送る", "rom": "おくる · okuru", "kor": "오쿠루" },
+      "zh": { "word": "送", "rom": "sòng", "kor": "쑹" },
+      "fr": { "word": "envoyer", "kor": "앙부아예" },
+      "de": { "word": "senden", "kor": "젠덴" },
+      "es": { "word": "enviar", "kor": "엔비아르" },
+      "ru": { "word": "посыла́ть", "rom": "posylát'", "kor": "포실라티" },
+      "ar": { "word": "أَرْسَلَ", "rom": "ʾarsala" } } },
+
+    { "id": "make", "ko": "만들다", "lists": ["ogden"], "words": {
+      "en": { "word": "make", "kor": "메이크" },
+      "ja": { "word": "作る", "rom": "つくる · tsukuru", "kor": "쓰쿠루" },
+      "zh": { "word": "制造", "rom": "zhìzào", "kor": "즈짜오" },
+      "fr": { "word": "faire", "kor": "페르" },
+      "de": { "word": "machen", "kor": "마헨" },
+      "es": { "word": "hacer", "kor": "아세르" },
+      "ru": { "word": "де́лать", "rom": "délat'", "kor": "델라티" },
+      "ar": { "word": "صَنَعَ", "rom": "ṣanaʿa" } } },
+
+    { "id": "hit", "ko": "때리다", "lists": ["swadesh"], "words": {
+      "en": { "word": "hit", "kor": "히트" },
+      "ja": { "word": "打つ", "rom": "うつ · utsu", "kor": "우쓰" },
+      "zh": { "word": "打击", "rom": "dǎjī", "kor": "다지" },
+      "fr": { "word": "frapper", "kor": "프라페" },
+      "de": { "word": "schlagen", "kor": "슐라겐" },
+      "es": { "word": "golpear", "kor": "골페아르" },
+      "ru": { "word": "ударя́ть", "rom": "udaryát'", "kor": "우다랴티" },
+      "ar": { "word": "ضَرَبَ", "rom": "ḍaraba" } } },
+
+    { "id": "fight", "ko": "싸우다", "lists": ["swadesh"], "words": {
+      "en": { "word": "fight", "kor": "파이트" },
+      "ja": { "word": "戦う", "rom": "たたかう · tatakau", "kor": "다타카우" },
+      "zh": { "word": "斗争", "rom": "dòuzhēng", "kor": "더우정" },
+      "fr": { "word": "se battre", "kor": "스 바트르" },
+      "de": { "word": "kämpfen", "kor": "켐펜" },
+      "es": { "word": "pelear", "kor": "펠레아르" },
+      "ru": { "word": "дра́ться", "rom": "drát'sya", "kor": "드라치샤" },
+      "ar": { "word": "عَارَكَ", "rom": "ʿāraka" } } },
+
+    { "id": "hunt", "ko": "사냥하다", "lists": ["swadesh"], "words": {
+      "en": { "word": "hunt", "kor": "헌트" },
+      "ja": { "word": "狩る", "rom": "かる · karu", "kor": "가루" },
+      "zh": { "word": "打猎", "rom": "dǎliè", "kor": "다례" },
+      "fr": { "word": "chasser", "kor": "샤세" },
+      "de": { "word": "jagen", "kor": "야겐" },
+      "es": { "word": "cazar", "kor": "카사르" },
+      "ru": { "word": "охо́титься", "rom": "okhótit'sya", "kor": "오호치치샤" },
+      "ar": { "word": "اِصْطَادَ", "rom": "iṣṭāda" } } },
+
+    { "id": "cut", "ko": "자르다", "lists": ["swadesh"], "words": {
+      "en": { "word": "cut", "kor": "컷" },
+      "ja": { "word": "切る", "rom": "きる · kiru", "kor": "기루" },
+      "zh": { "word": "切", "rom": "qiē", "kor": "체" },
+      "fr": { "word": "couper", "kor": "쿠페" },
+      "de": { "word": "schneiden", "kor": "슈나이덴" },
+      "es": { "word": "cortar", "kor": "코르타르" },
+      "ru": { "word": "ре́зать", "rom": "rézat'", "kor": "레자티" },
+      "ar": { "word": "قَطَعَ", "rom": "qaṭaʿa" } } },
+
+    { "id": "split", "ko": "쪼개다", "lists": ["swadesh"], "words": {
+      "en": { "word": "split", "kor": "스플릿" },
+      "ja": { "word": "割る", "rom": "わる · waru", "kor": "와루" },
+      "zh": { "word": "裂开", "rom": "liěkāi", "kor": "례카이" },
+      "fr": { "word": "fendre", "kor": "팡드르" },
+      "de": { "word": "spalten", "kor": "슈팔텐" },
+      "es": { "word": "partir", "kor": "파르티르" },
+      "ru": { "word": "расщепля́ть", "rom": "rasshcheplyát'", "kor": "라시체플랴티" },
+      "ar": { "word": "قَسَمَ", "rom": "qasama" } } },
+
+    { "id": "stab", "ko": "찌르다", "lists": ["swadesh"], "words": {
+      "en": { "word": "stab", "kor": "스탭" },
+      "ja": { "word": "刺す", "rom": "さす · sasu", "kor": "사스" },
+      "zh": { "word": "刺", "rom": "cì", "kor": "츠" },
+      "fr": { "word": "poignarder", "kor": "푸아냐르데" },
+      "de": { "word": "stechen", "kor": "슈테헨" },
+      "es": { "word": "apuñalar", "kor": "아푸냘라르" },
+      "ru": { "word": "уда́рить", "rom": "udárit'", "kor": "우다리티" },
+      "ar": { "word": "طَعَنَ", "rom": "ṭaʿana" } } },
+
+    { "id": "scratch", "ko": "긁다", "lists": ["swadesh"], "words": {
+      "en": { "word": "scratch", "kor": "스크래치" },
+      "ja": { "word": "引っ掻く", "rom": "ひっかく · hikkaku", "kor": "힛카쿠" },
+      "zh": { "word": "抓", "rom": "zhuā", "kor": "좌" },
+      "fr": { "word": "gratter", "kor": "그라테" },
+      "de": { "word": "kratzen", "kor": "크라첸" },
+      "es": { "word": "rascar", "kor": "라스카르" },
+      "ru": { "word": "цара́пать", "rom": "tsarápat'", "kor": "차라파티" },
+      "ar": { "word": "خَرْبَشَ", "rom": "kharbasha" } } },
+
+    { "id": "dig", "ko": "파다", "lists": ["swadesh"], "words": {
+      "en": { "word": "dig", "kor": "디그" },
+      "ja": { "word": "掘る", "rom": "ほる · horu", "kor": "호루" },
+      "zh": { "word": "挖", "rom": "wā", "kor": "와" },
+      "fr": { "word": "creuser", "kor": "크뢰제" },
+      "de": { "word": "graben", "kor": "그라벤" },
+      "es": { "word": "ahondar", "kor": "아온다르" },
+      "ru": { "word": "копа́ть", "rom": "kopát'", "kor": "코파티" },
+      "ar": { "word": "حَفَرَ", "rom": "ḥafara" } } },
+
+    { "id": "rub", "ko": "문지르다", "lists": ["swadesh"], "words": {
+      "en": { "word": "rub", "kor": "럽" },
+      "ja": { "word": "擦る", "rom": "こする · kosuru", "kor": "고스루" },
+      "zh": { "word": "擦", "rom": "cā", "kor": "차", "label": "문지르다·닦다 겸용" },
+      "fr": { "word": "frotter", "kor": "프로테" },
+      "de": { "word": "reiben", "kor": "라이벤" },
+      "es": { "word": "frotar", "kor": "프로타르" },
+      "ru": { "word": "тере́ть", "rom": "terét'", "kor": "테레티" },
+      "ar": { "word": "حَكَّ", "rom": "ḥakka" } },
+      "notes": ["중국어 擦는 '문지르다'와 '닦다'를 겸한다 — rub과 wipe 양쪽 번역표에 올라 있다."] },
+
+    { "id": "wash", "ko": "씻다", "lists": ["swadesh"], "words": {
+      "en": { "word": "wash", "kor": "워시" },
+      "ja": { "word": "洗う", "rom": "あらう · arau", "kor": "아라우" },
+      "zh": { "word": "洗", "rom": "xǐ", "kor": "시" },
+      "fr": { "word": "laver", "kor": "라베" },
+      "de": { "word": "waschen", "kor": "바셴" },
+      "es": { "word": "lavar", "kor": "라바르" },
+      "ru": { "word": "мыть", "rom": "myt'", "kor": "미티" },
+      "ar": { "word": "غَسَلَ", "rom": "ghasala" } } },
+
+    { "id": "wipe", "ko": "닦다", "lists": ["swadesh"], "words": {
+      "en": { "word": "wipe", "kor": "와이프" },
+      "ja": { "word": "拭く", "rom": "ふく · fuku", "kor": "후쿠" },
+      "zh": { "word": "擦", "rom": "cā", "kor": "차", "label": "문지르다·닦다 겸용" },
+      "fr": { "word": "essuyer", "kor": "에쉬예" },
+      "de": { "word": "wischen", "kor": "비셴" },
+      "es": { "word": "enjugar", "kor": "엔후가르" },
+      "ru": { "word": "вытира́ть", "rom": "vytirát'", "kor": "비티라티" },
+      "ar": { "word": "مَسَحَ", "rom": "masaḥa" } } },
+
+    { "id": "pull", "ko": "당기다", "lists": ["swadesh"], "words": {
+      "en": { "word": "pull", "kor": "풀" },
+      "ja": { "word": "引く", "rom": "ひく · hiku", "kor": "히쿠" },
+      "zh": { "word": "拖拉", "rom": "tuōlā", "kor": "퉈라" },
+      "fr": { "word": "tirer", "kor": "티레" },
+      "de": { "word": "ziehen", "kor": "치엔" },
+      "es": { "word": "tirar", "kor": "티라르" },
+      "ru": { "word": "тяну́ть", "rom": "tyanút'", "kor": "탸누티" },
+      "ar": { "word": "جَرَّ", "rom": "jarra" } } },
+
+    { "id": "push", "ko": "밀다", "lists": ["swadesh"], "words": {
+      "en": { "word": "push", "kor": "푸시" },
+      "ja": { "word": "押す", "rom": "おす · osu", "kor": "오스" },
+      "zh": { "word": "推", "rom": "tuī", "kor": "투이" },
+      "fr": { "word": "pousser", "kor": "푸세" },
+      "de": { "word": "drücken", "kor": "드뤼켄" },
+      "es": { "word": "empujar", "kor": "엠푸하르" },
+      "ru": { "word": "толка́ть", "rom": "tolkát'", "kor": "톨카티" },
+      "ar": { "word": "دَفَعَ", "rom": "dafaʿa" } } },
+
+    { "id": "throw", "ko": "던지다", "lists": ["swadesh"], "words": {
+      "en": { "word": "throw", "kor": "스로" },
+      "ja": { "word": "投げる", "rom": "なげる · nageru", "kor": "나게루" },
+      "zh": { "word": "抛", "rom": "pāo", "kor": "파오" },
+      "fr": { "word": "jeter", "kor": "주테" },
+      "de": { "word": "werfen", "kor": "베르펜" },
+      "es": { "word": "lanzar", "kor": "란사르" },
+      "ru": { "word": "броса́ть", "rom": "brosát'", "kor": "브로사티" },
+      "ar": { "word": "رَمَى", "rom": "ramā" } } },
+
+    { "id": "tie", "ko": "묶다", "lists": ["swadesh"], "words": {
+      "en": { "word": "tie", "kor": "타이" },
+      "ja": { "word": "結ぶ", "rom": "むすぶ · musubu", "kor": "무스부" },
+      "zh": { "word": "绑", "rom": "bǎng", "kor": "방" },
+      "fr": { "word": "lier", "kor": "리에" },
+      "de": { "word": "binden", "kor": "빈덴" },
+      "es": { "word": "atar", "kor": "아타르" },
+      "ru": { "word": "свя́зывать", "rom": "svyázyvat'", "kor": "스뱌지바티" },
+      "ar": { "word": "رَبَطَ", "rom": "rabaṭa" } } },
+
+    { "id": "sew", "ko": "꿰매다", "lists": ["swadesh"], "words": {
+      "en": { "word": "sew", "kor": "소" },
+      "ja": { "word": "縫う", "rom": "ぬう · nuu", "kor": "누우" },
+      "zh": { "word": "缝", "rom": "féng", "kor": "펑" },
+      "fr": { "word": "coudre", "kor": "쿠드르" },
+      "de": { "word": "nähen", "kor": "네엔" },
+      "es": { "word": "coser", "kor": "코세르" },
+      "ru": { "word": "шить", "rom": "shit'", "kor": "시티" },
+      "ar": { "word": "خَاطَ", "rom": "khāṭa" } } },
+
+    { "id": "squeeze", "ko": "짜다", "lists": ["swadesh"], "words": {
+      "en": { "word": "squeeze", "kor": "스퀴즈" },
+      "ja": { "word": "押す", "rom": "おす · osu", "kor": "오스" },
+      "zh": { "word": "压榨", "rom": "yāzhà", "kor": "야자" },
+      "fr": { "word": "presser", "kor": "프레세" },
+      "de": { "word": "drücken", "kor": "드뤼켄" },
+      "es": { "word": "exprimir", "kor": "엑스프리미르" },
+      "ru": { "word": "сжима́ть", "rom": "szhimát'", "kor": "스지마티" },
+      "ar": { "word": "عَصَرَ", "rom": "ʿaṣara" } } },
+
+    { "id": "burn", "ko": "타다 · 태우다", "lists": ["swadesh"], "words": {
+      "en": { "word": "burn", "kor": "번" },
+      "ja": { "word": "燃やす", "rom": "もやす · moyasu", "kor": "모야스", "label": "태우다",
+              "alt": [{ "word": "燃える", "rom": "もえる · moeru", "kor": "모에루", "label": "타다" }] },
+      "zh": { "word": "燃烧", "rom": "ránshāo", "kor": "란사오",
+              "alt": [{ "word": "烧", "rom": "shāo", "kor": "사오", "label": "타다" }] },
+      "fr": { "word": "brûler", "kor": "브륄레" },
+      "de": { "word": "verbrennen", "kor": "페어브레넨", "label": "태우다",
+              "alt": [{ "word": "brennen", "kor": "브레넨", "label": "타다" }] },
+      "es": { "word": "quemar", "kor": "케마르", "label": "태우다",
+              "alt": [{ "word": "arder", "kor": "아르데르", "label": "타다" }] },
+      "ru": { "word": "жечь", "rom": "zhech'", "kor": "제치", "label": "태우다",
+              "alt": [{ "word": "горе́ть", "rom": "gorét'", "kor": "고레티", "label": "타다" }] },
+      "ar": { "word": "أَحْرَقَ", "rom": "ʾaḥraqa", "label": "태우다",
+              "alt": [{ "word": "اِحْتَرَقَ", "rom": "iḥtaraqa", "label": "타다" }] } },
+      "notes": ["'타다'(자동사)와 '태우다'(타동사)를 다른 동사로 나누는 언어가 많다 — 독일어 brennen/verbrennen, 러시아어 горе́ть/жечь, 스페인어 arder/quemar, 일본어 燃える/燃やす. 프랑스어 brûler와 영어 burn은 한 동사로 겸한다."] },
+
+    { "id": "freeze", "ko": "얼다", "lists": ["swadesh"], "words": {
+      "en": { "word": "freeze", "kor": "프리즈" },
+      "ja": { "word": "凍る", "rom": "こおる · kōru", "kor": "고루" },
+      "zh": { "word": "冻结", "rom": "dòngjié", "kor": "둥제" },
+      "fr": { "word": "geler", "kor": "즐레" },
+      "de": { "word": "gefrieren", "kor": "게프리렌" },
+      "es": { "word": "helarse", "kor": "엘라르세" },
+      "ru": { "word": "замерза́ть", "rom": "zamerzát'", "kor": "자메르자티" },
+      "ar": { "word": "تَجَمَّدَ", "rom": "tajammada" } } },
+
+    { "id": "swell", "ko": "붓다", "lists": ["swadesh"], "words": {
+      "en": { "word": "swell", "kor": "스웰" },
+      "ja": { "word": "膨れる", "rom": "ふくれる · fukureru", "kor": "후쿠레루" },
+      "zh": { "word": "膨胀", "rom": "péngzhàng", "kor": "펑장" },
+      "fr": { "word": "gonfler", "kor": "공플레" },
+      "de": { "word": "schwellen", "kor": "슈벨렌" },
+      "es": { "word": "hincharse", "kor": "인차르세" },
+      "ru": { "word": "раздува́ться", "rom": "razduvát'sya", "kor": "라즈두바치샤" },
+      "ar": { "word": "اِنْتَفَخَ", "rom": "intafakha" } } }
+  ]
+}

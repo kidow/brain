@@ -644,6 +644,7 @@ One concept shown in eight languages at once — English, Japanese, Chinese, Fre
 - [음식](https://brain.dongwook.kim/vocab/음식.html)
 - [자연](https://brain.dongwook.kim/vocab/자연.html)
 - [시간](https://brain.dongwook.kim/vocab/시간.html)
+- [동작](https://brain.dongwook.kim/vocab/동작.html)
 
 ## Installing the skills
 
