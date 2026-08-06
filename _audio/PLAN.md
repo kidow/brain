@@ -64,7 +64,7 @@ https://audio.dongwook.kim/notes/<그룹>/<파일명>.mp3
 4. **재생기** (`_layouts/note.html` + `assets/js/audio-player.js`) — md 239개는 건드리지 않는다
    - `<h1>brain</h1>` 바로 아래에 `<audio>` 블록 삽입 (레이아웃 1곳만 수정)
    - 곡 종료 시 `_data/notes_order.yml` 기준 같은 그룹의 다음 노트 mp3로 `src` 교체 (페이지 이동 없음)
-   - localStorage에 재생 위치 저장 — [assets/js/visit-tracker.js](../assets/js/visit-tracker.js)의 스크롤 위치 저장 패턴을 그대로 따른다
+   - localStorage에 재생 위치 저장 — 노트 경로별로 `{ path, time }`을 넣고 `pagehide`에서 쓰기, 스크롤처럼 잦은 이벤트는 300ms 스로틀
    - MediaSession API로 잠금화면에 제목·이전/다음 노출
 5. **파일럿** — Languages — Russian 22개 생성·업로드, 실제 출퇴근에 청취
 6. **전체 확장** — 나머지 217개
