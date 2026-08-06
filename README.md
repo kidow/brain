@@ -642,6 +642,7 @@ One concept shown in eight languages at once — English, Japanese, Chinese, Fre
 - [신체](https://brain.dongwook.kim/vocab/신체.html)
 - [가족](https://brain.dongwook.kim/vocab/가족.html)
 - [음식](https://brain.dongwook.kim/vocab/음식.html)
+- [자연](https://brain.dongwook.kim/vocab/자연.html)
 
 ## Installing the skills
 

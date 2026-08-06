@@ -1,0 +1,574 @@
+{
+  "category": "자연",
+  "languages": ["en", "ja", "zh", "fr", "de", "es", "ru", "ar"],
+  "sources": {
+    "concepts": "Ogden's Basic English 850(1930)의 자연 항목 38개 + Swadesh 207 전용 5개(ash·bark·fog·forest·lake). water·salt는 음식 카테고리에, cold·heat는 기본 형용사 카테고리에 두어 제외했다. day·night·계절 등 시간 어휘도 시간 카테고리 소관이라 제외했다",
+    "words": "English Wiktionary (자연 뜻풀이 번역표)",
+    "kor": "국립국어원 외래어 표기법 규정을 적용한 값 — 개별 단어의 등재 표기가 아님",
+    "zh": "간체자 표기 (저장소 drills/중국어_HSK_어휘 표기와 일치)"
+  },
+  "concepts": [
+    {
+      "id": "sky", "ko": "하늘", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "sky", "kor": "스카이" },
+        "ja": { "word": "空", "rom": "そら · sora", "kor": "소라" },
+        "zh": { "word": "天", "rom": "tiān", "kor": "톈",
+                "alt": [{ "word": "天空", "rom": "tiānkōng", "kor": "톈쿵" }] },
+        "fr": { "word": "ciel", "kor": "시엘", "label": "남성형" },
+        "de": { "word": "Himmel", "kor": "힘멜", "label": "남성형" },
+        "es": { "word": "cielo", "kor": "시엘로", "label": "남성형" },
+        "ru": { "word": "не́бо", "rom": "nébo", "kor": "네보", "label": "중성형" },
+        "ar": { "word": "سَمَاء", "rom": "samāʾ", "label": "여성형" }
+      }
+    },
+    {
+      "id": "sun", "ko": "해", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "sun", "kor": "선" },
+        "ja": { "word": "太陽", "rom": "たいよう · taiyō", "kor": "다이요",
+                "alt": [{ "word": "日", "rom": "ひ · hi", "kor": "히" }] },
+        "zh": { "word": "太阳", "rom": "tàiyáng", "kor": "타이양",
+                "alt": [{ "word": "日", "rom": "rì", "kor": "르", "label": "문어" }] },
+        "fr": { "word": "soleil", "kor": "솔레유", "label": "남성형" },
+        "de": { "word": "Sonne", "kor": "조네", "label": "여성형" },
+        "es": { "word": "sol", "kor": "솔", "label": "남성형" },
+        "ru": { "word": "со́лнце", "rom": "sólntse", "kor": "손체", "label": "중성형" },
+        "ar": { "word": "شَمْس", "rom": "shams", "label": "여성형" }
+      }
+    },
+    {
+      "id": "moon", "ko": "달", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "moon", "kor": "문" },
+        "ja": { "word": "月", "rom": "つき · tsuki", "kor": "쓰키" },
+        "zh": { "word": "月亮", "rom": "yuèliàng", "kor": "웨량",
+                "alt": [{ "word": "月球", "rom": "yuèqiú", "kor": "웨추", "label": "천체" }] },
+        "fr": { "word": "lune", "kor": "륀", "label": "여성형" },
+        "de": { "word": "Mond", "kor": "몬트", "label": "남성형" },
+        "es": { "word": "luna", "kor": "루나", "label": "여성형" },
+        "ru": { "word": "луна́", "rom": "luná", "kor": "루나", "label": "여성형",
+                "alt": [{ "word": "ме́сяц", "rom": "mésyats", "kor": "메샤츠", "label": "남성형" }] },
+        "ar": { "word": "قَمَر", "rom": "qamar", "label": "남성형" }
+      }
+    },
+    {
+      "id": "star", "ko": "별", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "star", "kor": "스타" },
+        "ja": { "word": "星", "rom": "ほし · hoshi", "kor": "호시",
+                "alt": [{ "word": "恒星", "rom": "こうせい · kōsei", "kor": "고세이", "label": "항성" }] },
+        "zh": { "word": "星", "rom": "xīng", "kor": "싱",
+                "alt": [{ "word": "星星", "rom": "xīngxing", "kor": "싱싱" }] },
+        "fr": { "word": "étoile", "kor": "에투알", "label": "여성형" },
+        "de": { "word": "Stern", "kor": "슈테른", "label": "남성형" },
+        "es": { "word": "estrella", "kor": "에스트레야", "label": "여성형" },
+        "ru": { "word": "звезда́", "rom": "zvezdá", "kor": "즈베즈다", "label": "여성형" },
+        "ar": { "word": "نَجْم", "rom": "najm", "label": "남성형" }
+      }
+    },
+    {
+      "id": "cloud", "ko": "구름", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "cloud", "kor": "클라우드" },
+        "ja": { "word": "雲", "rom": "くも · kumo", "kor": "구모" },
+        "zh": { "word": "云", "rom": "yún", "kor": "윈" },
+        "fr": { "word": "nuage", "kor": "뉘아주", "label": "남성형" },
+        "de": { "word": "Wolke", "kor": "볼케", "label": "여성형" },
+        "es": { "word": "nube", "kor": "누베", "label": "여성형" },
+        "ru": { "word": "о́блако", "rom": "óblako", "kor": "오블라코", "label": "중성형",
+                "alt": [{ "word": "ту́ча", "rom": "túcha", "kor": "투차", "label": "여성형 · 먹구름" }] },
+        "ar": { "word": "سَحَاب", "rom": "saḥāb", "label": "남성형",
+                "alt": [{ "word": "غَيْم", "rom": "ghaym", "label": "남성형" }] }
+      }
+    },
+    {
+      "id": "wind", "ko": "바람", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "wind", "kor": "윈드" },
+        "ja": { "word": "風", "rom": "かぜ · kaze", "kor": "가제" },
+        "zh": { "word": "风", "rom": "fēng", "kor": "펑" },
+        "fr": { "word": "vent", "kor": "방", "label": "남성형" },
+        "de": { "word": "Wind", "kor": "빈트", "label": "남성형" },
+        "es": { "word": "viento", "kor": "비엔토", "label": "남성형" },
+        "ru": { "word": "ве́тер", "rom": "véter", "kor": "베테르", "label": "남성형" },
+        "ar": { "word": "رِيح", "rom": "rīḥ", "label": "여성형" }
+      }
+    },
+    {
+      "id": "rain", "ko": "비", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "rain", "kor": "레인" },
+        "ja": { "word": "雨", "rom": "あめ · ame", "kor": "아메" },
+        "zh": { "word": "雨", "rom": "yǔ", "kor": "위" },
+        "fr": { "word": "pluie", "kor": "플뤼", "label": "여성형" },
+        "de": { "word": "Regen", "kor": "레겐", "label": "남성형" },
+        "es": { "word": "lluvia", "kor": "유비아", "label": "여성형" },
+        "ru": { "word": "дождь", "rom": "dozhd'", "kor": "도시디", "label": "남성형" },
+        "ar": { "word": "مَطَر", "rom": "maṭar", "label": "남성형" }
+      }
+    },
+    {
+      "id": "snow", "ko": "눈", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "snow", "kor": "스노" },
+        "ja": { "word": "雪", "rom": "ゆき · yuki", "kor": "유키" },
+        "zh": { "word": "雪", "rom": "xuě", "kor": "쉐" },
+        "fr": { "word": "neige", "kor": "네주", "label": "여성형" },
+        "de": { "word": "Schnee", "kor": "슈네", "label": "남성형" },
+        "es": { "word": "nieve", "kor": "니에베", "label": "여성형" },
+        "ru": { "word": "снег", "rom": "sneg", "kor": "스네크", "label": "남성형" },
+        "ar": { "word": "ثَلْج", "rom": "thalj", "label": "남성형 · 눈·얼음 겸용" }
+      },
+      "notes": ["아랍어 ثَلْج는 눈과 얼음을 함께 가리킨다 — snow와 ice 양쪽 번역표에 올라 있다. 얼음만 가리키려면 جَلِيد를 쓴다."]
+    },
+    {
+      "id": "ice", "ko": "얼음", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "ice", "kor": "아이스" },
+        "ja": { "word": "氷", "rom": "こおり · kōri", "kor": "고리" },
+        "zh": { "word": "冰", "rom": "bīng", "kor": "빙" },
+        "fr": { "word": "glace", "kor": "글라스", "label": "여성형" },
+        "de": { "word": "Eis", "kor": "아이스", "label": "중성형" },
+        "es": { "word": "hielo", "kor": "이엘로", "label": "남성형" },
+        "ru": { "word": "лёд", "rom": "lyod", "kor": "료트", "label": "남성형" },
+        "ar": { "word": "جَلِيد", "rom": "jalīd", "label": "남성형",
+                "alt": [{ "word": "ثَلْج", "rom": "thalj", "label": "남성형 · 눈·얼음 겸용" }] }
+      }
+    },
+    {
+      "id": "fog", "ko": "안개", "lists": ["swadesh"],
+      "words": {
+        "en": { "word": "fog", "kor": "포그" },
+        "ja": { "word": "霧", "rom": "きり · kiri", "kor": "기리" },
+        "zh": { "word": "雾", "rom": "wù", "kor": "우" },
+        "fr": { "word": "brouillard", "kor": "브루야르", "label": "남성형",
+                "alt": [{ "word": "brume", "kor": "브륌", "label": "여성형 · 옅은 안개" }] },
+        "de": { "word": "Nebel", "kor": "네벨", "label": "남성형" },
+        "es": { "word": "niebla", "kor": "니에블라", "label": "여성형" },
+        "ru": { "word": "тума́н", "rom": "tumán", "kor": "투만", "label": "남성형" },
+        "ar": { "word": "ضَبَاب", "rom": "ḍabāb", "label": "남성형" }
+      }
+    },
+    {
+      "id": "thunder", "ko": "천둥", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "thunder", "kor": "선더" },
+        "ja": { "word": "雷", "rom": "かみなり · kaminari", "kor": "가미나리",
+                "alt": [{ "word": "雷鳴", "rom": "らいめい · raimei", "kor": "라이메이", "label": "문어" }] },
+        "zh": { "word": "雷", "rom": "léi", "kor": "레이",
+                "alt": [{ "word": "雷声", "rom": "léishēng", "kor": "레이성" }] },
+        "fr": { "word": "tonnerre", "kor": "토네르", "label": "남성형" },
+        "de": { "word": "Donner", "kor": "도너", "label": "남성형" },
+        "es": { "word": "trueno", "kor": "트루에노", "label": "남성형" },
+        "ru": { "word": "гром", "rom": "grom", "kor": "그롬", "label": "남성형" },
+        "ar": { "word": "رَعْد", "rom": "raʿd", "label": "남성형" }
+      }
+    },
+    {
+      "id": "weather", "ko": "날씨", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "weather", "kor": "웨더" },
+        "ja": { "word": "天気", "rom": "てんき · tenki", "kor": "덴키",
+                "alt": [{ "word": "天候", "rom": "てんこう · tenkō", "kor": "덴코", "label": "문어" }] },
+        "zh": { "word": "天气", "rom": "tiānqì", "kor": "톈치" },
+        "fr": { "word": "temps", "kor": "탕", "label": "남성형" },
+        "de": { "word": "Wetter", "kor": "베터", "label": "중성형" },
+        "es": { "word": "tiempo", "kor": "티엠포", "label": "남성형" },
+        "ru": { "word": "пого́да", "rom": "pogóda", "kor": "포고다", "label": "여성형" },
+        "ar": { "word": "طَقْس", "rom": "ṭaqs", "label": "남성형",
+                "alt": [{ "word": "جَوّ", "rom": "jaww", "label": "남성형" }] }
+      },
+      "notes": ["프랑스어 temps와 스페인어 tiempo는 '날씨'와 '시간'을 겸한다."]
+    },
+    {
+      "id": "air", "ko": "공기", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "air", "kor": "에어" },
+        "ja": { "word": "空気", "rom": "くうき · kūki", "kor": "구키" },
+        "zh": { "word": "空气", "rom": "kōngqì", "kor": "쿵치" },
+        "fr": { "word": "air", "kor": "에르", "label": "남성형" },
+        "de": { "word": "Luft", "kor": "루프트", "label": "여성형" },
+        "es": { "word": "aire", "kor": "아이레", "label": "남성형" },
+        "ru": { "word": "во́здух", "rom": "vózdukh", "kor": "보즈두흐", "label": "남성형" },
+        "ar": { "word": "هَوَاء", "rom": "hawāʾ", "label": "남성형" }
+      }
+    },
+    {
+      "id": "light", "ko": "빛", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "light", "kor": "라이트" },
+        "ja": { "word": "光", "rom": "ひかり · hikari", "kor": "히카리" },
+        "zh": { "word": "光", "rom": "guāng", "kor": "광" },
+        "fr": { "word": "lumière", "kor": "뤼미에르", "label": "여성형" },
+        "de": { "word": "Licht", "kor": "리히트", "label": "중성형" },
+        "es": { "word": "luz", "kor": "루스", "label": "여성형" },
+        "ru": { "word": "свет", "rom": "svet", "kor": "스베트", "label": "남성형" },
+        "ar": { "word": "نُور", "rom": "nūr", "label": "남성형",
+                "alt": [{ "word": "ضَوْء", "rom": "ḍawʾ", "label": "남성형" }] }
+      }
+    },
+    {
+      "id": "sea", "ko": "바다", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "sea", "kor": "시" },
+        "ja": { "word": "海", "rom": "うみ · umi", "kor": "우미" },
+        "zh": { "word": "海", "rom": "hǎi", "kor": "하이" },
+        "fr": { "word": "mer", "kor": "메르", "label": "여성형" },
+        "de": { "word": "Meer", "kor": "메어", "label": "중성형",
+                "alt": [{ "word": "See", "kor": "제", "label": "여성형 · 바다" }] },
+        "es": { "word": "mar", "kor": "마르", "label": "남성형" },
+        "ru": { "word": "мо́ре", "rom": "móre", "kor": "모레", "label": "중성형" },
+        "ar": { "word": "بَحْر", "rom": "baḥr", "label": "남성형" }
+      },
+      "notes": ["독일어 See는 성에 따라 뜻이 갈린다 — 여성 die See는 바다, 남성 der See는 호수다. 위키낱말사전 sea에는 [f], lake에는 [m]으로 올라 있다."]
+    },
+    {
+      "id": "lake", "ko": "호수", "lists": ["swadesh"],
+      "words": {
+        "en": { "word": "lake", "kor": "레이크" },
+        "ja": { "word": "湖", "rom": "みずうみ · mizuumi", "kor": "미즈우미" },
+        "zh": { "word": "湖", "rom": "hú", "kor": "후",
+                "alt": [{ "word": "湖泊", "rom": "húbó", "kor": "후보" }] },
+        "fr": { "word": "lac", "kor": "라크", "label": "남성형" },
+        "de": { "word": "See", "kor": "제", "label": "남성형 · 호수" },
+        "es": { "word": "lago", "kor": "라고", "label": "남성형" },
+        "ru": { "word": "о́зеро", "rom": "ózero", "kor": "오제로", "label": "중성형" },
+        "ar": { "word": "بُحَيْرَة", "rom": "buḥayra", "label": "여성형" }
+      }
+    },
+    {
+      "id": "river", "ko": "강", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "river", "kor": "리버" },
+        "ja": { "word": "川", "rom": "かわ · kawa", "kor": "가와" },
+        "zh": { "word": "河", "rom": "hé", "kor": "허" },
+        "fr": { "word": "fleuve", "kor": "플뢰브", "label": "남성형 · 바다로 흐름",
+                "alt": [{ "word": "rivière", "kor": "리비에르", "label": "여성형 · 다른 강으로 흐름" }] },
+        "de": { "word": "Fluss", "kor": "플루스", "label": "남성형" },
+        "es": { "word": "río", "kor": "리오", "label": "남성형" },
+        "ru": { "word": "река́", "rom": "reká", "kor": "레카", "label": "여성형" },
+        "ar": { "word": "نَهْر", "rom": "nahr", "label": "남성형" }
+      }
+    },
+    {
+      "id": "mountain", "ko": "산", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "mountain", "kor": "마운틴" },
+        "ja": { "word": "山", "rom": "やま · yama", "kor": "야마" },
+        "zh": { "word": "山", "rom": "shān", "kor": "산" },
+        "fr": { "word": "montagne", "kor": "몽타뉴", "label": "여성형" },
+        "de": { "word": "Berg", "kor": "베르크", "label": "남성형" },
+        "es": { "word": "montaña", "kor": "몬타냐", "label": "여성형" },
+        "ru": { "word": "гора́", "rom": "gorá", "kor": "고라", "label": "여성형" },
+        "ar": { "word": "جَبَل", "rom": "jabal", "label": "남성형" }
+      }
+    },
+    {
+      "id": "island", "ko": "섬", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "island", "kor": "아일랜드" },
+        "ja": { "word": "島", "rom": "しま · shima", "kor": "시마" },
+        "zh": { "word": "岛", "rom": "dǎo", "kor": "다오" },
+        "fr": { "word": "île", "kor": "일", "label": "여성형" },
+        "de": { "word": "Insel", "kor": "인젤", "label": "여성형" },
+        "es": { "word": "isla", "kor": "이슬라", "label": "여성형" },
+        "ru": { "word": "о́стров", "rom": "óstrov", "kor": "오스트로프", "label": "남성형" },
+        "ar": { "word": "جَزِيرَة", "rom": "jazīra", "label": "여성형" }
+      }
+    },
+    {
+      "id": "land", "ko": "육지", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "land", "kor": "랜드" },
+        "ja": { "word": "土地", "rom": "とち · tochi", "kor": "도치" },
+        "zh": { "word": "陆地", "rom": "lùdì", "kor": "루디",
+                "alt": [{ "word": "土地", "rom": "tǔdì", "kor": "투디" }] },
+        "fr": { "word": "terre", "kor": "테르", "label": "여성형" },
+        "de": { "word": "Land", "kor": "란트", "label": "중성형" },
+        "es": { "word": "tierra", "kor": "티에라", "label": "여성형" },
+        "ru": { "word": "земля́", "rom": "zemlyá", "kor": "제믈랴", "label": "여성형 · 흙·땅 겸용" },
+        "ar": { "word": "بَرّ", "rom": "barr", "label": "남성형",
+                "alt": [{ "word": "أَرْض", "rom": "ʾarḍ", "label": "여성형" }] }
+      },
+      "notes": ["러시아어 земля́, 프랑스어 terre, 스페인어 tierra는 흙·육지·지구를 한 단어로 덮는다 — land와 earth 양쪽 번역표에 같은 단어가 올라 있다."]
+    },
+    {
+      "id": "earth", "ko": "흙", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "earth", "kor": "어스" },
+        "ja": { "word": "土", "rom": "つち · tsuchi", "kor": "쓰치" },
+        "zh": { "word": "地", "rom": "dì", "kor": "디",
+                "alt": [{ "word": "泥土", "rom": "nítǔ", "kor": "니투" }] },
+        "fr": { "word": "terre", "kor": "테르", "label": "여성형" },
+        "de": { "word": "Erde", "kor": "에르데", "label": "여성형" },
+        "es": { "word": "tierra", "kor": "티에라", "label": "여성형" },
+        "ru": { "word": "земля́", "rom": "zemlyá", "kor": "제믈랴", "label": "여성형 · 흙·땅 겸용",
+                "alt": [{ "word": "по́чва", "rom": "póchva", "kor": "포치바", "label": "여성형 · 토양" }] },
+        "ar": { "word": "تُرْبَة", "rom": "turba", "label": "여성형" }
+      }
+    },
+    {
+      "id": "field", "ko": "들판", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "field", "kor": "필드" },
+        "ja": { "word": "野原", "rom": "のはら · nohara", "kor": "노하라",
+                "alt": [{ "word": "畑", "rom": "はたけ · hatake", "kor": "하타케", "label": "밭" }] },
+        "zh": { "word": "田", "rom": "tián", "kor": "톈" },
+        "fr": { "word": "champ", "kor": "샹", "label": "남성형" },
+        "de": { "word": "Feld", "kor": "펠트", "label": "중성형" },
+        "es": { "word": "campo", "kor": "캄포", "label": "남성형" },
+        "ru": { "word": "по́ле", "rom": "póle", "kor": "폴레", "label": "중성형" },
+        "ar": { "word": "حَقْل", "rom": "ḥaql", "label": "남성형" }
+      }
+    },
+    {
+      "id": "forest", "ko": "숲", "lists": ["swadesh"],
+      "words": {
+        "en": { "word": "forest", "kor": "포리스트" },
+        "ja": { "word": "森", "rom": "もり · mori", "kor": "모리",
+                "alt": [{ "word": "林", "rom": "はやし · hayashi", "kor": "하야시" }] },
+        "zh": { "word": "森林", "rom": "sēnlín", "kor": "썬린",
+                "alt": [{ "word": "林", "rom": "lín", "kor": "린" }] },
+        "fr": { "word": "forêt", "kor": "포레", "label": "여성형" },
+        "de": { "word": "Wald", "kor": "발트", "label": "남성형" },
+        "es": { "word": "bosque", "kor": "보스케", "label": "남성형" },
+        "ru": { "word": "лес", "rom": "les", "kor": "레스", "label": "남성형" },
+        "ar": { "word": "غَابَة", "rom": "ghāba", "label": "여성형" }
+      }
+    },
+    {
+      "id": "stone", "ko": "돌", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "stone", "kor": "스톤" },
+        "ja": { "word": "石", "rom": "いし · ishi", "kor": "이시" },
+        "zh": { "word": "石", "rom": "shí", "kor": "스",
+                "alt": [{ "word": "石头", "rom": "shítou", "kor": "스터우" }] },
+        "fr": { "word": "pierre", "kor": "피에르", "label": "여성형" },
+        "de": { "word": "Stein", "kor": "슈타인", "label": "남성형" },
+        "es": { "word": "piedra", "kor": "피에드라", "label": "여성형" },
+        "ru": { "word": "ка́мень", "rom": "kámen'", "kor": "카멘", "label": "남성형" },
+        "ar": { "word": "حَجَر", "rom": "ḥajar", "label": "남성형" }
+      }
+    },
+    {
+      "id": "sand", "ko": "모래", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "sand", "kor": "샌드" },
+        "ja": { "word": "砂", "rom": "すな · suna", "kor": "스나" },
+        "zh": { "word": "沙", "rom": "shā", "kor": "사",
+                "alt": [{ "word": "沙子", "rom": "shāzi", "kor": "사쯔" }] },
+        "fr": { "word": "sable", "kor": "사블", "label": "남성형" },
+        "de": { "word": "Sand", "kor": "잔트", "label": "남성형" },
+        "es": { "word": "arena", "kor": "아레나", "label": "여성형" },
+        "ru": { "word": "песо́к", "rom": "pesók", "kor": "페소크", "label": "남성형" },
+        "ar": { "word": "رَمْل", "rom": "raml", "label": "남성형" }
+      }
+    },
+    {
+      "id": "dust", "ko": "먼지", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "dust", "kor": "더스트" },
+        "ja": { "word": "埃", "rom": "ほこり · hokori", "kor": "호코리" },
+        "zh": { "word": "灰", "rom": "huī", "kor": "후이", "label": "먼지·재 겸용",
+                "alt": [{ "word": "灰尘", "rom": "huīchén", "kor": "후이천", "label": "먼지 전용" }] },
+        "fr": { "word": "poussière", "kor": "푸시에르", "label": "여성형" },
+        "de": { "word": "Staub", "kor": "슈타우프", "label": "남성형" },
+        "es": { "word": "polvo", "kor": "폴보", "label": "남성형" },
+        "ru": { "word": "пыль", "rom": "pyl'", "kor": "필", "label": "여성형" },
+        "ar": { "word": "غُبَار", "rom": "ghubār", "label": "남성형" }
+      },
+      "notes": ["중국어 灰는 먼지와 재를 함께 가리킨다 — dust와 ash 양쪽 번역표에 올라 있다. 먼지만 가리키려면 灰尘을 쓴다."]
+    },
+    {
+      "id": "tree", "ko": "나무", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "tree", "kor": "트리" },
+        "ja": { "word": "木", "rom": "き · ki", "kor": "기", "label": "나무·목재 겸용",
+                "alt": [{ "word": "樹木", "rom": "じゅもく · jumoku", "kor": "주모쿠", "label": "문어" }] },
+        "zh": { "word": "树", "rom": "shù", "kor": "수" },
+        "fr": { "word": "arbre", "kor": "아르브르", "label": "남성형" },
+        "de": { "word": "Baum", "kor": "바움", "label": "남성형" },
+        "es": { "word": "árbol", "kor": "아르볼", "label": "남성형" },
+        "ru": { "word": "де́рево", "rom": "dérevo", "kor": "데레보", "label": "중성형 · 나무·목재 겸용" },
+        "ar": { "word": "شَجَرَة", "rom": "shajara", "label": "여성형",
+                "alt": [{ "word": "شَجَر", "rom": "shajar", "label": "집합형" }] }
+      },
+      "notes": ["일본어 木와 러시아어 де́рево는 살아 있는 나무와 목재를 함께 가리킨다 — tree와 wood 양쪽 번역표에 같은 단어가 올라 있다. 중국어는 树(나무)와 木(목재)로 나눈다."]
+    },
+    {
+      "id": "wood", "ko": "목재", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "wood", "kor": "우드" },
+        "ja": { "word": "木", "rom": "き · ki", "kor": "기", "label": "나무·목재 겸용",
+                "alt": [{ "word": "木材", "rom": "もくざい · mokuzai", "kor": "모쿠자이", "label": "문어" }] },
+        "zh": { "word": "木", "rom": "mù", "kor": "무",
+                "alt": [{ "word": "木材", "rom": "mùcái", "kor": "무차이" }] },
+        "fr": { "word": "bois", "kor": "부아", "label": "남성형" },
+        "de": { "word": "Holz", "kor": "홀츠", "label": "중성형" },
+        "es": { "word": "madera", "kor": "마데라", "label": "여성형" },
+        "ru": { "word": "де́рево", "rom": "dérevo", "kor": "데레보", "label": "중성형 · 나무·목재 겸용",
+                "alt": [{ "word": "древеси́на", "rom": "drevesína", "kor": "드레베시나", "label": "여성형 · 목재 전용" }] },
+        "ar": { "word": "خَشَب", "rom": "khashab", "label": "남성형" }
+      }
+    },
+    {
+      "id": "stick", "ko": "막대기", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "stick", "kor": "스틱" },
+        "ja": { "word": "棒", "rom": "ぼう · bō", "kor": "보",
+                "alt": [{ "word": "枝", "rom": "えだ · eda", "kor": "에다", "label": "나뭇가지" }] },
+        "zh": { "word": "棍", "rom": "gùn", "kor": "군",
+                "alt": [{ "word": "棒", "rom": "bàng", "kor": "방" },
+                        { "word": "枝", "rom": "zhī", "kor": "즈", "label": "나뭇가지" }] },
+        "fr": { "word": "bâton", "kor": "바통", "label": "남성형" },
+        "de": { "word": "Stock", "kor": "슈토크", "label": "남성형" },
+        "es": { "word": "palo", "kor": "팔로", "label": "남성형" },
+        "ru": { "word": "па́лка", "rom": "pálka", "kor": "팔카", "label": "여성형" },
+        "ar": { "word": "عَصًا", "rom": "ʿaṣan", "label": "남성형" }
+      }
+    },
+    {
+      "id": "bark", "ko": "나무껍질", "lists": ["swadesh"],
+      "words": {
+        "en": { "word": "bark", "kor": "바크" },
+        "ja": { "word": "樹皮", "rom": "じゅひ · juhi", "kor": "주히" },
+        "zh": { "word": "树皮", "rom": "shùpí", "kor": "수피" },
+        "fr": { "word": "écorce", "kor": "에코르스", "label": "여성형" },
+        "de": { "word": "Rinde", "kor": "린데", "label": "여성형",
+                "alt": [{ "word": "Borke", "kor": "보르케", "label": "여성형" }] },
+        "es": { "word": "corteza", "kor": "코르테사", "label": "여성형" },
+        "ru": { "word": "кора́", "rom": "korá", "kor": "코라", "label": "여성형" },
+        "ar": { "word": "لِحَاء", "rom": "liḥāʾ", "label": "남성형" }
+      }
+    },
+    {
+      "id": "leaf", "ko": "잎", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "leaf", "kor": "리프" },
+        "ja": { "word": "葉", "rom": "は · ha", "kor": "하",
+                "alt": [{ "word": "葉っぱ", "rom": "はっぱ · happa", "kor": "핫파", "label": "구어" }] },
+        "zh": { "word": "叶", "rom": "yè", "kor": "예",
+                "alt": [{ "word": "叶子", "rom": "yèzi", "kor": "예쯔" }] },
+        "fr": { "word": "feuille", "kor": "푀유", "label": "여성형" },
+        "de": { "word": "Blatt", "kor": "블라트", "label": "중성형" },
+        "es": { "word": "hoja", "kor": "오하", "label": "여성형" },
+        "ru": { "word": "лист", "rom": "list", "kor": "리스트", "label": "남성형" },
+        "ar": { "word": "وَرَقَة", "rom": "waraqa", "label": "여성형" }
+      }
+    },
+    {
+      "id": "root", "ko": "뿌리", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "root", "kor": "루트" },
+        "ja": { "word": "根", "rom": "ね · ne", "kor": "네" },
+        "zh": { "word": "树根", "rom": "shùgēn", "kor": "수건" },
+        "fr": { "word": "racine", "kor": "라신", "label": "여성형" },
+        "de": { "word": "Wurzel", "kor": "부르첼", "label": "여성형" },
+        "es": { "word": "raíz", "kor": "라이스", "label": "여성형" },
+        "ru": { "word": "ко́рень", "rom": "kóren'", "kor": "코렌", "label": "남성형" },
+        "ar": { "word": "جَذْر", "rom": "jadhr", "label": "남성형" }
+      }
+    },
+    {
+      "id": "flower", "ko": "꽃", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "flower", "kor": "플라워" },
+        "ja": { "word": "花", "rom": "はな · hana", "kor": "하나" },
+        "zh": { "word": "花", "rom": "huā", "kor": "화" },
+        "fr": { "word": "fleur", "kor": "플뢰르", "label": "여성형" },
+        "de": { "word": "Blume", "kor": "블루메", "label": "여성형",
+                "alt": [{ "word": "Blüte", "kor": "블뤼테", "label": "여성형 · 꽃송이" }] },
+        "es": { "word": "flor", "kor": "플로르", "label": "여성형" },
+        "ru": { "word": "цвето́к", "rom": "tsvetók", "kor": "츠베토크", "label": "남성형" },
+        "ar": { "word": "زَهْرَة", "rom": "zahra", "label": "여성형" }
+      }
+    },
+    {
+      "id": "grass", "ko": "풀", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "grass", "kor": "그래스" },
+        "ja": { "word": "草", "rom": "くさ · kusa", "kor": "구사" },
+        "zh": { "word": "草", "rom": "cǎo", "kor": "차오",
+                "alt": [{ "word": "青草", "rom": "qīngcǎo", "kor": "칭차오" }] },
+        "fr": { "word": "herbe", "kor": "에르브", "label": "여성형" },
+        "de": { "word": "Gras", "kor": "그라스", "label": "중성형" },
+        "es": { "word": "hierba", "kor": "이에르바", "label": "여성형",
+                "alt": [{ "word": "pasto", "kor": "파스토", "label": "남성형" }] },
+        "ru": { "word": "трава́", "rom": "travá", "kor": "트라바", "label": "여성형" },
+        "ar": { "word": "عُشْب", "rom": "ʿushb", "label": "남성형",
+                "alt": [{ "word": "حَشِيش", "rom": "ḥashīsh", "label": "남성형" }] }
+      }
+    },
+    {
+      "id": "plant", "ko": "식물", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "plant", "kor": "플랜트" },
+        "ja": { "word": "植物", "rom": "しょくぶつ · shokubutsu", "kor": "쇼쿠부쓰",
+                "alt": [{ "word": "草木", "rom": "くさき · kusaki", "kor": "구사키" }] },
+        "zh": { "word": "植物", "rom": "zhíwù", "kor": "즈우" },
+        "fr": { "word": "plante", "kor": "플랑트", "label": "여성형" },
+        "de": { "word": "Pflanze", "kor": "프플란체", "label": "여성형" },
+        "es": { "word": "planta", "kor": "플란타", "label": "여성형" },
+        "ru": { "word": "расте́ние", "rom": "rasténiye", "kor": "라스테니예", "label": "중성형" },
+        "ar": { "word": "نَبَات", "rom": "nabāt", "label": "남성형" }
+      }
+    },
+    {
+      "id": "seed", "ko": "씨앗", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "seed", "kor": "시드" },
+        "ja": { "word": "種", "rom": "たね · tane", "kor": "다네" },
+        "zh": { "word": "种子", "rom": "zhǒngzi", "kor": "중쯔",
+                "alt": [{ "word": "种", "rom": "zhǒng", "kor": "중" }] },
+        "fr": { "word": "graine", "kor": "그렌", "label": "여성형",
+                "alt": [{ "word": "semence", "kor": "스망스", "label": "여성형" }] },
+        "de": { "word": "Samen", "kor": "자멘", "label": "남성형" },
+        "es": { "word": "semilla", "kor": "세미야", "label": "여성형" },
+        "ru": { "word": "се́мя", "rom": "sémya", "kor": "세먀", "label": "중성형" },
+        "ar": { "word": "بِذْرَة", "rom": "bidhra", "label": "여성형" }
+      }
+    },
+    {
+      "id": "fire", "ko": "불", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "fire", "kor": "파이어" },
+        "ja": { "word": "火", "rom": "ひ · hi", "kor": "히",
+                "alt": [{ "word": "炎", "rom": "ほのお · honō", "kor": "호노", "label": "불꽃" }] },
+        "zh": { "word": "火", "rom": "huǒ", "kor": "훠" },
+        "fr": { "word": "feu", "kor": "푀", "label": "남성형" },
+        "de": { "word": "Feuer", "kor": "포이어", "label": "중성형" },
+        "es": { "word": "fuego", "kor": "푸에고", "label": "남성형" },
+        "ru": { "word": "ого́нь", "rom": "ogón'", "kor": "오곤", "label": "남성형" },
+        "ar": { "word": "نَار", "rom": "nār", "label": "여성형" }
+      }
+    },
+    {
+      "id": "smoke", "ko": "연기", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "smoke", "kor": "스모크" },
+        "ja": { "word": "煙", "rom": "けむり · kemuri", "kor": "게무리" },
+        "zh": { "word": "烟", "rom": "yān", "kor": "옌" },
+        "fr": { "word": "fumée", "kor": "퓌메", "label": "여성형" },
+        "de": { "word": "Rauch", "kor": "라우흐", "label": "남성형" },
+        "es": { "word": "humo", "kor": "우모", "label": "남성형" },
+        "ru": { "word": "дым", "rom": "dym", "kor": "딤", "label": "남성형" },
+        "ar": { "word": "دُخَان", "rom": "dukhān", "label": "남성형" }
+      }
+    },
+    {
+      "id": "ash", "ko": "재", "lists": ["swadesh"],
+      "words": {
+        "en": { "word": "ash", "kor": "애시" },
+        "ja": { "word": "灰", "rom": "はい · hai", "kor": "하이" },
+        "zh": { "word": "灰", "rom": "huī", "kor": "후이", "label": "먼지·재 겸용" },
+        "fr": { "word": "cendre", "kor": "상드르", "label": "여성형" },
+        "de": { "word": "Asche", "kor": "아셰", "label": "여성형" },
+        "es": { "word": "ceniza", "kor": "세니사", "label": "여성형" },
+        "ru": { "word": "пе́пел", "rom": "pépel", "kor": "페펠", "label": "남성형",
+                "alt": [{ "word": "зола́", "rom": "zolá", "kor": "졸라", "label": "여성형" }] },
+        "ar": { "word": "رَمَاد", "rom": "ramād", "label": "남성형" }
+      }
+    }
+  ]
+}

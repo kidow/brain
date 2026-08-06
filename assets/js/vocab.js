@@ -6,7 +6,8 @@
     { name: '동물', url: '/vocab/동물.html' },
     { name: '신체', url: '/vocab/신체.html' },
     { name: '가족', url: '/vocab/가족.html' },
-    { name: '음식', url: '/vocab/음식.html' }
+    { name: '음식', url: '/vocab/음식.html' },
+    { name: '자연', url: '/vocab/자연.html' }
   ];
 
   const LANG_LABEL = {
