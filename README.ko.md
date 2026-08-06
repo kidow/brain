@@ -643,6 +643,7 @@ brain/
 - [가족](https://brain.dongwook.kim/vocab/가족.html)
 - [음식](https://brain.dongwook.kim/vocab/음식.html)
 - [자연](https://brain.dongwook.kim/vocab/자연.html)
+- [시간](https://brain.dongwook.kim/vocab/시간.html)
 
 ## 스킬 설치
 

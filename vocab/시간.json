@@ -1,0 +1,315 @@
+{
+  "category": "시간",
+  "languages": ["en", "ja", "zh", "fr", "de", "es", "ru", "ar"],
+  "sources": {
+    "concepts": "Ogden's Basic English 850(1930)의 시간 항목 26개 중 20개 — early·late·new·old·young은 기본 형용사 카테고리에, fall(동사)은 동작 카테고리에 두어 제외했다. Swadesh 207의 시간 항목(day·night·year)은 모두 Ogden에 포함된다",
+    "words": "English Wiktionary (시간 뜻풀이 번역표)",
+    "kor": "국립국어원 외래어 표기법 규정을 적용한 값 — 개별 단어의 등재 표기가 아님",
+    "zh": "간체자 표기 (저장소 drills/중국어_HSK_어휘 표기와 일치)"
+  },
+  "concepts": [
+    {
+      "id": "time", "ko": "시간", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "time", "kor": "타임" },
+        "ja": { "word": "時間", "rom": "じかん · jikan", "kor": "지칸" },
+        "zh": { "word": "时间", "rom": "shíjiān", "kor": "스젠",
+                "alt": [{ "word": "时光", "rom": "shíguāng", "kor": "스광", "label": "문어" }] },
+        "fr": { "word": "temps", "kor": "탕", "label": "남성형 · 시간·날씨 겸용" },
+        "de": { "word": "Zeit", "kor": "차이트", "label": "여성형" },
+        "es": { "word": "tiempo", "kor": "티엠포", "label": "남성형 · 시간·날씨 겸용" },
+        "ru": { "word": "вре́мя", "rom": "vrémya", "kor": "브레먀", "label": "중성형",
+                "alt": [{ "word": "час", "rom": "chas", "kor": "차스", "label": "남성형 · 때" }] },
+        "ar": { "word": "زَمَان", "rom": "zamān", "label": "남성형",
+                "alt": [{ "word": "زَمَن", "rom": "zaman", "label": "남성형" }] }
+      },
+      "notes": ["프랑스어 temps와 스페인어 tiempo는 '시간'과 '날씨'를 함께 가리킨다 — 자연 카테고리의 weather 항목에도 같은 단어가 올라 있다."]
+    },
+    {
+      "id": "second", "ko": "초", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "second", "kor": "세컨드" },
+        "ja": { "word": "秒", "rom": "びょう · byō", "kor": "뵤" },
+        "zh": { "word": "秒", "rom": "miǎo", "kor": "먀오",
+                "alt": [{ "word": "秒钟", "rom": "miǎozhōng", "kor": "먀오중" }] },
+        "fr": { "word": "seconde", "kor": "스공드", "label": "여성형" },
+        "de": { "word": "Sekunde", "kor": "제쿤데", "label": "여성형" },
+        "es": { "word": "segundo", "kor": "세군도", "label": "남성형" },
+        "ru": { "word": "секу́нда", "rom": "sekúnda", "kor": "세쿤다", "label": "여성형" },
+        "ar": { "word": "ثَانِيَة", "rom": "thāniya", "label": "여성형" }
+      }
+    },
+    {
+      "id": "minute", "ko": "분", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "minute", "kor": "미닛" },
+        "ja": { "word": "分", "rom": "ふん · fun", "kor": "훈" },
+        "zh": { "word": "分", "rom": "fēn", "kor": "펀",
+                "alt": [{ "word": "分钟", "rom": "fēnzhōng", "kor": "펀중" }] },
+        "fr": { "word": "minute", "kor": "미뉘트", "label": "여성형" },
+        "de": { "word": "Minute", "kor": "미누테", "label": "여성형" },
+        "es": { "word": "minuto", "kor": "미누토", "label": "남성형" },
+        "ru": { "word": "мину́та", "rom": "minúta", "kor": "미누타", "label": "여성형" },
+        "ar": { "word": "دَقِيقَة", "rom": "daqīqa", "label": "여성형" }
+      }
+    },
+    {
+      "id": "hour", "ko": "시간(한 시간)", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "hour", "kor": "아워" },
+        "ja": { "word": "時間", "rom": "じかん · jikan", "kor": "지칸",
+                "alt": [{ "word": "時", "rom": "じ · ji", "kor": "지", "label": "~시" }] },
+        "zh": { "word": "小时", "rom": "xiǎoshí", "kor": "샤오스",
+                "alt": [{ "word": "钟头", "rom": "zhōngtóu", "kor": "중터우", "label": "구어" }] },
+        "fr": { "word": "heure", "kor": "외르", "label": "여성형" },
+        "de": { "word": "Stunde", "kor": "슈툰데", "label": "여성형" },
+        "es": { "word": "hora", "kor": "오라", "label": "여성형" },
+        "ru": { "word": "час", "rom": "chas", "kor": "차스", "label": "남성형" },
+        "ar": { "word": "سَاعَة", "rom": "sāʿa", "label": "여성형" }
+      }
+    },
+    {
+      "id": "day", "ko": "날 · 낮", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "day", "kor": "데이" },
+        "ja": { "word": "日", "rom": "ひ · hi", "kor": "히", "label": "하루",
+                "alt": [{ "word": "昼", "rom": "ひる · hiru", "kor": "히루", "label": "낮" },
+                        { "word": "一日", "rom": "いちにち · ichinichi", "kor": "이치니치", "label": "하루" }] },
+        "zh": { "word": "天", "rom": "tiān", "kor": "톈", "label": "하루",
+                "alt": [{ "word": "日", "rom": "rì", "kor": "르", "label": "하루 · 문어" },
+                        { "word": "白天", "rom": "báitiān", "kor": "바이톈", "label": "낮" }] },
+        "fr": { "word": "jour", "kor": "주르", "label": "남성형",
+                "alt": [{ "word": "journée", "kor": "주르네", "label": "여성형 · 하루 동안" }] },
+        "de": { "word": "Tag", "kor": "타크", "label": "남성형" },
+        "es": { "word": "día", "kor": "디아", "label": "남성형" },
+        "ru": { "word": "день", "rom": "den'", "kor": "덴", "label": "남성형",
+                "alt": [{ "word": "су́тки", "rom": "sútki", "kor": "수트키", "label": "복수 · 24시간" }] },
+        "ar": { "word": "يَوْم", "rom": "yawm", "label": "남성형",
+                "alt": [{ "word": "نَهَار", "rom": "nahār", "label": "남성형 · 낮" }] }
+      },
+      "notes": ["영어 day는 하루(24시간)와 낮을 함께 가리킨다. 일본어는 日(하루)과 昼(낮), 중국어는 天·日(하루)과 白天(낮)으로 나눈다. 러시아어는 반대로 낮·하루가 день 하나이고 24시간을 따로 су́тки라 한다."]
+    },
+    {
+      "id": "night", "ko": "밤", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "night", "kor": "나이트" },
+        "ja": { "word": "夜", "rom": "よる · yoru", "kor": "요루" },
+        "zh": { "word": "夜晚", "rom": "yèwǎn", "kor": "예완",
+                "alt": [{ "word": "夜", "rom": "yè", "kor": "예", "label": "문어" }] },
+        "fr": { "word": "nuit", "kor": "뉘", "label": "여성형" },
+        "de": { "word": "Nacht", "kor": "나흐트", "label": "여성형" },
+        "es": { "word": "noche", "kor": "노체", "label": "여성형" },
+        "ru": { "word": "ночь", "rom": "noch'", "kor": "노치", "label": "여성형" },
+        "ar": { "word": "لَيْلَة", "rom": "layla", "label": "여성형",
+                "alt": [{ "word": "لَيْل", "rom": "layl", "label": "집합형" }] }
+      }
+    },
+    {
+      "id": "morning", "ko": "아침", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "morning", "kor": "모닝" },
+        "ja": { "word": "朝", "rom": "あさ · asa", "kor": "아사",
+                "alt": [{ "word": "午前", "rom": "ごぜん · gozen", "kor": "고젠", "label": "오전" }] },
+        "zh": { "word": "早上", "rom": "zǎoshang", "kor": "짜오상",
+                "alt": [{ "word": "上午", "rom": "shàngwǔ", "kor": "상우", "label": "오전" }] },
+        "fr": { "word": "matin", "kor": "마탱", "label": "남성형" },
+        "de": { "word": "Morgen", "kor": "모르겐", "label": "남성형" },
+        "es": { "word": "mañana", "kor": "마냐나", "label": "여성형 · 아침·내일 겸용" },
+        "ru": { "word": "у́тро", "rom": "útro", "kor": "우트로", "label": "중성형" },
+        "ar": { "word": "صَبَاح", "rom": "ṣabāḥ", "label": "남성형" }
+      },
+      "notes": ["스페인어 mañana는 '아침'과 '내일'을 함께 가리킨다. 독일어도 명사 Morgen은 아침, 부사 morgen은 내일로 형태가 같다 — morning과 tomorrow 양쪽 번역표에서 확인된다."]
+    },
+    {
+      "id": "week", "ko": "주", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "week", "kor": "위크" },
+        "ja": { "word": "週", "rom": "しゅう · shū", "kor": "슈",
+                "alt": [{ "word": "週間", "rom": "しゅうかん · shūkan", "kor": "슈칸" }] },
+        "zh": { "word": "星期", "rom": "xīngqī", "kor": "싱치",
+                "alt": [{ "word": "周", "rom": "zhōu", "kor": "저우" }] },
+        "fr": { "word": "semaine", "kor": "스멘", "label": "여성형" },
+        "de": { "word": "Woche", "kor": "보헤", "label": "여성형" },
+        "es": { "word": "semana", "kor": "세마나", "label": "여성형" },
+        "ru": { "word": "неде́ля", "rom": "nedélya", "kor": "네델랴", "label": "여성형" },
+        "ar": { "word": "أُسْبُوع", "rom": "ʾusbūʿ", "label": "남성형" }
+      }
+    },
+    {
+      "id": "month", "ko": "달(월)", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "month", "kor": "먼스" },
+        "ja": { "word": "月", "rom": "つき · tsuki", "kor": "쓰키", "label": "달(월)·달(천체) 겸용" },
+        "zh": { "word": "月", "rom": "yuè", "kor": "웨", "label": "달(월)·달(천체) 겸용",
+                "alt": [{ "word": "月份", "rom": "yuèfèn", "kor": "웨펀" }] },
+        "fr": { "word": "mois", "kor": "무아", "label": "남성형" },
+        "de": { "word": "Monat", "kor": "모나트", "label": "남성형" },
+        "es": { "word": "mes", "kor": "메스", "label": "남성형" },
+        "ru": { "word": "ме́сяц", "rom": "mésyats", "kor": "메샤츠", "label": "남성형 · 달(월)·달(천체) 겸용" },
+        "ar": { "word": "شَهْر", "rom": "shahr", "label": "남성형" }
+      },
+      "notes": ["일본어 月, 중국어 月, 러시아어 ме́сяц는 달력의 달과 하늘의 달을 한 단어로 쓴다 — 자연 카테고리의 moon 항목에도 같은 단어가 올라 있다. 한국어와 같은 방식이다."]
+    },
+    {
+      "id": "year", "ko": "해(년)", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "year", "kor": "이어" },
+        "ja": { "word": "年", "rom": "とし · toshi", "kor": "도시",
+                "alt": [{ "word": "年", "rom": "ねん · nen", "kor": "넨", "label": "~년" }] },
+        "zh": { "word": "年", "rom": "nián", "kor": "녠" },
+        "fr": { "word": "année", "kor": "아네", "label": "여성형",
+                "alt": [{ "word": "an", "kor": "앙", "label": "남성형" }] },
+        "de": { "word": "Jahr", "kor": "야르", "label": "중성형" },
+        "es": { "word": "año", "kor": "아뇨", "label": "남성형" },
+        "ru": { "word": "год", "rom": "god", "kor": "고트", "label": "남성형" },
+        "ar": { "word": "عَام", "rom": "ʿām", "label": "남성형" }
+      }
+    },
+    {
+      "id": "spring", "ko": "봄", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "spring", "kor": "스프링" },
+        "ja": { "word": "春", "rom": "はる · haru", "kor": "하루" },
+        "zh": { "word": "春天", "rom": "chūntiān", "kor": "춘톈",
+                "alt": [{ "word": "春季", "rom": "chūnjì", "kor": "춘지", "label": "문어" }] },
+        "fr": { "word": "printemps", "kor": "프랭탕", "label": "남성형" },
+        "de": { "word": "Frühling", "kor": "프륄링", "label": "남성형" },
+        "es": { "word": "primavera", "kor": "프리마베라", "label": "여성형" },
+        "ru": { "word": "весна́", "rom": "vesná", "kor": "베스나", "label": "여성형" },
+        "ar": { "word": "رَبِيع", "rom": "rabīʿ", "label": "남성형" }
+      }
+    },
+    {
+      "id": "summer", "ko": "여름", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "summer", "kor": "서머" },
+        "ja": { "word": "夏", "rom": "なつ · natsu", "kor": "나쓰" },
+        "zh": { "word": "夏天", "rom": "xiàtiān", "kor": "샤톈",
+                "alt": [{ "word": "夏季", "rom": "xiàjì", "kor": "샤지", "label": "문어" }] },
+        "fr": { "word": "été", "kor": "에테", "label": "남성형" },
+        "de": { "word": "Sommer", "kor": "좀머", "label": "남성형" },
+        "es": { "word": "verano", "kor": "베라노", "label": "남성형" },
+        "ru": { "word": "ле́то", "rom": "léto", "kor": "레토", "label": "중성형" },
+        "ar": { "word": "صَيْف", "rom": "ṣayf", "label": "남성형" }
+      }
+    },
+    {
+      "id": "winter", "ko": "겨울", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "winter", "kor": "윈터" },
+        "ja": { "word": "冬", "rom": "ふゆ · fuyu", "kor": "후유" },
+        "zh": { "word": "冬天", "rom": "dōngtiān", "kor": "둥톈",
+                "alt": [{ "word": "冬季", "rom": "dōngjì", "kor": "둥지", "label": "문어" }] },
+        "fr": { "word": "hiver", "kor": "이베르", "label": "남성형" },
+        "de": { "word": "Winter", "kor": "빈터", "label": "남성형" },
+        "es": { "word": "invierno", "kor": "인비에르노", "label": "남성형" },
+        "ru": { "word": "зима́", "rom": "zimá", "kor": "지마", "label": "여성형" },
+        "ar": { "word": "شِتَاء", "rom": "shitāʾ", "label": "남성형" }
+      },
+      "notes": ["Ogden 850에는 가을(autumn)이 없다. 봄·여름·겨울만 실려 있어 이 카테고리도 셋만 담았다."]
+    },
+    {
+      "id": "yesterday", "ko": "어제", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "yesterday", "kor": "예스터데이" },
+        "ja": { "word": "昨日", "rom": "きのう · kinō", "kor": "기노",
+                "alt": [{ "word": "昨日", "rom": "さくじつ · sakujitsu", "kor": "사쿠지쓰", "label": "문어" }] },
+        "zh": { "word": "昨天", "rom": "zuótiān", "kor": "쭤톈",
+                "alt": [{ "word": "昨日", "rom": "zuórì", "kor": "쭤르", "label": "문어" }] },
+        "fr": { "word": "hier", "kor": "이에르" },
+        "de": { "word": "gestern", "kor": "게스테른" },
+        "es": { "word": "ayer", "kor": "아예르" },
+        "ru": { "word": "вчера́", "rom": "vcherá", "kor": "프체라" },
+        "ar": { "word": "أَمْس", "rom": "ʾams" }
+      }
+    },
+    {
+      "id": "now", "ko": "지금", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "now", "kor": "나우" },
+        "ja": { "word": "今", "rom": "いま · ima", "kor": "이마",
+                "alt": [{ "word": "現在", "rom": "げんざい · genzai", "kor": "겐자이", "label": "문어" }] },
+        "zh": { "word": "现在", "rom": "xiànzài", "kor": "셴짜이" },
+        "fr": { "word": "maintenant", "kor": "맹트낭" },
+        "de": { "word": "jetzt", "kor": "예츠트",
+                "alt": [{ "word": "nun", "kor": "눈" }] },
+        "es": { "word": "ahora", "kor": "아오라" },
+        "ru": { "word": "сейча́с", "rom": "seychás", "kor": "세이차스" },
+        "ar": { "word": "الْآنَ", "rom": "al-ʾāna" }
+      }
+    },
+    {
+      "id": "tomorrow", "ko": "내일", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "tomorrow", "kor": "투모로" },
+        "ja": { "word": "明日", "rom": "あした · ashita", "kor": "아시타",
+                "alt": [{ "word": "明日", "rom": "あす · asu", "kor": "아스", "label": "문어" }] },
+        "zh": { "word": "明天", "rom": "míngtiān", "kor": "밍톈",
+                "alt": [{ "word": "明日", "rom": "míngrì", "kor": "밍르", "label": "문어" }] },
+        "fr": { "word": "demain", "kor": "드맹" },
+        "de": { "word": "morgen", "kor": "모르겐", "label": "아침·내일 동형" },
+        "es": { "word": "mañana", "kor": "마냐나", "label": "아침·내일 겸용" },
+        "ru": { "word": "за́втра", "rom": "závtra", "kor": "자프트라" },
+        "ar": { "word": "غَدًا", "rom": "ghadan" }
+      }
+    },
+    {
+      "id": "then", "ko": "그때", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "then", "kor": "덴" },
+        "ja": { "word": "その時", "rom": "そのとき · sono toki", "kor": "소노 도키",
+                "alt": [{ "word": "当時", "rom": "とうじ · tōji", "kor": "도지", "label": "그 당시" }] },
+        "zh": { "word": "当时", "rom": "dāngshí", "kor": "당스",
+                "alt": [{ "word": "那时", "rom": "nàshí", "kor": "나스" }] },
+        "fr": { "word": "alors", "kor": "알로르" },
+        "de": { "word": "damals", "kor": "다말스",
+                "alt": [{ "word": "dann", "kor": "단" }] },
+        "es": { "word": "entonces", "kor": "엔톤세스" },
+        "ru": { "word": "тогда́", "rom": "togdá", "kor": "토그다" },
+        "ar": { "word": "آنَذَاكَ", "rom": "ʾānadhāka" }
+      }
+    },
+    {
+      "id": "past", "ko": "과거", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "past", "kor": "패스트" },
+        "ja": { "word": "過去", "rom": "かこ · kako", "kor": "가코" },
+        "zh": { "word": "过去", "rom": "guòqu", "kor": "궈취" },
+        "fr": { "word": "passé", "kor": "파세", "label": "남성형" },
+        "de": { "word": "Vergangenheit", "kor": "페르강엔하이트", "label": "여성형" },
+        "es": { "word": "pasado", "kor": "파사도", "label": "남성형" },
+        "ru": { "word": "про́шлое", "rom": "próshloye", "kor": "프로시로예", "label": "중성형" },
+        "ar": { "word": "مَاضٍ", "rom": "māḍin", "label": "남성형" }
+      }
+    },
+    {
+      "id": "present", "ko": "현재", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "present", "kor": "프레즌트" },
+        "ja": { "word": "現在", "rom": "げんざい · genzai", "kor": "겐자이" },
+        "zh": { "word": "现在", "rom": "xiànzài", "kor": "셴짜이" },
+        "fr": { "word": "présent", "kor": "프레장", "label": "남성형" },
+        "de": { "word": "Gegenwart", "kor": "게겐바르트", "label": "여성형" },
+        "es": { "word": "presente", "kor": "프레센테", "label": "남성형" },
+        "ru": { "word": "настоя́щее", "rom": "nastoyáshcheye", "kor": "나스토야시체예", "label": "중성형" },
+        "ar": { "word": "حَاضِر", "rom": "ḥāḍir", "label": "남성형" }
+      }
+    },
+    {
+      "id": "future", "ko": "미래", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "future", "kor": "퓨처" },
+        "ja": { "word": "未来", "rom": "みらい · mirai", "kor": "미라이",
+                "alt": [{ "word": "将来", "rom": "しょうらい · shōrai", "kor": "쇼라이" }] },
+        "zh": { "word": "未来", "rom": "wèilái", "kor": "웨이라이",
+                "alt": [{ "word": "将来", "rom": "jiānglái", "kor": "장라이" }] },
+        "fr": { "word": "avenir", "kor": "아브니르", "label": "남성형",
+                "alt": [{ "word": "futur", "kor": "퓌튀르", "label": "남성형" }] },
+        "de": { "word": "Zukunft", "kor": "추쿤프트", "label": "여성형" },
+        "es": { "word": "futuro", "kor": "푸투로", "label": "남성형" },
+        "ru": { "word": "бу́дущее", "rom": "búdushcheye", "kor": "부두시체예", "label": "중성형" },
+        "ar": { "word": "مُسْتَقْبَل", "rom": "mustaqbal", "label": "남성형" }
+      }
+    }
+  ]
+}
