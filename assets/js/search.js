@@ -9,7 +9,7 @@
   let index = [];
   let loading;
 
-  const typeLabel = { note: '노트', sheet: '치트시트', drill: '드릴' };
+  const typeLabel = { note: '노트', sheet: '치트시트', drill: '드릴', vocab: '단어장' };
   const normalize = (text) => String(text || '')
     .normalize('NFKC').toLocaleLowerCase()
     .replace(/[\p{P}\p{S}]+/gu, ' ')
@@ -42,6 +42,21 @@
     try {
       const response = await fetch(source.url);
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      if (source.type === 'vocab-data') {
+        // 단어장은 개념 하나가 검색 단위다 — 8개 언어의 단어를 한 항목으로 묶고 해시로 바로 연결한다.
+        const book = await response.json();
+        const page = source.url.replace(/\.json$/i, '.html');
+        return (book.concepts || []).map((concept) => {
+          const words = Object.entries(concept.words || {}).flatMap(([, entry]) =>
+            [entry, ...(entry.alt || [])].map((one) => `${one.word || ''} ${one.rom || ''} ${one.kor || ''} ${one.label || ''}`));
+          return {
+            type: 'vocab',
+            title: `${book.category} · ${concept.ko}`,
+            url: `${page}#${concept.id}`,
+            content: `${concept.ko} ${concept.id} ${words.join(' ')} ${(concept.notes || []).join(' ')}`
+          };
+        });
+      }
       if (source.type === 'drill-data') {
         const words = await response.json();
         return Array.isArray(words) ? words.map((word) => ({

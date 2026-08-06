@@ -32,11 +32,14 @@ brain/
 │   ├── topic_name.md #  - one file per topic, no date (git history tracks time)
 │   └── <domain>/     #  - notes auto-organize into domain subfolders as they grow
 ├── sheets/           # quick-reference cheat sheets (HTML, served via GitHub Pages)
+├── drills/           # practice drills (HTML + JSON word data)
+├── vocab/            # cross-language vocabulary book (HTML + JSON, one file per category)
 ├── levels.md         # per-topic level memory (Blank/Glimpsed/Grounded/Fluent)
 └── README.md
 ```
 
 - `notes/` — knowledge notes, content only, no frontmatter.
+- `vocab/` — one concept, eight languages, side by side. Cut by category (colours, animals, numbers) instead of by language.
 - `levels.md` — each topic's level as a four-stage label plus a prose summary.
   - **Blank** — no prior exposure to the concept
   - **Glimpsed** — seen it before but cannot reproduce or explain it reliably
@@ -628,6 +631,12 @@ Practice drills — spaced-repetition (SM-2) vocabulary review and stroke-order 
 - [독일어 기초 어휘](https://brain.dongwook.kim/drills/독일어_기초_어휘.html)
 
 </details>
+
+## Vocabulary
+
+One concept shown in eight languages at once — English, Japanese, Chinese, French, German, Spanish, Russian, Arabic. Cut by category rather than by language, so you can see where the languages fail to line up. Concept lists come from standard sources (Swadesh, Berlin & Kay); words come from Wiktionary.
+
+- [색깔](https://brain.dongwook.kim/vocab/색깔.html)
 
 ## Installing the skills
 

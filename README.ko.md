@@ -32,11 +32,14 @@ brain/
 │   ├── topic_name.md #  - 주제당 1파일, 날짜 없음(git 히스토리가 시점 추적)
 │   └── <domain>/     #  - 주제가 쌓이면 도메인별 하위 폴더로 자동 정리
 ├── sheets/           # 빠른 참조용 치트시트 (HTML, GitHub Pages로 서빙)
+├── drills/           # 연습 드릴 (HTML + 단어 데이터 JSON)
+├── vocab/            # 언어 대조 단어장 (HTML + JSON, 카테고리당 1쌍)
 ├── levels.md         # 주제별 수준 메모리 (Blank/Glimpsed/Grounded/Fluent)
 └── README.md
 ```
 
 - `notes/` — 지식 노트입니다. frontmatter 없이 내용만 담습니다.
+- `vocab/` — 한 개념을 8개 언어로 나란히 봅니다. 언어별이 아니라 카테고리별(색깔·동물·숫자)로 자릅니다.
 - `levels.md` — 주제별 수준을 네 단계 라벨 + 서술형 요약으로 기록합니다.
   - **Blank** — 개념 자체를 접한 적 없음
   - **Glimpsed** — 본 적은 있지만 스스로 재현·설명 불가
@@ -628,6 +631,12 @@ brain/
 - [독일어 기초 어휘](https://brain.dongwook.kim/drills/독일어_기초_어휘.html)
 
 </details>
+
+## 단어장
+
+한 개념을 8개 언어로 한 화면에서 봅니다 — 영어·일본어·중국어·프랑스어·독일어·스페인어·러시아어·아랍어. 언어별이 아니라 카테고리별로 잘라서, 언어끼리 안 맞아떨어지는 지점이 드러나게 했습니다. 개념 목록은 표준 목록(Swadesh, Berlin & Kay)에서, 단어는 위키낱말사전에서 가져옵니다.
+
+- [색깔](https://brain.dongwook.kim/vocab/색깔.html)
 
 ## 스킬 설치
 
