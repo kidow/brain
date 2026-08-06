@@ -1,0 +1,247 @@
+{
+  "category": "색깔",
+  "languages": ["en", "ja", "zh", "fr", "de", "es", "ru", "ar"],
+  "sources": {
+    "concepts": "Berlin & Kay (1969), Basic Color Terms — 기본색채어 11개, 진화 단계 순",
+    "words": "English Wiktionary (색 뜻풀이 번역표)",
+    "swatch": "CSS 색상 이름 (CSS Color Module) 대응 값",
+    "kor": "국립국어원 외래어 표기법 규정을 적용한 값 — 개별 단어의 등재 표기가 아님",
+    "zh": "간체자 표기 (저장소 drills/중국어_HSK_어휘 표기와 일치)"
+  },
+  "concepts": [
+    {
+      "id": "white",
+      "ko": "흰색",
+      "swatch": "#FFFFFF",
+      "lists": ["swadesh", "berlin-kay"],
+      "words": {
+        "en": { "word": "white", "rom": "/ˈwaɪt/", "kor": "화이트" },
+        "ja": { "word": "白い", "rom": "しろい · shiroi", "kor": "시로이",
+                "alt": [{ "word": "白", "rom": "しろ · shiro", "kor": "시로", "label": "색 이름" }] },
+        "zh": { "word": "白", "rom": "bái", "kor": "바이",
+                "alt": [{ "word": "白色", "rom": "báisè", "kor": "바이써", "label": "색 이름" }] },
+        "fr": { "word": "blanc", "kor": "블랑" },
+        "de": { "word": "weiß", "rom": "/vaɪ̯s/", "kor": "바이스" },
+        "es": { "word": "blanco", "kor": "블랑코" },
+        "ru": { "word": "бе́лый", "rom": "bélyy", "kor": "벨리", "label": "남성형" },
+        "ar": { "word": "أَبْيَض", "rom": "abyaḍ", "label": "남성형",
+                "alt": [{ "word": "بَيْضَاء", "rom": "bayḍāʾ", "label": "여성형" }] }
+      }
+    },
+    {
+      "id": "black",
+      "ko": "검은색",
+      "swatch": "#000000",
+      "lists": ["swadesh", "berlin-kay"],
+      "words": {
+        "en": { "word": "black", "rom": "/blæk/", "kor": "블랙" },
+        "ja": { "word": "黒い", "rom": "くろい · kuroi", "kor": "구로이",
+                "alt": [{ "word": "黒", "rom": "くろ · kuro", "kor": "구로", "label": "색 이름" }] },
+        "zh": { "word": "黑", "rom": "hēi", "kor": "헤이",
+                "alt": [{ "word": "黑色", "rom": "hēisè", "kor": "헤이써", "label": "색 이름" }] },
+        "fr": { "word": "noir", "kor": "누아르" },
+        "de": { "word": "schwarz", "rom": "/ʃvarts/", "kor": "슈바르츠" },
+        "es": { "word": "negro", "kor": "네그로" },
+        "ru": { "word": "чёрный", "rom": "chyórnyy", "kor": "초르니", "label": "남성형" },
+        "ar": { "word": "أَسْوَد", "rom": "aswad", "label": "남성형",
+                "alt": [{ "word": "سَوْدَاء", "rom": "sawdāʾ", "label": "여성형" },
+                        { "word": "سُود", "rom": "sūd", "label": "복수형" }] }
+      },
+      "notes": ["아랍어 색채 형용사는 성·수에 따라 형태가 바뀐다 — 남성 أَسْوَد, 여성 سَوْدَاء, 복수 سُود."]
+    },
+    {
+      "id": "red",
+      "ko": "빨간색",
+      "swatch": "#FF0000",
+      "lists": ["swadesh", "berlin-kay"],
+      "words": {
+        "en": { "word": "red", "rom": "/ɹɛd/", "kor": "레드" },
+        "ja": { "word": "赤い", "rom": "あかい · akai", "kor": "아카이",
+                "alt": [{ "word": "赤", "rom": "あか · aka", "kor": "아카", "label": "색 이름" }] },
+        "zh": { "word": "红", "rom": "hóng", "kor": "훙",
+                "alt": [{ "word": "红色", "rom": "hóngsè", "kor": "훙써", "label": "색 이름" }] },
+        "fr": { "word": "rouge", "kor": "루주" },
+        "de": { "word": "rot", "rom": "/roːt/", "kor": "로트" },
+        "es": { "word": "rojo", "kor": "로호" },
+        "ru": { "word": "кра́сный", "rom": "krásnyy", "kor": "크라스니", "label": "남성형" },
+        "ar": { "word": "أَحْمَر", "rom": "aḥmar", "label": "남성형",
+                "alt": [{ "word": "حَمْرَاء", "rom": "ḥamrāʾ", "label": "여성형" },
+                        { "word": "حُمْر", "rom": "ḥumr", "label": "복수형" }] }
+      }
+    },
+    {
+      "id": "green",
+      "ko": "초록색",
+      "swatch": "#008000",
+      "lists": ["swadesh", "berlin-kay"],
+      "words": {
+        "en": { "word": "green", "rom": "/ˈɡɹiːn/", "kor": "그린" },
+        "ja": { "word": "緑", "rom": "みどり · midori", "kor": "미도리",
+                "alt": [{ "word": "青い", "rom": "あおい · aoi", "kor": "아오이", "label": "초록에도 씀" }] },
+        "zh": { "word": "绿", "rom": "lǜ", "kor": "뤼",
+                "alt": [{ "word": "绿色", "rom": "lǜsè", "kor": "뤼써", "label": "색 이름" },
+                        { "word": "青", "rom": "qīng", "kor": "칭", "label": "초록·파랑 겸용" }] },
+        "fr": { "word": "vert", "kor": "베르" },
+        "de": { "word": "grün", "rom": "/ɡʁyːn/", "kor": "그륀" },
+        "es": { "word": "verde", "kor": "베르데" },
+        "ru": { "word": "зелёный", "rom": "zelyónyy", "kor": "젤료니", "label": "남성형" },
+        "ar": { "word": "أَخْضَر", "rom": "akhḍar", "label": "남성형",
+                "alt": [{ "word": "خَضْرَاء", "rom": "khaḍrāʾ", "label": "여성형" }] }
+      },
+      "notes": ["일본어 青い와 중국어 青은 초록까지 덮는다 — 위키낱말사전 green 번역표에 둘 다 올라 있다."]
+    },
+    {
+      "id": "yellow",
+      "ko": "노란색",
+      "swatch": "#FFFF00",
+      "lists": ["swadesh", "berlin-kay"],
+      "words": {
+        "en": { "word": "yellow", "rom": "/ˈjɛləʊ/", "kor": "옐로" },
+        "ja": { "word": "黄色い", "rom": "きいろい · kiiroi", "kor": "기이로이",
+                "alt": [{ "word": "黄色", "rom": "きいろ · kiiro", "kor": "기이로", "label": "색 이름" }] },
+        "zh": { "word": "黄", "rom": "huáng", "kor": "황",
+                "alt": [{ "word": "黄色", "rom": "huángsè", "kor": "황써", "label": "색 이름" }] },
+        "fr": { "word": "jaune", "kor": "존" },
+        "de": { "word": "gelb", "rom": "/ɡɛlp/", "kor": "겔프" },
+        "es": { "word": "amarillo", "kor": "아마리요" },
+        "ru": { "word": "жёлтый", "rom": "zhyóltyy", "kor": "졸티", "label": "남성형" },
+        "ar": { "word": "أَصْفَر", "rom": "aṣfar", "label": "남성형",
+                "alt": [{ "word": "صَفْرَاء", "rom": "ṣafrāʾ", "label": "여성형" },
+                        { "word": "صُفْر", "rom": "ṣufr", "label": "복수형" }] }
+      }
+    },
+    {
+      "id": "blue",
+      "ko": "파란색",
+      "swatch": "#0000FF",
+      "lists": ["berlin-kay"],
+      "words": {
+        "en": { "word": "blue", "rom": "/bluː/", "kor": "블루" },
+        "ja": { "word": "青い", "rom": "あおい · aoi", "kor": "아오이",
+                "alt": [{ "word": "青", "rom": "あお · ao", "kor": "아오", "label": "색 이름" }] },
+        "zh": { "word": "蓝", "rom": "lán", "kor": "란",
+                "alt": [{ "word": "蓝色", "rom": "lánsè", "kor": "란써", "label": "색 이름" }] },
+        "fr": { "word": "bleu", "kor": "블뢰" },
+        "de": { "word": "blau", "rom": "/blaʊ̯/", "kor": "블라우" },
+        "es": { "word": "azul", "kor": "아술",
+                "alt": [{ "word": "celeste", "kor": "셀레스테", "label": "하늘색" }] },
+        "ru": { "word": "си́ний", "rom": "síniy", "kor": "시니", "label": "짙은 파랑",
+                "alt": [{ "word": "голубо́й", "rom": "golubóy", "kor": "골루보이", "label": "옅은 파랑" }] },
+        "ar": { "word": "أَزْرَق", "rom": "azraq", "label": "남성형",
+                "alt": [{ "word": "زَرْقَاء", "rom": "zarqāʾ", "label": "여성형" },
+                        { "word": "زُرْق", "rom": "zurq", "label": "복수형" }] }
+      },
+      "notes": ["러시아어는 파랑에 기본색채어가 둘이다 — синий(짙은)과 голубой(옅은). Berlin & Kay 체계에서 가장 자주 인용되는 예외다."]
+    },
+    {
+      "id": "brown",
+      "ko": "갈색",
+      "swatch": "#A52A2A",
+      "lists": ["berlin-kay"],
+      "words": {
+        "en": { "word": "brown", "rom": "/ˈbɹaʊ̯n/", "kor": "브라운" },
+        "ja": { "word": "茶色い", "rom": "ちゃいろい · chairoi", "kor": "자이로이",
+                "alt": [{ "word": "茶色", "rom": "ちゃいろ · chairo", "kor": "자이로", "label": "색 이름" },
+                        { "word": "褐色", "rom": "かっしょく · kasshoku", "kor": "갓쇼쿠", "label": "문어" }] },
+        "zh": { "word": "棕色", "rom": "zōngsè", "kor": "쭝써" },
+        "fr": { "word": "brun", "kor": "브룅",
+                "alt": [{ "word": "marron", "kor": "마롱" }] },
+        "de": { "word": "braun", "rom": "/bʁaʊ̯n/", "kor": "브라운" },
+        "es": { "word": "marrón", "kor": "마론",
+                "alt": [{ "word": "café", "kor": "카페" },
+                        { "word": "castaño", "kor": "카스타뇨" }] },
+        "ru": { "word": "кори́чневый", "rom": "koríchnevyy", "kor": "코리치네비", "label": "남성형",
+                "alt": [{ "word": "ка́рий", "rom": "káriy", "kor": "카리", "label": "눈·머리색" }] },
+        "ar": { "word": "بُنِّيّ", "rom": "bunniyy",
+                "alt": [{ "word": "أَسْمَر", "rom": "asmar", "label": "남성형" },
+                        { "word": "سَمْرَاء", "rom": "samrāʾ", "label": "여성형" }] }
+      }
+    },
+    {
+      "id": "purple",
+      "ko": "보라색",
+      "swatch": "#800080",
+      "lists": ["berlin-kay"],
+      "words": {
+        "en": { "word": "purple", "rom": "/ˈpɜː.pl̩/", "kor": "퍼플" },
+        "ja": { "word": "紫", "rom": "むらさき · murasaki", "kor": "무라사키",
+                "alt": [{ "word": "紫色", "rom": "むらさきいろ · murasaki-iro", "kor": "무라사키이로", "label": "색 이름" }] },
+        "zh": { "word": "紫", "rom": "zǐ", "kor": "쯔",
+                "alt": [{ "word": "紫色", "rom": "zǐsè", "kor": "쯔써", "label": "색 이름" }] },
+        "fr": { "word": "violet", "kor": "비올레",
+                "alt": [{ "word": "pourpre", "kor": "푸르프르" }] },
+        "de": { "word": "lila", "rom": "/ˈliːla/", "kor": "릴라",
+                "alt": [{ "word": "violett", "kor": "비올레트" },
+                        { "word": "purpurn", "kor": "푸르푸른" }] },
+        "es": { "word": "morado", "kor": "모라도",
+                "alt": [{ "word": "púrpura", "kor": "푸르푸라" }] },
+        "ru": { "word": "фиоле́товый", "rom": "fiolétovyy", "kor": "피올레토비", "label": "남성형",
+                "alt": [{ "word": "пу́рпурный", "rom": "púrpurnyy", "kor": "푸르푸르니" }] },
+        "ar": { "word": "بَنَفْسَجِيّ", "rom": "banafsajiyy",
+                "alt": [{ "word": "أُرْجُوَانِيّ", "rom": "urjuwāniyy" }] }
+      },
+      "notes": ["독일어는 lila·violett·purpurn이 함께 쓰인다. lila는 어미 변화가 없는 무변화 형용사다."]
+    },
+    {
+      "id": "pink",
+      "ko": "분홍색",
+      "swatch": "#FFC0CB",
+      "lists": ["berlin-kay"],
+      "words": {
+        "en": { "word": "pink", "rom": "/ˈpɪŋk/", "kor": "핑크" },
+        "ja": { "word": "桃色", "rom": "ももいろ · momoiro", "kor": "모모이로",
+                "alt": [{ "word": "ピンク", "rom": "pinku", "kor": "핑쿠", "label": "외래어" }] },
+        "zh": { "word": "粉红色", "rom": "fěnhóngsè", "kor": "펀훙써" },
+        "fr": { "word": "rose", "kor": "로즈" },
+        "de": { "word": "rosa", "rom": "/ˈʁoːza/", "kor": "로자",
+                "alt": [{ "word": "pink", "kor": "핑크" }] },
+        "es": { "word": "rosado", "kor": "로사도",
+                "alt": [{ "word": "rosa", "kor": "로사" }] },
+        "ru": { "word": "ро́зовый", "rom": "rózovyy", "kor": "로조비", "label": "남성형" },
+        "ar": { "word": "وَرْدِيّ", "rom": "wardiyy",
+                "alt": [{ "word": "زَهْرِيّ", "rom": "zahriyy" }] }
+      }
+    },
+    {
+      "id": "orange",
+      "ko": "주황색",
+      "swatch": "#FFA500",
+      "lists": ["berlin-kay"],
+      "words": {
+        "en": { "word": "orange", "rom": "/ˈɒɹɪnd͡ʒ/", "kor": "오렌지" },
+        "ja": { "word": "橙色", "rom": "だいだいいろ · daidai-iro", "kor": "다이다이이로",
+                "alt": [{ "word": "オレンジ色", "rom": "orenji-iro", "kor": "오렌지이로", "label": "외래어" }] },
+        "zh": { "word": "橙色", "rom": "chéngsè", "kor": "청써",
+                "alt": [{ "word": "橘黄色", "rom": "júhuángsè", "kor": "쥐황써" }] },
+        "fr": { "word": "orange", "kor": "오랑주" },
+        "de": { "word": "orange", "rom": "/oˈʁãːʃ/", "kor": "오랑주" },
+        "es": { "word": "naranja", "kor": "나랑하",
+                "alt": [{ "word": "anaranjado", "kor": "아나랑하도" }] },
+        "ru": { "word": "ора́нжевый", "rom": "oránzhevyy", "kor": "오란제비", "label": "남성형" },
+        "ar": { "word": "بُرْتُقَالِيّ", "rom": "burtuqāliyy" }
+      }
+    },
+    {
+      "id": "grey",
+      "ko": "회색",
+      "swatch": "#808080",
+      "lists": ["berlin-kay"],
+      "words": {
+        "en": { "word": "grey", "rom": "/ɡɹeɪ/", "kor": "그레이",
+                "alt": [{ "word": "gray", "kor": "그레이", "label": "미국 철자" }] },
+        "ja": { "word": "灰色", "rom": "はいいろ · hai-iro", "kor": "하이이로",
+                "alt": [{ "word": "鼠色", "rom": "ねずみいろ · nezumi-iro", "kor": "네즈미이로" }] },
+        "zh": { "word": "灰色", "rom": "huīsè", "kor": "후이써",
+                "alt": [{ "word": "灰", "rom": "huī", "kor": "후이" }] },
+        "fr": { "word": "gris", "kor": "그리" },
+        "de": { "word": "grau", "rom": "/ɡʁaʊ̯/", "kor": "그라우" },
+        "es": { "word": "gris", "kor": "그리스" },
+        "ru": { "word": "се́рый", "rom": "séryy", "kor": "세리", "label": "남성형",
+                "alt": [{ "word": "седо́й", "rom": "sedóy", "kor": "세도이", "label": "머리색" }] },
+        "ar": { "word": "رَمَادِيّ", "rom": "ramādiyy",
+                "alt": [{ "word": "أَشْهَب", "rom": "ashhab", "label": "남성형" }] }
+      },
+      "notes": ["영어는 영국식 grey와 미국식 gray를 함께 쓴다. 위키낱말사전은 번역표를 gray 문서에 모아 두었다."]
+    }
+  ]
+}
