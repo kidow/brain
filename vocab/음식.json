@@ -1,0 +1,393 @@
+{
+  "category": "음식",
+  "languages": ["en", "ja", "zh", "fr", "de", "es", "ru", "ar"],
+  "sources": {
+    "concepts": "Ogden's Basic English 850(1930)의 음식 항목 28개 중 25개 — fish는 동물 카테고리와 겹쳐, plant·seed는 자연 카테고리 소관이라 제외했다. Swadesh 207의 음식 항목(drink·egg·fat·fish·fruit·meat·salt·seed·water)은 모두 Ogden에 포함된다",
+    "words": "English Wiktionary (음식 뜻풀이 번역표). drink는 명사(음료) 뜻이라 beverage 문서의 번역표를 함께 썼다",
+    "kor": "국립국어원 외래어 표기법 규정을 적용한 값 — 개별 단어의 등재 표기가 아님",
+    "zh": "간체자 표기 (저장소 drills/중국어_HSK_어휘 표기와 일치)"
+  },
+  "concepts": [
+    {
+      "id": "food", "ko": "음식", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "food", "kor": "푸드" },
+        "ja": { "word": "食べ物", "rom": "たべもの · tabemono", "kor": "다베모노",
+                "alt": [{ "word": "食物", "rom": "しょくもつ · shokumotsu", "kor": "쇼쿠모쓰", "label": "문어" }] },
+        "zh": { "word": "食物", "rom": "shíwù", "kor": "스우",
+                "alt": [{ "word": "食品", "rom": "shípǐn", "kor": "스핀" }] },
+        "fr": { "word": "nourriture", "kor": "누리튀르", "label": "여성형" },
+        "de": { "word": "Nahrung", "kor": "나룽", "label": "여성형",
+                "alt": [{ "word": "Essen", "kor": "에센", "label": "중성형" }] },
+        "es": { "word": "alimento", "kor": "알리멘토", "label": "남성형",
+                "alt": [{ "word": "comida", "kor": "코미다", "label": "여성형" }] },
+        "ru": { "word": "еда́", "rom": "yedá", "kor": "예다", "label": "여성형",
+                "alt": [{ "word": "пи́ща", "rom": "píshcha", "kor": "피시차", "label": "여성형 · 문어" }] },
+        "ar": { "word": "طَعَام", "rom": "ṭaʿām", "label": "남성형",
+                "alt": [{ "word": "أَكْل", "rom": "ʾakl", "label": "남성형" }] }
+      }
+    },
+    {
+      "id": "meal", "ko": "식사", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "meal", "kor": "밀" },
+        "ja": { "word": "食事", "rom": "しょくじ · shokuji", "kor": "쇼쿠지" },
+        "zh": { "word": "餐", "rom": "cān", "kor": "찬",
+                "alt": [{ "word": "饭", "rom": "fàn", "kor": "판" }] },
+        "fr": { "word": "repas", "kor": "르파", "label": "남성형" },
+        "de": { "word": "Mahlzeit", "kor": "말차이트", "label": "여성형" },
+        "es": { "word": "comida", "kor": "코미다", "label": "여성형" },
+        "ru": { "word": "еда́", "rom": "yedá", "kor": "예다", "label": "여성형" },
+        "ar": { "word": "وَجْبَة", "rom": "wajba", "label": "여성형" }
+      },
+      "notes": ["스페인어 comida와 러시아어 еда́는 '음식'과 '식사'를 겸한다 — food와 meal 양쪽 번역표에 같은 단어가 올라 있다."]
+    },
+    {
+      "id": "water", "ko": "물", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "water", "kor": "워터" },
+        "ja": { "word": "水", "rom": "みず · mizu", "kor": "미즈" },
+        "zh": { "word": "水", "rom": "shuǐ", "kor": "수이" },
+        "fr": { "word": "eau", "kor": "오", "label": "여성형" },
+        "de": { "word": "Wasser", "kor": "바서", "label": "중성형" },
+        "es": { "word": "agua", "kor": "아과", "label": "여성형" },
+        "ru": { "word": "вода́", "rom": "vodá", "kor": "보다", "label": "여성형" },
+        "ar": { "word": "مَاء", "rom": "māʾ", "label": "남성형" }
+      }
+    },
+    {
+      "id": "drink", "ko": "음료", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "drink", "kor": "드링크" },
+        "ja": { "word": "飲み物", "rom": "のみもの · nomimono", "kor": "노미모노",
+                "alt": [{ "word": "飲料", "rom": "いんりょう · inryō", "kor": "인료", "label": "문어" }] },
+        "zh": { "word": "饮料", "rom": "yǐnliào", "kor": "인랴오" },
+        "fr": { "word": "boisson", "kor": "부아송", "label": "여성형" },
+        "de": { "word": "Getränk", "kor": "게트렝크", "label": "중성형" },
+        "es": { "word": "bebida", "kor": "베비다", "label": "여성형" },
+        "ru": { "word": "напи́ток", "rom": "napítok", "kor": "나피토크", "label": "남성형" },
+        "ar": { "word": "مَشْرُوب", "rom": "mashrūb", "label": "남성형",
+                "alt": [{ "word": "شَرَاب", "rom": "sharāb", "label": "남성형" }] }
+      }
+    },
+    {
+      "id": "milk", "ko": "젖 · 우유", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "milk", "kor": "밀크" },
+        "ja": { "word": "乳", "rom": "ちち · chichi", "kor": "지치",
+                "alt": [{ "word": "乳汁", "rom": "にゅうじゅう · nyūjū", "kor": "뉴주", "label": "문어" }] },
+        "zh": { "word": "奶", "rom": "nǎi", "kor": "나이",
+                "alt": [{ "word": "乳", "rom": "rǔ", "kor": "루", "label": "문어" }] },
+        "fr": { "word": "lait", "kor": "레", "label": "남성형" },
+        "de": { "word": "Milch", "kor": "밀히", "label": "여성형" },
+        "es": { "word": "leche", "kor": "레체", "label": "여성형" },
+        "ru": { "word": "молоко́", "rom": "molokó", "kor": "몰로코", "label": "중성형" },
+        "ar": { "word": "حَلِيب", "rom": "ḥalīb", "label": "남성형",
+                "alt": [{ "word": "لَبَن", "rom": "laban", "label": "남성형" }] }
+      }
+    },
+    {
+      "id": "wine", "ko": "포도주", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "wine", "kor": "와인" },
+        "ja": { "word": "ワイン", "rom": "wain", "kor": "와인",
+                "alt": [{ "word": "葡萄酒", "rom": "ぶどうしゅ · budōshu", "kor": "부도슈", "label": "문어" }] },
+        "zh": { "word": "葡萄酒", "rom": "pútáojiǔ", "kor": "푸타오주" },
+        "fr": { "word": "vin", "kor": "뱅", "label": "남성형" },
+        "de": { "word": "Wein", "kor": "바인", "label": "남성형" },
+        "es": { "word": "vino", "kor": "비노", "label": "남성형" },
+        "ru": { "word": "вино́", "rom": "vinó", "kor": "비노", "label": "중성형" },
+        "ar": { "word": "نَبِيذ", "rom": "nabīdh", "label": "남성형",
+                "alt": [{ "word": "خَمْر", "rom": "khamr", "label": "여성형" }] }
+      }
+    },
+    {
+      "id": "bread", "ko": "빵", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "bread", "kor": "브레드" },
+        "ja": { "word": "パン", "rom": "pan", "kor": "판" },
+        "zh": { "word": "面包", "rom": "miànbāo", "kor": "몐바오" },
+        "fr": { "word": "pain", "kor": "팽", "label": "남성형" },
+        "de": { "word": "Brot", "kor": "브로트", "label": "중성형" },
+        "es": { "word": "pan", "kor": "판", "label": "남성형" },
+        "ru": { "word": "хлеб", "rom": "khleb", "kor": "흘레프", "label": "남성형" },
+        "ar": { "word": "خُبْز", "rom": "khubz", "label": "남성형" }
+      }
+    },
+    {
+      "id": "rice", "ko": "쌀 · 밥", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "rice", "kor": "라이스" },
+        "ja": { "word": "米", "rom": "こめ · kome", "kor": "고메", "label": "쌀",
+                "alt": [{ "word": "ご飯", "rom": "ごはん · gohan", "kor": "고한", "label": "밥" },
+                        { "word": "稲", "rom": "いね · ine", "kor": "이네", "label": "벼" }] },
+        "zh": { "word": "米", "rom": "mǐ", "kor": "미", "label": "쌀",
+                "alt": [{ "word": "饭", "rom": "fàn", "kor": "판", "label": "밥" },
+                        { "word": "稻", "rom": "dào", "kor": "다오", "label": "벼" }] },
+        "fr": { "word": "riz", "kor": "리", "label": "남성형" },
+        "de": { "word": "Reis", "kor": "라이스", "label": "남성형" },
+        "es": { "word": "arroz", "kor": "아로스", "label": "남성형" },
+        "ru": { "word": "рис", "rom": "ris", "kor": "리스", "label": "남성형" },
+        "ar": { "word": "أَرُزّ", "rom": "ʾaruzz", "label": "남성형" }
+      },
+      "notes": ["일본어와 중국어는 벼·쌀·밥을 다른 단어로 나눈다 — 稲/米/ご飯, 稻/米/饭. 유럽 언어 여섯은 riz·Reis·arroz처럼 한 단어로 다 덮는다. 한국어와 같은 방식이다."]
+    },
+    {
+      "id": "grain", "ko": "곡물", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "grain", "kor": "그레인" },
+        "ja": { "word": "穀物", "rom": "こくもつ · kokumotsu", "kor": "고쿠모쓰" },
+        "zh": { "word": "谷物", "rom": "gǔwù", "kor": "구우",
+                "alt": [{ "word": "粮食", "rom": "liángshí", "kor": "량스" }] },
+        "fr": { "word": "grain", "kor": "그랭", "label": "남성형" },
+        "de": { "word": "Getreide", "kor": "게트라이데", "label": "중성형",
+                "alt": [{ "word": "Korn", "kor": "코른", "label": "중성형" }] },
+        "es": { "word": "grano", "kor": "그라노", "label": "남성형" },
+        "ru": { "word": "зерно́", "rom": "zernó", "kor": "제르노", "label": "중성형" },
+        "ar": { "word": "حَبَة", "rom": "ḥaba", "label": "여성형" }
+      }
+    },
+    {
+      "id": "meat", "ko": "고기", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "meat", "kor": "미트" },
+        "ja": { "word": "肉", "rom": "にく · niku", "kor": "니쿠" },
+        "zh": { "word": "肉", "rom": "ròu", "kor": "러우" },
+        "fr": { "word": "viande", "kor": "비앙드", "label": "여성형" },
+        "de": { "word": "Fleisch", "kor": "플라이슈", "label": "중성형" },
+        "es": { "word": "carne", "kor": "카르네", "label": "여성형" },
+        "ru": { "word": "мя́со", "rom": "myáso", "kor": "먀소", "label": "중성형" },
+        "ar": { "word": "لَحْم", "rom": "laḥm", "label": "남성형" }
+      }
+    },
+    {
+      "id": "egg", "ko": "달걀", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "egg", "kor": "에그" },
+        "ja": { "word": "卵", "rom": "たまご · tamago", "kor": "다마고",
+                "alt": [{ "word": "玉子", "rom": "たまご · tamago", "kor": "다마고", "label": "다른 표기" }] },
+        "zh": { "word": "蛋", "rom": "dàn", "kor": "단",
+                "alt": [{ "word": "鸡蛋", "rom": "jīdàn", "kor": "지단", "label": "달걀" }] },
+        "fr": { "word": "œuf", "kor": "외프", "label": "남성형" },
+        "de": { "word": "Ei", "kor": "아이", "label": "중성형" },
+        "es": { "word": "huevo", "kor": "우에보", "label": "남성형" },
+        "ru": { "word": "яйцо́", "rom": "yaytsó", "kor": "야이초", "label": "중성형" },
+        "ar": { "word": "بَيْضَة", "rom": "bayḍa", "label": "여성형",
+                "alt": [{ "word": "بَيْض", "rom": "bayḍ", "label": "집합형" }] }
+      }
+    },
+    {
+      "id": "cheese", "ko": "치즈", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "cheese", "kor": "치즈" },
+        "ja": { "word": "チーズ", "rom": "chīzu", "kor": "지즈" },
+        "zh": { "word": "干酪", "rom": "gānlào", "kor": "간라오",
+                "alt": [{ "word": "乳酪", "rom": "rǔlào", "kor": "루라오" }] },
+        "fr": { "word": "fromage", "kor": "프로마주", "label": "남성형" },
+        "de": { "word": "Käse", "kor": "케제", "label": "남성형" },
+        "es": { "word": "queso", "kor": "케소", "label": "남성형" },
+        "ru": { "word": "сыр", "rom": "syr", "kor": "시르", "label": "남성형" },
+        "ar": { "word": "جُبْن", "rom": "jubn", "label": "남성형" }
+      }
+    },
+    {
+      "id": "butter", "ko": "버터", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "butter", "kor": "버터" },
+        "ja": { "word": "バター", "rom": "batā", "kor": "바타" },
+        "zh": { "word": "黄油", "rom": "huángyóu", "kor": "황유" },
+        "fr": { "word": "beurre", "kor": "뵈르", "label": "남성형" },
+        "de": { "word": "Butter", "kor": "부터", "label": "여성형" },
+        "es": { "word": "mantequilla", "kor": "만테키야", "label": "여성형" },
+        "ru": { "word": "ма́сло", "rom": "máslo", "kor": "마슬로", "label": "중성형 · 버터·기름 겸용",
+                "alt": [{ "word": "сли́вочное ма́сло", "rom": "slívochnoye máslo", "kor": "슬리보치노예 마슬로", "label": "버터 전용" }] },
+        "ar": { "word": "زُبْدَة", "rom": "zubda", "label": "여성형" }
+      },
+      "notes": ["러시아어 ма́сло는 버터와 식용유를 함께 가리킨다 — butter와 oil 양쪽 번역표에 같은 단어가 올라 있다. 버터만 가리키려면 сли́вочное ма́сло(크림 기름)라고 한다."]
+    },
+    {
+      "id": "oil", "ko": "기름", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "oil", "kor": "오일" },
+        "ja": { "word": "油", "rom": "あぶら · abura", "kor": "아부라" },
+        "zh": { "word": "油", "rom": "yóu", "kor": "유" },
+        "fr": { "word": "huile", "kor": "윌", "label": "여성형" },
+        "de": { "word": "Öl", "kor": "욀", "label": "중성형" },
+        "es": { "word": "aceite", "kor": "아세이테", "label": "남성형" },
+        "ru": { "word": "ма́сло", "rom": "máslo", "kor": "마슬로", "label": "중성형 · 버터·기름 겸용" },
+        "ar": { "word": "زَيْت", "rom": "zayt", "label": "남성형" }
+      }
+    },
+    {
+      "id": "fat", "ko": "지방", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "fat", "kor": "팻" },
+        "ja": { "word": "脂肪", "rom": "しぼう · shibō", "kor": "시보",
+                "alt": [{ "word": "脂", "rom": "あぶら · abura", "kor": "아부라" }] },
+        "zh": { "word": "脂肪", "rom": "zhīfáng", "kor": "즈팡" },
+        "fr": { "word": "graisse", "kor": "그레스", "label": "여성형" },
+        "de": { "word": "Fett", "kor": "페트", "label": "중성형" },
+        "es": { "word": "grasa", "kor": "그라사", "label": "여성형" },
+        "ru": { "word": "жир", "rom": "zhir", "kor": "지르", "label": "남성형",
+                "alt": [{ "word": "са́ло", "rom": "sálo", "kor": "살로", "label": "중성형" }] },
+        "ar": { "word": "دُهْن", "rom": "duhn", "label": "남성형",
+                "alt": [{ "word": "شَحْم", "rom": "shaḥm", "label": "남성형" }] }
+      }
+    },
+    {
+      "id": "salt", "ko": "소금", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "salt", "kor": "솔트" },
+        "ja": { "word": "塩", "rom": "しお · shio", "kor": "시오" },
+        "zh": { "word": "盐", "rom": "yán", "kor": "옌" },
+        "fr": { "word": "sel", "kor": "셀", "label": "남성형" },
+        "de": { "word": "Salz", "kor": "잘츠", "label": "중성형" },
+        "es": { "word": "sal", "kor": "살", "label": "여성형" },
+        "ru": { "word": "соль", "rom": "sol'", "kor": "솔리", "label": "여성형" },
+        "ar": { "word": "مِلْح", "rom": "milḥ", "label": "남성형" }
+      }
+    },
+    {
+      "id": "sugar", "ko": "설탕", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "sugar", "kor": "슈거" },
+        "ja": { "word": "砂糖", "rom": "さとう · satō", "kor": "사토" },
+        "zh": { "word": "糖", "rom": "táng", "kor": "탕" },
+        "fr": { "word": "sucre", "kor": "쉬크르", "label": "남성형" },
+        "de": { "word": "Zucker", "kor": "추커", "label": "남성형" },
+        "es": { "word": "azúcar", "kor": "아수카르", "label": "남성형" },
+        "ru": { "word": "са́хар", "rom": "sákhar", "kor": "사하르", "label": "남성형" },
+        "ar": { "word": "سُكَّر", "rom": "sukkar", "label": "남성형" }
+      }
+    },
+    {
+      "id": "soup", "ko": "국 · 수프", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "soup", "kor": "수프" },
+        "ja": { "word": "スープ", "rom": "sūpu", "kor": "스프",
+                "alt": [{ "word": "汁", "rom": "しる · shiru", "kor": "시루", "label": "국물" }] },
+        "zh": { "word": "汤", "rom": "tāng", "kor": "탕" },
+        "fr": { "word": "soupe", "kor": "수프", "label": "여성형",
+                "alt": [{ "word": "potage", "kor": "포타주", "label": "남성형" }] },
+        "de": { "word": "Suppe", "kor": "주페", "label": "여성형" },
+        "es": { "word": "sopa", "kor": "소파", "label": "여성형" },
+        "ru": { "word": "суп", "rom": "sup", "kor": "수프", "label": "남성형" },
+        "ar": { "word": "شُورَبَة", "rom": "shūraba", "label": "여성형" }
+      }
+    },
+    {
+      "id": "cake", "ko": "케이크", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "cake", "kor": "케이크" },
+        "ja": { "word": "ケーキ", "rom": "kēki", "kor": "게키" },
+        "zh": { "word": "蛋糕", "rom": "dàngāo", "kor": "단가오" },
+        "fr": { "word": "gâteau", "kor": "가토", "label": "남성형" },
+        "de": { "word": "Kuchen", "kor": "쿠헨", "label": "남성형",
+                "alt": [{ "word": "Torte", "kor": "토르테", "label": "여성형" }] },
+        "es": { "word": "bizcocho", "kor": "비스코초", "label": "남성형" },
+        "ru": { "word": "торт", "rom": "tort", "kor": "토르트", "label": "남성형",
+                "alt": [{ "word": "пиро́жное", "rom": "pirózhnoye", "kor": "피로지노예", "label": "중성형" }] },
+        "ar": { "word": "كَعْكَة", "rom": "kaʿka", "label": "여성형" }
+      }
+    },
+    {
+      "id": "fruit", "ko": "과일", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "fruit", "kor": "프루트" },
+        "ja": { "word": "果物", "rom": "くだもの · kudamono", "kor": "구다모노",
+                "alt": [{ "word": "果実", "rom": "かじつ · kajitsu", "kor": "가지쓰", "label": "식물의 열매" }] },
+        "zh": { "word": "水果", "rom": "shuǐguǒ", "kor": "수이궈",
+                "alt": [{ "word": "果", "rom": "guǒ", "kor": "궈", "label": "식물의 열매" }] },
+        "fr": { "word": "fruit", "kor": "프뤼", "label": "남성형" },
+        "de": { "word": "Obst", "kor": "옵스트", "label": "중성형",
+                "alt": [{ "word": "Frucht", "kor": "프루흐트", "label": "여성형 · 식물의 열매" }] },
+        "es": { "word": "fruta", "kor": "프루타", "label": "여성형" },
+        "ru": { "word": "фрукт", "rom": "frukt", "kor": "프루크트", "label": "남성형",
+                "alt": [{ "word": "плод", "rom": "plod", "kor": "플로트", "label": "남성형 · 식물의 열매" }] },
+        "ar": { "word": "فَاكِهَة", "rom": "fākiha", "label": "여성형",
+                "alt": [{ "word": "ثَمَرَة", "rom": "thamara", "label": "여성형 · 식물의 열매" }] }
+      },
+      "notes": ["여러 언어가 '먹는 과일'과 '식물의 열매'를 다른 단어로 나눈다 — 독일어 Obst/Frucht, 러시아어 фрукт/плод, 일본어 果物/果実. 프랑스어 fruit와 스페인어 fruta는 나누지 않는다."]
+    },
+    {
+      "id": "apple", "ko": "사과", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "apple", "kor": "애플" },
+        "ja": { "word": "林檎", "rom": "りんご · ringo", "kor": "린고",
+                "alt": [{ "word": "リンゴ", "rom": "ringo", "kor": "린고", "label": "가타카나 표기" }] },
+        "zh": { "word": "苹果", "rom": "píngguǒ", "kor": "핑궈" },
+        "fr": { "word": "pomme", "kor": "폼", "label": "여성형" },
+        "de": { "word": "Apfel", "kor": "압펠", "label": "남성형" },
+        "es": { "word": "manzana", "kor": "만사나", "label": "여성형" },
+        "ru": { "word": "я́блоко", "rom": "yábloko", "kor": "야블로코", "label": "중성형" },
+        "ar": { "word": "تُفَّاحَة", "rom": "tuffāḥa", "label": "여성형",
+                "alt": [{ "word": "تُفَّاح", "rom": "tuffāḥ", "label": "집합형" }] }
+      }
+    },
+    {
+      "id": "orange", "ko": "오렌지", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "orange", "kor": "오렌지" },
+        "ja": { "word": "蜜柑", "rom": "みかん · mikan", "kor": "미칸",
+                "alt": [{ "word": "橙", "rom": "だいだい · daidai", "kor": "다이다이" }] },
+        "zh": { "word": "橙", "rom": "chéng", "kor": "청",
+                "alt": [{ "word": "橙子", "rom": "chéngzi", "kor": "청쯔" }] },
+        "fr": { "word": "orange", "kor": "오랑주", "label": "여성형" },
+        "de": { "word": "Orange", "kor": "오랑주", "label": "여성형",
+                "alt": [{ "word": "Apfelsine", "kor": "압펠지네", "label": "여성형" }] },
+        "es": { "word": "naranja", "kor": "나랑하", "label": "여성형" },
+        "ru": { "word": "апельси́н", "rom": "apel'sín", "kor": "아펠신", "label": "남성형" },
+        "ar": { "word": "بُرْتُقَالَة", "rom": "burtuqāla", "label": "여성형" }
+      },
+      "notes": ["중국어 橙은 과일 오렌지와 주황색(橙色)에 함께 쓰인다. 색깔 카테고리의 orange 항목과 견주어 보면 어원이 겹치는 언어가 여럿이다."]
+    },
+    {
+      "id": "berry", "ko": "베리", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "berry", "kor": "베리" },
+        "ja": { "word": "ベリー", "rom": "berī", "kor": "베리",
+                "alt": [{ "word": "漿果", "rom": "しょうか · shōka", "kor": "쇼카", "label": "문어" }] },
+        "zh": { "word": "浆果", "rom": "jiāngguǒ", "kor": "장궈",
+                "alt": [{ "word": "莓", "rom": "méi", "kor": "메이" }] },
+        "fr": { "word": "baie", "kor": "베", "label": "여성형" },
+        "de": { "word": "Beere", "kor": "베레", "label": "여성형" },
+        "es": { "word": "baya", "kor": "바야", "label": "여성형" },
+        "ru": { "word": "я́года", "rom": "yágoda", "kor": "야고다", "label": "여성형" },
+        "ar": { "word": "تُوت", "rom": "tūt", "label": "남성형" }
+      }
+    },
+    {
+      "id": "nut", "ko": "견과", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "nut", "kor": "넛" },
+        "ja": { "word": "木の実", "rom": "きのみ · kinomi", "kor": "기노미",
+                "alt": [{ "word": "堅果", "rom": "けんか · kenka", "kor": "겐카", "label": "문어" }] },
+        "zh": { "word": "坚果", "rom": "jiānguǒ", "kor": "젠궈" },
+        "fr": { "word": "noix", "kor": "누아", "label": "여성형",
+                "alt": [{ "word": "fruit sec", "kor": "프뤼 세크", "label": "남성형" }] },
+        "de": { "word": "Nuss", "kor": "누스", "label": "여성형" },
+        "es": { "word": "nuez", "kor": "누에스", "label": "여성형" },
+        "ru": { "word": "оре́х", "rom": "orékh", "kor": "오레흐", "label": "남성형" },
+        "ar": { "word": "جَوْزَة", "rom": "jawza", "label": "여성형" }
+      }
+    },
+    {
+      "id": "potato", "ko": "감자", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "potato", "kor": "포테이토" },
+        "ja": { "word": "じゃがいも", "rom": "jagaimo", "kor": "자가이모",
+                "alt": [{ "word": "馬鈴薯", "rom": "ばれいしょ · bareisho", "kor": "바레이쇼", "label": "문어" }] },
+        "zh": { "word": "土豆", "rom": "tǔdòu", "kor": "투더우",
+                "alt": [{ "word": "马铃薯", "rom": "mǎlíngshǔ", "kor": "마링수", "label": "문어" }] },
+        "fr": { "word": "pomme de terre", "kor": "폼 드 테르", "label": "여성형" },
+        "de": { "word": "Kartoffel", "kor": "카르토펠", "label": "여성형" },
+        "es": { "word": "patata", "kor": "파타타", "label": "여성형",
+                "alt": [{ "word": "papa", "kor": "파파", "label": "여성형 · 중남미" }] },
+        "ru": { "word": "карто́фель", "rom": "kartófel'", "kor": "카르토펠", "label": "남성형" },
+        "ar": { "word": "بَطَاطَا", "rom": "baṭāṭā", "label": "여성형",
+                "alt": [{ "word": "بَطَاطِس", "rom": "baṭāṭis", "label": "남성형" }] }
+      },
+      "notes": ["프랑스어 pomme de terre는 '땅의 사과'라는 뜻이다. 일본어 馬鈴薯와 중국어 马铃薯는 같은 한자어를 쓴다."]
+    }
+  ]
+}

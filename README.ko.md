@@ -641,6 +641,7 @@ brain/
 - [동물](https://brain.dongwook.kim/vocab/동물.html)
 - [신체](https://brain.dongwook.kim/vocab/신체.html)
 - [가족](https://brain.dongwook.kim/vocab/가족.html)
+- [음식](https://brain.dongwook.kim/vocab/음식.html)
 
 ## 스킬 설치
 
