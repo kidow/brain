@@ -646,6 +646,7 @@ One concept shown in eight languages at once — English, Japanese, Chinese, Fre
 - [시간](https://brain.dongwook.kim/vocab/시간.html)
 - [동작](https://brain.dongwook.kim/vocab/동작.html)
 - [기본 형용사](https://brain.dongwook.kim/vocab/기본_형용사.html)
+- [스포츠](https://brain.dongwook.kim/vocab/스포츠.html)
 
 ## Installing the skills
 

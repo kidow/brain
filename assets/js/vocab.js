@@ -10,7 +10,8 @@
     { name: '자연', url: '/vocab/자연.html' },
     { name: '시간', url: '/vocab/시간.html' },
     { name: '동작', url: '/vocab/동작.html' },
-    { name: '기본 형용사', url: '/vocab/기본_형용사.html' }
+    { name: '기본 형용사', url: '/vocab/기본_형용사.html' },
+    { name: '스포츠', url: '/vocab/스포츠.html' }
   ];
 
   const LANG_LABEL = {
