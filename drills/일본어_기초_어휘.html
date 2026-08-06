@@ -381,7 +381,7 @@ function renderCard() {
   document.getElementById("btnEasy").addEventListener("click", () => answer(5));
   document.getElementById("playBtn").addEventListener("click", (e) => {
     e.stopPropagation();
-    playAudio(current.expression);
+    playAudio(speakForm(current));
   });
 }
 
@@ -396,7 +396,14 @@ function reveal() {
   for (const id of ["btnAgain", "btnHard", "btnGood", "btnEasy"]) {
     document.getElementById(id).disabled = false;
   }
-  playAudio(current.expression);
+  playAudio(speakForm(current));
+}
+
+// 한자 표기를 그대로 넘기면 TTS가 음독으로 잘못 읽는다(青 → せい). 카드에 적힌 reading을 읽힌다.
+// reading에는 "いい; よい" 병기나 "～えん" 물결표가 섞여 있어 첫 읽기만 추려낸다.
+function speakForm(word) {
+  const kana = String(word.reading || "").split(";")[0].replace(/[～〜]/g, "").trim();
+  return kana || word.expression;
 }
 
 function playAudio(text) {

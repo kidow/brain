@@ -20,6 +20,15 @@
   // 한중일 한자는 글꼴이 달라 lang 속성이 없으면 엉뚱한 자형으로 그려진다.
   const LANG_TAG = { en: 'en', ja: 'ja', zh: 'zh-Hans', fr: 'fr', de: 'de', es: 'es', ru: 'ru', ar: 'ar' };
 
+  // 발음. drills/ 와 같은 Web Speech API를 쓰되 언어 코드는 여기서 매핑한다.
+  const SPEAK_LANG = {
+    en: 'en-US', ja: 'ja-JP', zh: 'zh-CN', fr: 'fr-FR',
+    de: 'de-DE', es: 'es-ES', ru: 'ru-RU', ar: 'ar-SA'
+  };
+  const SPEAK_RATE = 0.9;
+  const KANA_ONLY = /^[ぁ-ゖ゠-ヿー]+$/;
+  const speakable = new Set();
+
   const root = document.getElementById('vocab');
   if (!root) return;
 
@@ -37,13 +46,101 @@
 
   const visible = () => data.concepts.filter((c) => !coreOnly || (c.lists || []).includes('swadesh'));
 
+  // getVoices()는 첫 호출에서 빈 배열을 준다. 목록이 찰 때까지 기다렸다 첫 렌더를 해야
+  // 버튼이 뒤늦게 나타났다 사라지는 깜빡임이 없다.
+  const voicesReady = () => new Promise((done) => {
+    if (!('speechSynthesis' in window)) return done([]);
+    const now = speechSynthesis.getVoices();
+    if (now.length) return done(now);
+    let settled = false;
+    const finish = () => { if (!settled) { settled = true; done(speechSynthesis.getVoices()); } };
+    speechSynthesis.addEventListener('voiceschanged', finish, { once: true });
+    setTimeout(finish, 2000);
+  });
+
+  const markSpeakable = (voices) => {
+    speakable.clear();
+    Object.entries(SPEAK_LANG).forEach(([lang, tag]) => {
+      const prefix = tag.split('-')[0];
+      if (voices.some((v) => v.lang.toLowerCase().replace('_', '-').startsWith(prefix))) speakable.add(lang);
+    });
+  };
+
+  // 화면에 적어 둔 읽기 그대로 들리도록 언어별로 손본다.
+  const speakText = (lang, entry) => {
+    if (lang === 'ja') {
+      // 한자만 있는 표기는 TTS가 음독으로 잘못 읽는다(青 → せい). rom의 かな를 넘긴다.
+      const kana = String(entry.rom || '').split('·')[0].trim();
+      if (KANA_ONLY.test(kana)) return kana;
+    }
+    if (lang === 'ru') {
+      // 강세 기호(U+0301)는 사전 표기용이라 입력에서 뺀다. 아랍어는 반대로 모음부호를 남겨야 정확히 읽힌다.
+      return entry.word.normalize('NFD').replace(/́/g, '').normalize('NFC');
+    }
+    return entry.word;
+  };
+
+  let seq = 0;
+  const stopSpeaking = () => {
+    seq += 1;
+    if ('speechSynthesis' in window) speechSynthesis.cancel();
+    document.querySelectorAll('.playing').forEach((b) => b.classList.remove('playing'));
+  };
+
+  const utter = (lang, entry) => new Promise((done) => {
+    const u = new SpeechSynthesisUtterance(speakText(lang, entry));
+    u.lang = SPEAK_LANG[lang];
+    u.rate = SPEAK_RATE;
+    u.onend = done;
+    u.onerror = done;
+    speechSynthesis.speak(u);
+  });
+
+  const playOne = async (lang, entry, btn) => {
+    const already = btn.classList.contains('playing');
+    stopSpeaking();
+    if (already) return;
+    const token = seq;
+    btn.classList.add('playing');
+    await utter(lang, entry);
+    if (token === seq) btn.classList.remove('playing');
+  };
+
+  // 본항만 순서대로. alt는 각 줄의 버튼으로 따로 듣는다.
+  const playAll = async (concept, btn) => {
+    const already = btn.classList.contains('playing');
+    stopSpeaking();
+    if (already) return;
+    const token = seq;
+    btn.classList.add('playing');
+    for (const lang of data.languages) {
+      if (token !== seq) return;
+      const entry = concept.words[lang];
+      if (!entry || !speakable.has(lang)) continue;
+      await utter(lang, entry);
+    }
+    if (token === seq) btn.classList.remove('playing');
+  };
+
+  const playBtn = (lang, entry) => {
+    const btn = el('button', 'play-btn', '🔊');
+    btn.type = 'button';
+    btn.setAttribute('aria-label', `${LANG_LABEL[lang]} 발음 듣기`);
+    btn.addEventListener('click', (e) => { e.preventDefault(); playOne(lang, entry, btn); });
+    return btn;
+  };
+
   // 언어 한 줄: 원어 + 로마자/현지표기 + 한글 음차, 그 아래 alt 들여쓰기
   const entryLine = (lang, entry, isAlt) => {
     const wrap = el('span', isAlt ? 'entry alt' : 'entry');
+    const line = el('span', 'wordline');
     const word = el('span', 'word', entry.word);
     word.lang = LANG_TAG[lang];
     if (lang === 'ar') word.dir = 'rtl';
-    wrap.appendChild(word);
+    line.appendChild(word);
+    // 이 기기에 해당 언어 음성이 없으면 버튼 자체를 만들지 않는다.
+    if (speakable.has(lang)) line.appendChild(playBtn(lang, entry));
+    wrap.appendChild(line);
     const meta = el('span', 'meta');
     if (entry.rom) meta.appendChild(el('span', 'rom', entry.rom));
     if (entry.kor) meta.appendChild(el('span', 'kor', entry.kor));
@@ -64,6 +161,15 @@
 
   const conceptBody = (concept) => {
     const box = el('div', 'concept-body');
+    const heard = data.languages.filter((l) => concept.words[l] && speakable.has(l));
+    if (heard.length > 1) {
+      const bar = el('div', 'speak-bar');
+      const all = el('button', 'listen-all', `▶ ${heard.length}개 언어 순서대로`);
+      all.type = 'button';
+      all.addEventListener('click', (e) => { e.preventDefault(); playAll(concept, all); });
+      bar.appendChild(all);
+      box.appendChild(bar);
+    }
     data.languages.forEach((lang) => {
       const entry = concept.words[lang];
       if (entry) box.appendChild(langRow(lang, entry));
@@ -99,6 +205,7 @@
       item.appendChild(head);
       item.appendChild(conceptBody(concept));
       item.addEventListener('toggle', () => {
+        stopSpeaking();
         if (item.open) history.replaceState(null, '', '#' + concept.id);
       });
       if (concept.id === selected) item.open = true;
@@ -118,6 +225,7 @@
 
     const show = (concept) => {
       selected = concept.id;
+      stopSpeaking();
       history.replaceState(null, '', '#' + concept.id);
       panel.textContent = '';
       const h = el('p', 'md-title');
@@ -145,6 +253,7 @@
 
   const renderView = () => {
     const host = document.getElementById('vocab-view');
+    stopSpeaking();
     host.textContent = '';
     if (!visible().length) {
       host.appendChild(el('p', 'empty', '표시할 개념이 없습니다.'));
@@ -203,8 +312,10 @@
   const boot = async () => {
     const src = root.dataset.src;
     try {
-      const res = await fetch(src);
+      // 데이터와 음성 목록을 함께 기다린다 — 첫 렌더부터 버튼 유무가 확정된다.
+      const [res, voices] = await Promise.all([fetch(src), voicesReady()]);
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      markSpeakable(voices);
       data = await res.json();
     } catch (err) {
       root.textContent = '';
@@ -216,6 +327,14 @@
     renderShell();
     renderView();
     wide.addEventListener('change', renderView);
+    // 음성이 fetch보다 늦게 도착한 드문 경우만 한 번 더 반영한다.
+    if ('speechSynthesis' in window) {
+      speechSynthesis.addEventListener('voiceschanged', () => {
+        const before = speakable.size;
+        markSpeakable(speechSynthesis.getVoices());
+        if (speakable.size !== before) renderView();
+      });
+    }
   };
 
   boot();
