@@ -1,0 +1,381 @@
+{
+  "category": "기본 형용사",
+  "languages": ["en", "ja", "zh", "fr", "de", "es", "ru", "ar"],
+  "sources": {
+    "concepts": "Swadesh 207의 형용사 30개 + 수량 표현 5개(all·many·few·some·other). 색채 형용사 다섯(red·green·yellow·white·black)은 색깔 카테고리에 있어 제외했다. Ogden's Basic English 850의 형용사는 약 150개이고 chemical·political·medical 같은 추상·전문 어휘가 다수라 기초 대조에 맞지 않아 쓰지 않았다 — 다만 Swadesh 항목이 Ogden에도 있으면 lists에 표시했다",
+    "words": "English Wiktionary (형용사 뜻풀이 번역표)",
+    "citation": "각 언어의 사전형으로 실었다 — 러시아어·아랍어는 남성 단수형, 프랑스어·스페인어는 남성 단수형, 일본어는 い형용사·な형용사 기본형",
+    "kor": "국립국어원 외래어 표기법 규정을 적용한 값 — 개별 단어의 등재 표기가 아님",
+    "zh": "간체자 표기 (저장소 drills/중국어_HSK_어휘 표기와 일치)"
+  },
+  "concepts": [
+    { "id": "big", "ko": "크다", "lists": ["swadesh"], "words": {
+      "en": { "word": "big", "kor": "빅" },
+      "ja": { "word": "大きい", "rom": "おおきい · ōkii", "kor": "오키이" },
+      "zh": { "word": "大", "rom": "dà", "kor": "다" },
+      "fr": { "word": "grand", "kor": "그랑" },
+      "de": { "word": "groß", "kor": "그로스" },
+      "es": { "word": "grande", "kor": "그란데" },
+      "ru": { "word": "большо́й", "rom": "bol'shóy", "kor": "볼쇼이" },
+      "ar": { "word": "كَبِير", "rom": "kabīr" } } },
+
+    { "id": "small", "ko": "작다", "lists": ["swadesh", "ogden"], "words": {
+      "en": { "word": "small", "kor": "스몰" },
+      "ja": { "word": "小さい", "rom": "ちいさい · chiisai", "kor": "지이사이" },
+      "zh": { "word": "小", "rom": "xiǎo", "kor": "샤오" },
+      "fr": { "word": "petit", "kor": "프티" },
+      "de": { "word": "klein", "kor": "클라인" },
+      "es": { "word": "pequeño", "kor": "페케뇨" },
+      "ru": { "word": "ма́ленький", "rom": "málen'kiy", "kor": "말렌키" },
+      "ar": { "word": "صَغِير", "rom": "ṣaghīr" } } },
+
+    { "id": "long", "ko": "길다", "lists": ["swadesh", "ogden"], "words": {
+      "en": { "word": "long", "kor": "롱" },
+      "ja": { "word": "長い", "rom": "ながい · nagai", "kor": "나가이" },
+      "zh": { "word": "长", "rom": "cháng", "kor": "창" },
+      "fr": { "word": "long", "kor": "롱" },
+      "de": { "word": "lang", "kor": "랑" },
+      "es": { "word": "largo", "kor": "라르고" },
+      "ru": { "word": "дли́нный", "rom": "dlínnyy", "kor": "들린니" },
+      "ar": { "word": "طَوِيل", "rom": "ṭawīl" } } },
+
+    { "id": "short", "ko": "짧다", "lists": ["swadesh", "ogden"], "words": {
+      "en": { "word": "short", "kor": "쇼트" },
+      "ja": { "word": "短い", "rom": "みじかい · mijikai", "kor": "미지카이",
+              "alt": [{ "word": "低い", "rom": "ひくい · hikui", "kor": "히쿠이", "label": "키가 작다" }] },
+      "zh": { "word": "短", "rom": "duǎn", "kor": "돤",
+              "alt": [{ "word": "矮", "rom": "ǎi", "kor": "아이", "label": "키가 작다" }] },
+      "fr": { "word": "court", "kor": "쿠르" },
+      "de": { "word": "kurz", "kor": "쿠르츠" },
+      "es": { "word": "corto", "kor": "코르토",
+              "alt": [{ "word": "bajo", "kor": "바호", "label": "키가 작다" }] },
+      "ru": { "word": "коро́ткий", "rom": "korótkiy", "kor": "코로트키" },
+      "ar": { "word": "قَصِير", "rom": "qaṣīr" } },
+      "notes": ["'길이가 짧다'와 '키가 작다'를 다른 단어로 나누는 언어가 있다 — 중국어 短/矮, 일본어 短い/低い, 스페인어 corto/bajo. 영어 short와 한국어 '짧다/작다'는 다른 방식으로 갈린다."] },
+
+    { "id": "wide", "ko": "넓다", "lists": ["swadesh", "ogden"], "words": {
+      "en": { "word": "wide", "kor": "와이드" },
+      "ja": { "word": "広い", "rom": "ひろい · hiroi", "kor": "히로이" },
+      "zh": { "word": "宽", "rom": "kuān", "kor": "콴" },
+      "fr": { "word": "large", "kor": "라르주" },
+      "de": { "word": "breit", "kor": "브라이트" },
+      "es": { "word": "ancho", "kor": "안초" },
+      "ru": { "word": "широ́кий", "rom": "shirókiy", "kor": "시로키" },
+      "ar": { "word": "عَرِيض", "rom": "ʿarīḍ" } } },
+
+    { "id": "narrow", "ko": "좁다", "lists": ["swadesh", "ogden"], "words": {
+      "en": { "word": "narrow", "kor": "내로" },
+      "ja": { "word": "狭い", "rom": "せまい · semai", "kor": "세마이" },
+      "zh": { "word": "窄", "rom": "zhǎi", "kor": "자이" },
+      "fr": { "word": "étroit", "kor": "에트루아" },
+      "de": { "word": "eng", "kor": "엥" },
+      "es": { "word": "estrecho", "kor": "에스트레초" },
+      "ru": { "word": "у́зкий", "rom": "úzkiy", "kor": "우즈키" },
+      "ar": { "word": "ضَيِّق", "rom": "ḍayyiq" } } },
+
+    { "id": "thick", "ko": "두껍다", "lists": ["swadesh", "ogden"], "words": {
+      "en": { "word": "thick", "kor": "식" },
+      "ja": { "word": "太い", "rom": "ふとい · futoi", "kor": "후토이" },
+      "zh": { "word": "厚", "rom": "hòu", "kor": "허우" },
+      "fr": { "word": "épais", "kor": "에페" },
+      "de": { "word": "dick", "kor": "디크" },
+      "es": { "word": "grueso", "kor": "그루에소" },
+      "ru": { "word": "то́лстый", "rom": "tólstyy", "kor": "톨스티" },
+      "ar": { "word": "سَمِيك", "rom": "samīk" } } },
+
+    { "id": "thin", "ko": "얇다", "lists": ["swadesh", "ogden"], "words": {
+      "en": { "word": "thin", "kor": "신" },
+      "ja": { "word": "薄い", "rom": "うすい · usui", "kor": "우스이" },
+      "zh": { "word": "薄", "rom": "báo", "kor": "바오" },
+      "fr": { "word": "mince", "kor": "맹스" },
+      "de": { "word": "dünn", "kor": "뒨" },
+      "es": { "word": "delgado", "kor": "델가도" },
+      "ru": { "word": "то́нкий", "rom": "tónkiy", "kor": "톤키" },
+      "ar": { "word": "رَفِيع", "rom": "rafīʿ" } } },
+
+    { "id": "heavy", "ko": "무겁다", "lists": ["swadesh"], "words": {
+      "en": { "word": "heavy", "kor": "헤비" },
+      "ja": { "word": "重い", "rom": "おもい · omoi", "kor": "오모이" },
+      "zh": { "word": "重", "rom": "zhòng", "kor": "중" },
+      "fr": { "word": "lourd", "kor": "루르" },
+      "de": { "word": "schwer", "kor": "슈베어" },
+      "es": { "word": "pesado", "kor": "페사도" },
+      "ru": { "word": "тяжёлый", "rom": "tyazhólyy", "kor": "탸졸리" },
+      "ar": { "word": "ثَقِيل", "rom": "thaqīl" } } },
+
+    { "id": "new", "ko": "새롭다", "lists": ["swadesh", "ogden"], "words": {
+      "en": { "word": "new", "kor": "뉴" },
+      "ja": { "word": "新しい", "rom": "あたらしい · atarashii", "kor": "아타라시이" },
+      "zh": { "word": "新", "rom": "xīn", "kor": "신" },
+      "fr": { "word": "nouveau", "kor": "누보" },
+      "de": { "word": "neu", "kor": "노이" },
+      "es": { "word": "nuevo", "kor": "누에보" },
+      "ru": { "word": "но́вый", "rom": "nóvyy", "kor": "노비" },
+      "ar": { "word": "جَدِيد", "rom": "jadīd" } } },
+
+    { "id": "old", "ko": "낡다 · 늙다", "lists": ["swadesh", "ogden"], "words": {
+      "en": { "word": "old", "kor": "올드" },
+      "ja": { "word": "古い", "rom": "ふるい · furui", "kor": "후루이", "label": "사물" },
+      "zh": { "word": "旧", "rom": "jiù", "kor": "주", "label": "사물",
+              "alt": [{ "word": "老", "rom": "lǎo", "kor": "라오", "label": "사람" }] },
+      "fr": { "word": "vieux", "kor": "비외" },
+      "de": { "word": "alt", "kor": "알트" },
+      "es": { "word": "antiguo", "kor": "안티구오", "label": "사물",
+              "alt": [{ "word": "anciano", "kor": "안시아노", "label": "사람" }] },
+      "ru": { "word": "ста́рый", "rom": "stáryy", "kor": "스타리" },
+      "ar": { "word": "قَدِيم", "rom": "qadīm", "label": "사물" } },
+      "notes": ["'사물이 오래됨'과 '사람이 나이 듦'을 다른 단어로 나누는 언어가 있다 — 중국어 旧/老, 스페인어 antiguo/anciano. 위키낱말사전도 두 뜻을 따로 두었다. 프랑스어 vieux, 독일어 alt, 러시아어 ста́рый는 겸용이다."] },
+
+    { "id": "good", "ko": "좋다", "lists": ["swadesh", "ogden"], "words": {
+      "en": { "word": "good", "kor": "굿" },
+      "ja": { "word": "良い", "rom": "よい · yoi", "kor": "요이" },
+      "zh": { "word": "好", "rom": "hǎo", "kor": "하오" },
+      "fr": { "word": "bon", "kor": "봉" },
+      "de": { "word": "gut", "kor": "구트" },
+      "es": { "word": "bueno", "kor": "부에노" },
+      "ru": { "word": "хоро́ший", "rom": "khoróshiy", "kor": "호로시" },
+      "ar": { "word": "حَسَن", "rom": "ḥasan" } } },
+
+    { "id": "bad", "ko": "나쁘다", "lists": ["swadesh", "ogden"], "words": {
+      "en": { "word": "bad", "kor": "배드" },
+      "ja": { "word": "悪い", "rom": "わるい · warui", "kor": "와루이" },
+      "zh": { "word": "坏", "rom": "huài", "kor": "화이" },
+      "fr": { "word": "mauvais", "kor": "모베" },
+      "de": { "word": "schlecht", "kor": "슐레히트" },
+      "es": { "word": "malo", "kor": "말로" },
+      "ru": { "word": "плохо́й", "rom": "plokhóy", "kor": "플로호이" },
+      "ar": { "word": "سَيِّئ", "rom": "sayyiʾ" } } },
+
+    { "id": "warm", "ko": "따뜻하다", "lists": ["swadesh", "ogden"], "words": {
+      "en": { "word": "warm", "kor": "웜" },
+      "ja": { "word": "暖かい", "rom": "あたたかい · atatakai", "kor": "아타타카이" },
+      "zh": { "word": "暖和", "rom": "nuǎnhuó", "kor": "놘훠" },
+      "fr": { "word": "chaud", "kor": "쇼" },
+      "de": { "word": "warm", "kor": "바름" },
+      "es": { "word": "cálido", "kor": "칼리도" },
+      "ru": { "word": "тёплый", "rom": "tyóplyy", "kor": "툐플리" },
+      "ar": { "word": "دَافِئ", "rom": "dāfiʾ" } } },
+
+    { "id": "cold", "ko": "차갑다 · 춥다", "lists": ["swadesh", "ogden"], "words": {
+      "en": { "word": "cold", "kor": "콜드" },
+      "ja": { "word": "冷たい", "rom": "つめたい · tsumetai", "kor": "쓰메타이", "label": "사물이 차갑다",
+              "alt": [{ "word": "寒い", "rom": "さむい · samui", "kor": "사무이", "label": "날씨가 춥다" }] },
+      "zh": { "word": "冷", "rom": "lěng", "kor": "렁" },
+      "fr": { "word": "froid", "kor": "프루아" },
+      "de": { "word": "kalt", "kor": "칼트" },
+      "es": { "word": "frío", "kor": "프리오" },
+      "ru": { "word": "холо́дный", "rom": "kholódnyy", "kor": "홀로드니" },
+      "ar": { "word": "بَارِد", "rom": "bārid" } },
+      "notes": ["일본어는 사물이 차갑다(冷たい)와 날씨가 춥다(寒い)를 다른 형용사로 쓴다 — 위키낱말사전 cold 뜻풀이도 둘로 갈라 두었다. 한국어의 '차갑다/춥다'와 같은 방식이다."] },
+
+    { "id": "wet", "ko": "젖다", "lists": ["swadesh", "ogden"], "words": {
+      "en": { "word": "wet", "kor": "웻" },
+      "ja": { "word": "湿っぽい", "rom": "しめっぽい · shimeppoi", "kor": "시멧포이" },
+      "zh": { "word": "湿", "rom": "shī", "kor": "스" },
+      "fr": { "word": "mouillé", "kor": "무예" },
+      "de": { "word": "nass", "kor": "나스" },
+      "es": { "word": "mojado", "kor": "모하도" },
+      "ru": { "word": "мо́крый", "rom": "mókryy", "kor": "모크리" },
+      "ar": { "word": "مَبْلُول", "rom": "mablūl" } } },
+
+    { "id": "dry", "ko": "마르다", "lists": ["swadesh", "ogden"], "words": {
+      "en": { "word": "dry", "kor": "드라이" },
+      "ja": { "word": "乾いた", "rom": "かわいた · kawaita", "kor": "가와이타" },
+      "zh": { "word": "干", "rom": "gān", "kor": "간" },
+      "fr": { "word": "sec", "kor": "세크" },
+      "de": { "word": "trocken", "kor": "트로켄" },
+      "es": { "word": "seco", "kor": "세코" },
+      "ru": { "word": "сухо́й", "rom": "sukhóy", "kor": "수호이" },
+      "ar": { "word": "جَافّ", "rom": "jāff" } } },
+
+    { "id": "full", "ko": "가득하다", "lists": ["swadesh", "ogden"], "words": {
+      "en": { "word": "full", "kor": "풀" },
+      "ja": { "word": "一杯", "rom": "いっぱい · ippai", "kor": "잇파이" },
+      "zh": { "word": "充满", "rom": "chōngmǎn", "kor": "충만" },
+      "fr": { "word": "plein", "kor": "플랭" },
+      "de": { "word": "voll", "kor": "폴" },
+      "es": { "word": "lleno", "kor": "예노" },
+      "ru": { "word": "по́лный", "rom": "pólnyy", "kor": "폴니" },
+      "ar": { "word": "مُمْتَلِئ", "rom": "mumtaliʾ" } } },
+
+    { "id": "straight", "ko": "곧다", "lists": ["swadesh", "ogden"], "words": {
+      "en": { "word": "straight", "kor": "스트레이트" },
+      "ja": { "word": "まっすぐ", "rom": "massugu", "kor": "맛스구" },
+      "zh": { "word": "直", "rom": "zhí", "kor": "즈" },
+      "fr": { "word": "droit", "kor": "드루아" },
+      "de": { "word": "gerade", "kor": "게라데" },
+      "es": { "word": "recto", "kor": "렉토" },
+      "ru": { "word": "прямо́й", "rom": "pryamóy", "kor": "프랴모이" },
+      "ar": { "word": "مُسْتَقِيم", "rom": "mustaqīm" } } },
+
+    { "id": "round", "ko": "둥글다", "lists": ["swadesh", "ogden"], "words": {
+      "en": { "word": "round", "kor": "라운드" },
+      "ja": { "word": "丸い", "rom": "まるい · marui", "kor": "마루이" },
+      "zh": { "word": "圆", "rom": "yuán", "kor": "위안" },
+      "fr": { "word": "rond", "kor": "롱" },
+      "de": { "word": "rund", "kor": "룬트" },
+      "es": { "word": "redondo", "kor": "레돈도" },
+      "ru": { "word": "кру́глый", "rom": "krúglyy", "kor": "크루글리" },
+      "ar": { "word": "مُسْتَدِير", "rom": "mustadīr" } } },
+
+    { "id": "sharp", "ko": "날카롭다", "lists": ["swadesh", "ogden"], "words": {
+      "en": { "word": "sharp", "kor": "샤프" },
+      "ja": { "word": "鋭い", "rom": "するどい · surudoi", "kor": "스루도이" },
+      "zh": { "word": "锐利", "rom": "ruìlì", "kor": "루이리" },
+      "fr": { "word": "affilé", "kor": "아필레" },
+      "de": { "word": "scharf", "kor": "샤르프" },
+      "es": { "word": "agudo", "kor": "아구도" },
+      "ru": { "word": "о́стрый", "rom": "óstryy", "kor": "오스트리" },
+      "ar": { "word": "حَادّ", "rom": "ḥādd" } } },
+
+    { "id": "dull", "ko": "무디다", "lists": ["swadesh"], "words": {
+      "en": { "word": "dull", "kor": "덜" },
+      "ja": { "word": "鈍い", "rom": "にぶい · nibui", "kor": "니부이" },
+      "zh": { "word": "钝", "rom": "dùn", "kor": "둔" },
+      "fr": { "word": "émoussé", "kor": "에무세" },
+      "de": { "word": "stumpf", "kor": "슈툼프" },
+      "es": { "word": "romo", "kor": "로모" },
+      "ru": { "word": "тупо́й", "rom": "tupóy", "kor": "투포이" },
+      "ar": { "word": "كَلِيل", "rom": "kalīl" } } },
+
+    { "id": "smooth", "ko": "매끄럽다", "lists": ["swadesh", "ogden"], "words": {
+      "en": { "word": "smooth", "kor": "스무드" },
+      "ja": { "word": "滑らか", "rom": "なめらか · nameraka", "kor": "나메라카" },
+      "zh": { "word": "平滑", "rom": "pínghuá", "kor": "핑화" },
+      "fr": { "word": "lisse", "kor": "리스" },
+      "de": { "word": "glatt", "kor": "글라트" },
+      "es": { "word": "liso", "kor": "리소" },
+      "ru": { "word": "гла́дкий", "rom": "gládkiy", "kor": "글라트키" },
+      "ar": { "word": "نَاعِم", "rom": "nāʿim" } } },
+
+    { "id": "dirty", "ko": "더럽다", "lists": ["swadesh", "ogden"], "words": {
+      "en": { "word": "dirty", "kor": "더티" },
+      "ja": { "word": "汚い", "rom": "きたない · kitanai", "kor": "기타나이" },
+      "zh": { "word": "脏", "rom": "zāng", "kor": "짱" },
+      "fr": { "word": "sale", "kor": "살" },
+      "de": { "word": "schmutzig", "kor": "슈무치히" },
+      "es": { "word": "sucio", "kor": "수시오" },
+      "ru": { "word": "гря́зный", "rom": "gryáznyy", "kor": "그랴즈니" },
+      "ar": { "word": "قَذِر", "rom": "qadhir" } } },
+
+    { "id": "rotten", "ko": "썩다", "lists": ["swadesh"], "words": {
+      "en": { "word": "rotten", "kor": "로튼" },
+      "ja": { "word": "腐った", "rom": "くさった · kusatta", "kor": "구삿타" },
+      "zh": { "word": "腐烂", "rom": "fǔlàn", "kor": "푸란" },
+      "fr": { "word": "pourri", "kor": "푸리" },
+      "de": { "word": "faul", "kor": "파울" },
+      "es": { "word": "podrido", "kor": "포드리도" },
+      "ru": { "word": "гнило́й", "rom": "gnilóy", "kor": "그닐로이" },
+      "ar": { "word": "فَاسِد", "rom": "fāsid" } } },
+
+    { "id": "correct", "ko": "옳다", "lists": ["swadesh"], "words": {
+      "en": { "word": "correct", "kor": "커렉트" },
+      "ja": { "word": "正しい", "rom": "ただしい · tadashii", "kor": "다다시이" },
+      "zh": { "word": "正确", "rom": "zhèngquè", "kor": "정췌" },
+      "fr": { "word": "correct", "kor": "코렉트" },
+      "de": { "word": "korrekt", "kor": "코렉트" },
+      "es": { "word": "correcto", "kor": "코렉토" },
+      "ru": { "word": "пра́вильный", "rom": "právil'nyy", "kor": "프라빌니" },
+      "ar": { "word": "صَحِيح", "rom": "ṣaḥīḥ" } },
+      "notes": ["영어 right는 '오른쪽'과 '옳다'를 겸한다. Swadesh 207은 두 개념을 correct와 right로 따로 두었고 이 단어장도 그대로 따랐다."] },
+
+    { "id": "near", "ko": "가깝다", "lists": ["swadesh", "ogden"], "words": {
+      "en": { "word": "near", "kor": "니어" },
+      "ja": { "word": "近い", "rom": "ちかい · chikai", "kor": "지카이" },
+      "zh": { "word": "近", "rom": "jìn", "kor": "진" },
+      "fr": { "word": "près", "kor": "프레" },
+      "de": { "word": "nah", "kor": "나" },
+      "es": { "word": "cercano", "kor": "세르카노" },
+      "ru": { "word": "бли́зкий", "rom": "blízkiy", "kor": "블리즈키" },
+      "ar": { "word": "قَرِيب", "rom": "qarīb" } } },
+
+    { "id": "far", "ko": "멀다", "lists": ["swadesh", "ogden"], "words": {
+      "en": { "word": "far", "kor": "파" },
+      "ja": { "word": "遠い", "rom": "とおい · tōi", "kor": "도이" },
+      "zh": { "word": "远", "rom": "yuǎn", "kor": "위안" },
+      "fr": { "word": "lointain", "kor": "루앵탱" },
+      "de": { "word": "fern", "kor": "페른" },
+      "es": { "word": "lejano", "kor": "레하노" },
+      "ru": { "word": "далёкий", "rom": "dalyókiy", "kor": "달료키" },
+      "ar": { "word": "بَعِيد", "rom": "baʿīd" } } },
+
+    { "id": "right", "ko": "오른쪽", "lists": ["swadesh", "ogden"], "words": {
+      "en": { "word": "right", "kor": "라이트" },
+      "ja": { "word": "右", "rom": "みぎ · migi", "kor": "미기" },
+      "zh": { "word": "右", "rom": "yòu", "kor": "유",
+              "alt": [{ "word": "右边", "rom": "yòubiān", "kor": "유볜", "label": "오른편" }] },
+      "fr": { "word": "droit", "kor": "드루아",
+              "alt": [{ "word": "à droite", "kor": "아 드루아트", "label": "오른쪽으로" }] },
+      "de": { "word": "recht", "kor": "레히트",
+              "alt": [{ "word": "rechts", "kor": "레히츠", "label": "오른쪽으로" }] },
+      "es": { "word": "derecho", "kor": "데레초" },
+      "ru": { "word": "пра́вый", "rom": "právyy", "kor": "프라비" },
+      "ar": { "word": "يَمِين", "rom": "yamīn" } },
+      "notes": ["방향어는 형용사·명사·부사가 형태를 달리하는 언어가 많다 — 독일어 recht(형용사)/rechts(부사), 프랑스어 droit/à droite. 이 단어장은 형용사형을 본항으로, 부사형을 alt로 실었다."] },
+
+    { "id": "left", "ko": "왼쪽", "lists": ["swadesh", "ogden"], "words": {
+      "en": { "word": "left", "kor": "레프트" },
+      "ja": { "word": "左", "rom": "ひだり · hidari", "kor": "히다리" },
+      "zh": { "word": "左", "rom": "zuǒ", "kor": "쭤",
+              "alt": [{ "word": "左边", "rom": "zuǒbiān", "kor": "쭤볜", "label": "왼편" }] },
+      "fr": { "word": "gauche", "kor": "고슈",
+              "alt": [{ "word": "à gauche", "kor": "아 고슈", "label": "왼쪽으로" }] },
+      "de": { "word": "link", "kor": "링크",
+              "alt": [{ "word": "links", "kor": "링크스", "label": "왼쪽으로" }] },
+      "es": { "word": "izquierda", "kor": "이스키에르다" },
+      "ru": { "word": "ле́вый", "rom": "lévyy", "kor": "레비" },
+      "ar": { "word": "يَسَار", "rom": "yasār" } } },
+
+    { "id": "all", "ko": "모든", "lists": ["swadesh", "ogden"], "words": {
+      "en": { "word": "all", "kor": "올" },
+      "ja": { "word": "全て", "rom": "すべて · subete", "kor": "스베테" },
+      "zh": { "word": "都", "rom": "dōu", "kor": "더우",
+              "alt": [{ "word": "全", "rom": "quán", "kor": "취안" }] },
+      "fr": { "word": "tous", "kor": "투" },
+      "de": { "word": "all", "kor": "알" },
+      "es": { "word": "todos", "kor": "토도스" },
+      "ru": { "word": "весь", "rom": "ves'", "kor": "베시" },
+      "ar": { "word": "كُلّ", "rom": "kull" } } },
+
+    { "id": "many", "ko": "많다", "lists": ["swadesh"], "words": {
+      "en": { "word": "many", "kor": "메니" },
+      "ja": { "word": "多く", "rom": "おおく · ōku", "kor": "오쿠" },
+      "zh": { "word": "多", "rom": "duō", "kor": "둬" },
+      "fr": { "word": "beaucoup", "kor": "보쿠" },
+      "de": { "word": "viele", "kor": "필레" },
+      "es": { "word": "muchos", "kor": "무초스" },
+      "ru": { "word": "мно́го", "rom": "mnógo", "kor": "므노고" },
+      "ar": { "word": "كَثِير", "rom": "kathīr" } } },
+
+    { "id": "few", "ko": "적다", "lists": ["swadesh"], "words": {
+      "en": { "word": "few", "kor": "퓨" },
+      "ja": { "word": "少し", "rom": "すこし · sukoshi", "kor": "스코시" },
+      "zh": { "word": "少", "rom": "shǎo", "kor": "사오" },
+      "fr": { "word": "peu", "kor": "푀" },
+      "de": { "word": "wenig", "kor": "베니히" },
+      "es": { "word": "poco", "kor": "포코" },
+      "ru": { "word": "немно́гий", "rom": "nemnógiy", "kor": "넴노기" },
+      "ar": { "word": "قَلِيل", "rom": "qalīl" } } },
+
+    { "id": "some", "ko": "어떤", "lists": ["swadesh", "ogden"], "words": {
+      "en": { "word": "some", "kor": "섬" },
+      "ja": { "word": "いくつか", "rom": "ikutsuka", "kor": "이쿠쓰카" },
+      "zh": { "word": "有的", "rom": "yǒude", "kor": "유더",
+              "alt": [{ "word": "一些", "rom": "yīxiē", "kor": "이셰" }] },
+      "fr": { "word": "quelque", "kor": "켈크" },
+      "de": { "word": "einige", "kor": "아이니게" },
+      "es": { "word": "alguno", "kor": "알구노" },
+      "ru": { "word": "не́который", "rom": "nékotoryy", "kor": "네코토리" },
+      "ar": { "word": "بَعْض", "rom": "baʿḍ" } } },
+
+    { "id": "other", "ko": "다른", "lists": ["swadesh", "ogden"], "words": {
+      "en": { "word": "other", "kor": "아더" },
+      "ja": { "word": "他", "rom": "ほか · hoka", "kor": "호카" },
+      "zh": { "word": "别的", "rom": "biéde", "kor": "볘더" },
+      "fr": { "word": "autre", "kor": "오트르" },
+      "de": { "word": "andere", "kor": "안데레" },
+      "es": { "word": "otro", "kor": "오트로" },
+      "ru": { "word": "друго́й", "rom": "drugóy", "kor": "드루고이" },
+      "ar": { "word": "آخَر", "rom": "ʾākhar" } } }
+  ]
+}

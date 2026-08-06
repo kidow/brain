@@ -157,6 +157,25 @@ README 2곳 + `Repository layout` + CLAUDE.md 규칙 + search 연동.
 ### 이후
 카테고리를 하나씩 추가. 매번 README 두 파일 동기화 (CLAUDE.md CRITICAL 규칙).
 
+### 진행 상황 (초안 10개 카테고리 완료)
+
+| 카테고리 | 개념 | 항목 | 개념 목록 출처 |
+|---|---:|---:|---|
+| 숫자 | 13 | 104 | 기수 0~10·100·1000 (1~5는 Swadesh) |
+| 색깔 | 11 | 88 | Berlin & Kay(1969) 기본색채어 |
+| 동물 | 17 | 136 | Ogden 동물 + Swadesh louse |
+| 신체 | 33 | 264 | Ogden 신체 + Swadesh liver |
+| 가족 | 13 | 104 | Ogden 친족 + Swadesh husband·wife·child |
+| 음식 | 25 | 200 | Ogden 음식 (fish·plant·seed 제외) |
+| 자연 | 39 | 312 | Ogden 자연 + Swadesh ash·bark·fog·forest·lake |
+| 시간 | 20 | 160 | Ogden 시간 (형용사·동사 제외) |
+| 동작 | 63 | 504 | Swadesh 동사 + Ogden 동사 7개 |
+| 기본 형용사 | 35 | 280 | Swadesh 형용사 30 + 수량 표현 5 |
+| **합계** | **269** | **2,152** | |
+
+카테고리 경계는 겹치지 않게 규칙으로 정리했고, 각 JSON의 `sources.concepts`에 그 규칙을 적어 두었다.
+예: `fish`는 동물에만, `water`·`salt`는 음식에만, `cold`·`heat`는 기본 형용사에만 둔다.
+
 ---
 
 ## 7. 나중으로 미룬 것
