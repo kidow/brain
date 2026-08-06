@@ -1,0 +1,321 @@
+{
+  "category": "동물",
+  "languages": ["en", "ja", "zh", "fr", "de", "es", "ru", "ar"],
+  "sources": {
+    "concepts": "Ogden's Basic English 850(1930)의 동물 항목 16개 + Swadesh 207 전용 항목 louse — 위키낱말사전 Appendix:Basic English word list에서 849개 항목을 확인해 추림",
+    "words": "English Wiktionary (동물 뜻풀이 번역표)",
+    "kor": "국립국어원 외래어 표기법 규정을 적용한 값 — 개별 단어의 등재 표기가 아님",
+    "zh": "간체자 표기 (저장소 drills/중국어_HSK_어휘 표기와 일치)"
+  },
+  "concepts": [
+    {
+      "id": "dog",
+      "ko": "개",
+      "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "dog", "kor": "도그" },
+        "ja": { "word": "犬", "rom": "いぬ · inu", "kor": "이누",
+                "alt": [{ "word": "狗", "rom": "いぬ · inu", "kor": "이누", "label": "다른 표기" }] },
+        "zh": { "word": "狗", "rom": "gǒu", "kor": "거우" },
+        "fr": { "word": "chien", "kor": "시앵", "label": "남성형" },
+        "de": { "word": "Hund", "kor": "훈트", "label": "남성형",
+                "alt": [{ "word": "Hündin", "kor": "휜딘", "label": "여성형" }] },
+        "es": { "word": "perro", "kor": "페로", "label": "남성형" },
+        "ru": { "word": "соба́ка", "rom": "sobáka", "kor": "소바카", "label": "여성형",
+                "alt": [{ "word": "пёс", "rom": "pyos", "kor": "표스", "label": "남성형" }] },
+        "ar": { "word": "كَلْب", "rom": "kalb", "label": "남성형" }
+      },
+      "notes": ["일본어는 같은 읽기(いぬ)에 犬과 狗 두 표기가 있다."]
+    },
+    {
+      "id": "cat",
+      "ko": "고양이",
+      "lists": ["ogden"],
+      "words": {
+        "en": { "word": "cat", "kor": "캣" },
+        "ja": { "word": "猫", "rom": "ねこ · neko", "kor": "네코" },
+        "zh": { "word": "猫", "rom": "māo", "kor": "마오" },
+        "fr": { "word": "chat", "kor": "샤", "label": "남성형",
+                "alt": [{ "word": "chatte", "kor": "샤트", "label": "여성형" }] },
+        "de": { "word": "Katze", "kor": "카체", "label": "여성형",
+                "alt": [{ "word": "Kater", "kor": "카터", "label": "남성형" }] },
+        "es": { "word": "gato", "kor": "가토", "label": "남성형",
+                "alt": [{ "word": "gata", "kor": "가타", "label": "여성형" }] },
+        "ru": { "word": "ко́шка", "rom": "kóshka", "kor": "코시카", "label": "여성형",
+                "alt": [{ "word": "кот", "rom": "kot", "kor": "코트", "label": "남성형" }] },
+        "ar": { "word": "قِطّ", "rom": "qiṭṭ", "label": "남성형",
+                "alt": [{ "word": "قِطَّة", "rom": "qiṭṭa", "label": "여성형" }] }
+      }
+    },
+    {
+      "id": "bird",
+      "ko": "새",
+      "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "bird", "kor": "버드" },
+        "ja": { "word": "鳥", "rom": "とり · tori", "kor": "도리" },
+        "zh": { "word": "鸟", "rom": "niǎo", "kor": "냐오" },
+        "fr": { "word": "oiseau", "kor": "우아조", "label": "남성형" },
+        "de": { "word": "Vogel", "kor": "포겔", "label": "남성형" },
+        "es": { "word": "pájaro", "kor": "파하로", "label": "남성형",
+                "alt": [{ "word": "ave", "kor": "아베", "label": "여성형" }] },
+        "ru": { "word": "пти́ца", "rom": "ptítsa", "kor": "프티차", "label": "여성형" },
+        "ar": { "word": "طَائِر", "rom": "ṭāʾir", "label": "남성형",
+                "alt": [{ "word": "عُصْفُور", "rom": "ʿuṣfūr", "label": "이형" }] }
+      }
+    },
+    {
+      "id": "fish",
+      "ko": "물고기",
+      "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "fish", "kor": "피시" },
+        "ja": { "word": "魚", "rom": "さかな · sakana", "kor": "사카나",
+                "alt": [{ "word": "魚", "rom": "うお · uo", "kor": "우오", "label": "다른 읽기" }] },
+        "zh": { "word": "鱼", "rom": "yú", "kor": "위" },
+        "fr": { "word": "poisson", "kor": "푸아송", "label": "남성형" },
+        "de": { "word": "Fisch", "kor": "피슈", "label": "남성형" },
+        "es": { "word": "pez", "kor": "페스", "label": "남성형",
+                "alt": [{ "word": "pescado", "kor": "페스카도", "label": "이형" }] },
+        "ru": { "word": "ры́ба", "rom": "rýba", "kor": "리바", "label": "여성형" },
+        "ar": { "word": "سَمَكَة", "rom": "samaka", "label": "여성형",
+                "alt": [{ "word": "سَمَك", "rom": "samak", "label": "남성형" }] }
+      }
+    },
+    {
+      "id": "horse",
+      "ko": "말",
+      "lists": ["ogden"],
+      "words": {
+        "en": { "word": "horse", "kor": "호스" },
+        "ja": { "word": "馬", "rom": "うま · uma", "kor": "우마",
+                "alt": [{ "word": "ウマ", "rom": "uma", "kor": "우마", "label": "가타카나 표기" }] },
+        "zh": { "word": "马", "rom": "mǎ", "kor": "마" },
+        "fr": { "word": "cheval", "kor": "슈발", "label": "남성형" },
+        "de": { "word": "Pferd", "kor": "페르트", "label": "중성형" },
+        "es": { "word": "caballo", "kor": "카바요", "label": "남성형" },
+        "ru": { "word": "ло́шадь", "rom": "lóshad'", "kor": "로샤디", "label": "여성형",
+                "alt": [{ "word": "конь", "rom": "kon'", "kor": "코니", "label": "남성형" }] },
+        "ar": { "word": "حِصَان", "rom": "ḥiṣān", "label": "남성형",
+                "alt": [{ "word": "فَرَس", "rom": "faras", "label": "이형" }] }
+      }
+    },
+    {
+      "id": "cow",
+      "ko": "소",
+      "lists": ["ogden"],
+      "words": {
+        "en": { "word": "cow", "kor": "카우" },
+        "ja": { "word": "牛", "rom": "うし · ushi", "kor": "우시" },
+        "zh": { "word": "牛", "rom": "niú", "kor": "뉴",
+                "alt": [{ "word": "母牛", "rom": "mǔniú", "kor": "무뉴", "label": "암소" }] },
+        "fr": { "word": "vache", "kor": "바슈", "label": "여성형",
+                "alt": [{ "word": "bovin", "kor": "보뱅", "label": "남성형 · 소 일반" }] },
+        "de": { "word": "Kuh", "kor": "쿠", "label": "여성형 · 암소",
+                "alt": [{ "word": "Rind", "kor": "린트", "label": "중성형 · 소 일반" }] },
+        "es": { "word": "vaca", "kor": "바카", "label": "여성형",
+                "alt": [{ "word": "bovino", "kor": "보비노", "label": "남성형 · 소 일반" }] },
+        "ru": { "word": "коро́ва", "rom": "koróva", "kor": "코로바", "label": "여성형",
+                "alt": [{ "word": "бык", "rom": "byk", "kor": "비크", "label": "남성형" }] },
+        "ar": { "word": "بَقَرَة", "rom": "baqara", "label": "여성형",
+                "alt": [{ "word": "بَقَر", "rom": "baqar", "label": "집합형" }] }
+      },
+      "notes": ["영어 cow는 암소와 소 일반을 모두 가리킨다. 위키낱말사전도 두 뜻을 따로 두었고, 언어마다 대응이 갈린다 — 독일어는 암소 Kuh와 소 일반 Rind를 구분한다."]
+    },
+    {
+      "id": "pig",
+      "ko": "돼지",
+      "lists": ["ogden"],
+      "words": {
+        "en": { "word": "pig", "kor": "피그" },
+        "ja": { "word": "豚", "rom": "ぶた · buta", "kor": "부타" },
+        "zh": { "word": "猪", "rom": "zhū", "kor": "주" },
+        "fr": { "word": "cochon", "kor": "코숑", "label": "남성형",
+                "alt": [{ "word": "porc", "kor": "포르", "label": "남성형" }] },
+        "de": { "word": "Schwein", "kor": "슈바인", "label": "중성형" },
+        "es": { "word": "cerdo", "kor": "세르도", "label": "남성형",
+                "alt": [{ "word": "chancho", "kor": "찬초", "label": "이형" }] },
+        "ru": { "word": "свинья́", "rom": "svin'yá", "kor": "스비냐", "label": "여성형",
+                "alt": [{ "word": "бо́ров", "rom": "bórov", "kor": "보로프", "label": "남성형" }] },
+        "ar": { "word": "خِنْزِير", "rom": "khinzīr", "label": "남성형" }
+      }
+    },
+    {
+      "id": "sheep",
+      "ko": "양",
+      "lists": ["ogden"],
+      "words": {
+        "en": { "word": "sheep", "kor": "시프" },
+        "ja": { "word": "羊", "rom": "ひつじ · hitsuji", "kor": "히쓰지" },
+        "zh": { "word": "绵羊", "rom": "miányáng", "kor": "몐양",
+                "alt": [{ "word": "羊", "rom": "yáng", "kor": "양", "label": "양·염소 통칭" }] },
+        "fr": { "word": "mouton", "kor": "무통", "label": "남성형" },
+        "de": { "word": "Schaf", "kor": "샤프", "label": "중성형" },
+        "es": { "word": "oveja", "kor": "오베하", "label": "여성형",
+                "alt": [{ "word": "carnero", "kor": "카르네로", "label": "남성형" }] },
+        "ru": { "word": "овца́", "rom": "ovtsá", "kor": "옵차", "label": "여성형" },
+        "ar": { "word": "خَرُوف", "rom": "kharūf", "label": "남성형" }
+      },
+      "notes": ["중국어 羊은 양과 염소를 함께 가리킨다 — 위키낱말사전은 sheep과 goat 양쪽 번역표에 羊을 올려 두었다. 구분하려면 绵羊(양)·山羊(염소)를 쓴다."]
+    },
+    {
+      "id": "goat",
+      "ko": "염소",
+      "lists": ["ogden"],
+      "words": {
+        "en": { "word": "goat", "kor": "고트" },
+        "ja": { "word": "山羊", "rom": "やぎ · yagi", "kor": "야기",
+                "alt": [{ "word": "ヤギ", "rom": "yagi", "kor": "야기", "label": "가타카나 표기" }] },
+        "zh": { "word": "山羊", "rom": "shānyáng", "kor": "산양" },
+        "fr": { "word": "chèvre", "kor": "셰브르", "label": "여성형",
+                "alt": [{ "word": "bouc", "kor": "부크", "label": "남성형" }] },
+        "de": { "word": "Ziege", "kor": "치게", "label": "여성형",
+                "alt": [{ "word": "Geiß", "kor": "가이스", "label": "여성형" }] },
+        "es": { "word": "cabra", "kor": "카브라", "label": "여성형",
+                "alt": [{ "word": "chivo", "kor": "치보", "label": "남성형" }] },
+        "ru": { "word": "коза́", "rom": "kozá", "kor": "코자", "label": "여성형",
+                "alt": [{ "word": "козёл", "rom": "kozyól", "kor": "코죨", "label": "남성형" }] },
+        "ar": { "word": "مَاعِز", "rom": "māʿiz", "label": "남성형",
+                "alt": [{ "word": "عَنْزَة", "rom": "ʿanza", "label": "여성형" }] }
+      }
+    },
+    {
+      "id": "monkey",
+      "ko": "원숭이",
+      "lists": ["ogden"],
+      "words": {
+        "en": { "word": "monkey", "kor": "몽키" },
+        "ja": { "word": "猿", "rom": "さる · saru", "kor": "사루",
+                "alt": [{ "word": "サル", "rom": "saru", "kor": "사루", "label": "가타카나 표기" }] },
+        "zh": { "word": "猴子", "rom": "hóuzi", "kor": "허우쯔" },
+        "fr": { "word": "singe", "kor": "생주", "label": "남성형",
+                "alt": [{ "word": "guenon", "kor": "그농", "label": "여성형" }] },
+        "de": { "word": "Affe", "kor": "아페", "label": "남성형",
+                "alt": [{ "word": "Äffin", "kor": "에핀", "label": "여성형" }] },
+        "es": { "word": "mono", "kor": "모노", "label": "남성형" },
+        "ru": { "word": "обезья́на", "rom": "obez'yána", "kor": "오베지야나", "label": "여성형" },
+        "ar": { "word": "قِرْد", "rom": "qird", "label": "남성형" }
+      }
+    },
+    {
+      "id": "rat",
+      "ko": "쥐",
+      "lists": ["ogden"],
+      "words": {
+        "en": { "word": "rat", "kor": "랫" },
+        "ja": { "word": "鼠", "rom": "ねずみ · nezumi", "kor": "네즈미",
+                "alt": [{ "word": "ネズミ", "rom": "nezumi", "kor": "네즈미", "label": "가타카나 표기" }] },
+        "zh": { "word": "老鼠", "rom": "lǎoshǔ", "kor": "라오수",
+                "alt": [{ "word": "鼠", "rom": "shǔ", "kor": "수", "label": "문어" }] },
+        "fr": { "word": "rat", "kor": "라", "label": "남성형" },
+        "de": { "word": "Ratte", "kor": "라테", "label": "여성형" },
+        "es": { "word": "rata", "kor": "라타", "label": "여성형" },
+        "ru": { "word": "кры́са", "rom": "krýsa", "kor": "크리사", "label": "여성형" },
+        "ar": { "word": "جُرَذ", "rom": "juradh", "label": "남성형",
+                "alt": [{ "word": "فَأْر", "rom": "faʾr", "label": "남성형" }] }
+      }
+    },
+    {
+      "id": "snake",
+      "ko": "뱀",
+      "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "snake", "kor": "스네이크" },
+        "ja": { "word": "蛇", "rom": "へび · hebi", "kor": "헤비",
+                "alt": [{ "word": "ヘビ", "rom": "hebi", "kor": "헤비", "label": "가타카나 표기" }] },
+        "zh": { "word": "蛇", "rom": "shé", "kor": "서" },
+        "fr": { "word": "serpent", "kor": "세르팡", "label": "남성형" },
+        "de": { "word": "Schlange", "kor": "슐랑에", "label": "여성형" },
+        "es": { "word": "serpiente", "kor": "세르피엔테", "label": "여성형",
+                "alt": [{ "word": "culebra", "kor": "쿨레브라", "label": "여성형" }] },
+        "ru": { "word": "змея́", "rom": "zmeyá", "kor": "즈메야", "label": "여성형" },
+        "ar": { "word": "ثُعْبَان", "rom": "thuʿbān", "label": "남성형",
+                "alt": [{ "word": "حَنَش", "rom": "ḥanash", "label": "남성형" }] }
+      }
+    },
+    {
+      "id": "worm",
+      "ko": "지렁이",
+      "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "worm", "kor": "웜" },
+        "ja": { "word": "蚯蚓", "rom": "みみず · mimizu", "kor": "미미즈" },
+        "zh": { "word": "蠕虫", "rom": "rúchóng", "kor": "루충" },
+        "fr": { "word": "ver", "kor": "베르", "label": "남성형" },
+        "de": { "word": "Wurm", "kor": "부름", "label": "남성형" },
+        "es": { "word": "gusano", "kor": "구사노", "label": "남성형",
+                "alt": [{ "word": "lombriz", "kor": "롬브리스", "label": "여성형" }] },
+        "ru": { "word": "червь", "rom": "cherv'", "kor": "체르비", "label": "남성형",
+                "alt": [{ "word": "червя́к", "rom": "chervyák", "kor": "체르뱌크", "label": "남성형" }] },
+        "ar": { "word": "دُودَة", "rom": "dūda", "label": "여성형",
+                "alt": [{ "word": "دُود", "rom": "dūd", "label": "집합형" }] }
+      }
+    },
+    {
+      "id": "fly",
+      "ko": "파리",
+      "lists": ["ogden"],
+      "words": {
+        "en": { "word": "fly", "kor": "플라이" },
+        "ja": { "word": "蠅", "rom": "はえ · hae", "kor": "하에" },
+        "zh": { "word": "苍蝇", "rom": "cāngying", "kor": "창잉" },
+        "fr": { "word": "mouche", "kor": "무슈", "label": "여성형" },
+        "de": { "word": "Fliege", "kor": "플리게", "label": "여성형" },
+        "es": { "word": "mosca", "kor": "모스카", "label": "여성형" },
+        "ru": { "word": "му́ха", "rom": "múkha", "kor": "무하", "label": "여성형" },
+        "ar": { "word": "ذُبَابَة", "rom": "dhubāba", "label": "여성형" }
+      }
+    },
+    {
+      "id": "ant",
+      "ko": "개미",
+      "lists": ["ogden"],
+      "words": {
+        "en": { "word": "ant", "kor": "앤트" },
+        "ja": { "word": "蟻", "rom": "あり · ari", "kor": "아리",
+                "alt": [{ "word": "アリ", "rom": "ari", "kor": "아리", "label": "가타카나 표기" }] },
+        "zh": { "word": "蚂蚁", "rom": "mǎyǐ", "kor": "마이" },
+        "fr": { "word": "fourmi", "kor": "푸르미", "label": "여성형" },
+        "de": { "word": "Ameise", "kor": "아마이제", "label": "여성형" },
+        "es": { "word": "hormiga", "kor": "오르미가", "label": "여성형" },
+        "ru": { "word": "мураве́й", "rom": "muravéy", "kor": "무라베이", "label": "남성형" },
+        "ar": { "word": "نَمْلَة", "rom": "namla", "label": "여성형",
+                "alt": [{ "word": "نَمْل", "rom": "naml", "label": "집합형" }] }
+      }
+    },
+    {
+      "id": "bee",
+      "ko": "벌",
+      "lists": ["ogden"],
+      "words": {
+        "en": { "word": "bee", "kor": "비" },
+        "ja": { "word": "蜂", "rom": "はち · hachi", "kor": "하치" },
+        "zh": { "word": "蜜蜂", "rom": "mìfēng", "kor": "미펑" },
+        "fr": { "word": "abeille", "kor": "아베유", "label": "여성형" },
+        "de": { "word": "Biene", "kor": "비네", "label": "여성형" },
+        "es": { "word": "abeja", "kor": "아베하", "label": "여성형" },
+        "ru": { "word": "пчела́", "rom": "pchelá", "kor": "프첼라", "label": "여성형" },
+        "ar": { "word": "نَحْلَة", "rom": "naḥla", "label": "여성형",
+                "alt": [{ "word": "نَحْل", "rom": "naḥl", "label": "집합형" }] }
+      }
+    },
+    {
+      "id": "louse",
+      "ko": "이",
+      "lists": ["swadesh"],
+      "words": {
+        "en": { "word": "louse", "kor": "라우스" },
+        "ja": { "word": "虱", "rom": "しらみ · shirami", "kor": "시라미",
+                "alt": [{ "word": "シラミ", "rom": "shirami", "kor": "시라미", "label": "가타카나 표기" }] },
+        "zh": { "word": "虱子", "rom": "shīzi", "kor": "스쯔" },
+        "fr": { "word": "pou", "kor": "푸", "label": "남성형" },
+        "de": { "word": "Laus", "kor": "라우스", "label": "여성형" },
+        "es": { "word": "piojo", "kor": "피오호", "label": "남성형" },
+        "ru": { "word": "вошь", "rom": "vosh'", "kor": "보시", "label": "여성형" },
+        "ar": { "word": "قَمْلَة", "rom": "qamla", "label": "여성형",
+                "alt": [{ "word": "قَمْل", "rom": "qaml", "label": "집합형" }] }
+      },
+      "notes": ["일상 어휘로는 드물지만 Swadesh 207에 들어 있어 코어로 표시했다. Ogden 목록에는 없다."]
+    }
+  ]
+}

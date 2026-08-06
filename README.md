@@ -638,6 +638,7 @@ One concept shown in eight languages at once — English, Japanese, Chinese, Fre
 
 - [숫자](https://brain.dongwook.kim/vocab/숫자.html)
 - [색깔](https://brain.dongwook.kim/vocab/색깔.html)
+- [동물](https://brain.dongwook.kim/vocab/동물.html)
 
 ## Installing the skills
 

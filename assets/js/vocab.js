@@ -2,7 +2,8 @@
   // 카테고리를 추가하면 여기에 한 줄 넣는다. 미완성 카테고리는 넣지 않는다.
   const CATEGORIES = [
     { name: '숫자', url: '/vocab/숫자.html' },
-    { name: '색깔', url: '/vocab/색깔.html' }
+    { name: '색깔', url: '/vocab/색깔.html' },
+    { name: '동물', url: '/vocab/동물.html' }
   ];
 
   const LANG_LABEL = {
