@@ -1,0 +1,486 @@
+{
+  "category": "신체",
+  "languages": ["en", "ja", "zh", "fr", "de", "es", "ru", "ar"],
+  "sources": {
+    "concepts": "Ogden's Basic English 850(1930)의 신체 항목 32개 + Swadesh 207 전용 항목 liver — Swadesh의 belly·guts·breast는 Ogden의 stomach·chest와 겹쳐 제외했다",
+    "words": "English Wiktionary (해부학 뜻풀이 번역표)",
+    "kor": "국립국어원 외래어 표기법 규정을 적용한 값 — 개별 단어의 등재 표기가 아님",
+    "zh": "간체자 표기 (저장소 drills/중국어_HSK_어휘 표기와 일치)"
+  },
+  "concepts": [
+    {
+      "id": "body", "ko": "몸", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "body", "kor": "보디" },
+        "ja": { "word": "体", "rom": "からだ · karada", "kor": "가라다" },
+        "zh": { "word": "身体", "rom": "shēntǐ", "kor": "선티" },
+        "fr": { "word": "corps", "kor": "코르", "label": "남성형" },
+        "de": { "word": "Körper", "kor": "쾨르퍼", "label": "남성형" },
+        "es": { "word": "cuerpo", "kor": "쿠에르포", "label": "남성형" },
+        "ru": { "word": "те́ло", "rom": "télo", "kor": "텔로", "label": "중성형" },
+        "ar": { "word": "جِسْم", "rom": "jism", "label": "남성형",
+                "alt": [{ "word": "بَدَن", "rom": "badan", "label": "남성형" }] }
+      }
+    },
+    {
+      "id": "head", "ko": "머리", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "head", "kor": "헤드" },
+        "ja": { "word": "頭", "rom": "あたま · atama", "kor": "아타마" },
+        "zh": { "word": "头", "rom": "tóu", "kor": "터우" },
+        "fr": { "word": "tête", "kor": "테트", "label": "여성형" },
+        "de": { "word": "Kopf", "kor": "코프", "label": "남성형" },
+        "es": { "word": "cabeza", "kor": "카베사", "label": "여성형" },
+        "ru": { "word": "голова́", "rom": "golová", "kor": "골로바", "label": "여성형" },
+        "ar": { "word": "رَأْس", "rom": "raʾs", "label": "남성형" }
+      }
+    },
+    {
+      "id": "face", "ko": "얼굴", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "face", "kor": "페이스" },
+        "ja": { "word": "顔", "rom": "かお · kao", "kor": "가오" },
+        "zh": { "word": "脸", "rom": "liǎn", "kor": "롄",
+                "alt": [{ "word": "面", "rom": "miàn", "kor": "몐", "label": "문어" }] },
+        "fr": { "word": "visage", "kor": "비자주", "label": "남성형",
+                "alt": [{ "word": "figure", "kor": "피귀르", "label": "여성형" }] },
+        "de": { "word": "Gesicht", "kor": "게지히트", "label": "중성형" },
+        "es": { "word": "cara", "kor": "카라", "label": "여성형" },
+        "ru": { "word": "лицо́", "rom": "litsó", "kor": "리초", "label": "중성형" },
+        "ar": { "word": "وَجْه", "rom": "wajh", "label": "남성형" }
+      }
+    },
+    {
+      "id": "hair", "ko": "머리카락 · 털", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "hair", "kor": "헤어" },
+        "ja": { "word": "髪", "rom": "かみ · kami", "kor": "가미",
+                "alt": [{ "word": "毛", "rom": "け · ke", "kor": "게", "label": "털 일반" }] },
+        "zh": { "word": "头发", "rom": "tóufa", "kor": "터우파",
+                "alt": [{ "word": "毛", "rom": "máo", "kor": "마오", "label": "털 일반" }] },
+        "fr": { "word": "cheveu", "kor": "슈뵈", "label": "남성형 · 머리카락",
+                "alt": [{ "word": "poil", "kor": "푸알", "label": "남성형 · 털 일반" }] },
+        "de": { "word": "Haar", "kor": "하르", "label": "중성형" },
+        "es": { "word": "cabello", "kor": "카베요", "label": "남성형 · 머리카락",
+                "alt": [{ "word": "pelo", "kor": "펠로", "label": "남성형 · 털 일반" }] },
+        "ru": { "word": "во́лос", "rom": "vólos", "kor": "볼로스", "label": "남성형 · 한 올",
+                "alt": [{ "word": "во́лосы", "rom": "vólosy", "kor": "볼로시", "label": "복수 · 머리카락" }] },
+        "ar": { "word": "شَعْر", "rom": "shaʿr", "label": "집합형",
+                "alt": [{ "word": "شَعْرَة", "rom": "shaʿra", "label": "여성형 · 한 올" }] }
+      },
+      "notes": ["영어 hair는 한 올과 머리카락 전체를 모두 가리킨다. 위키낱말사전도 두 뜻을 따로 두었고, 프랑스어는 poil(털 일반)과 cheveu(머리카락)를 나눠 쓴다."]
+    },
+    {
+      "id": "eye", "ko": "눈", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "eye", "kor": "아이" },
+        "ja": { "word": "目", "rom": "め · me", "kor": "메" },
+        "zh": { "word": "眼睛", "rom": "yǎnjing", "kor": "옌징",
+                "alt": [{ "word": "眼", "rom": "yǎn", "kor": "옌", "label": "문어" }] },
+        "fr": { "word": "œil", "kor": "외유", "label": "남성형" },
+        "de": { "word": "Auge", "kor": "아우게", "label": "중성형" },
+        "es": { "word": "ojo", "kor": "오호", "label": "남성형" },
+        "ru": { "word": "глаз", "rom": "glaz", "kor": "글라스", "label": "남성형" },
+        "ar": { "word": "عَيْن", "rom": "ʿayn", "label": "여성형" }
+      }
+    },
+    {
+      "id": "ear", "ko": "귀", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "ear", "kor": "이어" },
+        "ja": { "word": "耳", "rom": "みみ · mimi", "kor": "미미" },
+        "zh": { "word": "耳朵", "rom": "ěrduo", "kor": "얼둬",
+                "alt": [{ "word": "耳", "rom": "ěr", "kor": "얼", "label": "문어" }] },
+        "fr": { "word": "oreille", "kor": "오레유", "label": "여성형" },
+        "de": { "word": "Ohr", "kor": "오어", "label": "중성형" },
+        "es": { "word": "oreja", "kor": "오레하", "label": "여성형",
+                "alt": [{ "word": "oído", "kor": "오이도", "label": "남성형 · 청각" }] },
+        "ru": { "word": "у́хо", "rom": "úkho", "kor": "우호", "label": "중성형" },
+        "ar": { "word": "أُذُن", "rom": "ʾudhun", "label": "여성형" }
+      }
+    },
+    {
+      "id": "nose", "ko": "코", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "nose", "kor": "노즈" },
+        "ja": { "word": "鼻", "rom": "はな · hana", "kor": "하나" },
+        "zh": { "word": "鼻子", "rom": "bízi", "kor": "비쯔",
+                "alt": [{ "word": "鼻", "rom": "bí", "kor": "비", "label": "문어" }] },
+        "fr": { "word": "nez", "kor": "네", "label": "남성형" },
+        "de": { "word": "Nase", "kor": "나제", "label": "여성형" },
+        "es": { "word": "nariz", "kor": "나리스", "label": "여성형" },
+        "ru": { "word": "нос", "rom": "nos", "kor": "노스", "label": "남성형" },
+        "ar": { "word": "أَنْف", "rom": "ʾanf", "label": "남성형" }
+      }
+    },
+    {
+      "id": "mouth", "ko": "입", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "mouth", "kor": "마우스" },
+        "ja": { "word": "口", "rom": "くち · kuchi", "kor": "구치" },
+        "zh": { "word": "嘴", "rom": "zuǐ", "kor": "쭈이",
+                "alt": [{ "word": "口", "rom": "kǒu", "kor": "커우", "label": "문어" }] },
+        "fr": { "word": "bouche", "kor": "부슈", "label": "여성형" },
+        "de": { "word": "Mund", "kor": "문트", "label": "남성형" },
+        "es": { "word": "boca", "kor": "보카", "label": "여성형" },
+        "ru": { "word": "рот", "rom": "rot", "kor": "로트", "label": "남성형" },
+        "ar": { "word": "فَم", "rom": "fam", "label": "남성형" }
+      }
+    },
+    {
+      "id": "lip", "ko": "입술", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "lip", "kor": "립" },
+        "ja": { "word": "唇", "rom": "くちびる · kuchibiru", "kor": "구치비루" },
+        "zh": { "word": "嘴唇", "rom": "zuǐchún", "kor": "쭈이춘" },
+        "fr": { "word": "lèvre", "kor": "레브르", "label": "여성형" },
+        "de": { "word": "Lippe", "kor": "리페", "label": "여성형" },
+        "es": { "word": "labio", "kor": "라비오", "label": "남성형" },
+        "ru": { "word": "губа́", "rom": "gubá", "kor": "구바", "label": "여성형" },
+        "ar": { "word": "شَفَة", "rom": "shafa", "label": "여성형" }
+      }
+    },
+    {
+      "id": "tooth", "ko": "이빨", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "tooth", "kor": "투스" },
+        "ja": { "word": "歯", "rom": "は · ha", "kor": "하" },
+        "zh": { "word": "牙齿", "rom": "yáchǐ", "kor": "야츠",
+                "alt": [{ "word": "牙", "rom": "yá", "kor": "야", "label": "문어" }] },
+        "fr": { "word": "dent", "kor": "당", "label": "여성형" },
+        "de": { "word": "Zahn", "kor": "찬", "label": "남성형" },
+        "es": { "word": "diente", "kor": "디엔테", "label": "남성형" },
+        "ru": { "word": "зуб", "rom": "zub", "kor": "주프", "label": "남성형" },
+        "ar": { "word": "سِنّ", "rom": "sinn", "label": "여성형" }
+      }
+    },
+    {
+      "id": "tongue", "ko": "혀", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "tongue", "kor": "텅" },
+        "ja": { "word": "舌", "rom": "した · shita", "kor": "시타" },
+        "zh": { "word": "舌头", "rom": "shétou", "kor": "서터우",
+                "alt": [{ "word": "舌", "rom": "shé", "kor": "서", "label": "문어" }] },
+        "fr": { "word": "langue", "kor": "랑그", "label": "여성형" },
+        "de": { "word": "Zunge", "kor": "충에", "label": "여성형" },
+        "es": { "word": "lengua", "kor": "렝과", "label": "여성형" },
+        "ru": { "word": "язы́к", "rom": "yazýk", "kor": "야지크", "label": "남성형" },
+        "ar": { "word": "لِسَان", "rom": "lisān", "label": "남성형" }
+      }
+    },
+    {
+      "id": "chin", "ko": "턱", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "chin", "kor": "친" },
+        "ja": { "word": "顎", "rom": "あご · ago", "kor": "아고" },
+        "zh": { "word": "下巴", "rom": "xiàba", "kor": "샤바" },
+        "fr": { "word": "menton", "kor": "망통", "label": "남성형" },
+        "de": { "word": "Kinn", "kor": "킨", "label": "중성형" },
+        "es": { "word": "barbilla", "kor": "바르비야", "label": "여성형",
+                "alt": [{ "word": "mentón", "kor": "멘톤", "label": "남성형" }] },
+        "ru": { "word": "подборо́док", "rom": "podboródok", "kor": "포드보로도크", "label": "남성형" },
+        "ar": { "word": "ذَقْن", "rom": "dhaqn", "label": "여성형" }
+      }
+    },
+    {
+      "id": "neck", "ko": "목", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "neck", "kor": "넥" },
+        "ja": { "word": "首", "rom": "くび · kubi", "kor": "구비" },
+        "zh": { "word": "颈", "rom": "jǐng", "kor": "징" },
+        "fr": { "word": "cou", "kor": "쿠", "label": "남성형" },
+        "de": { "word": "Hals", "kor": "할스", "label": "남성형",
+                "alt": [{ "word": "Nacken", "kor": "나켄", "label": "남성형 · 뒷목" }] },
+        "es": { "word": "cuello", "kor": "쿠에요", "label": "남성형" },
+        "ru": { "word": "ше́я", "rom": "shéya", "kor": "셰야", "label": "여성형" },
+        "ar": { "word": "رَقَبَة", "rom": "raqaba", "label": "여성형",
+                "alt": [{ "word": "عُنُق", "rom": "ʿunuq", "label": "남성형" }] }
+      }
+    },
+    {
+      "id": "throat", "ko": "목구멍", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "throat", "kor": "스로트" },
+        "ja": { "word": "喉", "rom": "のど · nodo", "kor": "노도" },
+        "zh": { "word": "喉咙", "rom": "hóulóng", "kor": "허우룽",
+                "alt": [{ "word": "嗓子", "rom": "sǎngzi", "kor": "상쯔" }] },
+        "fr": { "word": "gorge", "kor": "고르주", "label": "여성형" },
+        "de": { "word": "Kehle", "kor": "켈레", "label": "여성형" },
+        "es": { "word": "garganta", "kor": "가르간타", "label": "여성형" },
+        "ru": { "word": "го́рло", "rom": "górlo", "kor": "고를로", "label": "중성형" },
+        "ar": { "word": "حَلْق", "rom": "ḥalq", "label": "남성형" }
+      }
+    },
+    {
+      "id": "back", "ko": "등", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "back", "kor": "백" },
+        "ja": { "word": "背中", "rom": "せなか · senaka", "kor": "세나카",
+                "alt": [{ "word": "背", "rom": "せ · se", "kor": "세" }] },
+        "zh": { "word": "背", "rom": "bèi", "kor": "베이",
+                "alt": [{ "word": "背部", "rom": "bèibù", "kor": "베이부" }] },
+        "fr": { "word": "dos", "kor": "도", "label": "남성형" },
+        "de": { "word": "Rücken", "kor": "뤼켄", "label": "남성형" },
+        "es": { "word": "espalda", "kor": "에스팔다", "label": "여성형" },
+        "ru": { "word": "спина́", "rom": "spiná", "kor": "스피나", "label": "여성형" },
+        "ar": { "word": "ظَهْر", "rom": "ẓahr", "label": "남성형" }
+      }
+    },
+    {
+      "id": "chest", "ko": "가슴", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "chest", "kor": "체스트" },
+        "ja": { "word": "胸", "rom": "むね · mune", "kor": "무네" },
+        "zh": { "word": "胸", "rom": "xiōng", "kor": "슝",
+                "alt": [{ "word": "胸部", "rom": "xiōngbù", "kor": "슝부" }] },
+        "fr": { "word": "poitrine", "kor": "푸아트린", "label": "여성형" },
+        "de": { "word": "Brust", "kor": "브루스트", "label": "여성형" },
+        "es": { "word": "pecho", "kor": "페초", "label": "남성형" },
+        "ru": { "word": "грудь", "rom": "grud'", "kor": "그루디", "label": "여성형" },
+        "ar": { "word": "صَدْر", "rom": "ṣadr", "label": "남성형" }
+      }
+    },
+    {
+      "id": "stomach", "ko": "배 · 위", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "stomach", "kor": "스토먹" },
+        "ja": { "word": "胃", "rom": "い · i", "kor": "이",
+                "alt": [{ "word": "お腹", "rom": "おなか · o-naka", "kor": "오나카", "label": "배" }] },
+        "zh": { "word": "胃", "rom": "wèi", "kor": "웨이",
+                "alt": [{ "word": "肚子", "rom": "dùzi", "kor": "두쯔", "label": "배" }] },
+        "fr": { "word": "estomac", "kor": "에스토마", "label": "남성형",
+                "alt": [{ "word": "ventre", "kor": "방트르", "label": "남성형 · 배" }] },
+        "de": { "word": "Magen", "kor": "마겐", "label": "남성형",
+                "alt": [{ "word": "Bauch", "kor": "바우흐", "label": "남성형 · 배" }] },
+        "es": { "word": "estómago", "kor": "에스토마고", "label": "남성형" },
+        "ru": { "word": "желу́док", "rom": "zhelúdok", "kor": "젤루도크", "label": "남성형",
+                "alt": [{ "word": "живо́т", "rom": "zhivót", "kor": "지보트", "label": "남성형 · 배" }] },
+        "ar": { "word": "مَعِدَة", "rom": "maʿida", "label": "여성형" }
+      }
+    },
+    {
+      "id": "arm", "ko": "팔", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "arm", "kor": "암" },
+        "ja": { "word": "腕", "rom": "うで · ude", "kor": "우데" },
+        "zh": { "word": "胳膊", "rom": "gēbo", "kor": "거보" },
+        "fr": { "word": "bras", "kor": "브라", "label": "남성형" },
+        "de": { "word": "Arm", "kor": "아름", "label": "남성형" },
+        "es": { "word": "brazo", "kor": "브라소", "label": "남성형" },
+        "ru": { "word": "рука́", "rom": "ruká", "kor": "루카", "label": "여성형 · 팔·손 겸용" },
+        "ar": { "word": "ذِرَاع", "rom": "dhirāʿ", "label": "남성형" }
+      },
+      "notes": ["러시아어 рука는 팔과 손을 함께 가리킨다 — 위키낱말사전 arm과 hand 양쪽 번역표에 рука́가 올라 있다."]
+    },
+    {
+      "id": "hand", "ko": "손", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "hand", "kor": "핸드" },
+        "ja": { "word": "手", "rom": "て · te", "kor": "데" },
+        "zh": { "word": "手", "rom": "shǒu", "kor": "서우" },
+        "fr": { "word": "main", "kor": "맹", "label": "여성형" },
+        "de": { "word": "Hand", "kor": "한트", "label": "여성형" },
+        "es": { "word": "mano", "kor": "마노", "label": "여성형" },
+        "ru": { "word": "рука́", "rom": "ruká", "kor": "루카", "label": "여성형 · 팔·손 겸용" },
+        "ar": { "word": "يَد", "rom": "yad", "label": "여성형" }
+      }
+    },
+    {
+      "id": "finger", "ko": "손가락", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "finger", "kor": "핑거" },
+        "ja": { "word": "指", "rom": "ゆび · yubi", "kor": "유비" },
+        "zh": { "word": "手指", "rom": "shǒuzhǐ", "kor": "서우즈" },
+        "fr": { "word": "doigt", "kor": "두아", "label": "남성형" },
+        "de": { "word": "Finger", "kor": "핑거", "label": "남성형" },
+        "es": { "word": "dedo", "kor": "데도", "label": "남성형" },
+        "ru": { "word": "па́лец", "rom": "pálets", "kor": "팔레츠", "label": "남성형 · 손·발가락 겸용" },
+        "ar": { "word": "إِصْبَع", "rom": "ʾiṣbaʿ", "label": "남성형 · 손·발가락 겸용" }
+      }
+    },
+    {
+      "id": "thumb", "ko": "엄지손가락", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "thumb", "kor": "섬" },
+        "ja": { "word": "親指", "rom": "おやゆび · oyayubi", "kor": "오야유비" },
+        "zh": { "word": "大拇指", "rom": "dàmuzhǐ", "kor": "다무즈",
+                "alt": [{ "word": "拇指", "rom": "mǔzhǐ", "kor": "무즈" }] },
+        "fr": { "word": "pouce", "kor": "푸스", "label": "남성형" },
+        "de": { "word": "Daumen", "kor": "다우멘", "label": "남성형" },
+        "es": { "word": "pulgar", "kor": "풀가르", "label": "남성형" },
+        "ru": { "word": "большо́й па́лец", "rom": "bol'shóy pálets", "kor": "볼쇼이 팔레츠", "label": "남성형" },
+        "ar": { "word": "إِبْهَام", "rom": "ʾibhām", "label": "남성형" }
+      }
+    },
+    {
+      "id": "nail", "ko": "손톱", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "nail", "kor": "네일" },
+        "ja": { "word": "爪", "rom": "つめ · tsume", "kor": "쓰메" },
+        "zh": { "word": "指甲", "rom": "zhǐjia", "kor": "즈자" },
+        "fr": { "word": "ongle", "kor": "옹글", "label": "남성형" },
+        "de": { "word": "Nagel", "kor": "나겔", "label": "남성형" },
+        "es": { "word": "uña", "kor": "우냐", "label": "여성형" },
+        "ru": { "word": "но́готь", "rom": "nógot'", "kor": "노고티", "label": "남성형" },
+        "ar": { "word": "ظُفْر", "rom": "ẓufr", "label": "남성형" }
+      }
+    },
+    {
+      "id": "leg", "ko": "다리", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "leg", "kor": "레그" },
+        "ja": { "word": "脚", "rom": "あし · ashi", "kor": "아시" },
+        "zh": { "word": "腿", "rom": "tuǐ", "kor": "투이" },
+        "fr": { "word": "jambe", "kor": "장브", "label": "여성형" },
+        "de": { "word": "Bein", "kor": "바인", "label": "중성형" },
+        "es": { "word": "pierna", "kor": "피에르나", "label": "여성형" },
+        "ru": { "word": "нога́", "rom": "nogá", "kor": "노가", "label": "여성형 · 다리·발 겸용" },
+        "ar": { "word": "رِجْل", "rom": "rijl", "label": "여성형" }
+      },
+      "notes": ["러시아어 нога는 다리와 발을 함께 가리킨다. 일본어도 あし 하나에 脚(다리)과 足(발)을 함께 쓴다 — 위키낱말사전 leg·foot 양쪽 번역표에서 확인된다."]
+    },
+    {
+      "id": "knee", "ko": "무릎", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "knee", "kor": "니" },
+        "ja": { "word": "膝", "rom": "ひざ · hiza", "kor": "히자" },
+        "zh": { "word": "膝盖", "rom": "xīgài", "kor": "시가이",
+                "alt": [{ "word": "膝", "rom": "xī", "kor": "시", "label": "문어" }] },
+        "fr": { "word": "genou", "kor": "주누", "label": "남성형" },
+        "de": { "word": "Knie", "kor": "크니", "label": "중성형" },
+        "es": { "word": "rodilla", "kor": "로디야", "label": "여성형" },
+        "ru": { "word": "коле́но", "rom": "koléno", "kor": "콜레노", "label": "중성형" },
+        "ar": { "word": "رُكْبَة", "rom": "rukba", "label": "여성형" }
+      }
+    },
+    {
+      "id": "foot", "ko": "발", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "foot", "kor": "풋" },
+        "ja": { "word": "足", "rom": "あし · ashi", "kor": "아시" },
+        "zh": { "word": "脚", "rom": "jiǎo", "kor": "자오",
+                "alt": [{ "word": "足", "rom": "zú", "kor": "쭈", "label": "문어" }] },
+        "fr": { "word": "pied", "kor": "피에", "label": "남성형" },
+        "de": { "word": "Fuß", "kor": "푸스", "label": "남성형" },
+        "es": { "word": "pie", "kor": "피에", "label": "남성형" },
+        "ru": { "word": "нога́", "rom": "nogá", "kor": "노가", "label": "여성형 · 다리·발 겸용",
+                "alt": [{ "word": "ступня́", "rom": "stupnyá", "kor": "스투프냐", "label": "여성형 · 발 전용" }] },
+        "ar": { "word": "قَدَم", "rom": "qadam", "label": "여성형" }
+      }
+    },
+    {
+      "id": "toe", "ko": "발가락", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "toe", "kor": "토" },
+        "ja": { "word": "足指", "rom": "あしゆび · ashiyubi", "kor": "아시유비" },
+        "zh": { "word": "脚趾", "rom": "jiǎozhǐ", "kor": "자오즈" },
+        "fr": { "word": "orteil", "kor": "오르테유", "label": "남성형" },
+        "de": { "word": "Zeh", "kor": "체", "label": "남성형",
+                "alt": [{ "word": "Zehe", "kor": "체에", "label": "여성형" }] },
+        "es": { "word": "dedo del pie", "kor": "데도 델 피에", "label": "남성형" },
+        "ru": { "word": "па́лец", "rom": "pálets", "kor": "팔레츠", "label": "남성형 · 손·발가락 겸용" },
+        "ar": { "word": "إِصْبَع", "rom": "ʾiṣbaʿ", "label": "남성형 · 손·발가락 겸용" }
+      },
+      "notes": ["아랍어 إِصْبَع와 러시아어 па́лец는 손가락과 발가락을 함께 가리킨다. 스페인어도 dedo(손가락)에 del pie를 붙여 발가락을 만든다."]
+    },
+    {
+      "id": "skin", "ko": "피부", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "skin", "kor": "스킨" },
+        "ja": { "word": "皮膚", "rom": "ひふ · hifu", "kor": "히후",
+                "alt": [{ "word": "肌", "rom": "はだ · hada", "kor": "하다", "label": "살결" }] },
+        "zh": { "word": "皮肤", "rom": "pífū", "kor": "피푸",
+                "alt": [{ "word": "皮", "rom": "pí", "kor": "피", "label": "문어" }] },
+        "fr": { "word": "peau", "kor": "포", "label": "여성형" },
+        "de": { "word": "Haut", "kor": "하우트", "label": "여성형" },
+        "es": { "word": "piel", "kor": "피엘", "label": "여성형" },
+        "ru": { "word": "ко́жа", "rom": "kózha", "kor": "코자", "label": "여성형" },
+        "ar": { "word": "جِلْد", "rom": "jild", "label": "남성형" }
+      }
+    },
+    {
+      "id": "bone", "ko": "뼈", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "bone", "kor": "본" },
+        "ja": { "word": "骨", "rom": "ほね · hone", "kor": "호네" },
+        "zh": { "word": "骨头", "rom": "gǔtóu", "kor": "구터우",
+                "alt": [{ "word": "骨", "rom": "gǔ", "kor": "구", "label": "문어" }] },
+        "fr": { "word": "os", "kor": "오스", "label": "남성형" },
+        "de": { "word": "Knochen", "kor": "크노헨", "label": "남성형" },
+        "es": { "word": "hueso", "kor": "우에소", "label": "남성형" },
+        "ru": { "word": "кость", "rom": "kost'", "kor": "코스티", "label": "여성형" },
+        "ar": { "word": "عَظْم", "rom": "ʿaẓm", "label": "남성형" }
+      }
+    },
+    {
+      "id": "muscle", "ko": "근육", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "muscle", "kor": "머슬" },
+        "ja": { "word": "筋肉", "rom": "きんにく · kinniku", "kor": "긴니쿠" },
+        "zh": { "word": "肌肉", "rom": "jīròu", "kor": "지러우" },
+        "fr": { "word": "muscle", "kor": "뮈스클", "label": "남성형" },
+        "de": { "word": "Muskel", "kor": "무스켈", "label": "남성형" },
+        "es": { "word": "músculo", "kor": "무스쿨로", "label": "남성형" },
+        "ru": { "word": "мы́шца", "rom": "mýshtsa", "kor": "미시차", "label": "여성형",
+                "alt": [{ "word": "му́скул", "rom": "múskul", "kor": "무스쿨", "label": "남성형" }] },
+        "ar": { "word": "عَضَلَة", "rom": "ʿaḍala", "label": "여성형" }
+      }
+    },
+    {
+      "id": "blood", "ko": "피", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "blood", "kor": "블러드" },
+        "ja": { "word": "血", "rom": "ち · chi", "kor": "지",
+                "alt": [{ "word": "血液", "rom": "けつえき · ketsueki", "kor": "게쓰에키", "label": "문어" }] },
+        "zh": { "word": "血", "rom": "xuè", "kor": "쉐" },
+        "fr": { "word": "sang", "kor": "상", "label": "남성형" },
+        "de": { "word": "Blut", "kor": "블루트", "label": "중성형" },
+        "es": { "word": "sangre", "kor": "상그레", "label": "여성형" },
+        "ru": { "word": "кровь", "rom": "krov'", "kor": "크로피", "label": "여성형" },
+        "ar": { "word": "دَم", "rom": "dam", "label": "남성형" }
+      }
+    },
+    {
+      "id": "heart", "ko": "심장", "lists": ["swadesh", "ogden"],
+      "words": {
+        "en": { "word": "heart", "kor": "하트" },
+        "ja": { "word": "心臓", "rom": "しんぞう · shinzō", "kor": "신조" },
+        "zh": { "word": "心脏", "rom": "xīnzàng", "kor": "신짱" },
+        "fr": { "word": "cœur", "kor": "쾨르", "label": "남성형" },
+        "de": { "word": "Herz", "kor": "헤르츠", "label": "중성형" },
+        "es": { "word": "corazón", "kor": "코라손", "label": "남성형" },
+        "ru": { "word": "се́рдце", "rom": "sérdtse", "kor": "세르드체", "label": "중성형" },
+        "ar": { "word": "قَلْب", "rom": "qalb", "label": "남성형" }
+      }
+    },
+    {
+      "id": "brain", "ko": "뇌", "lists": ["ogden"],
+      "words": {
+        "en": { "word": "brain", "kor": "브레인" },
+        "ja": { "word": "脳", "rom": "のう · nō", "kor": "노" },
+        "zh": { "word": "脑", "rom": "nǎo", "kor": "나오" },
+        "fr": { "word": "cerveau", "kor": "세르보", "label": "남성형" },
+        "de": { "word": "Gehirn", "kor": "게히른", "label": "중성형" },
+        "es": { "word": "cerebro", "kor": "세레브로", "label": "남성형" },
+        "ru": { "word": "мозг", "rom": "mozg", "kor": "모스크", "label": "남성형" },
+        "ar": { "word": "دِمَاغ", "rom": "dimāgh", "label": "남성형" }
+      }
+    },
+    {
+      "id": "liver", "ko": "간", "lists": ["swadesh"],
+      "words": {
+        "en": { "word": "liver", "kor": "리버" },
+        "ja": { "word": "肝臓", "rom": "かんぞう · kanzō", "kor": "간조",
+                "alt": [{ "word": "肝", "rom": "きも · kimo", "kor": "기모" }] },
+        "zh": { "word": "肝脏", "rom": "gānzàng", "kor": "간짱",
+                "alt": [{ "word": "肝", "rom": "gān", "kor": "간", "label": "문어" }] },
+        "fr": { "word": "foie", "kor": "푸아", "label": "남성형" },
+        "de": { "word": "Leber", "kor": "레버", "label": "여성형" },
+        "es": { "word": "hígado", "kor": "이가도", "label": "남성형" },
+        "ru": { "word": "пе́чень", "rom": "péchen'", "kor": "페체니", "label": "여성형" },
+        "ar": { "word": "كَبِد", "rom": "kabid", "label": "남성형" }
+      },
+      "notes": ["Ogden 목록에는 없고 Swadesh 207에만 있어 코어로 표시했다."]
+    }
+  ]
+}

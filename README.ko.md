@@ -639,6 +639,7 @@ brain/
 - [숫자](https://brain.dongwook.kim/vocab/숫자.html)
 - [색깔](https://brain.dongwook.kim/vocab/색깔.html)
 - [동물](https://brain.dongwook.kim/vocab/동물.html)
+- [신체](https://brain.dongwook.kim/vocab/신체.html)
 
 ## 스킬 설치
 
