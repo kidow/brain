@@ -97,6 +97,11 @@
   - `notes[]` — 줄 라벨로 안 담기는 배경은 카드 하단 메모로. **필요한 개념에만** 붙인다.
 - 개념 `id`는 영어 슬러그다. URL 앵커(`vocab/색깔.html#black`)가 되고 표준 목록과 1:1로 대응된다. 파일명은 한국어를 유지한다.
 
+#### vocab/ 발음 규칙
+
+- 발화 텍스트 변환은 `assets/js/vocab.js`의 `speakText()`와 `scripts/build_vocab_audio.py`의 `speak_text()`에 **같은 로직이 두 벌 있다**. 일본어는 `rom`의 かな, 러시아어는 강세 기호 U+0301 제거, 아랍어는 모음부호 유지. **한쪽만 고치면 안 된다** — 파일명은 그대로인데 내용이 달라져 조용히 어긋난다.
+- 직접 만든 mp3는 `audio/<언어>/<카테고리>/<개념>[-N].mp3`에 둔다. 존재 여부는 `audio/manifest.json`(언어 × 카테고리 단위)으로만 판단하고 404 폴백은 쓰지 않는다. 설계와 측정값은 [audio/PLAN.md](audio/PLAN.md)에 있다.
+
 ### levels.md 규칙
 
 - 섹션: `README.md` → `## Levels`, `README.ko.md` → `## 수준 기록`

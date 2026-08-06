@@ -1,0 +1,114 @@
+[
+ {
+  "lang": "ru",
+  "category": "신체",
+  "concept": "mouth",
+  "alt": 0,
+  "text": "рот",
+  "path": "audio/ru/신체/mouth.mp3"
+ },
+ {
+  "lang": "ru",
+  "category": "신체",
+  "concept": "nose",
+  "alt": 0,
+  "text": "нос",
+  "path": "audio/ru/신체/nose.mp3"
+ },
+ {
+  "lang": "ru",
+  "category": "스포츠",
+  "concept": "running",
+  "alt": 0,
+  "text": "бег",
+  "path": "audio/ru/스포츠/running.mp3"
+ },
+ {
+  "lang": "ru",
+  "category": "숫자",
+  "concept": "hundred",
+  "alt": 0,
+  "text": "сто",
+  "path": "audio/ru/숫자/hundred.mp3"
+ },
+ {
+  "lang": "ru",
+  "category": "숫자",
+  "concept": "two",
+  "alt": 0,
+  "text": "два",
+  "path": "audio/ru/숫자/two.mp3"
+ },
+ {
+  "lang": "ru",
+  "category": "신체",
+  "concept": "thumb",
+  "alt": 0,
+  "text": "большой палец",
+  "path": "audio/ru/신체/thumb.mp3"
+ },
+ {
+  "lang": "ru",
+  "category": "동작",
+  "concept": "smell",
+  "alt": 0,
+  "text": "чувствовать запах",
+  "path": "audio/ru/동작/smell.mp3"
+ },
+ {
+  "lang": "ru",
+  "category": "스포츠",
+  "concept": "table-tennis",
+  "alt": 0,
+  "text": "настольный теннис",
+  "path": "audio/ru/스포츠/table-tennis.mp3"
+ },
+ {
+  "lang": "ru",
+  "category": "스포츠",
+  "concept": "hiking",
+  "alt": 0,
+  "text": "пеший туризм",
+  "path": "audio/ru/스포츠/hiking.mp3"
+ },
+ {
+  "lang": "ru",
+  "category": "스포츠",
+  "concept": "skiing",
+  "alt": 0,
+  "text": "лыжный спорт",
+  "path": "audio/ru/스포츠/skiing.mp3"
+ },
+ {
+  "lang": "ru",
+  "category": "동물",
+  "concept": "dog",
+  "alt": 0,
+  "text": "собака",
+  "path": "audio/ru/동물/dog.mp3"
+ },
+ {
+  "lang": "ru",
+  "category": "동물",
+  "concept": "cat",
+  "alt": 0,
+  "text": "кошка",
+  "path": "audio/ru/동물/cat.mp3"
+ },
+ {
+  "lang": "ru",
+  "category": "색깔",
+  "concept": "black",
+  "alt": 0,
+  "text": "чёрный",
+  "path": "audio/ru/색깔/black.mp3"
+ },
+ {
+  "lang": "ru",
+  "category": "동작",
+  "concept": "hunt",
+  "alt": 0,
+  "text": "охотиться",
+  "path": "audio/ru/동작/hunt.mp3"
+ }
+]
