@@ -1,0 +1,26 @@
+[
+ {
+  "lang": "ja",
+  "category": "숫자",
+  "concept": "ten",
+  "alt": 1,
+  "text": "とお",
+  "path": "audio/ja/숫자/ten-1.mp3"
+ },
+ {
+  "lang": "ja",
+  "category": "숫자",
+  "concept": "hundred",
+  "alt": 0,
+  "text": "ひゃく",
+  "path": "audio/ja/숫자/hundred.mp3"
+ },
+ {
+  "lang": "ja",
+  "category": "숫자",
+  "concept": "thousand",
+  "alt": 0,
+  "text": "せん",
+  "path": "audio/ja/숫자/thousand.mp3"
+ }
+]

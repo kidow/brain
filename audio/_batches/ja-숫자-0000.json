@@ -1,0 +1,58 @@
+[
+ {
+  "lang": "ja",
+  "category": "숫자",
+  "concept": "zero",
+  "alt": 0,
+  "text": "れい",
+  "path": "audio/ja/숫자/zero.mp3"
+ },
+ {
+  "lang": "ja",
+  "category": "숫자",
+  "concept": "zero",
+  "alt": 1,
+  "text": "ゼロ",
+  "path": "audio/ja/숫자/zero-1.mp3"
+ },
+ {
+  "lang": "ja",
+  "category": "숫자",
+  "concept": "one",
+  "alt": 0,
+  "text": "いち",
+  "path": "audio/ja/숫자/one.mp3"
+ },
+ {
+  "lang": "ja",
+  "category": "숫자",
+  "concept": "one",
+  "alt": 1,
+  "text": "ひとつ",
+  "path": "audio/ja/숫자/one-1.mp3"
+ },
+ {
+  "lang": "ja",
+  "category": "숫자",
+  "concept": "two",
+  "alt": 0,
+  "text": "に",
+  "path": "audio/ja/숫자/two.mp3"
+ },
+ {
+  "lang": "ja",
+  "category": "숫자",
+  "concept": "two",
+  "alt": 1,
+  "text": "ふたつ",
+  "path": "audio/ja/숫자/two-1.mp3"
+ },
+ {
+  "lang": "ja",
+  "category": "숫자",
+  "concept": "three",
+  "alt": 0,
+  "text": "さん",
+  "path": "audio/ja/숫자/three.mp3"
+ }
+]

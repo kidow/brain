@@ -1,0 +1,58 @@
+[
+ {
+  "lang": "ru",
+  "category": "숫자",
+  "concept": "four",
+  "alt": 0,
+  "text": "четыре",
+  "path": "audio/ru/숫자/four.mp3"
+ },
+ {
+  "lang": "ru",
+  "category": "숫자",
+  "concept": "five",
+  "alt": 0,
+  "text": "пять",
+  "path": "audio/ru/숫자/five.mp3"
+ },
+ {
+  "lang": "ru",
+  "category": "숫자",
+  "concept": "six",
+  "alt": 0,
+  "text": "шесть",
+  "path": "audio/ru/숫자/six.mp3"
+ },
+ {
+  "lang": "ru",
+  "category": "숫자",
+  "concept": "seven",
+  "alt": 0,
+  "text": "семь",
+  "path": "audio/ru/숫자/seven.mp3"
+ },
+ {
+  "lang": "ru",
+  "category": "숫자",
+  "concept": "eight",
+  "alt": 0,
+  "text": "восемь",
+  "path": "audio/ru/숫자/eight.mp3"
+ },
+ {
+  "lang": "ru",
+  "category": "숫자",
+  "concept": "nine",
+  "alt": 0,
+  "text": "девять",
+  "path": "audio/ru/숫자/nine.mp3"
+ },
+ {
+  "lang": "ru",
+  "category": "숫자",
+  "concept": "ten",
+  "alt": 0,
+  "text": "десять",
+  "path": "audio/ru/숫자/ten.mp3"
+ }
+]

@@ -1,0 +1,58 @@
+[
+ {
+  "lang": "en",
+  "category": "숫자",
+  "concept": "zero",
+  "alt": 0,
+  "text": "zero",
+  "path": "audio/en/숫자/zero.mp3"
+ },
+ {
+  "lang": "en",
+  "category": "숫자",
+  "concept": "one",
+  "alt": 0,
+  "text": "one",
+  "path": "audio/en/숫자/one.mp3"
+ },
+ {
+  "lang": "en",
+  "category": "숫자",
+  "concept": "two",
+  "alt": 0,
+  "text": "two",
+  "path": "audio/en/숫자/two.mp3"
+ },
+ {
+  "lang": "en",
+  "category": "숫자",
+  "concept": "three",
+  "alt": 0,
+  "text": "three",
+  "path": "audio/en/숫자/three.mp3"
+ },
+ {
+  "lang": "en",
+  "category": "숫자",
+  "concept": "four",
+  "alt": 0,
+  "text": "four",
+  "path": "audio/en/숫자/four.mp3"
+ },
+ {
+  "lang": "en",
+  "category": "숫자",
+  "concept": "five",
+  "alt": 0,
+  "text": "five",
+  "path": "audio/en/숫자/five.mp3"
+ },
+ {
+  "lang": "en",
+  "category": "숫자",
+  "concept": "six",
+  "alt": 0,
+  "text": "six",
+  "path": "audio/en/숫자/six.mp3"
+ }
+]

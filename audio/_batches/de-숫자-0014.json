@@ -1,0 +1,18 @@
+[
+ {
+  "lang": "de",
+  "category": "숫자",
+  "concept": "hundred",
+  "alt": 1,
+  "text": "einhundert",
+  "path": "audio/de/숫자/hundred-1.mp3"
+ },
+ {
+  "lang": "de",
+  "category": "숫자",
+  "concept": "thousand",
+  "alt": 0,
+  "text": "tausend",
+  "path": "audio/de/숫자/thousand.mp3"
+ }
+]

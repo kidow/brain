@@ -1,0 +1,58 @@
+[
+ {
+  "lang": "es",
+  "category": "숫자",
+  "concept": "seven",
+  "alt": 0,
+  "text": "siete",
+  "path": "audio/es/숫자/seven.mp3"
+ },
+ {
+  "lang": "es",
+  "category": "숫자",
+  "concept": "eight",
+  "alt": 0,
+  "text": "ocho",
+  "path": "audio/es/숫자/eight.mp3"
+ },
+ {
+  "lang": "es",
+  "category": "숫자",
+  "concept": "nine",
+  "alt": 0,
+  "text": "nueve",
+  "path": "audio/es/숫자/nine.mp3"
+ },
+ {
+  "lang": "es",
+  "category": "숫자",
+  "concept": "ten",
+  "alt": 0,
+  "text": "diez",
+  "path": "audio/es/숫자/ten.mp3"
+ },
+ {
+  "lang": "es",
+  "category": "숫자",
+  "concept": "hundred",
+  "alt": 0,
+  "text": "cien",
+  "path": "audio/es/숫자/hundred.mp3"
+ },
+ {
+  "lang": "es",
+  "category": "숫자",
+  "concept": "hundred",
+  "alt": 1,
+  "text": "ciento",
+  "path": "audio/es/숫자/hundred-1.mp3"
+ },
+ {
+  "lang": "es",
+  "category": "숫자",
+  "concept": "thousand",
+  "alt": 0,
+  "text": "mil",
+  "path": "audio/es/숫자/thousand.mp3"
+ }
+]

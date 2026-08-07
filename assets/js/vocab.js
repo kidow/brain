@@ -30,8 +30,17 @@
   const KANA_ONLY = /^[ぁ-ゖ゠-ヿー]+$/;
   const speakable = new Set();
 
+  // 직접 만든 mp3가 (언어 × 카테고리) 단위로 전부 있는지. audio/manifest.json 이 원본이다.
+  // 404 폴백을 쓰지 않는 이유는 audio/PLAN.md 참고 — 실패까지 걸리는 시간이 연속 재생을 망친다.
+  let audioCats = {};
+
   const root = document.getElementById('vocab');
   if (!root) return;
+
+  // 경로는 JSON의 category(공백 포함)가 아니라 파일명이다 — 기본_형용사 → "기본 형용사"로 어긋난다.
+  const STEM = decodeURIComponent(String(root.dataset.src || '').split('/').pop()).replace(/\.json$/, '');
+  const hasAudio = (lang) => (audioCats[lang] || []).includes(STEM);
+  const audible = (lang) => hasAudio(lang) || speakable.has(lang);
 
   const el = (tag, cls, text) => {
     const node = document.createElement(tag);
@@ -82,9 +91,11 @@
   };
 
   let seq = 0;
+  let playing = null;
   const stopSpeaking = () => {
     seq += 1;
     if ('speechSynthesis' in window) speechSynthesis.cancel();
+    if (playing) { playing.pause(); playing = null; }
     document.querySelectorAll('.playing').forEach((b) => b.classList.remove('playing'));
   };
 
@@ -97,13 +108,27 @@
     speechSynthesis.speak(u);
   });
 
-  const playOne = async (lang, entry, btn) => {
+  // scripts/build_vocab_audio.py 가 쓰는 경로와 같은 규칙: <개념>[-alt번호].mp3
+  const playFile = (lang, id, alt) => new Promise((done) => {
+    const url = `/audio/${lang}/${encodeURIComponent(STEM)}/${encodeURIComponent(id)}${alt ? `-${alt}` : ''}.mp3`;
+    const a = new Audio(url);
+    playing = a;
+    a.onended = done;
+    a.onerror = done;
+    a.play().catch(done);
+  });
+
+  // mp3가 있으면 mp3, 없으면 Web Speech. 둘 다 없는 언어는 애초에 버튼이 안 붙는다.
+  const say = (lang, entry, id, alt) => (
+    hasAudio(lang) ? playFile(lang, id, alt) : utter(lang, entry));
+
+  const playOne = async (lang, entry, btn, id, alt) => {
     const already = btn.classList.contains('playing');
     stopSpeaking();
     if (already) return;
     const token = seq;
     btn.classList.add('playing');
-    await utter(lang, entry);
+    await say(lang, entry, id, alt);
     if (token === seq) btn.classList.remove('playing');
   };
 
@@ -117,30 +142,30 @@
     for (const lang of data.languages) {
       if (token !== seq) return;
       const entry = concept.words[lang];
-      if (!entry || !speakable.has(lang)) continue;
-      await utter(lang, entry);
+      if (!entry || !audible(lang)) continue;
+      await say(lang, entry, concept.id, 0);
     }
     if (token === seq) btn.classList.remove('playing');
   };
 
-  const playBtn = (lang, entry) => {
+  const playBtn = (lang, entry, id, alt) => {
     const btn = el('button', 'play-btn', '🔊');
     btn.type = 'button';
     btn.setAttribute('aria-label', `${LANG_LABEL[lang]} 발음 듣기`);
-    btn.addEventListener('click', (e) => { e.preventDefault(); playOne(lang, entry, btn); });
+    btn.addEventListener('click', (e) => { e.preventDefault(); playOne(lang, entry, btn, id, alt); });
     return btn;
   };
 
   // 언어 한 줄: 원어 + 로마자/현지표기 + 한글 음차, 그 아래 alt 들여쓰기
-  const entryLine = (lang, entry, isAlt) => {
+  const entryLine = (lang, entry, isAlt, id, alt) => {
     const wrap = el('span', isAlt ? 'entry alt' : 'entry');
     const line = el('span', 'wordline');
     const word = el('span', 'word', entry.word);
     word.lang = LANG_TAG[lang];
     if (lang === 'ar') word.dir = 'rtl';
     line.appendChild(word);
-    // 이 기기에 해당 언어 음성이 없으면 버튼 자체를 만들지 않는다.
-    if (speakable.has(lang)) line.appendChild(playBtn(lang, entry));
+    // mp3도 없고 이 기기에 해당 언어 음성도 없으면 버튼 자체를 만들지 않는다.
+    if (audible(lang)) line.appendChild(playBtn(lang, entry, id, alt));
     wrap.appendChild(line);
     const meta = el('span', 'meta');
     if (entry.rom) meta.appendChild(el('span', 'rom', entry.rom));
@@ -150,19 +175,19 @@
     return wrap;
   };
 
-  const langRow = (lang, entry) => {
+  const langRow = (lang, entry, id) => {
     const row = el('div', 'row');
     row.appendChild(el('span', 'lang', LANG_LABEL[lang] || lang));
     const body = el('span', 'body');
-    body.appendChild(entryLine(lang, entry, false));
-    (entry.alt || []).forEach((a) => body.appendChild(entryLine(lang, a, true)));
+    body.appendChild(entryLine(lang, entry, false, id, 0));
+    (entry.alt || []).forEach((a, i) => body.appendChild(entryLine(lang, a, true, id, i + 1)));
     row.appendChild(body);
     return row;
   };
 
   const conceptBody = (concept) => {
     const box = el('div', 'concept-body');
-    const heard = data.languages.filter((l) => concept.words[l] && speakable.has(l));
+    const heard = data.languages.filter((l) => concept.words[l] && audible(l));
     if (heard.length > 1) {
       const bar = el('div', 'speak-bar');
       const all = el('button', 'listen-all', `▶ ${heard.length}개 언어 순서대로`);
@@ -173,7 +198,7 @@
     }
     data.languages.forEach((lang) => {
       const entry = concept.words[lang];
-      if (entry) box.appendChild(langRow(lang, entry));
+      if (entry) box.appendChild(langRow(lang, entry, concept.id));
     });
     (concept.notes || []).forEach((note) => {
       const memo = el('div', 'memo');
@@ -313,10 +338,16 @@
   const boot = async () => {
     const src = root.dataset.src;
     try {
-      // 데이터와 음성 목록을 함께 기다린다 — 첫 렌더부터 버튼 유무가 확정된다.
-      const [res, voices] = await Promise.all([fetch(src), voicesReady()]);
+      // 데이터·음성 목록·매니페스트를 함께 기다린다 — 첫 렌더부터 버튼 유무가 확정된다.
+      // 매니페스트는 없어도 Web Speech로 굴러가야 하므로 실패를 삼킨다.
+      const [res, voices, cats] = await Promise.all([
+        fetch(src),
+        voicesReady(),
+        fetch('/audio/manifest.json').then((r) => (r.ok ? r.json() : {})).catch(() => ({}))
+      ]);
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       markSpeakable(voices);
+      audioCats = cats;
       data = await res.json();
     } catch (err) {
       root.textContent = '';

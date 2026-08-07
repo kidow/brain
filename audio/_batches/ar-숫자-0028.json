@@ -1,0 +1,18 @@
+[
+ {
+  "lang": "ar",
+  "category": "숫자",
+  "concept": "thousand",
+  "alt": 0,
+  "text": "أَلْف",
+  "path": "audio/ar/숫자/thousand.mp3"
+ },
+ {
+  "lang": "ar",
+  "category": "숫자",
+  "concept": "thousand",
+  "alt": 1,
+  "text": "١٠٠٠",
+  "path": "audio/ar/숫자/thousand-1.mp3"
+ }
+]

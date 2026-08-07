@@ -1,0 +1,58 @@
+[
+ {
+  "lang": "zh",
+  "category": "숫자",
+  "concept": "five",
+  "alt": 0,
+  "text": "五",
+  "path": "audio/zh/숫자/five.mp3"
+ },
+ {
+  "lang": "zh",
+  "category": "숫자",
+  "concept": "six",
+  "alt": 0,
+  "text": "六",
+  "path": "audio/zh/숫자/six.mp3"
+ },
+ {
+  "lang": "zh",
+  "category": "숫자",
+  "concept": "seven",
+  "alt": 0,
+  "text": "七",
+  "path": "audio/zh/숫자/seven.mp3"
+ },
+ {
+  "lang": "zh",
+  "category": "숫자",
+  "concept": "eight",
+  "alt": 0,
+  "text": "八",
+  "path": "audio/zh/숫자/eight.mp3"
+ },
+ {
+  "lang": "zh",
+  "category": "숫자",
+  "concept": "nine",
+  "alt": 0,
+  "text": "九",
+  "path": "audio/zh/숫자/nine.mp3"
+ },
+ {
+  "lang": "zh",
+  "category": "숫자",
+  "concept": "ten",
+  "alt": 0,
+  "text": "十",
+  "path": "audio/zh/숫자/ten.mp3"
+ },
+ {
+  "lang": "zh",
+  "category": "숫자",
+  "concept": "hundred",
+  "alt": 0,
+  "text": "百",
+  "path": "audio/zh/숫자/hundred.mp3"
+ }
+]

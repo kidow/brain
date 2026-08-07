@@ -1,0 +1,58 @@
+[
+ {
+  "lang": "ja",
+  "category": "숫자",
+  "concept": "three",
+  "alt": 1,
+  "text": "みっつ",
+  "path": "audio/ja/숫자/three-1.mp3"
+ },
+ {
+  "lang": "ja",
+  "category": "숫자",
+  "concept": "four",
+  "alt": 0,
+  "text": "よん",
+  "path": "audio/ja/숫자/four.mp3"
+ },
+ {
+  "lang": "ja",
+  "category": "숫자",
+  "concept": "four",
+  "alt": 1,
+  "text": "よっつ",
+  "path": "audio/ja/숫자/four-1.mp3"
+ },
+ {
+  "lang": "ja",
+  "category": "숫자",
+  "concept": "five",
+  "alt": 0,
+  "text": "ご",
+  "path": "audio/ja/숫자/five.mp3"
+ },
+ {
+  "lang": "ja",
+  "category": "숫자",
+  "concept": "five",
+  "alt": 1,
+  "text": "いつつ",
+  "path": "audio/ja/숫자/five-1.mp3"
+ },
+ {
+  "lang": "ja",
+  "category": "숫자",
+  "concept": "six",
+  "alt": 0,
+  "text": "ろく",
+  "path": "audio/ja/숫자/six.mp3"
+ },
+ {
+  "lang": "ja",
+  "category": "숫자",
+  "concept": "six",
+  "alt": 1,
+  "text": "むっつ",
+  "path": "audio/ja/숫자/six-1.mp3"
+ }
+]

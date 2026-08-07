@@ -1,0 +1,58 @@
+[
+ {
+  "lang": "ru",
+  "category": "숫자",
+  "concept": "zero",
+  "alt": 0,
+  "text": "ноль",
+  "path": "audio/ru/숫자/zero.mp3"
+ },
+ {
+  "lang": "ru",
+  "category": "숫자",
+  "concept": "zero",
+  "alt": 1,
+  "text": "нуль",
+  "path": "audio/ru/숫자/zero-1.mp3"
+ },
+ {
+  "lang": "ru",
+  "category": "숫자",
+  "concept": "one",
+  "alt": 0,
+  "text": "один",
+  "path": "audio/ru/숫자/one.mp3"
+ },
+ {
+  "lang": "ru",
+  "category": "숫자",
+  "concept": "one",
+  "alt": 1,
+  "text": "одна",
+  "path": "audio/ru/숫자/one-1.mp3"
+ },
+ {
+  "lang": "ru",
+  "category": "숫자",
+  "concept": "one",
+  "alt": 2,
+  "text": "одно",
+  "path": "audio/ru/숫자/one-2.mp3"
+ },
+ {
+  "lang": "ru",
+  "category": "숫자",
+  "concept": "two",
+  "alt": 1,
+  "text": "две",
+  "path": "audio/ru/숫자/two-1.mp3"
+ },
+ {
+  "lang": "ru",
+  "category": "숫자",
+  "concept": "three",
+  "alt": 0,
+  "text": "три",
+  "path": "audio/ru/숫자/three.mp3"
+ }
+]

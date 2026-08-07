@@ -1,0 +1,58 @@
+[
+ {
+  "lang": "ar",
+  "category": "숫자",
+  "concept": "five",
+  "alt": 0,
+  "text": "خَمْسَة",
+  "path": "audio/ar/숫자/five.mp3"
+ },
+ {
+  "lang": "ar",
+  "category": "숫자",
+  "concept": "five",
+  "alt": 1,
+  "text": "٥",
+  "path": "audio/ar/숫자/five-1.mp3"
+ },
+ {
+  "lang": "ar",
+  "category": "숫자",
+  "concept": "six",
+  "alt": 0,
+  "text": "سِتَّة",
+  "path": "audio/ar/숫자/six.mp3"
+ },
+ {
+  "lang": "ar",
+  "category": "숫자",
+  "concept": "six",
+  "alt": 1,
+  "text": "٦",
+  "path": "audio/ar/숫자/six-1.mp3"
+ },
+ {
+  "lang": "ar",
+  "category": "숫자",
+  "concept": "seven",
+  "alt": 0,
+  "text": "سَبْعَة",
+  "path": "audio/ar/숫자/seven.mp3"
+ },
+ {
+  "lang": "ar",
+  "category": "숫자",
+  "concept": "seven",
+  "alt": 1,
+  "text": "٧",
+  "path": "audio/ar/숫자/seven-1.mp3"
+ },
+ {
+  "lang": "ar",
+  "category": "숫자",
+  "concept": "eight",
+  "alt": 0,
+  "text": "ثَمَانِيَة",
+  "path": "audio/ar/숫자/eight.mp3"
+ }
+]

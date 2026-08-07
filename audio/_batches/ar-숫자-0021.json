@@ -1,0 +1,58 @@
+[
+ {
+  "lang": "ar",
+  "category": "숫자",
+  "concept": "eight",
+  "alt": 1,
+  "text": "٨",
+  "path": "audio/ar/숫자/eight-1.mp3"
+ },
+ {
+  "lang": "ar",
+  "category": "숫자",
+  "concept": "nine",
+  "alt": 0,
+  "text": "تِسْعَة",
+  "path": "audio/ar/숫자/nine.mp3"
+ },
+ {
+  "lang": "ar",
+  "category": "숫자",
+  "concept": "nine",
+  "alt": 1,
+  "text": "٩",
+  "path": "audio/ar/숫자/nine-1.mp3"
+ },
+ {
+  "lang": "ar",
+  "category": "숫자",
+  "concept": "ten",
+  "alt": 0,
+  "text": "عَشَرَة",
+  "path": "audio/ar/숫자/ten.mp3"
+ },
+ {
+  "lang": "ar",
+  "category": "숫자",
+  "concept": "ten",
+  "alt": 1,
+  "text": "١٠",
+  "path": "audio/ar/숫자/ten-1.mp3"
+ },
+ {
+  "lang": "ar",
+  "category": "숫자",
+  "concept": "hundred",
+  "alt": 0,
+  "text": "مِئَة",
+  "path": "audio/ar/숫자/hundred.mp3"
+ },
+ {
+  "lang": "ar",
+  "category": "숫자",
+  "concept": "hundred",
+  "alt": 1,
+  "text": "١٠٠",
+  "path": "audio/ar/숫자/hundred-1.mp3"
+ }
+]

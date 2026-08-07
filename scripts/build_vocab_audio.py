@@ -17,8 +17,9 @@
   split   받은 오디오를 잘라 mp3로 인코딩해 audio/ 아래 제 자리에 넣는다.
   status  무엇이 남았는지 세고 audio/manifest.json 을 다시 쓴다.
 
-플레이그라운드 설정: language=해당 언어, codec=mp3, sample_rate=22050, bit_rate=32000
-(mp3 32kbps는 xAI가 직접 지원하므로 재인코딩이 필요 없다. WAV로 받았다면 split이 변환한다.)
+플레이그라운드 설정 — Output format=MP3, Sample rate·Bit rate는 고를 수 있는 가장 높은 값.
+split 이 어차피 22.05kHz·32kbps 모노로 재인코딩하므로 원본이 좋을수록 손해가 없다.
+**언어는 고를 수 없다 — 자동 감지다.** 라틴 문자 언어는 오판 여지가 있어 듣고 확인한다.
 """
 
 import argparse
@@ -34,11 +35,6 @@ AUDIO = ROOT / "audio"
 
 # vocab.js 의 SPEAK_LANG 과 같은 순서·같은 코드
 LANGS = ["en", "ja", "zh", "fr", "de", "es", "ru", "ar"]
-# xAI TTS 의 BCP-47 코드 (문서 Supported Languages)
-XAI_LANG = {
-    "en": "en", "ja": "ja", "zh": "zh", "fr": "fr",
-    "de": "de", "es": "es-ES", "ru": "ru", "ar": "ar-SA",
-}
 
 KANA_ONLY = re.compile(r"^[ぁ-ゖ゠-ヿー]+$")
 COMBINING_ACUTE = "́"
@@ -103,7 +99,12 @@ def cmd_script(args):
 
     out_dir = ROOT / "audio" / "_batches"
     out_dir.mkdir(parents=True, exist_ok=True)
-    tag = f"{args.lang}-{args.offset:04d}"
+    # 태그에 카테고리를 넣는다. <언어>-<offset> 만 쓰면 카테고리가 바뀔 때 같은 이름이
+    # 다시 나와, 색깔 대본이 남아 있는 자리에 숫자 대본이 덮이거나 그 반대가 된다.
+    tag = f"{args.lang}-{args.category or 'all'}-{args.offset:04d}"
+    # [long-pause] 를 두 번 겹쳐 무음을 벌리려 해 봤지만 태그로 인식되지 않고 글자로 읽힌다
+    # (중국어 21개 기준 15.2초 → 37.6초, 그런데 검출되는 무음은 오히려 줄었다).
+    # 무음이 모자라면 --size 로 배치를 쪼개는 수밖에 없다.
     (out_dir / f"{tag}.txt").write_text(PAUSE.join(i["text"] for i in batch), encoding="utf-8")
     (out_dir / f"{tag}.json").write_text(
         json.dumps(batch, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -112,8 +113,8 @@ def cmd_script(args):
     print(f"  대본: audio/_batches/{tag}.txt")
     print(f"  순서: audio/_batches/{tag}.json")
     print()
-    print(f"플레이그라운드 설정 — language={XAI_LANG[args.lang]}, codec=mp3, "
-          f"sample_rate=22050, bit_rate=32000, speed=1.0")
+    print("플레이그라운드 설정 — Output format=MP3, Sample rate·Bit rate는 가장 높은 값.")
+    print("언어 선택은 없다(자동 감지). 숫자 카테고리는 Text normalization 을 켠다.")
     print("대본을 그대로 붙여 넣고 생성한 뒤 받은 파일을 이렇게 넘긴다:")
     print(f"  python3 scripts/build_vocab_audio.py split {tag} ~/Downloads/받은파일.mp3")
     print()
@@ -147,6 +148,26 @@ def pick_threshold(src: Path, expected: int, total: float):
     return ok[len(ok) // 2], ok
 
 
+def rank_boundaries(src: Path, expected: int, total: float):
+    """맞는 임계가 없을 때: 가장 낮은 임계로 후보를 다 모아 긴 순으로 필요한 만큼만 쓴다.
+
+    임계 하나로는 못 가르는 배치가 있다 — 중국어 21개는 경계가 19개에서 22개로 건너뛰어
+    20개가 되는 임계가 아예 없었고, 독일어·아랍어는 단어 내부 쉼 하나가 항목 사이 쉼
+    하나보다 길어 겹쳤다. 순위로 고르면 그 겹침 하나만 잘못될 뿐 나머지는 살아난다.
+
+    함께 내는 margin 은 (남긴 것 중 가장 짧은 무음, 버린 것 중 가장 긴 무음)이다.
+    앞이 뒤보다 넉넉히 커야 안전하고, 붙어 있으면 그 경계가 뒤바뀌었을 수 있다.
+    """
+    cand = detect_boundaries(src, min(SILENCE_SWEEP), total)
+    if len(cand) < expected - 1:
+        return None, None
+    ranked = sorted(cand, key=lambda p: p[1] - p[0], reverse=True)
+    kept = sorted(ranked[:expected - 1])
+    dropped = ranked[expected - 1:]
+    return kept, (min((e - s for s, e in kept), default=0.0),
+                  max((e - s for s, e in dropped), default=0.0))
+
+
 def duration(src: Path) -> float:
     out = subprocess.run(
         ["ffprobe", "-v", "error", "-show_entries", "format=duration",
@@ -166,17 +187,29 @@ def cmd_split(args):
     total = duration(src)
     expected = len(batch)
     chosen, ok = pick_threshold(src, expected, total)
-    if chosen is None:
-        print(f"조각 {expected}개로 나눌 임계를 찾지 못했다.", file=sys.stderr)
-        for d in (0.5, 0.3, 0.2, 0.15):
-            print(f"  임계 {d}초 → 경계 {len(detect_boundaries(src, d, total))}개", file=sys.stderr)
-        print("[long-pause]를 더 넣거나 배치를 쪼개서 다시 생성해야 한다.", file=sys.stderr)
-        sys.exit(1)
+    if chosen is not None:
+        inner = detect_boundaries(src, chosen, total)
+        print(f"임계 {chosen}초 선택 (맞는 범위 {min(ok)}~{max(ok)}초, {len(ok)}단계)")
+    else:
+        inner, margin = (rank_boundaries(src, expected, total) if args.rank
+                         else (None, None))
+        if inner is None:
+            print(f"조각 {expected}개로 나눌 임계를 찾지 못했다.", file=sys.stderr)
+            for d in (0.5, 0.3, 0.2, 0.15, 0.10):
+                print(f"  임계 {d}초 → 경계 {len(detect_boundaries(src, d, total))}개",
+                      file=sys.stderr)
+            print("script 를 --pause 2 로 다시 뽑아 생성하는 편이 낫다. "
+                  "무음 길이만으로 밀어붙이려면 --rank 를 준다.", file=sys.stderr)
+            sys.exit(1)
+        print(f"!! 맞는 임계가 없어 무음이 긴 순으로 {expected - 1}개를 골랐다.")
+        print(f"   남긴 무음 최소 {margin[0]:.2f}초 · 버린 무음 최대 {margin[1]:.2f}초"
+              f"  (차이 {margin[0] - margin[1]:+.2f}초)")
+        print("   차이가 작으면 경계가 뒤바뀌었을 수 있다 — 반드시 소리를 확인한다.")
 
-    inner = detect_boundaries(src, chosen, total)
     gaps = sorted(e - s for s, e in inner)
-    print(f"임계 {chosen}초 선택 (맞는 범위 {min(ok)}~{max(ok)}초, {len(ok)}단계)")
-    print(f"  항목 사이 무음 {gaps[0]:.2f}~{gaps[-1]:.2f}초 · 조각 {expected}개\n")
+    # 조각이 1개면 자를 경계가 없다 — 읽기가 틀리는 단어를 혼자 다시 받을 때 생긴다.
+    span = f"항목 사이 무음 {gaps[0]:.2f}~{gaps[-1]:.2f}초 · " if gaps else "경계 없음 · "
+    print(f"  {span}조각 {expected}개\n")
 
     cuts = [0.0] + [(s + e) / 2 for s, e in inner] + [total]
     for i, item in enumerate(batch):
@@ -242,8 +275,10 @@ def main():
     s.set_defaults(func=cmd_script)
 
     s = sub.add_parser("split", help="받은 오디오를 잘라 배치한다")
-    s.add_argument("tag", help="배치 태그 (예: ru-0000)")
+    s.add_argument("tag", help="배치 태그 (예: ru-색깔-0000)")
     s.add_argument("audio", help="다운로드한 오디오 경로")
+    s.add_argument("--rank", action="store_true",
+                   help="맞는 임계가 없어도 무음이 긴 순으로 밀어붙인다 (어긋날 수 있다)")
     s.set_defaults(func=cmd_split)
 
     s = sub.add_parser("status", help="진행 상황과 매니페스트")
