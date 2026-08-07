@@ -38,6 +38,8 @@ mp3가 준비된 (언어 × 카테고리)부터 하나씩 mp3로 갈아탄다.
 154 / 2827 개 · audio/ 872KB
 완성된 (언어 × 카테고리) — 색깔 8개 언어 전부 (141파일)
 나머지 13개는 러시아어 시험 배치가 6개 카테고리에 흩어진 것이라 아직 아무것도 못 채운다
+진행 중 — 숫자 카테고리 24배치 대본을 다 뽑아 뒀다 (audio/_batches/*-숫자-*.txt)
+막힘 — 영어 첫 배치에서 one 을 "오니"로 읽는다. 아래 "숫자 카테고리에서 막힌 것"
 ```
 
 색깔 페이지는 8개 언어가 전부 직접 만든 mp3다. `▶ 8개 언어 순서대로`를 누르면
@@ -57,13 +59,15 @@ mp3가 준비된 (언어 × 카테고리)부터 하나씩 mp3로 갈아탄다.
 
 ```
 vocab/*.json
-  ↓ ① scripts/build_vocab_audio.py script <언어>
+  ↓ ① scripts/build_vocab_audio.py script <언어> --category <카테고리> --size 7 --offset N
 audio/_batches/<태그>.txt   ← [long-pause]로 이어붙인 배치 대본
 audio/_batches/<태그>.json  ← 순서(경로 + 읽을 텍스트) 기록
   ↓ ② 플레이그라운드에 붙여넣고 생성 → 다운로드
   ↓ ③ scripts/build_vocab_audio.py split <태그> <받은파일>
 audio/<언어>/<카테고리>/<개념>.mp3
 audio/manifest.json  ← 스캔 결과로만 쓴다. 손으로 적지 않는다
+  ↓ ④ 아래 "분할이 어긋났는지 어떻게 아는가" 검사
+  ↓ ⑤ 사람이 몇 개를 들어 확인   ← ④가 통과해도 발음은 틀릴 수 있다
 ```
 
 ### 명령어
@@ -103,7 +107,9 @@ python3 scripts/build_vocab_audio.py status
 `status`와 `split`이 끝날 때 스캔해서 다시 쓴다 — 손으로 고치지 않는다.
 
 플레이그라운드 설정 — Output format `MP3`, Streaming optimization `Quality`,
-Text normalization `ON`(숫자 카테고리 아랍어 보조어가 `٠`·`١٠٠` 같은 숫자 글자다).
+Text normalization은 **아랍어 숫자 배치에서만 켠다**. 숫자 글자(`٠`·`١٠٠`)가 들어 있는
+대본은 `ar-숫자-*` 다섯 개뿐이고, 나머지 언어의 숫자 대본에는 숫자 글자가 하나도 없다.
+켜 놓고 영어를 돌렸다가 `one`이 "오니"로 읽힌 적이 있다(아래 "숫자 카테고리에서 막힌 것").
 
 Sample rate와 Bit rate는 **수치가 아니라 골라 놓은 등급**이다.
 Sample rate `Telephony · Wideband · Broadcast · High quality · CD quality · Studio`,
@@ -194,9 +200,12 @@ zh·de·ar에 써 봤더니 "남긴 무음 최소"와 "버린 무음 최대"의 
 python3 - <<'PY'
 import json, subprocess, re
 from pathlib import Path
-tag = "zh-숫자-0000"
+tag = "zh-숫자-0000"          # split 을 끝낸 배치를 넣는다
 for it in json.load(open(f"audio/_batches/{tag}.json")):
-    p = Path(it["path"]); size = p.stat().st_size
+    p = Path(it["path"])
+    if not p.exists():
+        print(f"{p} 없음"); continue
+    size = p.stat().st_size
     r = subprocess.run(["ffmpeg", "-hide_banner", "-i", str(p),
                         "-af", "silencedetect=noise=-40dB:d=0.20", "-f", "null", "-"],
                        capture_output=True, text=True)
@@ -258,36 +267,74 @@ alt 인덱스는 `entry.alt` 배열 순서 + 1 — `build_vocab_audio.py`의 `en
 재생이 끝나면 `playing` 표시가 풀린다. 매니페스트가 비어 있던 때는 같은 페이지에서
 버튼 141개가 그대로 나오고 콘솔 오류가 없었다 — Web Speech 경로에 회귀가 없다.
 
-### 3. 나머지 카테고리 ← 지금 여기
+### 3. 숫자 카테고리 ← 지금 여기
 
-색깔은 8개 언어를 다 채웠다. 다음 카테고리도 같은 방식이다 — `--size 7`로 쪼개
-필요한 offset을 **먼저 다 뽑아 둔 뒤** 순서대로 생성한다.
+대본 24배치를 **이미 다 뽑아 뒀다.** `audio/_batches/<언어>-숫자-<offset>.txt`.
+
+| 언어 | 남은 개수 | 배치 offset |
+|---|---:|---|
+| en | 13 | 0000 · 0007 |
+| ja | 24 | 0000 · 0007 · 0014 · 0021 |
+| zh | 15 | 0000 · 0007 · 0014 |
+| fr | 13 | 0000 · 0007 |
+| de | 16 | 0000 · 0007 · 0014 |
+| es | 14 | 0000 · 0007 |
+| ru | 15 | 0000 · 0007 · 0014 |
+| ar | 30 | 0000 · 0007 · 0014 · 0021 · 0028 |
+
+**offset이 이미 박혀 있으므로 다시 뽑지 않는다.** 다시 뽑으면 이미 채운 것만큼
+목록이 밀려 offset이 어긋난다. 받은 파일은 그대로 split 하면 된다.
 
 ```bash
-python3 scripts/build_vocab_audio.py status                  # 남은 개수 확인
-python3 scripts/build_vocab_audio.py script ru --category 숫자 --size 7 --offset 0
+python3 scripts/build_vocab_audio.py split en-숫자-0000 ~/Downloads/받은파일.mp3
 ```
 
-카테고리별 남은 양(8개 언어 합계, `--size 7` 기준 배치 수):
+#### 숫자 카테고리에서 막힌 것 (2026-08-07)
 
-| 카테고리 | 남은 개수 | 배치 |
+영어 첫 배치(`zero one two three four five six`)에서 **`one`이 "원"이 아니라 "오니"로**
+읽혔다. 원인을 아직 못 좁혔다 — 셋 중 하나다.
+
+1. **Text normalization** — 그때 켜 놓고 돌렸다. 그런데 영어 대본에는 숫자 글자가 없다.
+   정규화가 `one` → `1` → 다른 언어 규칙으로 되읽었을 수 있다.
+2. **언어 자동 감지** — 고립된 단어 목록이라 영어로 못 잡았을 수 있다.
+3. **그 단어만의 문제** — `blanco`가 철자를 읊던 것과 같은 부류.
+
+**다음에 할 일은 이 순서다.**
+
+```
+① 같은 대본을 Text normalization OFF 로 다시 받아 본다.  ← 여기부터
+   ar-숫자-* 다섯 개만 ON 이면 되고 나머지 19배치는 OFF 다.
+② 그래도 틀리면 앞에 영어 문장을 붙여 언어를 못 박는다.
+   "These are English number words.[long-pause]zero[long-pause]one[long-pause]…"
+   첫 조각을 버려야 하므로 script 에 --primer 옵션이 필요하다 (아직 없다).
+③ 그래도 틀리면 one 만 --size 1 로 따로 받는다.
+```
+
+②까지 가면 라틴 문자 언어 전반(en·fr·de·es)에 쓸 수 있는 해법이라 만들 값어치가 있다.
+③은 단어 하나만 고치는 임시방편이다.
+
+**어느 단계든 사람이 들어 확인해야 한다.** 분할 검사는 조각 경계만 보지 발음은 못 본다.
+
+#### 그 다음 카테고리
+
+작은 것부터(가족 → 동물 → 시간) 가면 카테고리가 하나씩 완성되어 매니페스트에 바로 뜬다.
+
+| 카테고리 | 남은 개수 | 대략 배치 |
 |---|---:|---:|
-| 숫자 | 140 | 20 |
-| 가족 | 152 | 22 |
-| 동물 | 184 | 27 |
-| 시간 | 198 | 29 |
-| 음식 | 250 | 36 |
-| 스포츠 | 275 | 40 |
-| 기본_형용사 | 294 | 42 |
-| 신체 | 301 | 44 |
-| 자연 | 361 | 52 |
-| 동작 | 518 | 74 |
-| **합계** | **2673** | **386** |
+| 숫자 | 140 | 24 |
+| 가족 | 152 | 25 |
+| 동물 | 184 | 30 |
+| 시간 | 198 | 32 |
+| 음식 | 250 | 40 |
+| 스포츠 | 275 | 44 |
+| 기본_형용사 | 294 | 47 |
+| 신체 | 301 | 48 |
+| 자연 | 361 | 57 |
+| 동작 | 518 | 80 |
+| **합계** | **2673** | **약 430** |
 
-작은 것부터(숫자 → 가족 → 동물) 가면 카테고리가 하나씩 완성되어 매니페스트에 바로 뜬다.
-
-**숫자 카테고리는 Text normalization을 켜야 한다** — 아랍어 보조어가 `٠`·`١٠٠` 같은
-숫자 글자다.
+배치 수는 `남은 개수 ÷ 7`이 아니다 — **언어마다 따로 끊어서** 나머지가 8번 생긴다.
+숫자는 140개인데 20이 아니라 24배치다.
 
 #### 읽기가 틀리는 단어는 따로 뽑는다
 
@@ -319,11 +366,16 @@ negro로 밀리므로, 두 대본을 **먼저 다 뽑아 둔 뒤** 생성한다.
 
 | 파일 | 왜 |
 |---|---|
-| `scripts/build_vocab_audio.py` | 세 명령의 실제 동작. 특히 `speak_text()`와 `pick_threshold()` |
+| `scripts/build_vocab_audio.py` | 세 명령의 실제 동작. 특히 `speak_text()`·`pick_threshold()`·`rank_boundaries()` |
 | `assets/js/vocab.js` | 위 "렌더러가 mp3를 쓰게 한다"의 대상. 발음 관련 함수는 파일 앞쪽에 모여 있다 |
 | `audio/manifest.json` | 지금 무엇이 완성됐는지 |
-| `audio/_batches/*.json` | 과거 배치가 어떤 순서였는지 |
+| `audio/_batches/*-숫자-*.json` | **아직 안 받은 대본 24개.** 다시 뽑지 말고 그대로 쓴다 |
+| `audio/_batches/ru-sample.*` | 파이프라인 검증용 첫 시험 배치. 손으로 고른 것이라 재현 안 된다 |
 | `CLAUDE.md`의 `vocab/ 발음 규칙` | 두 곳 동기화 경고 |
 
-**소리가 맞는지는 사람만 확인할 수 있다.** 스크립트는 조각 수만 검증한다.
-새 언어의 첫 배치는 반드시 몇 개를 들어 보고 진행한다.
+색깔 배치 대본은 다 받고 나서 지웠다 — 태그가 `<언어>-<offset>`이던 시절 것이라
+새 `<언어>-<카테고리>-<offset>`과 섞이면 헷갈리기 때문이다. 순서는 mp3 파일명에 남아 있다.
+
+**소리가 맞는지는 사람만 확인할 수 있다.** 스크립트는 조각 경계만 검증한다 —
+`one`이 "오니"로 읽힌 것도 검사는 전부 통과했을 것이다.
+새 언어·새 카테고리의 첫 배치는 반드시 몇 개를 들어 보고 진행한다.
