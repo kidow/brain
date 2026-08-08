@@ -499,7 +499,7 @@
 - name: "Science"
   items:
     - title: "화학"
-      path: "notes/화학"
+      path: "notes/화학/화학"
 - name: "Technology"
   items:
     - title: "컴퓨터 부품"

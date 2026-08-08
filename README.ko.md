@@ -367,7 +367,7 @@ brain/
 <details markdown="1">
 <summary><strong>과학</strong> (1)</summary>
 
-- [화학](https://brain.dongwook.kim/notes/화학)
+- [화학](https://brain.dongwook.kim/notes/화학/화학)
 
 </details>
 

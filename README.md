@@ -367,7 +367,7 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 <details markdown="1">
 <summary><strong>Science</strong> (1)</summary>
 
-- [화학](https://brain.dongwook.kim/notes/화학)
+- [화학](https://brain.dongwook.kim/notes/화학/화학)
 
 </details>
 
