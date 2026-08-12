@@ -24,6 +24,14 @@ This repo is built to work with the learning skills from the [`kidow/skills`](ht
 
 The three skills are tied together by a shared `topic_name` key: the `notes/topic_name.md` filename and the `## topic_name` section in `levels.md` point to the same topic.
 
+### Optional companion: study-me
+
+**study-me** is a fourth skill, outside the PTR loop. It extracts as many content-based questions as each note section supports and asks them one at a time — no grading, no spaced-repetition scheduling, just self-check against the original text. Useful for a low-pressure pass over notes without touching `levels.md`. No session state is persisted.
+
+```
+npx skills@latest add kidow/skills/study-me
+```
+
 ## Repository layout
 
 ```
@@ -654,6 +662,7 @@ One concept shown in eight languages at once — English, Japanese, Chinese, Fre
 npx skills@latest add kidow/skills/place-me
 npx skills@latest add kidow/skills/teach-me
 npx skills@latest add kidow/skills/review-me
+npx skills@latest add kidow/skills/study-me  # optional, ungraded free study
 ```
 
 ## Usage
@@ -664,6 +673,7 @@ Run the learning skills from inside this repository.
 /place-me Japanese writing system   # assess level → record in levels.md
 /teach-me Japanese writing system   # learn piece by piece → commit to notes/
 /review-me                          # review weakest topics → update levels.md
+/study-me Japanese writing system   # optional: free ungraded self-check, no levels.md update
 ```
 
 ## Start your own brain

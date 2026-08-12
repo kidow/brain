@@ -24,6 +24,14 @@ place-me  →  teach-me  →  review-me
 
 세 스킬은 `topic_name`이라는 공통 키로 연결됩니다. `notes/topic_name.md`의 파일 이름과 `levels.md`의 `## topic_name` 섹션이 같은 주제를 가리킵니다.
 
+### 선택 스킬: study-me
+
+**study-me**는 PTR 루프 밖의 네 번째 스킬입니다. 노트 섹션마다 담긴 만큼 질문을 뽑아 한 번에 하나씩 묻되, 채점도 간격 반복 스케줄링도 없이 원문과 대조하는 자유 학습입니다. `levels.md`를 건드리지 않고 가볍게 노트를 훑고 싶을 때 씁니다. 세션 상태는 저장되지 않습니다.
+
+```
+npx skills@latest add kidow/skills/study-me
+```
+
 ## 저장소 구조
 
 ```
@@ -654,6 +662,7 @@ brain/
 npx skills@latest add kidow/skills/place-me
 npx skills@latest add kidow/skills/teach-me
 npx skills@latest add kidow/skills/review-me
+npx skills@latest add kidow/skills/study-me  # 선택, 채점 없는 자유 학습
 ```
 
 ## 사용 예
@@ -664,6 +673,7 @@ npx skills@latest add kidow/skills/review-me
 /place-me 일본어 문자의 특징     # 수준 진단 → levels.md 기록
 /teach-me 일본어 문자의 특징     # 한 조각씩 학습 → notes/ 커밋
 /review-me                       # 약한 주제부터 복습 → levels.md 갱신
+/study-me 일본어 문자의 특징     # 선택: 채점 없는 자유 학습, levels.md 변경 없음
 ```
 
 ## 나만의 brain 만들기
