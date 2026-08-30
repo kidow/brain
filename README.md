@@ -116,7 +116,7 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 </details>
 
 <details markdown="1">
-<summary><strong>Languages — Chinese</strong> (18)</summary>
+<summary><strong>Languages — Chinese</strong> (19)</summary>
 
 - [중국어 특징](https://brain.dongwook.kim/notes/중국어/중국어_특징)
 - [중국어 발음](https://brain.dongwook.kim/notes/중국어/중국어_발음)

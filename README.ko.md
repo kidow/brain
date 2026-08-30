@@ -116,7 +116,7 @@ brain/
 </details>
 
 <details markdown="1">
-<summary><strong>언어 — 중국어</strong> (18)</summary>
+<summary><strong>언어 — 중국어</strong> (19)</summary>
 
 - [중국어 특징](https://brain.dongwook.kim/notes/중국어/중국어_특징)
 - [중국어 발음](https://brain.dongwook.kim/notes/중국어/중국어_발음)
@@ -173,6 +173,7 @@ brain/
 - [러시아어 감정·상태 형용사](https://brain.dongwook.kim/notes/러시아어/러시아어_감정_상태_형용사)
 - [러시아어 회화](https://brain.dongwook.kim/notes/러시아어/러시아어_회화)
 - [러시아어 관용구](https://brain.dongwook.kim/notes/러시아어/러시아어_관용구)
+- [러시아어 발음 팁](https://brain.dongwook.kim/notes/러시아어/러시아어_발음_팁)
 
 </details>
 
