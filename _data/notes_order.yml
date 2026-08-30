@@ -248,6 +248,8 @@
       path: "notes/스페인어/스페인어_관용구"
     - title: "스페인어 슬랭 관용어"
       path: "notes/스페인어/스페인어_슬랭_관용어"
+    - title: "스페인어 발음 팁"
+      path: "notes/스페인어/스페인어_발음_팁"
 - name: "Languages — German"
   items:
     - title: "독일어 특징"
