@@ -176,7 +176,7 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 </details>
 
 <details markdown="1">
-<summary><strong>Languages — Spanish</strong> (26)</summary>
+<summary><strong>Languages — Spanish</strong> (27)</summary>
 
 - [스페인어 특징](https://brain.dongwook.kim/notes/스페인어/스페인어_특징)
 - [스페인어 학습 전략](https://brain.dongwook.kim/notes/스페인어/스페인어_학습_전략)
@@ -205,6 +205,7 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [스페인어 회화](https://brain.dongwook.kim/notes/스페인어/스페인어_회화)
 - [스페인어 관용구](https://brain.dongwook.kim/notes/스페인어/스페인어_관용구)
 - [스페인어 슬랭 관용어](https://brain.dongwook.kim/notes/스페인어/스페인어_슬랭_관용어)
+- [스페인어 발음 팁](https://brain.dongwook.kim/notes/스페인어/스페인어_발음_팁)
 
 </details>
 
