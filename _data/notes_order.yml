@@ -92,6 +92,8 @@
       path: "notes/일본어/일본어_관용구"
     - title: "일본어 오노마토페"
       path: "notes/일본어/일본어_오노마토페"
+    - title: "일본어 발음 팁"
+      path: "notes/일본어/일본어_발음_팁"
 - name: "Languages — Chinese"
   items:
     - title: "중국어 특징"

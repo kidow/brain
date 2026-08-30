@@ -64,7 +64,7 @@ brain/
 [brain.dongwook.kim](https://brain.dongwook.kim)에서 바로 열 수 있는 학습 노트입니다.
 
 <details markdown="1">
-<summary><strong>언어 — 일본어</strong> (45)</summary>
+<summary><strong>언어 — 일본어</strong> (46)</summary>
 
 - [일본어 특징](https://brain.dongwook.kim/notes/일본어/일본어_특징)
 - [일본어 학습 전략](https://brain.dongwook.kim/notes/일본어/일본어_학습_전략)
@@ -112,6 +112,7 @@ brain/
 - [일본어 회화](https://brain.dongwook.kim/notes/일본어/일본어_회화)
 - [일본어 관용구](https://brain.dongwook.kim/notes/일본어/일본어_관용구)
 - [일본어 오노마토페](https://brain.dongwook.kim/notes/일본어/일본어_오노마토페)
+- [일본어 발음 팁](https://brain.dongwook.kim/notes/일본어/일본어_발음_팁)
 
 </details>
 
