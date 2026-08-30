@@ -194,6 +194,8 @@
       path: "notes/러시아어/러시아어_회화"
     - title: "러시아어 관용구"
       path: "notes/러시아어/러시아어_관용구"
+    - title: "러시아어 발음 팁"
+      path: "notes/러시아어/러시아어_발음_팁"
 - name: "Languages — Spanish"
   items:
     - title: "스페인어 특징"
