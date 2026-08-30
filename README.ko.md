@@ -137,11 +137,12 @@ brain/
 - [중국어 的地得 구별](https://brain.dongwook.kim/notes/중국어/중국어_的地得_구별)
 - [중국어 회화](https://brain.dongwook.kim/notes/중국어/중국어_회화)
 - [중국어 관용어](https://brain.dongwook.kim/notes/중국어/중국어_관용어)
+- [중국어 발음 팁](https://brain.dongwook.kim/notes/중국어/중국어_발음_팁)
 
 </details>
 
 <details markdown="1">
-<summary><strong>언어 — 러시아어</strong> (28)</summary>
+<summary><strong>언어 — 러시아어</strong> (29)</summary>
 
 - [러시아어 특징](https://brain.dongwook.kim/notes/러시아어/러시아어_특징)
 - [러시아어 학습 전략](https://brain.dongwook.kim/notes/러시아어/러시아어_학습_전략)

@@ -137,11 +137,12 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [중국어 的地得 구별](https://brain.dongwook.kim/notes/중국어/중국어_的地得_구별)
 - [중국어 회화](https://brain.dongwook.kim/notes/중국어/중국어_회화)
 - [중국어 관용어](https://brain.dongwook.kim/notes/중국어/중국어_관용어)
+- [중국어 발음 팁](https://brain.dongwook.kim/notes/중국어/중국어_발음_팁)
 
 </details>
 
 <details markdown="1">
-<summary><strong>Languages — Russian</strong> (28)</summary>
+<summary><strong>Languages — Russian</strong> (29)</summary>
 
 - [러시아어 특징](https://brain.dongwook.kim/notes/러시아어/러시아어_특징)
 - [러시아어 학습 전략](https://brain.dongwook.kim/notes/러시아어/러시아어_학습_전략)
@@ -172,6 +173,7 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 - [러시아어 감정·상태 형용사](https://brain.dongwook.kim/notes/러시아어/러시아어_감정_상태_형용사)
 - [러시아어 회화](https://brain.dongwook.kim/notes/러시아어/러시아어_회화)
 - [러시아어 관용구](https://brain.dongwook.kim/notes/러시아어/러시아어_관용구)
+- [러시아어 발음 팁](https://brain.dongwook.kim/notes/러시아어/러시아어_발음_팁)
 
 </details>
 

@@ -132,6 +132,8 @@
       path: "notes/중국어/중국어_회화"
     - title: "중국어 관용어"
       path: "notes/중국어/중국어_관용어"
+    - title: "중국어 발음 팁"
+      path: "notes/중국어/중국어_발음_팁"
 - name: "Languages — Russian"
   items:
     - title: "러시아어 특징"
