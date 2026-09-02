@@ -541,9 +541,10 @@ Quick-reference sheets served live at [brain.dongwook.kim](https://brain.dongwoo
 </details>
 
 <details markdown="1">
-<summary><strong>Music</strong> (1)</summary>
+<summary><strong>Music</strong> (2)</summary>
 
 - [음악 이론 기초 치트시트](https://brain.dongwook.kim/sheets/음악_이론_기초_치트시트.html)
+- [Suno 프롬프트 치트시트](https://brain.dongwook.kim/sheets/Suno_프롬프트_치트시트.html)
 
 </details>
 
