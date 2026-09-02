@@ -344,8 +344,8 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 <details markdown="1">
 <summary><strong>Music</strong> (2)</summary>
 
-- [음악 이론 기초](https://brain.dongwook.kim/notes/음악_이론_기초)
-- [AI 음악 프롬프팅](https://brain.dongwook.kim/notes/AI_음악_프롬프팅)
+- [음악 이론 기초](https://brain.dongwook.kim/notes/음악/음악_이론_기초)
+- [AI 음악 프롬프팅](https://brain.dongwook.kim/notes/음악/AI_음악_프롬프팅)
 
 </details>
 
