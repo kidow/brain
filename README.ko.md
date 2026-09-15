@@ -342,9 +342,11 @@ brain/
 </details>
 
 <details markdown="1">
-<summary><strong>음악</strong> (2)</summary>
+<summary><strong>음악</strong> (4)</summary>
 
 - [음악 이론 기초](https://brain.dongwook.kim/notes/음악/음악_이론_기초)
+- [음악 샘플링](https://brain.dongwook.kim/notes/음악/음악_샘플링)
+- [음악 믹싱 심화](https://brain.dongwook.kim/notes/음악/음악_믹싱_심화)
 - [AI 음악 프롬프팅](https://brain.dongwook.kim/notes/음악/AI_음악_프롬프팅)
 
 </details>

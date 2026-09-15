@@ -478,6 +478,10 @@
   items:
     - title: "음악 이론 기초"
       path: "notes/음악/음악_이론_기초"
+    - title: "음악 샘플링"
+      path: "notes/음악/음악_샘플링"
+    - title: "음악 믹싱 심화"
+      path: "notes/음악/음악_믹싱_심화"
     - title: "AI 음악 프롬프팅"
       path: "notes/음악/AI_음악_프롬프팅"
 - name: "Art"
