@@ -874,3 +874,9 @@ Level: Blank — 규칙 암기·문제집 반복 등 산발적 학습만 해봄,
 ## 일본어_학습_전략
 
 Level: Blank — 한자 암기 등 산발적 학습만, 일관된 방법론 없음. `영어_문법_학습_전략`에서 배운 SRS·comprehensible input 개념은 알지만 일본어 학습에 적용해본 적 없음. 부수 기반 한자 학습, 슈타도이(shadowing) 등 일본어 특화 기법 전무. 완전 처음 시작.
+
+---
+
+## 웹_용어
+
+Level: Glimpsed — 직접 부딪혀 본 실무 용어는 정확함: hydration mismatch의 원인(서버·클라이언트 시간 차)을 설명하고, debounce/throttle 차이를 정확히 구분하며, `object-fit: cover`를 즉시 답함. 다만 hydration(과정)과 hydration mismatch(현상)를 구분 없이 씀. 동작 원리 계열 용어는 미노출: stacking context(transform 부모 때문에 z-index가 무시되는 현상), race condition(늦게 온 응답이 최신 결과를 덮어쓰는 현상), Core Web Vitals(LCP·INP·CLS 구분)를 모름. layout shift라는 단어는 알지만 CLS 지표와의 관계는 미확인.
