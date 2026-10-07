@@ -516,3 +516,7 @@
   items:
     - title: "컴퓨터 부품"
       path: "notes/컴퓨터_부품"
+- name: "Development"
+  items:
+    - title: "웹 용어"
+      path: "notes/개발/웹_용어"
