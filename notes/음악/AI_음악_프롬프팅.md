@@ -229,7 +229,7 @@ electronic dance, 129 BPM, synth layers, driving energy, major key
 
 **Suno 기준:**
 1. 트랙 재생 중 문제 구간 드래그 선택
-2. Recut → 해당 부분만 재생성
+2. Replace Section → 해당 부분만 재생성
 3. 나머지 구간 그대로 유지
 
 활용 케이스:
