@@ -393,9 +393,10 @@ brain/
 </details>
 
 <details markdown="1">
-<summary><strong>개발</strong> (1)</summary>
+<summary><strong>개발</strong> (2)</summary>
 
 - [웹 용어](https://brain.dongwook.kim/notes/개발/웹_용어)
+- [데이터베이스 용어](https://brain.dongwook.kim/notes/개발/데이터베이스_용어)
 
 </details>
 

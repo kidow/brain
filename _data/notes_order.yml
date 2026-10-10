@@ -520,3 +520,5 @@
   items:
     - title: "웹 용어"
       path: "notes/개발/웹_용어"
+    - title: "데이터베이스 용어"
+      path: "notes/개발/데이터베이스_용어"
