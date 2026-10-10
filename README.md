@@ -393,10 +393,11 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 </details>
 
 <details markdown="1">
-<summary><strong>Development</strong> (2)</summary>
+<summary><strong>Development</strong> (3)</summary>
 
 - [웹 용어](https://brain.dongwook.kim/notes/개발/웹_용어)
 - [데이터베이스 용어](https://brain.dongwook.kim/notes/개발/데이터베이스_용어)
+- [인프라 용어](https://brain.dongwook.kim/notes/개발/인프라_용어)
 
 </details>
 
