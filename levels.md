@@ -892,3 +892,9 @@ Level: Glimpsed — 핵심 용어의 이름은 현상만 보고 바로 떠올림
 ## UI_용어
 
 Level: Glimpsed — 큰 개념은 감으로 앎: 글자가 안 읽힘 → 색(명도) 대비, 값 통일 → 디자인 시스템. 다만 정확한 용어로 좁히지 못함: 값 단위의 "디자인 토큰"을 "디자인 시스템"으로 답함, 문단 줄 간격(line-height/행간)을 flex의 gap과 혼동. 시각적 위계(visual hierarchy)는 모름. 웹 용어에서 flex·grid·gap·반응형 등 CSS 레이아웃은 배웠으므로 구현 용어는 연결해 설명 가능. 타이포그래피·여백 체계·정렬·색 체계 등 디자인 고유 어휘는 거의 미노출.
+
+---
+
+## 인프라_용어
+
+Level: Glimpsed — 몇몇 대표 이름은 앎: 앱과 실행 환경을 통째로 포장 → Docker(개념명 container는 미확인), 주소창 경고 → HTTPS(필요한 것이 SSL/TLS 인증서라는 점은 미확인). 도메인과 서버를 잇는 DNS를 "호스팅"과 혼동. 로드밸런서와 object storage(S3류)는 모름. 웹·DB 용어 학습에서 CDN·서버리스·cold start·환경 변수·배포·CI/CD·connection pool·read replica·Redis는 이미 다뤘으므로 연결만 하면 됨.
