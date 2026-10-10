@@ -400,6 +400,13 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 
 </details>
 
+<details markdown="1">
+<summary><strong>Design</strong> (1)</summary>
+
+- [UI 용어](https://brain.dongwook.kim/notes/디자인/UI_용어)
+
+</details>
+
 ## Cheat Sheets
 
 Quick-reference sheets served live at [brain.dongwook.kim](https://brain.dongwook.kim).
