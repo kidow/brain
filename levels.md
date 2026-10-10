@@ -880,3 +880,9 @@ Level: Blank — 한자 암기 등 산발적 학습만, 일관된 방법론 없�
 ## 웹_용어
 
 Level: Glimpsed — 직접 부딪혀 본 실무 용어는 정확함: hydration mismatch의 원인(서버·클라이언트 시간 차)을 설명하고, debounce/throttle 차이를 정확히 구분하며, `object-fit: cover`를 즉시 답함. 다만 hydration(과정)과 hydration mismatch(현상)를 구분 없이 씀. 동작 원리 계열 용어는 미노출: stacking context(transform 부모 때문에 z-index가 무시되는 현상), race condition(늦게 온 응답이 최신 결과를 덮어쓰는 현상), Core Web Vitals(LCP·INP·CLS 구분)를 모름. layout shift라는 단어는 알지만 CLS 지표와의 관계는 미확인.
+
+---
+
+## 데이터베이스_용어
+
+Level: Glimpsed — 핵심 용어의 이름은 현상만 보고 바로 떠올림: 느린 조회 → index, 묶어서 성공/취소 → transaction, 테이블 합치기 → JOIN, 스키마 변경 이력 → migration. 다만 이름 수준이고 깊이(인덱스의 쓰기 비용·복합 인덱스, 트랜잭션 격리, 마이그레이션 실무 위험)는 미확인. "인덱싱"과 "index"를 섞어 씀. 관계 무결성 계열은 미노출: foreign key 제약과 ON DELETE CASCADE를 모름. N+1 쿼리 문제를 모름.
