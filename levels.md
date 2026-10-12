@@ -898,3 +898,9 @@ Level: Glimpsed — 큰 개념은 감으로 앎: 글자가 안 읽힘 → 색(�
 ## 인프라_용어
 
 Level: Glimpsed — 몇몇 대표 이름은 앎: 앱과 실행 환경을 통째로 포장 → Docker(개념명 container는 미확인), 주소창 경고 → HTTPS(필요한 것이 SSL/TLS 인증서라는 점은 미확인). 도메인과 서버를 잇는 DNS를 "호스팅"과 혼동. 로드밸런서와 object storage(S3류)는 모름. 웹·DB 용어 학습에서 CDN·서버리스·cold start·환경 변수·배포·CI/CD·connection pool·read replica·Redis는 이미 다뤘으므로 연결만 하면 됨.
+
+---
+
+## 디지털_마케팅_용어
+
+Level: Glimpsed — 비율 계산은 즉시 정확함: CTR을 이름·값(2%) 모두 맞힘, 광고비 대비 매출도 값(400%)은 맞힘. 다만 그 지표 이름을 ROAS가 아닌 재무 용어 ROE(자기자본이익률)로 답함 — "Return On ~" 계열 혼동. CAC(고객 획득 비용)와 CVR(전환율)은 이름을 모름. 퍼널·과금 방식(CPC·CPM)·LTV·어트리뷰션 등은 미확인으로 기초부터 다룰 필요. 웹 용어 35번에서 SEO 기초는 학습함.
