@@ -536,3 +536,7 @@
       path: "notes/마케팅/그로스_용어"
     - title: "브랜딩 용어"
       path: "notes/마케팅/브랜딩_용어"
+- name: "Product Planning"
+  items:
+    - title: "프로덕트 용어"
+      path: "notes/기획/프로덕트_용어"
