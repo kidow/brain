@@ -409,10 +409,11 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 </details>
 
 <details markdown="1">
-<summary><strong>Marketing</strong> (2)</summary>
+<summary><strong>Marketing</strong> (3)</summary>
 
 - [디지털 마케팅 용어](https://brain.dongwook.kim/notes/마케팅/디지털_마케팅_용어)
 - [그로스 용어](https://brain.dongwook.kim/notes/마케팅/그로스_용어)
+- [브랜딩 용어](https://brain.dongwook.kim/notes/마케팅/브랜딩_용어)
 
 </details>
 
