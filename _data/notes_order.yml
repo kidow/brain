@@ -540,3 +540,7 @@
   items:
     - title: "프로덕트 용어"
       path: "notes/기획/프로덕트_용어"
+- name: "Data"
+  items:
+    - title: "데이터 분석 용어"
+      path: "notes/데이터/데이터_분석_용어"
