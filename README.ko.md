@@ -408,6 +408,13 @@ brain/
 
 </details>
 
+<details markdown="1">
+<summary><strong>마케팅</strong> (1)</summary>
+
+- [디지털 마케팅 용어](https://brain.dongwook.kim/notes/마케팅/디지털_마케팅_용어)
+
+</details>
+
 ## 치트시트
 
 [brain.dongwook.kim](https://brain.dongwook.kim)에서 바로 열 수 있는 빠른 참조 시트입니다.

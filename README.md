@@ -408,6 +408,13 @@ All knowledge notes served live at [brain.dongwook.kim](https://brain.dongwook.k
 
 </details>
 
+<details markdown="1">
+<summary><strong>Marketing</strong> (1)</summary>
+
+- [디지털 마케팅 용어](https://brain.dongwook.kim/notes/마케팅/디지털_마케팅_용어)
+
+</details>
+
 ## Cheat Sheets
 
 Quick-reference sheets served live at [brain.dongwook.kim](https://brain.dongwook.kim).

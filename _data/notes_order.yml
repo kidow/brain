@@ -528,3 +528,7 @@
   items:
     - title: "UI 용어"
       path: "notes/디자인/UI_용어"
+- name: "Marketing"
+  items:
+    - title: "디지털 마케팅 용어"
+      path: "notes/마케팅/디지털_마케팅_용어"
