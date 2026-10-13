@@ -550,3 +550,5 @@
       path: "notes/보안/웹_앱_보안_용어"
     - title: "AI 보안 용어"
       path: "notes/보안/AI_보안_용어"
+    - title: "보안 운영 용어"
+      path: "notes/보안/보안_운영_용어"

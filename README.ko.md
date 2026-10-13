@@ -432,10 +432,11 @@ brain/
 </details>
 
 <details markdown="1">
-<summary><strong>보안</strong> (2)</summary>
+<summary><strong>보안</strong> (3)</summary>
 
 - [웹 앱 보안 용어](https://brain.dongwook.kim/notes/보안/웹_앱_보안_용어)
 - [AI 보안 용어](https://brain.dongwook.kim/notes/보안/AI_보안_용어)
+- [보안 운영 용어](https://brain.dongwook.kim/notes/보안/보안_운영_용어)
 
 </details>
 
