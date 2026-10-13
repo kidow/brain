@@ -548,3 +548,5 @@
   items:
     - title: "웹 앱 보안 용어"
       path: "notes/보안/웹_앱_보안_용어"
+    - title: "AI 보안 용어"
+      path: "notes/보안/AI_보안_용어"
