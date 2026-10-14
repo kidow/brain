@@ -552,3 +552,7 @@
       path: "notes/보안/AI_보안_용어"
     - title: "보안 운영 용어"
       path: "notes/보안/보안_운영_용어"
+- name: "Domain"
+  items:
+    - title: "커머스 결제 용어"
+      path: "notes/도메인/커머스_결제_용어"
