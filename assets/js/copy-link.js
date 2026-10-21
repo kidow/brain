@@ -29,8 +29,12 @@
   };
 
   button.addEventListener('click', copy);
-  const actions = document.createElement('div');
-  actions.className = 'brain-page-actions';
+  // cmdk.js와 같은 버튼 줄을 쓴다. 먼저 실행된 쪽이 줄을 만든다.
+  let actions = document.querySelector('.brain-page-actions');
+  if (!actions) {
+    actions = document.createElement('div');
+    actions.className = 'brain-page-actions';
+    document.body.prepend(actions);
+  }
   actions.append(button);
-  document.body.prepend(actions);
 })();

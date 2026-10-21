@@ -39,8 +39,11 @@
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.json">
+<script src="/assets/js/cmdk.js" defer></script>
 <meta name="theme-color" content="#ffffff">
 ```
+
+`cmdk.js`는 전역 검색 팔레트(⌘K / Ctrl+K)다. Jekyll 레이아웃 페이지(README·notes·levels·search)는 `_includes/head-custom.html`로 이미 포함되므로 손대지 않는다. 검색 대상 목록은 `search-sources.json`(Liquid)이 빌드 때 만들고, 인덱스는 팔레트를 처음 열 때 `assets/js/search-index.js`가 받아온다 — 새 문서를 추가할 때 검색 쪽에 따로 등록할 것은 없다.
 
 ### sheets/ 색상 규칙
 

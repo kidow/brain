@@ -4,10 +4,6 @@ permalink: /search/
 title: 문서 검색
 ---
 
-<script id="document-sources" type="application/json">[
-{% assign first_source = true %}{% for group in site.data.notes_order %}{% for item in group.items %}{% unless first_source %},{% endunless %}{"type":"note","title":{{ item.title | jsonify }},"url":{{ item.path | prepend: '/' | jsonify }}}{% assign first_source = false %}{% endfor %}{% endfor %}{% for item in site.static_files %}{% assign extension = item.extname | downcase %}{% assign source_type = '' %}{% if item.path contains '/sheets/' and extension == '.html' %}{% assign source_type = 'sheet' %}{% elsif item.path contains '/drills/' and extension == '.html' %}{% assign source_type = 'drill' %}{% elsif item.path contains '/drills/' and extension == '.json' %}{% assign source_type = 'drill-data' %}{% elsif item.path contains '/vocab/' and extension == '.json' %}{% assign source_type = 'vocab-data' %}{% endif %}{% if source_type != '' %}{% unless first_source %},{% endunless %}{% assign source_title = item.name | remove: extension | replace: '_', ' ' %}{"type":{{ source_type | jsonify }},"title":{{ source_title | jsonify }},"url":{{ item.path | jsonify }}}{% assign first_source = false %}{% endif %}{% endfor %}
-]</script>
-
 <main class="search-page" aria-labelledby="search-title">
   <p class="eyebrow">brain</p>
   <h1 id="search-title">문서 검색</h1>
@@ -33,4 +29,5 @@ title: 문서 검색
   <ol id="search-results" class="results" aria-live="polite"></ol>
 </main>
 
+<script src="{{ '/assets/js/search-index.js' | relative_url }}" defer></script>
 <script src="{{ '/assets/js/search.js' | relative_url }}" defer></script>

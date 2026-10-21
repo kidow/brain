@@ -39,8 +39,11 @@
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.json">
+<script src="/assets/js/cmdk.js" defer></script>
 <meta name="theme-color" content="#ffffff">
 ```
+
+`cmdk.js`는 전역 검색 팔레트(⌘K / Ctrl+K)다. Jekyll 레이아웃 페이지(README·notes·levels·search)는 `_includes/head-custom.html`로 이미 포함되므로 손대지 않는다. 검색 대상 목록은 `search-sources.json`(Liquid)이 빌드 때 만들고, 인덱스는 팔레트를 처음 열 때 `assets/js/search-index.js`가 받아온다 — 새 문서를 추가할 때 검색 쪽에 따로 등록할 것은 없다.
 
 ### sheets/ 색상 규칙
 
@@ -75,7 +78,7 @@
 - 섹션: `README.md` → `## Vocabulary`, `README.ko.md` → `## 단어장`
 - URL 패턴: `https://brain.dongwook.kim/vocab/파일명.html` (확장자 유지)
 - 카테고리 하나는 `카테고리.html`(껍데기) + `카테고리.json`(데이터) 쌍으로 구성한다.
-- 렌더러는 `assets/js/vocab.js`, 스타일은 `assets/css/vocab.css` **각 한 벌을 공유한다**. 카테고리마다 인라인 `<script>`·`<style>`을 복제하지 않는다(`drills/`와 다른 점). 카테고리 HTML은 head 태그 + `<div id="vocab" data-src="...">` + 스크립트 두 줄이 전부다.
+- 렌더러는 `assets/js/vocab.js`, 스타일은 `assets/css/vocab.css` **각 한 벌을 공유한다**. 카테고리마다 인라인 `<script>`·`<style>`을 복제하지 않는다(`drills/`와 다른 점). 카테고리 HTML은 head 태그(`cmdk.js` 포함) + `<div id="vocab" data-src="...">` + `vocab.js` 스크립트 한 줄이 전부다.
 - 새 카테고리를 추가하면 `assets/js/vocab.js`의 `CATEGORIES` 배열에도 한 줄 넣는다. 이 배열이 상단 카테고리 네비게이션의 원본이며, **미완성 카테고리는 넣지 않는다**(비활성 표시가 아니라 아예 숨김).
 - 대상 언어와 표시 순서는 전 카테고리 고정: **영 · 일 · 중 · 프 · 독 · 스 · 러 · 아** (`en ja zh fr de es ru ar`).
 - 카테고리 나열 순서는 배움의 흐름 순으로 정렬한다(`notes/`·`sheets/` 규칙과 동일).
