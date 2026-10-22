@@ -94,6 +94,13 @@ no acoustic instruments, no vocals, no jazz harmony, no reverb-heavy pads
 
 ## 에너지 곡선 설계
 
+<figure class="note-illustration note-illustration--diagram">
+  <div class="note-illustration__media">
+    <img src="{{ '/assets/images/notes/music-energy.svg' | relative_url }}" alt="곡의 섹션을 따라 달라지는 에너지" width="800" height="340" loading="lazy" decoding="async">
+  </div>
+  <figcaption>곡의 섹션별 에너지를 설계한 예입니다. 실제 측정값은 아닙니다.</figcaption>
+</figure>
+
 단일 프롬프트는 곡 전체에 동일한 에너지 적용. 인트로→드롭 구조를 만들려면 섹션별 에너지를 다르게 지시.
 
 **방법: 섹션 태그 + 소괄호 지시어 조합**

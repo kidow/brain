@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="340" viewBox="0 0 800 340" role="img" aria-labelledby="title desc">
+<title id="title">임계값을 넘는 입력은 더 완만한 비율로 출력이 증가</title><desc id="desc">임계값을 넘는 입력은 더 완만한 비율로 출력이 증가. 개념 이해를 위한 도식이며 실제 측정값이나 통계가 아닙니다.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 4 L0 8 Z" fill="#739eb8"/></marker></defs>
+<rect width="800" height="340" fill="#ffffff"/>
+<g fill="none" stroke="#253239" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" font-family="Arial, 'Noto Sans', sans-serif">
+<line x1="100" y1="270" x2="710" y2="270" stroke="#253239" stroke-width="2"/><line x1="100" y1="270" x2="100" y2="40" stroke="#253239" stroke-width="2"/><path d="M100 270 L650 50" stroke="#b7c1c8" stroke-width="2" fill="none" stroke-dasharray="5 5"/><path d="M100 270 L360 166 L670 125" stroke="#739eb8" stroke-width="4" fill="none" /><line x1="360" y1="166" x2="360" y2="270" stroke="#a1adb5" stroke-width="1.5" stroke-dasharray="4 4"/><text x="360" y="310" font-size="21" text-anchor="middle" fill="#253239" stroke="none">Threshold</text><text x="100" y="25" font-size="20" text-anchor="middle" fill="#253239" stroke="none">출력</text><text x="695" y="310" font-size="20" text-anchor="middle" fill="#253239" stroke="none">입력</text><text x="590" y="80" font-size="20" text-anchor="middle" fill="#253239" stroke="none">압축</text>
+</g></svg>

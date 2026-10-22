@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="340" viewBox="0 0 800 340" role="img" aria-labelledby="title desc">
+<title id="title">来는 화자 쪽으로, 去는 화자에게서 멀어지는 방향</title><desc id="desc">来는 화자 쪽으로, 去는 화자에게서 멀어지는 방향. 본문 내용을 설명하는 도식이며 실제 통계나 축척을 나타내지 않습니다.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 4 L0 8 Z" fill="#739eb8"/></marker></defs>
+<rect width="800" height="340" fill="#ffffff"/>
+<g fill="none" stroke="#253239" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" font-family="Arial, 'Noto Sans', sans-serif">
+<g transform="translate(400 145) scale(0.85)"><circle cx="0" cy="0" r="12" fill="white" stroke="#253239"/><path d="M-22 67 L-19 29 Q-16 17 0 17 Q16 17 19 29 L22 67 M-19 33 L-31 61 M19 33 L31 61 M-12 67 L-15 102 M12 67 L15 102" stroke="#253239" stroke-width="2" fill="#dbe8ef" /><line x1="-12" y1="67" x2="12" y2="67" stroke="#253239" stroke-width="2"/></g><path d="M80 175 L330 175" stroke="#739eb8" stroke-width="3" fill="none" marker-end="url(#arrow)"/><path d="M470 175 L720 175" stroke="#739eb8" stroke-width="3" fill="none" marker-end="url(#arrow)"/><text x="210" y="125" font-size="30" text-anchor="middle" fill="#253239" stroke="none">来</text><text x="600" y="125" font-size="30" text-anchor="middle" fill="#253239" stroke="none">去</text><text x="400" y="290" font-size="22" text-anchor="middle" fill="#253239" stroke="none">화자</text>
+</g></svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="340" viewBox="0 0 800 340" role="img" aria-labelledby="title desc">
+<title id="title">경계 안과 경계 밖</title><desc id="desc">경계 안과 경계 밖. 본문 내용을 설명하는 도식이며 실제 통계나 축척을 나타내지 않습니다.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 4 L0 8 Z" fill="#739eb8"/></marker></defs>
+<rect width="800" height="340" fill="#ffffff"/>
+<g fill="none" stroke="#253239" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" font-family="Arial, 'Noto Sans', sans-serif">
+<rect x="100" y="80" width="235" height="145" rx="0" fill="white" stroke="#253239"/><circle cx="215" cy="150" r="12" fill="#739eb8" stroke="#253239"/><text x="218" y="290" font-size="24" text-anchor="middle" fill="#253239" stroke="none">innerhalb</text><rect x="460" y="80" width="235" height="145" rx="0" fill="white" stroke="#253239"/><circle cx="735" cy="150" r="12" fill="#739eb8" stroke="#253239"/><text x="578" y="290" font-size="24" text-anchor="middle" fill="#253239" stroke="none">außerhalb</text>
+</g></svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="340" viewBox="0 0 800 340" role="img" aria-labelledby="title desc">
+<title id="title">형태에 따라 달라지는 중국어 양사</title><desc id="desc">형태에 따라 달라지는 중국어 양사. 본문 내용을 설명하는 도식이며 실제 통계나 축척을 나타내지 않습니다.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 4 L0 8 Z" fill="#739eb8"/></marker></defs>
+<rect width="800" height="340" fill="#ffffff"/>
+<g fill="none" stroke="#253239" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" font-family="Arial, 'Noto Sans', sans-serif">
+<path d="M70 130 Q140 20 210 130 Q185 110 165 130 Q140 108 115 130 Q95 110 70 130 M140 130 V215 Q140 245 115 230" stroke="#253239" stroke-width="2" fill="#dbe8ef" /><text x="140" y="295" font-size="30" text-anchor="middle" fill="#253239" stroke="none">把</text><path d="M350 210 L410 65 L430 74 L370 219 Z" stroke="#253239" stroke-width="2" fill="#dbe8ef" /><path d="M350 210 L348 233 L370 219" stroke="#253239" stroke-width="2" fill="none" /><text x="390" y="295" font-size="30" text-anchor="middle" fill="#253239" stroke="none">支</text><path d="M570 175 V137 L610 125 L635 90 H690 L725 130 L750 140 V175 Z" stroke="#253239" stroke-width="2" fill="#dbe8ef" /><circle cx="610" cy="175" r="18" fill="white" stroke="#253239"/><circle cx="715" cy="175" r="18" fill="white" stroke="#253239"/><text x="660" y="295" font-size="30" text-anchor="middle" fill="#253239" stroke="none">辆</text>
+</g></svg>

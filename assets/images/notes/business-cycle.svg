@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="340" viewBox="0 0 800 340" role="img" aria-labelledby="title desc">
+<title id="title">확장·정점·수축·저점으로 이어지는 경기순환</title><desc id="desc">확장·정점·수축·저점으로 이어지는 경기순환. 개념 이해를 위한 도식이며 실제 측정값이나 통계가 아닙니다.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 4 L0 8 Z" fill="#739eb8"/></marker></defs>
+<rect width="800" height="340" fill="#ffffff"/>
+<g fill="none" stroke="#253239" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" font-family="Arial, 'Noto Sans', sans-serif">
+<line x1="75" y1="265" x2="740" y2="265" stroke="#253239" stroke-width="2"/><line x1="75" y1="265" x2="75" y2="45" stroke="#253239" stroke-width="2"/><path d="M95 225 C160 225 180 75 275 75 S390 225 470 225 S585 75 700 75" stroke="#739eb8" stroke-width="3" fill="none" /><text x="180" y="145" font-size="20" text-anchor="middle" fill="#253239" stroke="none">확장</text><text x="275" y="50" font-size="20" text-anchor="middle" fill="#253239" stroke="none">정점</text><text x="375" y="150" font-size="20" text-anchor="middle" fill="#253239" stroke="none">수축</text><text x="470" y="255" font-size="20" text-anchor="middle" fill="#253239" stroke="none">저점</text><text x="700" y="300" font-size="20" text-anchor="middle" fill="#253239" stroke="none">시간</text>
+</g></svg>

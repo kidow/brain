@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="340" viewBox="0 0 800 340" role="img" aria-labelledby="title desc">
+<title id="title">현재에서 바라본 예정된 일</title><desc id="desc">현재에서 바라본 예정된 일. 본문 내용을 설명하는 도식이며 실제 통계나 축척을 나타내지 않습니다.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 4 L0 8 Z" fill="#739eb8"/></marker></defs>
+<rect width="800" height="340" fill="#ffffff"/>
+<g fill="none" stroke="#253239" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" font-family="Arial, 'Noto Sans', sans-serif">
+<line x1="70" y1="180" x2="745" y2="180" stroke="#253239" stroke-width="2"/><path d="M710 180 L748 180" stroke="#739eb8" stroke-width="3" fill="none" marker-end="url(#arrow)"/><line x1="330" y1="75" x2="330" y2="250" stroke="#87939b" stroke-width="2" stroke-dasharray="5 5"/><circle cx="330" cy="180" r="6" fill="white" stroke="#253239"/><circle cx="490" cy="180" r="9" fill="#739eb8" stroke="#253239"/><path d="M345 130 L480 130" stroke="#739eb8" stroke-width="3" fill="none" marker-end="url(#arrow)"/><text x="490" y="90" font-size="22" text-anchor="middle" fill="#253239" stroke="none">예정</text><text x="330" y="285" font-size="22" text-anchor="middle" fill="#253239" stroke="none">지금</text><text x="140" y="235" font-size="19" text-anchor="middle" fill="#253239" stroke="none">과거</text><text x="700" y="235" font-size="19" text-anchor="middle" fill="#253239" stroke="none">미래</text>
+</g></svg>

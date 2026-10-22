@@ -1,0 +1,614 @@
+{
+  "style": "A",
+  "principles": [
+    "설명 대상만 남긴 선화",
+    "흰 배경·짙은 윤곽선·제한된 파란 강조색",
+    "이미지 안의 문장은 최소화",
+    "실제 동작은 생성 삽화, 정확한 구조·곡선은 SVG",
+    "같은 개념은 공통 이미지를 재사용"
+  ],
+  "placements": [
+    {
+      "note": "notes/개발/데이터베이스_용어.md",
+      "section": "JOIN 종류: INNER vs LEFT",
+      "asset": "assets/images/notes/db-joins.svg",
+      "alt": "두 테이블의 키로 비교하는 INNER JOIN과 LEFT JOIN",
+      "caption": "오른쪽에 일치하는 키가 없어도 LEFT JOIN은 왼쪽 행을 남기고 오른쪽을 NULL로 채웁니다."
+    },
+    {
+      "note": "notes/개발/데이터베이스_용어.md",
+      "section": "관계 종류: 1:1 · 1:N · N:M과 중간 테이블",
+      "asset": "assets/images/notes/db-relations.svg",
+      "alt": "게시글과 태그 사이의 N대M 관계와 중간 테이블",
+      "caption": "글과 태그의 N:M 연결을 중간 테이블에 저장한 예입니다."
+    },
+    {
+      "note": "notes/개발/웹_용어.md",
+      "section": "Race condition",
+      "asset": "assets/images/notes/race.svg",
+      "alt": "요청 순서와 다른 응답 순서로 오래된 검색 결과가 덮어쓰는 현상",
+      "caption": "새 요청의 응답이 먼저 도착한 뒤, 옛 요청의 응답이 새 결과를 덮어쓰는 경우입니다."
+    },
+    {
+      "note": "notes/개발/웹_용어.md",
+      "section": "Stacking context",
+      "asset": "assets/images/notes/stacking.svg",
+      "alt": "자식의 z-index는 부모 stacking context를 벗어나지 못함",
+      "caption": "겹치는 부분에서 부모 z = 2가 부모 z = 1의 자식보다 앞에 놓입니다."
+    },
+    {
+      "note": "notes/개발/인프라_용어.md",
+      "section": "도메인과 DNS",
+      "asset": "assets/images/notes/dns.svg",
+      "alt": "DNS로 주소를 확인한 뒤 웹 서버에 직접 접속",
+      "caption": "DNS로 IP를 확인한 뒤 브라우저가 웹 서버에 직접 접속합니다."
+    },
+    {
+      "note": "notes/개발/인프라_용어.md",
+      "section": "확장: scale up/out · load balancer · health check · autoscaling",
+      "asset": "assets/images/notes/load-balance.svg",
+      "alt": "한 서버의 크기를 키우는 것과 여러 서버로 나누는 것",
+      "caption": "서버를 여러 대로 늘리고 요청을 나누는 scale out의 구조입니다."
+    },
+    {
+      "note": "notes/경제학.md",
+      "section": "수요와 공급(Supply & Demand)",
+      "asset": "assets/images/notes/supply-demand.svg",
+      "alt": "가격과 수량에 따른 수요·공급 곡선의 만나는 점",
+      "caption": "수요·공급 곡선의 교차점이 균형입니다. 실제 시장 자료가 아닌 도식입니다."
+    },
+    {
+      "note": "notes/경제학.md",
+      "section": "경기순환(Business Cycle)",
+      "asset": "assets/images/notes/business-cycle.svg",
+      "alt": "확장·정점·수축·저점으로 이어지는 경기순환",
+      "caption": "확장 → 정점 → 수축 → 저점의 도식입니다. 실제 주기와 진폭은 일정하지 않습니다."
+    },
+    {
+      "note": "notes/기획/프로덕트_용어.md",
+      "section": "흐름과 구조: user flow · user journey · IA · sitemap · 화면 설계서",
+      "asset": "assets/images/notes/flow-vs-map.svg",
+      "alt": "화면을 거쳐 가는 사용자 흐름과 화면의 계층 구조",
+      "caption": "왼쪽은 이용 순서, 오른쪽은 화면의 계층 구조입니다."
+    },
+    {
+      "note": "notes/데이터/데이터_분석_용어.md",
+      "section": "분포: histogram · 치우침 · long tail · 표준편차 · 백분위수",
+      "asset": "assets/images/notes/histogram.svg",
+      "alt": "중앙에 모인 분포와 오른쪽 꼬리가 긴 분포",
+      "caption": "가상 자료로 비교한 분포입니다. 오른쪽의 일부 큰 값이 긴 꼬리를 이룹니다."
+    },
+    {
+      "note": "notes/데이터/데이터_분석_용어.md",
+      "section": "상관 vs 인과: correlation · causation · 교란 변수 · 역인과",
+      "asset": "assets/images/notes/confounder.svg",
+      "alt": "기온이라는 공통 원인이 두 현상에 각각 영향을 주는 구조",
+      "caption": "두 현상이 함께 증가해도 서로 원인·결과라는 뜻은 아닙니다. 공통 원인을 확인해야 합니다."
+    },
+    {
+      "note": "notes/도메인/커머스_결제_용어.md",
+      "section": "돈이 움직이는 순서: 인증 · 승인 · 매입 · 정산 · 매입 전 취소",
+      "asset": "assets/images/notes/payment-flow.svg",
+      "alt": "인증·승인·매입·정산은 서로 다른 단계",
+      "caption": "본인 확인·승인·청구·판매자 입금은 서로 다른 단계입니다."
+    },
+    {
+      "note": "notes/도메인/커머스_결제_용어.md",
+      "section": "중복 결제 막기: double charge · timeout ≠ 실패 · idempotency key · 주문번호 UNIQUE · 조건부 상태 변경",
+      "asset": "assets/images/notes/idempotency.svg",
+      "alt": "같은 키의 재요청은 한 번의 결제 결과를 공유",
+      "caption": "같은 키의 재요청이 중복 승인 대신 같은 결과를 받도록 처리합니다."
+    },
+    {
+      "note": "notes/디자인/UI_용어.md",
+      "section": "정렬과 그리드: 정렬선 · 레이아웃 그리드 · optical alignment",
+      "asset": "assets/images/notes/alignment.svg",
+      "alt": "제각각인 시작선과 하나로 맞춘 시작선",
+      "caption": "제각각인 시작선과 하나로 맞춘 시작선."
+    },
+    {
+      "note": "notes/마케팅/그로스_용어.md",
+      "section": "A/B 테스트 심화: 가설 · 통계적 유의성 · 표본 크기 · peeking",
+      "asset": "assets/images/notes/ab-test.svg",
+      "alt": "같은 모집단을 무작위로 나눠 한 가지 차이를 비교",
+      "caption": "같은 모집단을 무작위로 나누고 한 가지 차이를 비교하는 구조입니다."
+    },
+    {
+      "note": "notes/마케팅/디지털_마케팅_용어.md",
+      "section": "노출 · 도달 · 빈도: impression · reach · frequency",
+      "asset": "assets/images/notes/reach.svg",
+      "alt": "3명에게 광고가 총 5번 노출된 예",
+      "caption": "3명이 총 5번 광고를 본 가상 예: 도달 3명, 노출 5회입니다."
+    },
+    {
+      "note": "notes/마케팅/브랜딩_용어.md",
+      "section": "포지셔닝: positioning · category · perceptual map · positioning statement",
+      "asset": "assets/images/notes/positioning.svg",
+      "alt": "가격과 편의성 두 기준 위에 놓은 가상 브랜드",
+      "caption": "축과 A·B·C는 가상 예시입니다. 선택한 기준에 따른 상대적인 위치를 비교합니다."
+    },
+    {
+      "note": "notes/보안/AI_보안_용어.md",
+      "section": "Prompt injection: direct · indirect · jailbreak와의 차이",
+      "asset": "assets/images/notes/prompt-injection.svg",
+      "alt": "참고 문서의 내용을 지시로 오인하는 간접 프롬프트 주입",
+      "caption": "외부 문서의 내용이 AI의 지시로 취급되는 경로를 보여줍니다."
+    },
+    {
+      "note": "notes/보안/보안_운영_용어.md",
+      "section": "위협 모델링: asset · threat actor · data flow · STRIDE · 네 가지 질문",
+      "asset": "assets/images/notes/trust-boundary.svg",
+      "alt": "사용자·앱·DB를 잇는 데이터 흐름과 신뢰 경계",
+      "caption": "데이터가 신뢰 경계를 넘는 지점에서 검증과 권한 검사가 필요합니다."
+    },
+    {
+      "note": "notes/보안/웹_앱_보안_용어.md",
+      "section": "접근 제어 실패: IDOR · 권한 상승 · 서버 측 검사 · mass assignment",
+      "asset": "assets/images/notes/authorization.svg",
+      "alt": "사용자마다 서버에서 자원 소유권을 확인",
+      "caption": "서버가 요청자와 자원의 소유 관계를 확인해 다른 사람의 주문 접근을 막는 예입니다."
+    },
+    {
+      "note": "notes/부동산_기초.md",
+      "section": "용적률과 건폐율",
+      "asset": "assets/images/notes/building-ratios.svg",
+      "alt": "건폐율은 대지 대비 바닥면적, 용적률은 층별 면적의 합",
+      "caption": "대지 100·바닥 50·같은 면적 3개 층을 가정하면 건폐율 50%, 용적률 150%입니다."
+    },
+    {
+      "note": "notes/세금_용어.md",
+      "section": "세율 — 누진세율 vs 비례세율",
+      "asset": "assets/images/notes/tax-brackets.svg",
+      "alt": "누진세는 구간별로 나눠 각각의 세율을 적용",
+      "caption": "구간별 적용 구조를 그린 가상 예입니다. 높이와 폭은 실제 세율·과세표준이 아닙니다."
+    },
+    {
+      "note": "notes/음악/AI_음악_프롬프팅.md",
+      "section": "에너지 곡선 설계",
+      "asset": "assets/images/notes/music-energy.svg",
+      "alt": "곡의 섹션을 따라 달라지는 에너지",
+      "caption": "곡의 섹션별 에너지를 설계한 예입니다. 실제 측정값은 아닙니다."
+    },
+    {
+      "note": "notes/음악/음악_믹싱_심화.md",
+      "section": "컴프레서(Compressor)",
+      "asset": "assets/images/notes/compression.svg",
+      "alt": "임계값을 넘는 입력은 더 완만한 비율로 출력이 증가",
+      "caption": "Threshold를 넘으면 출력 증가가 완만해집니다. 작은 소리를 직접 키우는 동작과는 구분합니다."
+    },
+    {
+      "note": "notes/음악/음악_믹싱_심화.md",
+      "section": "사이드체인 컴프레션(Sidechain Compression)",
+      "asset": "assets/images/notes/sidechain.svg",
+      "alt": "킥 신호가 들어올 때 베이스의 음량이 잠시 내려감",
+      "caption": "위의 킥이 들어오는 순간 아래 베이스의 음량이 내려갔다가 돌아옵니다."
+    },
+    {
+      "note": "notes/음악/음악_샘플링.md",
+      "section": "초핑(chopping)",
+      "asset": "assets/images/notes/chopping.svg",
+      "alt": "원본 샘플을 잘라 순서를 바꿔 재조립",
+      "caption": "원본 조각 A·B·C·D를 C·A·D·B 순서로 재배치한 예입니다."
+    },
+    {
+      "note": "notes/음악/음악_이론_기초.md",
+      "section": "코드(Chord)",
+      "asset": "assets/images/notes/piano-chord.svg",
+      "alt": "C 메이저 트라이어드는 C·E·G를 동시에 연주",
+      "caption": "C·E·G를 동시에 누르면 C 메이저 트라이어드가 됩니다."
+    },
+    {
+      "note": "notes/음악/음악_이론_기초.md",
+      "section": "BPM과 박자(Time Signature)",
+      "asset": "assets/images/notes/meter.svg",
+      "alt": "4분의 4박자에서 네 박이 한 마디를 이룸",
+      "caption": "4/4에서는 4분음표 기준 네 박이 한 마디입니다. BPM은 박이 흐르는 빠르기입니다."
+    },
+    {
+      "note": "notes/자동차_상식.md",
+      "section": "구동 방식 — FF·FR·AWD·4WD",
+      "asset": "assets/images/notes/drivetrain.svg",
+      "alt": "전륜·후륜·사륜의 동력이 전달되는 바퀴",
+      "caption": "파란 바퀴가 구동 바퀴입니다. 사륜 그림은 AWD·4WD의 공통점만 보여줍니다."
+    },
+    {
+      "note": "notes/주식_용어.md",
+      "section": "액면분할(Stock Split) / 주식 병합(Reverse Split)",
+      "asset": "assets/images/notes/stock-split.svg",
+      "alt": "1주를 10주로 나누어도 분할 직전의 총가치는 동일",
+      "caption": "1:10 분할의 산술 예입니다. 분할 자체로 총가치가 늘지는 않습니다."
+    },
+    {
+      "note": "notes/컴퓨터_부품.md",
+      "section": "GPU 병렬 구조",
+      "asset": "assets/images/notes/parallel.svg",
+      "alt": "적은 수의 복잡한 코어와 많은 병렬 처리 코어",
+      "caption": "코어 구조의 도식입니다. 칸 수는 특정 제품의 실제 사양이 아닙니다."
+    },
+    {
+      "note": "notes/컴퓨터_부품.md",
+      "section": "저장장치 종류",
+      "asset": "assets/images/notes/storage.svg",
+      "alt": "HDD는 회전하는 디스크, SSD는 반도체 메모리로 저장",
+      "caption": "HDD의 회전 디스크·헤드와 SSD의 메모리 칩을 단순화했습니다."
+    },
+    {
+      "note": "notes/투자_기초.md",
+      "section": "복리(Compound Interest)",
+      "asset": "assets/images/notes/compound.svg",
+      "alt": "가상 연 5% 조건에서 단리와 재투자 복리의 누적 차이",
+      "caption": "같은 원금과 가상 연 5% 고정 수익률로 계산한 단리·복리의 차이입니다."
+    },
+    {
+      "note": "notes/화학/화학.md",
+      "section": "순물질과 혼합물",
+      "asset": "assets/images/notes/mixture.svg",
+      "alt": "입자 종류가 일정한 순물질과 서로 다른 물질이 섞인 혼합물",
+      "caption": "같은 종류의 입자만 있는 경우와 서로 다른 물질의 입자가 섞인 경우입니다. 색은 구분용입니다."
+    },
+    {
+      "note": "notes/화학/화학.md",
+      "section": "이온 결합",
+      "asset": "assets/images/notes/ionic.svg",
+      "alt": "나트륨에서 염소로 전자가 이동해 양이온과 음이온이 됨",
+      "caption": "Na가 전자 하나를 Cl에 주어 Na⁺와 Cl⁻가 되는 과정을 단순화했습니다."
+    },
+    {
+      "note": "notes/화학/화학.md",
+      "section": "공유 결합",
+      "asset": "assets/images/notes/covalent.svg",
+      "alt": "수소 원자 두 개가 전자쌍을 공유하는 H₂",
+      "caption": "H₂에서 수소 원자 두 개가 전자쌍을 공유합니다. 원자 궤도의 실제 모양은 아닙니다."
+    },
+    {
+      "note": "notes/회계학.md",
+      "section": "회계등식 (자산 = 부채 + 자본)",
+      "asset": "assets/images/notes/accounting.svg",
+      "alt": "자산 총액은 부채와 자본의 합과 같음",
+      "caption": "자산 총액은 부채와 자본의 합과 같음."
+    },
+    {
+      "note": "notes/영어/영어_가산_불가산_명사.md",
+      "section": "가산명사 vs 불가산명사",
+      "asset": "assets/images/notes/countable.svg",
+      "alt": "사과는 개수로, 물은 용기에 담아 셈",
+      "caption": "사과는 개수로, 물은 용기에 담아 셈."
+    },
+    {
+      "note": "notes/영어/영어_전치사.md",
+      "section": "이동 전치사 to / toward / into / onto",
+      "asset": "assets/images/notes/movement-prepositions.svg",
+      "alt": "to와 toward, into와 onto의 이동 끝점",
+      "caption": "to는 도달하는 끝점, toward는 향하는 방향, into·onto는 이동 후 위치에 주목합니다."
+    },
+    {
+      "note": "notes/영어/영어_전치사.md",
+      "section": "투과·통과 전치사 through / across / along / past",
+      "asset": "assets/images/notes/path-prepositions.svg",
+      "alt": "through、across、along、past의 경로",
+      "caption": "통과하는 내부·가로지르는 면·따라가는 길·지나치는 대상을 비교합니다."
+    },
+    {
+      "note": "notes/영어/영어_시제_심화.md",
+      "section": "과거완료 — had done",
+      "asset": "assets/images/notes/past-perfect.svg",
+      "alt": "과거 기준점보다 앞선 사건",
+      "caption": "다른 과거 기준점보다 먼저 일어난 사건을 보여줍니다."
+    },
+    {
+      "note": "notes/영어/영어_비교급_최상급.md",
+      "section": "as ~ as 동등 비교",
+      "asset": "assets/images/notes/comparison.svg",
+      "alt": "크기 비교와 동등 비교",
+      "caption": "크기가 다른 A·B·C와 크기가 같은 D·E를 비교한 예입니다."
+    },
+    {
+      "note": "notes/일본어/일본어_쇼핑_의류_어휘.md",
+      "section": "試着(しちゃく) — 시착·옷 관련 핵심 동사",
+      "asset": "assets/images/notes/clothing.png",
+      "alt": "상의·바지·모자를 착용하는 동작",
+      "caption": "파란 의류로 着る·履く·かぶる의 적용 부위를 구분합니다."
+    },
+    {
+      "note": "notes/일본어/일본어_수수_표현.md",
+      "section": "あげる・もらう・くれる — 방향이 다른 세 동사",
+      "asset": "assets/images/notes/giving.svg",
+      "alt": "주는 사람과 받는 사람의 관점",
+      "caption": "색칠된 인물이 동사의 관점입니다. あげる·くれる는 주는 쪽, もらう는 받는 쪽에 주목합니다."
+    },
+    {
+      "note": "notes/일본어/일본어_자동사_타동사.md",
+      "section": "자동사 vs 타동사란 무엇인가",
+      "asset": "assets/images/notes/door-action.png",
+      "alt": "문을 여는 동작과 열려 있는 문",
+      "caption": "왼쪽은 사람이 문을 여는 동작, 오른쪽은 열린 문 자체에 주목합니다."
+    },
+    {
+      "note": "notes/일본어/일본어_지시대명사.md",
+      "section": "こ・そ・あ・ど 체계 — 거리 기준 3분법 + 의문사",
+      "asset": "assets/images/notes/demonstratives-ja.svg",
+      "alt": "화자 가까이, 청자 가까이, 둘에게서 멀리 있는 대상",
+      "caption": "こ는 화자 가까이, そ는 청자 가까이, あ는 둘에게서 먼 대상의 공간적 예입니다."
+    },
+    {
+      "note": "notes/일본어/일본어_존재_표현.md",
+      "section": "ある vs いる — 무생물/생물 존재 동사 구분",
+      "asset": "assets/images/notes/animate.svg",
+      "alt": "ある는 책과 식물, いる는 사람과 동물",
+      "caption": "책·식물은 ある, 사람·고양이는 いる로 표현하는 대표 예입니다."
+    },
+    {
+      "note": "notes/일본어/일본어_가족_호칭.md",
+      "section": "나머지 가족 구성원 — 형제자매·조부모 전체 표",
+      "asset": "assets/images/notes/family.svg",
+      "alt": "한 가족을 예로 든 세대와 형제자매 관계",
+      "caption": "한 가족의 일부를 예로 든 관계도입니다. 같은 세대와 세대 사이의 관계를 구분합니다."
+    },
+    {
+      "note": "notes/일본어/일본어_비교_표현.md",
+      "section": "より — 비교 기준 조사 (\"~보다\")",
+      "asset": "assets/images/notes/comparison.svg",
+      "alt": "크기 비교와 동등 비교",
+      "caption": "크기가 다른 A·B·C와 크기가 같은 D·E를 비교한 예입니다."
+    },
+    {
+      "note": "notes/일본어/일본어_음식_요리_어휘.md",
+      "section": "조리법 동사 — 焼く・煮る・揚げる 등",
+      "asset": "assets/images/notes/cooking.png",
+      "alt": "굽기·삶기·튀기기·찌기의 조리 방식",
+      "caption": "열판에 닿기·물에 잠기기·기름에 튀기기·물 위 증기로 익히기를 비교합니다."
+    },
+    {
+      "note": "notes/중국어/중국어_발음.md",
+      "section": "4성의 음높이 곡선",
+      "asset": "assets/images/notes/tones.svg",
+      "alt": "중국어 네 성조의 상대 음높이 55·35·214·51",
+      "caption": "1·2·3·4성의 상대 높이입니다. 3성은 단독 발음의 2→1→4를 그렸습니다."
+    },
+    {
+      "note": "notes/중국어/중국어_존재문.md",
+      "section": "방위사(方位詞) — 장소 뒤에 붙는 위치 표시어",
+      "asset": "assets/images/notes/positions-zh.svg",
+      "alt": "上、下、里、外、后面、之间的位置",
+      "caption": "上、下、里、外、后面、之间的位置."
+    },
+    {
+      "note": "notes/중국어/중국어_비교문.md",
+      "section": "比(bǐ)자문 — \"A가 B보다 ~하다\"",
+      "asset": "assets/images/notes/comparison.svg",
+      "alt": "크기 비교와 동등 비교",
+      "caption": "크기가 다른 A·B·C와 크기가 같은 D·E를 비교한 예입니다."
+    },
+    {
+      "note": "notes/중국어/중국어_결과보어.md",
+      "section": "방향보어 — 동작의 이동 방향 표시",
+      "asset": "assets/images/notes/direction-zh.svg",
+      "alt": "来는 화자 쪽으로, 去는 화자에게서 멀어지는 방향",
+      "caption": "来는 말하는 사람 쪽으로, 去는 그 사람에게서 멀어지는 이동입니다."
+    },
+    {
+      "note": "notes/중국어/중국어_양사.md",
+      "section": "사물 형태별 양사",
+      "asset": "assets/images/notes/classifiers.svg",
+      "alt": "형태에 따라 달라지는 중국어 양사",
+      "caption": "우산은 把, 펜은 支, 차는 辆처럼 형태에 맞는 양사를 붙입니다."
+    },
+    {
+      "note": "notes/독일어/독일어_전치사.md",
+      "section": "추가 2차 전치사 — außerhalb·innerhalb·aufgrund·laut·dank",
+      "asset": "assets/images/notes/inside-outside.svg",
+      "alt": "경계 안과 경계 밖",
+      "caption": "경계 안은 innerhalb, 밖은 außerhalb입니다. 공간 용법의 예입니다."
+    },
+    {
+      "note": "notes/독일어/독일어_수동태.md",
+      "section": "Vorgangspassiv vs Zustandspassiv — 두 종류의 수동태",
+      "asset": "assets/images/notes/door-action.png",
+      "alt": "문을 여는 동작과 열려 있는 문",
+      "caption": "왼쪽은 문을 여는 과정(werden), 오른쪽은 열린 상태(sein)에 주목합니다."
+    },
+    {
+      "note": "notes/독일어/독일어_기초_어휘.md",
+      "section": "가족 어휘",
+      "asset": "assets/images/notes/family.svg",
+      "alt": "한 가족을 예로 든 세대와 형제자매 관계",
+      "caption": "한 가족의 일부를 예로 든 관계도입니다. 같은 세대와 세대 사이의 관계를 구분합니다."
+    },
+    {
+      "note": "notes/독일어/독일어_숫자와_시간.md",
+      "section": "시간 경과 표현 — vor, in, seit, für",
+      "asset": "assets/images/notes/duration-de.svg",
+      "alt": "vor와 in은 시점, seit와 für는 기간",
+      "caption": "vor·in은 과거·미래의 시점, seit는 지금까지의 기간, für는 예정된 기간의 예입니다."
+    },
+    {
+      "note": "notes/러시아어/러시아어_이동동사.md",
+      "section": "이동동사 짝 — 정향(идти)/부정향(ходить)",
+      "asset": "assets/images/notes/motion-ru.png",
+      "alt": "지금 한 방향으로 가는 이동과 반복·왕복 이동의 예",
+      "caption": "идти는 구체적인 한 방향 이동, ходить는 반복·왕복의 예입니다. ходить의 모든 용법을 왕복으로 한정하지는 않습니다."
+    },
+    {
+      "note": "notes/러시아어/러시아어_동사상.md",
+      "section": "동사상(вид)이란? — 완료상/불완료상",
+      "asset": "assets/images/notes/aspect.svg",
+      "alt": "과정에 초점을 두는 관점과 완성된 결과에 초점을 두는 관점",
+      "caption": "불완료상은 과정, 완료상은 완성된 결과에 초점을 둡니다. 불완료상 자체가 미완료를 뜻하지는 않습니다."
+    },
+    {
+      "note": "notes/러시아어/러시아어_지시대명사.md",
+      "section": "тот — \"저\"(этот의 짝, 더 먼 대상)",
+      "asset": "assets/images/notes/demonstratives-two.svg",
+      "alt": "말하는 사람에게 가까운 것과 먼 것",
+      "caption": "화자 가까이의 대상과 먼 대상을 비교한 공간적 예입니다."
+    },
+    {
+      "note": "notes/러시아어/러시아어_형용사_비교급_최상급.md",
+      "section": "형용사 비교급 — 규칙형(-ее 접미사)",
+      "asset": "assets/images/notes/comparison.svg",
+      "alt": "크기 비교와 동등 비교",
+      "caption": "크기가 다른 A·B·C와 크기가 같은 D·E를 비교한 예입니다."
+    },
+    {
+      "note": "notes/러시아어/러시아어_재귀동사.md",
+      "section": "-ся 어미 — 행위가 자신에게 돌아옴",
+      "asset": "assets/images/notes/reflexive.png",
+      "alt": "자신의 얼굴을 씻는 경우와 다른 사람을 씻기는 경우",
+      "caption": "-ся의 재귀적 용법을 보여주는 예입니다. 왼쪽은 자신에게, 오른쪽은 다른 사람에게 행위가 향합니다."
+    },
+    {
+      "note": "notes/아랍어/아랍어_기초_어휘.md",
+      "section": "방향·위치 어휘",
+      "asset": "assets/images/notes/positions-ar.svg",
+      "alt": "위·아래·안·옆·뒤·사이의 공간 관계",
+      "caption": "공과 상자의 위치를 아래 아랍어 어휘와 대응해 읽습니다."
+    },
+    {
+      "note": "notes/아랍어/아랍어_비교급.md",
+      "section": "اسم التفضيل: 비교급 틀(أَفْعَل)과 من 구조",
+      "asset": "assets/images/notes/comparison.svg",
+      "alt": "크기 비교와 동등 비교",
+      "caption": "크기가 다른 A·B·C와 크기가 같은 D·E를 비교한 예입니다."
+    },
+    {
+      "note": "notes/프랑스어/프랑스어_가족_일상_어휘.md",
+      "section": "가족 어휘",
+      "asset": "assets/images/notes/family.svg",
+      "alt": "한 가족을 예로 든 세대와 형제자매 관계",
+      "caption": "한 가족의 일부를 예로 든 관계도입니다. 같은 세대와 세대 사이의 관계를 구분합니다."
+    },
+    {
+      "note": "notes/프랑스어/프랑스어_위치_전치사.md",
+      "section": "기본 4쌍: dans/sur/sous, devant↔derrière",
+      "asset": "assets/images/notes/positions-fr.svg",
+      "alt": "sur、sous、dans、à côté de、derrière、entre",
+      "caption": "sur、sous、dans、à côté de、derrière、entre."
+    },
+    {
+      "note": "notes/프랑스어/프랑스어_근접과거.md",
+      "section": "근접과거란 무엇인가: venir de + 동사원형",
+      "asset": "assets/images/notes/recent-past.svg",
+      "alt": "지금 직전에 끝난 일",
+      "caption": "지금 직전에 끝난 일을 venir de + 동사원형으로 표현합니다."
+    },
+    {
+      "note": "notes/프랑스어/프랑스어_근접미래.md",
+      "section": "aller 현재형 + 동사원형 = \"~할 것이다\" (근접미래)",
+      "asset": "assets/images/notes/near-future.svg",
+      "alt": "현재에서 바라본 예정된 일",
+      "caption": "현재를 기준으로 예정·의도를 바라보는 aller + 동사원형의 시간 관계입니다. 가까운 미래에만 한정되지는 않습니다."
+    },
+    {
+      "note": "notes/프랑스어/프랑스어_대과거.md",
+      "section": "대과거란 무엇인가: avoir/être 반과거 + 과거분사",
+      "asset": "assets/images/notes/past-perfect.svg",
+      "alt": "과거 기준점보다 앞선 사건",
+      "caption": "다른 과거 기준점보다 먼저 일어난 사건을 보여줍니다."
+    },
+    {
+      "note": "notes/프랑스어/프랑스어_복합과거.md",
+      "section": "복합과거 vs 반과거 선택 기준",
+      "asset": "assets/images/notes/past-background.svg",
+      "alt": "과거에 진행되던 배경과 그 안의 사건",
+      "caption": "반과거의 배경 위에 복합과거의 사건이 들어오는 대표적인 조합입니다."
+    },
+    {
+      "note": "notes/프랑스어/프랑스어_시간전치사.md",
+      "section": "depuis + 현재형 = \"~부터 계속 ~하고 있다\"",
+      "asset": "assets/images/notes/duration-fr.svg",
+      "alt": "과거부터 현재까지 계속되는 기간",
+      "caption": "depuis는 과거에 시작해 지금도 이어지는 기간을 나타냅니다."
+    },
+    {
+      "note": "notes/프랑스어/프랑스어_비교급_최상급.md",
+      "section": "plus/moins/aussi + 형용사 + que",
+      "asset": "assets/images/notes/comparison.svg",
+      "alt": "크기 비교와 동등 비교",
+      "caption": "크기가 다른 A·B·C와 크기가 같은 D·E를 비교한 예입니다."
+    },
+    {
+      "note": "notes/프랑스어/프랑스어_재귀동사.md",
+      "section": "재귀동사란 무엇인가: se + 동사",
+      "asset": "assets/images/notes/reflexive.png",
+      "alt": "자신의 얼굴을 씻는 경우와 다른 사람을 씻기는 경우",
+      "caption": "행위가 자기 자신에게 돌아오는 경우와 다른 사람을 향하는 경우를 비교한 예입니다."
+    },
+    {
+      "note": "notes/스페인어/스페인어_과거시제.md",
+      "section": "pretérito + imperfecto 함께 쓰기: 배경 vs 사건",
+      "asset": "assets/images/notes/past-background.svg",
+      "alt": "과거에 진행되던 배경과 그 안의 사건",
+      "caption": "imperfecto의 배경 위에 pretérito의 사건이 들어오는 대표적인 조합입니다."
+    },
+    {
+      "note": "notes/스페인어/스페인어_완료_시제.md",
+      "section": "과거완료(pluscuamperfecto): haber 불완료 과거 + 과거분사",
+      "asset": "assets/images/notes/past-perfect.svg",
+      "alt": "과거 기준점보다 앞선 사건",
+      "caption": "다른 과거 기준점보다 먼저 일어난 사건을 보여줍니다."
+    },
+    {
+      "note": "notes/스페인어/스페인어_진행형.md",
+      "section": "진행형: estar + 현재분사 (-ando/-iendo)",
+      "asset": "assets/images/notes/ongoing.svg",
+      "alt": "지금 진행 중인 동작",
+      "caption": "지금 진행 중인 동작."
+    },
+    {
+      "note": "notes/스페인어/스페인어_지시대명사_중성형.md",
+      "section": "거리 3단계 — esto/eso/aquello",
+      "asset": "assets/images/notes/demonstratives-es.svg",
+      "alt": "화자와 청자를 기준으로 한 세 단계 거리",
+      "caption": "화자와 청자를 기준으로 한 세 단계 거리."
+    },
+    {
+      "note": "notes/스페인어/스페인어_전치사.md",
+      "section": "핵심 구분 — \"목적지·목적(para)\" vs \"원인·경로(por)\"",
+      "asset": "assets/images/notes/por-para.svg",
+      "alt": "por는 지나가는 경로, para는 향하는 목적지",
+      "caption": "por·para의 여러 용법 중 경로와 목적지를 비교했습니다."
+    },
+    {
+      "note": "notes/스페인어/스페인어_비교급_최상급.md",
+      "section": "우등·열등 비교급: más/menos + 형용사 + que",
+      "asset": "assets/images/notes/comparison.svg",
+      "alt": "크기 비교와 동등 비교",
+      "caption": "크기가 다른 A·B·C와 크기가 같은 D·E를 비교한 예입니다."
+    },
+    {
+      "note": "notes/스페인어/스페인어_재귀동사.md",
+      "section": "재귀동사란: 주어=목적어",
+      "asset": "assets/images/notes/reflexive.png",
+      "alt": "자신의 얼굴을 씻는 경우와 다른 사람을 씻기는 경우",
+      "caption": "행위가 자기 자신에게 향하는 재귀적 용법의 예입니다. 모든 -se 용법을 뜻하지는 않습니다."
+    },
+    {
+      "note": "notes/중국어/중국어_문자.md",
+      "section": "형성자(形聲字) — 한자의 80%가 이 구조",
+      "asset": "assets/images/notes/character-components.svg",
+      "alt": "清은 의미를 맡는 氵와 소리 힌트를 주는 青의 결합",
+      "caption": "氵는 물과 관련된 뜻, 青은 소리의 힌트입니다. 정확한 발음·성조는 병음으로 확인합니다."
+    },
+    {
+      "note": "notes/영어/영어_발음.md",
+      "section": "억양(Intonation)",
+      "asset": "assets/images/notes/intonation.svg",
+      "alt": "같은 문장도 내림·올림·내렸다 올림에 따라 억양이 달라짐",
+      "caption": "같은 문장에 억양만 달리한 예입니다. 실제 말투는 문맥과 화자의 의도에 따라 달라집니다."
+    },
+    {
+      "note": "notes/개발/웹_용어.md",
+      "section": "Layout shift와 CLS",
+      "asset": "assets/images/notes/layout-shift.svg",
+      "alt": "뒤늦게 나타난 이미지가 본문과 버튼을 아래로 밀어냄",
+      "caption": "이미지 공간을 미리 잡아두지 않으면 뒤늦게 도착한 이미지가 본문과 버튼을 밀어냅니다."
+    },
+    {
+      "note": "notes/중국어/중국어_발음_팁.md",
+      "section": "촛불(손바닥) 테스트로 유기음·무기음 구별하기",
+      "asset": "assets/images/notes/aspiration.png",
+      "alt": "입 앞의 종이로 비교하는 유기음과 무기음의 공기 세기",
+      "caption": "같은 위치의 종이에 닿는 공기를 비교합니다. 유기음에서는 종이가 더 뚜렷하게 움직입니다."
+    }
+  ]
+}

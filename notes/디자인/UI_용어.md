@@ -79,6 +79,13 @@
 
 ## 정렬과 그리드: 정렬선 · 레이아웃 그리드 · optical alignment
 
+<figure class="note-illustration note-illustration--diagram">
+  <div class="note-illustration__media">
+    <img src="{{ '/assets/images/notes/alignment.svg' | relative_url }}" alt="제각각인 시작선과 하나로 맞춘 시작선" width="800" height="340" loading="lazy" decoding="async">
+  </div>
+  <figcaption>제각각인 시작선과 하나로 맞춘 시작선.</figcaption>
+</figure>
+
 **현상**
 - 제목, 본문, 이미지, 버튼의 **왼쪽 시작 위치가 제각각**이라 화면이 어수선하다. 뭐가 틀렸는지는 딱 집어 말하기 어렵다.
 - 긴 설명 문단을 **가운데 정렬**했더니 줄마다 시작점이 달라 읽기 힘들다.

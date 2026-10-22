@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="340" viewBox="0 0 800 340" role="img" aria-labelledby="title desc">
+<title id="title">清은 의미를 맡는 氵와 소리 힌트를 주는 青의 결합</title><desc id="desc">清은 의미를 맡는 氵와 소리 힌트를 주는 青의 결합. 개념 설명용 도해입니다.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 4 L0 8 Z" fill="#739eb8"/></marker></defs>
+<rect width="800" height="340" fill="white"/>
+<g stroke="#253239" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" font-family="Arial, 'Noto Sans', sans-serif">
+<text x="160" y="210" fill="#253239" stroke="none" font-size="120" text-anchor="middle">清</text><text x="310" y="190" fill="#253239" stroke="none" font-size="36" text-anchor="middle">=</text><text x="450" y="210" fill="#739eb8" stroke="none" font-size="120" text-anchor="middle">氵</text><text x="545" y="190" fill="#253239" stroke="none" font-size="36" text-anchor="middle">+</text><text x="660" y="210" fill="#253239" stroke="none" font-size="120" text-anchor="middle">青</text><text x="450" y="285" fill="#253239" stroke="none" font-size="21" text-anchor="middle">뜻 · 물</text><text x="660" y="285" fill="#253239" stroke="none" font-size="21" text-anchor="middle">소리 힌트</text>
+</g></svg>
