@@ -500,6 +500,8 @@
       path: "notes/투자_기초"
     - title: "주식 용어"
       path: "notes/주식_용어"
+    - title: "기업 지배구조"
+      path: "notes/기업_지배구조"
     - title: "부동산 기초"
       path: "notes/부동산_기초"
 - name: "Daily Life"
