@@ -630,6 +630,13 @@
       "asset": "assets/images/notes/digital-signature.svg",
       "alt": "개인키로 서명을 만들고 공개키로 누구나 검사",
       "caption": "개인키는 밖으로 나가지 않고, 거래와 서명만 전달됩니다. 검사에는 공개키를 씁니다."
+    },
+    {
+      "note": "notes/암호화폐_기초.md",
+      "section": "해시(Hash)",
+      "asset": "assets/images/notes/hash.svg",
+      "alt": "입력이 한 글자만 달라도 완전히 달라지는 해시값",
+      "caption": "숫자 하나만 바꿔도 해시값이 완전히 달라집니다. 해시값에서 입력을 거꾸로 알아낼 수는 없습니다."
     }
   ]
 }

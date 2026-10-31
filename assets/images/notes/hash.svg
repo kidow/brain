@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="320" viewBox="0 0 800 320" role="img" aria-labelledby="title desc">
+<title id="title">입력이 한 글자만 달라도 완전히 달라지는 해시값</title><desc id="desc">"A → B 1코인"과 "A → B 2코인"을 SHA-256에 넣으면 길이는 같지만 전혀 다른 해시값이 나오고, 해시값에서 입력으로 거꾸로 갈 수는 없다. 해시값은 앞 8자리만 표시했다.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 4 L0 8 Z" fill="#739eb8"/></marker></defs>
+<rect width="800" height="320" fill="#ffffff"/>
+<g fill="none" stroke="#253239" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" font-family="Arial, 'Noto Sans', sans-serif">
+<text x="130" y="40" font-size="20" text-anchor="middle" fill="#253239" stroke="none">입력</text>
+<text x="400" y="40" font-size="20" text-anchor="middle" fill="#253239" stroke="none">해시 함수</text>
+<text x="650" y="40" font-size="20" text-anchor="middle" fill="#253239" stroke="none">해시값 (64자 중 앞 8자)</text>
+<rect x="40" y="75" width="180" height="50" fill="white" stroke="#253239"/><text x="130" y="106" font-size="17" text-anchor="middle" fill="#253239" stroke="none">A → B <tspan fill="#739eb8">1</tspan>코인</text>
+<rect x="40" y="185" width="180" height="50" fill="white" stroke="#253239"/><text x="130" y="216" font-size="17" text-anchor="middle" fill="#253239" stroke="none">A → B <tspan fill="#739eb8">2</tspan>코인</text>
+<rect x="335" y="110" width="130" height="90" fill="#e8ecee" stroke="#253239"/><text x="400" y="161" font-size="17" text-anchor="middle" fill="#253239" stroke="none">SHA-256</text>
+<path d="M222 100 L328 135" stroke="#739eb8" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M222 210 L328 175" stroke="#739eb8" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M467 135 L560 100" stroke="#739eb8" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M467 175 L560 210" stroke="#739eb8" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="570" y="75" width="170" height="50" fill="white" stroke="#253239"/><text x="655" y="106" font-size="18" text-anchor="middle" fill="#253239" stroke="none" font-family="Menlo, Consolas, monospace">f5128fe9…</text>
+<rect x="570" y="185" width="170" height="50" fill="white" stroke="#253239"/><text x="655" y="216" font-size="18" text-anchor="middle" fill="#253239" stroke="none" font-family="Menlo, Consolas, monospace">134ef92e…</text>
+<path d="M655 255 C655 300 130 300 130 255" stroke="#253239" stroke-dasharray="6 6"/>
+<line x1="380" y1="285" x2="420" y2="305" stroke="#253239"/><line x1="420" y1="285" x2="380" y2="305" stroke="#253239"/>
+<text x="400" y="275" font-size="15" text-anchor="middle" fill="#253239" stroke="none">거꾸로는 불가</text>
+</g></svg>
