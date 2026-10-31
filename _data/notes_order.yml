@@ -504,6 +504,8 @@
       path: "notes/기업_지배구조"
     - title: "부동산 기초"
       path: "notes/부동산_기초"
+    - title: "암호화폐 기초"
+      path: "notes/암호화폐_기초"
 - name: "Daily Life"
   items:
     - title: "근로기준법"

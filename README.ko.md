@@ -359,7 +359,7 @@ brain/
 </details>
 
 <details markdown="1">
-<summary><strong>경제/금융</strong> (7)</summary>
+<summary><strong>경제/금융</strong> (8)</summary>
 
 - [회계학](https://brain.dongwook.kim/notes/회계학)
 - [세금 용어](https://brain.dongwook.kim/notes/세금_용어)
@@ -368,6 +368,7 @@ brain/
 - [주식 용어](https://brain.dongwook.kim/notes/주식_용어)
 - [기업 지배구조](https://brain.dongwook.kim/notes/기업_지배구조)
 - [부동산 기초](https://brain.dongwook.kim/notes/부동산_기초)
+- [암호화폐 기초](https://brain.dongwook.kim/notes/암호화폐_기초)
 
 </details>
 
