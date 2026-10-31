@@ -609,6 +609,27 @@
       "asset": "assets/images/notes/aspiration.png",
       "alt": "입 앞의 종이로 비교하는 유기음과 무기음의 공기 세기",
       "caption": "같은 위치의 종이에 닿는 공기를 비교합니다. 유기음에서는 종이가 더 뚜렷하게 움직입니다."
+    },
+    {
+      "note": "notes/암호화폐_기초.md",
+      "section": "디지털 돈의 핵심 문제: 이중지급(Double Spending)",
+      "asset": "assets/images/notes/double-spend.svg",
+      "alt": "복사되는 파일과 순서를 정하는 은행 장부",
+      "caption": "파일은 복사되어 두 번 쓸 수 있지만, 은행 장부는 순서를 정해 두 번째 송금을 거절합니다."
+    },
+    {
+      "note": "notes/암호화폐_기초.md",
+      "section": "분산 원장(Distributed Ledger)과 두 가지 문제",
+      "asset": "assets/images/notes/distributed-ledger.svg",
+      "alt": "장부 한 곳을 관리자가 쥐는 구조와 모두가 사본을 갖는 구조",
+      "caption": "왼쪽은 은행 한 곳이 장부를 쥐는 구조, 오른쪽은 참여자 모두가 같은 사본을 갖는 분산 원장입니다."
+    },
+    {
+      "note": "notes/암호화폐_기초.md",
+      "section": "개인키·공개키·전자서명",
+      "asset": "assets/images/notes/digital-signature.svg",
+      "alt": "개인키로 서명을 만들고 공개키로 누구나 검사",
+      "caption": "개인키는 밖으로 나가지 않고, 거래와 서명만 전달됩니다. 검사에는 공개키를 씁니다."
     }
   ]
 }

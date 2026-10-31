@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="320" viewBox="0 0 800 320" role="img" aria-labelledby="title desc">
+<title id="title">개인키로 서명을 만들고 공개키로 누구나 검사</title><desc id="desc">보내는 사람은 개인키와 거래 내용으로 서명을 만들어 거래와 함께 보낸다. 받는 사람은 공개키·거래 내용·서명으로 맞음 또는 틀림을 검사한다. 개인키는 밖으로 나가지 않는다. 개념 이해를 위한 도식이며 실제 측정값이나 통계가 아닙니다.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 4 L0 8 Z" fill="#739eb8"/></marker></defs>
+<rect width="800" height="320" fill="#ffffff"/>
+<g fill="none" stroke="#253239" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" font-family="Arial, 'Noto Sans', sans-serif">
+<text x="185" y="40" font-size="20" text-anchor="middle" fill="#253239" stroke="none">보내는 사람: 서명 만들기</text>
+<rect x="40" y="75" width="120" height="62" fill="#e8ecee" stroke="#253239"/><text x="100" y="102" font-size="17" text-anchor="middle" fill="#253239" stroke="none">개인키</text><text x="100" y="124" font-size="14" text-anchor="middle" fill="#253239" stroke="none">밖으로 안 나감</text>
+<rect x="40" y="170" width="120" height="50" fill="white" stroke="#253239"/><text x="100" y="201" font-size="17" text-anchor="middle" fill="#253239" stroke="none">거래 내용</text>
+<path d="M162 112 L218 140" stroke="#739eb8" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M162 188 L218 160" stroke="#739eb8" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="225" y="125" width="110" height="50" fill="white" stroke="#253239"/><text x="280" y="156" font-size="17" text-anchor="middle" fill="#253239" stroke="none">서명</text>
+<path d="M340 150 L445 150" stroke="#739eb8" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="392" y="135" font-size="15" text-anchor="middle" fill="#253239" stroke="none">거래 + 서명</text>
+<line x1="392" y1="60" x2="392" y2="110" stroke="#e8ecee" stroke-width="2"/><line x1="392" y1="190" x2="392" y2="290" stroke="#e8ecee" stroke-width="2"/>
+<text x="610" y="40" font-size="20" text-anchor="middle" fill="#253239" stroke="none">누구나: 서명 검사</text>
+<rect x="455" y="65" width="115" height="44" fill="white" stroke="#253239"/><text x="512" y="93" font-size="17" text-anchor="middle" fill="#253239" stroke="none">공개키</text>
+<rect x="455" y="128" width="115" height="44" fill="white" stroke="#253239"/><text x="512" y="156" font-size="17" text-anchor="middle" fill="#253239" stroke="none">거래 내용</text>
+<rect x="455" y="191" width="115" height="44" fill="white" stroke="#253239"/><text x="512" y="219" font-size="17" text-anchor="middle" fill="#253239" stroke="none">서명</text>
+<path d="M572 87 L632 135" stroke="#739eb8" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M572 150 L632 150" stroke="#739eb8" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M572 213 L632 165" stroke="#739eb8" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="640" y="122" width="80" height="56" fill="#e8ecee" stroke="#253239"/><text x="680" y="156" font-size="17" text-anchor="middle" fill="#253239" stroke="none">검사</text>
+<text x="680" y="215" font-size="17" text-anchor="middle" fill="#739eb8" stroke="none">맞음 / 틀림</text>
+</g></svg>

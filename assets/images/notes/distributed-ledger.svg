@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="340" viewBox="0 0 800 340" role="img" aria-labelledby="title desc">
+<title id="title">장부 한 곳을 관리자가 쥐는 구조와 모두가 사본을 갖는 구조</title><desc id="desc">왼쪽은 은행 한 곳이 장부를 갖고 사용자가 모두 그곳을 거치는 구조, 오른쪽은 참여자 모두가 같은 장부 사본을 갖고 거래를 서로 전달하는 분산 원장. 개념 이해를 위한 도식이며 실제 측정값이나 통계가 아닙니다.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 4 L0 8 Z" fill="#739eb8"/></marker></defs>
+<rect width="800" height="340" fill="#ffffff"/>
+<g fill="none" stroke="#253239" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" font-family="Arial, 'Noto Sans', sans-serif">
+<text x="200" y="40" font-size="20" text-anchor="middle" fill="#253239" stroke="none">관리자 한 명</text>
+<line x1="200" y1="175" x2="90" y2="95" stroke="#253239"/><line x1="200" y1="175" x2="310" y2="95" stroke="#253239"/><line x1="200" y1="175" x2="90" y2="255" stroke="#253239"/><line x1="200" y1="175" x2="310" y2="255" stroke="#253239"/>
+<rect x="155" y="140" width="90" height="70" fill="#e8ecee" stroke="#253239"/>
+<line x1="170" y1="162" x2="230" y2="162" stroke="#739eb8"/><line x1="170" y1="176" x2="230" y2="176" stroke="#739eb8"/><line x1="170" y1="190" x2="230" y2="190" stroke="#739eb8"/>
+<text x="200" y="235" font-size="16" text-anchor="middle" fill="#253239" stroke="none">은행 장부</text>
+<circle cx="90" cy="95" r="18" fill="white" stroke="#253239"/><circle cx="310" cy="95" r="18" fill="white" stroke="#253239"/><circle cx="90" cy="255" r="18" fill="white" stroke="#253239"/><circle cx="310" cy="255" r="18" fill="white" stroke="#253239"/>
+<text x="200" y="315" font-size="17" text-anchor="middle" fill="#253239" stroke="none">모두가 한 곳을 거침</text>
+<line x1="400" y1="30" x2="400" y2="310" stroke="#e8ecee" stroke-width="2"/>
+<text x="600" y="40" font-size="20" text-anchor="middle" fill="#253239" stroke="none">분산 원장</text>
+<g stroke="#253239">
+<line x1="600" y1="85" x2="700" y2="160"/><line x1="700" y1="160" x2="660" y2="265"/><line x1="660" y1="265" x2="540" y2="265"/><line x1="540" y1="265" x2="500" y2="160"/><line x1="500" y1="160" x2="600" y2="85"/>
+<line x1="600" y1="85" x2="660" y2="265"/><line x1="600" y1="85" x2="540" y2="265"/><line x1="500" y1="160" x2="700" y2="160"/><line x1="500" y1="160" x2="660" y2="265"/><line x1="700" y1="160" x2="540" y2="265"/>
+</g>
+<g>
+<rect x="578" y="66" width="44" height="38" fill="white" stroke="#253239"/><line x1="586" y1="78" x2="614" y2="78" stroke="#739eb8"/><line x1="586" y1="86" x2="614" y2="86" stroke="#739eb8"/><line x1="586" y1="94" x2="614" y2="94" stroke="#739eb8"/>
+<rect x="678" y="141" width="44" height="38" fill="white" stroke="#253239"/><line x1="686" y1="153" x2="714" y2="153" stroke="#739eb8"/><line x1="686" y1="161" x2="714" y2="161" stroke="#739eb8"/><line x1="686" y1="169" x2="714" y2="169" stroke="#739eb8"/>
+<rect x="638" y="246" width="44" height="38" fill="white" stroke="#253239"/><line x1="646" y1="258" x2="674" y2="258" stroke="#739eb8"/><line x1="646" y1="266" x2="674" y2="266" stroke="#739eb8"/><line x1="646" y1="274" x2="674" y2="274" stroke="#739eb8"/>
+<rect x="518" y="246" width="44" height="38" fill="white" stroke="#253239"/><line x1="526" y1="258" x2="554" y2="258" stroke="#739eb8"/><line x1="526" y1="266" x2="554" y2="266" stroke="#739eb8"/><line x1="526" y1="274" x2="554" y2="274" stroke="#739eb8"/>
+<rect x="478" y="141" width="44" height="38" fill="white" stroke="#253239"/><line x1="486" y1="153" x2="514" y2="153" stroke="#739eb8"/><line x1="486" y1="161" x2="514" y2="161" stroke="#739eb8"/><line x1="486" y1="169" x2="514" y2="169" stroke="#739eb8"/>
+</g>
+<text x="600" y="315" font-size="17" text-anchor="middle" fill="#253239" stroke="none">모두가 같은 사본을 가짐</text>
+</g></svg>

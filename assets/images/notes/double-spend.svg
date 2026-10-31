@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="340" viewBox="0 0 800 340" role="img" aria-labelledby="title desc">
+<title id="title">복사되는 파일과 순서를 정하는 은행 장부</title><desc id="desc">돈이 파일이면 같은 1만 원을 A와 B에게 두 번 보낼 수 있지만, 은행 장부는 두 번째 송금을 거절한다. 개념 이해를 위한 도식이며 실제 측정값이나 통계가 아닙니다.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 4 L0 8 Z" fill="#739eb8"/></marker></defs>
+<rect width="800" height="340" fill="#ffffff"/>
+<g fill="none" stroke="#253239" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" font-family="Arial, 'Noto Sans', sans-serif">
+<text x="200" y="45" font-size="20" text-anchor="middle" fill="#253239" stroke="none">돈이 파일이라면</text>
+<path d="M60 140 L130 140 L150 160 L150 210 L60 210 Z" fill="white" stroke="#253239"/><path d="M130 140 L130 160 L150 160" stroke="#253239"/>
+<text x="105" y="190" font-size="17" text-anchor="middle" fill="#253239" stroke="none">1만 원</text>
+<path d="M160 160 L285 105" stroke="#739eb8" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M160 190 L285 245" stroke="#739eb8" stroke-width="3" marker-end="url(#arrow)"/>
+<circle cx="320" cy="95" r="26" fill="white" stroke="#253239"/><text x="320" y="101" font-size="18" text-anchor="middle" fill="#253239" stroke="none">A</text>
+<circle cx="320" cy="255" r="26" fill="white" stroke="#253239"/><text x="320" y="261" font-size="18" text-anchor="middle" fill="#253239" stroke="none">B</text>
+<text x="180" y="262" font-size="16" text-anchor="middle" fill="#253239" stroke="none">복사본</text>
+<text x="200" y="320" font-size="17" text-anchor="middle" fill="#253239" stroke="none">같은 돈이 두 번 나감</text>
+<line x1="400" y1="30" x2="400" y2="310" stroke="#e8ecee" stroke-width="2"/>
+<text x="600" y="45" font-size="20" text-anchor="middle" fill="#253239" stroke="none">은행 장부</text>
+<rect x="455" y="75" width="290" height="190" fill="white" stroke="#253239"/>
+<rect x="455" y="75" width="290" height="44" fill="#e8ecee" stroke="#253239"/>
+<text x="600" y="104" font-size="17" text-anchor="middle" fill="#253239" stroke="none">내 잔액 1만 원</text>
+<text x="475" y="163" font-size="17" fill="#253239" stroke="none">① A에게 1만 원</text>
+<text x="725" y="163" font-size="17" text-anchor="end" fill="#739eb8" stroke="none">승인</text>
+<line x1="455" y1="190" x2="745" y2="190" stroke="#e8ecee"/>
+<text x="475" y="230" font-size="17" fill="#253239" stroke="none">② B에게 1만 원</text>
+<text x="725" y="230" font-size="17" text-anchor="end" fill="#253239" stroke="none">거절</text>
+<line x1="680" y1="222" x2="728" y2="222" stroke="#253239"/>
+<text x="600" y="320" font-size="17" text-anchor="middle" fill="#253239" stroke="none">관리자가 순서를 정해 막음</text>
+</g></svg>
